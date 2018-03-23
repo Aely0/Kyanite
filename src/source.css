@@ -152,6 +152,16 @@ body::after,
     border-radius: 0px;
 }
 
+/* Pin notification badge */
+[class*="theme-"] .iconBadge-1FYlQB {
+    border-color: rgb(0, 0, 0);
+}
+.iconBadge-1FYlQB {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #b31818;
+}
+
 /* Status colors */
 .status-online {
     background-color: #0a962f;
