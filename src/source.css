@@ -1,0 +1,667 @@
+@import url(https://rawgit.com/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+
+:root {
+    --main-color: rgba(22, 91, 123, 1);
+    --hover-color: rgba(22, 91, 123, 1);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+/* Title bar */
+#app-mount .titleBar-3_fDwJ {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    padding-top: 5px;
+    margin: 0px !important;
+}
+
+/* Background */
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash {
+    background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/background.jpg") !important;
+}
+
+/* Options menu */
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller
+[class*="item"]:nth-child(2)::after {
+    background: none;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(3)::after,
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller
+[class*="item"]:nth-child(5)::after {
+    background: none;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after,
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller
+[class*="item"]:nth-child(13)::after {
+    background: none;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(5)::after,
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller
+[class*="item"]:nth-child(8)::after {
+    background: none;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:last-child::after {
+    background: none;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"],
+#bd-settings-sidebar .ui-tab-bar-item {
+    padding-left: 20px;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"],
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    background-color: var(--main-color) !important;
+    color: #fff!important;
+}
+.ui-standard-sidebar-view .sidebar-region [class*="scroller-"] {
+    margin: 0 0;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+.theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Server Emote menu */
+.theme-dark .description-3MVziF, .theme-dark .labelDescriptor-1BebCl {
+    color: #72767d;
+    padding-left: 10px;
+}
+.emoji-row .emoji-image {
+    margin-left: 10px !important;
+}
+
+/* Options Menu Descriptions */
+.theme-dark .description-3MVziF, .theme-dark .labelDescriptor-1BebCl {
+    padding-left: 0px;
+}
+
+/* Keybinds Menu */
+.keybindGroup-37VaRm {
+    margin-top: -1px;
+    padding: 20px;
+    position: relative;
+}
+.theme-dark .card-11ynQk:before {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: #2b2e32;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.theme-dark .button-1qrA-N:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.theme-dark .button-1qrA-N {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Games Menu */
+.theme-dark .user-settings-games .game {
+    padding: 20px;
+}
+
+/* Server Invites Menu */
+.invite-settings-invite-row .td {
+    padding: 10px;
+}
+
+/* Server Ban Menu */
+.theme-dark .guild-settings-banned-user {
+    padding: 10px;
+}
+
+/* Server Options Menu (Members) */
+.theme-dark .guild-settings-members-member {
+    padding: 10px 0px 15px 15px;
+}
+
+/* Message timestamp */
+.chat>.content .messages .message-group h2 span.timestamp {
+    color: hsla(0,0%,100%,0.4)!important;
+}
+.chat>.content .messages .message-group:hover h2 span.timestamp {
+    color: hsla(0,0%,100%,0.8)!important;
+}
+
+/* Member list seperate role titles */
+.channel-members h2 {
+    color: rgba(58, 134, 214, 0.8) !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 190px;
+    margin-left: 15px;
+    text-align: center;
+}
+/* New unreads bar */
+.container-2SvV0F {
+    padding: 0px;
+}
+.bar-Y-RLyN {
+    border-radius: 0px;
+}
+
+/* Status colors */
+.status-online {
+    background-color: #0a962f;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusOnline-3Io--E {
+    border-color: #000000;
+}
+.statusOnline-1Mp2_H {
+    background-color: #0a962f;
+}
+.statusOnlineProfile-2tnPUH {
+    box-shadow: inset 0 0 0 2px #0a962f;
+}
+
+.status-idle {
+    background-color: #e0910d;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusIdle-3ADLtR {
+    border-color: rgba(0, 0, 0, 1);
+}
+.statusIdle-2AQdvu {
+    background-color: #e0910d;
+}
+.statusIdleProfile-2QT8cN {
+    box-shadow: inset 0 0 0 2px #e0910d;
+}
+
+.status-dnd {
+    background-color: #b31818;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusDnd-31uU1Q {
+    border-color: rgba(0, 0, 0, 1);
+}
+.statusDnd-35xAXU {
+    background-color: #b31818;
+}
+.statusDndProfile-3KCGdy {
+    box-shadow: inset 0 0 0 2px #b31818;
+}
+
+.status-invisible {
+    background-color: #909090;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusInvisible-135znp{
+    border-color: rgba(0, 0, 0, 1);
+}
+.statusInvisible-2ci18Q {
+    background-color: #909090;
+}
+.statusInvisibleProfile-LRuFr_ {
+    box-shadow: inset 0 0 0 2px #909090;
+}
+
+.status-offline {
+    background-color: #909090;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusOffline-3tuNny {
+    border-color: rgba(0, 0, 0, 1);
+}
+.statusOffline-jZXr_u {
+    background-color: #909090;
+}
+.statusOfflineProfile-1wnfgz {
+    box-shadow: inset 0 0 0 2px #909090;
+}
+
+.status-streaming {
+    background-color: #6b26e2;
+    box-shadow: 0 0 3px #000000, 0 0 5px rgba(0, 0, 0, 1);
+}
+.header-3mZJcV .avatarStatusStreaming-3lGjGk {
+    border-color: rgba(0, 0, 0, 1);
+}
+
+/* Mention self */
+.chat>.content .messages .message-group .mentioned .markup .mention {
+    color: rgba(36, 173, 236, 1) !important;
+}
+.message-group .mentioned .message-text {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.message-group .mentioned .message-text::after {
+    background: rgba(0, 0, 0, 0.5);
+    border-left: 4px solid rgba(36, 173, 236, 1);
+}
+
+/* Mention others */
+.mention {
+	color: rgba(36, 173, 236, 1) !important;
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+/* Nitro tag */
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after {
+    visibility: hidden;
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
+.avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
+    visibility: hidden;
+    margin-left: -34px;
+}
+
+/* Bot tag */
+.botTagRegular-288-ZL, .botTag-1OwMgs {
+    background: var(--main-color);
+    color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
+/* Channel and category names */
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
+    color: rgba(255, 255, 255, 0.6);
+}
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Message text */
+.theme-dark .message-group .comment .markup {
+    color: hsla(0, 0%, 100%, 0.8);
+    /* margin-top: 0px !important; */
+}
+.chat > .content .messages .message-group .markup {
+    line-height: 1.5em;
+}
+
+/* Message links */
+.chat > .content .messages .message-group a, .theme-dark .chat>.content .messages .message-group a code.inline {
+    color: rgb(58, 134, 214) !important;
+}
+
+/* Typing notification */
+.typing .text {
+    font-size: 0.8rem;
+}
+
+/* Channels list */
+.scroller-NXV0-d {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.scroller-fzNley {
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+/* Channel list header */
+.header-1tSljs:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.header-1tSljs {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.private-channels .search-bar {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Selected private DM channel */
+.private-channels .channel.selected a {
+    background-color: rgba(20, 76, 103, 0.4);
+}
+
+/* Listen Along bar */
+.listeningAlong-13-Udx {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 0px;
+}
+
+/* Channel list bottom bar */
+.container-iksrDt {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    background: rgba(0, 0, 0, 0); 
+    margin-bottom: 0px;
+}
+
+/* Voice connection bar */
+.container-3lnMWU {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Voice name color */
+.nameDefault-1I0lx8 {
+    color: #b5b7b9;
+}
+
+/* Discriminator */
+.accountDetails-15i-_e .discriminator {
+    margin-top: 0px;
+    padding: 0;
+}
+.discriminator {
+    opacity: 0.6;
+    margin-left: 0px !important;
+}
+
+/* Message options button */
+.message-group .btn-option {
+    background-image: url(https://discordapp.com/assets/d260979c53d0cb8e8a1f6e88e34f0056.svg) !important;
+    transition: none;
+}
+.message-group .btn-option:hover {
+    animation: none; 
+}
+
+/* Friends online bar */
+.guilds-wrapper .guilds .friends-online {
+    border-radius: 4px;
+}
+
+/* Guilds bar */
+.guilds-wrapper .guilds {
+	background-color: rgba(0, 0, 0, 0.4)
+}
+
+/* Guild avatars */
+.guilds-wrapper .guilds .guild .guild-inner a {
+    border-radius: 25px;
+}
+
+/* Left + Right */
+DIV[class*="channels"][class*="vertical"], DIV[class*="scroller"].channel-members {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Middle + Right*/
+DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Header */
+DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Message bar with no permissions to type */
+.theme-dark .inner-3if5cm {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* New messages bar */
+.chat .divider.divider-red > span::before {
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.chat .divider.divider-red > span {
+    background: transparent!important;
+    color: rgba(36, 173, 236, 1) !important;
+}
+
+/* Message day seperator bar */
+.chat .divider > span {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Disable blocked messages bar */
+.message-group-blocked {
+    display: none !important;    
+}
+
+/* Status game text */
+.channel-members .member .member-activity strong {
+    color: #0392fb;
+    font-weight: 700;
+}
+[class*="activity-"]:not(.member-activity-text) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Profile popout */
+.activity-3NviKQ {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.headerTop-27AvhA {
+    background: rgba(0, 0, 0, 0.6);
+}
+.header-2Lg0Oe {
+    background: rgba(0, 0, 0, 0.4);
+}
+.userPopout-4pfA0d .headerNormal-1cioxU {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+.userPopout-4pfA0d .body-3rkFrF {
+    background: rgba(0, 0, 0, 0.8);
+}
+.userPopout-4pfA0d .footer-2J5zqP {
+    background: rgba(0, 0, 0, 0.8);
+}
+.theme-dark .quickMessage-OCo-Q0 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Embeds */
+.message-group .embed .embed-author-name,
+.theme-dark .message-group .embed .embed-author-name {
+    color: rgba(255, 255, 255, 1) !important;
+}
+.theme-dark .message-group .embed {
+	padding-left: 0px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+.message-group .embed .markup {
+    margin-top: 0px!important;
+}
+.theme-dark .embedInner-t4ag7g {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.6);
+}
+.message-group .embed-wrapper .embed-color-pill[style*="background-color"],
+.theme-dark .message-group .embed-wrapper
+.embed-color-pill[style*="background-color"] {
+    opacity: 1;
+}
+.embed-wrapper .embed-color-pill {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+.embed-wrapper .embed-color-pill {
+    border-radius: 3px 0px 0px 3px !important;
+}
+.theme-dark [class*="footer-"] {
+    border-top: 0px;
+}
+
+/* Selected/Mouse over channel colors */
+.theme-dark .contentSelectedText-3j5CXt,
+.theme-dark .contentSelectedVoice-gTtYM9,
+.theme-dark .contentHoveredText-2HYGIY,
+.theme-dark .contentHoveredVoice-3qGNKh:active,
+.theme-dark .contentSelectedVoice-gTtYM9:active,
+.theme-dark .userHovered-3tfm93:active,
+.theme-dark .channel-members .member.popout-open,
+.theme-dark .channel-members .member:hover {
+    background-color: rgba(22, 91, 123, 0.3) !important;
+}
+
+/* Code blocks */
+code {
+    font-size: 12px !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+.theme-dark .message-group .comment .markup pre {
+    font-size: 0.75rem;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(22, 91, 123, 0.5) !important;
+}
+.theme-dark .markup .hljs[class~="java"]::before,
+.theme-dark .markup .hljs[class~="sql"]::before,
+.theme-dark .markup .hljs[class~="ruby"]::before,
+.theme-dark .markup .hljs[class~="coffee"]::before,
+.theme-dark .markup .hljs[class~="xl"]::before,
+.theme-dark .markup .hljs[class~="py"]::before,
+.theme-dark .markup .hljs[class~="python"]::before,
+.theme-dark .markup .hljs[class~="html"]::before,
+.theme-dark .markup .hljs[class~="md"]::before,
+.theme-dark .markup .hljs[class~="markdown"]::before,
+.theme-dark .markup .hljs[class~="bash"]::before,
+.theme-dark .markup .hljs[class~="js"]::before,
+.theme-dark .markup .hljs[class~="javascript"]:before,
+.theme-dark .markup .hljs[class~="css"]::before,
+.theme-dark .markup .hljs[class~="vb"]::before,
+.theme-dark .markup .hljs[class~="visualbasic"]::before,
+.theme-dark .markup .hljs[class~="lua"]::before,
+.theme-dark .markup .hljs[class~="php"]::before,
+.theme-dark .markup .hljs[class~="swift"]::before,
+.theme-dark .markup .hljs[class~="makefile"]::before,
+.theme-dark .markup .hljs[class~="go"]::before,
+.theme-dark .markup .hljs[class~="ini"]::before,
+.theme-dark .markup .hljs[class~="rust"]::before,
+.theme-dark .markup .hljs[class~="prolog"]::before,
+.theme-dark .markup .hljs[class~="ts"]::before,
+.theme-dark .markup .hljs[class~="typescript"]::before,
+.theme-dark .markup .hljs[class~="http"]::before,
+.theme-dark .markup .hljs[class~="json"]::before,
+.theme-dark .markup .hljs[class~="xml"]::before,
+.theme-dark .markup .hljs[class~="less"]::before,
+.theme-dark .markup .hljs[class~="elixir"]::before {
+    width: 101.8%;
+    height: 15px;
+    position: relative;
+    display: -webkit-box;
+    margin-top: -6px;
+    margin-bottom: 3px;
+    margin-left: -6px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 0px;
+    line-height: 15px !important;
+}
+.theme-dark .markup .hljs[class~="js"]::before,
+.theme-dark .markup .hljs[class~="javascript"]::before{
+    content: " Javascript";
+    background: rgba(22, 94, 171, 0.3);
+}
+.theme-dark .markup .hljs[class~="css"]::before{
+    content: " Cascading Style Sheet";
+    background: rgba(171, 111, 22, 0.3);
+}
+.theme-dark .markup .hljs[class~="bash"]::before{
+    content: " Bash";
+    background: rgba(171, 22, 99, 0.3);
+}
+.theme-dark .markup .hljs[class~="markdown"]::before,
+.theme-dark .markup .hljs[class~="md"]::before{
+    content: " Markdown";
+    background: rgba(171, 46, 22, 0.3);
+}
+.theme-dark .markup .hljs[class~="html"]::before{
+    content: " HTML";
+    background: rgba(22, 171, 111, 0.3);
+}
+.theme-dark .markup .hljs[class~="xl"]::before{
+    content: " eXtensible Language";
+    background: rgba(72, 114, 168, 0.3);
+}
+.theme-dark .markup .hljs[class~="coffee"]::before{
+    content: " Coffee (Javascript)";
+    background: rgba(58, 27, 27, 0.3);
+}
+.theme-dark .markup .hljs[class~="ruby"]::before{
+    content: " Ruby";
+    background: rgba(231, 62, 62, 0.3);
+}
+.theme-dark .markup .hljs[class~="sql"]::before{
+    content: " SQL";
+    background: rgba(68, 116, 202, 0.3);
+}
+.theme-dark .markup .hljs[class~="java"]::before{
+    content: " Java";
+    background: rgba(235, 45, 47, 0.3);
+}
+.theme-dark .markup .hljs[class~="py"]::before,
+.theme-dark .markup .hljs[class~="python"]::before{
+    content: " Python";
+    background: rgba(22, 34, 171, 0.3);
+}
+.theme-dark .markup .hljs[class~="vb"]::before,
+.theme-dark .markup .hljs[class~="visualbasic"]::before{
+    content: " Visual Basic";
+    background: rgba(131, 151, 0, 0.3);
+}
+.theme-dark .markup .hljs[class~="lua"]::before{
+    content: " Lua";
+    background: rgba(46, 204, 113, 0.3);
+}
+.theme-dark .markup .hljs[class~="php"]::before{
+    content: " Php";
+    background: rgba(110, 129, 182, 0.3);
+}
+.theme-dark .markup .hljs[class~="swift"]::before{
+    content: " Swift";
+    background: rgba(253, 120, 55, 0.3);
+}
+.theme-dark .markup .hljs[class~="makefile"]::before{
+    content: " Makefile";
+    background: rgba(138, 43, 15, 0.3);
+}
+.theme-dark .markup .hljs[class~="go"]::before{
+    content: " Go";
+    background: rgba(117, 206, 222, 0.3);
+}
+.theme-dark .markup .hljs[class~="ini"]::before{
+    content: " ini";
+    background: rgba(90, 117, 192, 0.3);
+}
+.theme-dark .markup .hljs[class~="rust"]::before{
+    content: " Rust";
+    background: rgba(0, 0, 0, 0.3);
+}
+.theme-dark .markup .hljs[class~="prolog"]::before{
+    content: " Prolog";
+    background: rgba(239, 77, 37, 0.3);
+}
+.theme-dark .markup .hljs[class~="ts"]::before,
+.theme-dark .markup .hljs[class~="typescript"]::before{
+    content: " TypeScript";
+    background: rgba(3, 50, 76, 0.3);
+}
+.theme-dark .markup .hljs[class~="http"]::before{
+    content: " HTTP";
+    background: rgba(97, 143, 16, 0.3);
+}
+.theme-dark .markup .hljs[class~="json"]::before{
+    content: " Json";
+    background: rgba(16, 143, 102, 0.3);
+}
+.theme-dark .markup .hljs[class~="xml"]::before{
+    content: " XML";
+    background: rgba(132, 68, 175, 0.3);
+}
+.theme-dark .markup .hljs[class~="less"]::before{
+    content: " Less";
+    background: rgba(29, 54, 93, 0.3);
+}
+.theme-dark .markup .hljs[class~="elixir"]::before{
+    content: " Elixir";
+    background: rgba(38, 9, 63, 0.6);
+}

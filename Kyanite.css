@@ -1,0 +1,21 @@
+/* Kyanite Discord theme by Andris0 */
+/* Mod to Zerthox's ClearVision Sapphire */
+/* Slight modifications for a minimalistic, clean look */
+
+/* Pulling source from Andris0/Kyanite for the latest version */
+@import url(https://rawgithub.com/Andris0/Kyanite/master/src/source.css);
+
+/* Tweakable adjustments */
+:root {
+    --main-color: rgba(22, 91, 123, 1);
+    --hover-color: rgba(22, 91, 123, 1);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+/* Main background image */
+body::after, .callout-backdrop, .user-popout::before,
+#user-profile-modal .header::before, #pubs-container::before,
+.auth-background, .auth-tiling-bg, .invite-modal .invite-splash {
+    background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/background.jpg") !important;
+}
