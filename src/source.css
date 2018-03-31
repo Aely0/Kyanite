@@ -130,7 +130,7 @@ body::after,
 
 /* Member list seperate role titles */
 .channel-members h2 {
-    color: rgba(58, 134, 214, 0.8) !important;
+    color: var(--main-color) !important;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .08em;
@@ -160,6 +160,31 @@ body::after,
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: #b31818;
+}
+
+/* Member list hover */
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: rgba(22, 91, 123, 0.2);
+}
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+    background-color: rgba(22, 91, 123, 0.5);
+}
+
+/* Member picture (member list) */
+.mask-2vyqAW {
+    -webkit-mask: none !important;
+}
+
+/* Member status dot (member list) */
+.status-2Devx1 {
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50px;
+    bottom: -3px;
+    height: 10px;
+    right: -3px;
+    width: 10px;
 }
 
 /* Status colors */
@@ -432,7 +457,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 /* Status game text */
-.channel-members .member .member-activity strong {
+.activity-1PAe08 strong {
     color: #0392fb;
     font-weight: 700;
 }
@@ -442,10 +467,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 /* Profile popout */
 .activity-3NviKQ {
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .headerTop-27AvhA {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.9);
 }
 .header-2Lg0Oe {
     background: rgba(0, 0, 0, 0.4);
@@ -461,6 +486,14 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 .theme-dark .quickMessage-OCo-Q0 {
     background-color: rgba(0, 0, 0, 0);
+}
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
+    background: rgba(0, 0, 0, 0.9);
+    padding-bottom: 10px;
+    border-bottom: 0px;
+}
+[class*="userPopout-"] [class*="footer-"] {
+    background: rgba(0, 0, 0, 0.9);
 }
 
 /* Embeds */
