@@ -1,8 +1,7 @@
-# Kyanite
-Mod to [Zerthox's ClearVision Sapphire](https://github.com/Zerthox/ClearVision#clearvision---sapphire).  
+# Kyanite  
 Ment to be used with [leovoel's BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord).
 
-- [Download Kyanite](https://github.com/Andris0/Kyanite/releases/download/v1.0.0/Kyanite.css)
+- [Download Kyanite](https://github.com/Andris0/Kyanite/releases/download/v1.1.0/Kyanite.css)
 
 # Previews
 ![General](https://i.imgur.com/LLbqx7v.png)
