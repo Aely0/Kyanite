@@ -53,9 +53,13 @@ body::after,
 #bd-settings-sidebar .ui-tab-bar-item {
     padding-left: 20px;
 }
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover,
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+    background-color: rgba(22, 91, 123, 0.2) !important;
+}
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"],
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background-color: var(--main-color) !important;
+    background-color: rgba(22, 91, 123, 0.5) !important;
     color: #fff!important;
 }
 .ui-standard-sidebar-view .sidebar-region [class*="scroller-"] {
