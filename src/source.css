@@ -8048,7 +8048,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     background: hsla(0, 0%, 100%, .04) !important;
 }
 
-/* Inveite */
+/* Invite */
 .invite-modal .scroller {
     background: rgba(0, 0, 0, 0.5);
 }
@@ -8382,6 +8382,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Member status dot (member list) */
+.private-channels .channel.selected .status,
+.private-channels .status,
+.container-iksrDt .status,
 .theme-dark .status-2Devx1,
 .status-2Devx1 {
     background-clip: padding-box;
@@ -8566,11 +8569,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     background-color: rgba(0, 0, 0, 0.6) !important;
     background: rgba(0, 0, 0, 0); 
     margin-bottom: 0px;
-}
-
-/* Bottom self profile status */
-.container-iksrDt .status {
-    border: 1px solid rgba(0, 0, 0, 0) !important;
 }
 
 /* Voice connection bar */
