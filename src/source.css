@@ -162,12 +162,14 @@ body::after,
     background-color: #b31818;
 }
 
-/* Member list hover */
-.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+/* Member list, private channel hover + selected */
+.theme-dark .member-2FrNV0:hover .content-3JzEqq,
+.private-channels .channel:hover a {
     background-color: rgba(22, 91, 123, 0.2);
 }
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
-.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq,
+.private-channels .channel.selected a {
     background-color: rgba(22, 91, 123, 0.5);
 }
 
@@ -177,6 +179,7 @@ body::after,
 }
 
 /* Member status dot (member list) */
+.theme-dark .status-2Devx1,
 .status-2Devx1 {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.5) !important;
@@ -355,11 +358,6 @@ body::after,
 	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Selected private DM channel */
-.private-channels .channel.selected a {
-    background-color: rgba(20, 76, 103, 0.4);
-}
-
 /* Listen Along bar */
 .listeningAlong-13-Udx {
     background-color: rgba(0, 0, 0, 0.6) !important;
@@ -457,7 +455,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 /* Status game text */
-.activity-1PAe08 strong {
+.activity-1PAe08 strong,
+.private-channels .channel .channel-activity strong {
     color: #0392fb;
     font-weight: 700;
 }
