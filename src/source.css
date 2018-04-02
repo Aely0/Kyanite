@@ -163,10 +163,6 @@ background: rgba(0, 0, 0, 0.7) !Important;
 background-color: rgba(0, 0, 0, .5) !Important;
 }
 
-[class*="modal"][class*="modal"][class*="size"], [class*="need-help-modal"] .form-inner, [class*="modal"] [class*="customWidth"] {
-background-color: rgba(0, 0, 0, .6) !important;
-}
-
 input {
 border-width: 2px !Important;
 }
@@ -5092,6 +5088,18 @@ ul.bda-slist {
     opacity: .7;
 }
 
+/* Reacted Users */
+.theme-dark .container-a2vS7i {
+    border: 1px solid var(--main-color);
+}
+.theme-dark .container-a2vS7i,
+.theme-dark .reactors-2PjMP0 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.theme-dark .sidebar-32BRdp {
+    background: rgba(0, 0, 0, 0.2);
+}
+
 /* Tooltip */
 .tooltip,
 .tooltip.tooltip-error {
@@ -8074,6 +8082,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .invite-button .invite-button-body {
     color: hsla(0, 0%, 100%, .5);
+}
+
+/* Invite message */
+.theme-dark .wrapper-uAa07y {
+    background: rgba(0, 0, 0, 0);
+    border-color: var(--main-color);
 }
 
 /* CSS syntax highlighting */
