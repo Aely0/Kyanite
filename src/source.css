@@ -8323,6 +8323,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     padding: 10px 0px 15px 15px;
 }
 
+/* Message option popout box */
+.small-popout-box {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
 /* Message timestamp */
 .chat>.content .messages .message-group h2 span.timestamp {
     color: hsla(0,0%,100%,0.4)!important;
