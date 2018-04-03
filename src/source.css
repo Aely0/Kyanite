@@ -700,7 +700,12 @@ color: #f04747 !important;
 }
 
 .emojiPicker-3g68GS {
-background: rgba(0, 0, 0, 0.6);
+background: rgba(0, 0, 0, 0.2);
+border: 1px solid var(--main-color);
+}
+
+.emojiPicker-3g68GS .search-bar {
+    background: rgba(0, 0, 0, 0) !important;
 }
 
 .stickyHeader-3LjM5X {
