@@ -8579,6 +8579,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+/* Channel description box */
+.theme-dark .modal-3HOjGZ {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--main-color);
+}
+
 /* Listen Along bar */
 .listeningAlong-13-Udx {
     background-color: rgba(0, 0, 0, 0.6) !important;
