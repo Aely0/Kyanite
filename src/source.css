@@ -8697,7 +8697,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 /* Profile popout */
-.popout.popout-left.no-arrow {
+.popout.popout-left.no-arrow,
+.popout.popout-right.no-arrow {
     border: 1px solid var(--main-color);
     border-radius: 5px;
 }
