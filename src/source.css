@@ -8548,20 +8548,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Category name box */
 .membersGroup-3_dP5E {
-    font-size: 12px;
+    color: var(--main-color) !important;
     font-weight: 700;
     height: 25px;
-    letter-spacing: .08em;
-    line-height: 20px;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 8px;
     padding-top: 2px;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    white-space: nowrap;
     text-align: center;
-    color: var(--main-color);
     background-color: rgba(0, 0, 0, 0.4);
     margin-top: 20px;
     margin-bottom: 10px;
