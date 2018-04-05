@@ -8357,6 +8357,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     color: hsla(0,0%,100%,0.8)!important;
 }
 
+/* Member list */
+.theme-dark .members-1bid1J {
+    background-color: transparent;
+}
+.member-2FrNV0 {
+    padding-left: 12px;
+}
+
 /* Member list seperate role titles */
 .channel-members h2 {
     color: var(--main-color) !important;
@@ -8538,6 +8546,29 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     color: hsla(0, 0%, 100%, 0.8) !important;
 }
 
+/* Category name box */
+.membersGroup-3_dP5E {
+    font-size: 12px;
+    font-weight: 700;
+    height: 25px;
+    letter-spacing: .08em;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 8px;
+    padding-top: 2px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    color: var(--main-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
 /* Channel and category names */
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
     color: rgba(255, 255, 255, 0.6);
@@ -8563,6 +8594,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Typing notification */
 .typing .text {
     font-size: 0.8rem;
+}
+.inner-3X2_kk {
+    display: none
 }
 
 /* Channels list */
