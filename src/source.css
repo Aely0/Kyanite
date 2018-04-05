@@ -8720,6 +8720,12 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     color: #0392fb;
     font-weight: 700;
 }
+.activityText-258pdj {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
 [class*="activity-"]:not(.member-activity-text) {
     background-color: rgba(0, 0, 0, 0);
 }
