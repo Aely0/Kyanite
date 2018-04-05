@@ -8814,6 +8814,31 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(22, 91, 123, 0.3) !important;
 }
 
+/* Help box */
+.form-deprecated .form-inner,
+.form.deprecated .form-inner,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background: rgba(0, 0, 0, 0.8);
+}
+[class*="need-help-modal"] .header.control-group {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+#help-query {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid var(--main-color) !important;
+    border-radius: 5px;
+}
+.need-help-modal.deprecated {
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+.need-help-modal.deprecated .header h1 {
+    color: var(--main-color);
+    font-size: 21px;
+    font-weight: 700;
+    margin: 35px 0 0;
+}
+
 /* Code blocks */
 code {
     font-size: 12px !important;
