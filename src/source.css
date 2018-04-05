@@ -8765,6 +8765,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 [class*="userPopout-"] [class*="footer-"] {
     background: rgba(0, 0, 0, 0.9);
 }
+.role-3rahR_ {
+    border: 2px solid;
+    border-radius: 4px;
+}
 
 /* Embeds */
 .message-group .embed .embed-author-name,
