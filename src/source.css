@@ -3361,9 +3361,7 @@ div#bd-pub-button:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .guilds-wrapper .guilds .guild .guild-inner {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: transparent !important;
     -webkit-transition: transform .1s ease-in-out;
     transition: transform .1s ease-in-out;
 }
@@ -8546,7 +8544,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     color: hsla(0, 0%, 100%, 0.8) !important;
 }
 
-/* Category name box */
+/* Role name box */
 .membersGroup-3_dP5E {
     color: var(--main-color) !important;
     font-weight: 700;
@@ -8669,7 +8667,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Guild avatars */
 .guilds-wrapper .guilds .guild .guild-inner a {
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
 /* Left + Right */
