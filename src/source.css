@@ -704,6 +704,11 @@ background: rgba(0, 0, 0, 0.2);
 border: 1px solid var(--main-color);
 }
 
+.emojiPicker-3g68GS .header-27dQ-e {
+    background: rgba(0, 0, 0, 0.35);
+    border-bottom: none;
+}
+
 .emojiPicker-3g68GS .search-bar {
     background: rgba(0, 0, 0, 0) !important;
 }
