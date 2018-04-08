@@ -8367,6 +8367,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .member-2FrNV0 {
     padding-left: 12px;
 }
+.memberInner-3XUq9K {
+    width: 150px;
+}
 
 /* Member list seperate role titles */
 .channel-members h2 {
@@ -8724,7 +8727,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 150px;
 }
 [class*="activity-"]:not(.member-activity-text) {
     background-color: rgba(0, 0, 0, 0);
