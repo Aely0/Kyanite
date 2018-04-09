@@ -8344,6 +8344,32 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .guild-settings-members-member {
     padding: 10px 0px 15px 15px;
 }
+/* Join server menu */
+.form-deprecated .form-actions, .form.deprecated .form-actions {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid var(--main-color);
+}
+.form-deprecated .btn-default, .form.deprecated .btn-default {
+    background-color: var(--main-color);
+    border-bottom: none;
+}
+.create-guild-container.deprecated .form-actions .btn-default {
+    color: #ffffff;
+    font-weight: 600;
+}
+.form-deprecated .btn-default:hover, .form.deprecated .btn-default:hover {
+    border-bottom: none;
+}
+.create-guild-container.deprecated .form.deprecated {
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+}
+.create-guild-container.deprecated .join-server .link-container input {
+    border: 1px solid var(--main-color);
+}
+.create-guild-container.deprecated .join-server .link-container label {
+    text-align: center;
+}
 
 /* Message option popout box */
 .small-popout-box {
