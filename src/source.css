@@ -7147,14 +7147,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .avatar-uploader-hint {
     visibility: visible !important;
     border-radius: 50%;
-    opacity: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    opacity: 1;
     -webkit-box-shadow: inset 0 0 70px rgba(0, 0, 0, .75);
     box-shadow: inset 0 0 70px rgba(0, 0, 0, .75);
-}
-.avatar-uploader-inner:hover .avatar-uploader-hint {
-    opacity: 1;
 }
 .ui-slider .slider-bar {
     background: hsla(0, 0%, 100%, .1) !important;
@@ -8344,7 +8339,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .guild-settings-members-member {
     padding: 10px 0px 15px 15px;
 }
-/* Join server menu */
+
+/* Server join menu */
 .form-deprecated .form-actions, .form.deprecated .form-actions {
     background-color: rgba(0, 0, 0, 0.8);
     border-top: 1px solid var(--main-color);
@@ -8369,6 +8365,47 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .create-guild-container.deprecated .join-server .link-container label {
     text-align: center;
+}
+.create-guild-container.deprecated .join-server h5 {
+    color: var(--main-color);
+}
+
+/* Server create menu */
+.create-guild-container.deprecated h5 {
+    color: var(--main-color);
+}
+.avatar-uploader-inner>* {
+    border: 1px solid var(--main-color);
+    border-radius: 70px;
+}
+.regionSelect-1lpijo button,
+.regionSelect-1lpijo .regionSelectInner-1cIYbU {
+    border: 0px;
+}
+.regionSelect-1lpijo {
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+}
+.regionSelect-1lpijo button {
+    color: var(--main-color);
+    font-weight: 700;
+}
+.regionSelect-1lpijo:hover button {
+    background-color: var(--main-color);
+}
+.regionSelectModal-QBpi1R {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--main-color);
+}
+.regionSelectModal-QBpi1R .regionSelectModalOptions-BVkQu9 {
+    padding-left: 60px;
+}
+.regionSelectModal-QBpi1R .regionSelectModalOption-3giLPN {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+}
+.form.deprecated .control-group input[type=text] {
+    border-bottom: 1px solid var(--main-color);
 }
 
 /* Message option popout box */
