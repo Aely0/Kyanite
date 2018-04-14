@@ -6476,6 +6476,15 @@ img:not(.emote):not(.emoji)::after {
     background: rgba(100, 100, 100, .7);
 }
 
+/* Search popout menu */
+.theme-dark .searchPopout-38pRYh {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--main-color);
+}
+.theme-dark .searchQuery-3o17HL.selected-_bTXUG {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* NSFW confirmation */
 .ui-guild-nsfw .image {
     display: none;
