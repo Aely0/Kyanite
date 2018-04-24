@@ -8344,6 +8344,20 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     padding: 10px;
 }
 
+/* Server Options Menu (Popup) */
+.theme-dark .menu-3BZuDT {
+    background: rgba(0, 0, 0, 0.8);
+}
+.theme-dark .item-rK1j5B:hover {
+    background-color: var(--main-color);
+}
+
+/* Server Options Menu (Save Changes) */
+.theme-dark .elevationHigh-3XXATs {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid var(--main-color);
+}
+
 /* Server Options Menu (Members) */
 .theme-dark .guild-settings-members-member {
     padding: 10px 0px 15px 15px;
