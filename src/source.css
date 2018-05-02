@@ -8542,26 +8542,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     background-color: #b31818;
 }
 
-/* Member list, private channel hover + selected */
-.theme-dark .member-3W1lQa:hover .content-OzHfo4,
-.private-channels .channel:hover a,
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO,
-.theme-dark .member-3W1lQa:hover .content-OzHfo4,
-.theme-dark .item-1GzJrl:hover,
-.header-2o-2hj:hover {
-    background-color: rgba(22, 91, 123, 0.2);
-}
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
-.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
-.private-channels .channel.selected a,
-.contentSelectedText-3wUhMi,
-.contentSelectedVoice-1WDIBM,
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
-.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-    background-color: rgba(22, 91, 123, 0.5);
-}
-
 /* Member picture (member list) */
 .mask-3OgeRz {
     -webkit-mask: none !important;
@@ -8970,17 +8950,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     border-top: 0px;
 }
 
-/* Selected/Mouse over channel colors */
-.theme-dark .contentSelectedText-3wUhMi,
-.theme-dark .contentSelectedVoice-1WDIBM,
-.theme-dark .contentHoveredText-2D9B-x,
-.theme-dark .contentHoveredVoice-3p_NEO:active,
-.theme-dark .contentSelectedVoice-1WDIBM:active,
-.theme-dark .userHovered-2_fT4Z:active,
-.theme-dark .channel-members .member.popout-open,
-.theme-dark .channel-members .member:hover {
-    background-color: rgba(22, 91, 123, 0.3) !important;
-}
+
 
 /* Help box */
 .form-deprecated .form-inner,
@@ -9105,6 +9075,26 @@ DIV[class*="scroller"].channel-members {
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Selected/Mouse over channel colors */
+.private-channels .channel:hover a,
+.private-channels .channel.selected a,
+.theme-dark .item-1GzJrl:hover,
+.header-2o-2hj:hover,
+.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa:hover .content-OzHfo4,
+.theme-dark .contentSelectedText-3wUhMi,
+.theme-dark .contentHoveredText-2D9B-x,
+.theme-dark .contentSelectedVoice-1WDIBM,
+.theme-dark .contentSelectedVoice-1WDIBM:active,
+.theme-dark .contentHoveredVoice-3p_NEO,
+.theme-dark .contentHoveredVoice-3p_NEO:active,
+.theme-dark .userHovered-2_fT4Z:active,
+.theme-dark .channel-members .member.popout-open,
+.theme-dark .channel-members .member:hover {
+    background-color: rgba(22, 91, 123, 0.3) !important;
 }
 
 /* Code blocks */
