@@ -1,7 +1,7 @@
 /* Root variables (reused theme accents) */
 :root {
     --main-color: rgba(22, 91, 123, 1);
-    --hover-color: rgba(22, 91, 123, 1);
+    --hover-color: rgba(22, 91, 123, 0.3);
     --background-blur: 0px;
     --background-brightness: 100%;
 }
@@ -9094,7 +9094,7 @@ DIV[class*="scroller"].channel-members {
 .theme-dark .userHovered-2_fT4Z:active,
 .theme-dark .channel-members .member.popout-open,
 .theme-dark .channel-members .member:hover {
-    background-color: rgba(22, 91, 123, 0.3) !important;
+    background-color: var(--hover-color) !important;
 }
 
 /* Code blocks */
