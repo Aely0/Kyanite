@@ -2072,9 +2072,6 @@ textarea {
 .tab-bar.SIDE .tab-bar-item::before {
     border-left: none;
 }
-a:link {
-    color: var(--main-color);
-}
 .user-settings-modal a {
     color: var(--main-color);
 }
@@ -8404,9 +8401,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server join menu */
+.create-guild-container.deprecated {
+    border: 2px solid var(--main-color);
+}
 .form-deprecated .form-actions, .form.deprecated .form-actions {
     background-color: rgba(0, 0, 0, 0.8);
-    border-top: 1px solid var(--main-color);
 }
 .form-deprecated .btn-default, .form.deprecated .btn-default {
     background-color: var(--main-color);
@@ -8420,7 +8419,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     border-bottom: none;
 }
 .create-guild-container.deprecated .form.deprecated {
-    border: 1px solid var(--main-color);
     border-radius: 4px;
 }
 .create-guild-container.deprecated .join-server .link-container input {
@@ -8431,6 +8429,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .create-guild-container.deprecated .join-server h5 {
     color: var(--main-color);
+}
+.form.deprecated .form-actions {
+    border-top: 2px solid var(--main-color);
 }
 
 /* Server create menu */
@@ -8743,6 +8744,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Channel description box */
 .theme-dark .modal-3HD5ck {
     background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--main-color);
 }
 
 /* Listen Along bar */
@@ -8906,8 +8908,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .inner-1JeGVc {
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 2px solid var(--main-color);
     border-radius: 7px;
 }
 .userPopout-3XzG_A {
@@ -9026,7 +9026,6 @@ DIV[class*="scroller"].channel-members {
 
 /* Link to file */
 .downloadLink-2oSgiF {
-    padding-left: 10px;
     font-weight: 700;
 }
 
@@ -9095,6 +9094,21 @@ DIV[class*="scroller"].channel-members {
 .theme-dark .channel-members .member.popout-open,
 .theme-dark .channel-members .member:hover {
     background-color: var(--hover-color) !important;
+}
+
+/* Quickswitcher */
+.theme-dark .quickswitcher-3JagVE {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--main-color);
+    border: 2px solid;
+    box-shadow: none;
+}
+.theme-dark .input-2VB9rf {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+.theme-dark .resultFocused-3aIoYe {
+    background-color: var(--hover-color);
 }
 
 /* Code blocks */
