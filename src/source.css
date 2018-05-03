@@ -9109,7 +9109,6 @@ DIV[class*="scroller"].channel-members {
 /* Audit log entries */
 .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid var(--main-color);
 }
 .theme-dark .headerExpanded-CUEwZ5,
 .theme-dark .changeDetails-bk98pu {
@@ -9120,6 +9119,7 @@ DIV[class*="scroller"].channel-members {
 }
 .theme-dark .auditLog-3jNbM6 {
     border: 1px solid var(--main-color);
+    border-radius: 1px;
 }
 
 /* Code blocks */
