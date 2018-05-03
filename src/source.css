@@ -633,7 +633,7 @@ background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .contextMenu-HLZMGh {
-background: rgba(0, 0, 0, 0.8) !important;
+background: rgba(0, 0, 0, 0.95) !important;
 border: 1px solid var(--main-color);
 }
 
@@ -8353,10 +8353,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .card-FDVird:hover:before {
     opacity: 0;
 }
-.marginBottom8-AtZOdT {
-    padding-left: 10px;
-    padding-right: 10px;
-}
 .input-1UhAnY {
     text-align: center;
     padding-left: 40px;
@@ -8546,6 +8542,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Member picture (member list) */
 .mask-3OgeRz {
     -webkit-mask: none !important;
+    mask: none;
 }
 
 /* Member status dot (member list) */
@@ -8950,8 +8947,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     border-top: 0px;
 }
 
-
-
 /* Help box */
 .form-deprecated .form-inner,
 .form.deprecated .form-inner,
@@ -9109,6 +9104,22 @@ DIV[class*="scroller"].channel-members {
 }
 .theme-dark .resultFocused-3aIoYe {
     background-color: var(--hover-color);
+}
+
+/* Audit log entries */
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--main-color);
+}
+.theme-dark .headerExpanded-CUEwZ5,
+.theme-dark .changeDetails-bk98pu {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.theme-dark .headerExpanded-CUEwZ5 {
+    border-bottom: 1px solid var(--hover-color);
+}
+.theme-dark .auditLog-3jNbM6 {
+    border: 1px solid var(--main-color);
 }
 
 /* Code blocks */
