@@ -8817,9 +8817,17 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Message bar with no permissions to type */
+/* Message bar */
 .theme-dark .inner-zqa7da {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+/* Disabled message bar */
+.textAreaDisabled-2_o-kZ, .textAreaEnabledSubmitting-1cJX-K {
+    pointer-events: none;
+    text-align: center;
 }
 
 /* New messages bar */
