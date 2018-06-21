@@ -9146,7 +9146,7 @@ DIV[class*="scroller"].channel-members {
 }
 .theme-dark .emptyState-2-sT0o {
     background-color: rgba(0, 0, 0, 0.5);
-    border-color: #2f3136;
+    border-color: rgba(0, 0, 0, 0);
 }
 .theme-dark .dockItem-2kQDqg:hover {
     background-color: rgba(0, 0, 0, 0.5);
@@ -9164,7 +9164,11 @@ DIV[class*="scroller"].channel-members {
     background: -webkit-gradient(linear,right top,left top,from(transparent),to(#060d19));
     background: linear-gradient(270deg,rgba(0, 23, 105, 0.2) 0,rgba(0, 0, 0, 0));
 }
-.news-2GDtLJ {
+.paginationItem-3-MBTL:before {
+    background: var(--main-color);
+}
+.news-2GDtLJ,
+.news-2KwXHF {
     background-color: #000000;
 }
 .newsLink-38Naqi:hover {
@@ -9178,6 +9182,13 @@ DIV[class*="scroller"].channel-members {
 .theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
     background-color: var(--main-color);
     opacity: 0.8;
+}
+.theme-dark .gamePreview-9weYR2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid var(--main-color);
+}
+.theme-dark .body-1SVoBw {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Code blocks */
