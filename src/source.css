@@ -9190,6 +9190,10 @@ DIV[class*="scroller"].channel-members {
 .theme-dark .body-1SVoBw {
     background-color: rgba(0, 0, 0, 0);
 }
+.overlay-n52Tzn {
+    -webkit-mask: linear-gradient(#000,rgba(0, 0, 0, 0.4));
+    mask: linear-gradient(#000,rgba(0, 0, 0, 0.4));
+}
 
 /* Code blocks */
 code {
