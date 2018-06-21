@@ -1403,7 +1403,8 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
     background-color: var(--hover-color);
 }
 .avatar-large {
-    left: 8px;
+    margin-top: 0px !important;
+    left: 4px;
 }
 .channel-textarea {
     margin: 10px 0 30px;
@@ -1431,6 +1432,9 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 }
 .chat .divider>span {
     color: #F1F1F1;
+}
+.chat > .content .messages .message-group .markup {
+    line-height: 1.3em !important;
 }
 .message-group .comment .markup pre,
 .theme-dark .message-group .comment .markup pre {
@@ -3392,8 +3396,8 @@ div#bd-pub-button:hover {
 .avatar-large,
 .avatar-xxlarge,
 .icon-friends {
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.5);
 }
 .guilds-wrapper .guilds .guild .guild-inner {
     background-color: transparent !important;
@@ -8561,7 +8565,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Status colors */
-.status-online,
+.online-2S838R,
 .statusOnline-1FlpW_ {
     background-color: #0a962f;
 }
@@ -8571,11 +8575,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .statusOnline-1FlpW_ {
     background-color: #0a962f;
 }
-.statusOnlineProfile-C7N-xU {
+.statusProfile-3ynqtt.online-2S838R {
     box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
-.status-idle {
+.idle-3DEnRT {
     background-color: #e0910d;
 }
 .header-3mZJcV .avatarStatusIdle-3ADLtR {
@@ -8584,11 +8588,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .statusIdle-1XoSCz {
     background-color: #e0910d;
 }
-.statusIdleProfile-3lQI6a {
+.statusProfile-3ynqtt.idle-3DEnRT {
     box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
-.status-dnd {
+.dnd-1_xrcq {
     background-color: #b31818;
 }
 .header-3mZJcV .avatarStatusDnd-31uU1Q {
@@ -8597,7 +8601,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .statusDnd-2DDKST {
     background-color: #b31818;
 }
-.statusDndProfile-33i43o {
+.statusProfile-3ynqtt.dnd-1_xrcq {
     box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
@@ -8610,11 +8614,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .statusInvisible-23hZKw {
     background-color: #909090;
 }
-.statusInvisibleProfile-3iFEOq {
+.statusProfile-3ynqtt.invisible-1kp8Z0 {
     box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
-.status-offline {
+.offline-3qoTek {
     background-color: #909090;
 }
 .header-3mZJcV .avatarStatusOffline-3tuNny {
@@ -8623,15 +8627,22 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .statusOffline-3R-4Bv {
     background-color: #909090;
 }
-.statusOfflineProfile-9tGGr- {
+.statusProfile-3ynqtt.offline-3qoTek {
     box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
-.status-streaming {
+.streaming-2_dnHe {
     background-color: #6b26e2;
 }
 .header-3mZJcV .avatarStatusStreaming-3lGjGk {
     border-color: rgba(0, 0, 0, 1);
+}
+
+.unknown-Ms2zdV {
+    background-color: #747f8d;
+}
+.statusProfile-3ynqtt.unknown-Ms2zdV {
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
 }
 
 /* Mention self */
@@ -8920,6 +8931,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 /* Embeds */
+.embedDescription-1Cuq9a {
+    font-size: 14px !important;
+    margin-top: 0px !important;
+}
 .message-group .embed .embed-author-name,
 .theme-dark .message-group .embed .embed-author-name {
     color: rgba(255, 255, 255, 1) !important;
@@ -9132,7 +9147,7 @@ DIV[class*="scroller"].channel-members {
 
 /* Code blocks */
 code {
-    font-size: 12px !important;
+    font-size: 11px !important;
     background-color: transparent !important;
     background-image: none !important;
 }
@@ -9140,6 +9155,9 @@ code {
     font-size: 0.75rem;
     background: rgba(0, 0, 0, 0.5) !important;
     border-color: rgba(22, 91, 123, 0.5) !important;
+}
+.chat > .content .messages .message-group .markup pre code.hljs {
+    padding-bottom: 2px !important;
 }
 .theme-dark .markup .hljs[class~="java"]::before,
 .theme-dark .markup .hljs[class~="sql"]::before,
