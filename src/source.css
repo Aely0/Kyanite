@@ -1810,9 +1810,7 @@ textarea {
     padding: 6px !important;
 }
 .chat > .content .messages .message-group .markup code.inline {
-    background: hsla(0, 0%, 100%, 0.1) !important;
-    color: hsla(0, 0%, 100%, 0.7) !important;
-    padding: 3.5px 7.5px;
+    padding: 2px 5px;
 }
 .chat > .content .messages .message-group .markup code.inline + pre {
     margin-top: -1px;
