@@ -9140,6 +9140,46 @@ DIV[class*="scroller"].channel-members {
     border-radius: 1px;
 }
 
+/* Games tab */
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.theme-dark .emptyState-2-sT0o {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #2f3136;
+}
+.theme-dark .dockItem-2kQDqg:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.article-FleDq5 {
+    background-color: rgb(0, 0, 0);
+}
+.paginationItem-3-MBTL {
+    background-color: rgb(0, 0, 0);
+}
+.paginationItem-3-MBTL:hover {
+    background: #060d19;
+}
+.paginationItem-3-MBTL:after {
+    background: -webkit-gradient(linear,right top,left top,from(transparent),to(#060d19));
+    background: linear-gradient(270deg,rgba(0, 23, 105, 0.2) 0,rgba(0, 0, 0, 0));
+}
+.news-2GDtLJ {
+    background-color: #000000;
+}
+.newsLink-38Naqi:hover {
+    background-color: #060d19;
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV,
+.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV {
+    background-color: var(--main-color);
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
+.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background-color: var(--main-color);
+    opacity: 0.8;
+}
+
 /* Code blocks */
 code {
     font-size: 11px !important;
