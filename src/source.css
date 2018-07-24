@@ -9200,6 +9200,15 @@ DIV[class*="scroller"].channel-members {
     mask: linear-gradient(#000,rgba(0, 0, 0, 0.4));
 }
 
+/* Keyboard shortcuts */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--main-color);
+}
+.theme-dark .modalSubtitle-1Pj5nv {
+    border-bottom: 1px solid var(--main-color);
+}
+
 /* Code blocks */
 code {
     font-size: 11px !important;
