@@ -10055,6 +10055,7 @@ div[class*="scroller"].channel-members {
 }
 .theme-dark .hljs {
   color: #95acaf;
+  padding: 6px 5px 2px 5px;
 }
 .theme-dark .hljs-comment,
 .theme-dark .hljs-quote {
