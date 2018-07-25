@@ -10055,11 +10055,44 @@ div[class*="scroller"].channel-members {
 }
 .theme-dark .hljs {
   color: #95acaf;
-  padding: 6px 5px 2px 5px;
 }
 .theme-dark .hljs-comment,
 .theme-dark .hljs-quote {
   color: #6c7f86;
+}
+.hljs[class~="cs"],
+.hljs[class~="java"],
+.hljs[class~="sql"],
+.hljs[class~="ruby"],
+.hljs[class~="coffee"],
+.hljs[class~="xl"],
+.hljs[class~="py"],
+.hljs[class~="python"],
+.hljs[class~="html"],
+.hljs[class~="md"],
+.hljs[class~="markdown"],
+.hljs[class~="bash"],
+.hljs[class~="js"],
+.hljs[class~="javascript"],
+.hljs[class~="css"],
+.hljs[class~="vb"],
+.hljs[class~="visualbasic"],
+.hljs[class~="lua"],
+.hljs[class~="php"],
+.hljs[class~="swift"],
+.hljs[class~="makefile"],
+.hljs[class~="go"],
+.hljs[class~="ini"],
+.hljs[class~="rust"],
+.hljs[class~="prolog"],
+.hljs[class~="ts"],
+.hljs[class~="typescript"],
+.hljs[class~="http"],
+.hljs[class~="json"],
+.hljs[class~="xml"],
+.hljs[class~="less"],
+.hljs[class~="elixir"] {
+  padding: 6px 5px 2px 5px;
 }
 .hljs[class~="cs"]::before,
 .hljs[class~="java"]::before,
@@ -10074,7 +10107,7 @@ div[class*="scroller"].channel-members {
 .hljs[class~="markdown"]::before,
 .hljs[class~="bash"]::before,
 .hljs[class~="js"]::before,
-.hljs[class~="javascript"]:before,
+.hljs[class~="javascript"]::before,
 .hljs[class~="css"]::before,
 .hljs[class~="vb"]::before,
 .hljs[class~="visualbasic"]::before,
