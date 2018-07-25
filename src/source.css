@@ -9087,6 +9087,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   margin-left: 10px !important;
 }
 
+/* Server Roles menu */
+.side-8zPYf6 .itemSelected-1qLhcL {
+  background-color: rgba(22, 91, 123, 0.5);
+}
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover,
+.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
+  background-color: rgba(22, 91, 123, 0.2);
+}
+
 /* Options Menu Descriptions */
 .theme-dark .description-3_Ncsb,
 .theme-dark .labelDescriptor-1PqHgD {
