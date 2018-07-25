@@ -8927,9 +8927,11 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 /* Embeds */
-.embedDescription-1Cuq9a {
-    font-size: 14px !important;
-    margin-top: 0px !important;
+.theme-dark .embedDescription-1Cuq9a,
+.theme-dark .embedFieldValue-nELq2s,
+.theme-dark .embedFooterText-28V_Wb,
+.theme-dark .embedProvider-3k5pfl {
+    color: rgba(255, 255, 255, 0.75);
 }
 .message-group .embed .embed-author-name,
 .theme-dark .message-group .embed .embed-author-name {
