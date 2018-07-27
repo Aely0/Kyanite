@@ -1273,7 +1273,6 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .mention:hover {
   cursor: pointer;
   color: #fff;
-  background-color: var(--main-color) !important;
 }
 .region-select-modal {
   background: rgba(0, 0, 0, 0.75);
@@ -2261,7 +2260,6 @@ textarea {
 .mention {
   color: #ddd !important;
   background: rgba(115, 139, 215, 0.1) !important;
-  padding: 1px 4px;
   border-radius: 6px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -3836,10 +3834,6 @@ div#bd-pub-button:hover {
 }
 .diversity-selector .popout .item:hover {
   background-color: var(--main-color);
-}
-.chat .title-wrap .topic .mention:hover {
-  background-color: var(--main-color) !important;
-  border-radius: 4px;
 }
 #friends .friends-header .tab-bar .tab-bar-item .badge {
   background-color: var(--main-color) !important;
@@ -9426,6 +9420,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .mention {
   color: rgba(36, 173, 236, 1) !important;
   background: rgba(0, 0, 0, 0) !important;
+  padding: none;
+}
+.wrapper-3WhCwL {
+  padding: none;
+}
+
+.theme-dark .wrapper-3WhCwL {
+  background-color: rgba(36, 173, 236, 0.1);
+  color: rgba(36, 173, 236, 1);
+}
+.theme-dark .wrapperHover-1GktnT:hover {
+  background-color: rgba(36, 173, 236, 0.1);
 }
 
 /* Nitro tag */
