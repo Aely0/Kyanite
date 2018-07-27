@@ -9411,15 +9411,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Mention self */
-.chat > .content .messages .message-group .mentioned .markup .mention {
-  color: rgba(36, 173, 236, 1) !important;
-}
-.message-group .mentioned .message-text {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
 .message-group .mentioned .message-text::after {
   background: rgba(0, 0, 0, 0.5);
-  border-left: 4px solid rgba(36, 173, 236, 1);
+}
+.theme-dark .isMentioned-N-h9aa {
+  background: rgba(43, 152, 177, 0.2);
+}
+.isMentionedCozy-3isp7y:after {
+  border-left: 4px solid rgb(43, 152, 177);
+  background: rgba(43, 152, 177, 0.2);
 }
 
 /* Mention others */
@@ -9787,7 +9787,8 @@ div[class*="flex-"][class*="title-"],
 #help-query {
   background-color: rgba(0, 0, 0, 0.6);
   border: 1px solid var(--main-color) !important;
-  border-radius: 5px;
+  border-radius: 0px;
+  text-align: center;
 }
 .need-help-modal.deprecated {
   border: 1px solid var(--main-color);
@@ -9837,7 +9838,12 @@ div[class*="scroller"].channel-members {
 /* Pinned messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW {
   background-color: rgba(0, 0, 0, 0.8);
-  border: 1px solid var(--main-color);
+  border: none;
+}
+.theme-dark .messageGroupWrapper-o-Zw7G,
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
 .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
@@ -9849,6 +9855,18 @@ div[class*="scroller"].channel-members {
   .messagesPopout-24nkyi
   .message-group:hover {
   border: 2px solid var(--main-color);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  -webkit-box-shadow: 0 0 6px 4px var(--hover-color);
+  background-color: var(--hover-color);
+  box-shadow: 0 0 6px 4px var(--hover-color);
+}
+.theme-dark .jumpButton-3DTcS_ {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+}
+.spinner-pulsing-ellipsis {
+  visibility: hidden;
 }
 
 /* Link to file */
