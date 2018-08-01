@@ -9702,9 +9702,6 @@ div[class*="flex-"][class*="title-"],
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
 }
-[class*="activity-"]:not(.member-activity-text) {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
 
 /* Profile popout */
 .popout.popout-left.no-arrow,
@@ -9869,10 +9866,6 @@ div[class*="scroller"].channel-members {
   font-size: 14px !important;
 }
 
-/* Change log */
-.theme-dark [class*="footer-"] {
-  background: rgba(0, 0, 0, 0.5) !important;
-}
 /* Button color */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
