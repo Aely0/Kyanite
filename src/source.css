@@ -5131,6 +5131,7 @@ ul.bda-slist {
 }
 .emoji {
   position: relative !important;
+  margin: -.1em .05em -.4em .1em !important;
 }
 .chat > .content .messages .message-group a,
 .theme-dark .chat > .content .messages .message-group a code.inline {
@@ -9606,7 +9607,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .friendsOnline-_wi_fM,
 .theme-light .friendsOnline-_wi_fM {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
 /* Guild avatars */
