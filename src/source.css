@@ -9313,10 +9313,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-clip: padding-box !important;
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
   border-radius: 50px !important;
-  bottom: -3px !important;
-  height: 10px !important;
-  right: -3px !important;
-  width: 10px !important;
 }
 
 /* Status colors */
@@ -9607,6 +9603,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Guilds bar */
 .theme-dark .guildsWrapper-5TJh6A {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .friendsOnline-_wi_fM,
+.theme-light .friendsOnline-_wi_fM {
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* Guild avatars */
@@ -9901,9 +9901,6 @@ div[class*="scroller"].channel-members {
 .theme-dark .jumpButton-3DTcS_ {
   background-color: transparent !important;
   color: rgba(255, 255, 255, 0.8) !important;
-}
-.spinner-pulsing-ellipsis {
-  visibility: hidden !important;
 }
 
 /* Link to file */
