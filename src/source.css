@@ -8,7 +8,6 @@
 
 /* Title bar */
 #app-mount .titleBar-AC4pGV {
-  background-color: rgba(0, 0, 0, 0.4) !important;
   padding-top: 5px !important;
   margin: 0px !important;
 }
@@ -737,7 +736,7 @@ button.buttonGreyFilledDefault-3uZpOq.buttonFilledDefault-AELjWf.buttonDefault-2
 }
 
 [class*="appMount-"] {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.75) !important;
 }
 
 .container-3cGP6G,
@@ -9545,12 +9544,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Channels list */
 .scroller-2v3d_F {
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: transparent !important;
 }
 
 /* Channel list header */
 .header-2o-2hj {
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: transparent !important;
   box-shadow: none !important;
 }
 .private-channels .search-bar {
@@ -9579,7 +9578,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Voice connection bar */
 .container-1UB9sr {
   border-bottom: 1px solid var(--main-color) !important;
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: transparent !important;
 }
 
 /* Voice name color */
@@ -9613,7 +9612,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Guilds bar */
 .theme-dark .guildsWrapper-5TJh6A {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: transparent !important;
 }
 .theme-dark .friendsOnline-_wi_fM,
 .theme-light .friendsOnline-_wi_fM {
@@ -9654,13 +9653,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Left + Right */
 div[class*="channels"][class*="vertical"],
 div[class*="scroller"].channel-members {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: transparent !important;
 }
 
 /* Middle + Right*/
 .theme-dark .chat-3bRxxu,
 .theme-dark .content-yTz4x3 {
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  background-color: transparent !important;
 }
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .chat-3bRxxu form {
@@ -9711,7 +9710,7 @@ div[class*="scroller"].channel-members {
 /* Header */
 div[class*="flex-"][class*="title-"],
 #friends div[class*="headerBar"] {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: transparent !important;
 }
 
 /* Message bar */
@@ -9898,7 +9897,7 @@ div[class*="flex-"][class*="title-"],
 /* Channels */
 div[class*="channels"][class*="vertical"],
 div[class*="scroller"].channel-members {
-  background-color: rgba(0, 0, 0, 0.35) !important;
+  background-color: transparent !important;
 }
 .container-PNkimc {
   background-color: transparent !important;
