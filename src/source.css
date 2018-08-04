@@ -9100,6 +9100,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .emoji-row .emoji-image {
   margin-left: 10px !important;
 }
+.theme-dark .emoji-alias-input .emoji-input {
+  background-color: transparent !important;
+}
 
 /* Server Roles menu */
 .side-8zPYf6 .itemSelected-1qLhcL {
