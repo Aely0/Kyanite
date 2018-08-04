@@ -9486,8 +9486,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Role name box */
 .membersGroup-v9BXpm {
   color: var(--main-color) !important;
-  font-size: 11px !important;
-  text-transform: uppercase !important;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
   letter-spacing: 0.08em !important;
   border: 1px solid !important;
   border-color: transparent !important;
@@ -9496,7 +9496,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   height: 25px !important;
   padding-top: 2px !important;
   text-align: center !important;
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
   margin-top: 20px !important;
   margin-bottom: 10px !important;
   margin-left: 10px !important;
