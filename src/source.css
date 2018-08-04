@@ -10075,7 +10075,7 @@ div[class*="scroller"].channel-members {
 
 /* Games tab */
 .theme-dark .activityFeed-28jde9 {
-  background-color: rgba(0, 0, 0, 0.35) !important;
+  background-color: transparent !important;
 }
 .theme-dark .emptyState-2-sT0o {
   background-color: rgba(0, 0, 0, 0.5) !important;
