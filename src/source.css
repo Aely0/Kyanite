@@ -9676,7 +9676,7 @@ div[class*="scroller"].channel-members {
   border-radius: 5px !important;
   text-transform: capitalize !important;
   text-align: center !important;
-  width: 100% !important;
+  width: 12% !important;
   border: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
@@ -9685,15 +9685,16 @@ div[class*="scroller"].channel-members {
   background: rgba(0, 0, 0, 0.25) !important;
 }
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
-  color: var(--main-color) !important;
-}
-.theme-dark .divider-3gKybi span {
   background-color: rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+  background: rgba(255, 255, 255, 0.2) !important;
 }
 
-/* New messages bar */
+/* New messages separator */
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr > span {
-  background: rgba(0, 0, 0, 0.25) !important;
+  background: rgba(0, 0, 0, 1) !important;
   color: var(--main-color) !important;
   opacity: 1 !important;
   border: 1px solid var(--main-color) !important;
@@ -9703,8 +9704,17 @@ div[class*="scroller"].channel-members {
   background: var(--main-color) !important;
   opacity: 1 !important;
 }
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
-  background: var(--main-color) !important;
+.theme-dark .divider-3gKybi span {
+  background-color: var(--main-color) !important;
+}
+
+/* Unread messages bar */
+.newMessagesBar-mujexs {
+  background-color: var(--main-color) !important;
+}
+.theme-dark .hasMore-3e72_v button {
+  background: transparent !important;
+  border: none !important;
 }
 
 /* Header */
