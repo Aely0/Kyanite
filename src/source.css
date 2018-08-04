@@ -5131,14 +5131,14 @@ ul.bda-slist {
 }
 .emoji {
   position: relative !important;
-  margin: -.1em .05em -.4em .1em !important;
+  margin: -0.1em 0.05em -0.4em 0.1em !important;
 }
 .emoji.jumboable {
   margin-bottom: 0 !important;
-  margin-top: .2em !important;
+  margin-top: 0.2em !important;
 }
 .embed-IeVjo6 .emoji {
-  margin: 0 .05em 0 .1em !important;
+  margin: 0 0.05em 0 0.1em !important;
 }
 .chat > .content .messages .message-group a,
 .theme-dark .chat > .content .messages .message-group a code.inline {
@@ -9655,9 +9655,54 @@ div[class*="scroller"].channel-members {
 }
 
 /* Middle + Right*/
-div.flex-spacer.flex-horizontal,
-#friends div.friends-table {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3 {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu form {
+  background-color: transparent !important;
+}
+
+/* Master separator */
+.theme-dark .divider-3gKybi:before {
+  background-color: transparent !important;
+}
+
+/* Separator text */
+.divider-3gKybi > span {
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  text-align: center !important;
+  width: 100% !important;
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Day separator */
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+  color: var(--main-color) !important;
+}
+.theme-dark .divider-3gKybi span {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* New messages bar */
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr > span {
+  background: rgba(0, 0, 0, 0.25) !important;
+  color: var(--main-color) !important;
+  opacity: 1 !important;
+  border: 1px solid var(--main-color) !important;
+  width: 12% !important;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr > div {
+  background: var(--main-color) !important;
+  opacity: 1 !important;
+}
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+  background: var(--main-color) !important;
 }
 
 /* Header */
@@ -9680,22 +9725,8 @@ div[class*="flex-"][class*="title-"],
   text-align: center !important;
 }
 
-/* New messages bar */
-.chat .divider.divider-red > span::before {
-  background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.chat .divider.divider-red > span {
-  background: transparent !important;
-  color: rgba(36, 173, 236, 1) !important;
-}
-
-/* Message day seperator bar */
-.chat .divider > span {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
 /* Disable blocked messages bar */
-.message-group-blocked {
+.theme-dark .messageGroupBlocked-3wrQQX {
   display: none !important;
 }
 
