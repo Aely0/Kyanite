@@ -614,7 +614,7 @@ div[class*="scroller"].channel-members {
 
 div.flex-spacer.flex-horizontal,
 #friends div.friends-table {
-  background-color: rgba(0, 0, 0, 0.62) !important;
+  background-color: transparent !important;
 }
 
 .theme-light div.layers {
