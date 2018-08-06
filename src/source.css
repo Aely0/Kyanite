@@ -6289,6 +6289,9 @@ pre:hover .copybutton {
 .new-messages-indicator.new-messages-indicator-mention {
   background-color: var(--main-color) !important;
 }
+.theme-dark .jumpToPresentBar-9P20AM {
+  background-color: var(--main-color) !important;
+}
 .protip {
   color: #a8a8a8 !important;
 }
