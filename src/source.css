@@ -9679,7 +9679,7 @@ div[class*="scroller"].channel-members {
   border-radius: 5px !important;
   text-transform: capitalize !important;
   text-align: center !important;
-  width: 12% !important;
+  width: 15% !important;
   border: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
@@ -9701,7 +9701,6 @@ div[class*="scroller"].channel-members {
   color: var(--main-color) !important;
   opacity: 1 !important;
   border: 1px solid var(--main-color) !important;
-  width: 12% !important;
 }
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr > div {
   background: var(--main-color) !important;
