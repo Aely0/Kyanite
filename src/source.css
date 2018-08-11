@@ -528,7 +528,12 @@ div.slider-handle {
 }
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.headerBar-UHpsPw {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: transparent !important;
+}
+
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 #friends [class*="headerBar-"] .tab-bar .tab-bar-item:hover:not(.selected) {
@@ -10075,7 +10080,7 @@ div[class*="scroller"].channel-members {
   border-radius: 1px !important;
 }
 
-/* Games tab */
+/* Activity tab */
 .theme-dark .activityFeed-28jde9 {
   background-color: transparent !important;
 }
@@ -10086,7 +10091,7 @@ div[class*="scroller"].channel-members {
 .theme-dark .dockItem-2kQDqg:hover {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
-.article-FleDq5 {
+.article-3kb3qm {
   background-color: rgb(0, 0, 0) !important;
 }
 .paginationItem-3-MBTL {
