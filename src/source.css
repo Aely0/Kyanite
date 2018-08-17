@@ -9881,9 +9881,11 @@ div[class*="scroller"].channel-members {
 }
 
 /* Button color */
+.lookInverted-2D7oAl.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: var(--main-color) !important;
+  color: white !important;
 }
 
 /* Pinned messages */
