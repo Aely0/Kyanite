@@ -9282,7 +9282,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .private-channels .status,
 .container-2Thooq .status,
 .theme-dark .status-2s6iDp,
-.status-2s6iDp {
+.status-2s6iDp,
+.channel-2QD9_O .status {
   background-clip: padding-box !important;
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
   border-radius: 50px !important;
@@ -9983,6 +9984,8 @@ div[class*="scroller"].channel-members {
 }
 
 /* Selected/Mouse over channel colors */
+.channel-2QD9_O.selected-1HYmZZ a,
+.channel-2QD9_O:hover a,
 .private-channels .channel:hover a,
 .private-channels .channel.selected a,
 .theme-dark .item-1GzJrl:hover,
