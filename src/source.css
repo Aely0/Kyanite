@@ -2,6 +2,7 @@
 :root {
   --main-color: rgba(22, 91, 123, 1) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
+  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
 }
@@ -9988,7 +9989,7 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-/* Selected/Mouse over channel colors */
+/* Hover colors */
 .channel-2QD9_O.selected-1HYmZZ a,
 .channel-2QD9_O:hover a,
 .private-channels .channel:hover a,
@@ -10112,6 +10113,69 @@ div[class*="scroller"].channel-members {
 .overlay-n52Tzn {
   -webkit-mask: linear-gradient(#000, rgba(0, 0, 0, 0.4)) !important;
   mask: linear-gradient(#000, rgba(0, 0, 0, 0.4)) !important;
+}
+
+/* Library tab */
+.theme-dark .gameLibrary-TTDw4Y {
+  background-color: transparent !important;
+}
+
+.theme-dark .header-39GIC8 {
+  background-color: transparent !important;
+}
+
+.theme-dark .libraryFilterInput-3JzqZD {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.theme-dark .rowWrapperActive-2L7i9f.rowWrapper-2fB6P0:hover {
+  background: var(--hover-color) !important;
+}
+
+/* Store tab */
+.theme-dark .applicationStore-1pNvnv {
+  background-color: transparent !important;
+}
+
+.theme-dark .browseSearchInput-Jt8kg0 {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+  color: var(--main-color);
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+  color: var(--hover-bright-color);
+}
+
+.theme-dark .searchBox-3Y2Vi7 {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.exclusive-3zP8if,
+.theme-dark .tag-HanR-9 {
+  background-image: linear-gradient(90deg,var(--main-color),var(--hover-color)) !important;
+}
+
+.theme-dark .tag-HanR-9:before {
+  background-image: none !important;
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.theme-dark .tileWrapper-2khh-w {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.theme-dark .mediaFade-4Pqtcc {
+  background: linear-gradient(180deg,transparent 90%,rgba(0, 0, 0, 0.6));
 }
 
 /* Keyboard shortcuts */
