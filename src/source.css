@@ -10146,11 +10146,11 @@ div[class*="scroller"].channel-members {
 }
 
 .theme-dark .announcingNitro-3Ptg6m {
-  color: var(--main-color);
+  color: var(--main-color) !important;
 }
 
 .theme-dark .announcingNitro-3Ptg6m:hover {
-  color: var(--hover-bright-color);
+  color: var(--hover-bright-color) !important;
 }
 
 .theme-dark .searchBox-3Y2Vi7 {
@@ -10159,7 +10159,11 @@ div[class*="scroller"].channel-members {
 
 .exclusive-3zP8if,
 .theme-dark .tag-HanR-9 {
-  background-image: linear-gradient(90deg,var(--main-color),var(--hover-color)) !important;
+  background-image: linear-gradient(
+    90deg,
+    var(--main-color),
+    var(--hover-color)
+  ) !important;
 }
 
 .theme-dark .tag-HanR-9:before {
@@ -10167,15 +10171,31 @@ div[class*="scroller"].channel-members {
 }
 
 .theme-dark .tileWrapper-2khh-w:hover {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .theme-dark .tileWrapper-2khh-w {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .theme-dark .mediaFade-4Pqtcc {
-  background: linear-gradient(180deg,transparent 90%,rgba(0, 0, 0, 0.6));
+  background: linear-gradient(
+    180deg,
+    transparent 90%,
+    rgba(0, 0, 0, 1)
+  ) !important;
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.6)
+  ) !important;
+}
+
+.theme-dark .tileMedia-24cT6_ {
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Keyboard shortcuts */
