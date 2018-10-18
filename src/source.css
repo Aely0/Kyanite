@@ -747,7 +747,7 @@ button.buttonGreyFilledDefault-3uZpOq.buttonFilledDefault-AELjWf.buttonDefault-2
 
 .container-3cGP6G,
 .contextMenu-HLZMGh {
-  background: rgba(0, 0, 0, 0.95) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--main-color) !important;
 }
 
@@ -10196,6 +10196,20 @@ div[class*="scroller"].channel-members {
 
 .theme-dark .tileMedia-24cT6_ {
   background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.theme-dark .popout-2sKjHu {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.theme-dark .optionNormal-12VR9V:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9 {
+  background-color: rgba(0, 0, 0, 0.32) !important;
+  border-width: 2px !important;
+  border-color: var(--main-color) !important;
 }
 
 /* Keyboard shortcuts */
