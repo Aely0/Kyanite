@@ -9168,7 +9168,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Options Menu (Members) */
-.theme-dark .guild-settings-members-member {
+.theme-dark .member-1q7VfX {
   padding: 10px 0px 15px 15px !important;
 }
 
@@ -10250,6 +10250,7 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.5) !important;
   border: 2px solid var(--main-color) !important;
 }
+
 .theme-dark .modalSubtitle-1Pj5nv {
   border-bottom: 1px solid var(--main-color) !important;
 }
@@ -10258,6 +10259,15 @@ div[class*="scroller"].channel-members {
 .theme-dark .wrapper-1cBijl {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--main-color) !important;
+}
+
+/* Quick switcher notification */
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+  background: transparent url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px !important;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+  background-color: var(--hover-color) !important;
 }
 
 /* Code blocks */
