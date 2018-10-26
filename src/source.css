@@ -9815,6 +9815,12 @@ div[class*="flex-"][class*="title-"],
   padding-top: 6px !important;
   padding-left: 8px !important;
 }
+.button-1Pkqso:hover {
+  border-color: rgb(90, 64, 138) !important;
+}
+.button-1Pkqso {
+  border-color: rgb(68, 39, 121) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
