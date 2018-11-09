@@ -10259,11 +10259,12 @@ div[class*="scroller"].channel-members {
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
-  border-color: var(--hover-bright-color);
+  border-color: var(--hover-bright-color) !important;
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-  border-color: var(--main-color);
+  border-color: var(--main-color) !important;
+  color: var(--hover-bright-color)
 }
 
 /* Keyboard shortcuts */
