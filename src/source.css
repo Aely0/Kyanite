@@ -10184,11 +10184,8 @@ div[class*="scroller"].channel-members {
   background: rgba(0, 0, 0, 0.6) !important;
 }
 
+.theme-dark .announcingNitro-3Ptg6m:hover,
 .theme-dark .announcingNitro-3Ptg6m {
-  color: var(--main-color) !important;
-}
-
-.theme-dark .announcingNitro-3Ptg6m:hover {
   color: var(--hover-bright-color) !important;
 }
 
@@ -10209,15 +10206,15 @@ div[class*="scroller"].channel-members {
   background-image: none !important;
 }
 
-.theme-dark .tileWrapper-2khh-w:hover {
+.theme-dark .applicationTile-1Goy1W:hover {
   background-color: rgba(0, 0, 0, 1) !important;
 }
 
-.theme-dark .tileWrapper-2khh-w {
+.theme-dark .applicationTile-1Goy1W {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-.theme-dark .mediaFade-4Pqtcc {
+.theme-dark .mediaFade-1SdEfL {
   background: linear-gradient(
     180deg,
     transparent 90%,
@@ -10225,16 +10222,26 @@ div[class*="scroller"].channel-members {
   ) !important;
 }
 
-.theme-dark .mediaDescription-31GsyQ {
+.theme-dark .description-3rB3Rp {
   background: linear-gradient(
     180deg,
     transparent,
-    rgba(0, 0, 0, 0.6)
+    rgba(0, 0, 0, 1)
   ) !important;
 }
 
+.theme-dark .tileMedia-1q3guD {
+  background-color: rgba(0, 0, 0, 1) !important;  
+}
+
 .theme-dark .tileMedia-24cT6_ {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: transparent !important;
+}
+
+.descriptionExtendedPlay-qNlnWb {
+  -webkit-transition: none !important;
+  transition: none !important;
+  opacity: 1 !important;
 }
 
 .theme-dark .popout-2sKjHu {
@@ -10249,6 +10256,14 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.32) !important;
   border-width: 2px !important;
   border-color: var(--main-color) !important;
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+  border-color: var(--hover-bright-color);
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  border-color: var(--main-color);
 }
 
 /* Keyboard shortcuts */
