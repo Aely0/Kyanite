@@ -10330,6 +10330,7 @@ div[class*="scroller"].channel-members {
 .hljs[class~="makefile"],
 .hljs[class~="go"],
 .hljs[class~="ini"],
+.hljs[class~="rs"],
 .hljs[class~="rust"],
 .hljs[class~="prolog"],
 .hljs[class~="ts"],
@@ -10364,6 +10365,7 @@ div[class*="scroller"].channel-members {
 .hljs[class~="makefile"]::before,
 .hljs[class~="go"]::before,
 .hljs[class~="ini"]::before,
+.hljs[class~="rs"]::before,
 .hljs[class~="rust"]::before,
 .hljs[class~="prolog"]::before,
 .hljs[class~="ts"]::before,
@@ -10467,9 +10469,10 @@ div[class*="scroller"].channel-members {
   content: " ini" !important;
   background: rgba(90, 117, 192, 0.3) !important;
 }
+.hljs[class~="rs"]::before,
 .hljs[class~="rust"]::before {
   content: " Rust" !important;
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(176, 41, 9, 0.3) !important;
 }
 .hljs[class~="prolog"]::before {
   content: " Prolog" !important;
