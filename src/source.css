@@ -10153,6 +10153,9 @@ div[class*="scroller"].channel-members {
   -webkit-mask: linear-gradient(#000, rgba(0, 0, 0, 0.4)) !important;
   mask: linear-gradient(#000, rgba(0, 0, 0, 0.4)) !important;
 }
+.lookFilled-1Gx00P .contents-18-Yxp {
+  color: white !important;
+}
 
 /* Library tab */
 .theme-dark .gameLibrary-TTDw4Y {
