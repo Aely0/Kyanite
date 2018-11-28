@@ -10276,8 +10276,27 @@ div[class*="scroller"].channel-members {
   background-color: var(--main-color) !important;
 }
 
+.theme-dark .overlappingBorder-1ysb12,
 .overlappingBorder-1-XPGl {
   border: 3px solid var(--main-color) !important;
+}
+
+/* Media bar */
+.mediaBarGrabber-1FqnbN,
+.mediaBarProgress-1xaPtl,
+.mediaBarProgress-1xaPtl:after,
+.mediaBarProgress-1xaPtl:before {
+  background-color: var(--main-color) !important;
+}
+
+.audioControls-2HsaU6, .videoControls-2kcYic {
+  background-color: transparent !important;
+}
+
+/* Audio panel */
+.theme-dark .wrapperAudio-1jDe0Q {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-color: var(--hover-color) !important;
 }
 
 /* Keyboard shortcuts */
