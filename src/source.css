@@ -10336,6 +10336,11 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 
+/* Message new member notification */
+.wumpusWrapper-yrvoR3 {
+  display: none !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
