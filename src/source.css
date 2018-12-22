@@ -6297,6 +6297,10 @@ pre:hover .copybutton {
 .guild-settings-modal .member-buttons .btn.btn-danger:hover {
   background-color: var(--hover-color) !important;
 }
+.horizontal-1ae9ci > .flex-1xMQg5:first-child,
+.horizontal-1ae9ci > .flexChild-faoVW3:first-child {
+  margin-left: 20px !important;
+}
 
 /* Channels */
 .container-PNkimc {
