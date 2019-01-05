@@ -6297,9 +6297,8 @@ pre:hover .copybutton {
 .guild-settings-modal .member-buttons .btn.btn-danger:hover {
   background-color: var(--hover-color) !important;
 }
-.horizontal-1ae9ci > .flex-1xMQg5:first-child,
-.horizontal-1ae9ci > .flexChild-faoVW3:first-child {
-  margin-left: 20px !important;
+.theme-dark .emojiRow-zIc7ZX {
+  background: transparent !important;
 }
 
 /* Channels */
@@ -9134,7 +9133,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .input-1UhAnY {
   text-align: center !important;
-  padding-left: 40px !important;
 }
 .item-rJ_Cmt,
 .keybindMessage-20JT9A {
@@ -10086,8 +10084,7 @@ div[class*="scroller"].channel-members {
   border-bottom: 1px solid var(--hover-color) !important;
 }
 .theme-dark .auditLog-3jNbM6 {
-  border: 1px solid var(--main-color) !important;
-  border-radius: 1px !important;
+  border: none !important;
 }
 
 /* Activity tab */
@@ -10160,6 +10157,11 @@ div[class*="scroller"].channel-members {
 }
 .lookFilled-1Gx00P .contents-18-Yxp {
   color: white !important;
+}
+
+/* Library - billing */
+.theme-dark .root-1BQpZw {
+  background-color: transparent !important;
 }
 
 /* Library tab */
