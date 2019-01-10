@@ -94,12 +94,8 @@ body::after,
 
 [class*="theme-"] .input-cIJ7To {
   border-color: var(--main-color) !important;
-  border-width: 2px !important;
-}
-
-[class*="theme-"] .input-cIJ7To {
-  border-color: var(--main-color) !important;
-  border-width: 2px !important;
+  border-width: 1px !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 .userPopout-3XzG_A .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
@@ -3778,7 +3774,6 @@ div#bd-pub-button:hover {
 }
 .search-bar input:focus {
   border-color: var(--main-color) !important;
-  margin-right: 12px !important;
 }
 .search-bar.search-bar-light input::-webkit-input-placeholder {
   color: #616161 !important;
