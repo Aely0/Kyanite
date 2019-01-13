@@ -6937,6 +6937,21 @@ img:not(.emote):not(.emoji)::after {
   border-radius: 3px !important;
 }
 
+/* Member popout discord tag */
+.nameTag-m8r81H {
+  line-height: 10px !important;
+}
+.discriminator, .bot-tag.bot-tag-invert {
+  font-size: 12px !important;
+}
+.headerBotTagWithNickname--pvZ2g {
+  margin-bottom: 0px !important;
+}
+.bot-2Fta1w {
+  line-height: 1.3 !important;
+  margin-left: 3px !important;
+}
+
 /* Member popout roles */
 .user-popout .body .roles .member-roles {
   max-height: 230px !important;
