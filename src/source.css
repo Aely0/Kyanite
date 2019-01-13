@@ -6974,6 +6974,11 @@ img:not(.emote):not(.emoji)::after {
   visibility: visible !important;
 }
 
+/* Recent mentions tab */
+.theme-dark .footer-1kmXd4 {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
 /* Search bar clear button */
 .search-bar-clear,
 .emoji-picker .search-bar-clear,
