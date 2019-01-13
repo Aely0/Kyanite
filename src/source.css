@@ -5004,7 +5004,6 @@ div.control-group .shortcut-recorder input[type="text"]:focus {
 }
 .discriminator,
 .bot-tag.bot-tag-invert {
-  line-height: 12px !important;
   vertical-align: initial !important;
 }
 .chat .divider {
@@ -6938,18 +6937,16 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Member popout discord tag */
-.nameTag-m8r81H {
-  line-height: 10px !important;
-}
-.discriminator, .bot-tag.bot-tag-invert {
-  font-size: 12px !important;
-}
 .headerBotTagWithNickname--pvZ2g {
-  margin-bottom: 0px !important;
+  margin-top: 2px;
+  margin-bottom: 5px !important;
+}
+.headerBotTag-35luy- {
+  bottom: 2px !important;
 }
 .bot-2Fta1w {
-  line-height: 1.3 !important;
-  margin-left: 3px !important;
+  line-height: 1.2 !important;
+  margin-left: 2px !important;
 }
 
 /* Member popout roles */
