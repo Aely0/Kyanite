@@ -5623,6 +5623,11 @@ span.discrypt:hover {
   opacity: 0.7 !important;
 }
 
+/* User avatar */
+.image-33JSyf, .wrapper-2F3Zv8 {
+  box-shadow: 4px 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
 /* User popout */
 .user-popout {
   background: transparent !important;
