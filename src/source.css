@@ -2,6 +2,7 @@
 :root {
   --main-color: rgba(22, 91, 123, 1) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
+  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
   --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
@@ -162,7 +163,7 @@ body::after,
 .channel-text-area-default [class*="inner-"],
 .channel-text-area-default [class*="autocomplete-"],
 [class*="autocomplete-"][class*="autocomplete-"] {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .channel-text-area-default [class*="textArea-"],
@@ -365,7 +366,7 @@ div.slider-handle {
 .tooltip.tooltip-right,
 .tooltip.tooltip-bottom,
 .tooltip.tooltip-left {
-  background: var(--main-color) !important;
+  background: var(--hover-color) !important;
 }
 
 .channelTextAreaEnabled-iusU9o.channelTextArea-1LDbYG.channel-text-area-default {
@@ -1863,8 +1864,9 @@ textarea {
 .private-channels .search-bar {
   background: transparent !important;
 }
+.searchBar-2_Yu-C,
 .theme-dark .searchBar-1MOL6S,
-.search-bar-light .searchBarInner-1_Tg2R,
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R,
 .private-channels .search-bar .search-bar-inner,
 .private-channels .search-bar.search-bar-light .search-bar-inner {
   background: rgba(0, 0, 0, 0.4) !important;
@@ -5476,10 +5478,11 @@ ul.bda-slist {
 }
 
 /* Tooltip */
+.tooltip-1OS-Ti.black-2bmmnj,
 .tooltip,
 .tooltip.tooltip-error {
   position: absolute !important;
-  background-color: var(--main-color) !important;
+  background-color: rgba(22, 91, 123, 0.75) !important;
   -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1) !important;
   border-radius: 3px !important;
@@ -6114,6 +6117,14 @@ pre:hover .copybutton {
 .sp-container .sp-button-container button:hover {
   background: var(--hover-color) !important;
   text-shadow: none !important;
+}
+
+/* Settings Nitro tab */
+.theme-dark .lookOutlined-3sRXeN.colorTransparent-1ewNp9:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+.theme-dark .lookOutlined-3sRXeN.colorTransparent-1ewNp9 {
+  border-color: var(--main-color) !important;
 }
 
 /* Settings Web Hook */
@@ -9149,6 +9160,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .guild-settings-banned-user {
   padding: 10px !important;
 }
+.theme-dark .bannedUser-1IalTM {
+  background: transparent !important;
+}
 
 /* Server Options Menu (Popup) */
 .theme-dark .menu-Sp6bN1 {
@@ -9628,18 +9642,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
   background: var(--main-color) !important;
 }
-#app-mount
-  > div.app-19_DXt.platform-win
-  > div
-  > div.layers-3iHuyZ.flex-vertical.flex-spacer
-  > div
-  > div
-  > div.guildsWrapper-5TJh6A
-  > div.scroller-wrap.scrollerWrap-1IAIlv
-  > div
-  > div:nth-child(1)
-  > div {
-  background: none !important;
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+  background-color: transparent !important;
 }
 
 /* Left + Right */
@@ -10160,6 +10164,15 @@ div[class*="scroller"].channel-members {
 }
 
 /* Library tab */
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+}
+
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+  background-color: var(--hover-color) !important;
+}
+
 .theme-dark .gameLibrary-TTDw4Y {
   background-color: transparent !important;
 }
@@ -10340,6 +10353,59 @@ div[class*="scroller"].channel-members {
 /* Message new member notification */
 .wumpusWrapper-yrvoR3 {
   display: none !important;
+}
+
+/* Gif picker */
+.theme-dark .categoryFadeBlurple-1j72_A:hover,
+.theme-light .categoryFadeBlurple-1j72_A:hover {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.theme-dark .categoryFadeBlurple-1j72_A,
+.theme-light .categoryFadeBlurple-1j72_A {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .focused-1En8bG:after,
+.theme-dark .result-3w1ZcL:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
+  box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
+}
+.result-3w1ZcL:after {
+  border-radius: 5px !important;
+}
+.theme-dark .emptyHintCard-2mUdMe {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid var(--main-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+
+/* Chat gift menu */
+.theme-dark .option-1l2vXE {
+  background-color: var(--hover-color) !important;
+}
+
+/* Friends tab */
+.theme-dark .container-3gCOGc {
+  background-color: transparent !important;
+}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
+  background: var(--hover-color) !important;
+}
+.tabBar-1E2ExX .primary-3j8BhM {
+  background-color: var(--main-color) !important;
+}
+.theme-dark
+  .friendsTable-133bsv
+  .friendsRow-2yicud
+  .friendsColumnActions-1LT3_M
+  .friendsAction-__WNE9:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark
+  .friendsTable-133bsv
+  .friendsRow-2yicud
+  .friendsColumnActions-1LT3_M
+  .friendsAction-__WNE9 {
+  background-color: var(--main-color) !important;
 }
 
 /* Code blocks */
