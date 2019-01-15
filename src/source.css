@@ -5241,6 +5241,76 @@ ul.bda-slist {
   content: "GIF" !important;
 }
 
+/* Message Search */
+.theme-dark .searchResultsWrap-2DKFzt,
+.theme-dark .searchHeader-1l-wpR,
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+  border: 2px solid var(--hover-color) !important;
+}
+.theme-dark
+  .searchResult-3pzFAB.expanded-v2Szsz
+  .searchResultMessage-2VxO12.hit-NLlWXA,
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+  -webkit-box-shadow: none !important;
+  background-color: none !important;
+  box-shadow: none !important;
+}
+.searchResult-3pzFAB:before,
+.theme-dark .searchResult-3pzFAB:before {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.4)),
+    to(rgba(0, 0, 0, 0.1))
+  ) !important;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.1)
+  ) !important;
+}
+.searchResult-3pzFAB:after,
+.theme-dark .searchResult-3pzFAB:after {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.1)),
+    to(rgba(0, 0, 0, 0.4))
+  ) !important;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.4)
+  ) !important;
+}
+.theme-dark .jumpButton-Ia2hRJ {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P,
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0:hover {
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+  opacity: 1 !important;
+}
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0,
+.theme-dark .searchHeader-1l-wpR .totalResults-gxvzgw {
+  color: var(--hover-bright-color) !important;
+}
+.tab-2Ixsn0,
+.totalResults-gxvzgw {
+  opacity: 0.5 !important;
+}
+.container-3ayLPN .elevationBorderHigh-2WYJ09 {
+  visibility: hidden !important;
+}
+
 /* Search */
 .search .search-bar {
   border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
@@ -5623,7 +5693,8 @@ span.discrypt:hover {
 }
 
 /* User avatar */
-.image-33JSyf, .wrapper-2F3Zv8 {
+.image-33JSyf,
+.wrapper-2F3Zv8 {
   box-shadow: 4px 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -6977,6 +7048,30 @@ img:not(.emote):not(.emoji)::after {
 /* Recent mentions tab */
 .theme-dark .footer-1kmXd4 {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .header-ykumBX .title-3pkaKd {
+  color: var(--main-color) !important;
+}
+.theme-dark .top-28JiJ- .itemSelected-1qLhcL {
+  border-bottom-color: var(--hover-bright-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.itemDefault-3Jdr52.item-PXvHYJ.notSelected-1N1G5p.tabBarItem-1Cg-MI {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+.theme-dark .mentionFilter-1PQ6ey .value-2k8Drt {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .mentionFilter-1PQ6ey .label-12YslM {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+
+/* Checkbox (roles) */
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
 }
 
 /* Search bar clear button */
@@ -9172,6 +9267,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .user-settings-games .game {
   padding: 20px !important;
 }
+.theme-dark .notDetected-33MY4s,
+.theme-light .notDetected-33MY4s {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .game-1ipmAa {
+  background: transparent !important;
+}
 
 /* Server Invites Menu */
 .invite-settings-invite-row .td {
@@ -9342,6 +9444,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Member status dot (member list) */
+.theme-dark .status-2kJpnA,
+.theme-light .status-2kJpnA,
+.channel-2QD9_O .status-1ibiUI,
+.channel-2QD9_O:hover .status-1ibiUI,
 .private-channels .channel.selected .status,
 .private-channels .status,
 .container-2Thooq .status,
@@ -9777,6 +9883,9 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Profile popout */
+.root-SR8cQa {
+  border: 1px solid var(--hover-color) !important;
+}
 .popout.popout-left.no-arrow,
 .popout.popout-right.no-arrow {
   border: 1px solid var(--main-color) !important;
@@ -10209,6 +10318,12 @@ div[class*="scroller"].channel-members {
 
 .theme-dark .rowWrapperActive-2L7i9f.rowWrapper-2fB6P0:hover {
   background: var(--hover-color) !important;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a,
+.channel-2QD9_O:hover a,
+.linkButtonIcon-Mlm5d6 {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Store tab */
