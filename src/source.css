@@ -10521,6 +10521,11 @@ div[class*="scroller"].channel-members {
 }
 
 /* Friends tab */
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
+  background: none !important;
+  background: none !important;
+  border-bottom: none !important;
+}
 .theme-dark .container-3gCOGc {
   background-color: transparent !important;
 }
