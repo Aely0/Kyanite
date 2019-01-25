@@ -9689,6 +9689,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: rgb(58, 134, 214) !important;
 }
 
+/* Message edit confirmation buttons */
+.operations-36ENbA>a {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Typing notification */
 .theme-dark .typing-2GQL18 {
   background: transparent !important;
