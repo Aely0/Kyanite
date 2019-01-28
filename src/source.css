@@ -9690,7 +9690,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Message edit confirmation buttons */
-.operations-36ENbA>a {
+.operations-36ENbA > a {
   color: var(--hover-bright-color) !important;
 }
 
@@ -10374,7 +10374,7 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-.theme-dark .itemBackground-1jfD8p:before {
+.theme-dark .itemBackground-2vEldQ:before {
   background: rgba(0, 0, 0, 0.6) !important;
 }
 
