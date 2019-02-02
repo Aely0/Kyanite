@@ -10595,6 +10595,19 @@ div[class*="scroller"].channel-members {
   background-color: var(--main-color) !important;
 }
 
+/* Spoler tag */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+  background-color: var(--hover-color) !important;
+}
+
+.theme-dark .spoilerText-3p6IlD {
+  background-color: transparent !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
