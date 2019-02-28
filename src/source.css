@@ -93,12 +93,12 @@ body::after,
   overflow-y: auto !important;
 }
 
-[class*="theme-"] .input-cIJ7To {
-  border-color: var(--main-color) !important;
-  border-width: 1px !important;
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  text-align: center !important;
-  color: var(--hover-bright-color) !important;
+.theme-dark .input-1mgnkM {
+  color: #f6f6f7 !important;
+}
+
+.theme-dark .input-cIJ7To {
+  border-color: var(--hover-dark-color) !important;
 }
 
 .userPopout-3XzG_A .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
@@ -6204,6 +6204,18 @@ pre:hover .copybutton {
   border-color: var(--main-color) !important;
 }
 
+/* Settings Overlay */
+.wrapper-3jrx9n {
+  border: 2px solid var(--main-color) !important;
+}
+.selected-mKYnfr.option-n0icdO {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+.option-n0icdO:hover {
+  background-color: var(--main-color) !important;
+}
+
 /* Settings Web Hook */
 .webhooks .webhooks-header {
   border-color: hsla(0, 0%, 100%, 0.1) !important;
@@ -7696,7 +7708,7 @@ img:not(.emote):not(.emoji)::after {
   color: var(--main-color) !important;
 }
 [class*="card"] a {
-  color: var(--main-color) !important;
+  color: var(--hover-bright-color) !important;
   font-weight: normal !important;
 }
 .user-settings-security img,
@@ -9226,10 +9238,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   border-color: transparent !important;
-  border-width: transparent !important;
   background-color: transparent !important;
-  text-align: left !important;
-  color: #f6f6f7 !important;
 }
 
 /* Server Roles menu */
@@ -9400,7 +9409,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   font-weight: 700 !important;
 }
 .regionSelect-3lf4eE:hover button {
-  background-color: var(--main-color) !important;
+  background-color: var(--hover-color) !important;
 }
 .regionSelectModal-12e-57 {
   background: rgba(0, 0, 0, 0.8) !important;
@@ -10613,6 +10622,11 @@ div[class*="scroller"].channel-members {
 
 .theme-dark .spoilerText-3p6IlD {
   background-color: transparent !important;
+}
+
+/* Title */
+.theme-dark .title-2Dc-Cb {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Code blocks */
