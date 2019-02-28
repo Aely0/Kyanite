@@ -10629,6 +10629,14 @@ div[class*="scroller"].channel-members {
   color: var(--hover-bright-color) !important;
 }
 
+/* Random buttons */
+.theme-dark .questionMark-CWEQZn {
+  background-color: var(--main-color) !important;
+}
+.theme-dark .questionMark-CWEQZn:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
