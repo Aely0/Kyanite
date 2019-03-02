@@ -10273,7 +10273,7 @@ div[class*="scroller"].channel-members {
 }
 
 /* Activity tab */
-.theme-dark .activityFeed-28jde9 {
+.theme-dark .activityFeed-1C0EmJ {
   background-color: transparent !important;
 }
 .theme-dark .emptyState-2-sT0o {
@@ -10342,6 +10342,22 @@ div[class*="scroller"].channel-members {
 }
 .lookFilled-1Gx00P .contents-18-Yxp {
   color: white !important;
+}
+.buttonColor-1agP3J,
+.cap-HS8vCE {
+  background-color: var(--main-color) !important;
+}
+.theme-dark .unwrapped-37iUtM,
+.theme-dark .empty-hejAOj {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.theme-dark .memberListItem-vHCzSI:hover,
+.theme-dark .popoutContainer-3WC9HR:hover,
+.theme-dark .unwrapped-37iUtM:hover {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .popout-3G62UL {
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Library - billing */
