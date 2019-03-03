@@ -10273,7 +10273,8 @@ div[class*="scroller"].channel-members {
 }
 
 /* Activity tab */
-.theme-dark .activityFeed-1C0EmJ {
+.theme-dark .activityFeed-1C0EmJ,
+.theme-dark .activityFeed-28jde9 {
   background-color: transparent !important;
 }
 .theme-dark .emptyState-2-sT0o {
