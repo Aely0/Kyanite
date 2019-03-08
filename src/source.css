@@ -9787,9 +9787,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Guilds bar */
+.theme-dark .wrapper-2lTRaf,
+.theme-dark .wrapper-1Rf91z,
 .theme-dark .guildsWrapper-5TJh6A {
   background-color: transparent !important;
 }
+.theme-dark .friendsOnline-2JkivW,
+.theme-light .friendsOnline-2JkivW,
 .theme-dark .friendsOnline-_wi_fM,
 .theme-light .friendsOnline-_wi_fM {
   color: hsla(0, 0%, 100%, 0.6) !important;
@@ -9799,19 +9803,24 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .guilds-wrapper .guilds .guild .guild-inner a {
   border-radius: 0px !important;
 }
+.theme-dark .circleIconButton-jET_ig,
 .theme-dark .guildsAdd-21_IdK {
   background: rgba(0, 0, 0, 0.4) !important;
   border-color: var(--hover-color) !important;
   color: var(--hover-color) !important;
 }
+.theme-dark .circleIconButton-jET_ig:hover,
 .theme-dark .guildsAdd-21_IdK:hover {
   border-color: var(--main-color) !important;
   color: var(--main-color) !important;
 }
+.theme-dark .selected-nT-gM3:before,
+.theme-dark .unread-2OHH1w:before,
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before,
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
   background: var(--main-color) !important;
 }
+.homeIcon-tEMBK1,
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
   background-color: transparent !important;
 }
