@@ -10465,6 +10465,10 @@ div[class*="scroller"].channel-members {
   background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 1)) !important;
 }
 
+.theme-dark .tile-2OwFgW {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
 .theme-dark .tileMedia-1q3guD {
   background-color: rgba(0, 0, 0, 1) !important;
 }
@@ -10524,6 +10528,14 @@ div[class*="scroller"].channel-members {
     -webkit-gradient(linear, right top, left top, from(var(--hover-color)), to(var(--main-color))) !important;
   background-image: url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),
     linear-gradient(270deg, var(--hover-color), var(--main-color)) !important;
+}
+
+.theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4 {
+  border-color: var(--main-color) !important;
+}
+
+.theme-dark .popout-2xBvMR {
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Media bar */
