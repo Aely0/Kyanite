@@ -7118,6 +7118,12 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .searchQuery-1B7rtx.selected-rZcOL- {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
+.theme-dark .option-96V44q .selected-rZc0L-:after {
+  background: transparent !important;
+}
+.theme-dark .option-96V44q:after {
+  background: transparent !important;
+}
 
 /* NSFW confirmation */
 .ui-guild-nsfw .image {
@@ -9433,6 +9439,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-radius: 5px !important;
 }
 
+/* Message edited */
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
+  border-top-color: rgb(9, 74, 104) !important;
+}
+
 /* Message timestamp */
 .chat > .content .messages .message-group h2 span.timestamp {
   color: hsla(0, 0%, 100%, 0.4) !important;
@@ -10530,7 +10541,8 @@ div[class*="scroller"].channel-members {
     linear-gradient(270deg, var(--hover-color), var(--main-color)) !important;
 }
 
-.theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4 {
+.theme-dark .overlappingBorder-3aFng4,
+.theme-light .overlappingBorder-3aFng4 {
   border-color: var(--main-color) !important;
 }
 
