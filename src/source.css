@@ -10421,7 +10421,7 @@ div[class*="scroller"].channel-members {
   color: var(--hover-bright-color) !important;
 }
 
-/* Store tab */
+/* Nitro tab */
 .theme-dark .applicationStore-1pNvnv {
   background-color: transparent !important;
 }
@@ -10430,8 +10430,43 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
+.theme-dark .tile-QA_yMc,
 .theme-dark .itemBackground-2vEldQ:before {
   background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.theme-dark .scrollerButton-1Vm5_P {
+  background-color: var(--hover-color) !important;
+}
+
+.theme-dark .gradientOverlayLeft-3w159C {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-color)),
+    to(transparent)
+  ) !important;
+  background-image: linear-gradient(
+    90deg,
+    var(--hover-color),
+    transparent
+  ) !important;
+}
+
+.theme-dark .gradientOverlayRight-3vMuS8 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    to(var(--hover-color))
+  ) !important;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    var(--hover-color)
+  ) !important;
 }
 
 .theme-dark .announcingNitro-3Ptg6m:hover,
@@ -10520,7 +10555,8 @@ div[class*="scroller"].channel-members {
 .theme-dark .content-35aVm0,
 .theme-dark .root-1bFE0x,
 .theme-dark .bodySection-jqkkIP,
-.theme-dark .row-1bU71H {
+.theme-dark .row-1bU71H,
+.theme-dark .item-2yFVoY {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -10548,6 +10584,10 @@ div[class*="scroller"].channel-members {
 
 .theme-dark .popout-2xBvMR {
   background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.theme-dark .genreTag-3QLRUJ {
+  background: var(--hover-dark-color) !important;
 }
 
 /* Media bar */
