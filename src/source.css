@@ -10730,6 +10730,14 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-dark-color) !important;
 }
 
+/* Server Discorvery */
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: transparent !important;
+}
+.theme-dark .wrapper-39oAo3 {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
