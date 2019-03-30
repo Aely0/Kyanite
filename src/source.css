@@ -10738,6 +10738,14 @@ div[class*="scroller"].channel-members {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+/* Activity Feed tab */
+.theme-dark .searchResultsContainer-1ma_dc {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.theme-dark .searchOption-8nCYo-.selected-1r_nkg {
+  background-color: var(--hover-color) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
