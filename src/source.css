@@ -10746,6 +10746,14 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 
+/* Game Library (User Settings) */
+.foreground-2aE44H {
+  stroke: var(--main-color) !important;
+}
+.theme-dark .background-yZEZik {
+  stroke: rgba(0, 0, 0, 0.8) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
