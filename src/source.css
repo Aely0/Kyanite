@@ -8110,6 +8110,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .user-settings-security button {
   color: #fff !important;
 }
+.side-8zPYf6 .item-PXvHYJ:nth-of-type(8) {
+  color: var(--hover-bright-color) !important;
+}
 
 /* BD Settings */
 .bda-slist li {
