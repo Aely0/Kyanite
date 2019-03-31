@@ -10396,6 +10396,12 @@ div[class*="scroller"].channel-members {
 .lookFilled-1Gx00P.colorWhite-rEQuAQ {
   background-color: var(--main-color) !important;
 }
+.theme-dark .inset-GQDQYw {
+  background-color: transparent !important;
+}
+.theme-dark .section-3TvauS {
+  background-color: var(--hover-color) !important;
+}
 
 /* Library - billing */
 .theme-dark .root-1BQpZw {
