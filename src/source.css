@@ -10386,6 +10386,16 @@ div[class*="scroller"].channel-members {
 .theme-dark .popout-3G62UL {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
+.coloredBackground-37Z6Gv {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.4) 10%,
+    var(--main-color) 100%
+  ) !important;
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ {
+  background-color: var(--main-color) !important;
+}
 
 /* Library - billing */
 .theme-dark .root-1BQpZw {
