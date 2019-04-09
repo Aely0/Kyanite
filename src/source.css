@@ -9956,12 +9956,13 @@ div[class*="flex-"][class*="title-"],
 
 /* Conversation list */
 .channel-2QD9_O.selected-1HYmZZ .activity-525YDR,
-.channel-2QD9_O:hover .activity-525YDR,
 .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M,
 .channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U,
-.channel-2QD9_O:hover .name-2WpE7M,
 .channel-2QD9_O:hover .nameWrapper-10v56U {
   color: var(--hover-bright-color) !important;
+}
+.channel-2QD9_O:hover .activity-525YDR {
+  color: #72767d !important;
 }
 
 /* Profile popout */
@@ -10452,7 +10453,6 @@ div[class*="scroller"].channel-members {
 }
 
 .channel-2QD9_O.selected-1HYmZZ a,
-.channel-2QD9_O:hover a,
 .linkButtonIcon-Mlm5d6 {
   color: var(--hover-bright-color) !important;
 }
