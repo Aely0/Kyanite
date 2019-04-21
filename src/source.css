@@ -5598,6 +5598,9 @@ ul.bda-slist {
   border-left-color: var(--main-color) !important;
   margin-top: -5px !important;
 }
+.theme-dark .tooltipBlack-PPG47z {
+  background-color: rgb(3, 53, 77) !important;
+}
 
 /* Member roles */
 .ui-role-list-role,
