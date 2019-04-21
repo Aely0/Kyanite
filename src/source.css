@@ -10039,14 +10039,16 @@ div[class*="flex-"][class*="title-"],
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active {
   background-color: transparent !important;
 }
-.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteHeaderBackground-30T70q,
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .autocompleteHeaderBackground-30T70q,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9 {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .theme-dark .row-rrHHJU.selected-1pIgLL {
   background: var(--hover-color) !important;
 }
-.theme-dark .autocompleteArrow-Zxoy9H, .container-VSDcQc {
+.theme-dark .autocompleteArrow-Zxoy9H,
+.container-VSDcQc {
   border: 1px solid var(--main-color) !important;
 }
 
@@ -10418,6 +10420,9 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .partyMemberOverflow-Nei5T6 {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .enabled-5QKLzu:hover {
   background-color: var(--hover-color) !important;
 }
 
