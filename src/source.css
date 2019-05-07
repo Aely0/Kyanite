@@ -7076,13 +7076,6 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
   opacity: 0.6 !important;
 }
-.headerTabBarWrapper-27xBDe .tabBar-2UKwcE .tabBarItem-1Cg-MI {
-  color: var(--hover-bright-color) !important;
-}
-.top-28JiJ- .item-PXvHYJ {
-  border-bottom: var(--hover-bright-color) !important;
-  color: var(--hover-bright-color) !important;
-}
 
 /* Checkbox (roles) */
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
@@ -9868,6 +9861,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .button-OhfaWu,
 .theme-light .button-OhfaWu {
   background-color: transparent !important;
+}
+.theme-dark .dragPlaceholder-D9-haY{
+  background-color: var(--hover-color) !important;
 }
 
 /* Left + Right */
