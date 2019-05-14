@@ -785,7 +785,7 @@ div.footer-3mqk7D > button:nth-child(1):hover {
 }
 
 [class*="theme-"] .item-1Yvehc:hover {
-  background: rgba(0, 0, 0, 0.8) !important;
+  background: var(--hover-color) !important;
 }
 
 .menu-Sp6bN1 {
@@ -6051,7 +6051,7 @@ pre:hover .copybutton {
   box-shadow: 0 0 3px var(--main-color) !important;
 }
 
-/* Channel are guard countdown*/
+/* Channel guard countdown */
 .channel-textarea-guard .countdown,
 .theme-dark .channel-textarea-guard .countdown {
   color: var(--main-color) !important;
@@ -6061,6 +6061,17 @@ pre:hover .copybutton {
 .theme-dark .channel-textarea-guard .countdown-number {
   background-color: rgba(0, 0, 0, 0.5) !important;
   border-color: transparent !important;
+}
+
+/* Voice channel limits */
+.users-i_3-kL {
+  background-color: rgb(2, 38, 63) !important;
+}
+.total-3tKGEB {
+  background-color: rgb(2, 27, 44) !important;
+}
+.total-3tKGEB:after {
+  border-right-color: rgb(2, 27, 44) !important;
 }
 
 /* Select control */
@@ -9862,7 +9873,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-light .button-OhfaWu {
   background-color: transparent !important;
 }
-.theme-dark .dragPlaceholder-D9-haY{
+.theme-dark .dragPlaceholder-D9-haY {
   background-color: var(--hover-color) !important;
 }
 
