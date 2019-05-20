@@ -10230,6 +10230,9 @@ div[class*="scroller"].channel-members {
 .theme-dark .container-cMG81i {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
+.theme-dark .focused-2bY0OD {
+  background-color: transparent !important;
+}
 
 /* Search bar date picker */
 .datePicker--XZbmJ {
