@@ -9487,6 +9487,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-dark-color) !important;
 }
 
+/* Circular close button */
+.theme-dark .closeButton-1tv5uR {
+  border-color: var(--hover-color) !important;
+}
+.theme-dark .closeButton-1tv5uR:hover {
+  background-color: var(--hover-color) !important;
+}
+
 /* Dropdown menu */
 .css-181m2lf-menu {
   background-color: rgba(0, 0, 0, 0.8) !important;
