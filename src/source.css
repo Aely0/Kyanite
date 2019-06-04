@@ -9445,6 +9445,54 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-bottom: 1px solid var(--main-color) !important;
 }
 
+/* Server Nitro Boost notification */
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+  background: rgba(0, 0, 0, 0.4)
+    url(/assets/c88e15accf612aef3b209311aaee9f29.svg) no-repeat center 23px !important;
+}
+
+/* Server boost status */
+.theme-dark .tierNoneContainer-3hhK3h {
+  background-color: transparent !important;
+}
+.theme-dark .tierHeaderLocked-1s2JJz,
+.theme-dark .tierHeaderLocked-1a2opw {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .tierBody-16Chc9,
+.theme-dark .tierBody-x9kBBp {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .carouselLeftGradientEdge-3P4spl,
+.theme-dark .carouselRightGradientEdge-2Z3H8D {
+  background: transparent !important;
+}
+.theme-dark .barBackground-2EEiLw {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .tierMarkerBackground-3q29am {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .tierLock-3CSxSX,
+.theme-dark .tierLock-1oFMOZ {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .boostCount-UFqabz {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .background-3xPPFc {
+  color: var(--hover-color) !important;
+}
+.theme-dark .tierInProgress-3mBoXq {
+  background-color: var(--hover-dark-color) !important;
+}
+
+/* Dropdown menu */
+.css-181m2lf-menu {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border-color: var(--hover-color) !important;
+}
+
 /* Message option popout box */
 .small-popout-box {
   background: rgba(0, 0, 0, 0.5) !important;
