@@ -9486,6 +9486,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .tierInProgress-3mBoXq {
   background-color: var(--hover-dark-color) !important;
 }
+.theme-dark .iconBackgroundTierOne-2LhaMB,
+.theme-dark .iconBackgroundTierThree-3qw3JX,
+.theme-dark .iconBackgroundTierTwo-3bCmdc,
+.theme-dark .iconTierNone-3xOaeG {
+  color: var(--main-color) !important;
+}
 
 /* Circular close button */
 .theme-dark .closeButton-1tv5uR {
