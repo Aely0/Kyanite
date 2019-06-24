@@ -7037,7 +7037,8 @@ img:not(.emote):not(.emoji)::after {
   margin-bottom: 5px !important;
 }
 .headerBotTag-35luy- {
-  bottom: 2px !important;
+  bottom: -2px !important;
+  height: 12px !important;
 }
 .bot-2Fta1w {
   line-height: 1.2 !important;
