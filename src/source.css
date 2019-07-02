@@ -10973,6 +10973,7 @@ div[class*="scroller"].channel-members {
 .hljs[class~="json"],
 .hljs[class~="xml"],
 .hljs[class~="less"],
+.hljs[class~="toml"],
 .hljs[class~="elixir"] {
   padding: 6px 5px 2px 5px !important;
 }
@@ -11008,6 +11009,7 @@ div[class*="scroller"].channel-members {
 .hljs[class~="json"]::before,
 .hljs[class~="xml"]::before,
 .hljs[class~="less"]::before,
+.hljs[class~="toml"]::before,
 .hljs[class~="elixir"]::before {
   width: auto !important;
   height: 15px !important;
@@ -11132,6 +11134,10 @@ div[class*="scroller"].channel-members {
 .hljs[class~="less"]::before {
   content: " Less" !important;
   background: rgba(29, 54, 93, 0.3) !important;
+}
+.hljs[class~="toml"]::before {
+  content: " Toml" !important;
+  background: rgba(63, 129, 193, 0.3) !important;
 }
 .hljs[class~="elixir"]::before {
   content: " Elixir" !important;
