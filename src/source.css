@@ -6746,6 +6746,37 @@ pre:hover .copybutton {
 .status-picker .popout-menu-item:hover .helper {
   color: rgba(170, 170, 170, 1) !important;
 }
+.theme-dark .container-3baos1,
+.theme-light .container-3baos1,
+.container-1giJp5 {
+  background: transparent !important;
+}
+
+/* Afk notification */
+.theme-dark .modal-yWgWj-,
+.theme-dark .footer-3rDWdC {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.theme-dark .modal-yWgWj- {
+  border: solid 1px var(--main-color) !important;
+}
+
+/* Voice info */
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.theme-dark .container-2x5lvQ section {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.container-2x5lvQ {
+  border: solid 1px var(--main-color) !important;
+}
+
+/* Guild list voice icon */
+.theme-dark .iconBadge-2wi9r4,
+.theme-light .iconBadge-2wi9r4 {
+  background-color: var(--main-color) !important;
+}
 
 /* Channel notice */
 .channel-notices .channel-notice.invite,
@@ -9834,7 +9865,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Channel description box */
-.theme-dark .modal-3v8ziU  {
+.theme-dark .modal-3v8ziU {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--main-color) !important;
 }
