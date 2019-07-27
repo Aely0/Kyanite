@@ -10957,6 +10957,11 @@ div[class*="scroller"].channel-members {
   stroke: rgba(0, 0, 0, 0.8) !important;
 }
 
+/* Blockquote */
+.theme-dark .markup-2BOw-j blockquote {
+  border-color: var(--main-color) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
