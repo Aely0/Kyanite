@@ -10958,8 +10958,8 @@ div[class*="scroller"].channel-members {
 }
 
 /* Blockquote */
-.theme-dark .markup-2BOw-j blockquote {
-  border-color: var(--main-color) !important;
+.theme-dark .blockquoteDivider-2hH8H6 {
+  background-color: var(--main-color) !important;
 }
 
 /* Code blocks */
