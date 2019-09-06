@@ -6755,7 +6755,7 @@ pre:hover .copybutton {
 /* Afk notification */
 .theme-dark .modal-yWgWj-,
 .theme-dark .footer-3rDWdC {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .theme-dark .modal-yWgWj- {
   border: solid 1px var(--main-color) !important;
