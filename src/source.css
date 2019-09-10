@@ -25,7 +25,8 @@ body::after,
 .invite-modal .invite-splash {
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/background.jpg") !important;
 }
-.container-2lgZY8 {
+.container-2lgZY8,
+.app-2rEoOp {
   background-color: transparent !important;
 }
 
@@ -5171,7 +5172,8 @@ ul.bda-slist {
   .channel-name
   .input-autosize-inner
   .input-autosize-input,
-.private-channels .channel.selected .channel-activity {
+.private-channels .channel.selected .channel-activity,
+.title-eS5yk3 {
   color: #bfbfbf !important;
 }
 .chat .title-wrap .title.channel-group-dm .channel-name:hover,
@@ -6539,6 +6541,9 @@ pre:hover .copybutton {
 }
 
 /* Private channels */
+.privateChannels-1nO12o {
+  background-color: transparent !important;
+}
 .private-channels .channel a {
   -webkit-transition: all 0.15s ease-in-out !important;
   transition: all 0.15s ease-in-out !important;
@@ -9809,8 +9814,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Message text */
-.theme-dark .message-group .comment .markup {
+.theme-dark .message-group .comment .markup,
+.markup-2BOw-j {
   color: hsla(0, 0%, 100%, 0.8) !important;
+  font-size: 0.95rem !important;
   /* margin-top: 0px  !important; */
 }
 .chat > .content .messages .message-group .markup {
@@ -9881,7 +9888,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Channel list bottom bar */
-.container-2Thooq {
+.container-2Thooq,
+.panels-j1Uci_ {
   background-color: rgba(0, 0, 0, 0.3) !important;
   background: rgba(0, 0, 0, 0) !important;
   margin-bottom: 0px !important;
@@ -9920,6 +9928,16 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Friends online bar */
 .guilds-wrapper .guilds .friends-online {
   border-radius: 4px !important;
+}
+
+/* Home button */
+.childWrapper-anI2G9 {
+  background-color: transparent !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--hover-dark-color) !important;
 }
 
 /* Guilds bar */
@@ -10002,6 +10020,11 @@ div[class*="scroller"].channel-members {
   border: none !important;
 }
 
+.dividerRed-MKoLlr .dividerContent-2L12VI:after,
+.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+  background-color: transparent !important;
+}
+
 /* Separator text */
 .divider-3gKybi > span {
   border-radius: 5px !important;
@@ -10073,15 +10096,17 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Status game text */
-.activity-1IYsbk strong,
+.activity-E-0FeD strong,
 .private-channels .channel .channel-activity strong {
   color: #0392fb !important;
   font-weight: 700 !important;
+  font-size: 0.7rem !important;
 }
 .activityText-sLG0UL {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
+  font-size: 0.7rem !important;
 }
 .activity-525YDR strong {
   color: var(--hover-bright-color) !important;
@@ -10276,8 +10301,10 @@ div[class*="scroller"].channel-members {
   background-color: transparent !important;
 }
 /* Username */
-.username-1cB_5E {
+.username-1cB_5E,
+.name-uJV0GL {
   font-size: 14px !important;
+  color: hsla(0, 0%, 100%, 0.65) !important;
 }
 
 /* Button color */
@@ -10287,6 +10314,11 @@ div[class*="scroller"].channel-members {
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: var(--main-color) !important;
   color: white !important;
+}
+.buttonContainer-21MN7J,
+.buttons-205you,
+.attachButtonInner-1iyZ9F {
+  opacity: 0.6 !important;
 }
 
 /* Pinned messages */
@@ -10401,13 +10433,12 @@ div[class*="scroller"].channel-members {
 /* Hover colors */
 .channel-2QD9_O.selected-1HYmZZ a,
 .channel-2QD9_O:hover a,
-.private-channels .channel:hover a,
-.private-channels .channel.selected a,
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .item-1GzJrl:hover,
 .header-2o-2hj:hover,
 .theme-dark .member-3W1lQa.popout-open,
 .theme-dark .member-3W1lQa.popout-open:hover,
-.theme-dark .member-3W1lQa:hover,
 .theme-dark .contentSelectedText-3wUhMi,
 .theme-dark .contentHoveredText-2D9B-x,
 .theme-dark .contentSelectedVoice-1WDIBM,
@@ -10422,6 +10453,7 @@ div[class*="scroller"].channel-members {
 .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
 .theme-dark .friendSelected-3J_Uh8,
+.button-14-BFJ.enabled-2cQ-u7:hover,
 [class*="autocomplete-"] .selectorSelected-1_M1WV {
   background: var(--hover-color) !important;
 }
@@ -10966,9 +10998,18 @@ div[class*="scroller"].channel-members {
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
 .markup-2BOw-j pre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-size: 11px !important;
   background: rgba(0, 0, 0, 0.2) !important;
   border-color: rgba(22, 91, 123, 0.5) !important;
+}
+.hljs-doctag,
+.hljs-literal,
+.hljs-meta .hljs-meta-string,
+.hljs-number,
+.hljs-regexp,
+.hljs-string {
+  font-size: 11px !important;
 }
 .theme-dark .hljs {
   color: #95acaf !important;
@@ -11053,7 +11094,7 @@ div[class*="scroller"].channel-members {
   display: -webkit-box !important;
   margin-top: -6px !important;
   margin-bottom: 3px !important;
-  margin-left: -6px !important;
+  margin-left: -4px !important;
   margin-right: -5px !important;
   color: #fff !important;
   border-top-left-radius: 4px !important;
