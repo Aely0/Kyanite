@@ -10017,7 +10017,7 @@ div[class*="scroller"].channel-members {
 
 .dividerContent-2L12VI:after,
 .dividerContent-2L12VI:before {
-  border: none !important;
+  background-color: transparent !important;
 }
 
 .dividerRed-MKoLlr .dividerContent-2L12VI:after,
