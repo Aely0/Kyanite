@@ -9205,6 +9205,24 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   pointer-events: none !important;
 }
 
+/* Background scrollers */
+.scroller-2TZvBN,
+.contentRegionScroller-26nc1e,
+.sidebarRegionScroller-3MXcoP,
+.scroller-1IIF0A,
+.messages-3amgkR,
+.sidebar-2K8pFh,
+.scroller-1JbKMe,
+.scroller-5bBood,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
+.scroller-9moviB,
+.theme-dark .messagesPopout-24nkyi,
+.scroller-305q3I,
+.theme-dark .bodyInner-245q0L,
+.theme-dark .footer-1fjuF6 {
+  background-color: transparent !important;
+}
+
 /* Options menu */
 .ui-standard-sidebar-view
   .sidebar-region
