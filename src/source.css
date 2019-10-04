@@ -2355,8 +2355,8 @@ textarea {
 .message-group .edit-message .channel-textarea-inner {
   border-color: var(--main-color) !important;
 }
-.channel-members .member .member-game strong {
-  color: var(--main-color) !important;
+.text-16xCj0 strong {
+  color: var(--hover-bright-color) !important;
 }
 .spoiler {
   background-color: rgba(125, 58, 114, 0.28) !important;
