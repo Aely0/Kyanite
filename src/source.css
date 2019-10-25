@@ -6767,8 +6767,7 @@ pre:hover .copybutton {
 }
 
 /* Afk notification */
-.theme-dark .modal-yWgWj-,
-.theme-dark .footer-3rDWdC {
+.theme-dark .modal-yWgWj- {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .theme-dark .modal-yWgWj- {
@@ -10486,6 +10485,7 @@ div[class*="scroller"].channel-members {
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
 .theme-dark .friendSelected-3J_Uh8,
 .button-14-BFJ.enabled-2cQ-u7:hover,
+.itemBase-1Qj4z6:hover,
 [class*="autocomplete-"] .selectorSelected-1_M1WV {
   background: var(--hover-color) !important;
 }
@@ -11024,6 +11024,31 @@ div[class*="scroller"].channel-members {
 /* Blockquote */
 .theme-dark .blockquoteDivider-2hH8H6 {
   background-color: var(--main-color) !important;
+}
+
+/* Custom status menu */
+.theme-dark .root-1gCeng {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid var(--main-color);
+}
+.theme-dark .footer-3rDWdC {
+  background-color: transparent !important;
+}
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus,
+.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+  border-color: transparent !important;
+}
+.theme-dark .popout-2sKjHu {
+  border: 1px solid var(--main-color);
+}
+
+/* Premium promo */
+.premiumPromo-yVfLiA {
+  background-color: rgba(46, 1, 1, 0.8) !important;
+}
+.premiumPromoTitle-1SQQfF,
+.premiumPromoDescription-2Mn515 {
+  color: white !important;
 }
 
 /* Code blocks */
