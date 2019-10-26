@@ -10236,6 +10236,9 @@ div[class*="flex-"][class*="title-"],
 .container-VSDcQc {
   border: 1px solid var(--main-color) !important;
 }
+.theme-dark .streamPreview-2-WUWT {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
