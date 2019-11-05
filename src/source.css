@@ -10134,13 +10134,14 @@ div[class*="flex-"][class*="title-"],
   font-weight: 700 !important;
   font-size: 0.7rem !important;
 }
-.activityText-sLG0UL {
+.activityText-OW8WYb,
+.activityText-yGKsKm {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
   font-size: 0.7rem !important;
 }
-.activity-525YDR strong {
+.activityText-yGKsKm strong {
   color: var(--hover-bright-color) !important;
 }
 
