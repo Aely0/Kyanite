@@ -9227,7 +9227,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .scroller-1JpcIc,
 .scroller-zPkAnE,
 .theme-dark .bodyInner-245q0L,
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .perksModal-fSYqOq {
   background-color: transparent !important;
 }
 
@@ -9560,6 +9561,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .footer-30ewN8 {
   background-color: transparent !important;
+}
+.theme-dark .ctaBar-2UsjF2 {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.theme-dark .barForeground-3KglC8 {
+  background-color: var(--main-color) !important;
+}
+.theme-dark .perk-2WeBWW {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .tierUnlocked-25K6Kv,
+.theme-light .tierUnlocked-25K6Kv {
+  color: var(--main-color) !important;
 }
 
 /* Circular close button */
