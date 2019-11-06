@@ -10155,8 +10155,13 @@ div[class*="flex-"][class*="title-"],
   white-space: nowrap !important;
   font-size: 0.7rem !important;
 }
+.activityText-OW8WYb strong,
 .activityText-yGKsKm strong {
   color: var(--hover-bright-color) !important;
+  font-size: 0.65rem !important;
+}
+.hoverRoll-YK53gQ {
+  font-size: 0.7rem !important;
 }
 
 /* Conversation list */
