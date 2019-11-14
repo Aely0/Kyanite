@@ -7060,7 +7060,7 @@ img:not(.emote):not(.emoji)::after {
   text-indent: 22px !important;
 }
 
-/* Emotes */
+/* User emote menu */
 .emote::after,
 .emoji::after {
   content: "" !important;
@@ -7073,6 +7073,21 @@ img:not(.emote):not(.emoji)::after {
   border: 2px dashed rgba(0, 0, 0, 0.3) !important;
   box-sizing: border-box !important;
   border-radius: 3px !important;
+}
+.emojiPicker-3m1S-j .header-1nkwgG {
+  border-bottom: 1px solid var(--main-color) !important;
+}
+.infoBar-U6oBFk,
+.emojiPicker-3m1S-j .categories-1feg4n {
+  background-color: transparent !important;
+  border-top: 1px solid var(--main-color) !important;
+}
+
+/* Emotes */
+.emoji.jumboable {
+  width: 2rem !important;
+  height: 2rem !important;
+  min-height: 2rem !important;
 }
 
 /* Member popout discord tag */
@@ -10300,14 +10315,25 @@ div[class*="flex-"][class*="title-"],
 .embedDescription-1Cuq9a {
   line-height: 1.2rem !important;
 }
-.embed-wrapper .embed-color-pill {
-  border-radius: 3px 0px 0px 3px !important;
-}
 .theme-dark [class*="footer-"] {
   border-top: 0px !important;
 }
 .embedPill-1Zntps {
   width: 3px !important;
+}
+.grid-1nZz7S {
+  padding: 0px 10px 8px 10px !important;
+}
+.embedFull-2tM8-- {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-left-width: 3px !important;
+  border-radius: 3px !important;
+}
+.embedTitle-3OXDkz {
+  font-size: 0.85rem !important;
+}
+.embedAuthorName-3mnTWj {
+  font-size: 0.8rem !important;
 }
 
 /* Help box */
