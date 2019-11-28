@@ -7096,7 +7096,7 @@ img:not(.emote):not(.emoji)::after {
 
 /* Member popout discord tag */
 .headerBotTagWithNickname--pvZ2g {
-  margin-top: 2px;
+  margin-top: 2px !important;
   margin-bottom: 5px !important;
 }
 .headerBotTag-35luy- {
@@ -10686,6 +10686,21 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .enabled-5QKLzu:hover {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .footer-3J5oP4 {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+.theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8 {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--main-color) !important;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .player-3zB-0D:hover {
   background-color: var(--hover-color) !important;
 }
 
