@@ -179,11 +179,6 @@ body::after,
   background-size: contain !important;
 }
 
-[class*="theme-"] .channelTextAreaEnabled-iusU9o [class*="inner"] {
-  background: rgba(0, 0, 0, 0.6) !important;
-  border: 1px solid var(--main-color) !important;
-}
-
 .instant-invite-modal div[class*="form"] {
   background: rgba(0, 0, 0, 0.7) !important;
 }
@@ -10142,7 +10137,7 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Message bar */
-.theme-dark .inner-zqa7da {
+.scrollableContainer-38zsVD {
   background-color: rgba(0, 0, 0, 0.5) !important;
   border: 1px solid var(--main-color) !important;
   border-radius: 5px !important;
@@ -10444,6 +10439,7 @@ div[class*="scroller"].channel-members {
 
 /* Search bar */
 .theme-dark .searchBar-3dMhjb,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .darkTheme-3uETC4.container-2XeR5Z,
 .theme-dark .container-2XeR5Z,
 .theme-dark .container-cMG81i {
