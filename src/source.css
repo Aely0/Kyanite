@@ -11137,6 +11137,8 @@ div[class*="scroller"].channel-members {
 .theme-dark .hljs-quote {
   color: #6c7f86 !important;
 }
+.hljs[class~="c"],
+.hljs[class~="cpp"],
 .hljs[class~="cs"],
 .hljs[class~="java"],
 .hljs[class~="sql"],
@@ -11173,6 +11175,8 @@ div[class*="scroller"].channel-members {
 .hljs[class~="elixir"] {
   padding: 6px 5px 2px 5px !important;
 }
+.hljs[class~="c"]::before,
+.hljs[class~="cpp"]::before,
 .hljs[class~="cs"]::before,
 .hljs[class~="java"]::before,
 .hljs[class~="sql"]::before,
@@ -11220,6 +11224,14 @@ div[class*="scroller"].channel-members {
   border-top-right-radius: 4px !important;
   border-bottom: 0px !important;
   line-height: 15px !important;
+}
+.hljs[class~="c"]::before {
+  content: " C" !important;
+  background: rgba(85, 85, 85, 0.5) !important;
+}
+.hljs[class~="cpp"]::before {
+  content: " C++" !important;
+  background: rgba(243, 75, 125, 0.3) !important;
 }
 .hljs[class~="cs"]::before {
   content: " C#" !important;
