@@ -10108,9 +10108,10 @@ div[class*="scroller"].channel-members {
 /* New messages separator */
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr > span {
   background: transparent !important;
-  color: var(--main-color) !important;
+  color: rgba(5, 131, 189, 0.8) !important;
   opacity: 1 !important;
-  border: 1px solid var(--main-color) !important;
+  border-bottom: 1px solid var(--main-color) !important;
+  margin-top: 10px !important;
 }
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr > div {
   background: var(--main-color) !important;
