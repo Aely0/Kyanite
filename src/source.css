@@ -9841,22 +9841,21 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Role name box */
 .membersGroup-v9BXpm {
-  color: var(--main-color) !important;
+  color: rgba(5, 131, 189, 0.8) !important;
   font-size: 12px !important;
   text-transform: capitalize !important;
   letter-spacing: 0.08em !important;
-  border: 1px solid !important;
-  border-color: transparent !important;
-  width: 220px !important;
+  border-bottom: 1px solid var(--background-modifier-accent) !important;
+  width: auto !important;
   font-weight: 700 !important;
   height: 25px !important;
   padding-top: 2px !important;
   text-align: center !important;
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  background-color: transparent !important;
   margin-top: 20px !important;
   margin-bottom: 10px !important;
   margin-left: 10px !important;
-  border-radius: 4px !important;
+  border-radius: 0px !important;
 }
 
 /* Channel and category names */
@@ -10086,12 +10085,13 @@ div[class*="scroller"].channel-members {
 }
 
 /* Separator text */
-.divider-3gKybi > span {
-  border-radius: 5px !important;
+.divider-3gKybi {
+  border-radius: 0px !important;
   text-transform: capitalize !important;
-  text-align: center !important;
-  width: 20% !important;
-  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+  text-align: left !important;
+  width: auto !important;
+  border-bottom: 1px solid var(--background-modifier-accent) !important;
+  margin-top: -20px !important;
 }
 
 /* Day separator */
@@ -10099,8 +10099,7 @@ div[class*="scroller"].channel-members {
   background: rgba(0, 0, 0, 0.25) !important;
 }
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
-  background-color: rgba(0, 0, 0, 0.25) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background-color: transparent !important;
 }
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
   background: rgba(255, 255, 255, 0.2) !important;
