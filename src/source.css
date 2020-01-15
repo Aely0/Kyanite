@@ -10119,6 +10119,10 @@ div[class*="scroller"].channel-members {
 .theme-dark .divider-3gKybi span {
   background-color: var(--main-color) !important;
 }
+.dividerRed-MKoLlr .dividerContent-2L12VI:after,
+.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+  border-bottom: none !important;
+}
 
 /* Unread messages bar */
 .newMessagesBar-mujexs {
