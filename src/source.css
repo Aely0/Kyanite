@@ -10145,10 +10145,10 @@ div[class*="flex-"][class*="title-"],
 
 /* Message markdown toolbar */
 .toolbar-2bjZV7 {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .toolbar-2bjZV7:before {
-  border-top-color: rgba(0, 0, 0, 0.8) !important;
+  border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 .active-2HPddW,
 .hover-28QbSq:hover {
