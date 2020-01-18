@@ -9406,6 +9406,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: transparent !important;
 }
 
+/* Server Options button */
+.sidebar-2K8pFh {
+  border-radius: 0px !important;
+}
+
 /* Server Options Menu (Popup) */
 .theme-dark .menu-Sp6bN1 {
   background: rgba(0, 0, 0, 0.8) !important;
