@@ -6927,6 +6927,11 @@ pre:hover .copybutton {
   border: none !important;
 }
 
+/* File upload */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background: var(--hover-dark-color) !important;
+}
+
 /* Channel text area */
 .channel-textarea-inner {
   border: 2px solid hsla(0, 0%, 100%, 0.1) !important;
