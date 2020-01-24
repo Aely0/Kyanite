@@ -5853,6 +5853,9 @@ pre:hover .copybutton {
 .theme-dark .message-group .embed .embed-author-name {
   color: var(--main-color) !important;
 }
+.markup-2BOw-j a + a {
+  margin-left: 0px !important;
+}
 
 /* Messages popout */
 .themed-popout {
