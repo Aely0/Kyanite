@@ -11076,6 +11076,19 @@ div[class*="scroller"].channel-members {
   .friendsAction-__WNE9 {
   background-color: var(--main-color) !important;
 }
+.theme-dark .container-1D34oG,
+.peopleList-3c4jOR,
+.nowPlayingColumn-2sl4cE {
+  background-color: transparent !important;
+}
+.emptyCard-1RJw8n,
+.actionButton-uPB8Fs {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.peopleListItem-2nzedh:hover,
+.actionButton-uPB8Fs:hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Spoler tag */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
