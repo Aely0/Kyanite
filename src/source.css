@@ -11089,6 +11089,16 @@ div[class*="scroller"].channel-members {
 .actionButton-uPB8Fs:hover {
   background-color: var(--hover-color) !important;
 }
+.wrapper-3D2qGf {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.theme-dark .popout-13LQ_3 {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.theme-dark .enabled-1t_Gxm:hover,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Spoler tag */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
