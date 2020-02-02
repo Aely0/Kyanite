@@ -9539,6 +9539,31 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-bottom: 1px solid var(--main-color) !important;
 }
 
+/* Server join popup */
+.theme-dark .contentWrapper-3WC1ID {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-left: 2px solid var(--main-color) !important;
+}
+.pill-1dHPfk {
+  background-color: var(--hover-color) !important;
+}
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+  color: var(--main-color) !important;
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--main-color) 0,
+    var(--main-color) 2px,
+    transparent 0
+  ) !important;
+}
+.subTitle-3TUjmF {
+  color: var(--main-color) !important;
+}
+
 /* Server Nitro Boost notification */
 .channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
   background: rgba(0, 0, 0, 0.4)
