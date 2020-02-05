@@ -10304,9 +10304,9 @@ div[class*="flex-"][class*="title-"],
   text-align: center !important;
 }
 
-/* Disable blocked messages bar */
-.theme-dark .messageGroupBlocked-3wrQQX {
-  display: none !important;
+/* Blocked messages */
+.blockedMessageText-1fRjos {
+  font-size: 15px !important;
 }
 
 /* Status game text */
