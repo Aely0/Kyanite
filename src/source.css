@@ -25,6 +25,8 @@ body::after,
 .invite-modal .invite-splash {
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/background.jpg") !important;
 }
+.content-MLh4nU,
+.container-16j22k,
 .container-2lgZY8,
 .app-2rEoOp,
 .bg-h5JY_x {
@@ -5307,6 +5309,10 @@ ul.bda-slist {
 .container-3ayLPN .elevationBorderHigh-2WYJ09 {
   visibility: hidden !important;
 }
+.theme-dark .footerSeparator-M9dQY1 {
+  -webkit-box-shadow: 0 -1px 0 var(--hover-color) !important;
+  box-shadow: 0 -1px 0 var(--hover-color) !important;
+}
 
 /* Search */
 .search .search-bar {
@@ -6796,7 +6802,9 @@ pre:hover .copybutton {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .theme-dark .modal-yWgWj- {
-  border: solid 1px var(--main-color) !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* Voice info */
@@ -10699,7 +10707,7 @@ div[class*="scroller"].channel-members {
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU,
 .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
-.theme-dark .friendSelected-3J_Uh8,
+.theme-dark .friendSelected-1sa4bG,
 .button-14-BFJ.enabled-2cQ-u7:hover,
 .itemBase-1Qj4z6:hover,
 [class*="autocomplete-"] .selectorSelected-1_M1WV {
@@ -11308,6 +11316,29 @@ img:not(.emote):not(.emoji)::after {
   display: none !important;
 }
 
+/* Calls */
+.incomingCallInner-2VmFiR {
+  border: 1px solid var(--main-color) !important;
+  background: rgba(0, 0, 0, 0.85) !important;
+}
+.theme-dark .wrapper-29NfPK {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.content-yTz4x3:before {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .quickSelectPopout-X1hvgV {
+  background: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-dark .quickSelectPopoutOption-opKBx9:hover {
+  background-color: var(--hover-color) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
@@ -11405,6 +11436,8 @@ img:not(.emote):not(.emoji)::after {
 .hljs[class~="xml"]::before,
 .hljs[class~="less"]::before,
 .hljs[class~="toml"]::before,
+.hljs[class~="ex"]::before,
+.hljs[class~="exs"]::before,
 .hljs[class~="elixir"]::before {
   width: auto !important;
   height: 15px !important;
@@ -11542,6 +11575,8 @@ img:not(.emote):not(.emoji)::after {
   content: " Toml" !important;
   background: rgba(63, 129, 193, 0.3) !important;
 }
+.hljs[class~="ex"]::before,
+.hljs[class~="exs"]::before,
 .hljs[class~="elixir"]::before {
   content: " Elixir" !important;
   background: rgba(65, 24, 101, 0.6) !important;
