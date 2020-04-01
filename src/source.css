@@ -10316,6 +10316,14 @@ div[class*="flex-"][class*="title-"],
   background: transparent !important;
 }
 
+/* Message context menu */
+.button-1I8KM5 {
+  background-color: var(--hover-color) !important;
+}
+.button-1I8KM5:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
 .textAreaEnabledSubmitting-1cJX-K {
