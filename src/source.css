@@ -10038,10 +10038,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: transparent !important;
 }
 
-/* Channel description popup */
+/* Popup backdrop */
 .backdropWithLayer-3_uhz4 {
   opacity: 1 !important;
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.backdrop-1wrmKB {
+  opacity: 0 !important;
 }
 
 /* Listen Along bar */
@@ -11302,7 +11305,7 @@ div[class*="scroller"].channel-members {
 
 /* Custom status menu */
 .theme-dark .root-1gCeng {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--main-color) !important;
 }
 .theme-dark .footer-3rDWdC {
