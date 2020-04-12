@@ -9068,8 +9068,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Invite message */
 .theme-dark .wrapper-35wsBm {
-  background: rgba(0, 0, 0, 0) !important;
-  border-color: var(--main-color) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 12px !important;
 }
 
 /* CSS syntax highlighting */
