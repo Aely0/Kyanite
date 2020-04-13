@@ -10040,12 +10040,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Popup backdrop */
-.backdropWithLayer-3_uhz4 {
-  opacity: 1 !important;
-  background-color: rgba(0, 0, 0, 0.8) !important;
-}
+.backdropWithLayer-3_uhz4,
 .backdrop-1wrmKB {
   opacity: 0 !important;
+}
+.modal-3c3bKg {
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 /* Listen Along bar */
