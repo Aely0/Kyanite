@@ -6702,6 +6702,18 @@ pre:hover .copybutton {
   -webkit-filter: grayscale(1) !important;
   filter: grayscale(1) brightness(200%) !important;
 }
+.wrapper-2qzCYF.minimum-28Z35l {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.centerButton-3CaNcJ {
+  background: var(--hover-dark-color) !important;
+}
+.centerButton-3CaNcJ:hover {
+  background: var(--hover-bright-color) !important;
+}
+.controlButton-2MhVEL.leaveButton-2YnTyt {
+  background: #f04747 !important;
+}
 
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
@@ -6795,6 +6807,10 @@ pre:hover .copybutton {
 .theme-light .container-3baos1,
 .container-1giJp5 {
   background: transparent !important;
+}
+.noiseCancellationPopout-iRK2A0 {
+  background: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--main-color) !important;
 }
 
 /* Afk notification */
@@ -11228,6 +11244,7 @@ div[class*="scroller"].channel-members {
 .actionButton-uPB8Fs {
   background-color: rgba(0, 0, 0, 0.25) !important;
 }
+.theme-dark .inset-3sAvek,
 .peopleListItem-2nzedh:hover,
 .actionButton-uPB8Fs:hover {
   background-color: var(--hover-color) !important;
@@ -11235,8 +11252,8 @@ div[class*="scroller"].channel-members {
 .wrapper-3D2qGf {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
-.theme-dark .popout-13LQ_3 {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+.theme-dark .popout-38lTFE {
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .theme-dark .enabled-1t_Gxm:hover,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
