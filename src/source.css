@@ -110,6 +110,10 @@ body::after,
 }
 
 .theme-dark .input-cIJ7To {
+  border-color: var(--hover-color) !important;
+}
+
+.theme-dark .input-cIJ7To:focus {
   border-color: var(--hover-dark-color) !important;
 }
 
@@ -11428,7 +11432,7 @@ div[class*="scroller"].channel-members {
 /* Custom status menu */
 .theme-dark .root-1gCeng {
   background-color: rgba(0, 0, 0, 0.85) !important;
-  border: 1px solid var(--main-color) !important;
+  border: 1px solid var(--hover-color) !important;
 }
 .theme-dark .footer-3rDWdC {
   background-color: transparent !important;
