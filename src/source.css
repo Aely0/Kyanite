@@ -10687,7 +10687,8 @@ div[class*="scroller"].channel-members {
 }
 
 /* Pinned messages */
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--hover-color) !important;
 }
@@ -10697,7 +10698,9 @@ div[class*="scroller"].channel-members {
   border: none !important;
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
-.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX,
+.header-2-Imhb,
+.header-2-Imhb .tab-ck0077 {
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -10717,9 +10720,18 @@ div[class*="scroller"].channel-members {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 .messageContainer-gbhlwo,
-.channelHeader-3Gd2xq {
+.channelHeader-3Gd2xq,
+.messages-3G3erD,
+.tutorial-3w5I9h {
   background-color: var(--hover-color) !important;
   border-radius: 0px !important;
+}
+.tutorialIcon-3f1miQ {
+  background-color: var(--hover-dark-color) !important;
+  color: white !important;
+}
+.collapseButton-2ZsEjz {
+  color: var(--hover-bright-color) !important;
 }
 .tertiary-aMXF0g {
   background-color: rgba(0, 0, 0, 0.6) !important;
