@@ -9829,7 +9829,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Member list */
-.theme-dark .members-1998pB {
+.theme-dark .members-1998pB,
+.theme-dark .members-1998pB > div {
   background-color: transparent !important;
 }
 .member-3W1lQa {
