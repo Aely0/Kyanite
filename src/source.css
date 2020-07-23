@@ -9817,6 +9817,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   -webkit-box-shadow: inset 0 1px 0 var(--hover-color) !important;
   box-shadow: inset 0 1px 0 var(--hover-color) !important;
 }
+.theme-dark .message-2qRu38 {
+  background-color: var(--hover-color) !important;
+}
 
 /* Load more messages */
 .hasMore-3e72_v {
