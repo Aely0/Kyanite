@@ -11542,6 +11542,12 @@ img:not(.emote):not(.emoji)::after {
   display: none !important;
 }
 
+/* Login page */
+.theme-dark.authBox-hW6HRx {
+  background: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
