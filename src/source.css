@@ -9786,9 +9786,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Dropdown menu */
-.css-181m2lf-menu {
+.css-n57xjs-menu {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border-color: var(--hover-color) !important;
+}
+[class^="css-"][class$="-option"]:hover {
+  background-color: var(--hover-color) !important;
 }
 
 /* Message option popout box */
