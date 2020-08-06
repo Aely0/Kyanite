@@ -11540,6 +11540,24 @@ img:not(.emote):not(.emoji)::after {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
 
+/* Language tab */
+.theme-dark .item-3eFBNF {
+  -webkit-box-shadow: inset 0 -1px 0 0 var(--hover-color) !important;
+  box-shadow: inset 0 -1px 0 0 var(--hover-color) !important;
+}
+.item-3eFBNF.selected-2DeaDa {
+  background-color: var(--hover-color) !important;
+}
+.item-3eFBNF:focus,
+.item-3eFBNF:focus-within,
+.item-3eFBNF:hover {
+  background-color: var(--hover-color) !important;
+}
+.checked-3_4uQ9 {
+  border-color: var(--hover-bright-color) !important;
+  background-color: var(--hover-bright-color) !important;
+}
+
 /* Modded/Corrupted Discord banner */
 .noticeDanger-7u-yT9 {
   display: none !important;
