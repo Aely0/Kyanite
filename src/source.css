@@ -229,7 +229,7 @@ input {
 }
 
 [class*="titleChecked"] {
-  color: var(--main-color) !important;
+  color: var(--hover-bright-color) !important;
 }
 
 .content-column [class*="checkbox"] {
