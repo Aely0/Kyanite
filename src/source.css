@@ -10738,13 +10738,16 @@ div[class*="scroller"].channel-members {
   border: 1px solid var(--main-color) !important;
 }
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
-  -webkit-box-shadow: 0 0 6px 4px var(--hover-color) !important;
+  -webkit-box-shadow: 0 0 2px 4px var(--hover-color) !important;
   background-color: var(--hover-color) !important;
-  box-shadow: 0 0 6px 4px var(--hover-color) !important;
+  box-shadow: 0 0 2px 4px var(--hover-color) !important;
 }
 .theme-dark .jumpButton-3DTcS_ {
   background-color: transparent !important;
   color: rgba(255, 255, 255, 0.8) !important;
+}
+.jumpButton-2dvRSC {
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .messageContainer-gbhlwo,
 .channelHeader-3Gd2xq,
