@@ -9557,6 +9557,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: transparent !important;
 }
 
+/* Server Enable Community */
+.guildDetails-2p1NmK,
+.featureCard-1RR4Tl,
+.featureIcon-3p1TC_ {
+  background-color: var(--hover-color) !important;
+}
+
+/* Server Template */
+.descriptionBox-1EKQKL {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
 /* Server Options button */
 .sidebar-2K8pFh {
   border-radius: 0px !important;
