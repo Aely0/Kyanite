@@ -9776,6 +9776,16 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-light .tierUnlocked-25K6Kv {
   color: var(--main-color) !important;
 }
+.tierMarkerAccomplished-2MiXeg,
+.tierMarkerInProgress-24LMzJ {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+}
+.barSecondary-3B1aP2 {
+  background-color: var(--hover-bright-color) !important;
+}
+.tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Circular close button */
 .theme-dark .closeButton-1tv5uR {
