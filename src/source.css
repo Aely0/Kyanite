@@ -9544,6 +9544,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: transparent !important;
 }
 
+/* Server Overview */
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--main-color) !important;
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:active {
+  background-color: var(--hover-color) !important;
+}
+
 /* Server Invites Menu */
 .invite-settings-invite-row .td {
   padding: 10px !important;
