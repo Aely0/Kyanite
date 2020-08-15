@@ -6062,7 +6062,7 @@ pre:hover .copybutton {
 }
 
 /* Message list */
-.messages-3amgkR {
+.messagesWrapper-1sRNjr {
   margin-bottom: 8px !important;
 }
 .scroller-3sQKXg:after {
@@ -6070,6 +6070,10 @@ pre:hover .copybutton {
 }
 .message-2qnXI6.selected-2P5D_Z,
 .message-2qnXI6:not(.mentioned-xhSam7):hover {
+  background-color: transparent !important;
+}
+.wrapper-1F5TKx,
+.wrapper-3vR61M {
   background-color: transparent !important;
 }
 
@@ -6410,10 +6414,10 @@ pre:hover .copybutton {
 .new-messages-indicator.new-messages-indicator-mention {
   background-color: var(--main-color) !important;
 }
-.theme-dark .jumpToPresentBar-9P20AM {
+.theme-dark .jumpToPresentBar-G1R9s6 {
   background-color: var(--main-color) !important;
   padding-bottom: 0px !important;
-  margin-bottom: 6px !important;
+  margin-bottom: -2px !important;
 }
 .protip {
   color: #a8a8a8 !important;
@@ -10428,7 +10432,7 @@ div[class*="scroller"].channel-members {
 }
 
 /* Unread messages bar */
-.newMessagesBar-mujexs {
+.newMessagesBar-265mhP {
   background-color: var(--main-color) !important;
 }
 .theme-dark .hasMore-3e72_v button {
