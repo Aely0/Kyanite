@@ -3,12 +3,12 @@
 
 /* Tweakable adjustments */
 :root {
-  --main-color: rgba(22, 91, 123, 1) !important;
-  --soft-bright-color: rgb(133, 206, 255) !important;
+  --main-color: rgb(115, 22, 123) !important;
+  --soft-bright-color: rgba(255, 133, 255, 1) !important;
   --danger-bright-color: rgb(255, 133, 133) !important;
-  --hover-color: rgba(22, 91, 123, 0.3) !important;
-  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+  --hover-color: rgba(123, 22, 123, 0.3) !important;
+  --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
+  --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
   --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
   --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
   --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
@@ -25,5 +25,5 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important;
+  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
