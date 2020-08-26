@@ -1,9 +1,24 @@
 /* Root variables (reused theme accents) */
-:root {
+/* :root {
   --main-color: rgba(22, 91, 123, 1) !important;
+  --soft-bright-color: rgb(133, 206, 255) !important;
+  --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
   --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
   --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+  --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
+  --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
+  --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
+  --background-blur: 0px !important;
+  --background-brightness: 100% !important;
+} */
+:root {
+  --main-color: rgb(115, 22, 123) !important;
+  --soft-bright-color: rgba(255, 133, 255, 1) !important;
+  --danger-bright-color: rgb(255, 133, 133) !important;
+  --hover-color: rgba(123, 22, 123, 0.3) !important;
+  --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
+  --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
   --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
   --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
   --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
@@ -26,7 +41,8 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/background.jpg") !important;
+  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important;
+  /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important; */
 }
 .content-MLh4nU,
 .container-16j22k,
@@ -1014,13 +1030,15 @@ div.footer-3mqk7D > button:nth-child(1):hover {
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-  opacity: 0.8 !important;
-  background-color: var(--main-color) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--soft-bright-color) !important;
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background-color: var(--main-color) !important;
+  background-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
@@ -5549,7 +5567,7 @@ ul.bda-slist {
   background-color: var(--hover-color) !important;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
-  background-color: rgba(22, 91, 123, 0.6) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 .reaction-1hd86g:hover .reactionCount-2mvXRV,
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
@@ -5629,11 +5647,19 @@ ul.bda-slist {
   margin-top: -5px !important;
 }
 .theme-dark .tooltipBlack-PPG47z {
-  background-color: rgb(3, 53, 77) !important;
+  color: var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
 }
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
 .theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-  border-top-color: rgb(3, 53, 77) !important;
+  border-top-color: var(--main-color) !important;
+}
+.tooltipGreen-WdeQwd {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
+}
+.tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color) !important;
 }
 
 /* Member roles */
@@ -5801,6 +5827,18 @@ pre:hover .copybutton {
   color: var(--main-color) !important;
   -webkit-transform: none !important;
   transform: none !important;
+}
+
+/* Danger (Red) button */
+button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
+  color: var(--danger-bright-color) !important;
+  background-color: var(--hover-danger-bright-color) !important;
+}
+button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN:hover {
+  opacity: 0.8 !important;
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover .contents-18-Yxp {
+  background-image: none !important;
 }
 
 /* Send embeds */
@@ -6423,6 +6461,31 @@ pre:hover .copybutton {
   color: #a8a8a8 !important;
 }
 
+/* Server settings */
+.layers-3iHuyZ.layers-3q14ss
+  > div:nth-child(2)
+  > div
+  > div
+  > div.sidebarRegion-VFTUkN
+  > div
+  > nav
+  > div
+  > div:nth-child(14) {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+}
+.layers-3iHuyZ.layers-3q14ss
+  > div:nth-child(2)
+  > div
+  > div
+  > div.sidebarRegion-VFTUkN
+  > div
+  > nav
+  > div
+  > div:nth-child(14):hover {
+  background-color: var(--hover-color) !important;
+}
+
 /* Server settings emoji tab */
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
   color: #d0d0d0 !important;
@@ -6959,6 +7022,13 @@ pre:hover .copybutton {
 }
 #instant-invite-modal-advanced .form-actions {
   padding: 18px 20px !important;
+}
+.theme-dark .inviteRow-2L02ae:hover {
+  background-color: var(--hover-color) !important;
+}
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--hover-dark-color) !important;
 }
 
 /* Progress bar */
@@ -7864,7 +7934,7 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--main-color) !important;
 }
 .theme-dark .bar-2Qqk5Z {
-  background: rgb(11, 42, 58) !important;
+  background: var(--hover-color) !important;
 }
 .ui-standard-sidebar-view,
 .ui-standard-sidebar-view .sidebar-region,
@@ -8332,6 +8402,27 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .user-settings-security button {
   color: #fff !important;
+}
+.layers-3iHuyZ.layers-3q14ss
+  > div:nth-child(2)
+  > div
+  > div.sidebarRegion-VFTUkN
+  > div
+  > nav
+  > div
+  > div:nth-child(8) {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+}
+.layers-3iHuyZ.layers-3q14ss
+  > div:nth-child(2)
+  > div
+  > div.sidebarRegion-VFTUkN
+  > div
+  > nav
+  > div
+  > div:nth-child(8):hover {
+  background-color: var(--hover-color) !important;
 }
 
 /* BD Settings */
@@ -9558,8 +9649,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Invites Menu */
-.invite-settings-invite-row .td {
-  padding: 10px !important;
+.inviteSettingsInviteRow-3p2O-N {
+  padding-left: 12px !important;
 }
 
 /* Server Ban Menu */
@@ -9593,6 +9684,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .item-1GzJrl:hover {
   background-color: var(--main-color) !important;
+}
+.colorBrand-ROmMP1 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Server Options Menu (Save Changes) */
@@ -10021,10 +10115,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: rgba(43, 152, 177, 0.2) !important;
 }
 .mentioned-xhSam7:before {
-  background-color: rgb(43, 152, 177) !important;
+  background-color: var(--hover-bright-color) !important;
 }
 .mentioned-xhSam7 {
-  background-color: rgba(43, 152, 177, 0.2) !important;
+  background-color: var(--hover-color) !important;
 }
 
 /* Mention others */
@@ -10036,10 +10130,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .wrapper-3WhCwL {
   padding: none !important;
 }
-
 .theme-dark .wrapper-3WhCwL {
-  background-color: rgba(36, 173, 236, 0.1) !important;
-  color: rgba(36, 173, 236, 1) !important;
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .theme-dark .wrapperHover-1GktnT:hover {
   background-color: rgba(36, 173, 236, 0.1) !important;
@@ -10403,7 +10496,7 @@ div[class*="scroller"].channel-members {
   border-bottom: none !important;
 }
 .isUnread-3Ef-o9 {
-  border-color: var(--main-color) !important;
+  border-color: var(--hover-bright-color) !important;
 }
 .isUnread-3Ef-o9 .content-1o0f9g {
   color: var(--hover-bright-color) !important;
@@ -10622,6 +10715,22 @@ div[class*="flex-"][class*="title-"],
 }
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
   border-top-color: var(--hover-color) !important;
+}
+.headerFill-adLl4x,
+.activity-1ythUs {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+.listRow-hutiT_:hover {
+  background-color: var(--hover-color) !important;
+}
+.buttonInvertedPurple-WtBglX {
+  background-color: var(--hover-color) !important;
+}
+.topSectionStreaming-1Tpf5X {
+  background: var(--main-color) !important;
+}
+.body-3ND3kc > div > div > div > div > div > span > div > svg > path {
+  fill: var(--main-color) !important;
 }
 
 /* Embeds */
@@ -10860,14 +10969,14 @@ div[class*="scroller"].channel-members {
   color: var(--main-color) !important;
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
-  background-color: rgba(22, 91, 123, 0.5) !important;
-  color: var(--main-color) !important;
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .theme-dark
   .calendarPicker-2yf6Ci
   .react-datepicker__day.react-datepicker__day--disabled:hover {
-  background-color: rgba(22, 91, 123, 0.2) !important;
-  color: var(--main-color) !important;
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .theme-dark
   .calendarPicker-2yf6Ci
@@ -10878,7 +10987,7 @@ div[class*="scroller"].channel-members {
 .theme-dark
   .calendarPicker-2yf6Ci
   .react-datepicker__day.react-datepicker__day--selected:hover {
-  background-color: rgba(22, 91, 123, 0.5) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 .theme-dark
   .calendarPicker-2yf6Ci
@@ -10901,7 +11010,7 @@ div[class*="scroller"].channel-members {
 }
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
   background-color: rgb(0, 0, 0) !important;
-  color: rgb(220, 220, 220) !important;
+  color: var(--soft-bright-color) !important;
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: rgba(0, 0, 0, 0.8) !important;
@@ -11037,7 +11146,7 @@ div[class*="scroller"].channel-members {
   mask: linear-gradient(#000, rgba(0, 0, 0, 0.4)) !important;
 }
 .lookFilled-1Gx00P .contents-18-Yxp {
-  color: white !important;
+  color: var(--soft-bright-color) !important;
 }
 .buttonColor-1agP3J,
 .cap-HS8vCE {
@@ -11447,6 +11556,32 @@ div[class*="scroller"].channel-members {
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
   background-color: var(--hover-color) !important;
 }
+.tabBar-ZmDY9v .item-3HknzM {
+  background-color: transparent !important;
+}
+.container-1D34oG
+  > section
+  > div.children-19S4PO
+  > div.tabBar-ZmDY9v.topPill-30KHOu
+  > div:nth-child(5) {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Links */
+.lookFilled-1Gx00P .contents-18-Yxp,
+.lookInverted-2D7oAl .contents-18-Yxp,
+.lookLink-9FtZy- .contents-18-Yxp,
+.lookOutlined-3sRXeN .contents-18-Yxp,
+.fakeLink-26oLcc,
+.anchor-3Z-8Bb {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Brand colored button */
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+  color: var(--soft-bright-color) !important;
+  border-color: var(--soft-bright-color) !important;
+}
 
 /* Spoler tag */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
@@ -11581,6 +11716,15 @@ img:not(.emote):not(.emoji)::after {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
 
+/* Voice & Video tab */
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-dark-color) !important;
+}
+.option-n0icdO {
+  background-color: var(--hover-color) !important;
+}
+
 /* Language tab */
 .theme-dark .item-3eFBNF {
   -webkit-box-shadow: inset 0 -1px 0 0 var(--hover-color) !important;
@@ -11597,6 +11741,13 @@ img:not(.emote):not(.emoji)::after {
 .checked-3_4uQ9 {
   border-color: var(--hover-bright-color) !important;
   background-color: var(--hover-bright-color) !important;
+}
+
+/* Checkbox checked */
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9
+  > svg
+  > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Modded/Corrupted Discord banner */
@@ -11617,7 +11768,7 @@ img:not(.emote):not(.emoji)::after {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-size: 11px !important;
   background: rgba(0, 0, 0, 0.2) !important;
-  border-color: rgba(22, 91, 123, 0.5) !important;
+  border-color: var(--hover-color) !important;
 }
 .hljs-doctag,
 .hljs-literal,
