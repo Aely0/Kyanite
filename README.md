@@ -8,4 +8,4 @@ Ment to be used with [leovoel's BeautifulDiscord](https://github.com/leovoel/Bea
 ## Kyanite
 ![Kyanite](https://github.com/Andris0/Kyanite/blob/v1.4/screenshots/kyanite.png)
 ## Magenta
-![Kyanite](https://github.com/Andris0/Kyanite/blob/v1.4/screenshots/magenta.png)
+![Magenta](https://github.com/Andris0/Kyanite/blob/v1.4/screenshots/magenta.png)
