@@ -41,8 +41,8 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important;
-  /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important; */
+  /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important; */
+  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
 .content-MLh4nU,
 .container-16j22k,
@@ -6942,6 +6942,11 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .theme-dark .iconBadge-2wi9r4,
 .theme-light .iconBadge-2wi9r4 {
   background-color: var(--main-color) !important;
+}
+
+/* Guild list muted tag */
+.colorMuted-HdFt4q {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Channel notice */
