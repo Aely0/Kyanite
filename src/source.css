@@ -6949,6 +6949,11 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   color: var(--hover-bright-color) !important;
 }
 
+/* Guild list partner badge */
+.partnered-3nJayh {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Channel notice */
 .channel-notices .channel-notice.invite,
 .channel-notices .channel-notice.quickswitcher-notice {
