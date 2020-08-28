@@ -6950,7 +6950,8 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 
 /* Guild list partner badge */
-.partnered-3nJayh {
+.partnered-3nJayh,
+.background-2uufRq {
   color: var(--hover-bright-color) !important;
 }
 
@@ -11724,6 +11725,11 @@ img:not(.emote):not(.emoji)::after {
 }
 .theme-dark .iconMask-3b8GzQ {
   background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Server boost tab */
+.theme-dark .gemIndicatorContainer-2jdECl {
+  background-color: var(--hover-color) !important;
 }
 
 /* Voice & Video tab */
