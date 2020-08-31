@@ -11781,7 +11781,7 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
 .markup-2BOw-j pre {
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: Consolas, monospace !important;
   font-size: 11px !important;
   background: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--hover-color) !important;
