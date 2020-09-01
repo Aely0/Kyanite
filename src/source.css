@@ -10191,9 +10191,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   margin-left: -34px !important;
 }
 
-/* Bot tag */
+/* Tags */
 .botTagRegular-2HEhHi,
-.botTag-2WPJ74 {
+.botTag-2WPJ74,
+.akaBadge-1M-1Gw {
   background: var(--main-color) !important;
   color: hsla(0, 0%, 100%, 0.8) !important;
 }
@@ -10906,6 +10907,9 @@ div[class*="scroller"].channel-members {
 }
 .jumpButton-2dvRSC {
   background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.jumpButton-2dvRSC:hover {
+  background-color: var(--hover-color) !important;
 }
 .messageContainer-gbhlwo,
 .channelHeader-3Gd2xq,
