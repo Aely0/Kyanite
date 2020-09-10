@@ -1297,10 +1297,6 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .mentioned .mention:hover {
   color: var(--main-color) !important;
 }
-.mention:hover {
-  cursor: pointer !important;
-  color: #fff !important;
-}
 .region-select-modal {
   background: rgba(0, 0, 0, 0.75) !important;
 }
@@ -2290,17 +2286,6 @@ textarea {
 .settings .settings-actions {
   background-color: rgba(0, 0, 0, 0.76) !important;
   border-top: 2px solid var(--main-color) !important;
-}
-.mention {
-  color: #ddd !important;
-  background: rgba(115, 139, 215, 0.1) !important;
-  border-radius: 6px !important;
-  transition: all 0.3s ease-in-out !important;
-  -webkit-transition: all 0.3s ease-in-out !important;
-  -moz-transition: all 0.3s ease-in-out !important;
-  -o-transition: all 0.3s ease-in-out !important;
-  -ms-transition: all 0.3s ease-in-out !important;
-  white-space: nowrap !important;
 }
 .user-settings-modal-connections
   .user-settings-modal-accounts-list
