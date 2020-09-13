@@ -7269,7 +7269,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .contentWrapper-SvZHNd,
 .categoryWrapper-UZ5YNj,
-.inspector-sdLnLS,
+.inspector-S2gM3e,
 .diversitySelectorPopout-3FiGaM,
 .emojiPicker-3PwZFl,
 .container-2XeR5Z,
@@ -7313,6 +7313,9 @@ img:not(.emote):not(.emoji)::after {
 .emojiPickerListWrapper-fz8KNK {
   border-top: 1px solid var(--hover-color) !important;
 }
+.none-2Eo-qx::-webkit-scrollbar {
+  display: none !important;
+}
 
 /* Emoji */
 .emoji.jumboable {
@@ -7323,6 +7326,24 @@ img:not(.emote):not(.emoji)::after {
 .customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
   width: 32px !important;
   height: 32px !important;
+}
+
+/* Emoji info */
+.clickCTA-kIMiUd {
+  color: var(--hover-bright-color) !important;
+}
+.emojiSection-3Fb9ix,
+.guildSection-1EoFKd {
+  background-color: transparent !important;
+}
+.container-ZRw2kD {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 1px solid var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.showMoreEmojis-1Xd5A3 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Member popout discord tag */
