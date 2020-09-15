@@ -6739,6 +6739,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   width: 1px !important;
   background: hsla(0, 0%, 100%, 0.2) !important;
 }
+
 /* Private calls*/
 .private-channel-call.minimum .private-channel-call-actions .center {
   background: rgba(0, 0, 0, 0.3) !important;
@@ -6807,6 +6808,23 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 .controlButton-2MhVEL.leaveButton-2YnTyt {
   background: #f04747 !important;
+}
+.colorable-1bkp8v .white-3GPOIp {
+  background: var(--hover-bright-color) !important;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl {
+  background: var(--hover-dark-color) !important;
+}
+.theme-dark .tooltipGrey-1hnvTt {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color) !important;
+}
+.root-3JVdIJ {
+  background: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--main-color) !important;
 }
 
 /* Popout menu + Status picker */
