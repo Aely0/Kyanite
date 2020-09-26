@@ -55,7 +55,8 @@ body::after,
 /* Miscellaneous */
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ .radioSelection-1HmrQS {
-  color: var(--main-color) !important;
+  color: transparent !important;
+  border-color: var(--soft-bright-color) !important;
 }
 
 .colorDefault-2K3EoJ .check-1JyqgN {
@@ -5665,6 +5666,14 @@ ul.bda-slist {
 .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
   border-top-color: var(--main-color) !important;
 }
+.subscribeTooltipWrapper-32-Ce8 {
+  background-color: var(--hover-color) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+}
+.subscribeTooltipWrapper-32-Ce8:after {
+  border-bottom-color: var(--hover-color) !important;
+}
 
 /* Member roles */
 .ui-role-list-role,
@@ -6490,6 +6499,34 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   background-color: var(--hover-color) !important;
 }
 
+/* Server settings role view */
+.notice-1tZwqv {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.button-3Ijpww:hover {
+  background-color: var(--hover-color) !important;
+}
+.container-3LUQwT {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.role-3ulsK-:hover {
+  background-color: var(--hover-color) !important;
+}
+.iconContainer-1zobSR {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.iconContainer-1zobSR.checked-1Fij_T {
+  background-color: transparent !important;
+  border-color: var(--main-color) !important;
+}
+.iconContainer-1zobSR.checked-1Fij_T > svg > path {
+  fill: var(--soft-bright-color) !important;
+}
+
 /* Server settings emoji tab */
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
   color: #d0d0d0 !important;
@@ -6998,6 +7035,12 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 .channel-notices .channel-notice .close:hover {
   opacity: 0.7 !important;
+}
+
+/* NEW badge */
+.badge-_BgAUQ {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-colorF) !important;
 }
 
 /* Instant invite menu */
@@ -10760,7 +10803,18 @@ div[class*="flex-"][class*="title-"],
 }
 .theme-dark .autocompleteArrow-Zxoy9H,
 .container-VSDcQc {
-  border: 1px solid var(--main-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .header-2bNvm4 {
+  background-color: transparent !important;
+}
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
+  background-color: transparent !important;
+}
+.theme-dark .actionButton-VzECiy {
+  border-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .theme-dark .streamPreview-2-WUWT {
   background-color: rgba(0, 0, 0, 0.95) !important;
@@ -11081,6 +11135,7 @@ div[class*="scroller"].channel-members {
 .selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .item-1GzJrl:hover,
 .header-2o-2hj:hover,
+.theme-dark .selected-1Tbx07,
 .theme-dark .member-3W1lQa.popout-open,
 .theme-dark .member-3W1lQa.popout-open:hover,
 .theme-dark .contentSelectedText-3wUhMi,
@@ -11477,6 +11532,12 @@ div[class*="scroller"].channel-members {
   background: var(--hover-dark-color) !important;
 }
 
+.theme-dark .feature-2w65J5,
+.banner-WELp4M {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+
 /* Media bar */
 .mediaBarGrabber-1FqnbN,
 .mediaBarProgress-1xaPtl,
@@ -11811,6 +11872,11 @@ img:not(.emote):not(.emoji)::after {
   > svg
   > path {
   fill: var(--soft-bright-color) !important;
+}
+
+/* Checkbox unchecked */
+.theme-dark .checkbox-1ix_J3 {
+  border-color: var(--hover-dark-color) !important;
 }
 
 /* Modded/Corrupted Discord banner */
