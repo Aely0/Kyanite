@@ -9914,7 +9914,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background-color: transparent !important;
-  border: 1px solid var(--main-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+  border: 1px solid var(--hover-bright-color) !important;
 }
 .form.deprecated .control-group input[type="text"] {
   border-bottom: 1px solid var(--main-color) !important;
@@ -11777,6 +11780,9 @@ div[class*="scroller"].channel-members {
 }
 .theme-dark .background-yZEZik {
   stroke: rgba(0, 0, 0, 0.8) !important;
+}
+.flowerStarContainer-3zDVtj.gameVerifiedIcon-2dGGa5 > svg > path {
+  fill: var(--hover-bright-color) !important;
 }
 
 /* Blockquote */
