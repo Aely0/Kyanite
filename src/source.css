@@ -44,11 +44,13 @@ body::after,
   /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important; */
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
+.app-2rEoOp,
+.appMount-3lHmkl,
 .content-MLh4nU,
 .container-16j22k,
 .container-2lgZY8,
-.app-2rEoOp,
-.bg-h5JY_x {
+.bg-h5JY_x,
+body {
   background-color: transparent !important;
 }
 
@@ -1295,13 +1297,6 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
   color: #fff !important;
   border-color: var(--main-color) !important;
 }
-.mentioned .mention:hover {
-  color: var(--main-color) !important;
-}
-.mention:hover {
-  cursor: pointer !important;
-  color: #fff !important;
-}
 .region-select-modal {
   background: rgba(0, 0, 0, 0.75) !important;
 }
@@ -1977,10 +1972,6 @@ textarea {
 .chat > .content .messages .message-group:not(.has-divider) {
   border-bottom-color: hsla(0, 0%, 100%, 0.04) !important;
 }
-.mention:hover,
-.chat > .content .messages .message-group .markup .mention:hover {
-  color: #fff !important;
-}
 .chat > .content .messages .message-group .markup {
   line-height: 1em !important;
 }
@@ -2293,8 +2284,6 @@ textarea {
   border-top: 2px solid var(--main-color) !important;
 }
 .mention {
-  color: #ddd !important;
-  background: rgba(115, 139, 215, 0.1) !important;
   border-radius: 6px !important;
   transition: all 0.3s ease-in-out !important;
   -webkit-transition: all 0.3s ease-in-out !important;
@@ -10245,9 +10234,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Mention others */
 .mention {
-  color: rgba(36, 173, 236, 1) !important;
-  background: rgba(0, 0, 0, 0) !important;
   padding: none !important;
+}
+.mention:hover {
+  text-decoration: none !important;
 }
 .wrapper-3WhCwL {
   padding: none !important;
@@ -10256,8 +10246,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.theme-dark .wrapperHover-1GktnT:hover {
-  background-color: rgba(36, 173, 236, 0.1) !important;
+.theme-dark .wrapper-3WhCwL:hover {
+  background-color: var(--hover-dark-color) !important;
 }
 
 /* Nitro tag */
