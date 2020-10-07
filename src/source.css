@@ -7393,7 +7393,7 @@ img:not(.emote):not(.emoji)::after {
 .guildSection-1EoFKd {
   background-color: transparent !important;
 }
-.container-ZRw2kD {
+.popoutContainer-1MXdqN {
   background-color: rgba(0, 0, 0, 0.85);
   border: 1px solid var(--hover-color) !important;
   -webkit-box-shadow: none !important;
@@ -10459,7 +10459,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .childWrapper-anI2G9 {
   background-color: transparent !important;
 }
-
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: var(--hover-dark-color) !important;
