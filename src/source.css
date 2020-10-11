@@ -11709,6 +11709,21 @@ div[class*="scroller"].channel-members {
   color: var(--soft-bright-color) !important;
 }
 
+/* Obfuscated link popup */
+.theme-dark .defaultColor-1_ajX0,
+.theme-dark .title-31JmR4,
+.theme-dark .radioGroup-1GBvlr {
+  color: var(--soft-bright-color) !important;
+}
+.noWrap-3jynv6.content-dfabe7 > div > strong {
+  color: var(--soft-bright-color) !important;
+}
+.footer-2gL1pp > div > div {
+  color: var(--soft-bright-color) !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
 /* Brand colored button */
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   color: var(--soft-bright-color) !important;
