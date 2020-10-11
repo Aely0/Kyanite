@@ -11202,6 +11202,19 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 
+/* Audit log filters */
+.theme-dark .popoutList-T9CKZQ {
+  background: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.theme-dark .selectableItem-1MP3MQ:hover {
+  background: var(--hover-color) !important;
+}
+.selectableItem-1MP3MQ.selected-31soGA,
+.selectableItem-1MP3MQ.selected-31soGA:hover {
+  background: var(--main-color) !important;
+}
+
 /* Audit log entries */
 .theme-dark .headerClickable-2IVFo9,
 .theme-dark .headerDefault-1wrJcN {
