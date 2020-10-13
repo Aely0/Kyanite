@@ -6974,9 +6974,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 
 /* Afk notification */
 .theme-dark .modal-yWgWj- {
-  background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.theme-dark .modal-yWgWj- {
+  background-color: rgba(0, 0, 0, 0.9) !important;
   border: 1px solid var(--hover-color) !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
