@@ -10027,9 +10027,20 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Dropdown menu */
-.css-n57xjs-menu {
+.css-n57xjs-menu,
+.css-3vaxre-menu {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border-color: var(--hover-color) !important;
+}
+.css-gvi9bl-control {
+  border-color: var(--hover-color) !important;
+}
+.css-gvi9bl-control:hover,
+.css-gvi9bl-control:active,
+.css-6fzn47-control:hover,
+.css-6fzn47-control,
+.css-17e1tep-control {
+  border-color: var(--hover-dark-color) !important;
 }
 [class^="css-"][class$="-option"]:hover {
   background-color: var(--hover-color) !important;
@@ -11909,6 +11920,17 @@ img:not(.emote):not(.emoji)::after {
 .checked-3_4uQ9 {
   border-color: var(--hover-bright-color) !important;
   background-color: var(--hover-bright-color) !important;
+}
+
+/* Setting toggle buttons */
+.container-3auIfb {
+  background-color: var(--hover-color) !important;
+}
+.slider-TkfMQL > rect {
+  fill: transparent !important;
+}
+.slider-TkfMQL > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Checkbox checked */
