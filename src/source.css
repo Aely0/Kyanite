@@ -11178,6 +11178,8 @@ div[class*="scroller"].channel-members {
 .theme-dark .friendSelected-1sa4bG,
 .button-14-BFJ.enabled-2cQ-u7:hover,
 .itemBase-1Qj4z6:hover,
+.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,
+.listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,
 [class*="autocomplete-"] .selectorSelected-1_M1WV {
   background: var(--hover-color) !important;
 }
