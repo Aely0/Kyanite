@@ -10018,6 +10018,26 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
 }
 
+/* Channel permissions */
+.theme-dark .passthroughSelected-1Eq0Kl {
+  background: var(--hover-color) !important;
+}
+.theme-dark .item-3T2z1R {
+  border-color: var(--hover-color) !important;
+}
+.allowSelected-25S_i5 {
+  background: var(--hover-dark-color) !important;
+}
+.theme-dark .allowSelected-25S_i5 {
+  border-color: var(--hover-bright-color) !important;
+}
+.theme-dark .denySelected-1mh2mZ {
+  border-color: var(--hover-danger-bright-color) !important;
+}
+.denySelected-1mh2mZ {
+  background: var(--hover-danger-dark-color) !important;
+}
+
 /* Circular close button */
 .theme-dark .closeButton-1tv5uR {
   border-color: var(--hover-color) !important;
@@ -11797,9 +11817,17 @@ div[class*="scroller"].channel-members {
 }
 
 /* Connections (User Settings) */
-.theme-dark .accountBtnInner-sj5jLs {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+.accountBtnInner-sj5jLs,
+.accountList-33MS45,
+.connection-1fbD7X {
+  background-color: rgba(0, 0, 0, 0.4) !important;
   border-color: transparent !important;
+}
+.connectionHeader-2MDqhu {
+  background-color: transparent !important;
+}
+.integration-3kMeY4 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Game Library (User Settings) */
