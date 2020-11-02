@@ -10747,8 +10747,12 @@ div[class*="flex-"][class*="title-"],
   font-size: 0.7rem !important;
 }
 .activityText-OW8WYb strong,
-.activityText-yGKsKm strong {
+.activityText-yGKsKm strong,
+.subtext-24R4-w strong {
   color: var(--hover-bright-color) !important;
+}
+.activityText-OW8WYb strong,
+.activityText-yGKsKm strong {
   font-size: 0.66rem !important;
 }
 .hoverRoll-YK53gQ {
