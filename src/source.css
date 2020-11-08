@@ -11820,6 +11820,38 @@ div[class*="scroller"].channel-members {
   background-color: var(--hover-color) !important;
 }
 
+/* My Account (User Settings) */
+.background-1QDuV2 {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.fieldList-21DyL8 {
+  background-color: transparent !important;
+}
+.menu-319q29 > div > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+  visibility: hidden !important;
+}
+.avatarUploaderInner-3UNxY3:focus-within,
+.avatarUploaderInner-3UNxY3:hover {
+  -webkit-box-shadow: inset 0 0 120px var(--hover-color) !important;
+  box-shadow: inset 0 0 120px var(--hover-color) !important;
+}
+.avatarUploaderHint-3SN212 {
+  color: var(--soft-bright-color) !important;
+}
+.lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--hover-bright-color) 0,
+    var(--hover-bright-color) 2px,
+    transparent 0
+  );
+}
+
 /* Connections (User Settings) */
 .accountBtnInner-sj5jLs,
 .accountList-33MS45,
