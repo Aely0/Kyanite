@@ -10416,6 +10416,52 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
 }
 
+/* Add guild menu */
+.theme-dark .root-1gCeng {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.container-UC8Ug1 {
+  border: 1px solid var(--hover-color) !important;
+  background-color: transparent !important;
+}
+.container-UC8Ug1:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.colorHeaderSecondary-3Sp3Ft {
+  color: var(--hover-bright-color) !important;
+}
+.colorStandard-2KCXvj {
+  color: var(--hover-bright-color) !important;
+}
+.close-hZ94c6 .contents-18-Yxp > svg {
+  color: var(--hover-danger-bright-color) !important;
+}
+.input-cIJ7To {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+.uploadIcon-2IFzZU {
+  color: var(--soft-bright-color) !important;
+}
+.uploadIcon-2IFzZU > div > svg > circle {
+  fill: var(--hover-bright-color) !important;
+}
+.filledIcon-2eb7eA {
+  background-color: var(--hover-color) !important;
+  border: 1px solid transparent !important;
+}
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN
+  > div {
+  color: var(--hover-bright-color) !important;
+}
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN
+  > div:hover {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Guild vertified badge */
 .guildBadgeWithoutColor-20tGtS {
   color: var(--main-color) !important;
