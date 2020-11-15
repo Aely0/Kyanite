@@ -1,4 +1,6 @@
 /* Root variables (reused theme accents) */
+
+/* Kyanite */
 /* :root {
   --main-color: rgba(22, 91, 123, 1) !important;
   --soft-bright-color: rgb(133, 206, 255) !important;
@@ -12,6 +14,8 @@
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
 } */
+
+/* Magenta */
 :root {
   --main-color: rgb(115, 22, 123) !important;
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
@@ -6168,14 +6172,17 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 
 /* Voice channel limits */
+.wrapper-2tAnRe {
+  color: var(--soft-bright-color) !important;
+}
 .users-3kndPl {
-  background-color: rgb(2, 38, 63) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 .total-i6us2n {
-  background-color: rgb(2, 27, 44) !important;
+  background-color: var(--hover-color) !important;
 }
 .total-i6us2n:after {
-  border-right-color: rgb(2, 27, 44) !important;
+  border-right-color: rgba(0, 0, 0, 0.55) !important;
 }
 
 /* Select control */
