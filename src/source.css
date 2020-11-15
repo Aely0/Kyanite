@@ -10547,10 +10547,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .colorHeaderPrimary-26Jzh- {
   color: var(--hover-bright-color) !important;
+  background: transparent !important;
 }
 .channelTextArea-2VhZ6z.highlighted-2eSV1B {
   -webkit-box-shadow: 0 0 0 4px var(--hover-bright-color) !important;
   box-shadow: 0 0 0 4px var(--hover-bright-color) !important;
+}
+.cardWrapper-2R6-SX {
+  background: transparent !important;
 }
 
 /* Left + Right */
