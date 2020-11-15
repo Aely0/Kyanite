@@ -6883,6 +6883,24 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   color: var(--hover-bright-color) !important;
 }
 
+/* Guild list folders */
+.folder-21wGz3 {
+  background-color: transparent !important;
+}
+.folderIconWrapper-226oVY {
+  background-color: var(--hover-color) !important;
+}
+.expandedFolderIconWrapper-1xLaU- > svg {
+  color: var(--soft-bright-color) !important;
+}
+.expandedFolderBackground-2sPsd- {
+  background-color: var(--hover-color) !important;
+}
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+  background-color: transparent !important;
+}
+
 /* Channel notice */
 .channel-notices .channel-notice.invite,
 .channel-notices .channel-notice.quickswitcher-notice {
