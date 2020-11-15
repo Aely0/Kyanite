@@ -9991,6 +9991,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .denySelected-1mh2mZ {
   background: var(--hover-danger-dark-color) !important;
 }
+.noWrap-3jynv6 > svg,
+.horizontal-1ae9ci > .flexChild-faoVW3,
+.cardDescription-1YvO0X,
+.settingCard-3w2mVL {
+  background: transparent !important;
+}
 
 /* Circular close button */
 .theme-dark .closeButton-1tv5uR {
