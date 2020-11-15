@@ -9679,6 +9679,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .sidebar-2K8pFh {
   border-radius: 0px !important;
 }
+.clickable-25tGDB .header-2V-4Sw:hover,
+.selected-31Nl7x .header-2V-4Sw {
+  background-color: var(--hover-color) !important;
+}
 
 /* Server Options Menu (Popup) */
 .theme-dark .menu-Sp6bN1 {
