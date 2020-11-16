@@ -6119,8 +6119,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .scroller-3sQKXg:after {
   height: 10px !important;
 }
-.message-2qnXI6.selected-2P5D_Z,
-.message-2qnXI6:not(.mentioned-xhSam7):hover {
+.message-2qnXI6.selected-2P5D_Z {
   background-color: transparent !important;
 }
 .wrapper-1F5TKx,
@@ -10324,6 +10323,32 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Message edit confirmation buttons */
 .operations-36ENbA > a {
   color: var(--hover-bright-color) !important;
+}
+
+/* Message reply */
+.container-2fRDfG {
+  background: var(--hover-color) !important;
+}
+.colorBrand-2tjs5J {
+  color: var(--soft-bright-color) !important;
+}
+.colorMuted-HdFt4q {
+  color: var(--hover-dark-color) !important;
+}
+.closeButton-37O8QC {
+  color: var(--hover-danger-bright-color) !important;
+}
+.repliedMessage-VokQwo:before {
+  border-color: var(--hover-bright-color) !important;
+}
+.localBot-GrCgVt:before,
+.replying-1x3H0T:before {
+  background-color: var(--soft-bright-color) !important;
+}
+.ephemeral-1PsL1r,
+.replying-1x3H0T,
+.replying-1x3H0T:hover {
+  background-color: var(--hover-color) !important;
 }
 
 /* Typing notification */
