@@ -6329,6 +6329,10 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .theme-dark .lookOutlined-3sRXeN.colorTransparent-1ewNp9 {
   border-color: var(--main-color) !important;
 }
+.detailsBlock-FoDTGA {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Settings Overlay */
 .wrapper-3jrx9n {
