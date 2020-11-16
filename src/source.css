@@ -10643,7 +10643,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
-/* Guild vertified badge */
+/* Guild verified badge */
 .guildBadgeWithoutColor-20tGtS {
   color: var(--main-color) !important;
 }
@@ -11570,6 +11570,10 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .scrollerButton-1Vm5_P {
   background-color: var(--hover-color) !important;
 }
+.stickerImageSection-7EUs8E {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
 
 .theme-dark .gradientOverlayLeft-3w159C {
   background-image: -webkit-gradient(
@@ -11807,6 +11811,10 @@ div[class*="flex-"][class*="title-"],
 /* Chat gift menu */
 .theme-dark .option-1l2vXE {
   background-color: var(--hover-color) !important;
+}
+.table-39R0Oe {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-dark-color) !important;
 }
 
 /* Friends tab */
