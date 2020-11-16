@@ -5584,6 +5584,17 @@ ul.bda-slist {
   background-color: var(--hover-color) !important;
 }
 
+/* Message hover toolbar */
+.wrapper-2aW0bm {
+  background-color: var(--hover-color) !important;
+}
+.button-1ZiXG9 {
+  color: var(--hover-bright-color) !important;
+}
+.button-1ZiXG9.dangerous-2r8KxV {
+  color: var(--hover-danger-bright-color) !important;
+}
+
 /* Tooltip */
 .tooltip-1OS-Ti.black-2bmmnj,
 .tooltip,
