@@ -7224,7 +7224,9 @@ img:not(.emote):not(.emoji)::after {
 .container-2XeR5Z,
 .container-cMG81i,
 .wrapper-2Gsate,
-.wrapper-1-Fsb8 {
+.wrapper-1-Fsb8,
+.wrapper-OxgYJ1,
+.stickerCategoryShopWrapper-3EnJdQ {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
 .contentWrapper-SvZHNd {
@@ -7232,13 +7234,17 @@ img:not(.emote):not(.emoji)::after {
   border-radius: 8px !important;
 }
 .categoryItemDefaultCategorySelected-_HCKoz,
-.categoryItemDefaultCategorySelected-_HCKoz:hover {
+.categoryItemDefaultCategorySelected-_HCKoz:hover,
+.stickerCategorySelected-2uaMAG,
+.stickerCategorySelected-2uaMAG:hover,
+.stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B {
   background-color: var(--hover-dark-color) !important;
 }
 .diversitySelectorPopout-3FiGaM {
   border: 1px solid var(--main-color) !important;
 }
-.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV,
+.stickerInspected-2EM4w- .stickerBackground-2XECKi {
   background-color: var(--hover-dark-color) !important;
 }
 .medium-2-DE5M .input-1Rv96N,
@@ -7259,11 +7265,16 @@ img:not(.emote):not(.emoji)::after {
   border-top: 1px solid var(--hover-color) !important;
   border-right: 1px solid var(--hover-color) !important;
 }
-.emojiPickerListWrapper-fz8KNK {
+.emojiPickerListWrapper-fz8KNK,
+.scroller-3gAZLs.scrollerBase-289Jih {
   border-top: 1px solid var(--hover-color) !important;
 }
 .none-2Eo-qx::-webkit-scrollbar {
   display: none !important;
+}
+.viewAllBackground-3Bn1vh.stickerBackground-2XECKi {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Emoji info */
@@ -7340,6 +7351,11 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .mentionFilter-1PQ6ey .label-12YslM {
   color: var(--hover-bright-color) !important;
   opacity: 0.6 !important;
+}
+.hasMoreButton-1MELpI {
+  background-color: var(--hover-color) !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Checkbox (roles) */
