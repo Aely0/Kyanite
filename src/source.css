@@ -11952,6 +11952,15 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--hover-color) !important;
 }
 
+/* HypeSquad (settings) */
+.membershipDialogHeading-3y8iIr,
+.membershipDialogHouseDescription-1GaVtg,
+.membershipDialogHouseName-ezTTJ9,
+.membershipDialogSwitchHouses-1K8L1U,
+.membershipDialogSwitchHousesAction-2a3eDg:hover {
+  color: white !important;
+}
+
 /* Voice & Video tab */
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   background-color: var(--hover-color) !important;
