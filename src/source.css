@@ -6322,6 +6322,40 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   text-shadow: none !important;
 }
 
+/* Settings Nitro boosting and gifts */
+.theme-dark .expandedInfo-3kfShd,
+.header-1RC2Wb,
+.guildHeader-3nh5RK,
+.guildSubscriptionSlots-JPXXvN {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Settings billing tab */
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .paginator-166-09,
+.theme-dark .payment-xT17Mq,
+.paymentRow-2e7VM6 .bottomDivider-1K9Gao {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  
+}
+.theme-dark .bottomDivider-1K9Gao,
+.theme-dark .summaryInfo-2QFKUg {
+  border-bottom-color: hsla(0, 0%, 100%, 0.04) !important;
+  color: var(--hover-bright-color) !important;
+}
+.pageButtonPrev-1Y-47D,
+.pageButtonPrev-1Y-47D.disabled-BrLY9Y:hover,
+.pageIndicator-1gAbyA,
+.pageButtonNext-V2kUq0,
+.pageButtonNext-V2kUq0.disabled-BrLY9Y:hover {
+  border-color: var(--hover-dark-color) !important;
+  color: var(--hover-dark-color) !important;
+}
+.pageButtonPrev-1Y-47D:hover,
+.pageButtonNext-V2kUq0:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+
 /* Settings Nitro tab */
 .theme-dark .lookOutlined-3sRXeN.colorTransparent-1ewNp9:hover {
   border-color: var(--hover-bright-color) !important;
