@@ -59,11 +59,13 @@ body {
 }
 
 /* Miscellaneous */
-.colorDefault-2K3EoJ .checkbox-3s5GYZ,
-.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+.colorDefault-2K3EoJ .checkbox-3s5GYZ {
   color: transparent !important;
   border-color: var(--soft-bright-color) !important;
 }
+
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: var(--hover-bright-color) !important;
 
 .colorDefault-2K3EoJ .check-1JyqgN {
   color: var(--soft-bright-color) !important;
@@ -6189,6 +6191,21 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 .total-i6us2n:after {
   border-right-color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/* Screenshare and Video */
+.selectorButton-EEUWed {
+  background-color: transparent !important;
+}
+.selectorButtonSelected-t5V9On {
+  background-color: var(--hover-color) !important;
+}
+.tile-2naSqK {
+  background-color: transparent !important;
+}
+.button-3HqqDX {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Select control */
