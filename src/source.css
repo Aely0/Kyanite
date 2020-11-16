@@ -9725,6 +9725,29 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
 }
 
+/* Community settings */
+.upsellContainer-L9xv7w,
+.upsellFooter-ZYsio_,
+.backgroundAccent-349kuI,
+.checklistContainer-mFJZEJ,
+.checklistHeader-1KWcEY,
+.checklist-3Y6Fqp,
+.header-2Y0-A-,
+.enableContainer-6E-puu,
+.previewContainer-1SS3uO,
+.welcomeChannel-1rFrIO {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--hover-bright-color) !important;
+}
+.developerPortalCtaWrapper-2XNafh {
+  background-color: var(--hover-color) !important;
+}
+.developerPortalCtaWrapper-2XNafh,
+.text-1ebFA_,
+.base-1x0h_U {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Server Template */
 .descriptionBox-1EKQKL {
   background-color: rgba(0, 0, 0, 0.2) !important;
