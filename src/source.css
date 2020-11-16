@@ -1,4 +1,6 @@
 /* Root variables (reused theme accents) */
+
+/* Kyanite */
 /* :root {
   --main-color: rgba(22, 91, 123, 1) !important;
   --soft-bright-color: rgb(133, 206, 255) !important;
@@ -12,6 +14,8 @@
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
 } */
+
+/* Magenta */
 :root {
   --main-color: rgb(115, 22, 123) !important;
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
@@ -6158,14 +6162,17 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 
 /* Voice channel limits */
+.wrapper-2tAnRe {
+  color: var(--soft-bright-color) !important;
+}
 .users-3kndPl {
-  background-color: rgb(2, 38, 63) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 .total-i6us2n {
-  background-color: rgb(2, 27, 44) !important;
+  background-color: var(--hover-color) !important;
 }
 .total-i6us2n:after {
-  border-right-color: rgb(2, 27, 44) !important;
+  border-right-color: rgba(0, 0, 0, 0.55) !important;
 }
 
 /* Select control */
@@ -6864,6 +6871,24 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .partnered-3nJayh,
 .background-2uufRq {
   color: var(--hover-bright-color) !important;
+}
+
+/* Guild list folders */
+.folder-21wGz3 {
+  background-color: transparent !important;
+}
+.folderIconWrapper-226oVY {
+  background-color: var(--hover-color) !important;
+}
+.expandedFolderIconWrapper-1xLaU- > svg {
+  color: var(--soft-bright-color) !important;
+}
+.expandedFolderBackground-2sPsd- {
+  background-color: var(--hover-color) !important;
+}
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+  background-color: transparent !important;
 }
 
 /* Channel notice */
@@ -9600,6 +9625,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   color: var(--hover-bright-color) !important;
 }
+.name-3suiPo {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server Invites Menu */
 .inviteSettingsInviteRow-3p2O-N {
@@ -9629,6 +9657,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Server Options button */
 .sidebar-2K8pFh {
   border-radius: 0px !important;
+}
+.clickable-25tGDB .header-2V-4Sw:hover,
+.selected-31Nl7x .header-2V-4Sw {
+  background-color: var(--hover-color) !important;
 }
 
 /* Server Options Menu (Popup) */
@@ -9696,7 +9728,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Server create menu */
 .avatarUploaderInner-3UNxY3 {
-  background-color: var(--main-color) !important;
+  background-color: transparent !important;
 }
 .theme-dark .wrapper-2ZbzR9 {
   background-color: transparent !important;
@@ -9789,12 +9821,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Nitro Badge */
-.bannerVisible-14J9lQ .iconBackgroundTierOne-2LhaMB,
-.bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
-.bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
-.iconTierOne-BHC2T8,
-.iconTierTwo-_1edeM {
-  color: #fff !important;
+.disableColor-2z9rkr,
+.iconBackgroundTierNone-3ZkOsa,
+.iconBackgroundTierOne-2OQMBY,
+.iconBackgroundTierThree-FWlUL9,
+.iconBackgroundTierTwo-Eab9L6,
+.bannerVisible-2ZE_qG .iconBackgroundTierOne-2OQMBY,
+.bannerVisible-2ZE_qG .iconBackgroundTierThree-FWlUL9,
+.bannerVisible-2ZE_qG .iconBackgroundTierTwo-Eab9L6 {
+  color: var(--main-color) !important;
+}
+.iconTierOne-s_oiRb,
+.iconTierTwo-1JOWNK {
+  color: white !important;
 }
 
 /* Server boost status */
@@ -9852,7 +9891,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .tierUnlocked-25K6Kv,
 .theme-light .tierUnlocked-25K6Kv {
-  color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
 }
 .tierMarkerAccomplished-2MiXeg,
 .tierMarkerInProgress-24LMzJ {
@@ -9863,6 +9903,52 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover {
   background-color: var(--hover-color) !important;
+}
+.guildIcon-3raYf3 {
+  background-color: transparent !important;
+}
+.wrapper-3nSjSv,
+.theme-dark .tierHeaderUnlocked-1n-OTI {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(var(--hover-dark-color)),
+      to(var(--hover-color))
+    )
+    no-repeat;
+  background: linear-gradient(
+      90deg,
+      var(--hover-dark-color),
+      var(--hover-color)
+    )
+    no-repeat;
+}
+.icon-TYbVk4 {
+  color: var(--soft-bright-color) !important;
+}
+.icon-TYbVk4:hover {
+  background-color: var(--hover-color) !important;
+}
+.icon-TYbVk4.disabled-24YXy-,
+.icon-TYbVk4.disabled-24YXy-:hover {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .iconWrapper-3LVgIo {
+  background: var(--hover-color) !important;
+}
+.upsellFooter-3coAfO {
+  background-color: var(--hover-color) !important;
+}
+.lookLink-9FtZy-.colorWhite-rEQuAQ:hover .contents-18-Yxp {
+  background-image: none !important;
+  border-bottom: 1px solid var(--hover-bright-color) !important;
+}
+.theme-dark .tierHeaderLocked-1s2JJz {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .tierHeaderUnlocked-1n-OTI {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Channel permissions */
@@ -9883,6 +9969,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .denySelected-1mh2mZ {
   background: var(--hover-danger-dark-color) !important;
+}
+.noWrap-3jynv6 > svg,
+.horizontal-1ae9ci > .flexChild-faoVW3,
+.cardDescription-1YvO0X,
+.settingCard-3w2mVL {
+  background: transparent !important;
 }
 
 /* Circular close button */
@@ -10369,9 +10461,78 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
 }
 
+/* Add guild menu */
+.theme-dark .root-1gCeng {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.container-UC8Ug1 {
+  border: 1px solid var(--hover-color) !important;
+  background-color: transparent !important;
+}
+.container-UC8Ug1:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.colorHeaderSecondary-3Sp3Ft {
+  color: var(--hover-bright-color) !important;
+}
+.colorStandard-2KCXvj {
+  color: var(--hover-bright-color) !important;
+}
+.close-hZ94c6 .contents-18-Yxp > svg {
+  color: var(--hover-danger-bright-color) !important;
+}
+.input-cIJ7To {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+.uploadIcon-2IFzZU {
+  color: var(--soft-bright-color) !important;
+}
+.uploadIcon-2IFzZU > div > svg > circle {
+  fill: var(--hover-bright-color) !important;
+}
+.filledIcon-2eb7eA {
+  background-color: var(--hover-color) !important;
+  border: 1px solid transparent !important;
+}
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN
+  > div {
+  color: var(--hover-bright-color) !important;
+}
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN
+  > div:hover {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Guild vertified badge */
 .guildBadgeWithoutColor-20tGtS {
   color: var(--main-color) !important;
+}
+
+/* Guild welcome channel */
+.titleName-3-Lp3Z p {
+  color: var(--hover-bright-color) !important;
+}
+.arrow-3bRNiS {
+  color: var(--hover-bright-color) !important;
+}
+.checkmark-3rush5 {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.colorHeaderPrimary-26Jzh- {
+  color: var(--hover-bright-color) !important;
+  background: transparent !important;
+}
+.channelTextArea-2VhZ6z.highlighted-2eSV1B {
+  -webkit-box-shadow: 0 0 0 4px var(--hover-bright-color) !important;
+  box-shadow: 0 0 0 4px var(--hover-bright-color) !important;
+}
+.cardWrapper-2R6-SX {
+  background: transparent !important;
 }
 
 /* Left + Right */
