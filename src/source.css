@@ -5589,9 +5589,14 @@ ul.bda-slist {
 }
 
 /* Message hover toolbar */
-.message-2qnXI6.selected-2P5D_Z .buttons-cl5qTG,
-.mouse-mode .message-2qnXI6:hover .buttons-cl5qTG {
-  visibility: hidden !important;
+.wrapper-2aW0bm {
+  background-color: var(--hover-color) !important;
+}
+.button-1ZiXG9 {
+  color: var(--hover-bright-color) !important;
+}
+.button-1ZiXG9.dangerous-2r8KxV {
+  color: var(--hover-danger-bright-color) !important;
 }
 
 /* Tooltip */
