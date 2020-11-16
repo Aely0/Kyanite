@@ -5590,7 +5590,8 @@ ul.bda-slist {
 
 /* Message hover toolbar */
 .wrapper-2aW0bm {
-  background-color: var(--hover-color) !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid var(--hover-color) !important;
 }
 .button-1ZiXG9 {
   color: var(--hover-bright-color) !important;
