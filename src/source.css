@@ -7362,6 +7362,10 @@ img:not(.emote):not(.emoji)::after {
 .footer-3OAEzG {
   background-color: transparent !important;
 }
+.emojiCounter-1BHDd2 {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Member popout discord tag */
 .headerBotTagWithNickname--pvZ2g {
