@@ -6478,28 +6478,18 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 
 /* Server settings */
-.layers-3iHuyZ.layers-3q14ss
-  > div:nth-child(2)
-  > div
-  > div
-  > div.sidebarRegion-VFTUkN
-  > div
-  > nav
-  > div
-  > div:nth-child(14) {
+.item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"] {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
-.layers-3iHuyZ.layers-3q14ss
-  > div:nth-child(2)
-  > div
-  > div
-  > div.sidebarRegion-VFTUkN
-  > div
-  > nav
-  > div
-  > div:nth-child(14):hover {
+.item-PXvHYJ:hover[aria-controls="GUILD_PREMIUM-tab"] {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
+}
+.item-PXvHYJ:focus[aria-controls="GUILD_PREMIUM-tab"],
+.item-PXvHYJ:active[aria-controls="GUILD_PREMIUM-tab"] {
+  color: white !important;
+  background-color: var(--main-color) !important;
 }
 
 /* Server settings role view */
@@ -8387,26 +8377,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .user-settings-security button {
   color: #fff !important;
 }
-.layers-3iHuyZ.layers-3q14ss
-  > div:nth-child(2)
-  > div
-  > div.sidebarRegion-VFTUkN
-  > div
-  > nav
-  > div
-  > div:nth-child(8) {
+.item-PXvHYJ[aria-controls="Discord Nitro-tab"] {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
-.layers-3iHuyZ.layers-3q14ss
-  > div:nth-child(2)
-  > div
-  > div.sidebarRegion-VFTUkN
-  > div
-  > nav
-  > div
-  > div:nth-child(8):hover {
+.item-PXvHYJ:hover[aria-controls="Discord Nitro-tab"] {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
+}
+.item-PXvHYJ:focus[aria-controls="Discord Nitro-tab"],
+.item-PXvHYJ:active[aria-controls="Discord Nitro-tab"] {
+  color: white !important;
+  background-color: var(--main-color) !important;
 }
 
 /* BD Settings */
