@@ -7349,6 +7349,20 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Public server popout */
+.guildPopout-3CgKqR {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.iconMask-AFPO7u {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.footer-3OAEzG {
+  background-color: transparent !important;
+}
+
 /* Member popout discord tag */
 .headerBotTagWithNickname--pvZ2g {
   margin-top: 2px !important;
