@@ -9753,6 +9753,42 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
+/* Server Template Preview */
+.ctaSection-izWwhs,
+.formSection-1NFAGI {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.channelsWrapper-2HhUER,
+.rolesWrapper-2yOx9S {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.usagePill-_nSrnP {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.icon-3U3Ats {
+  color: var(--hover-bright-color) !important;
+}
+.icon-3U3Ats > div > svg > circle {
+  fill: var(--hover-bright-color) !important;
+}
+
+/* Welcome Screen */
+.optionContainer-15srkc {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.header-QjU-Vz {
+  color: var(--hover-bright-color) !important;
+}
+
+/* Server lurk mode */
+.notice-2X5hT5 {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+
 /* Server Options button */
 .sidebar-2K8pFh {
   border-radius: 0px !important;
