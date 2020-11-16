@@ -11555,6 +11555,18 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--main-color) !important;
 }
 
+.errorDetails-qKU8eS {
+  background-color: var(--hover-color) !important;
+}
+
+.gameUpdates-2GPqBU {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.nameCellText-Ubz8FY {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Nitro tab */
 .theme-dark .applicationStore-1pNvnv {
   background-color: transparent !important;
