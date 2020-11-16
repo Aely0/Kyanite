@@ -9728,7 +9728,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Community settings */
 .upsellContainer-L9xv7w,
-.upsellFooter-ZYsio_,
 .backgroundAccent-349kuI,
 .checklistContainer-mFJZEJ,
 .checklistHeader-1KWcEY,
@@ -9747,6 +9746,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .text-1ebFA_,
 .base-1x0h_U {
   color: var(--hover-bright-color) !important;
+}
+.upsellFooter-ZYsio_ {
+  background-color: transparent !important;
 }
 
 /* Server Template */
