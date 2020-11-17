@@ -6110,7 +6110,8 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .scroller-3sQKXg:after {
   height: 10px !important;
 }
-.message-2qnXI6.selected-2P5D_Z {
+.message-2qnXI6.selected-2P5D_Z,
+.mouse-mode.full-motion .message-2qnXI6:hover {
   background-color: transparent !important;
 }
 .wrapper-1F5TKx,
