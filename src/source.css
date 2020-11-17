@@ -6905,10 +6905,24 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   opacity: 0.7 !important;
 }
 
+/* Fresh text channel beginning notice */
+.emptyChannelIcon-cc932w {
+  background-color: var(--hover-color) !important;
+}
+.hasDivider-20M1le > h1 {
+  color: var(--soft-bright-color) !important;
+}
+.description-1sDbzZ {
+  color: var(--hover-bright-color) !important;
+}
+.button-18p_f6:hover {
+  background-color: var(--hover-color) !important;
+}
+
 /* NEW badge */
 .badge-_BgAUQ {
   background-color: var(--hover-color) !important;
-  color: var(--soft-bright-colorF) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Instant invite menu */
