@@ -9646,6 +9646,36 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .featureIcon-3p1TC_ {
   background-color: var(--hover-color) !important;
 }
+.overviewSidebar-auQZeh {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(6.65%, var(--hover-dark-color)),
+    color-stop(69.44%, var(--main-color)),
+    color-stop(106.24%, var(--main-color))
+  ) !important;
+  background: linear-gradient(
+    180deg,
+    var(--hover-dark-color) 6.65%,
+    var(--main-color) 69.44%,
+    var(--hover-bright-color) 106.24%
+  ) !important;
+}
+.selected-3AsYnC .stepIndex-3rtpcw {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--soft-bright-color) !important;
+}
+.stepIndex-3rtpcw {
+  color: var(--hover-bright-color) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.overviewSidebar-auQZeh > h3,
+#uid_32 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server Template */
 .descriptionBox-1EKQKL {
