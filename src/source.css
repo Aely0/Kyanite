@@ -7261,7 +7261,7 @@ img:not(.emote):not(.emoji)::after {
   text-indent: 22px !important;
 }
 
-/* Emoji tab */
+/* Emoji/stickers tab */
 .emote::after,
 .emoji::after {
   content: "" !important;
