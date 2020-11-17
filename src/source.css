@@ -4236,15 +4236,6 @@ button:active {
 .header-toolbar button.popout-open {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-#app-mount
-  > div
-  > div:nth-child(2)
-  > div
-  > div:not(#pubs-container)
-  > div:nth-child(3)
-  > div {
-  background-color: transparent !important;
-}
 progress {
   background: rgba(0, 0, 0, 0.3) !important;
 }
@@ -8389,6 +8380,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: white !important;
   background-color: var(--main-color) !important;
 }
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active,
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:active {
+  background-color: var(--hover-color) !important;
+}
 
 /* BD Settings */
 .bda-slist li {
@@ -10074,6 +10069,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .member-3-YXUe {
   margin-left: 22px !important;
 }
+.clickable-1JJAn8:active .layout-2DM8Md {
+  background-color: var(--hover-color) !important;
+}
 
 /* New unreads bar */
 .container-35XQWE {
@@ -10749,6 +10747,9 @@ div[class*="flex-"][class*="title-"],
 .button-1I8KM5:hover {
   background-color: var(--hover-dark-color) !important;
 }
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  background-color: var(--hover-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
@@ -10852,10 +10853,6 @@ div[class*="flex-"][class*="title-"],
 }
 .userPopout-3XzG_A {
   border: 1px solid var(--hover-color) !important;
-}
-.note-3HfJZ5 {
-  border: 1px solid var(--hover-color) !important;
-  margin-left: 0px !important;
 }
 .note-3HfJZ5 textarea {
   padding-top: 6px !important;
