@@ -7339,9 +7339,12 @@ img:not(.emote):not(.emoji)::after {
 .none-2Eo-qx::-webkit-scrollbar {
   display: none !important;
 }
-.viewAllBackground-3Bn1vh.stickerBackground-2XECKi {
+.viewAllBackground-3Bn1vh {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
+}
+.viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh {
+  background-color: var(--hover-bright-color) !important;
 }
 
 /* Emoji */
