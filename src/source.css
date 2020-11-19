@@ -8772,6 +8772,21 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .social-links-link .ui-icon-fg {
   fill: #fff !important;
 }
+.item-26Dhrx {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.item-26Dhrx:hover {
+  background-color: var(--hover-color) !important;
+}
+.item-26Dhrx[aria-checked=true] {
+  background-color: var(--hover-dark-color) !important;
+}
+.title-3BE6m5 {
+  color: var(--soft-bright-color) !important;
+}
+.radioIconForeground-XwlXQN {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Connection settings */
 .settings-connections-wrapper
