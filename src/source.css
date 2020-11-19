@@ -9811,6 +9811,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: transparent !important;
 }
 
+/* Community Updates popout */
+.theme-dark .popout-6p6fkZ {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.flowerStarContainer-3zDVtj > svg > path {
+  fill: var(--main-color) !important;
+}
+.staffBadge-3NsEoM {
+  color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
 /* Server Template */
 .descriptionBox-1EKQKL {
   background-color: rgba(0, 0, 0, 0.2) !important;
