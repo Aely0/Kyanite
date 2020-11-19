@@ -10956,8 +10956,43 @@ div[class*="flex-"][class*="title-"],
 .topSectionStreaming-1Tpf5X {
   background: var(--main-color) !important;
 }
-.body-3ND3kc > div > div > div > div > div > span > div > svg > path {
+.flowerStar-1GeTsn > path {
   fill: var(--main-color) !important;
+}
+.childContainer-1wxZNh > svg > path,
+.additionalActionsIcon-1FoUlE > g > path:not([d="M24 0v24H0V0z"]) {
+  fill: var(--soft-bright-color) !important;
+}
+.topSectionNormal-2-vo2m .additionalActionsIcon-1FoUlE {
+  color: var(--soft-bright-color) !important;
+}
+.themed-OHr7kt.item-PXvHYJ {
+  color: var(--hover-bright-color) !important;
+}
+.top-28JiJ- .item-PXvHYJ {
+  border-bottom: 2px solid transparent !important;
+}
+.top-28JiJ- .item-PXvHYJ:hover {
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ,
+.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+  border-bottom-color: var(--soft-bright-color) !important;
+}
+.selected-3s45Ha.item-PXvHYJ,
+.selected-3s45Ha.item-PXvHYJ:hover {
+  color: var(--soft-bright-color) !important;
+}
+.tabBarItem-1b8RUP.item-PXvHYJ[style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"] {
+  border-color: var(--soft-bright-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.tabBarItem-1b8RUP.item-PXvHYJ:not([style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"]) {
+  border-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+}
+.tabBarItem-1b8RUP.item-PXvHYJ[style="border-color: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6);"] {
+  border-color: var(--hover-bright-color) !important;
 }
 
 /* Embeds */
