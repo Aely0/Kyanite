@@ -10966,18 +10966,19 @@ div[class*="flex-"][class*="title-"],
 .topSectionNormal-2-vo2m .additionalActionsIcon-1FoUlE {
   color: var(--soft-bright-color) !important;
 }
-.themed-OHr7kt.item-PXvHYJ {
-  color: var(--hover-bright-color) !important;
-}
 .top-28JiJ- .item-PXvHYJ {
   border-bottom: 2px solid transparent !important;
 }
 .top-28JiJ- .item-PXvHYJ:hover {
   border-bottom: 2px solid var(--hover-bright-color) !important;
 }
+.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover {
+  border-bottom-color: var(--hover-bright-color) !important;
+}
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ,
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
   border-bottom-color: var(--soft-bright-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .selected-3s45Ha.item-PXvHYJ,
 .selected-3s45Ha.item-PXvHYJ:hover {
