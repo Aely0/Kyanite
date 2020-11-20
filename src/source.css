@@ -12114,6 +12114,18 @@ img:not(.emote):not(.emoji)::after {
   fill: var(--soft-bright-color) !important;
 }
 
+/* Setting radio options */
+.item-26Dhrx[aria-checked="true"] {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--hover-bright-color) !important;
+}
+.radioIconForeground-XwlXQN {
+  color: var(--soft-bright-color) !important;
+}
+.item-26Dhrx {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
 /* Checkbox checked */
 .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9
   > svg
