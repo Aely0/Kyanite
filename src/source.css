@@ -12115,15 +12115,19 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Setting radio options */
-.item-26Dhrx[aria-checked="true"] {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-  color: var(--hover-bright-color) !important;
-}
 .radioIconForeground-XwlXQN {
   color: var(--soft-bright-color) !important;
 }
 .item-26Dhrx {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.item-26Dhrx:hover {
+  /* background-color: var(--hover-color) !important; */
+  color: var(--hover-bright-color) !important;
+}
+.item-26Dhrx[aria-checked="true"] {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Checkbox checked */
