@@ -6,6 +6,7 @@
   --soft-bright-color: rgb(133, 206, 255) !important;
   --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
+  --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
   --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
   --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
   --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
@@ -21,6 +22,7 @@
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
   --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(123, 22, 123, 0.3) !important;
+  --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
   --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
   --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
   --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
@@ -6111,7 +6113,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 }
 .message-2qnXI6.selected-2P5D_Z,
 .mouse-mode.full-motion .message-2qnXI6:hover {
-  background-color: transparent !important;
+  background-color: var(--hover-faint-color) !important;
 }
 .wrapper-1F5TKx,
 .wrapper-3vR61M {
@@ -12122,7 +12124,6 @@ img:not(.emote):not(.emoji)::after {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .item-26Dhrx:hover {
-  /* background-color: var(--hover-color) !important; */
   color: var(--hover-bright-color) !important;
 }
 .item-26Dhrx[aria-checked="true"] {
