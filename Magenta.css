@@ -1,12 +1,13 @@
-/* Pulling source from Andris0/Kyanite for the latest version */
+/* Pulling source for the latest version */
 @import url(https://rawgithub.com/Andris0/Kyanite/master/src/source.css);
 
-/* Tweakable adjustments */
+/* Adjustable main color palette and background options */
 :root {
   --main-color: rgb(115, 22, 123) !important;
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
   --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(123, 22, 123, 0.3) !important;
+  --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
   --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
   --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
   --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
@@ -16,7 +17,7 @@
   --background-brightness: 100% !important;
 }
 
-/* Main background image */
+/* Main background */
 body::after,
 .callout-backdrop,
 .user-popout::before,
@@ -27,3 +28,22 @@ body::after,
 .invite-modal .invite-splash {
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
+
+/* Custom rules */
+
+/* Here you can add your custom css to override the styling set by the theme. */
+
+/* For instance, message quick action bar is hidden by default in this theme, 
+you can make it visible by uncommenting the style below. */
+/* .message-2qnXI6.selected-2P5D_Z .buttons-cl5qTG,
+.mouse-mode .message-2qnXI6:hover .buttons-cl5qTG {
+  visibility: visible !important;
+} */
+
+/* Also, the emote size in emote only messages has been reduced,
+you can bring it back to the original sizes by uncommenting the style below. */
+/* .emoji.jumboable {
+  width: 3rem !important;
+  height: 3rem !important;
+  min-height: 3rem !important;
+} */
