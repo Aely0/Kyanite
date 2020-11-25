@@ -6992,6 +6992,14 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   opacity: 0.7 !important;
 }
 
+/* Server Rules beginning notice */
+.iconWrapper-2JyIpA {
+  background-color: var(--hover-color) !important;
+}
+.icon-2IcVOj {
+  color: #fff !important;
+}
+
 /* NEW badge */
 .badge-_BgAUQ {
   background-color: var(--hover-color) !important;
