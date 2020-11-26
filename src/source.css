@@ -6828,6 +6828,9 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   background: rgba(0, 0, 0, 0.9) !important;
   border: 1px solid var(--main-color) !important;
 }
+.clearStatusIcon-3-MDNF > path {
+  fill: var(--hover-danger-dark-color) !important;
+}
 
 /* Afk notification */
 .theme-dark .modal-yWgWj- {
@@ -12009,6 +12012,36 @@ div[class*="flex-"][class*="title-"],
 }
 .theme-dark .popout-2sKjHu {
   border: 1px solid var(--main-color) !important;
+}
+.lookFilled-22uAsw.select-2fjwPw {
+  background-color: transparent !important;
+  border-color: var(--hover-color) !important;
+}
+.select-2fjwPw.lookFilled-22uAsw > span {
+  color: var(--hover-bright-color) !important;
+}
+.select-2fjwPw.lookFilled-22uAsw > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.popout-VcNcHB {
+  border: 1px solid var(--hover-color) !important;
+  background: rgba(0, 0, 0, 0.85) !important;
+}
+.option-3KoAJB[aria-selected="true"] {
+  background-color: var(--hover-dark-color) !important;
+}
+.option-3KoAJB:focus,
+.option-3KoAJB:hover {
+  background-color: var(--hover-color) !important;
+}
+.selectedIcon-3uS11H {
+  color: var(--soft-bright-color) !important;
+}
+.headerText-2uyvpY {
+  color: var(--soft-bright-color) !important;
+}
+.clearIcon-xXwSFS {
+  color: var(--hover-danger-bright-color) !important;
 }
 
 /* Premium promo */
