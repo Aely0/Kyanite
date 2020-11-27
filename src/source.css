@@ -9588,6 +9588,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: rgba(22, 91, 123, 0.2) !important;
 }
 
+/* Server role color picker */
+.theme-dark .colorPickerCustom-2CWBn2 {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-color: var(--hover-color) !important;
+}
+
 /* Options Menu Descriptions */
 .theme-dark .description-3_Ncsb,
 .theme-dark .labelDescriptor-1PqHgD {
