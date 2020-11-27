@@ -7332,6 +7332,19 @@ img:not(.emote):not(.emoji)::after {
   visibility: visible !important;
 }
 
+/* Member popout add roles */
+.container-3XJ8ns {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.focused-dKLoQt,
+.item-2J2GlB:hover {
+  background-color: var(--hover-color) !important;
+}
+.icon-1S6UIr {
+  color: var(--hover-dark-color) !important;
+}
+
 /* Recent mentions tab */
 .theme-dark .footer-1kmXd4 {
   background-color: rgba(0, 0, 0, 0.4) !important;
