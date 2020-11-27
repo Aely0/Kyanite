@@ -6593,6 +6593,11 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .private-channels .channel:hover .close:hover {
   opacity: 0.7 !important;
 }
+.clickable-1JJAn8.container-2Pjhx-:active,
+.highlighted-1gWxXa.container-2Pjhx-,
+.selected-aXhQR6.container-2Pjhx- {
+  color: var(--channels-default) !important;
+}
 
 /* Account container */
 .channels-wrap > [class*="container"]:not(:first-child) {
