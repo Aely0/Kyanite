@@ -53,7 +53,6 @@ body::after,
 .app-2rEoOp,
 .appMount-3lHmkl,
 .content-MLh4nU,
-.container-16j22k,
 .container-2lgZY8,
 .bg-h5JY_x,
 body {
@@ -12212,6 +12211,14 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark.authBox-hW6HRx {
   background: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--hover-color) !important;
+}
+
+/* Reconnect screen */
+.container-16j22k {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.tipTitle-GL9qAt {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Code blocks */
