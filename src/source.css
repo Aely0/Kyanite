@@ -7397,6 +7397,18 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Everyone warning popout */
+.everyonePopout-nEbJY3 {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.footer-2aTx0s {
+  background-color: transparent !important;
+}
+.icon-2qOzDL > g > path {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Member popout discord tag */
 .headerBotTagWithNickname--pvZ2g {
   margin-top: 2px !important;
