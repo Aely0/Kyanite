@@ -12074,6 +12074,24 @@ div[class*="flex-"][class*="title-"],
   background-color: transparent !important;
   border: 1px solid var(--hover-dark-color) !important;
 }
+.select-2fjwPw.lookFilled-22uAsw,
+.popout-VcNcHB {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.select-2fjwPw.lookFilled-22uAsw:hover,
+.select-2fjwPw.lookFilled-22uAsw:active {
+  border: 1px solid var(--hover-dark-color) !important;
+}
+.option-3KoAJB[aria-selected=true] {
+  background-color: var(--hover-color) !important;
+}
+.option-3KoAJB {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.selectedIcon-3uS11H {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Friends tab */
 .theme-dark
