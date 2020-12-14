@@ -12233,6 +12233,18 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-color) !important;
 }
 
+/* Voice channel activity popup */
+.container-2dqNWc {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.button-uXr0L2 {
+  border-color: var(--main-color) !important;
+}
+.button-uXr0L2:hover {
+  border-color: var(--soft-bright-color) !important;
+}
+
 /* My Account (User Settings) */
 .background-1QDuV2 {
   background-color: rgba(0, 0, 0, 0.4) !important;
