@@ -6353,7 +6353,6 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .theme-dark .payment-xT17Mq,
 .paymentRow-2e7VM6 .bottomDivider-1K9Gao {
   background-color: rgba(0, 0, 0, 0.4) !important;
-  
 }
 .theme-dark .bottomDivider-1K9Gao,
 .theme-dark .summaryInfo-2QFKUg {
@@ -8810,7 +8809,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .item-26Dhrx:hover {
   background-color: var(--hover-color) !important;
 }
-.item-26Dhrx[aria-checked=true] {
+.item-26Dhrx[aria-checked="true"] {
   background-color: var(--hover-dark-color) !important;
 }
 .title-3BE6m5 {
@@ -12124,7 +12123,7 @@ div[class*="flex-"][class*="title-"],
 .select-2fjwPw.lookFilled-22uAsw:active {
   border: 1px solid var(--hover-dark-color) !important;
 }
-.option-3KoAJB[aria-selected=true] {
+.option-3KoAJB[aria-selected="true"] {
   background-color: var(--hover-color) !important;
 }
 .option-3KoAJB {
