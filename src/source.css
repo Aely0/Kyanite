@@ -5595,11 +5595,15 @@ ul.bda-slist {
   background-color: var(--hover-color) !important;
 }
 .button-1ZiXG9:active {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
 }
-.button-1ZiXG9.dangerous-2r8KxV,
-.button-1ZiXG9.selected-LCBEAU {
+.button-1ZiXG9.dangerous-2r8KxV {
   color: var(--hover-danger-bright-color) !important;
+}
+.button-1ZiXG9.selected-LCBEAU {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 
 /* Tooltip */
