@@ -5583,7 +5583,11 @@ ul.bda-slist {
   background-color: var(--hover-color) !important;
 }
 
-/* Message hover toolbar */
+/* Message hover toolbar (hidden by default, can be reverted by uncommenting the override in theme files) */
+.message-2qnXI6.selected-2P5D_Z .buttons-cl5qTG,
+.mouse-mode .message-2qnXI6:hover .buttons-cl5qTG {
+  visibility: hidden !important;
+}
 .wrapper-2aW0bm {
   background: rgba(0, 0, 0, 0.4) !important;
   border: 1px solid var(--hover-color) !important;
