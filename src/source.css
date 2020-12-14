@@ -9377,10 +9377,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Invite message */
-.theme-dark .wrapper-35wsBm {
+.theme-dark .wrapper-35wsBm,
+.theme-dark .invite-18yqGF {
   background: rgba(0, 0, 0, 0.2) !important;
   border: 1px solid var(--hover-color) !important;
   border-radius: 12px !important;
+}
+.theme-dark .header-Hg_qNF {
+  color: var(--hover-bright-color) !important;
 }
 
 /* CSS syntax highlighting */
