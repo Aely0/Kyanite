@@ -9982,6 +9982,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: transparent !important;
   color: var(--soft-bright-color) !important;
 }
+.editCircle-ityklj {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server lurk mode */
 .notice-2X5hT5 {
