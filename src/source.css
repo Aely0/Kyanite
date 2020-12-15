@@ -10724,6 +10724,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-dark-color) !important;
 }
 .closeButton-37O8QC {
+  color: var(--hover-dark-color) !important;
+}
+.closeButton-37O8QC:hover {
   color: var(--hover-danger-bright-color) !important;
 }
 .repliedMessage-VokQwo:before {
