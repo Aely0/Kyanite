@@ -10408,6 +10408,21 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Message announcement publish popup */
+.bumpBox-1r5p3c {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.icon-ek0zSM {
+  color: var(--hover-bright-color) !important;
+}
+.closeIcon-tEzaUY {
+  color: var(--hover-dark-color) !important;
+}
+.closeIcon-tEzaUY:hover {
+  color: var(--hover-danger-bright-color) !important;
+}
+
 /* Load more messages */
 .hasMore-3e72_v {
   background-color: rgba(0, 0, 0, 0.15) !important;
