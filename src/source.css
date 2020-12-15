@@ -5584,7 +5584,13 @@ ul.bda-slist {
   background: rgba(0, 0, 0, 0.4) !important;
 }
 .button-1ZiXG9 {
-  color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.button-1ZiXG9:hover {
+  background-color: var(--hover-color) !important;
+}
+.button-1ZiXG9:active {
+  background-color: var(--hover-dark-color) !important;
 }
 .button-1ZiXG9.dangerous-2r8KxV {
   color: var(--hover-danger-bright-color) !important;
@@ -6136,7 +6142,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   height: 10px !important;
 }
 .message-2qnXI6.selected-2P5D_Z,
-.mouse-mode.full-motion .message-2qnXI6:hover {
+.message-2qnXI6:not(.mentioned-xhSam7):hover {
   background-color: var(--hover-faint-color) !important;
 }
 .wrapper-1F5TKx,
