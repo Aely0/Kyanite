@@ -1101,11 +1101,6 @@ div.footer-3mqk7D > button:nth-child(1):hover {
   overflow-y: auto !important;
 }
 
-button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
-  right: 15px !important;
-  background-color: #f04747 !important;
-}
-
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   border: 1px solid var(--soft-bright-color) !important;
@@ -11465,6 +11460,19 @@ div[class*="flex-"][class*="title-"],
 .disableButton-220a9y.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
   .contents-18-Yxp {
   color: var(--danger-bright-color) !important;
+}
+.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  ) !important;
 }
 
 /* Pinned messages */
