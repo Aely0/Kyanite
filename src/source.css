@@ -12359,6 +12359,9 @@ div[class*="flex-"][class*="title-"],
 .integration-3kMeY4 {
   background-color: var(--hover-color) !important;
 }
+.connectionHeader-2MDqhu .connectionAccountValue-3VdBGs {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Game Library (User Settings) */
 .foreground-2aE44H {
@@ -12481,6 +12484,9 @@ img:not(.emote):not(.emoji)::after {
 /* Server boost tab */
 .theme-dark .gemIndicatorContainer-2jdECl {
   background-color: var(--hover-color) !important;
+}
+.descriptionStandalone-3aMqwN {
+  color: var(--soft-bright-color) !important;
 }
 
 /* HypeSquad (settings) */
