@@ -12171,6 +12171,21 @@ div[class*="flex-"][class*="title-"],
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
 }
 
+/* Slash commands */
+.autocomplete-1vrmpx.outerWrapper-3-llkA {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.selected-3xBBKs,
+.selected-3xBBKs:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.icon-2VCx8O > path {
+  color: var(--soft-bright-color) !important;
+}
+.headerIcon-1qrXTN + .headerLabel-3dG4M- {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Friends tab */
 .theme-dark
   .friendsTable-133bsv
