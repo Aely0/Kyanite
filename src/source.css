@@ -12283,6 +12283,9 @@ div[class*="flex-"][class*="title-"],
 /* Brand colored button */
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   color: var(--soft-bright-color) !important;
+  border-color: var(--hover-dark-color) !important;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   border-color: var(--soft-bright-color) !important;
 }
 
