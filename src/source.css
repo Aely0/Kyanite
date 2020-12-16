@@ -5850,25 +5850,6 @@ pre:hover .copybutton {
   transform: none !important;
 }
 
-/* Danger (Red) button */
-.lookFilled-1Gx00P.colorRed-1TFJan,
-button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
-  color: var(--danger-bright-color) !important;
-  background-color: transparent !important;
-  border: 1px solid var(--hover-danger-bright-color) !important;
-}
-.lookFilled-1Gx00P.colorRed-1TFJan:hover,
-button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN:hover {
-  border: 1px solid var(--danger-bright-color) !important;
-}
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover .contents-18-Yxp {
-  background-image: none !important;
-}
-.lookFilled-1Gx00P .contents-18-Yxp,
-.lookLink-9FtZy- .contents-18-Yxp {
-  color: var(--danger-bright-color) !important;
-}
-
 /* Send embeds */
 .send-embeds {
   opacity: 0.3 !important;
@@ -11458,12 +11439,29 @@ div[class*="flex-"][class*="title-"],
 .lookOutlined-3sRXeN .contents-18-Yxp,
 .lookFilled-1Gx00P .contents-18-Yxp,
 .lookInverted-2D7oAl .contents-18-Yxp {
-  color: var(--hover-bright-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .lookOutlined-3sRXeN .contents-18-Yxp:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   color: var(--soft-bright-color) !important;
+  border-color: var(--soft-bright-color) !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan,
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  color: var(--hover-danger-bright-color) !important;
+  border: 1px solid var(--hover-danger-dark-color) !important;
+  background: transparent !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover,
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+  border-color: var(--hover-danger-bright-color) !important;
+}
+.button-38aScr.lookOutlined-3sRXeN.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
+  .contents-18-Yxp,
+.disableButton-220a9y.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
+  .contents-18-Yxp {
+  color: var(--danger-bright-color) !important;
 }
 
 /* Pinned messages */
