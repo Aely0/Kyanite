@@ -6189,6 +6189,14 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
   border-color: transparent !important;
 }
 
+/* Channel integrations */
+.iconWrapper-lS1uig {
+  background-color: var(--hover-color) !important;
+}
+.icon-3oSHuZ {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Voice channel limits */
 .wrapper-2tAnRe {
   color: var(--soft-bright-color) !important;
@@ -6999,6 +7007,7 @@ button.button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-
 .icon-2IcVOj {
   color: #fff !important;
 }
+
 /* Fresh text channel beginning notice */
 .emptyChannelIcon-cc932w {
   background-color: var(--hover-color) !important;
