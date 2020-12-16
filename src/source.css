@@ -12391,6 +12391,12 @@ div[class*="flex-"][class*="title-"],
 .connectionHeader-2MDqhu .connectionAccountValue-3VdBGs {
   color: var(--soft-bright-color) !important;
 }
+.connectionDelete-2Odoln > svg > path {
+  fill: var(--hover-danger-dark-color) !important;
+}
+.connectionDelete-2Odoln:hover > svg > path {
+  fill: var(--hover-danger-bright-color) !important;
+}
 
 /* Game Library (User Settings) */
 .foreground-2aE44H {
