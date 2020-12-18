@@ -1043,19 +1043,6 @@ div.footer-3mqk7D > button:nth-child(1):hover {
   background-color: var(--main-color) !important;
 }
 
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover,
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-  background-color: transparent !important;
-  border: 1px solid var(--soft-bright-color) !important;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-  background-color: transparent !important;
-  color: var(--hover-bright-color) !important;
-  border: 1px solid var(--hover-dark-color) !important;
-}
-
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
   color: #fff !important;
 }
@@ -11202,7 +11189,7 @@ div[class*="flex-"][class*="title-"],
   border-width: 2px !important;
 }
 .theme-dark .body-3ND3kc {
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
 }
 .inner-1JeGVc {
   border-radius: 7px !important;
@@ -11481,6 +11468,17 @@ div[class*="flex-"][class*="title-"],
     var(--soft-bright-color) 2px,
     transparent 0
   ) !important;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
 }
 
 /* Pinned messages */
