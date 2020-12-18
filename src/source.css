@@ -6784,6 +6784,11 @@ pre:hover .copybutton {
   border: 1px solid var(--main-color) !important;
 }
 
+/* Video calls */
+.wrapper-2qzCYF {
+  background-color: transparent !important;
+}
+
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
   top: 0px !important;
@@ -11443,7 +11448,7 @@ div[class*="flex-"][class*="title-"],
 .lookOutlined-3sRXeN .contents-18-Yxp:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   color: var(--soft-bright-color) !important;
-  border-color: var(--soft-bright-color) !important;
+  border-color: var(--hover-bright-color) !important;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan,
 .lookFilled-1Gx00P.colorRed-1TFJan {
@@ -12196,6 +12201,35 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 .headerIcon-1qrXTN + .headerLabel-3dG4M- {
+  color: var(--soft-bright-color) !important;
+}
+.pill-2pQByF {
+  background-color: var(--hover-color) !important;
+}
+.tabButton-1n4gNP > path[fill="currentColor"] {
+  fill: var(--soft-bright-color) !important;
+}
+.tabButton-1n4gNP > path[fill="#36393F"] {
+  fill: var(--hover-dark-color) !important;
+}
+.tabButton-1n4gNP > rect {
+  fill: var(--hover-bright-color) !important;
+}
+.bar-AokMp3 {
+  background-color: transparent !important;
+}
+.messageIconContainer-ATaEy6 {
+  color: var(--hover-bright-color) !important;
+}
+.spine-1UneWn {
+  border-left: 2px solid var(--hover-bright-color) !important;
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+.cozy-3I4Ja9.content-2Kddbs {
+  background-color: var(--hover-color) !important;
+}
+.content-2Kddbs,
+.command-2EsN1V {
   color: var(--soft-bright-color) !important;
 }
 
