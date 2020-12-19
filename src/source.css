@@ -723,13 +723,9 @@ div.flex-spacer.flex-horizontal,
 }
 
 [class*="theme-"] [class*="topSectionNormal-"],
-[class*="theme-"] .body-3ND3kc {
-  background: rgba(0, 0, 0, 0.65) !important;
-}
-
-.topSectionNormal-2-vo2m,
+[class*="theme-"] .body-3ND3kc,
 .topSectionPlaying-1J5E4n {
-  background: rgba(0, 0, 0, 0.65) !important;
+  background: rgba(0, 0, 0, 0.95) !important;
 }
 
 .buttonBrandInvertedDefault-uUmgsD:hover {
