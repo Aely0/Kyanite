@@ -10040,6 +10040,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .guildSidebar-2OCzWB {
   background-color: transparent !important;
 }
+.verificationIcon-FinFJj {
+  color: var(--soft-bright-color) !important;
+}
+.clearIcon-1_xlaH > path {
+  fill: var(--hover-danger-bright-color) !important;
+}
+.dotMembers-1XEUE5 {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Server lurk mode */
 .notice-2X5hT5 {
