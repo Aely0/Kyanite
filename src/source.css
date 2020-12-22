@@ -9945,6 +9945,32 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
 }
+.css-ku6vh5-indicatorContainer > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.clearIcon-onVMIA > path {
+  fill: var(--hover-dark-color) !important;
+}
+.clearIcon-onVMIA:hover > path {
+  fill: var(--hover-danger-bright-color) !important;
+}
+.css-4h5swf-singleValue,
+[id*="react-select-29-option"] {
+  color: var(--soft-bright-color) !important;
+}
+.lookLink-9FtZy-.colorRed-1TFJan {
+  color: var(--danger-bright-color) !important;
+}
+.lookLink-9FtZy-.colorRed-1TFJan:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--danger-bright-color) 0,
+    var(--danger-bright-color) 2px,
+    transparent 0
+  ) !important;
+}
 
 /* Membership Screening */
 .exampleContainer-3ekFIr {
@@ -11513,6 +11539,8 @@ div[class*="flex-"][class*="title-"],
 .button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
   .contents-18-Yxp,
 .button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN
+  .contents-18-Yxp,
+.button-38aScr.lookLink-9FtZy-.colorRed-1TFJan.sizeMin-1mJd1x.grow-q77ONN
   .contents-18-Yxp {
   color: var(--danger-bright-color) !important;
 }
