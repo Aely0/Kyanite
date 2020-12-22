@@ -9882,6 +9882,89 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--hover-bright-color) !important;
 }
 
+/* Discovery */
+.defaultIcon-2NMkWn {
+  background-color: var(--hover-dark-color) !important;
+}
+
+/* Membership Screening */
+.exampleContainer-3ekFIr {
+  background-color: var(--hover-dark-color) !important;
+}
+.exampleModal-2oh58d {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.content-BMIBeK,
+.guildSidebar-339BqP {
+  background-color: transparent !important;
+}
+.formFieldWrapper-malor5 {
+  background-color: var(--hover-color) !important;
+}
+.formFieldWrapper-malor5,
+.settingsFormFieldWrapper-3Y77Pr {
+  border: transparent !important;
+}
+.theme-dark .footer-1JuRYY,
+.theme-light .footer-1JuRYY {
+  background-color: transparent !important;
+}
+.fakeButton-kGEmb3 {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-dark-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.exampleTextSingleLine-1kvErc {
+  background-color: var(--hover-dark-color) !important;
+}
+.tooltip-3oByQd {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.enableContainer-2DIT9Q,
+.settingsFormItem-103g1I,
+.getStartedWrapper-2AGgRZ {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.exampleRule-32tIs5 {
+  background-color: var(--hover-color) !important;
+}
+.icon-1CGepy,
+.editButton-1MavoF {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.editButton-1MavoF:focus,
+.editButton-1MavoF:hover {
+  color: var(--soft-bright-color);
+}
+.dragIcon-1dICoF {
+  color: var(--main-color) !important;
+}
+.activeCircle-15Lt-Q {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+}
+.editCircle-y9c7xP {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.modal-f02hVt,
+.guildSidebar-2OCzWB {
+  background-color: transparent !important;
+}
+.verificationIcon-FinFJj {
+  color: var(--soft-bright-color) !important;
+}
+.clearIcon-1_xlaH > path {
+  fill: var(--hover-danger-bright-color) !important;
+}
+.dotMembers-1XEUE5 {
+  background-color: var(--soft-bright-color) !important;
+}
+
 /* Welcome Screen */
 .optionContainer-15srkc {
   background-color: transparent !important;
@@ -9970,84 +10053,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     var(--danger-bright-color) 2px,
     transparent 0
   ) !important;
-}
-
-/* Membership Screening */
-.exampleContainer-3ekFIr {
-  background-color: var(--hover-dark-color) !important;
-}
-.exampleModal-2oh58d {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-.content-BMIBeK,
-.guildSidebar-339BqP {
-  background-color: transparent !important;
-}
-.formFieldWrapper-malor5 {
-  background-color: var(--hover-color) !important;
-}
-.formFieldWrapper-malor5,
-.settingsFormFieldWrapper-3Y77Pr {
-  border: transparent !important;
-}
-.theme-dark .footer-1JuRYY,
-.theme-light .footer-1JuRYY {
-  background-color: transparent !important;
-}
-.fakeButton-kGEmb3 {
-  background-color: transparent !important;
-  border: 1px solid var(--hover-dark-color) !important;
-  color: var(--hover-bright-color) !important;
-}
-.exampleTextSingleLine-1kvErc {
-  background-color: var(--hover-dark-color) !important;
-}
-.tooltip-3oByQd {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  background-color: var(--main-color) !important;
-  color: var(--soft-bright-color) !important;
-}
-.enableContainer-2DIT9Q,
-.settingsFormItem-103g1I,
-.getStartedWrapper-2AGgRZ {
-  background-color: rgba(0, 0, 0, 0.85) !important;
-}
-.exampleRule-32tIs5 {
-  background-color: var(--hover-color) !important;
-}
-.icon-1CGepy,
-.editButton-1MavoF {
-  background-color: var(--hover-dark-color) !important;
-  color: var(--hover-bright-color) !important;
-}
-.editButton-1MavoF:focus,
-.editButton-1MavoF:hover {
-  color: var(--soft-bright-color);
-}
-.dragIcon-1dICoF {
-  color: var(--main-color) !important;
-}
-.activeCircle-15Lt-Q {
-  background-color: transparent !important;
-  color: var(--soft-bright-color) !important;
-}
-.editCircle-y9c7xP {
-  background-color: var(--hover-dark-color) !important;
-  color: var(--soft-bright-color) !important;
-}
-.modal-f02hVt,
-.guildSidebar-2OCzWB {
-  background-color: transparent !important;
-}
-.verificationIcon-FinFJj {
-  color: var(--soft-bright-color) !important;
-}
-.clearIcon-1_xlaH > path {
-  fill: var(--hover-danger-bright-color) !important;
-}
-.dotMembers-1XEUE5 {
-  background-color: var(--soft-bright-color) !important;
 }
 
 /* Server lurk mode */
