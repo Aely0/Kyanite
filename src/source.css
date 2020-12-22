@@ -9843,6 +9843,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .featureIcon-3p1TC_ > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.upsellClose-3kyA8O {
+  color: var(--hover-danger-dark-color) !important;
+}
+.upsellClose-3kyA8O:hover {
+  color: var(--hover-danger-bright-color) !important;
+}
 
 /* Community Updates popout */
 .theme-dark .popout-6p6fkZ {
