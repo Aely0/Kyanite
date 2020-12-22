@@ -11518,6 +11518,10 @@ div[class*="flex-"][class*="title-"],
 .disableButton-220a9y.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
   .contents-18-Yxp,
 .button-38aScr.lookOutlined-3sRXeN.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN
+  .contents-18-Yxp,
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
+  .contents-18-Yxp,
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN
   .contents-18-Yxp {
   color: var(--danger-bright-color) !important;
 }
