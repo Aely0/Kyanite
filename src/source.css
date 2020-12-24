@@ -9911,9 +9911,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .checklist-3Y6Fqp,
 .header-2Y0-A-,
 .enableContainer-6E-puu,
-.previewContainer-1SS3uO,
-.welcomeChannel-1rFrIO {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+.previewContainer-1SS3uO {
+  background-color: rgba(0, 0, 0, 0.6) !important;
   color: var(--hover-bright-color) !important;
 }
 .developerPortalCtaWrapper-2XNafh {
@@ -10060,8 +10059,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Welcome Screen */
 .optionContainer-15srkc {
-  background-color: transparent !important;
-  border: 1px solid var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
 }
 .header-QjU-Vz {
   color: var(--hover-bright-color) !important;
@@ -10146,6 +10144,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     var(--danger-bright-color) 2px,
     transparent 0
   ) !important;
+}
+.welcomeChannel-1rFrIO {
+  background-color: var(--hover-color) !important;
+}
+.inputDefault-_djjkz.input-cIJ7To.textArea-1Lj-Ns.scrollbarDefault-3COgCQ.scrollbar-3dvm_9.descriptionInput-3b30C8::placeholder {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.5 !important;
 }
 
 /* Server lurk mode */
