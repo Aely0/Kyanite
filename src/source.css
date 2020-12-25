@@ -6809,10 +6809,10 @@ pre:hover .copybutton {
 .controlIcon-35oS15 > path,
 .icon-LYJorE > circle.radioSelection-1HmrQS,
 .arrow-gKvcEx.caret-1XEpQV > path,
-.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ[aria-checked="true"]
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ[aria-checked="true"][id*="manage-streams-"]
   .icon-LYJorE
   > path,
-.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ[role="menuitem"]
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ[role="menuitem"][id*="manage-streams-"]
   .icon-LYJorE
   > path {
   fill: var(--soft-bright-color) !important;
