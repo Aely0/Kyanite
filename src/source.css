@@ -6091,6 +6091,15 @@ pre:hover .copybutton {
   background-color: transparent !important;
 }
 
+/* Keyboard-mode focus */
+.ring-13rgEW {
+  --__adaptive-focus-color: var(--hover-dark-color) !important;
+}
+.keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+  -webkit-box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
+  box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
+}
+
 /* Embed player */
 .embed .embed-video-actions .embed-video-actions-inner {
   background: rgba(0, 0, 0, 0.5) !important;
