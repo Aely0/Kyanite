@@ -7000,7 +7000,7 @@ pre:hover .copybutton {
 
 /* Guild list muted tag */
 .colorMuted-HdFt4q {
-  color: var(--hover-bright-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Guild list partner badge */
@@ -10884,7 +10884,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .colorBrand-2tjs5J {
   color: var(--soft-bright-color) !important;
 }
-.colorMuted-HdFt4q {
+.colorMuted-HdFt4q.size14-e6ZScH.mentionButton-3710-W {
   color: var(--hover-dark-color) !important;
 }
 .closeButton-37O8QC {
