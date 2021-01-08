@@ -12865,6 +12865,17 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Powercord */
+.powercord-entities-manage-tabs {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.powercord-quickcss:not(.popped-out) {
+  background-color: var(--hover-color) !important;
+}
+.powercord-quickcss-header .button, .powercord-quickcss-footer .button {
+  background-color: transparent !important;
+}
+
 /* Code blocks */
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
