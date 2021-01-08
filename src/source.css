@@ -5649,6 +5649,9 @@ ul.bda-slist {
 .subscribeTooltipWrapper-32-Ce8:after {
   border-bottom-color: var(--hover-color) !important;
 }
+.theme-dark .activityIcon-c4ew_N {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Member roles */
 .ui-role-list-role,
