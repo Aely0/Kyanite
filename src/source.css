@@ -5721,6 +5721,14 @@ button.grow-q77ONN:hover {
 .theme-dark .activityIcon-c4ew_N {
   color: var(--soft-bright-color) !important;
 }
+.listItemTooltip-CDcY8J,
+.guildNameText-74xXQn,
+.tooltip-2QfLtc {
+  color: var(--soft-bright-color) !important;
+}
+.tooltipPrimary-1d1ph4 {
+  background-color: var(--main-color) !important;
+}
 
 /* Member roles */
 .ui-role-list-role,
