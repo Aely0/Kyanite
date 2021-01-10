@@ -5736,6 +5736,9 @@ button.grow-q77ONN:hover {
 .tooltipPrimary-1d1ph4 {
   background-color: var(--main-color) !important;
 }
+.theme-dark .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color) !important;
+}
 
 /* Member roles */
 .ui-role-list-role,
