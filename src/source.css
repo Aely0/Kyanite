@@ -5322,7 +5322,7 @@ ul.bda-slist {
   color: var(--soft-bright-color) !important;
   background: transparent !important;
 }
-button.grow-q77ONN:hover {
+.endButton-m5h5Sr:hover {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .activeButton-rvKcqq,
@@ -5582,13 +5582,7 @@ button.grow-q77ONN:hover {
 
 /* Highlights */
 .highlight {
-  background-color: rgba(100, 100, 100, 0.3) !important;
-  color: #fff !important;
-}
-.markup[style*="color:"] .highlight {
-  color: inherit !important;
-  -webkit-filter: saturate(200%) !important;
-  filter: saturate(200%) !important;
+  background: var(--hover-dark-color) !important;
 }
 
 /* Reactions */
