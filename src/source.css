@@ -6170,11 +6170,18 @@ pre:hover .copybutton {
 
 /* Keyboard-mode focus */
 .ring-13rgEW {
-  --__adaptive-focus-color: var(--hover-dark-color) !important;
+  --__adaptive-focus-color: var(--main-color) !important;
 }
 .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
-  -webkit-box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
-  box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
+  -webkit-box-shadow: 0 0 0 2px var(--main-color) !important;
+  box-shadow: 0 0 0 2px var(--main-color) !important;
+}
+.keyboard-mode .focusStroke-1ApElc {
+  fill: var(--main-color) !important;
+  stroke: var(--main-color) !important;
+}
+.keyboard-mode .focusFill-3Y4YuU {
+  fill: rgba(0, 0, 0, 0.4) !important;
 }
 
 /* Embed player */
