@@ -6449,6 +6449,15 @@ pre:hover .copybutton {
   background-color: rgba(0, 0, 0, 0.6) !important;
   border: 1px solid var(--hover-color) !important;
 }
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.round-2jCFai.checked-3_4uQ9
+  > svg
+  > path {
+  fill: var(--soft-bright-color) !important;
+}
+.planOptionDiscount-cS8uaO {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+}
 
 /* Settings Overlay */
 .wrapper-3jrx9n {
@@ -12975,10 +12984,6 @@ img:not(.emote):not(.emoji)::after {
 .item-3eFBNF:hover {
   background-color: var(--hover-color) !important;
 }
-.checked-3_4uQ9 {
-  border-color: var(--hover-bright-color) !important;
-  background-color: var(--hover-bright-color) !important;
-}
 
 /* Setting toggle buttons */
 .container-3auIfb {
@@ -13010,6 +13015,9 @@ img:not(.emote):not(.emoji)::after {
   > svg
   > path {
   fill: var(--soft-bright-color) !important;
+}
+.checked-3_4uQ9 {
+  background-color: transparent !important;
 }
 
 /* Checkbox unchecked */
