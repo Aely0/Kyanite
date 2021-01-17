@@ -6950,6 +6950,50 @@ pre:hover .copybutton {
 .backButton-3c6fw4 {
   color: var(--hover-bright-color) !important;
 }
+button[aria-label="Disconnect"] .controlIcon-35oS15.centerIcon-2G6o-T > path,
+button[aria-label="Stop Watching"]
+  .controlIcon-35oS15.centerIcon-2G6o-T
+  > path {
+  fill: var(--danger-bright-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk,
+.colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+  color: var(--danger-bright-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk {
+  background: var(--hover-danger-dark-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk.active-1QRrIS,
+.colorable-1bkp8v.red-33-Lnk:hover {
+  background: var(--hover-danger-bright-color) !important;
+}
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS,
+.colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+  background: var(--main-color) !important;
+}
+.viewersIcon-F76mss > path {
+  fill: var(--soft-bright-color) !important;
+}
+.pictureInPictureVideo-2iKsGg {
+  background: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.scroller-2TWLdF {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+.cta-3gK0Pu {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.cta-3gK0Pu:hover,
+.button-3HqqDX:hover {
+  background-color: var(--main-color) !important;
+}
+.streamPreview-3YL8OQ {
+  background: var(--hover-color) !important;
+}
 
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
