@@ -9557,6 +9557,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Game Invites */
+.theme-dark .moreUsers-1sZP3U,
+.theme-dark .partyMemberEmpty-2iyh5g {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+
 /* CSS syntax highlighting */
 [class~="css"] .hljs-tag,
 [class~="css"] .hljs-selector-tag,
