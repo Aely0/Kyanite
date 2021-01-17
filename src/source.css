@@ -5318,7 +5318,7 @@ ul.bda-slist {
   color: var(--soft-bright-color) !important;
   background: transparent !important;
 }
-button.grow-q77ONN:hover {
+.endButton-m5h5Sr:hover {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .activeButton-rvKcqq,
@@ -5578,13 +5578,7 @@ button.grow-q77ONN:hover {
 
 /* Highlights */
 .highlight {
-  background-color: rgba(100, 100, 100, 0.3) !important;
-  color: #fff !important;
-}
-.markup[style*="color:"] .highlight {
-  color: inherit !important;
-  -webkit-filter: saturate(200%) !important;
-  filter: saturate(200%) !important;
+  background: var(--hover-dark-color) !important;
 }
 
 /* Reactions */
@@ -6183,11 +6177,18 @@ pre:hover .copybutton {
 
 /* Keyboard-mode focus */
 .ring-13rgEW {
-  --__adaptive-focus-color: var(--hover-dark-color) !important;
+  --__adaptive-focus-color: var(--main-color) !important;
 }
 .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
-  -webkit-box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
-  box-shadow: 0 0 0 2px var(--hover-dark-color) !important;
+  -webkit-box-shadow: 0 0 0 2px var(--main-color) !important;
+  box-shadow: 0 0 0 2px var(--main-color) !important;
+}
+.keyboard-mode .focusStroke-1ApElc {
+  fill: var(--main-color) !important;
+  stroke: var(--main-color) !important;
+}
+.keyboard-mode .focusFill-3Y4YuU {
+  fill: rgba(0, 0, 0, 0.4) !important;
 }
 
 /* Embed player */
@@ -6454,6 +6455,15 @@ pre:hover .copybutton {
 .detailsBlock-FoDTGA {
   background-color: rgba(0, 0, 0, 0.6) !important;
   border: 1px solid var(--hover-color) !important;
+}
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.round-2jCFai.checked-3_4uQ9
+  > svg
+  > path {
+  fill: var(--soft-bright-color) !important;
+}
+.planOptionDiscount-cS8uaO {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 
 /* Settings Overlay */
@@ -6946,6 +6956,50 @@ pre:hover .copybutton {
 }
 .backButton-3c6fw4 {
   color: var(--hover-bright-color) !important;
+}
+button[aria-label="Disconnect"] .controlIcon-35oS15.centerIcon-2G6o-T > path,
+button[aria-label="Stop Watching"]
+  .controlIcon-35oS15.centerIcon-2G6o-T
+  > path {
+  fill: var(--danger-bright-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk,
+.colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+  color: var(--danger-bright-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk {
+  background: var(--hover-danger-dark-color) !important;
+}
+.colorable-1bkp8v.red-33-Lnk.active-1QRrIS,
+.colorable-1bkp8v.red-33-Lnk:hover {
+  background: var(--hover-danger-bright-color) !important;
+}
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS,
+.colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+  background: var(--main-color) !important;
+}
+.viewersIcon-F76mss > path {
+  fill: var(--soft-bright-color) !important;
+}
+.pictureInPictureVideo-2iKsGg {
+  background: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.scroller-2TWLdF {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+.cta-3gK0Pu {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.cta-3gK0Pu:hover,
+.button-3HqqDX:hover {
+  background-color: var(--main-color) !important;
+}
+.streamPreview-3YL8OQ {
+  background: var(--hover-color) !important;
 }
 
 /* Popout menu + Status picker */
@@ -9545,6 +9599,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-radius: 12px !important;
 }
 .theme-dark .header-Hg_qNF {
+  color: var(--hover-bright-color) !important;
+}
+
+/* Game Invites */
+.theme-dark .moreUsers-1sZP3U,
+.theme-dark .partyMemberEmpty-2iyh5g {
+  background-color: var(--hover-color) !important;
   color: var(--hover-bright-color) !important;
 }
 
@@ -12975,10 +13036,6 @@ img:not(.emote):not(.emoji)::after {
 .item-3eFBNF:hover {
   background-color: var(--hover-color) !important;
 }
-.checked-3_4uQ9 {
-  border-color: var(--hover-bright-color) !important;
-  background-color: var(--hover-bright-color) !important;
-}
 
 /* Setting toggle buttons */
 .container-3auIfb {
@@ -13010,6 +13067,9 @@ img:not(.emote):not(.emoji)::after {
   > svg
   > path {
   fill: var(--soft-bright-color) !important;
+}
+.checked-3_4uQ9 {
+  background-color: transparent !important;
 }
 
 /* Checkbox unchecked */
