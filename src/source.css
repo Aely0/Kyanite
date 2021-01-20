@@ -7350,6 +7350,11 @@ button[aria-label="Stop Watching"]
   border-radius: 5px !important;
 }
 
+/* Image upload */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  background-color: var(--hover-color) !important;
+}
+
 /* Channel text area */
 .channel-textarea-inner {
   border: 2px solid hsla(0, 0%, 100%, 0.1) !important;
