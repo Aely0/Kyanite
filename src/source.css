@@ -7143,6 +7143,13 @@ button[aria-label="Stop Watching"]
   background-color: var(--main-color) !important;
 }
 
+/* Guild list voice user overflow */
+.moreUsers-7v8yWY {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+  border: 1px solid var(--soft-bright-color) !important;
+}
+
 /* Guild list muted tag */
 .colorMuted-HdFt4q {
   color: var(--soft-bright-color) !important;
@@ -12019,6 +12026,7 @@ div[class*="flex-"][class*="title-"],
 .selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .item-1GzJrl:hover,
 .header-2o-2hj:hover,
+.button-2PWmas:hover,
 .theme-dark .selected-1Tbx07,
 .theme-dark .member-3W1lQa.popout-open,
 .theme-dark .member-3W1lQa.popout-open:hover,
