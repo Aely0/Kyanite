@@ -6994,6 +6994,10 @@ button[aria-label="Stop Watching"]
 .streamPreview-3YL8OQ {
   background: var(--hover-color) !important;
 }
+.overflow-3zpvTV {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
