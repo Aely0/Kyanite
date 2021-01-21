@@ -6653,6 +6653,10 @@ pre:hover .copybutton {
 .iconContainer-1zobSR.checked-1Fij_T > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.viewAsRolesWarning-11eD70 {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Server settings emoji tab */
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
