@@ -6660,6 +6660,10 @@ pre:hover .copybutton {
 .iconContainer-1zobSR.checked-1Fij_T > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.viewAsRolesWarning-11eD70 {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Server settings emoji tab */
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
@@ -7001,6 +7005,10 @@ button[aria-label="Stop Watching"]
 .streamPreview-3YL8OQ {
   background: var(--hover-color) !important;
 }
+.overflow-3zpvTV {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
@@ -7140,6 +7148,13 @@ button[aria-label="Stop Watching"]
 .theme-dark .iconBadge-2wi9r4,
 .theme-light .iconBadge-2wi9r4 {
   background-color: var(--main-color) !important;
+}
+
+/* Guild list voice user overflow */
+.moreUsers-7v8yWY {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+  border: 1px solid var(--soft-bright-color) !important;
 }
 
 /* Guild list muted tag */
@@ -7355,6 +7370,11 @@ button[aria-label="Stop Watching"]
   background: rgba(0, 0, 0, 0.25) !important;
   border-color: var(--hover-color) !important;
   border-radius: 5px !important;
+}
+
+/* Image upload */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  background-color: var(--hover-color) !important;
 }
 
 /* Channel text area */
@@ -12007,6 +12027,7 @@ div[class*="flex-"][class*="title-"],
 .selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .item-1GzJrl:hover,
 .header-2o-2hj:hover,
+.button-2PWmas:hover,
 .theme-dark .selected-1Tbx07,
 .theme-dark .member-3W1lQa.popout-open,
 .theme-dark .member-3W1lQa.popout-open:hover,
