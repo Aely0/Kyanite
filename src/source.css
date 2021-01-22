@@ -12683,6 +12683,16 @@ div[class*="flex-"][class*="title-"],
   > div:nth-child(5) {
   color: var(--soft-bright-color) !important;
 }
+.theme-dark .partyMemberOverflow-lXnzvu {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .voiceSectionIconWrapper-FO7UEY {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .voiceSectionIcon-1b3cOo {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Links */
 .anchor-3Z-8Bb,
