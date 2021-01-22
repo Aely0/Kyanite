@@ -11072,6 +11072,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .replying-1x3H0T:hover {
   background-color: var(--hover-color) !important;
 }
+.replyBadge-r1su3o {
+  color: var(--soft-bright-color) !important;
+  background: var(--hover-color) !important;
+}
 
 /* Typing notification */
 .theme-dark .typing-2GQL18 {
