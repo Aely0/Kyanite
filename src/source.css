@@ -5796,6 +5796,17 @@ ul.bda-slist {
 .member-roles .member-role:hover .member-role-remove {
   opacity: 0.7 !important;
 }
+.theme-dark .overflowRolesPopout-140n9i,
+.theme-dark .overflowRolesPopoutArrow-2O66oH {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.overflowRolesPopoutHeaderIcon-6PNEZA > path {
+  fill: var(--hover-bright-color) !important;
+}
+.overflowRolesPopoutHeaderText-1SW-y3 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Replyer + Quoter */
 span.replyer,
@@ -11073,6 +11084,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .replying-1x3H0T:hover {
   background-color: var(--hover-color) !important;
 }
+.replyBadge-r1su3o {
+  color: var(--soft-bright-color) !important;
+  background: var(--hover-color) !important;
+}
 
 /* Typing notification */
 .theme-dark .typing-2GQL18 {
@@ -12678,6 +12693,16 @@ div[class*="flex-"][class*="title-"],
   > div.children-19S4PO
   > div.tabBar-ZmDY9v.topPill-30KHOu
   > div:nth-child(5) {
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .partyMemberOverflow-lXnzvu {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .voiceSectionIconWrapper-FO7UEY {
+  background-color: var(--hover-dark-color) !important;
+}
+.theme-dark .voiceSectionIcon-1b3cOo {
   color: var(--soft-bright-color) !important;
 }
 
