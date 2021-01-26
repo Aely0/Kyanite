@@ -5789,6 +5789,17 @@ ul.bda-slist {
 .member-roles .member-role:hover .member-role-remove {
   opacity: 0.7 !important;
 }
+.theme-dark .overflowRolesPopout-140n9i,
+.theme-dark .overflowRolesPopoutArrow-2O66oH {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.overflowRolesPopoutHeaderIcon-6PNEZA > path {
+  fill: var(--hover-bright-color) !important;
+}
+.overflowRolesPopoutHeaderText-1SW-y3 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Replyer + Quoter */
 span.replyer,
