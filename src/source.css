@@ -5800,6 +5800,9 @@ ul.bda-slist {
 .overflowRolesPopoutHeaderText-1SW-y3 {
   color: var(--hover-bright-color) !important;
 }
+.theme-dark .member-1q7VfX .overflowIconFg-QMRRFI {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Replyer + Quoter */
 span.replyer,
