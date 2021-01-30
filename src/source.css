@@ -10705,6 +10705,33 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: rgba(0, 0, 0, 0.2) !important;
 }
 
+/* Advanced permissions menu */
+.settingCard-3w2mVL {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+.cardContent-qqqwo8,
+.cardFolder-28dwxo,
+.colorStandard-2KCXvj {
+  background: none !important;
+}
+.addMemberRow-3-w-9X.selectedRow-1QP7qb,
+.richTag-1rBBz8,
+.role-3UN8jj {
+  background-color: var(--hover-color) !important;
+}
+.role-3UN8jj:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.disabledRemoveIcon-32MyIO {
+  color: var(--hover-color) !important;
+}
+.removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO) > path {
+  fill: var(--hover-danger-color) !important;
+}
+.removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO):hover > path {
+  fill: var(--hover-danger-bright-color) !important;
+}
+
 /* Circular close button */
 .theme-dark .closeButton-1tv5uR {
   border-color: var(--hover-color) !important;
