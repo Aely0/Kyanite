@@ -12804,7 +12804,27 @@ div[class*="flex-"][class*="title-"],
   background-color: transparent !important;
 }
 .theme-dark .wrapper-39oAo3 {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: var(--hover-color) !important;
+}
+.guildList-1ItbxP .card-Lnpy-k .container-2zflaQ {
+  border: 10px solid transparent !important;
+}
+
+/* Joined server verification notice */
+.notice-3uyY6c {
+  background-color: var(--hover-color) !important;
+}
+.button-gP4R86:hover {
+  background-color: transparent !important;
+}
+path[fill="rgb(255,183,19)"] {
+  fill: transparent !important;
+}
+path[stroke="rgb(123,162,255)"] {
+  stroke: var(--soft-bright-color) !important;
+}
+path[fill="rgb(255,216,54)"] {
+  fill: var(--main-color) !important;
 }
 
 /* Activity Feed tab */
