@@ -12878,6 +12878,33 @@ path[fill="rgb(255,216,54)"] {
   );
 }
 
+/* Add phone number (User Settings > My Account) */
+.phoneField-38N1bJ {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.phoneField-38N1bJ .inputField-aNPXsv {
+  background-color: transparent !important;
+}
+.phoneField-38N1bJ .plusSign-15Cgdh,
+.phoneField-38N1bJ .countryCode-2TeNMX,
+.phoneFieldPopout-7PzjOO .countryCode-1zrlUB {
+  color: var(--soft-bright-color) !important;
+}
+.phoneField-38N1bJ .phoneFieldExpand-2DzY5G {
+  stroke: var(--soft-bright-color) !important;
+}
+.phoneFieldPopout-7PzjOO .countryName-1Qmnov {
+  color: var(--hover-bright-color) !important;
+}
+.input-3Xdcic[placeholder="Search a country"],
+.input-3Xdcic[placeholder="Search a country"]::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.phoneFieldPopout-7PzjOO .popoutListEmpty-voOEBJ {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Connections (User Settings) */
 .accountBtnInner-sj5jLs,
 .accountList-33MS45,
