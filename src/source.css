@@ -12776,13 +12776,12 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
   background-color: var(--hover-dark-color) !important;
 }
-
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
   background-color: var(--hover-color) !important;
 }
-
 .theme-dark .spoilerText-3p6IlD {
-  background-color: transparent !important;
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Title */
