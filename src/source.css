@@ -10540,9 +10540,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .bannerVisible-2ZE_qG .iconBackgroundTierTwo-Eab9L6 {
   color: var(--main-color) !important;
 }
-.iconTierOne-s_oiRb,
-.iconTierTwo-1JOWNK {
-  color: white !important;
+.premiumGuildIconGem-DAxGL7 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Server boost status */
@@ -10704,6 +10703,33 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .item-1yAxl1 {
   background: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Advanced permissions menu */
+.settingCard-3w2mVL {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+.cardContent-qqqwo8,
+.cardFolder-28dwxo,
+.colorStandard-2KCXvj {
+  background: none !important;
+}
+.addMemberRow-3-w-9X.selectedRow-1QP7qb,
+.richTag-1rBBz8,
+.role-3UN8jj {
+  background-color: var(--hover-color) !important;
+}
+.role-3UN8jj:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.disabledRemoveIcon-32MyIO {
+  color: var(--hover-color) !important;
+}
+.removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO) > path {
+  fill: var(--hover-danger-color) !important;
+}
+.removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO):hover > path {
+  fill: var(--hover-danger-bright-color) !important;
 }
 
 /* Circular close button */
@@ -12778,7 +12804,27 @@ div[class*="flex-"][class*="title-"],
   background-color: transparent !important;
 }
 .theme-dark .wrapper-39oAo3 {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: var(--hover-color) !important;
+}
+.guildList-1ItbxP .card-Lnpy-k .container-2zflaQ {
+  border: 10px solid transparent !important;
+}
+
+/* Joined server verification notice */
+.notice-3uyY6c {
+  background-color: var(--hover-color) !important;
+}
+.button-gP4R86:hover {
+  background-color: transparent !important;
+}
+path[fill="rgb(255,183,19)"] {
+  fill: transparent !important;
+}
+path[stroke="rgb(123,162,255)"] {
+  stroke: var(--soft-bright-color) !important;
+}
+path[fill="rgb(255,216,54)"] {
+  fill: var(--main-color) !important;
 }
 
 /* Activity Feed tab */
@@ -12831,6 +12877,33 @@ div[class*="flex-"][class*="title-"],
     var(--hover-bright-color) 2px,
     transparent 0
   );
+}
+
+/* Add phone number (User Settings > My Account) */
+.phoneField-38N1bJ {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.phoneField-38N1bJ .inputField-aNPXsv {
+  background-color: transparent !important;
+}
+.phoneField-38N1bJ .plusSign-15Cgdh,
+.phoneField-38N1bJ .countryCode-2TeNMX,
+.phoneFieldPopout-7PzjOO .countryCode-1zrlUB {
+  color: var(--soft-bright-color) !important;
+}
+.phoneField-38N1bJ .phoneFieldExpand-2DzY5G {
+  stroke: var(--soft-bright-color) !important;
+}
+.phoneFieldPopout-7PzjOO .countryName-1Qmnov {
+  color: var(--hover-bright-color) !important;
+}
+.input-3Xdcic[placeholder="Search a country"],
+.input-3Xdcic[placeholder="Search a country"]::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.phoneFieldPopout-7PzjOO .popoutListEmpty-voOEBJ {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Connections (User Settings) */
