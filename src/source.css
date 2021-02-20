@@ -12746,6 +12746,12 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .voiceSectionIcon-1b3cOo {
   color: var(--soft-bright-color) !important;
 }
+.multipleIconWrapper-DfGWrz {
+  background-color: var(--hover-dark-color) !important;
+}
+.multipleIcon-1oJINS > g > path {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Links */
 .anchor-3Z-8Bb,
@@ -12772,7 +12778,7 @@ div[class*="flex-"][class*="title-"],
   border-color: var(--soft-bright-color) !important;
 }
 
-/* Spoler tag */
+/* Spoiler tag */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
   background-color: var(--hover-dark-color) !important;
 }
@@ -12797,7 +12803,7 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
 }
 
-/* Server Discorvery */
+/* Server Discovery */
 .theme-dark .pageWrapper-1PgVDX {
   background-color: transparent !important;
 }
