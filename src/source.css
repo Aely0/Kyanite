@@ -7600,6 +7600,12 @@ img:not(.emote):not(.emoji)::after {
 .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh {
   background-color: var(--hover-bright-color) !important;
 }
+.unownedStickerLockContainer-1awnDf{
+  background-color: var(--hover-dark-color) !important;
+}
+.unownedStickerLockIcon-3vTNpx {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-LlUax5 {
