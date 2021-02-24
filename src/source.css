@@ -12746,10 +12746,12 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.theme-dark .voiceSectionIconWrapper-FO7UEY {
+.theme-dark .voiceSectionIconWrapper-FO7UEY,
+.voiceSectionNoGuildImageWrapper-TicZR3 {
   background-color: var(--hover-dark-color) !important;
 }
-.theme-dark .voiceSectionIcon-1b3cOo {
+.theme-dark .voiceSectionIcon-1b3cOo,
+.voiceSectionNoGuildImage-DSaGg- {
   color: var(--soft-bright-color) !important;
 }
 .multipleIconWrapper-DfGWrz {
