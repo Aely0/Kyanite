@@ -7600,7 +7600,7 @@ img:not(.emote):not(.emoji)::after {
 .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh {
   background-color: var(--hover-bright-color) !important;
 }
-.unownedStickerLockContainer-1awnDf{
+.unownedStickerLockContainer-1awnDf {
   background-color: var(--hover-dark-color) !important;
 }
 .unownedStickerLockIcon-3vTNpx {
@@ -7729,6 +7729,11 @@ img:not(.emote):not(.emoji)::after {
 }
 .icon-1S6UIr {
   color: var(--hover-dark-color) !important;
+}
+
+/* Update icon */
+.updateIconForeground-3tnNZn {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Recent mentions tab */
