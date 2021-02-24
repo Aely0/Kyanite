@@ -7607,6 +7607,12 @@ img:not(.emote):not(.emoji)::after {
 .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh {
   background-color: var(--hover-bright-color) !important;
 }
+.unownedStickerLockContainer-1awnDf {
+  background-color: var(--hover-dark-color) !important;
+}
+.unownedStickerLockIcon-3vTNpx {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-LlUax5 {
@@ -7719,6 +7725,11 @@ img:not(.emote):not(.emoji)::after {
 }
 .icon-1S6UIr {
   color: var(--hover-dark-color) !important;
+}
+
+/* Update icon */
+.updateIconForeground-3tnNZn {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Recent mentions tab */
@@ -12741,11 +12752,19 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.theme-dark .voiceSectionIconWrapper-FO7UEY {
+.theme-dark .voiceSectionIconWrapper-FO7UEY,
+.voiceSectionNoGuildImageWrapper-TicZR3 {
   background-color: var(--hover-dark-color) !important;
 }
-.theme-dark .voiceSectionIcon-1b3cOo {
+.theme-dark .voiceSectionIcon-1b3cOo,
+.voiceSectionNoGuildImage-DSaGg- {
   color: var(--soft-bright-color) !important;
+}
+.multipleIconWrapper-DfGWrz {
+  background-color: var(--hover-dark-color) !important;
+}
+.multipleIcon-1oJINS > g > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Links */
@@ -12773,17 +12792,16 @@ div[class*="flex-"][class*="title-"],
   border-color: var(--soft-bright-color) !important;
 }
 
-/* Spoler tag */
+/* Spoiler tag */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
   background-color: var(--hover-dark-color) !important;
 }
-
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
   background-color: var(--hover-color) !important;
 }
-
 .theme-dark .spoilerText-3p6IlD {
-  background-color: transparent !important;
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Title */
@@ -12799,7 +12817,7 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
 }
 
-/* Server Discorvery */
+/* Server Discovery */
 .theme-dark .pageWrapper-1PgVDX {
   background-color: transparent !important;
 }
