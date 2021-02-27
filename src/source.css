@@ -12765,6 +12765,10 @@ div[class*="flex-"][class*="title-"],
 .multipleIcon-1oJINS > g > path {
   fill: var(--soft-bright-color) !important;
 }
+.applicationStreamingHoverText-IEVyfS {
+  background: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Links */
 .anchor-3Z-8Bb,
