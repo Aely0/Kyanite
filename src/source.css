@@ -7378,6 +7378,12 @@ button[aria-label="Stop Watching"]
   border-color: var(--hover-color) !important;
   border-radius: 5px !important;
 }
+.metadata-3WGS0M {
+  color: var(--hover-bright-color) !important;
+}
+.downloadButton-23tKQp {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Image upload */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
