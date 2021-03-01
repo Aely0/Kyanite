@@ -14,7 +14,7 @@
   --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
   --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
   --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
-  
+
   /* State colors */
   --green-bright-color: rgb(143, 255, 133) !important;
   --green-dark-color: rgba(34, 123, 22) !important;
@@ -7260,7 +7260,7 @@ button[aria-label="Stop Watching"]
 
 /* Fresh text channel beginning notice */
 .emptyChannelIcon-cc932w {
-  background-color: var(--hover-color) !important;
+  display: none !important;
 }
 .hasDivider-20M1le > h1 {
   color: var(--soft-bright-color) !important;
@@ -7270,6 +7270,9 @@ button[aria-label="Stop Watching"]
 }
 .button-18p_f6:hover {
   background-color: var(--hover-color) !important;
+}
+.header-3uLluP {
+  color: var(--soft-bright-color) !important;
 }
 
 /* NEW badge */
