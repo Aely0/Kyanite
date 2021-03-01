@@ -5734,6 +5734,33 @@ ul.bda-slist {
   border-top-color: var(--main-color) !important;
 }
 
+/* Tooltip Green */
+.tooltipGreen-WdeQwd {
+  color: var(--green-bright-color) !important;
+  background-color: var(--green-dark-color) !important;
+}
+.tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--green-dark-color) !important;
+}
+
+/* Tooltip Yellow */
+.tooltipYellow-E7eIBE {
+  color: var(--yellow-bright-color) !important;
+  background-color: var(--yellow-dark-color) !important;
+}
+.tooltipYellow-E7eIBE .tooltipPointer-3ZfirK {
+  border-top-color: var(--yellow-dark-color) !important;
+}
+
+/* Tooltip Red */
+.tooltipRed-8-9NeP {
+  color: var(--red-bright-color) !important;
+  background-color: var(--red-dark-color) !important;
+}
+.tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--red-dark-color) !important;
+}
+
 /* Member roles */
 .ui-role-list-role,
 .member-roles .member-role {
