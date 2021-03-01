@@ -1,33 +1,40 @@
-/* Root variables (reused theme accents) */
-
-/* Kyanite */
-/* :root {
-  --main-color: rgba(22, 91, 123, 1) !important;
+:root {
+  /* Kyanite accents */
+  /* --main-color: rgba(22, 91, 123, 1) !important;
   --soft-bright-color: rgb(133, 206, 255) !important;
-  --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
   --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
   --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
-  --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
-  --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
-  --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
-  --background-blur: 0px !important;
-  --background-brightness: 100% !important;
-} */
+  --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
 
-/* Magenta */
-:root {
+  /* Magenta accents */
   --main-color: rgb(115, 22, 123) !important;
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
-  --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(123, 22, 123, 0.3) !important;
   --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
   --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
   --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
-  --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
-  --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
-  --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
+
+  /* State colors */
+  --green-bright-color: rgb(143, 255, 133) !important;
+  --green-dark-color: rgba(34, 123, 22) !important;
+  --hover-green-color: rgba(46, 123, 22, 0.3) !important;
+  --hover-green-bright-color: rgba(41, 199, 27, 0.8) !important;
+  --hover-green-dark-color: rgba(34, 123, 22, 0.8) !important;
+
+  --yellow-bright-color: rgb(255, 202, 110) !important;
+  --yellow-dark-color: rgba(201, 127, 0) !important;
+  --hover-yellow-color: rgba(201, 127, 0, 0.3) !important;
+  --hover-yellow-bright-color: rgba(250, 166, 26, 0.8) !important;
+  --hover-yellow-dark-color: rgba(201, 127, 0, 0.8) !important;
+
+  --red-bright-color: rgb(255, 133, 133) !important;
+  --red-dark-color: rgba(123, 22, 22) !important;
+  --hover-red-color: rgba(123, 22, 22, 0.3) !important;
+  --hover-red-bright-color: rgba(199, 27, 27, 0.8) !important;
+  --hover-red-dark-color: rgba(123, 22, 22, 0.8) !important;
+
+  /* Background options */
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
 }
@@ -5640,7 +5647,7 @@ ul.bda-slist {
   background-color: var(--hover-dark-color) !important;
 }
 .button-1ZiXG9.dangerous-2r8KxV {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 .button-1ZiXG9.selected-LCBEAU {
   color: var(--soft-bright-color) !important;
@@ -5732,6 +5739,33 @@ ul.bda-slist {
 }
 .theme-dark .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
   border-top-color: var(--main-color) !important;
+}
+
+/* Tooltip Green */
+.tooltipGreen-WdeQwd {
+  color: var(--green-bright-color) !important;
+  background-color: var(--green-dark-color) !important;
+}
+.tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--green-dark-color) !important;
+}
+
+/* Tooltip Yellow */
+.tooltipYellow-E7eIBE {
+  color: var(--yellow-bright-color) !important;
+  background-color: var(--yellow-dark-color) !important;
+}
+.tooltipYellow-E7eIBE .tooltipPointer-3ZfirK {
+  border-top-color: var(--yellow-dark-color) !important;
+}
+
+/* Tooltip Red */
+.tooltipRed-8-9NeP {
+  color: var(--red-bright-color) !important;
+  background-color: var(--red-dark-color) !important;
+}
+.tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--red-dark-color) !important;
 }
 
 /* Member roles */
@@ -6721,14 +6755,14 @@ pre:hover .copybutton {
   background: transparent !important;
 }
 .theme-dark .button-2CgfFz {
-  background-color: var(--hover-danger-color) !important;
-  -webkit-box-shadow: 0 0 0 1px var(--hover-danger-dark-color),
+  background-color: var(--hover-red-color) !important;
+  -webkit-box-shadow: 0 0 0 1px var(--hover-red-dark-color),
     0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
-  box-shadow: 0 0 0 1px var(--hover-danger-dark-color),
+  box-shadow: 0 0 0 1px var(--hover-red-dark-color),
     0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
 .theme-dark .button-2CgfFz:hover {
-  background-color: var(--hover-danger-dark-color) !important;
+  background-color: var(--hover-red-dark-color) !important;
 }
 
 /* Private channels */
@@ -6962,12 +6996,12 @@ pre:hover .copybutton {
   background-color: var(--soft-bright-color) !important;
 }
 .controlButton-2MhVEL.centerButton-3CaNcJ.colorable-1bkp8v.red-33-Lnk.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN:hover {
-  background-color: var(--hover-danger-bright-color) !important;
+  background-color: var(--hover-red-bright-color) !important;
 }
 .controlButton-2MhVEL.centerButton-3CaNcJ.colorable-1bkp8v.red-33-Lnk.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN:hover
   .controlIcon-35oS15.centerIcon-2G6o-T
   > path {
-  fill: var(--danger-bright-color) !important;
+  fill: var(--red-bright-color) !important;
 }
 .headerTitle-1Y0ywV:hover {
   border-bottom: 1px solid var(--hover-bright-color) !important;
@@ -6979,18 +7013,18 @@ button[aria-label="Disconnect"] .controlIcon-35oS15.centerIcon-2G6o-T > path,
 button[aria-label="Stop Watching"]
   .controlIcon-35oS15.centerIcon-2G6o-T
   > path {
-  fill: var(--danger-bright-color) !important;
+  fill: var(--red-bright-color) !important;
 }
 .colorable-1bkp8v.red-33-Lnk,
 .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
-  color: var(--danger-bright-color) !important;
+  color: var(--red-bright-color) !important;
 }
 .colorable-1bkp8v.red-33-Lnk {
-  background: var(--hover-danger-dark-color) !important;
+  background: var(--hover-red-dark-color) !important;
 }
 .colorable-1bkp8v.red-33-Lnk.active-1QRrIS,
 .colorable-1bkp8v.red-33-Lnk:hover {
-  background: var(--hover-danger-bright-color) !important;
+  background: var(--hover-red-bright-color) !important;
 }
 .colorable-1bkp8v.white-3GPOIp.active-1QRrIS,
 .colorable-1bkp8v.white-3GPOIp:hover,
@@ -7047,7 +7081,7 @@ button[aria-label="Stop Watching"]
   background-color: var(--hover-color) !important;
 }
 .colorDanger-2qLCe1.focused-3afm-j {
-  background-color: var(--hover-danger-color) !important;
+  background-color: var(--hover-red-color) !important;
 }
 .bd-minimal .popout-menu {
   width: 156px !important;
@@ -7136,7 +7170,7 @@ button[aria-label="Stop Watching"]
   border: 1px solid var(--main-color) !important;
 }
 .clearStatusIcon-3-MDNF > path {
-  fill: var(--hover-danger-dark-color) !important;
+  fill: var(--hover-red-dark-color) !important;
 }
 
 /* Afk notification */
@@ -7233,7 +7267,7 @@ button[aria-label="Stop Watching"]
 
 /* Fresh text channel beginning notice */
 .emptyChannelIcon-cc932w {
-  background-color: var(--hover-color) !important;
+  display: none !important;
 }
 .hasDivider-20M1le > h1 {
   color: var(--soft-bright-color) !important;
@@ -7243,6 +7277,9 @@ button[aria-label="Stop Watching"]
 }
 .button-18p_f6:hover {
   background-color: var(--hover-color) !important;
+}
+.header-3uLluP {
+  color: var(--soft-bright-color) !important;
 }
 
 /* NEW badge */
@@ -7384,6 +7421,12 @@ button[aria-label="Stop Watching"]
   background: rgba(0, 0, 0, 0.25) !important;
   border-color: var(--hover-color) !important;
   border-radius: 5px !important;
+}
+.metadata-3WGS0M {
+  color: var(--hover-bright-color) !important;
+}
+.downloadButton-23tKQp {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Image upload */
@@ -10145,10 +10188,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--soft-bright-color) !important;
 }
 .upsellClose-3kyA8O {
-  color: var(--hover-danger-dark-color) !important;
+  color: var(--hover-red-dark-color) !important;
 }
 .upsellClose-3kyA8O:hover {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 
 /* Community Updates popout */
@@ -10266,7 +10309,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 .clearIcon-1_xlaH > path {
-  fill: var(--hover-danger-bright-color) !important;
+  fill: var(--hover-red-bright-color) !important;
 }
 .dotMembers-1XEUE5 {
   background-color: var(--soft-bright-color) !important;
@@ -10341,22 +10384,22 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--hover-dark-color) !important;
 }
 .clearIcon-onVMIA:hover > path {
-  fill: var(--hover-danger-bright-color) !important;
+  fill: var(--hover-red-bright-color) !important;
 }
 .css-4h5swf-singleValue,
 [id*="react-select-"] {
   color: var(--soft-bright-color) !important;
 }
 .lookLink-9FtZy-.colorRed-1TFJan {
-  color: var(--danger-bright-color) !important;
+  color: var(--red-bright-color) !important;
 }
 .lookLink-9FtZy-.colorRed-1TFJan:hover .contents-18-Yxp {
   background-image: linear-gradient(
     0deg,
     transparent,
     transparent 1px,
-    var(--danger-bright-color) 0,
-    var(--danger-bright-color) 2px,
+    var(--red-bright-color) 0,
+    var(--red-bright-color) 2px,
     transparent 0
   ) !important;
 }
@@ -10706,11 +10749,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--soft-bright-color) !important;
 }
 .deny-3nAuT6.selected-2YhbGh {
-  border-color: var(--hover-danger-bright-color) !important;
-  background: var(--hover-danger-dark-color) !important;
+  border-color: var(--hover-red-bright-color) !important;
+  background: var(--hover-red-dark-color) !important;
 }
 .item-1yAxl1.deny-3nAuT6.selected-2YhbGh > svg > path {
-  fill: var(--danger-bright-color) !important;
+  fill: var(--red-bright-color) !important;
 }
 .item-1yAxl1 {
   background: rgba(0, 0, 0, 0.2) !important;
@@ -10737,10 +10780,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-color) !important;
 }
 .removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO) > path {
-  fill: var(--hover-danger-color) !important;
+  fill: var(--hover-red-color) !important;
 }
 .removeIcon-2httxG:not(.disabledRemoveIcon-32MyIO):hover > path {
-  fill: var(--hover-danger-bright-color) !important;
+  fill: var(--hover-red-bright-color) !important;
 }
 
 /* Circular close button */
@@ -10816,7 +10859,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-dark-color) !important;
 }
 .closeIcon-tEzaUY:hover {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 
 /* Load more messages */
@@ -11123,7 +11166,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-dark-color) !important;
 }
 .closeButton-37O8QC:hover {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 .repliedMessage-VokQwo:before {
   border-color: var(--hover-bright-color) !important;
@@ -11301,7 +11344,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 .close-hZ94c6 .contents-18-Yxp > svg {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 .input-cIJ7To {
   color: var(--soft-bright-color) !important;
@@ -11882,13 +11925,13 @@ div[class*="flex-"][class*="title-"],
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan,
 .lookFilled-1Gx00P.colorRed-1TFJan {
-  color: var(--hover-danger-bright-color) !important;
-  border: 1px solid var(--hover-danger-dark-color) !important;
+  color: var(--hover-red-bright-color) !important;
+  border: 1px solid var(--hover-red-dark-color) !important;
   background: transparent !important;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover,
 .lookFilled-1Gx00P.colorRed-1TFJan:hover {
-  border-color: var(--hover-danger-bright-color) !important;
+  border-color: var(--hover-red-bright-color) !important;
 }
 .button-38aScr.lookOutlined-3sRXeN.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN
   .contents-18-Yxp,
@@ -11902,7 +11945,7 @@ div[class*="flex-"][class*="title-"],
   .contents-18-Yxp,
 .button-38aScr.lookLink-9FtZy-.colorRed-1TFJan.sizeMin-1mJd1x.grow-q77ONN
   .contents-18-Yxp {
-  color: var(--danger-bright-color) !important;
+  color: var(--red-bright-color) !important;
 }
 .button-38aScr.lookLink-9FtZy-.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
   color: var(--soft-bright-color) !important;
@@ -12766,6 +12809,10 @@ div[class*="flex-"][class*="title-"],
 .multipleIcon-1oJINS > g > path {
   fill: var(--soft-bright-color) !important;
 }
+.applicationStreamingHoverText-IEVyfS {
+  background: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Links */
 .anchor-3Z-8Bb,
@@ -12941,10 +12988,10 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 .connectionDelete-2Odoln > svg > path {
-  fill: var(--hover-danger-dark-color) !important;
+  fill: var(--hover-red-dark-color) !important;
 }
 .connectionDelete-2Odoln:hover > svg > path {
-  fill: var(--hover-danger-bright-color) !important;
+  fill: var(--hover-red-bright-color) !important;
 }
 
 /* Game Library (User Settings) */
@@ -13006,7 +13053,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 .clearIcon-xXwSFS {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 
 /* Premium promo */
@@ -13082,7 +13129,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover,
 .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover {
-  color: var(--hover-danger-bright-color) !important;
+  color: var(--hover-red-bright-color) !important;
 }
 .css-12hk9yc-control,
 .css-1adxh11-control,

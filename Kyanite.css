@@ -3,16 +3,15 @@
 
 /* Adjustable main color palette and background options */
 :root {
+  /* Kyanite accents */
   --main-color: rgba(22, 91, 123, 1) !important;
   --soft-bright-color: rgb(133, 206, 255) !important;
-  --danger-bright-color: rgb(255, 133, 133) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
   --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
   --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
   --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
-  --hover-danger-color: rgba(123, 22, 22, 0.3) !important;
-  --hover-danger-bright-color: rgba(199, 27, 27, 0.8) !important;
-  --hover-danger-dark-color: rgba(123, 22, 22, 0.8) !important;
+
+  /* Background options */
   --background-blur: 0px !important;
   --background-brightness: 100% !important;
 }
