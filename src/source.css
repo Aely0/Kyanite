@@ -5736,11 +5736,11 @@ ul.bda-slist {
 
 /* Tooltip Green */
 .tooltipGreen-WdeQwd {
-  color: var(--green-bright-color) !important;
-  background-color: var(--green-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
 }
 .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
-  border-top-color: var(--green-dark-color) !important;
+  border-top-color: var(--main-color) !important;
 }
 
 /* Tooltip Yellow */
