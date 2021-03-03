@@ -10033,6 +10033,53 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
   background-color: rgba(22, 91, 123, 0.2) !important;
 }
+.container-_phMUq {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--hover-bright-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.container-_phMUq:hover {
+  background-color: var(--hover-color) !important;
+}
+.icon-3_8HGa {
+  background-color: var(--hover-color) !important;
+}
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+  background-color: var(--hover-color) !important;
+}
+.memberCountContainer-1BJFU2 {
+  color: var(--hover-bright-color) !important;
+}
+.person-36TQaZ > path {
+  fill: var(--hover-bright-color) !important;
+}
+.header-2mZ9Ov {
+  background-color: transparent !important;
+}
+/* !!! Hiding the "<- Roles" button, as it gets */
+/* !!! in the way when it's made into a non-solid */
+/* !!! color block. You can still uses the side */
+/* !!! "Roles" button as a "Back" button. */
+.titleContainer-2CXtJo {
+  display: none;
+}
+.emptyRowContainer-1OKxeI {
+  color: var(--hover-bright-color) !important;
+}
+.menu-32AM6u {
+  color: var(--hover-bright-color) !important;
+}
+.menu-32AM6u:hover,
+.menu-32AM6u:active {
+  color: var(--soft-bright-color) !important;
+}
+.disabled-1Hwwfb.item-PXvHYJ:hover,
+.themed-OHr7kt.item-PXvHYJ:hover {
+  color: var(--hover-bright-color) !important;
+}
+.memberRow-1wwtfV:hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Server role color picker */
 .theme-dark .colorPickerCustom-2CWBn2 {
@@ -12028,10 +12075,12 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .secondary-dIudih {
+  color: var(--hover-dark-color) !important;
   background-color: rgba(0, 0, 0, 0.6) !important;
   box-shadow: 0 0 0 1px var(--hover-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
 .secondary-dIudih:hover {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
   box-shadow: 0 0 0 1px var(--hover-dark-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
@@ -12367,10 +12416,6 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
   background-color: var(--hover-dark-color) !important;
-}
-
-.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
-  background-color: var(--main-color) !important;
 }
 
 .errorDetails-qKU8eS {
