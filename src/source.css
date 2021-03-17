@@ -12725,6 +12725,15 @@ div[class*="flex-"][class*="title-"],
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
 }
 
+/* More Stickers available popup */
+.tooltip-9LylEY{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.tooltipPointer-2Z-d_n {
+  border-top-color: rgba(0, 0, 0, 0.9) !important;
+}
+
 /* Slash commands */
 .autocomplete-1vrmpx.outerWrapper-3-llkA {
   background-color: rgba(0, 0, 0, 0.9) !important;
