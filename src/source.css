@@ -5743,11 +5743,11 @@ ul.bda-slist {
 
 /* Tooltip Green */
 .tooltipGreen-WdeQwd {
-  color: var(--green-bright-color) !important;
-  background-color: var(--green-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
 }
 .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
-  border-top-color: var(--green-dark-color) !important;
+  border-top-color: var(--main-color) !important;
 }
 
 /* Tooltip Yellow */
@@ -7039,7 +7039,7 @@ button[aria-label="Stop Watching"]
   background: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.scroller-2TWLdF {
+.scroller-2ymjU1 {
   background-color: rgba(0, 0, 0, 0.95) !important;
 }
 .cta-3gK0Pu {
@@ -7053,7 +7053,7 @@ button[aria-label="Stop Watching"]
 .streamPreview-3YL8OQ {
   background: var(--hover-color) !important;
 }
-.overflow-3zpvTV {
+.overflow-1ExsZm {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
 }
@@ -10034,6 +10034,53 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
   background-color: rgba(22, 91, 123, 0.2) !important;
 }
+.container-_phMUq {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: var(--hover-bright-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.container-_phMUq:hover {
+  background-color: var(--hover-color) !important;
+}
+.icon-3_8HGa {
+  background-color: var(--hover-color) !important;
+}
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+  background-color: var(--hover-color) !important;
+}
+.memberCountContainer-1BJFU2 {
+  color: var(--hover-bright-color) !important;
+}
+.person-36TQaZ > path {
+  fill: var(--hover-bright-color) !important;
+}
+.header-2mZ9Ov {
+  background-color: transparent !important;
+}
+/* !!! Hiding the "<- Roles" button, as it gets */
+/* !!! in the way when it's made into a non-solid */
+/* !!! color block. You can still uses the side */
+/* !!! "Roles" button as a "Back" button. */
+.titleContainer-2CXtJo {
+  display: none;
+}
+.emptyRowContainer-1OKxeI {
+  color: var(--hover-bright-color) !important;
+}
+.menu-32AM6u {
+  color: var(--hover-bright-color) !important;
+}
+.menu-32AM6u:hover,
+.menu-32AM6u:active {
+  color: var(--soft-bright-color) !important;
+}
+.disabled-1Hwwfb.item-PXvHYJ:hover,
+.themed-OHr7kt.item-PXvHYJ:hover {
+  color: var(--hover-bright-color) !important;
+}
+.memberRow-1wwtfV:hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Server role color picker */
 .theme-dark .colorPickerCustom-2CWBn2 {
@@ -12029,10 +12076,12 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .secondary-dIudih {
+  color: var(--hover-dark-color) !important;
   background-color: rgba(0, 0, 0, 0.6) !important;
   box-shadow: 0 0 0 1px var(--hover-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
 .secondary-dIudih:hover {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
   box-shadow: 0 0 0 1px var(--hover-dark-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
@@ -12370,10 +12419,6 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
 }
 
-.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
-  background-color: var(--main-color) !important;
-}
-
 .errorDetails-qKU8eS {
   background-color: var(--hover-color) !important;
 }
@@ -12679,6 +12724,15 @@ div[class*="flex-"][class*="title-"],
 .containerBackground-3PNziK:after {
   border: 7px solid transparent !important;
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
+}
+
+/* More Stickers available popup */
+.tooltip-9LylEY{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.tooltipPointer-2Z-d_n {
+  border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Slash commands */
