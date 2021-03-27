@@ -5719,11 +5719,11 @@ ul.bda-slist {
 .subscribeTooltipWrapper-32-Ce8:after {
   border-bottom-color: var(--hover-color) !important;
 }
-.theme-dark .activityIcon-c4ew_N {
+.activityIcon-E-aeJm {
   color: var(--soft-bright-color) !important;
 }
 .listItemTooltip-CDcY8J,
-.guildNameText-74xXQn,
+.guildNameText-3Zwx4p,
 .tooltip-2QfLtc {
   color: var(--soft-bright-color) !important;
 }
@@ -7186,8 +7186,12 @@ button[aria-label="Stop Watching"]
 }
 
 /* Guild list voice icon */
-.theme-dark .iconBadge-2wi9r4,
-.theme-light .iconBadge-2wi9r4 {
+.theme-dark .iconBadge-3qSJIw {
+  background-color: var(--main-color) !important;
+}
+
+/* Guild list screen charing badge */
+.iconBadge-3qSJIw.participating-1NvRVd {
   background-color: var(--main-color) !important;
 }
 
@@ -12726,7 +12730,7 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* More Stickers available popup */
-.tooltip-9LylEY{
+.tooltip-9LylEY {
   background-color: rgba(0, 0, 0, 0.9) !important;
   border: 1px solid var(--hover-color) !important;
 }
