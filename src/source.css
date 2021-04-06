@@ -9794,6 +9794,26 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Build overrides */
+.wrapper-3o7UcG {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 12px !important;
+}
+.icon-3aYPfm > path {
+  fill: var(--hover-dark-color) !important;
+}
+.theme-dark .svgTag-3iksEu {
+  fill: var(--hover-bright-color) !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan,
+.lookFilled-1Gx00P.colorRed-1TFJan .contents-18-Yxp {
+  color: var(--hover-red-bright-color) !important;
+}
+.theme-dark .lookFilled-1Gx00P.colorTransparent-1ewNp9:disabled {
+  background-color: var(--hover-color) !important;
+}
+
 /* CSS syntax highlighting */
 [class~="css"] .hljs-tag,
 [class~="css"] .hljs-selector-tag,
