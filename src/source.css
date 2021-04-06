@@ -6321,6 +6321,49 @@ pre:hover .copybutton {
   color: var(--soft-bright-color) !important;
 }
 
+/* Stage Channels */
+.scroller-1SuHJo,
+.callContainer-3UuV6S, .container-pTf0Ly,
+.participants-soO0aD,
+.rowContainer-2tYerQ,
+.container-2t1JyW,
+.container-1EOCj2,
+.textInput-2xgsSa {
+  background-color: transparent !important;
+}
+.audienceVoiceUserIconContainer-29oflP,
+.background-1vAsyP,
+.buttonContainer-38-Et1,
+.icon-3z8ito,
+.stageIconBackground-5uF4K9,
+.stageIconBackground-135TMe,
+.iconContainer-2aaq6z,
+.colorNotification-GG3eAb {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.raiseHandButton-1TZpXJ.colorable-1bkp8v.white-3GPOIp {
+  border: 1px solid var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
+}
+.container-1KVp62 > svg > rect {
+  fill: var(--hover-dark-color) !important;
+}
+.container-1KVp62 > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.iconLive-AtZKgD,
+.iconContainer-2aaq6z > svg > path,
+.acceptText-j9fxRL,
+.declineText-awkkNG,
+.raisedHandButtonIconActive-1_Aqtv {
+  color: var(--soft-bright-color) !important;
+}
+.tileContainer-BaRAZF:hover,
+.container-oZq3fb {
+  background-color: var(--hover-color) !important;
+}
+
 /* Select control */
 .Select-control {
   background: rgba(0, 0, 0, 0.6) !important;
