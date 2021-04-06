@@ -7426,6 +7426,44 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
 }
 
+/* File upload (Source Files) */
+.textContainer-C0szpm,
+.footer-2yA7Ep {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.toggleExpandSection-3WJYqa:hover,
+.openFullPreviewSection-DZS30W:hover,
+.downloadSection-3DLWUO:hover,
+.codeIcon-3YZylx:hover {
+  color: var(--soft-bright-color) !important;
+}
+.downloadSection-3DLWUO {
+  color: var(--hover-bright-color) !important;
+}
+.modalTextContainer-ITvzbi {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.languageSelector-2LVJrh {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.medium-1LLV3p .input-3Xdcic::placeholder {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.5 !important;
+}
+.content-3YMskv .itemLabel-38pPIt {
+  color: var(--hover-bright-color) !important;
+}
+.container-cMG81i.medium-1LLV3p .input-3Xdcic {
+  color: var(--hover-bright-color) !important;
+}
+.selected-2114Fj {
+  background: var(--hover-color) !important;
+}
+
 /* Image upload */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
   background-color: var(--hover-color) !important;
@@ -13349,6 +13387,7 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Code blocks */
+.codeView-1JPDeA,
 .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline,
 .markup-2BOw-j pre {
