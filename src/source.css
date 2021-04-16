@@ -6323,7 +6323,8 @@ pre:hover .copybutton {
 
 /* Stage Channels */
 .scroller-1SuHJo,
-.callContainer-3UuV6S, .container-pTf0Ly,
+.callContainer-3UuV6S,
+.container-pTf0Ly,
 .participants-soO0aD,
 .rowContainer-2tYerQ,
 .container-2t1JyW,
@@ -11730,6 +11731,9 @@ div[class*="flex-"][class*="title-"],
 /* Blocked messages */
 .blockedMessageText-1fRjos {
   font-size: 15px !important;
+}
+.blockedSystemMessage-2Rk1ek:hover .blockedAction-2ZyU8z {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Status game text */
