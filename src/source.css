@@ -10130,6 +10130,23 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-color: transparent !important;
   background-color: transparent !important;
 }
+.upsell-xFI_Q0 {
+  background-color: var(--hover-color) !important;
+}
+.upsell-xFI_Q0.premiumUpsell-2vHaVa .colorInteractiveNormal-PB7JN3 {
+  color: var(--soft-bright-color) !important;
+}
+.button-38aScr.lookLink-9FtZy-.colorLink-35jkBc.sizeMedium-1AC_Sl.grow-q77ONN:hover
+  .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  ) !important;
+}
 
 /* Server Roles menu */
 .side-8zPYf6 .itemSelected-1qLhcL {
