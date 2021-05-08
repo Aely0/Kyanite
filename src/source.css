@@ -6364,6 +6364,34 @@ pre:hover .copybutton {
 .container-oZq3fb {
   background-color: var(--hover-color) !important;
 }
+.icon-3QjGWS > path,
+.iconAudience-1pFEnZ > svg > path,
+.settingsButton-2tFGbO > svg > path {
+  fill: var(--soft-bright-color) !important;
+}
+.headerContainer-3Dbfbk {
+  color: var(--soft-bright-color) !important;
+}
+.labelRow-16e77k > label[class="title-31JmR4"] {
+  color: var(--hover-bright-color) !important;
+}
+.foreground-2XBsBU,
+.stageIcon-A2C70A {
+  color: var(--soft-bright-color) !important;
+}
+.headerClose-3ppwtq {
+  color: var(--hover-bright-color) !important;
+}
+.headerClose-3ppwtq:hover {
+  color: var(--soft-bright-color) !important;
+}
+.buttonSpacing-3apH88.leaveQuietlyButton-1yMc0b.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN {
+  background: var(--red-dark-color) !important;
+  border: none !important;
+}
+.buttonSpacing-3apH88.leaveQuietlyButton-1yMc0b.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN:hover {
+  background: var(--hover-red-bright-color) !important;
+}
 
 /* Select control */
 .Select-control {
