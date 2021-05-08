@@ -7967,6 +7967,22 @@ img:not(.emote):not(.emoji)::after {
 .ui-guild-nsfw .action-button.dark-red:hover {
   background-color: var(--hover-color) !important;
 }
+.actionRed-gYn8D3 {
+  color: var(--hover-red-bright-color) !important;
+  border: 1px solid var(--hover-red-dark-color) !important;
+  background: transparent !important;
+}
+.actionRed-gYn8D3:hover {
+  border-color: var(--hover-red-bright-color) !important;
+}
+.action-yrVND8.button-38aScr.lookFilled-1Gx00P.actionRed-gYn8D3.sizeLarge-1vSeWK.grow-q77ONN
+  .contents-18-Yxp {
+  color: var(--red-bright-color) !important;
+}
+.title-1VcOOr.marginBottom8-AtZOdT,
+.description-2ydcYn.marginBottom20-32qID7 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Friends page */
 #friends .friends-header .tab-bar .tab-bar-item,
