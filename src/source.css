@@ -11006,6 +11006,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .closeButton-1tv5uR:hover {
   background-color: var(--hover-color) !important;
 }
+.closeButton-1tv5uR > svg > path {
+  fill: var(--hover-dark-color) !important;
+}
+.closeButton-1tv5uR:hover > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.theme-dark .keybind-KpFkfr {
+  color: var(--hover-dark-color) !important;
+}
 
 /* Dropdown menu */
 .css-n57xjs-menu,
