@@ -12548,6 +12548,12 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .player-3zB-0D:hover {
   background-color: var(--hover-color) !important;
 }
+.scroller-2ZPeAD {
+  border-left: none !important;
+}
+.container-lRFx4q {
+  background-color: transparent !important;
+}
 
 /* Library - billing */
 .theme-dark .root-1BQpZw {
