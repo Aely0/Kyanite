@@ -5606,6 +5606,18 @@ ul.bda-slist {
 .reactionBtn-3N03Zj {
   padding-left: 5px !important;
 }
+.reaction-1hd86g:hover {
+  border-color: var(--hover-color) !important;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+  border-color: var(--hover-color) !important;
+}
+.reactionCount-2mvXRV {
+  color: var(--hover-bright-color) !important;
+}
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Reacted Users */
 .theme-dark .container-1If-HZ,
