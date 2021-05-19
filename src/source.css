@@ -12566,6 +12566,9 @@ div[class*="flex-"][class*="title-"],
 .container-lRFx4q {
   background-color: transparent !important;
 }
+.section-2gLsgF {
+  background-color: var(--hover-color) !important;
+}
 
 /* Library - billing */
 .theme-dark .root-1BQpZw {
