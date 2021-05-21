@@ -5592,6 +5592,11 @@ ul.bda-slist {
   background: var(--hover-dark-color) !important;
 }
 
+/* Focused menu item highlight */
+.colorDefault-2K3EoJ.focused-3afm-j {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Reactions */
 .reaction-1hd86g {
   background-color: var(--hover-color) !important;
