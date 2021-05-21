@@ -12569,6 +12569,9 @@ div[class*="flex-"][class*="title-"],
 .section-2gLsgF {
   background-color: var(--hover-color) !important;
 }
+.wrapper-3D2qGf {
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Library - billing */
 .theme-dark .root-1BQpZw {
