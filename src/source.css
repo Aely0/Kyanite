@@ -12982,6 +12982,36 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 
+/* Home tabs */
+.icon-22AiRD {
+  color: var(--hover-bright-color) !important;
+}
+
+/* Stage discovery */
+.stageSection-3mAD8V {
+  background: transparent !important;
+}
+.container-2rNpDV {
+  background: var(--hover-color) !important;
+}
+.icon-xp84qZ > path {
+  fill: var(--hover-bright-color) !important;
+}
+.icon-xp84qZ:hover > path {
+  fill: var(--soft-bright-color) !important;
+}
+.container-S9SaVf {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.container-7Unqij {
+  background-color: var(--hover-dark-color) !important;
+}
+.container-7Unqij .colorHeaderSecondary-3Sp3Ft.size14-e6ZScH,
+.icon-3jQD8H {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Friends tab */
 .theme-dark
   .friendsTable-133bsv
@@ -13156,6 +13186,9 @@ path[fill="rgb(255,216,54)"] {
 .theme-dark .searchOption-8nCYo-.selected-1r_nkg {
   background-color: var(--hover-color) !important;
 }
+.emptyText-2zjpZr {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Voice channel activity popup */
 .container-2dqNWc {
@@ -13243,7 +13276,8 @@ path[fill="rgb(255,216,54)"] {
   border: 6px solid transparent !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.avatar-2PN2-j, .profileBackgroundPreview-3BVL0Q {
+.avatar-2PN2-j,
+.profileBackgroundPreview-3BVL0Q {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .avatar-2PN2-j {
