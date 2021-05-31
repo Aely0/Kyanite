@@ -5588,6 +5588,11 @@ ul.bda-slist {
   background: var(--hover-dark-color) !important;
 }
 
+/* Focused menu item highlight */
+.colorDefault-2K3EoJ.focused-3afm-j {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Reactions */
 .reaction-1hd86g {
   background-color: var(--hover-color) !important;
@@ -11388,10 +11393,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Message reply */
-.container-2fRDfG {
+.replyBar-1YLQ2F {
   background: var(--hover-color) !important;
 }
-.colorBrand-2tjs5J {
+.colorBrand-2tjs5J,
+.colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
   color: var(--soft-bright-color) !important;
 }
 .colorMuted-HdFt4q.size14-e6ZScH.mentionButton-3710-W {
@@ -12011,6 +12017,9 @@ div[class*="flex-"][class*="title-"],
 .tabBarItem-1b8RUP.item-PXvHYJ[style="border-color: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6);"] {
   border-color: var(--hover-bright-color) !important;
 }
+.setIdentityLink-OpBDR6 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
@@ -12203,6 +12212,27 @@ div[class*="flex-"][class*="title-"],
   background-color: transparent !important;
   color: var(--hover-bright-color) !important;
   border: 1px solid var(--hover-dark-color) !important;
+}
+
+/* Thread */
+.threadSidebar-1o3BTy,
+.channelTextArea-2ZBawt {
+  background-color: transparent !important;
+}
+.iconWrapper-L3hQuc {
+  background-color: var(--main-color) !important;
+}
+.icon-3kbkI0 {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Threads list */
+.container-7uh5fX {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.header-1VS4tm {
+  background-color: transparent !important;
 }
 
 /* Pinned messages */
@@ -12566,6 +12596,12 @@ div[class*="flex-"][class*="title-"],
 }
 .container-lRFx4q {
   background-color: transparent !important;
+}
+.section-2gLsgF {
+  background-color: var(--hover-color) !important;
+}
+.wrapper-3D2qGf {
+  border: 1px solid var(--hover-color) !important;
 }
 
 /* Library - billing */
@@ -12971,6 +13007,36 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 
+/* Home tabs */
+.children-19S4PO .iconWrapper-2OrFZ1 .icon-22AiRD {
+  color: var(--hover-bright-color) !important;
+}
+
+/* Stage discovery */
+.stageSection-3mAD8V {
+  background: transparent !important;
+}
+.container-2rNpDV {
+  background: var(--hover-color) !important;
+}
+.icon-xp84qZ > path {
+  fill: var(--hover-bright-color) !important;
+}
+.icon-xp84qZ:hover > path {
+  fill: var(--soft-bright-color) !important;
+}
+.container-S9SaVf {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.container-7Unqij {
+  background-color: var(--hover-dark-color) !important;
+}
+.container-7Unqij .colorHeaderSecondary-3Sp3Ft.size14-e6ZScH,
+.icon-3jQD8H {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Friends tab */
 .theme-dark
   .friendsTable-133bsv
@@ -13145,6 +13211,9 @@ path[fill="rgb(255,216,54)"] {
 .theme-dark .searchOption-8nCYo-.selected-1r_nkg {
   background-color: var(--hover-color) !important;
 }
+.emptyText-2zjpZr {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Voice channel activity popup */
 .container-2dqNWc {
@@ -13215,6 +13284,32 @@ path[fill="rgb(255,216,54)"] {
 }
 .phoneFieldPopout-7PzjOO .popoutListEmpty-voOEBJ {
   color: var(--hover-bright-color) !important;
+}
+
+/* User Banner & Bio (User Settings > My Account) */
+.headerTop-2y3V6H,
+.aboutMeSection-3bipSD {
+  background-color: transparent !important;
+}
+.headerNormal-1l1Znk {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.profileBanner-j34RzR {
+  background-color: transparent !important;
+}
+.avatar-22FtUu {
+  border: 6px solid transparent !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.avatar-2PN2-j,
+.profileBackgroundPreview-3BVL0Q {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.avatar-2PN2-j {
+  border: 6px solid transparent !important;
+}
+.bannerUploader-2jPvg2 .avatarUploaderInner-3UNxY3 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Connections (User Settings) */
