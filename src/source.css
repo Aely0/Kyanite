@@ -12213,6 +12213,27 @@ div[class*="flex-"][class*="title-"],
   border: 1px solid var(--hover-dark-color) !important;
 }
 
+/* Thread */
+.threadSidebar-1o3BTy,
+.channelTextArea-2ZBawt {
+  background-color: transparent !important;
+}
+.iconWrapper-L3hQuc {
+  background-color: var(--main-color) !important;
+}
+.icon-3kbkI0 {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Threads list */
+.container-7uh5fX {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.header-1VS4tm {
+  background-color: transparent !important;
+}
+
 /* Pinned messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW,
 .container-enaOkj {
