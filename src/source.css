@@ -13036,6 +13036,51 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 
+/* Stage Discovery - Start Stage */
+.bulletsContainer-3omDLR,
+.privacyContainer-JsAijK {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.privacyItemContainer-3nWJyN:hover {
+  background-color: var(--hover-color) !important;
+}
+.borderBottom-cijHjW {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.textInput-2hUaEf {
+  background-color: transparent !important;
+}
+.itemIcon-1ef1gc {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Ticketed Stages */
+.container-1n4bMv,
+.container-2vijaa {
+  background-color: transparent !important;
+}
+.theme-dark .formSection-K7m8xL {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.listContainer-19y4Nf {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.pencilIconContainer-35slsi {
+  background-color: var(--main-color) !important;
+}
+.pencilIcon-3CvBci {
+  color: var(--soft-bright-color) !important;
+}
+.addEndDateIcon-3LLc82 {
+  color: var(--hover-dark-color) !important;
+}
+.container-JC_YWz {
+  background-color: var(--hover-color) !important;
+}
+
 /* Friends tab */
 .theme-dark
   .friendsTable-133bsv
