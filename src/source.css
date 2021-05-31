@@ -12016,6 +12016,9 @@ div[class*="flex-"][class*="title-"],
 .tabBarItem-1b8RUP.item-PXvHYJ[style="border-color: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6);"] {
   border-color: var(--hover-bright-color) !important;
 }
+.setIdentityLink-OpBDR6 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
