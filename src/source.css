@@ -7841,12 +7841,12 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
-/* Everyone warning popout */
-.everyonePopout-nEbJY3 {
+/* Everyone & Token warning popout */
+.contentWarningPopout-n5JsIs {
   background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
 }
-.footer-2aTx0s {
+.footer-3N9rgh {
   background-color: transparent !important;
 }
 .icon-2qOzDL > g > path {
@@ -13003,6 +13003,12 @@ div[class*="flex-"][class*="title-"],
 }
 .content-2Kddbs,
 .command-2EsN1V {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Slash commands - Dropdown menu */
+.tag-1hplGn {
+  background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
 
