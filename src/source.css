@@ -11870,8 +11870,9 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerTop-3C2Zn0 {
-  background: rgba(0, 0, 0, 0.9) !important;
+.headerTop-2cWpdB {
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--hover-color) !important;
 }
 .header-QKLPzZ {
   background: rgba(0, 0, 0, 0.8) !important;
