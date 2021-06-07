@@ -13018,7 +13018,7 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 
-/* Stage discovery */
+/* Stage Discovery */
 .stageSection-3mAD8V {
   background: transparent !important;
 }
@@ -13040,6 +13040,12 @@ div[class*="flex-"][class*="title-"],
 }
 .container-7Unqij .colorHeaderSecondary-3Sp3Ft.size14-e6ZScH,
 .icon-3jQD8H {
+  color: var(--soft-bright-color) !important;
+}
+.featuredTag-3pT1Rf {
+  background-color: var(--hover-dark-color) !important;
+}
+.featuredTagText-HmlSoA {
   color: var(--soft-bright-color) !important;
 }
 
