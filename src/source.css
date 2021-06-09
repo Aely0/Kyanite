@@ -7508,11 +7508,25 @@ button[aria-label="Stop Watching"]
   border-color: var(--hover-color) !important;
   border-radius: 5px !important;
 }
-.metadata-3WGS0M {
+.metadata-3WGS0M,
+.optional--ezibr {
   color: var(--hover-bright-color) !important;
 }
 .downloadButton-23tKQp {
   color: var(--soft-bright-color) !important;
+}
+.filename-ovv3c5,
+.destination-3ZiRO2 strong,
+.label-3aiqT2 {
+  color: var(--soft-bright-color) !important;
+}
+.uploadModal-2ifh8j {
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 4px !important;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* File upload (Source Files) */
