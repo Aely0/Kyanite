@@ -13074,6 +13074,13 @@ div[class*="flex-"][class*="title-"],
 .command-2EsN1V {
   color: var(--soft-bright-color) !important;
 }
+.tooltip-BPhxJN {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.tooltipPointer-lElcog {
+  border-top: 5px solid rgba(0, 0, 0, 0.8) !important;
+}
 
 /* Slash commands - Dropdown menu */
 .tag-1hplGn {
@@ -13413,7 +13420,7 @@ path[fill="rgb(255,216,54)"] {
 
 /* User Banner & Bio (User Settings > My Account) */
 .headerTop-2y3V6H,
-.aboutMeSection-3bipSD {
+.aboutMeSection---MkQa {
   background-color: transparent !important;
 }
 .headerNormal-1l1Znk {
