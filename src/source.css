@@ -6377,6 +6377,9 @@ pre:hover .copybutton {
 .raisedHandButtonIconActive-1_Aqtv {
   color: var(--soft-bright-color) !important;
 }
+.tileContainer-BaRAZF {
+  background-color: transparent !important;
+}
 .tileContainer-BaRAZF:hover,
 .container-oZq3fb {
   background-color: var(--hover-color) !important;
