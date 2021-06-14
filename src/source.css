@@ -13039,6 +13039,19 @@ div[class*="flex-"][class*="title-"],
   border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
+/* Sticker DM greeting */
+.compactButton-195WSV .colorStandard-2KCXvj.size16-1P40sf.text-3iVxFB{
+  color: var(--soft-bright-color) !important;
+}
+.compactButton-195WSV, .compactButtonDisabled-1WXLm6 {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-dark-color) !important;
+  border-radius: 4px !important;
+}
+.compactButton-195WSV:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+
 /* Slash commands */
 .autocomplete-1vrmpx.outerWrapper-3-llkA {
   background-color: rgba(0, 0, 0, 0.9) !important;
