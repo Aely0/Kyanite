@@ -12096,6 +12096,10 @@ div[class*="flex-"][class*="title-"],
 .setIdentityLink-3lcnXW {
   color: var(--hover-bright-color) !important;
 }
+.avatar-AvHqJA {
+  border-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
@@ -13451,8 +13455,7 @@ path[fill="rgb(255,216,54)"] {
 .profileBanner-j34RzR {
   background-color: transparent !important;
 }
-.avatar-37jOim,
-.avatar-AvHqJA {
+.avatar-37jOim {
   border: 6px solid transparent !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
