@@ -11631,6 +11631,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .guildBadgeWithoutColor-20tGtS {
   color: var(--main-color) !important;
 }
+.icon-1ihkOt > path {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Guild welcome channel */
 .titleName-3-Lp3Z p {
