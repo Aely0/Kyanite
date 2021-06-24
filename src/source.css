@@ -11903,12 +11903,12 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk {
+.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk,
+.userBio-3tlrzS {
   color: var(--hover-bright-color) !important;
 }
 .headerTop-3vNv-a {
   background-color: rgba(0, 0, 0, 0.9) !important;
-  border-bottom: 1px solid var(--hover-color) !important;
 }
 .bodyInnerWrapper-26fQXj {
   background: rgba(0, 0, 0, 0.9) !important;
@@ -13458,7 +13458,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--hover-bright-color) !important;
 }
 
-/* User Banner & Bio (User Settings > My Account) */
+/* User Banner & Bio (User Settings > User Profile) */
 .headerTop-2y3V6H,
 .aboutMeSection---MkQa {
   background-color: transparent !important;
@@ -13482,6 +13482,13 @@ path[fill="rgb(255,216,54)"] {
 }
 .bannerUploader-2jPvg2 .avatarUploaderInner-3UNxY3 {
   background-color: var(--hover-color) !important;
+}
+.profileBannerPreview-3_l0Wd {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.avatarUploaderInner-Oiob_P {
+  border: 6px solid rgb(0, 0, 0) !important;
 }
 
 /* Connections (User Settings) */
