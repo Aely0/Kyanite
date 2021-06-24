@@ -11893,6 +11893,7 @@ div[class*="flex-"][class*="title-"],
 /* Profile popout */
 .userPopout-xaxa6l {
   border: 1px solid var(--hover-color) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .popout.popout-left.no-arrow,
 .popout.popout-right.no-arrow {
@@ -11902,21 +11903,21 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerTop-2cWpdB {
-  background-color: transparent !important;
+.headerTop-3vNv-a {
+  background-color: rgba(0, 0, 0, 0.9) !important;
   border-bottom: 1px solid var(--hover-color) !important;
 }
-.header-QKLPzZ {
-  background: rgba(0, 0, 0, 0.8) !important;
+.headerTop-3vNv-a {
+  background: rgba(0, 0, 0, 0.9) !important;
 }
-.headerNormal-1mX3KY {
+.headerNormal-3KXFBt {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .body-3HBlXn,
 .body-r6_QPy {
   background: rgba(0, 0, 0, 0.9) !important;
 }
-.footer-1N3bR3 {
+footer-3UKYOU {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .theme-dark .quickMessage-1yeL4E {
