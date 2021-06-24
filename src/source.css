@@ -11903,6 +11903,9 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
+.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk {
+  color: var(--hover-bright-color) !important;
+}
 .headerTop-3vNv-a {
   background-color: rgba(0, 0, 0, 0.9) !important;
   border-bottom: 1px solid var(--hover-color) !important;
@@ -12091,11 +12094,11 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .username-2b1r56.username-FvTBog,
-.headerTagUsernameNoNickname-1ZLDYY {
+.headerTagUsernameNoNickname-2-Y5Ct {
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .discriminator-1swucG,
-.headerTagDiscriminatorNoNickname-1vRWkt {
+.discrimBase-24vY8o {
   color: var(--hover-bright-color) !important;
 }
 .bar-3urHkF {
