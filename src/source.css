@@ -12123,6 +12123,11 @@ div[class*="flex-"][class*="title-"],
 .pencilIcon-XSi-VE {
   color: var(--soft-bright-color) !important;
 }
+.bannerOverlayPopout-1clJ34 {
+  -webkit-box-shadow: 0 2px 10px 0 transparent,
+    inset 0 0 120px var(--hover-color) !important;
+  box-shadow: 0 2px 10px 0 transparent, inset 0 0 120px var(--hover-color) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
@@ -13452,6 +13457,9 @@ path[fill="rgb(255,216,54)"] {
     var(--hover-bright-color) 2px,
     transparent 0
   );
+}
+.bannerNitroUpsell-3f4I57 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Add phone number (User Settings > My Account) */
