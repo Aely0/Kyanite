@@ -13420,7 +13420,7 @@ path[fill="rgb(255,216,54)"] {
 }
 .avatar-1uQSZT {
   background-color: transparent !important;
-  border: 7px solid rgb(0, 0, 0) !important;
+  border: 7px solid var(--hover-color) !important;
 }
 .username-2b1r56 {
   color: var(--soft-bright-color) !important;
