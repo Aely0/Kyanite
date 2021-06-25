@@ -12114,6 +12114,12 @@ div[class*="flex-"][class*="title-"],
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
+.textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+  background-color: var(--hover-dark-color) !important;
+}
+.premiumIcon-2EjK1H {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Embeds */
 .theme-dark .embedDescription-1Cuq9a,
