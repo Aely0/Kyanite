@@ -11453,6 +11453,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
   background: var(--hover-color) !important;
 }
+.attachedBars-tZDmyV {
+  background: transparent !important;
+}
+.separator-ju-9xl {
+  background-color: var(--hover-color) !important;
+}
 
 /* Typing notification */
 .theme-dark .typing-2GQL18 {
