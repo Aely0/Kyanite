@@ -11893,6 +11893,7 @@ div[class*="flex-"][class*="title-"],
 /* Profile popout */
 .userPopout-xaxa6l {
   border: 1px solid var(--hover-color) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .popout.popout-left.no-arrow,
 .popout.popout-right.no-arrow {
@@ -11902,21 +11903,24 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerTop-2cWpdB {
-  background-color: transparent !important;
-  border-bottom: 1px solid var(--hover-color) !important;
+.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk,
+.userBio-3tlrzS {
+  color: var(--hover-bright-color) !important;
 }
-.header-QKLPzZ {
-  background: rgba(0, 0, 0, 0.8) !important;
+.headerTop-3vNv-a {
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerNormal-1mX3KY {
+.bodyInnerWrapper-26fQXj {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+.headerNormal-3KXFBt {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .body-3HBlXn,
 .body-r6_QPy {
   background: rgba(0, 0, 0, 0.9) !important;
 }
-.footer-1N3bR3 {
+.footer-3UKYOU {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .theme-dark .quickMessage-1yeL4E {
@@ -12078,7 +12082,7 @@ div[class*="flex-"][class*="title-"],
 .nameWrap-3Z4G_9,
 .bodyTitle-3FWCs2,
 .protip-2urNh2,
-.headerTagUsernameBase-24SRnT,
+.headerTagUsernameBase-1NqrY5,
 .discrimBase-1QwWzY,
 .customStatus-oN4ZZY,
 .text-AOoUen,
@@ -12086,15 +12090,15 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 .connectedAccountName-E1KzaT,
-.nickname-2gQ76l {
+.nickname-3M3Jfa {
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .username-2b1r56.username-FvTBog,
-.headerTagUsernameNoNickname-1ZLDYY {
+.headerTagUsernameNoNickname-2-Y5Ct {
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .discriminator-1swucG,
-.headerTagDiscriminatorNoNickname-1vRWkt {
+.discrimBase-24vY8o {
   color: var(--hover-bright-color) !important;
 }
 .bar-3urHkF {
@@ -12103,12 +12107,31 @@ div[class*="flex-"][class*="title-"],
 .barInner-3NDaY_ {
   background-color: var(--hover-bright-color) !important;
 }
-.setIdentityLink-3lcnXW {
+.setIdentityLink-1t8Ahd .colorLink-2vG20E.size14-e6ZScH {
   color: var(--hover-bright-color) !important;
 }
 .avatar-AvHqJA {
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+  background-color: var(--hover-dark-color) !important;
+}
+.premiumIcon-2EjK1H {
+  color: var(--soft-bright-color) !important;
+}
+.pencilIcon-XSi-VE {
+  color: var(--soft-bright-color) !important;
+}
+.bannerOverlayPopout-1clJ34 {
+  -webkit-box-shadow: 0 2px 10px 0 transparent,
+    inset 0 0 120px var(--hover-color) !important;
+  box-shadow: 0 2px 10px 0 transparent, inset 0 0 120px var(--hover-color) !important;
+}
+.avatarHintInner-1TvA8u {
+  -webkit-box-shadow: inset 0 0 120px var(--main-color) !important;
+  box-shadow: inset 0 0 120px var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Embeds */
@@ -13396,11 +13419,25 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* My Account (User Settings) */
-.background-1QDuV2 {
+.accountProfileCard-1XCH88 {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.background-1QDuV2 {
+  background-color: transparent !important;
 }
 .fieldList-21DyL8 {
   background-color: transparent !important;
+}
+.avatar-1uQSZT {
+  background-color: transparent !important;
+  border: 7px solid var(--hover-color) !important;
+}
+.userTag-1PLzkC.nameTag-m8r81H .username-2b1r56 {
+  color: var(--soft-bright-color) !important;
+}
+.userTag-1PLzkC.nameTag-m8r81H .discriminator-2C3qJO,
+.overflowMenuIcon-1h7e8s {
+  color: var(--hover-bright-color) !important;
 }
 .menu-319q29 > div > svg > path {
   fill: var(--hover-bright-color) !important;
@@ -13425,6 +13462,9 @@ path[fill="rgb(255,216,54)"] {
     var(--hover-bright-color) 2px,
     transparent 0
   );
+}
+.bannerNitroUpsell-3f4I57 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Add phone number (User Settings > My Account) */
@@ -13454,7 +13494,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--hover-bright-color) !important;
 }
 
-/* User Banner & Bio (User Settings > My Account) */
+/* User Banner & Bio (User Settings > User Profile) */
 .headerTop-2y3V6H,
 .aboutMeSection---MkQa {
   background-color: transparent !important;
@@ -13478,6 +13518,13 @@ path[fill="rgb(255,216,54)"] {
 }
 .bannerUploader-2jPvg2 .avatarUploaderInner-3UNxY3 {
   background-color: var(--hover-color) !important;
+}
+.profileBannerPreview-3_l0Wd {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.avatarUploaderInner-Oiob_P {
+  border: 6px solid rgb(0, 0, 0) !important;
 }
 
 /* Connections (User Settings) */
