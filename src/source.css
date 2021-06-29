@@ -6384,6 +6384,9 @@ pre:hover .copybutton {
 .raisedHandButtonIconActive-1_Aqtv {
   color: var(--soft-bright-color) !important;
 }
+.tileContainer-BaRAZF {
+  background-color: transparent !important;
+}
 .tileContainer-BaRAZF:hover,
 .container-oZq3fb {
   background-color: var(--hover-color) !important;
@@ -6601,6 +6604,13 @@ pre:hover .copybutton {
 .planOptionDiscount-cS8uaO {
   color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
+}
+.newBadge-1Is7Nf {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.sparkle-1qyWC9 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Settings Overlay */
@@ -7515,11 +7525,25 @@ button[aria-label="Stop Watching"]
   border-color: var(--hover-color) !important;
   border-radius: 5px !important;
 }
-.metadata-3WGS0M {
+.metadata-3WGS0M,
+.optional--ezibr {
   color: var(--hover-bright-color) !important;
 }
 .downloadButton-23tKQp {
   color: var(--soft-bright-color) !important;
+}
+.filename-ovv3c5,
+.destination-3ZiRO2 strong,
+.label-3aiqT2 {
+  color: var(--soft-bright-color) !important;
+}
+.uploadModal-2ifh8j {
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 4px !important;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* File upload (Source Files) */
@@ -7721,7 +7745,7 @@ img:not(.emote):not(.emoji)::after {
 .contentWrapper-SvZHNd,
 .categoryWrapper-UZ5YNj,
 .inspector-S2gM3e,
-.diversitySelectorPopout-3FiGaM,
+.diversitySelectorOptions-4YM-vX,
 .emojiPicker-3PwZFl,
 .container-2XeR5Z,
 .container-cMG81i,
@@ -7742,7 +7766,7 @@ img:not(.emote):not(.emoji)::after {
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B {
   background-color: var(--hover-dark-color) !important;
 }
-.diversitySelectorPopout-3FiGaM {
+.diversitySelectorOptions-4YM-vX {
   border: 1px solid var(--main-color) !important;
 }
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
@@ -10075,6 +10099,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Accessibility settings */
+.previewMessage-1ZN7YG {
+  background-color: var(--hover-color) !important;
+}
+
 /* Background scrollers */
 .root-SR8cQa,
 .scroller-1Bvpku,
@@ -11425,6 +11454,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
   background: var(--hover-color) !important;
 }
+.attachedBars-tZDmyV {
+  background: transparent !important;
+}
+.separator-ju-9xl {
+  background-color: var(--hover-color) !important;
+}
 
 /* Typing notification */
 .theme-dark .typing-2GQL18 {
@@ -11609,6 +11644,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Guild verified badge */
 .guildBadgeWithoutColor-20tGtS {
   color: var(--main-color) !important;
+}
+.icon-1ihkOt > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Guild welcome channel */
@@ -11862,6 +11900,7 @@ div[class*="flex-"][class*="title-"],
 /* Profile popout */
 .userPopout-xaxa6l {
   border: 1px solid var(--hover-color) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .popout.popout-left.no-arrow,
 .popout.popout-right.no-arrow {
@@ -11871,21 +11910,24 @@ div[class*="flex-"][class*="title-"],
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerTop-2cWpdB {
-  background-color: transparent !important;
-  border-bottom: 1px solid var(--hover-color) !important;
+.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk,
+.userBio-3tlrzS {
+  color: var(--hover-bright-color) !important;
 }
-.header-QKLPzZ {
-  background: rgba(0, 0, 0, 0.8) !important;
+.headerTop-3vNv-a {
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.headerNormal-1mX3KY {
+.bodyInnerWrapper-26fQXj {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+.headerNormal-3KXFBt {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .body-3HBlXn,
 .body-r6_QPy {
   background: rgba(0, 0, 0, 0.9) !important;
 }
-.footer-1N3bR3 {
+.footer-3UKYOU {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 .theme-dark .quickMessage-1yeL4E {
@@ -12047,7 +12089,7 @@ div[class*="flex-"][class*="title-"],
 .nameWrap-3Z4G_9,
 .bodyTitle-3FWCs2,
 .protip-2urNh2,
-.headerTagUsernameBase-24SRnT,
+.headerTagUsernameBase-1NqrY5,
 .discrimBase-1QwWzY,
 .customStatus-oN4ZZY,
 .text-AOoUen,
@@ -12055,15 +12097,15 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 .connectedAccountName-E1KzaT,
-.nickname-2gQ76l {
+.nickname-3M3Jfa {
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .username-2b1r56.username-FvTBog,
-.headerTagUsernameNoNickname-1ZLDYY {
+.headerTagUsernameNoNickname-2-Y5Ct {
   color: var(--soft-bright-color) !important;
 }
 .nameTag-ECvD8P.nameTag-m8r81H .discriminator-1swucG,
-.headerTagDiscriminatorNoNickname-1vRWkt {
+.discrimBase-24vY8o {
   color: var(--hover-bright-color) !important;
 }
 .bar-3urHkF {
@@ -12072,8 +12114,31 @@ div[class*="flex-"][class*="title-"],
 .barInner-3NDaY_ {
   background-color: var(--hover-bright-color) !important;
 }
-.setIdentityLink-3lcnXW {
+.setIdentityLink-1t8Ahd .colorLink-2vG20E.size14-e6ZScH {
   color: var(--hover-bright-color) !important;
+}
+.avatar-AvHqJA {
+  border-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+  background-color: var(--hover-dark-color) !important;
+}
+.premiumIcon-2EjK1H {
+  color: var(--soft-bright-color) !important;
+}
+.pencilIcon-XSi-VE {
+  color: var(--soft-bright-color) !important;
+}
+.bannerOverlayPopout-1clJ34 {
+  -webkit-box-shadow: 0 2px 10px 0 transparent,
+    inset 0 0 120px var(--hover-color) !important;
+  box-shadow: 0 2px 10px 0 transparent, inset 0 0 120px var(--hover-color) !important;
+}
+.avatarHintInner-1TvA8u {
+  -webkit-box-shadow: inset 0 0 120px var(--main-color) !important;
+  box-shadow: inset 0 0 120px var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Embeds */
@@ -13018,6 +13083,20 @@ div[class*="flex-"][class*="title-"],
   border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
+/* Sticker DM greeting */
+.compactButton-195WSV .colorStandard-2KCXvj.size16-1P40sf.text-3iVxFB {
+  color: var(--soft-bright-color) !important;
+}
+.compactButton-195WSV,
+.compactButtonDisabled-1WXLm6 {
+  background-color: transparent !important;
+  border: 1px solid var(--hover-dark-color) !important;
+  border-radius: 4px !important;
+}
+.compactButton-195WSV:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+
 /* Slash commands */
 .autocomplete-1vrmpx.outerWrapper-3-llkA {
   background-color: rgba(0, 0, 0, 0.9) !important;
@@ -13347,11 +13426,25 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* My Account (User Settings) */
-.background-1QDuV2 {
+.accountProfileCard-1XCH88 {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.background-1QDuV2 {
+  background-color: transparent !important;
 }
 .fieldList-21DyL8 {
   background-color: transparent !important;
+}
+.avatar-1uQSZT {
+  background-color: transparent !important;
+  border: 7px solid var(--hover-color) !important;
+}
+.userTag-1PLzkC.nameTag-m8r81H .username-2b1r56 {
+  color: var(--soft-bright-color) !important;
+}
+.userTag-1PLzkC.nameTag-m8r81H .discriminator-2C3qJO,
+.overflowMenuIcon-1h7e8s {
+  color: var(--hover-bright-color) !important;
 }
 .menu-319q29 > div > svg > path {
   fill: var(--hover-bright-color) !important;
@@ -13376,6 +13469,9 @@ path[fill="rgb(255,216,54)"] {
     var(--hover-bright-color) 2px,
     transparent 0
   );
+}
+.bannerNitroUpsell-3f4I57 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Add phone number (User Settings > My Account) */
@@ -13405,7 +13501,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--hover-bright-color) !important;
 }
 
-/* User Banner & Bio (User Settings > My Account) */
+/* User Banner & Bio (User Settings > User Profile) */
 .headerTop-2y3V6H,
 .aboutMeSection---MkQa {
   background-color: transparent !important;
@@ -13429,6 +13525,13 @@ path[fill="rgb(255,216,54)"] {
 }
 .bannerUploader-2jPvg2 .avatarUploaderInner-3UNxY3 {
   background-color: var(--hover-color) !important;
+}
+.profileBannerPreview-3_l0Wd {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.avatarUploaderInner-Oiob_P {
+  border: 6px solid rgb(0, 0, 0) !important;
 }
 
 /* Connections (User Settings) */
