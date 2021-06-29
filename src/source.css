@@ -7738,7 +7738,7 @@ img:not(.emote):not(.emoji)::after {
 .contentWrapper-SvZHNd,
 .categoryWrapper-UZ5YNj,
 .inspector-S2gM3e,
-.diversitySelectorPopout-3FiGaM,
+.diversitySelectorOptions-4YM-vX,
 .emojiPicker-3PwZFl,
 .container-2XeR5Z,
 .container-cMG81i,
@@ -7759,7 +7759,7 @@ img:not(.emote):not(.emoji)::after {
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B {
   background-color: var(--hover-dark-color) !important;
 }
-.diversitySelectorPopout-3FiGaM {
+.diversitySelectorOptions-4YM-vX {
   border: 1px solid var(--main-color) !important;
 }
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
