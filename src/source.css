@@ -12121,6 +12121,7 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
 }
 .premiumIcon-2EjK1H {
@@ -13531,6 +13532,11 @@ path[fill="rgb(255,216,54)"] {
 }
 .avatarUploaderInner-Oiob_P {
   border: 6px solid rgb(0, 0, 0) !important;
+}
+.dropperIcon-3Cwhnk > g > path:nth-child(2),
+.contents-18-Yxp > svg:nth-child(2) > path,
+.swatch-3mFIiP > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Connections (User Settings) */
