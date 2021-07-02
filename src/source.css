@@ -11835,6 +11835,10 @@ div[class*="flex-"][class*="title-"],
 .form-2fGMdU:before {
   background: transparent !important;
 }
+.root-2GkXUO.upsell-34F9Me {
+  background: var(--hover-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
+}
 
 /* Message context menu */
 .button-1I8KM5 {
