@@ -13087,6 +13087,20 @@ div[class*="flex-"][class*="title-"],
   border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
+/* Server Custom Stickers popup */
+.subscribeTooltipWrapper-1JoUuw {
+  background-color: var(--main-color) !important;
+}
+.subscribeTooltipWrapper-1JoUuw:after {
+  border-bottom-color: var(--main-color) !important;
+}
+.subscribeTooltipButton-rIF3w3.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.subscribeTooltipButton-rIF3w3.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
+
 /* Sticker DM greeting */
 .compactButton-195WSV .colorStandard-2KCXvj.size16-1P40sf.text-3iVxFB {
   color: var(--soft-bright-color) !important;
