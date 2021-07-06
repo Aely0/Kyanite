@@ -6857,6 +6857,43 @@ pre:hover .copybutton {
   background-color: var(--hover-red-dark-color) !important;
 }
 
+/* Server settings sticker tab */
+.wrapper-18yWki {
+  background-color: var(--hover-color) !important;
+}
+.wrapper-18yWki:hover,
+.action-Wexk0G {
+  background-color: var(--hover-dark-color) !important;
+}
+.icon-3CsuzN > path {
+  fill: var(--soft-bright-color) !important;
+}
+.action-Wexk0G:hover {
+  color: var(--hover-bright-color) !important;
+}
+.iconWrapper-11Wvjn {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(var(--hover-dark-color)),
+      to(var(--hover-color))
+    )
+    no-repeat;
+  background: linear-gradient(
+      90deg,
+      var(--hover-dark-color),
+      var(--hover-color)
+    )
+    no-repeat;
+}
+.icon-2U40yC > path {
+  fill: var(--hover-bright-color) !important;
+}
+.colorInteractiveActive-3Ip9Eu {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Private channels */
 .privateChannels-1nO12o {
   background-color: transparent !important;
@@ -10861,12 +10898,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .tierNoneContainer-3hhK3h {
   background-color: transparent !important;
 }
-.theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark .tierHeaderLocked-1a2opw {
-  background-color: var(--hover-color) !important;
-}
-.theme-dark .tierBody-16Chc9,
-.theme-dark .tierBody-x9kBBp {
+.theme-dark .tierHeaderLocked-3S508x,
+.tierHeaderContent-3t3DoO,
+.theme-dark .tierBody-3aUxuc {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .carouselLeftGradientEdge-3P4spl,
@@ -10879,8 +10913,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .tierMarkerBackground-3q29am {
   background-color: var(--hover-dark-color) !important;
 }
-.theme-dark .tierLock-3CSxSX,
-.theme-dark .tierLock-1oFMOZ {
+.tierLock-3nsR0q,
+.tierRequirement-UAxC-l {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .boostCount-UFqabz {
@@ -10930,7 +10964,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .wrapper-3nSjSv,
 .theme-dark .tierHeaderUnlockedBackground-MW5XJU,
-.theme-dark .tierHeaderUnlocked-1n-OTI {
+.theme-dark .tierUnlocked-2H6ULo {
   background: -webkit-gradient(
       linear,
       left top,
@@ -10966,8 +11000,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-image: none !important;
   border-bottom: 1px solid var(--hover-bright-color) !important;
 }
-.theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark .tierHeaderLocked-1a2opw {
+.tierTitle-1zWf2L {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .tierHeaderUnlocked-1n-OTI,
