@@ -6864,6 +6864,43 @@ pre:hover .copybutton {
   background-color: var(--hover-red-dark-color) !important;
 }
 
+/* Server settings sticker tab */
+.wrapper-18yWki {
+  background-color: var(--hover-color) !important;
+}
+.wrapper-18yWki:hover,
+.action-Wexk0G {
+  background-color: var(--hover-dark-color) !important;
+}
+.icon-3CsuzN > path {
+  fill: var(--soft-bright-color) !important;
+}
+.action-Wexk0G:hover {
+  color: var(--hover-bright-color) !important;
+}
+.iconWrapper-11Wvjn {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(var(--hover-dark-color)),
+      to(var(--hover-color))
+    )
+    no-repeat;
+  background: linear-gradient(
+      90deg,
+      var(--hover-dark-color),
+      var(--hover-color)
+    )
+    no-repeat;
+}
+.icon-2U40yC > path {
+  fill: var(--hover-bright-color) !important;
+}
+.colorInteractiveActive-3Ip9Eu {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Private channels */
 .privateChannels-1nO12o {
   background-color: transparent !important;
@@ -10862,12 +10899,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .tierNoneContainer-3hhK3h {
   background-color: transparent !important;
 }
-.theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark .tierHeaderLocked-1a2opw {
-  background-color: var(--hover-color) !important;
-}
+.theme-dark .tierHeaderLocked-3S508x,
+.tierHeaderContent-3t3DoO,
 .theme-dark .tierBody-16Chc9,
-.theme-dark .tierBody-x9kBBp {
+.theme-dark .tierBody-x9kBBp,
+.theme-dark .tierBody-3aUxuc {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .carouselLeftGradientEdge-3P4spl,
@@ -10881,7 +10917,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-dark-color) !important;
 }
 .theme-dark .tierLock-3CSxSX,
-.theme-dark .tierLock-1oFMOZ {
+.theme-dark .tierLock-1oFMOZ,
+.tierLock-3nsR0q,
+.tierRequirement-UAxC-l {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .boostCount-UFqabz {
@@ -10931,7 +10969,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .wrapper-3nSjSv,
 .theme-dark .tierHeaderUnlockedBackground-MW5XJU,
-.theme-dark .tierHeaderUnlocked-1n-OTI {
+.theme-dark .tierHeaderUnlocked-1n-OTI,
+.theme-dark .tierUnlocked-2H6ULo {
   background: -webkit-gradient(
       linear,
       left top,
@@ -10968,7 +11007,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-bottom: 1px solid var(--hover-bright-color) !important;
 }
 .theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark .tierHeaderLocked-1a2opw {
+.theme-dark .tierHeaderLocked-1a2opw,
+.tierTitle-1zWf2L {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .tierHeaderUnlocked-1n-OTI,
@@ -11836,6 +11876,10 @@ div[class*="flex-"][class*="title-"],
 .form-2fGMdU:before {
   background: transparent !important;
 }
+.root-2GkXUO.upsell-34F9Me {
+  background: var(--hover-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
+}
 
 /* Message context menu */
 .button-1I8KM5 {
@@ -12122,6 +12166,7 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .textBadge-1iylP6.base-PmTxvP.baseShapeRound-1Mm1YW {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
 }
 .premiumIcon-2EjK1H {
@@ -13083,6 +13128,20 @@ div[class*="flex-"][class*="title-"],
   border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
+/* Server Custom Stickers popup */
+.subscribeTooltipWrapper-1JoUuw {
+  background-color: var(--main-color) !important;
+}
+.subscribeTooltipWrapper-1JoUuw:after {
+  border-bottom-color: var(--main-color) !important;
+}
+.subscribeTooltipButton-rIF3w3.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.subscribeTooltipButton-rIF3w3.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
+
 /* Sticker DM greeting */
 .compactButton-195WSV .colorStandard-2KCXvj.size16-1P40sf.text-3iVxFB {
   color: var(--soft-bright-color) !important;
@@ -13425,6 +13484,14 @@ path[fill="rgb(255,216,54)"] {
   border-color: var(--soft-bright-color) !important;
 }
 
+/* User Settings (Save Changes) */
+.contents-18-Yxp > span {
+  color: var(--soft-bright-color) !important;
+}
+.message-c9-HCF.flexChild-faoVW3 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* My Account (User Settings) */
 .accountProfileCard-1XCH88 {
   background-color: rgba(0, 0, 0, 0.4) !important;
@@ -13532,6 +13599,11 @@ path[fill="rgb(255,216,54)"] {
 }
 .avatarUploaderInner-Oiob_P {
   border: 6px solid rgb(0, 0, 0) !important;
+}
+.dropperIcon-3Cwhnk > g > path:nth-child(2),
+.contents-18-Yxp > svg:nth-child(2) > path,
+.swatch-3mFIiP > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Connections (User Settings) */
