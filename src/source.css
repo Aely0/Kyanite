@@ -6381,7 +6381,7 @@ pre:hover .copybutton {
   background-color: transparent !important;
 }
 .tileContainer-BaRAZF:hover,
-.container-oZq3fb {
+.container-O91r7V {
   background-color: var(--hover-color) !important;
 }
 .icon-3QjGWS > path,
@@ -6411,6 +6411,36 @@ pre:hover .copybutton {
 }
 .buttonSpacing-3apH88.leaveQuietlyButton-1yMc0b.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan.sizeMedium-1AC_Sl.grow-q77ONN:hover {
   background: var(--hover-red-bright-color) !important;
+}
+.caret-3mpfk6 {
+  color: var(--hover-bright-color) !important;
+}
+.separator-1FmzCh {
+  background-color: var(--hover-color) !important;
+}
+.icon-188URH,
+.stageIconBackground-ljBnA5,
+.iconBackground-1clSpP {
+  background-color: var(--main-color) !important;
+}
+.icon-188URH > svg > path,
+.stageIcon-21ZFwY > path,
+.iconAfterText-3Hl9dX > svg > path,
+.headerIcon-3g95os > path {
+  fill: var(--soft-bright-color) !important;
+}
+.icon-188URH.continueIconContainer-D8CGm_ {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.radioSelected-1B_0_L,
+.radioIconForeground-3RtZiv {
+  color: var(--soft-bright-color) !important;
+}
+.size16-1P40sf.selfSpeakerText-3QjNKH {
+  color: var(--hover-bright-color) !important;
+}
+.size16-1P40sf.selfSpeakerText-3QjNKH:hover {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Select control */
