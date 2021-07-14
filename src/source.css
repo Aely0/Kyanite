@@ -6483,6 +6483,9 @@ pre:hover .copybutton {
 .theme-dark .system-message-content a {
   color: var(--main-color) !important;
 }
+.ephemeral-1PsL1r:before {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Spectrum */
 .sp-replacer {
