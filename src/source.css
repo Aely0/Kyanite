@@ -6442,6 +6442,22 @@ pre:hover .copybutton {
 .size16-1P40sf.selfSpeakerText-3QjNKH:hover {
   color: var(--soft-bright-color) !important;
 }
+.stageListenerPill-1RXT2G {
+  background-color: transparent !important;
+  border: 1px solid var(--soft-bright-color) !important;
+}
+.colorStandard-2KCXvj.size12-3cLvbJ.stageListenerCount-2tWHfF {
+  color: var(--soft-bright-color) !important;
+}
+.iconBadge-3qSJIw.iconBadge-2NuvG9.base-PmTxvP.baseShapeRound-1Mm1YW {
+  color: var(--soft-bright-color) !important;
+}
+.stageIcon-3DmINn {
+  color: var(--soft-bright-color) !important;
+}
+.channelNotice-2bJINM {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Select control */
 .Select-control {
