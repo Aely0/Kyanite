@@ -6217,22 +6217,6 @@ pre:hover .copybutton {
   opacity: 0.7 !important;
 }
 
-/* Message list */
-.messagesWrapper-1sRNjr {
-  margin-bottom: 8px !important;
-}
-.scroller-3sQKXg:after {
-  height: 10px !important;
-}
-.message-2qnXI6.selected-2P5D_Z,
-.mouse-mode.full-motion .message-2qnXI6:hover {
-  background-color: var(--hover-faint-color) !important;
-}
-.wrapper-1F5TKx,
-.wrapper-3vR61M {
-  background-color: transparent !important;
-}
-
 /* Keyboard-mode focus */
 .ring-13rgEW {
   --__adaptive-focus-color: var(--main-color) !important;
@@ -6792,19 +6776,6 @@ pre:hover .copybutton {
 .color-picker-popout input:focus {
   border: 1px solid var(--main-color) !important;
   padding: 4px 8px !important;
-}
-
-/* New messages */
-.new-messages-indicator.new-messages-indicator-mention {
-  background-color: var(--main-color) !important;
-}
-.theme-dark .jumpToPresentBar-G1R9s6 {
-  background-color: var(--main-color) !important;
-  padding-bottom: 0px !important;
-  margin-bottom: -2px !important;
-}
-.protip {
-  color: #a8a8a8 !important;
 }
 
 /* Server settings */
@@ -11596,13 +11567,40 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
-/* Message load failure */
+/* Message list */
+.messagesWrapper-1sRNjr {
+  margin-bottom: 8px !important;
+}
+.scroller-3sQKXg:after {
+  height: 10px !important;
+}
+.message-2qnXI6.selected-2P5D_Z,
+.mouse-mode.full-motion .message-2qnXI6:hover {
+  background-color: var(--hover-faint-color) !important;
+}
+.wrapper-1F5TKx,
+.wrapper-3vR61M {
+  background-color: transparent !important;
+}
+
+/* Message list side bars */
 .messagesErrorBar-nyJGU7 {
   background-color: var(--hover-red-dark-color) !important;
 }
 .barButtonMain-3K-jeJ.barButtonBase-2uLO1z,
 .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
-  color: var(--red-bright-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.new-messages-indicator.new-messages-indicator-mention {
+  background-color: var(--main-color) !important;
+}
+.theme-dark .jumpToPresentBar-G1R9s6 {
+  background-color: var(--main-color) !important;
+  padding-bottom: 0px !important;
+  margin-bottom: -2px !important;
+}
+.protip {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Message reply */
