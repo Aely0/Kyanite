@@ -8038,6 +8038,16 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
   opacity: 0.6 !important;
 }
+.icon-1Itzco {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.stars-1YAEQv > path {
+  fill: var(--hover-bright-color) !important;
+}
+.protip-283HFv {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
@@ -11220,6 +11230,82 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-red-bright-color) !important;
 }
 
+/* Threads */
+.threadIcon-3XJhLD {
+  color: var(--hover-bright-color) !important;
+}
+.closeIcon-3CcYvY {
+  color: var(--hover-dark-color) !important;
+}
+.closeIcon-3CcYvY:hover {
+  color: var(--hover-bright-color) !important;
+}
+.container-2I9Hud,
+.chatHeaderBar-4vZS1x {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.container-2I9Hud:hover {
+  border: 1px solid var(--hover-dark-color) !important;
+}
+.autoArchiveDuration-3TU5Qi {
+  color: var(--soft-bright-color) !important;
+}
+.cozy-3raOZG.hasThread-2k82W0:after {
+  border-left: 2px solid var(--hover-bright-color) !important;
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+.container-3hZ-gs {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
+}
+.topLine-1hV9bl .name-1qtoQ5 {
+  color: var(--hover-bright-color) !important;
+}
+.topLine-1hV9bl .cta-3MixHV {
+  color: var(--soft-bright-color) !important;
+}
+.bottomLine-2qB7L6 {
+  color: var(--hover-bright-color) !important;
+}
+.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+  color: var(--hover-bright-color) !important;
+}
+.jump-2-Xh5Z {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.jump-2-Xh5Z:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.caret-3W7cBB > g > polygon[fill-rule="nonzero"] {
+  fill: var(--hover-bright-color) !important;
+}
+.bullet-1-Smkp {
+  color: var(--hover-bright-color) !important;
+}
+.tipSubtext-10zY2N {
+  color: var(--hover-bright-color) !important;
+}
+.channelTextArea-3O-WhA {
+  background-color: transparent !important;
+}
+.checkbox-2db6gx {
+  color: var(--hover-bright-color) !important;
+}
+.container-2I9Hud .messageContent-19B5yF {
+  color: var(--hover-bright-color) !important;
+}
+.emptyStateIcon-1JWNn4,
+.icon-3pEw1v {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.emptyStateStars-3H0CeG > path,
+.stars-1dLESH > path {
+  fill: var(--hover-bright-color) !important;
+}
+
 /* Load more messages */
 .hasMore-3e72_v {
   background-color: rgba(0, 0, 0, 0.15) !important;
@@ -12497,10 +12583,10 @@ div[class*="flex-"][class*="title-"],
   color: rgba(255, 255, 255, 0.8) !important;
 }
 .jumpButton-2dvRSC {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: var(--hover-color) !important;
 }
 .jumpButton-2dvRSC:hover {
-  background-color: var(--hover-color) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 .messageContainer-gbhlwo,
 .channelHeader-3Gd2xq,
@@ -12517,17 +12603,21 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 .tertiary-aMXF0g {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.tertiary-aMXF0g:hover {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 .secondary-dIudih {
-  color: var(--hover-dark-color) !important;
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  box-shadow: 0 0 0 1px var(--hover-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+  box-shadow: none !important;
 }
 .secondary-dIudih:hover {
+  background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
-  background-color: var(--hover-color) !important;
-  box-shadow: 0 0 0 1px var(--hover-dark-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
 }
 
 /* Link to file */
