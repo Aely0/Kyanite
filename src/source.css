@@ -11596,6 +11596,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Message load failure */
+.messagesErrorBar-nyJGU7 {
+  background-color: var(--hover-red-dark-color) !important;
+}
+.barButtonMain-3K-jeJ.barButtonBase-2uLO1z,
+.barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+  color: var(--red-bright-color) !important;
+}
+
 /* Message reply */
 .replyBar-1YLQ2F {
   background: var(--hover-color) !important;
