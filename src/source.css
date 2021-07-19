@@ -11940,6 +11940,19 @@ div[class*="flex-"][class*="title-"],
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
   background-color: var(--hover-color) !important;
 }
+.menu-3sdvDG.styleFlexible-wGDiIL .colorDefault-2K3EoJ {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--hover-bright-color) !important;
+}
+.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ {
+  color: var(--hover-red-bright-color) !important;
+}
+.submenuContainer-2gbm7M .colorDefault-2K3EoJ .subtext-13Lvrj {
+  color: var(--hover-bright-color) !important;
+}
+.submenuContainer-2gbm7M .arrow-gKvcEx.caret-1XEpQV > path {
+  fill: var(--hover-bright-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
