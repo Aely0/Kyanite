@@ -11314,7 +11314,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.timestamp-25yOdb {
+.timestamp-25yOdb,
+.timestamp-1Kyoes {
+  color: var(--hover-bright-color) !important;
+}
+.icon-1zIRB4 > path {
+  fill: var(--hover-bright-color) !important;
+}
+.channelNameChange-1wTsWB.container-3-pyIM.cozy-12TNg0 .content-2M3n_H {
   color: var(--hover-bright-color) !important;
 }
 
