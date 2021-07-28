@@ -11949,9 +11949,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .colorStandard-2KCXvj {
   color: var(--hover-bright-color) !important;
 }
-.close-hZ94c6 .contents-18-Yxp > svg {
-  color: var(--hover-red-bright-color) !important;
-}
 .input-cIJ7To {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
@@ -13432,6 +13429,32 @@ div[class*="flex-"][class*="title-"],
 }
 .subscribeTooltipButton-rIF3w3.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN:hover {
   border: 1px solid var(--soft-bright-color) !important;
+}
+
+/* Sticker preview popup */
+.overlayStickerWrapper-1BxFMK {
+  background-color: var(--hover-color) !important;
+}
+.overlayLabel-1U3AO5 {
+  color: var(--soft-bright-color) !important;
+}
+.count-ZZL8Ce {
+  color: var(--hover-bright-color) !important;
+}
+.feature-3kpTdS {
+  color: var(--hover-bright-color) !important;
+  background-color: transparent !important;
+}
+.closeButton-2Oed-N {
+  color: var(--hover-bright-color) !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.closeButton-2Oed-N:hover {
+  color: var(--soft-bright-color) !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.packDescription-3drkLS {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Sticker DM greeting */
