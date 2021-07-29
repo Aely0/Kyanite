@@ -10491,7 +10491,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Community settings */
 .upsellContainer-L9xv7w,
-.backgroundAccent-349kuI,
 .checklistContainer-mFJZEJ,
 .checklistHeader-1KWcEY,
 .checklist-3Y6Fqp,
@@ -10499,6 +10498,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .enableContainer-6E-puu,
 .previewContainer-1SS3uO {
   background-color: rgba(0, 0, 0, 0.6) !important;
+  color: var(--hover-bright-color) !important;
+}
+.backgroundAccent-349kuI {
+  background-color: var(--hover-color) !important;
   color: var(--hover-bright-color) !important;
 }
 .developerPortalCtaWrapper-2XNafh {
