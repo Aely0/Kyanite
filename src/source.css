@@ -8693,8 +8693,7 @@ img:not(.emote):not(.emoji)::after {
   display: none !important;
 }
 .ui-form-title,
-.ui-form-title.h5,
-[class*="card"] h5 {
+.ui-form-title.h5 {
   color: #f6f6f7 !important;
 }
 [class*="card"] .ui-form-text,
@@ -11124,11 +11123,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--soft-bright-color) !important;
 }
 .allow-1PzSY3.selected-2YhbGh {
-  border-color: var(--hover-bright-color) !important;
-  background: var(--main-color) !important;
+  border-color: var(--hover-green-bright-color) !important;
+  background: var(--hover-green-dark-color) !important;
 }
 .item-1yAxl1.allow-1PzSY3.selected-2YhbGh > svg > path {
-  fill: var(--soft-bright-color) !important;
+  fill: var(--green-bright-color) !important;
 }
 .deny-3nAuT6.selected-2YhbGh {
   border-color: var(--hover-red-bright-color) !important;
@@ -11139,6 +11138,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .item-1yAxl1 {
   background: rgba(0, 0, 0, 0.2) !important;
+}
+.cardIcon-3mLabf {
+  color: var(--hover-bright-color) !important;
+}
+.folderTitle-1J5dgw,
+.sectionTitle-3RJoUp {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Advanced permissions menu */
