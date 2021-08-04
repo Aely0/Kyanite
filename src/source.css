@@ -7772,7 +7772,7 @@ img:not(.emote):not(.emoji)::after {
   text-indent: 22px !important;
 }
 
-/* Emoji/stickers tab */
+/* Emoji/Stickers tab */
 .emote::after,
 .emoji::after {
   content: "" !important;
@@ -7862,6 +7862,45 @@ img:not(.emote):not(.emoji)::after {
 }
 .unownedStickerLockIcon-3vTNpx {
   color: var(--soft-bright-color) !important;
+}
+.guildCategorySeparator-_An-MP {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.navItem-3Wp_oJ .contents-18-Yxp {
+  color: var(--hover-bright-color) !important;
+  border-radius: 4px !important;
+  padding: 2px 8px !important;
+}
+.navItem-3Wp_oJ .contents-18-Yxp:hover {
+  background-color: var(--hover-color) !important;
+}
+.navButtonActive-1MkytQ .contents-18-Yxp {
+  color: var(--soft-bright-color) !important;
+}
+.navList-2UtuhC {
+  justify-content: center !important;
+}
+.icon-3cZ1F_ {
+  color: var(--hover-bright-color) !important;
+}
+.medium-2-DE5M .input-1Rv96N::placeholder {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+.categoryIcon-1SvUHG {
+  color: var(--hover-bright-color) !important;
+}
+.categoryItemDefaultCategorySelected-_HCKoz .categoryIcon-1SvUHG {
+  color: var(--soft-bright-color) !important;
+}
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+  background-color: var(--hover-color) !important;
+}
+.header-19cWci {
+  color: var(--soft-bright-color) !important;
+}
+.unicodeShortcut-15J8Ck {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Sticker Suggestion popup */
