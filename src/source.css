@@ -5937,6 +5937,14 @@ span.discrypt:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
+/* User popout - Roles */
+.role-2irmRk {
+  background: var(--hover-color) !important;
+}
+.roleName-32vpEy {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Copy button */
 .copybutton {
   background: hsla(0, 0%, 100%, 0.1) !important;
