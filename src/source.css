@@ -7178,6 +7178,9 @@ button[aria-label="Stop Watching"]
 .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
   color: var(--red-bright-color) !important;
 }
+.colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T > path {
+  fill: var(--red-bright-color) !important;
+}
 .colorable-1bkp8v.red-33-Lnk {
   background: var(--hover-red-dark-color) !important;
 }
@@ -7190,6 +7193,9 @@ button[aria-label="Stop Watching"]
 .colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {
   background: var(--main-color) !important;
+}
+.warningIcon-3rQ5yJ > path {
+  fill: var(--yellow-dark-color) !important;
 }
 .viewersIcon-F76mss > path {
   fill: var(--soft-bright-color) !important;
@@ -7214,6 +7220,16 @@ button[aria-label="Stop Watching"]
 }
 .overflow-1ExsZm {
   background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.liveQualityIndicator-3XCjEU.textBadge-1iylP6.base-PmTxvP.baseShapeRoundLeft-ym85l3 {
+  background-color: var(--hover-dark-color) !important;
+}
+.qualityIndicatorFullQuality-39Z_0H {
+  color: var(--hover-bright-color) !important;
+}
+.live-vBWnV6.liveLarge-3zs2Zq.textBadge-1iylP6.base-PmTxvP {
+  background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
 }
 
