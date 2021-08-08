@@ -12983,7 +12983,7 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-color) !important;
 }
 
-/* Audit log filters */
+/* Audit log dropdown menus */
 .theme-dark .popoutList-T9CKZQ {
   background: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--hover-color) !important;
@@ -12994,6 +12994,16 @@ div[class*="flex-"][class*="title-"],
 .selectableItem-1MP3MQ.selected-31soGA,
 .selectableItem-1MP3MQ.selected-31soGA:hover {
   background: var(--main-color) !important;
+}
+.selectedBrand-1UKrSX {
+  background: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.selectedBrand-1UKrSX:hover {
+  background: var(--main-color) !important;
+}
+.item-2J2GlB .itemCheckbox-x25t6M > svg > path {
+  fill: var(--hover-bright-color) !important;
 }
 
 /* Audit log entries */
