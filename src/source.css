@@ -13821,6 +13821,19 @@ div[class*="flex-"][class*="title-"],
   border: 10px solid transparent !important;
 }
 
+/* Server Hubs */
+.scroller-3Vjo4T,
+.sidebarContainer-7fi3LO {
+  background-color: transparent !important;
+}
+.container-3WrP6S {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.headerDescription-2XFueT,
+.addButton-1YFqaW {
+	color: var(--hover-bright-color) !important;
+}
+
 /* Joined server verification notice */
 .notice-3uyY6c {
   background-color: var(--hover-color) !important;
