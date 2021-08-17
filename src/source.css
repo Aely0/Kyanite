@@ -10804,6 +10804,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   opacity: 0.5 !important;
 }
 
+/* Server talk permission countdown */
+.countdown-1saXFt {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Server lurk mode */
 .notice-2X5hT5 {
   background-color: var(--hover-color) !important;
