@@ -13860,6 +13860,30 @@ path[fill="rgb(255,216,54)"] {
   fill: var(--main-color) !important;
 }
 
+/* Phone verification notice */
+.container-1JlpAi {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.cancel-2CYseG.button-38aScr .contents-18-Yxp {
+  color: var(--hover-bright-color) !important;
+}
+.cancel-2CYseG.button-38aScr .contents-18-Yxp:hover {
+  color: var(--soft-bright-color) !important;
+}
+.phoneVerificationModal-OzcDc3 .title-3qNdae {
+  color: var(--soft-bright-color) !important;
+}
+.phoneVerificationModal-OzcDc3 .description-3JBgvQ {
+  color: var(--hover-bright-color) !important;
+}
+.animationContainer-WJHr_z path[fill="rgb(227,233,247)"] {
+  fill: var(--hover-bright-color) !important;
+}
+.animationContainer-WJHr_z path[fill="rgb(118,134,177)"] {
+  fill: var(--soft-bright-color) !important;
+}
+
 /* Activity Feed tab */
 .theme-dark .searchResultsContainer-1ma_dc {
   background-color: rgba(0, 0, 0, 0.9) !important;
