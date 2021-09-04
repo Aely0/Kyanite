@@ -14051,6 +14051,14 @@ path[fill="rgb(255,216,54)"] {
 .connectionDelete-2Odoln:hover > svg > path {
   fill: var(--hover-red-bright-color) !important;
 }
+.connectionList-3pzR-1 .subEnabledTitle-2ElRo_ {
+  color: var(--hover-bright-color) !important;
+}
+.connectionList-3pzR-1 .description-3_Ncsb,
+.connectionList-3pzR-1 .labelDescriptor-1PqHgD {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
 
 /* Game Library (User Settings) */
 .foreground-2aE44H {
