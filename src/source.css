@@ -14081,6 +14081,50 @@ path[fill="rgb(255,216,54)"] {
   background-color: transparent !important;
 }
 
+/* Privacy & Safety (User Settings) */
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
+  color: var(--hover-green-bright-color) !important;
+  border-left-color: var(--green-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]:hover {
+  color: var(--green-bright-color) !important;
+  background-color: var(--hover-green-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]
+  > div:nth-child(1)
+  > svg
+  > circle {
+  fill: var(--hover-green-bright-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"] {
+  color: var(--hover-yellow-bright-color) !important;
+  border-left-color: var(--yellow-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]:hover {
+  color: var(--yellow-bright-color) !important;
+  background-color: var(--hover-yellow-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]
+  > div:nth-child(1)
+  > svg
+  > circle {
+  fill: var(--hover-yellow-bright-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
+  color: var(--hover-red-bright-color) !important;
+  border-left-color: var(--red-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]:hover {
+  color: var(--red-bright-color) !important;
+  background-color: var(--hover-red-dark-color) !important;
+}
+.radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]
+  > div:nth-child(1)
+  > svg
+  > circle {
+  fill: var(--hover-red-bright-color) !important;
+}
+
 /* Connections (User Settings) */
 .accountBtnInner-sj5jLs,
 .accountList-33MS45,
