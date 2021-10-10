@@ -13845,6 +13845,14 @@ div[class*="flex-"][class*="title-"],
 .guildList-1ItbxP .card-Lnpy-k .container-2zflaQ {
   border: 10px solid transparent !important;
 }
+.avatar-3uk_u9 > svg > path,
+.avatar-3uk_u9 > svg > g > path {
+  fill: var(--hover-bright-color) !important;
+}
+.itemInner-gPkiWb.layout-2DM8Md.wrappedLayout-3DR7Pk
+  .name-uJV0GL.wrappedName-26qVtL {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Server Hubs */
 .scroller-3Vjo4T,
