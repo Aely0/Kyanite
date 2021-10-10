@@ -13739,6 +13739,7 @@ div[class*="flex-"][class*="title-"],
 }
 .theme-dark .inset-3sAvek,
 .peopleListItem-2nzedh:hover,
+.peopleListItem-2nzedh.active-rhSpJJ,
 .actionButton-uPB8Fs:hover {
   background-color: var(--hover-color) !important;
 }
@@ -13845,8 +13846,8 @@ div[class*="flex-"][class*="title-"],
 .guildList-1ItbxP .card-Lnpy-k .container-2zflaQ {
   border: 10px solid transparent !important;
 }
-.avatar-3uk_u9 > svg > path,
-.avatar-3uk_u9 > svg > g > path {
+.avatar-3uk_u9 > svg > path[fill="currentColor"],
+.avatar-3uk_u9 > svg > g > path[fill="currentColor"] {
   fill: var(--hover-bright-color) !important;
 }
 .itemInner-gPkiWb.layout-2DM8Md.wrappedLayout-3DR7Pk
