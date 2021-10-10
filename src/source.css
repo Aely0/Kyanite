@@ -14156,6 +14156,28 @@ path[fill="rgb(255,216,54)"] {
   opacity: 0.8 !important;
 }
 
+/* Subscriptions (User Settings) */
+.sectionDescription-3uMpPK,
+.accountCreditDescription-iqLTBT {
+  color: var(--hover-bright-color) !important;
+}
+.noItemsCard-153Tex.card-3Qj_Yx,
+.noItemsCard-3TSAgO.card-3Qj_Yx {
+  background-color: var(--hover-color) !important;
+}
+.cardText-1Z_Qur,
+.cardText-2rQaHq {
+  background-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+}
+.noItemsIcon-21jJYT,
+.noItemsIcon-ygEH8z {
+  background: var(--hover-dark-color) !important;
+}
+.gameIcon-gg34Dz {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Game Library (User Settings) */
 .foreground-2aE44H {
   stroke: var(--main-color) !important;
