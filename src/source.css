@@ -12031,6 +12031,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--hover-color) !important;
 }
 
+/* Guild add/discover buttons */
+.circleIconButton-1XqULR {
+  color: var(--hover-dark-color) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.circleIconButton-1XqULR:hover {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+}
+.circleIconButton-1XqULR.selected-2jcQaY {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Add guild menu */
 .theme-dark .root-1gCeng {
   -webkit-box-shadow: none !important;
@@ -12072,6 +12085,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN
   > div:hover {
   color: var(--soft-bright-color) !important;
+}
+.closeIcon-150W3V > path {
+  fill: var(--hover-dark-color) !important;
 }
 
 /* Guild verified badge */
