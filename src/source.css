@@ -14028,6 +14028,58 @@ path[fill="rgb(255,216,54)"] {
 .swatch-3mFIiP > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.noticeWithRightPadding-3OxAxd.notice-ZSe05e.premiumInlineNotice-159eYs {
+  background-color: var(--hover-color) !important;
+}
+
+/* Avatar preview (User Settings > User Profile) */
+.optionBox-1b4n4P {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+.optionBox-1b4n4P:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+.colorStandard-2KCXvj.size14-e6ZScH.h4-AQvcAz.title-3sZWYQ.defaultColor-1_ajX0.defaultMarginh4-2vWMG5 {
+  color: var(--hover-bright-color) !important;
+  text-align: center !important;
+}
+.colorInteractiveNormal-PB7JN3 {
+  color: var(--hover-bright-color) !important;
+}
+.contentCircle-2uR76y {
+  background-color: var(--hover-dark-color) !important;
+}
+.uploadIcon-1byPa5 {
+  color: var(--soft-bright-color) !important;
+}
+.gifIconContainer-3OM7ph {
+  background-color: var(--main-color) !important;
+}
+.gifIcon-15nHVd {
+  background-color: var(--hover-bright-color) !important;
+}
+.gifIcon-15nHVd > g > polygon,
+.gifIcon-15nHVd > g > path {
+  fill: var(--main-color) !important;
+}
+.notice-ZSe05e {
+  background-color: var(--hover-color) !important;
+}
+.backButton-JyKGC1 {
+  color: var(--hover-bright-color) !important;
+}
+.icon-1BtL8T {
+  color: var(--hover-bright-color) !important;
+}
+.grabber-3mFHz2 {
+  background-color: var(--hover-bright-color) !important;
+  border-color: var(--hover-bright-color) !important;
+}
+.premiumProfilePreviewModal-2Ldtiv .premiumProfilePreviewContent-9o7jmL,
+.upsellSection-3TPKoE {
+  background-color: transparent !important;
+}
 
 /* Connections (User Settings) */
 .accountBtnInner-sj5jLs,
