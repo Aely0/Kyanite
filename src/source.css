@@ -7368,8 +7368,9 @@ button[aria-label="Stop Watching"]
 }
 
 /* Guild list voice icon */
-.theme-dark .iconBadge-3qSJIw {
+.theme-dark .iconBadge-1N56q1 {
   background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Guild list screen charing badge */
