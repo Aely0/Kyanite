@@ -14467,6 +14467,9 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Setting radio options */
+.radioBar-bMNUI- {
+  color: var(--hover-bright-color) !important;
+}
 .radioIconForeground-XwlXQN {
   color: var(--soft-bright-color) !important;
 }
