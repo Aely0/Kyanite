@@ -14422,6 +14422,104 @@ img:not(.emote):not(.emoji)::after {
 .descriptionStandalone-3aMqwN {
   color: var(--soft-bright-color) !important;
 }
+.wrapper-3qSb0d,
+.navigationBar-2JJXBp {
+  background-color: transparent !important;
+}
+.progressBarTrack-xPgjRk {
+  background-color: var(--hover-dark-color) !important;
+}
+.colorStandard-2KCXvj.size12-3cLvbJ.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
+  color: var(--soft-bright-color) !important;
+}
+.progressBarMarker-2cJyNP {
+  background-color: var(--main-color) !important;
+}
+.progressBarMarkerNextTier-rwVUBI:after {
+  background-color: var(--main-color) !important;
+}
+.progressBarMarkerNextTier-rwVUBI:before,
+.progressBarMarkerUnlocked-3YdWPU:before {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--soft-bright-color)),
+    to(var(--hover-bright-color))
+  ) !important;
+  background-image: linear-gradient(
+    90deg,
+    var(--soft-bright-color),
+    var(--hover-bright-color)
+  ) !important;
+}
+.planCard-rYl0vk {
+  background-color: var(--hover-color) !important;
+}
+.perksTable-7Z6tK2 {
+  background-color: var(--hover-color) !important;
+}
+.perksTableRow-7kHR8w + .perksTableRowBody-3adE9w:hover,
+.perksTableRow-7kHR8w + .perksTableRowFocused-37qPHa {
+  background-color: var(--hover-color) !important;
+  border-top: 1px solid var(--hover-color) !important;
+}
+.perksTableRowBody-3adE9w:hover + .perksTableRowBody-3adE9w,
+.perksTableRowFocused-37qPHa + .perksTableRowBody-3adE9w {
+  border-top: 1px solid var(--hover-color) !important;
+}
+.perkPopout-1e9U4Y {
+  border: 1px solid var(--hover-color) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+}
+.breadcrumbWrapper-WmDjgG {
+  color: var(--hover-bright-color) !important;
+}
+.activeBreadcrumb-p6aw-F {
+  color: var(--soft-bright-color) !important;
+}
+.table-39R0Oe.invoice-28DmWy .header-2fYolP,
+.table-39R0Oe.invoice-28DmWy .totalLabel-kW8CA9 > strong,
+.table-39R0Oe.invoice-28DmWy .totalAmount-QMwGZT {
+  color: var(--soft-bright-color) !important;
+}
+.table-39R0Oe.invoice-28DmWy .row-gSQ6pC.rowBase-19ReVc,
+.table-39R0Oe.invoice-28DmWy .totalLabel-kW8CA9,
+.table-39R0Oe.invoice-28DmWy .finePrint-aNvLWf,
+.table-39R0Oe.invoice-28DmWy .subscriptionDetailsToggle-3dzjj6 {
+  color: var(--hover-bright-color) !important;
+}
+.label-cywgfr.labelClickable-11AuB8.labelForward-1wfipV .checkboxLabel-1zn0UC {
+  color: var(--hover-bright-color) !important;
+}
+.finePrint-RDL9Gx {
+  color: var(--hover-bright-color) !important;
+}
+.planSelectStep-siOMix .planSelectText-27NxQV.bodyText-2BAgX2,
+.planSelectorPreviewPrice-2xDAwc,
+.pricePerInterval-WZc5oR,
+.upsellFooter-3coAfO {
+  color: var(--hover-bright-color) !important;
+}
+.planSelectorLabel-1aEsuE,
+.planSelectorSubtotal-Ze7sIQ,
+.pricePerInterval-WZc5oR > strong {
+  color: var(--soft-bright-color) !important;
+}
+.bodyText-GzTXXM {
+  color: var(--hover-bright-color) !important;
+}
+.perksList-1vtwXn {
+  background-color: var(--hover-color) !important;
+}
+.perkRow-4H5Kvz {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.perkDescription-2-1vIq {
+  color: var(--soft-bright-color) !important;
+}
 
 /* HypeSquad (settings) */
 .membershipDialogHeading-3y8iIr,
