@@ -14143,6 +14143,14 @@ path[fill="rgb(255,216,54)"] {
 .upsellSection-3TPKoE {
   background-color: transparent !important;
 }
+.editingContainer-1iOrsV {
+  background-color: var(--hover-color) !important;
+}
+.overlay-qP93Id {
+  border: 5px solid var(--hover-bright-color) !important;
+  -webkit-box-shadow: var(--hover-dark-color) 0 0 0 9999px !important;
+  box-shadow: 0 0 0 9999px var(--hover-dark-color) !important;
+}
 
 /* Privacy & Safety (User Settings) */
 .radioBar-bMNUI-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
