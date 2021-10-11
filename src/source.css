@@ -7232,6 +7232,26 @@ button[aria-label="Stop Watching"]
   background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
 }
+.selectedIcon-DE5J2w > path,
+.channelIcon-2xPHJh > path {
+  fill: var(--soft-bright-color) !important;
+}
+.ellipsisText-2EszCb,
+.channelName-3_Vb6f {
+  color: var(--hover-bright-color) !important;
+}
+.warningIcon-1Dw6GH > path {
+  fill: var(--hover-yellow-bright-color) !important;
+}
+.warning--qC9N8 .size12-3cLvbJ {
+  color: var(--hover-yellow-bright-color) !important;
+}
+.qualitySettingsContainer-1gOtRJ {
+  border-color: var(--hover-color) !important;
+}
+.size16-1P40sf.header-2Zv56X {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
