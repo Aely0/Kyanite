@@ -6915,8 +6915,11 @@ pre:hover .copybutton {
 .icon-2U40yC > path {
   fill: var(--hover-bright-color) !important;
 }
-.colorInteractiveActive-3Ip9Eu {
+.colorInteractiveActive-3Ip9Eu.size14-e6ZScH.progressBarMarkerLabel-37saPL {
   color: var(--hover-bright-color) !important;
+}
+.colorInteractiveNormal-PB7JN3.size14-e6ZScH.progressBarMarkerLabel-37saPL {
+  color: var(--hover-dark-color) !important;
 }
 
 /* Private channels */
@@ -14474,14 +14477,32 @@ img:not(.emote):not(.emoji)::after {
     linear,
     left top,
     right top,
-    from(var(--soft-bright-color)),
-    to(var(--hover-bright-color))
+    from(var(--hover-bright-color)),
+    to(var(--hover-dark-color))
   ) !important;
   background-image: linear-gradient(
     90deg,
-    var(--soft-bright-color),
-    var(--hover-bright-color)
+    var(--hover-bright-color),
+    var(--hover-dark-color)
   ) !important;
+}
+.progressBarFill-3z0vRF.progressBarTrack-xPgjRk {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-dark-color)),
+    to(var(--soft-bright-color))
+  );
+  background-image: linear-gradient(
+    90deg,
+    var(--hover-dark-color),
+    var(--soft-bright-color)
+  );
+}
+.progressBarMarker-2cJyNP.progressBarMarkerUnlocked-3YdWPU
+  .colorStandard-2KCXvj.size12-3cLvbJ.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
+  color: var(--soft-bright-color) !important;
 }
 .planCard-rYl0vk {
   background-color: var(--hover-color) !important;
@@ -14497,6 +14518,9 @@ img:not(.emote):not(.emoji)::after {
 .perksTableRowBody-3adE9w:hover + .perksTableRowBody-3adE9w,
 .perksTableRowFocused-37qPHa + .perksTableRowBody-3adE9w {
   border-top: 1px solid var(--hover-color) !important;
+}
+.perksTablePerkCheckmarkTier0-eK6gBQ {
+  color: var(--hover-dark-color) !important;
 }
 .perkPopout-1e9U4Y {
   border: 1px solid var(--hover-color) !important;
