@@ -5595,7 +5595,9 @@ ul.bda-slist {
 }
 
 /* Focused menu item highlight */
-.colorDefault-2K3EoJ.focused-3afm-j {
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorPremium-p4p7qO.focused-3afm-j .icon-LYJorE,
+.colorPremium-p4p7qO:active:not(.hideInteraction-1iHO1O) .icon-LYJorE {
   color: var(--soft-bright-color) !important;
 }
 
