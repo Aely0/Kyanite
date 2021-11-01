@@ -11179,6 +11179,22 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+.giftIcon-ZxlWk5,
+.headerLogo--hLLAk {
+  color: var(--soft-bright-color) !important;
+}
+.unlocked-251xRB {
+  color: var(--hover-bright-color) !important;
+}
+.tierBody-16Chc9 {
+  color: var(--soft-bright-color) !important;
+}
+.perkAvailable-2qYI1g.perk-1g1yg- {
+  color: var(--soft-bright-color) !important;
+}
+.perkUnavailable-64O5T5.perk-1g1yg- {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Channel permissions */
 .theme-dark .group-1WdBVp {
@@ -14485,8 +14501,13 @@ img:not(.emote):not(.emoji)::after {
 .navigationBar-2JJXBp {
   background-color: transparent !important;
 }
-.progressBarTrack-xPgjRk {
+.progressBarTrack-3y6rh7 {
   background-color: var(--hover-dark-color) !important;
+}
+.progressBarSimplifiedVariant-2EIg8_
+  .progressBarMarkerUnlocked-3IgZ-5
+  .progressBarMarkerIndicator-15WiF7:after {
+  border: 4px solid var(--soft-bright-color) !important;
 }
 .colorStandard-2KCXvj.size12-3cLvbJ.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
   color: var(--soft-bright-color) !important;
@@ -14494,25 +14515,19 @@ img:not(.emote):not(.emoji)::after {
 .progressBarMarker-2cJyNP {
   background-color: var(--main-color) !important;
 }
-.progressBarMarkerNextTier-rwVUBI:after {
+.progressBarMarkerNextTier-rwVUBI:after,
+.progressBarMarkerNextTier-EG5a7t .progressBarMarkerIndicator-15WiF7:after {
   background-color: var(--main-color) !important;
 }
-.progressBarMarkerNextTier-rwVUBI:before,
-.progressBarMarkerUnlocked-3YdWPU:before {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(var(--hover-bright-color)),
-    to(var(--hover-dark-color))
-  ) !important;
+.progressBarMarkerNextTier-EG5a7t .progressBarMarkerIndicator-15WiF7,
+.progressBarMarkerUnlocked-3IgZ-5 .progressBarMarkerIndicator-15WiF7 {
   background-image: linear-gradient(
-    90deg,
+    45deg,
     var(--hover-bright-color),
     var(--hover-dark-color)
-  ) !important;
+  );
 }
-.progressBarFill-3z0vRF.progressBarTrack-xPgjRk {
+.progressBarFill-T4kMVn.progressBarTrack-3y6rh7 {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -14526,6 +14541,9 @@ img:not(.emote):not(.emoji)::after {
     var(--soft-bright-color)
   );
 }
+.progressBarMarker-1PPOYV {
+  background-color: var(--main-color) !important;
+}
 .progressBarMarker-2cJyNP.progressBarMarkerUnlocked-3YdWPU
   .colorStandard-2KCXvj.size12-3cLvbJ.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
   color: var(--soft-bright-color) !important;
@@ -14536,20 +14554,34 @@ img:not(.emote):not(.emoji)::after {
 .perksTable-7Z6tK2 {
   background-color: var(--hover-color) !important;
 }
-.perksTableRow-7kHR8w + .perksTableRowBody-3adE9w:hover,
-.perksTableRow-7kHR8w + .perksTableRowFocused-37qPHa {
+.perksTableRow-7kHR8w + .perksTableRowBody-3adE9w:hover .perksTableCell-3oXg4e,
+.perksTableRow-7kHR8w + .perksTableRowFocused-37qPHa .perksTableCell-3oXg4e {
   background-color: var(--hover-color) !important;
-  border-top: 1px solid var(--hover-color) !important;
+  border-top: none !important;
 }
-.perksTableRowBody-3adE9w:hover + .perksTableRowBody-3adE9w,
-.perksTableRowFocused-37qPHa + .perksTableRowBody-3adE9w {
-  border-top: 1px solid var(--hover-color) !important;
+.perksTableRowBody-3adE9w:hover
+  + .perksTableRowBody-3adE9w
+  .perksTableCell-3oXg4e,
+.perksTableRowFocused-37qPHa
+  + .perksTableRowBody-3adE9w
+  .perksTableCell-3oXg4e {
+  border-color: transparent !important;
+}
+.perksTableRow-7kHR8w + .perksTableRow-7kHR8w .perksTableCell-3oXg4e {
+  border-top: none !important;
+}
+.perksTableHighlightedColumnHeader-CkjCDK,
+.perksTableRow-7kHR8w:last-child .perksTableRowPerkHighlighted-3bmp8T:after {
+  background-color: var(--hover-color) !important;
+}
+.perksTableRowPerkHighlighted-3bmp8T {
+  background-color: var(--hover-color) !important;
 }
 .perksTablePerkCheckmarkTier0-eK6gBQ {
   color: var(--hover-dark-color) !important;
 }
 .perkPopout-1e9U4Y {
-  border: 1px solid var(--hover-color) !important;
+  border: none !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
   -webkit-box-shadow: var(--hover-color) !important;
   box-shadow: var(--hover-color) !important;
@@ -14598,6 +14630,34 @@ img:not(.emote):not(.emoji)::after {
   border-bottom: 1px solid var(--hover-color) !important;
 }
 .perkDescription-2-1vIq {
+  color: var(--soft-bright-color) !important;
+}
+.heroImageWrapper-YyJ_kJ {
+  background: var(--hover-dark-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.colorStandard-2KCXvj.size14-e6ZScH.heroHeading-1Qz-ix,
+.colorStandard-2KCXvj.size16-1P40sf.heroSubheading-3cS444,
+.colorStandard-2KCXvj.size12-3cLvbJ.progressBarMarkerNumSubscriptionsRequired-3wj3cy {
+  color: var(--soft-bright-color) !important;
+}
+.colorInteractiveActive-3Ip9Eu.size14-e6ZScH.progressBarMarkerLabel-uY2mae {
+  color: var(--hover-bright-color) !important;
+}
+.colorInteractiveNormal-PB7JN3.size14-e6ZScH.progressBarMarkerLabel-uY2mae {
+  color: var(--main-color) !important;
+}
+.guildInfoWrapper-3k4tAY {
+  background-color: var(--main-color) !important;
+}
+.iconBackgroundTierNone-3LSpaF,
+.iconBackgroundTierOne-14U-J-,
+.iconBackgroundTierThree-3z-kK8,
+.iconBackgroundTierTwo-1BQGc- {
+  color: var(--main-color) !important;
+}
+.colorInteractiveActive-3Ip9Eu.size12-3cLvbJ.guildInfo-1lwBoW {
   color: var(--soft-bright-color) !important;
 }
 
