@@ -7415,10 +7415,15 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
 }
 
-/* Guild list partner badge */
+/* Guild header partner badge */
 .partnered-3nJayh,
 .background-2uufRq {
   color: var(--hover-bright-color) !important;
+}
+
+/* Guild header nitro badge */
+.premiumGuildTierIconWithVisibleBanner-xxP8SF {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Guild list folders */
