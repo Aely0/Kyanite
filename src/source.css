@@ -10541,6 +10541,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .name-3suiPo {
   color: var(--soft-bright-color) !important;
 }
+.premiumGuildAvailabilityIndicator-3eYBzr {
+  background-color: var(--hover-color) !important;
+}
 
 /* Server Invites Menu */
 .inviteSettingsInviteRow-3p2O-N {
@@ -12779,6 +12782,7 @@ div[class*="flex-"][class*="title-"],
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorBrandNew-g5lmBU,
 .theme-dark .watchButton-2SbJEo {
   background-color: transparent !important;
   border: 1px solid var(--hover-dark-color) !important;
@@ -12799,6 +12803,7 @@ div[class*="flex-"][class*="title-"],
 .lookOutlined-3sRXeN .contents-18-Yxp:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.lookFilled-1Gx00P.colorBrandNew-g5lmBU:hover,
 .theme-dark .watchButton-2SbJEo:hover {
   color: var(--soft-bright-color) !important;
   border-color: var(--hover-bright-color) !important;
