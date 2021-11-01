@@ -12068,8 +12068,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-light .button-OhfaWu {
   background-color: transparent !important;
 }
-.dragInner-Oq_toX {
+.dragInner-37Nf0z {
   background-color: var(--hover-color) !important;
+}
+.target-3LqNfV.dragOver-Iim8_W:before,
+.centerTarget-1vR_1-.dragOver-Iim8_W:before {
+  background-color: var(--soft-bright-color) !important;
+  -webkit-box-shadow: 0 0 3px var(--hover-bright-color) !important;
+  box-shadow: 0 0 3px var(--hover-bright-color) !important;
 }
 
 /* Guild add/discover buttons */
