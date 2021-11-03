@@ -7652,6 +7652,11 @@ button[aria-label="Stop Watching"]
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+.uploadDropModal-2kTwbc .title-2Vtl4y,
+.uploadDropModal-2kTwbc .title-2Vtl4y strong,
+.uploadDropModal-2kTwbc .instructions-2Du9gG {
+  color: var(--soft-bright-color) !important;
+}
 
 /* File upload (Source Files) */
 .textContainer-C0szpm,
