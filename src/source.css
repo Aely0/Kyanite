@@ -12106,14 +12106,24 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-light .button-OhfaWu {
   background-color: transparent !important;
 }
-.dragInner-37Nf0z {
+.dragInner-2jqmg1,
+.folderIconWrapper-1Ml_1q,
+.expandedFolderBackground-3ZDF05 {
   background-color: var(--hover-color) !important;
+}
+.folder-2w6LX1,
+.folderIconWrapper-1Ml_1q:not([style="background-color: rgba(88, 101, 242, 0.4);"]),
+.expandedFolderBackground-3ZDF05.collapsed-2Zqqnx {
+  background-color: transparent !important;
 }
 .target-3LqNfV.dragOver-Iim8_W:before,
 .centerTarget-1vR_1-.dragOver-Iim8_W:before {
   background-color: var(--soft-bright-color) !important;
   -webkit-box-shadow: 0 0 3px var(--hover-bright-color) !important;
   box-shadow: 0 0 3px var(--hover-bright-color) !important;
+}
+.expandedFolderIconWrapper-3fmTfW > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Guild add/discover buttons */
