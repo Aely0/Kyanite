@@ -14571,6 +14571,10 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--hover-color) !important;
   border-top: none !important;
 }
+.perksTableRow-7kHR8w + .perksTableRowBody-3adE9w:hover,
+.perksTableRow-7kHR8w + .perksTableRowFocused-37qPHa {
+  background-color: var(--hover-color) !important;
+}
 .perksTableRowBody-3adE9w:hover
   + .perksTableRowBody-3adE9w
   .perksTableCell-3oXg4e,
