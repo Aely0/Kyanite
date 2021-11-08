@@ -11207,6 +11207,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .perkUnavailable-64O5T5.perk-1g1yg- {
   color: var(--hover-bright-color) !important;
 }
+.theme-dark .currentTierIcon-2gcTCn,
+.theme-dark .selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Channel permissions */
 .theme-dark .group-1WdBVp {
