@@ -12127,15 +12127,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Guild add/discover buttons */
-.circleIconButton-1XqULR {
+.circleIconButton-hZmpE8 {
   color: var(--hover-dark-color) !important;
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.circleIconButton-1XqULR:hover {
+.circleIconButton-hZmpE8:hover {
   color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
 }
-.circleIconButton-1XqULR.selected-2jcQaY {
+.circleIconButton-hZmpE8.selected-2jcQaY {
   color: var(--hover-bright-color) !important;
 }
 
