@@ -6484,6 +6484,32 @@ pre:hover .copybutton {
   transition: all 0.1s ease-in-out !important;
 }
 
+/* Server Events */
+.iconBadge-1Prgh2,
+.progressBar-37uLmT {
+  background-color: var(--hover-dark-color) !important;
+}
+.icon-3s6X1M > g > path {
+  fill: var(--soft-bright-color) !important;
+}
+.selectedProgressBar-1Z4WVU {
+  background-color: var(--hover-bright-color) !important;
+}
+.container-EvNTcn,
+.textInput-Qjzn11,
+.header-2MrRa6,
+.contentContainer-1f7Gvv {
+  background-color: transparent !important;
+}
+.rsvpCount-1Qtgtr {
+  background-color: var(--hover-color) !important;
+}
+.rsvpIcon-32ixCJ,
+.eventStatusBrand-1RBas5,
+.row-SVDk8K {
+  color: var(--hover-bright-color) !important;
+}
+
 /* System message */
 .system-message {
   color: hsla(0, 0%, 100%, 0.6) !important;
