@@ -7689,6 +7689,15 @@ button[aria-label="Stop Watching"]
   background-color: var(--hover-color) !important;
 }
 
+/* Multi-attachment upload */
+.upload-3Dkqd6 {
+  background-color: var(--hover-color) !important;
+}
+.altTag-2Zg09F {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+
 /* Channel text area */
 .channel-textarea-inner {
   border: 2px solid hsla(0, 0%, 100%, 0.1) !important;
