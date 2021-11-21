@@ -14198,20 +14198,35 @@ path[fill="rgb(255,216,54)"] {
 .bannerUploader-2jPvg2 .avatarUploaderInner-3UNxY3 {
   background-color: var(--hover-color) !important;
 }
-.profileBannerPreview-3_l0Wd {
+.profileBannerPreview-gaX5MP {
   background-color: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--hover-color) !important;
 }
-.avatarUploaderInner-Oiob_P {
+.divider-ewBQKj {
+  background-color: var(--hover-color) !important;
+}
+.avatarUploaderInner-mAGe3e {
   border: 6px solid rgb(0, 0, 0) !important;
 }
-.dropperIcon-3Cwhnk > g > path:nth-child(2),
+.avatarUploaderIcon-3UIzEQ {
+  background-color: rgb(0, 0, 0) !important;
+}
 .contents-18-Yxp > svg:nth-child(2) > path,
-.swatch-3mFIiP > svg > path {
+.swatch-2XEFyZ > svg > path {
   fill: var(--soft-bright-color) !important;
+}
+.dropperIcon-QGeseU > g > path:nth-child(2) {
+  fill: var(--hover-bright-color) !important;
+}
+.maxLength-39QFBo {
+  color: var(--hover-bright-color) !important;
 }
 .noticeWithRightPadding-3OxAxd.notice-ZSe05e.premiumInlineNotice-159eYs {
   background-color: var(--hover-color) !important;
+}
+.fakeActivityIcon-2uT519.wumpus-1nZlIc {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
 }
 
 /* Avatar preview (User Settings > User Profile) */
