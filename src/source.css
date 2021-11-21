@@ -14423,24 +14423,32 @@ path[fill="rgb(255,216,54)"] {
 
 /* Subscriptions (User Settings) */
 .sectionDescription-3uMpPK,
-.accountCreditDescription-iqLTBT {
+.accountCreditDescription-iqLTBT,
+.sectionDescription-24_zDW {
   color: var(--hover-bright-color) !important;
 }
 .noItemsCard-153Tex.card-3Qj_Yx,
-.noItemsCard-3TSAgO.card-3Qj_Yx {
+.noItemsCard-3TSAgO.card-3Qj_Yx,
+.noItemsCard-2LQ3Q2.card-3Qj_Yx {
   background-color: var(--hover-color) !important;
 }
 .cardText-1Z_Qur,
-.cardText-2rQaHq {
+.cardText-2rQaHq,
+.cardText-39ejcQ {
   background-color: transparent !important;
   color: var(--hover-bright-color) !important;
 }
 .noItemsIcon-21jJYT,
-.noItemsIcon-ygEH8z {
+.noItemsIcon-ygEH8z,
+.noItemsIcon-P3pRbO {
   background: var(--hover-dark-color) !important;
 }
 .gameIcon-gg34Dz {
   color: var(--soft-bright-color) !important;
+}
+.sectionAccountCredit-2-BmhN,
+.subscriptionDetails-1pYrMz {
+  border-color: var(--hover-color) !important;
 }
 
 /* Game Library (User Settings) */
