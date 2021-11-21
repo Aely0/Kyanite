@@ -13512,8 +13512,25 @@ div[class*="flex-"][class*="title-"],
 }
 .theme-dark .feature-2w65J5,
 .banner-WELp4M {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  border: 1px solid var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.heroIcon-3QgOM5,
+.hero-EvfTTA .heroHeader-IulZgg,
+.heroBody-2P4UF5 {
+  color: var(--soft-bright-color) !important;
+}
+.marketingRefreshTitle-3pOyQb {
+  color: var(--soft-bright-color) !important;
+}
+.marketingRefreshSubtitle-3jft-o {
+  color: var(--hover-bright-color) !important;
+}
+.marketingRefreshTier1Logo-sY6Lgd {
+  color: var(--soft-bright-color) !important;
+}
+.marketingRefreshSectionTier1-dRwS-6 {
+  color: var(--hover-bright-color) !important;
+  border-top: 1px solid var(--hover-color) !important;
 }
 
 /* Media bar */
