@@ -14451,6 +14451,13 @@ path[fill="rgb(255,216,54)"] {
   border-color: var(--hover-color) !important;
 }
 
+/* Gift inventory (User Settings) */
+.emptyStateHeader-248f_b,
+.emptyStateSubtext-2hdA9c {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+
 /* Game Library (User Settings) */
 .foreground-2aE44H {
   stroke: var(--main-color) !important;
