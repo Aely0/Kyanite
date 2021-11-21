@@ -14330,6 +14330,16 @@ path[fill="rgb(255,216,54)"] {
   fill: var(--hover-red-bright-color) !important;
 }
 
+/* Authorized apps (User Settings) */
+.cardPrimary-1Hv-to.card-3Qj_Yx {
+  background-color: var(--hover-color) !important;
+}
+.theme-dark .text-GwUZgS,
+.theme-dark .title-2BxgL2 {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+
 /* Connections (User Settings) */
 .accountBtnInner-sj5jLs,
 .accountList-33MS45,
