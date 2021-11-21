@@ -14344,7 +14344,7 @@ path[fill="rgb(255,216,54)"] {
 .accountBtnInner-sj5jLs,
 .accountList-33MS45,
 .connection-1fbD7X {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: var(--hover-color) !important;
   border-color: transparent !important;
 }
 .connectionHeader-2MDqhu {
@@ -14357,10 +14357,10 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 .connectionDelete-2Odoln > svg > path {
-  fill: var(--hover-red-dark-color) !important;
+  fill: var(--hover-dark-color) !important;
 }
 .connectionDelete-2Odoln:hover > svg > path {
-  fill: var(--hover-red-bright-color) !important;
+  fill: var(--hover-bright-color) !important;
 }
 .connectionList-3pzR-1 .subEnabledTitle-2ElRo_ {
   color: var(--hover-bright-color) !important;
@@ -14369,6 +14369,9 @@ path[fill="rgb(255,216,54)"] {
 .connectionList-3pzR-1 .labelDescriptor-1PqHgD {
   color: var(--hover-bright-color) !important;
   opacity: 0.8 !important;
+}
+.divider-3573oO {
+  border-top: thin solid var(--hover-color) !important;
 }
 
 /* Subscriptions (User Settings) */
