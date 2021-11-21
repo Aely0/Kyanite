@@ -14063,6 +14063,32 @@ path[fill="rgb(255,216,54)"] {
   border-color: var(--soft-bright-color) !important;
 }
 
+/* Settings */
+.theme-dark .defaultColor-1_ajX0,
+.theme-dark .title-31JmR4,
+.theme-dark .radioGroup-1GBvlr,
+.sidebar-CFHs9e .header-2RyJ0Y {
+  color: var(--soft-bright-color) !important;
+}
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.link-1IoFq- > svg > g > path {
+  fill: var(--hover-bright-color) !important;
+}
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.link-1IoFq-
+  > svg:hover
+  > g
+  > path {
+  fill: var(--soft-bright-color) !important;
+}
+.selectedBackground-2KQZ6B {
+  background-color: var(--main-color) !important;
+}
+.selected-2GV18F {
+  color: var(--soft-bright-color) !important;
+}
+.selectedIcon-T40qOF {
+  fill: var(--soft-bright-color) !important;
+}
+
 /* User Settings (Save Changes) */
 .contents-18-Yxp > span {
   color: var(--soft-bright-color) !important;
