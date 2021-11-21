@@ -14458,7 +14458,21 @@ path[fill="rgb(255,216,54)"] {
   opacity: 0.6 !important;
 }
 
-/* Game Library (User Settings) */
+/* Billing (User Settings) */
+.flexChild-faoVW3 .subText-2Zhkkh {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+.codeRedemptionRedirect-1wVR4b {
+  color: var(--hover-bright-color) !important;
+  background-color: var(--hover-color) !important;
+  border-color: transparent !important;
+}
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Game Library (User Settings) (Deprecated) */
 .foreground-2aE44H {
   stroke: var(--main-color) !important;
 }
