@@ -14593,6 +14593,17 @@ path[fill="rgb(255,216,54)"] {
   fill: var(--hover-bright-color) !important;
 }
 
+/* Game overlay (User Settings) */
+.disabled-3I9jyo {
+  color: var(--hover-red-color) !important;
+}
+.disabled-3I9jyo:hover {
+  color: var(--hover-red-dark-color) !important;
+}
+.selected-mKYnfr.disabled-3I9jyo {
+  color: var(--red-dark-color) !important;
+}
+
 /* Blockquote */
 .theme-dark .blockquoteDivider-2hH8H6 {
   background-color: var(--main-color) !important;
