@@ -11294,6 +11294,36 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Server boost progress bar */
+.colorInteractiveActive-3Ip9Eu.size12-3cLvbJ.goalText-2FXXG-,
+.colorInteractiveNormal-PB7JN3.size12-3cLvbJ strong,
+.colorInteractiveNormal-PB7JN3.size12-3cLvbJ,
+.count-2TXhz4.transition-27fFQS.directionRight-O8AY4M {
+  color: var(--soft-bright-color) !important;
+}
+.progressBarContainer-DLPbha {
+  background-color: var(--hover-color) !important;
+}
+.progressBar-UDQ4AC {
+  position: absolute;
+  z-index: 2;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-dark-color)),
+    to(var(--soft-bright-color))
+  ) !important;
+  background: linear-gradient(
+    90deg,
+    var(--hover-dark-color),
+    var(--soft-bright-color)
+  );
+}
+.divider-3C88Um {
+  border-top: none !important;
+}
+
 /* Channel permissions */
 .theme-dark .group-1WdBVp {
   border-color: var(--hover-color) !important;
