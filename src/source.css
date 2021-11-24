@@ -5471,7 +5471,7 @@ ul.bda-slist {
 .react-datepicker .react-datepicker__day:hover,
 .react-datepicker .react-datepicker__day.react-datepicker__day--today::after,
 .search-popout .date-picker .date-picker-hint .hint-value {
-  background-color: var(--main-color) !important;
+  background-color: var(--hover-bright-color) !important;
   -webkit-transition: background-color 0.3s ease-in-out !important;
   transition: background-color 0.3s ease-in-out !important;
 }
@@ -5495,6 +5495,23 @@ ul.bda-slist {
   .react-datepicker__day:not(.react-datepicker__day--outside-month)
   + .react-datepicker__day--outside-month {
   border-left-color: hsla(0, 0%, 100%, 0.04) !important;
+}
+.react-datepicker .react-datepicker__day-name,
+.react-datepicker .react-datepicker__day {
+  color: var(--hover-bright-color) !important;
+}
+.react-datepicker .react-datepicker__current-month {
+  color: var(--soft-bright-color) !important;
+}
+.calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker-2yf6Ci .react-datepicker__day:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.react-datepicker.calendarContainer-2ecZWM.elevationBorderHigh-2WYJ09 {
+  border: 1px solid var(--hover-color) !important;
 }
 .search-popout .date-picker .date-picker-hint {
   border-color: transparent !important;
@@ -6506,8 +6523,72 @@ pre:hover .copybutton {
 }
 .rsvpIcon-32ixCJ,
 .eventStatusBrand-1RBas5,
-.row-SVDk8K {
+.row-SVDk8K,
+.descriptionText-1EMft3.markup-2BOw-j,
+.descriptionText-1EMft3.description-1u_eu9.markup-2BOw-j.truncate-372O6u {
   color: var(--hover-bright-color) !important;
+}
+.icon-mQDO2w,
+.icon-3erbBb,
+.icon-2le0yg,
+.icon-2cLasv,
+.icon-2tws8E,
+.channelContainer-2FPdlu {
+  color: var(--soft-bright-color) !important;
+}
+.closeIcon-1KEJ9m,
+.close-FHLsKu,
+.iconButton-1UJy7l .icon-mQDO2w {
+  color: var(--hover-dark-color) !important;
+}
+.closeIcon-1KEJ9m:hover,
+.close-FHLsKu:hover,
+.iconButton-1UJy7l .icon-mQDO2w:hover {
+  color: var(--hover-bright-color) !important;
+}
+.listName-1r8v-e.nameTag-m8r81H .username-2b1r56 {
+  color: var(--soft-bright-color) !important;
+}
+.listName-1r8v-e.nameTag-m8r81H .listDiscriminator-21VMbb {
+  color: var(--hover-bright-color) !important;
+}
+.option-3KoAJB {
+  color: var(--hover-bright-color) !important;
+}
+.option-3KoAJB.focused-1T6PE5 {
+  color: var(--soft-bright-color) !important;
+}
+.option-3KoAJB.focused-1T6PE5:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.iconContainer-3c67B1 {
+  background-color: var(--hover-color) !important;
+}
+.inputDefault-_djjkz.input-cIJ7To.noBorder-CTIBpT {
+  border: none !important;
+}
+.eventStatusGreen-3jNYOT,
+.colorStatusGreen-2saF4_,
+.stageIcon-30nbHU,
+.iconLive-3cjv0g,
+.channelInfoContainer-1e3r6z,
+.channelLocationLink-1sEXuj {
+  color: var(--soft-bright-color) !important;
+}
+.liveIndicator-1MhhnA {
+  background-color: var(--soft-bright-color) !important;
+}
+.channelNotice-3I83Cr {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.button-26pYmv.button-38aScr.lookOutlined-3sRXeN.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN {
+  border-color: var(--hover-dark-color) !important;
+}
+.button-26pYmv.button-38aScr.lookOutlined-3sRXeN.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN:active {
+  background-color: transparent !important;
+}
+.circle-pwhgsv {
+  background-color: var(--hover-color) !important;
 }
 
 /* System message */
@@ -13039,7 +13120,7 @@ div[class*="flex-"][class*="title-"],
 .theme-dark
   .calendarPicker-2yf6Ci
   .react-datepicker__day.react-datepicker__day--selected:hover {
-  background-color: var(--hover-dark-color) !important;
+  background-color: var(--hover-color) !important;
 }
 .theme-dark
   .calendarPicker-2yf6Ci
