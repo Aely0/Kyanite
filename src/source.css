@@ -14497,6 +14497,39 @@ path[fill="rgb(255,216,54)"] {
   background: var(--soft-bright-color) !important;
 }
 
+/* Voice & Video (User Settings) */
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-dark-color) !important;
+}
+.option-n0icdO {
+  background-color: var(--hover-color) !important;
+}
+.progress-1IcQ3A {
+  background-color: var(--hover-dark-color) !important;
+  opacity: 0.6 !important;
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.notches-1sAcEM.gray-3_LNYR {
+  background: none !important;
+}
+.cameraWrapper-2n3EKe {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.backgroundOptionRing-3uvncP {
+  border: 2px solid var(--hover-bright-color) !important;
+}
+.backgroundOptionInner-xEE-w0 {
+  background-color: var(--hover-color) !important;
+}
+.backgroundOptionContent-24R4fn {
+  color: var(--soft-bright-color) !important;
+}
+.description-3_Ncsb.formText-3fs7AJ.modeDisabled-33Av8D {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Blockquote */
 .theme-dark .blockquoteDivider-2hH8H6 {
   background-color: var(--main-color) !important;
