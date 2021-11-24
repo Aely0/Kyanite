@@ -7419,7 +7419,7 @@ button[aria-label="Stop Watching"]
 }
 
 /* Guild list voice icon */
-.theme-dark .iconBadge-1N56q1 {
+.base-PmTxvP {
   background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
 }
