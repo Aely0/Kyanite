@@ -13609,6 +13609,65 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
   border-top: 1px solid var(--hover-color) !important;
 }
+.tag-PX6CDi {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-dark-color)),
+    to(var(--hover-bright-color))
+  ) !important;
+  background: linear-gradient(
+    90deg,
+    var(--hover-dark-color),
+    var(--hover-bright-color)
+  ) !important;
+}
+.sparkle-10ojb8,
+.sparkle-3AiT4r {
+  color: var(--soft-bright-color) !important;
+}
+.theme-dark .holidayPromotionSelectedBackground-181xIv,
+.theme-light .holidayPromotionSelectedBackground-181xIv {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-dark-color)),
+    to(var(--hover-bright-color))
+  );
+  background: linear-gradient(
+    90deg,
+    var(--hover-dark-color),
+    var(--hover-bright-color)
+  );
+  color: #fff;
+}
+.holidayHeroContainer-252amJ {
+  border-radius: 8px;
+  padding: 32px;
+  background: linear-gradient(
+    102.85deg,
+    var(--hover-color) 2.16%,
+    var(--hover-dark-color) 54.82%,
+    var(--hover-bright-color) 99.42%
+  );
+  color: #fff;
+}
+.holidayBogoIcon-1l7Ej1 > path[fill="#244BD0"],
+.holidayBogoIcon-1l7Ej1 > path[fill="#FF78B9"],
+.holidayBogoIcon-1l7Ej1 > path[fill="#AFFFC8"] {
+  fill: var(--soft-bright-color) !important;
+}
+.size16-1P40sf.holidayHeroBody-1GyTOQ {
+  color: var(--hover-bright-color) !important;
+}
+.holidayHeroIcon-2q4CaT > g > path {
+  fill: var(--soft-bright-color) !important;
+}
+.giftContainer-TKat2X {
+  background-color: var(--hover-color) !important;
+}
 
 /* Media bar */
 .mediaBarGrabber-1FqnbN,
