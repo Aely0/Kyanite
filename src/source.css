@@ -14579,7 +14579,8 @@ path[fill="rgb(255,216,54)"] {
 .gameName-1RiWHm {
   color: var(--hover-bright-color) !important;
 }
-.lastPlayed-3bQ7Bo, .overlayStatusText-L2IACa {
+.lastPlayed-3bQ7Bo,
+.overlayStatusText-L2IACa {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .game-1ipmAa {
@@ -14602,6 +14603,16 @@ path[fill="rgb(255,216,54)"] {
 }
 .selected-mKYnfr.disabled-3I9jyo {
   color: var(--red-dark-color) !important;
+}
+
+/* HypeSquad (User Settings) */
+.feature-BGH8y4 .title-PMZpEi,
+.feature-BGH8y4 .description-1W0DiL,
+.attendeeCTA-3ZZQWt {
+  color: var(--hover-bright-color) !important;
+}
+.featureBorder-7j4v58 {
+  border-top: 1px solid var(--hover-color) !important;
 }
 
 /* Blockquote */
