@@ -14287,8 +14287,8 @@ path[fill="rgb(255,216,54)"] {
   color: var(--hover-bright-color) !important;
 }
 .grabber-3mFHz2 {
-  background-color: var(--hover-bright-color) !important;
-  border-color: var(--hover-bright-color) !important;
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
 }
 .premiumProfilePreviewModal-2Ldtiv .premiumProfilePreviewContent-9o7jmL,
 .upsellSection-3TPKoE {
@@ -14481,6 +14481,20 @@ path[fill="rgb(255,216,54)"] {
 }
 .flowerStarContainer-3zDVtj.gameVerifiedIcon-2dGGa5 > svg > path {
   fill: var(--hover-bright-color) !important;
+}
+
+/* Appearance (User Settings) */
+.markValue-2DwdXI {
+  color: var(--hover-bright-color) !important;
+}
+.markDash-3hAolZ {
+  background: var(--hover-dark-color) !important;
+}
+.mark-1xjQqt.defaultValue-3gC7yw.markAbove-2I4brk .markValue-2DwdXI {
+  color: var(--soft-bright-color) !important;
+}
+.mark-1xjQqt.defaultValue-3gC7yw.markAbove-2I4brk .markDash-3hAolZ {
+  background: var(--soft-bright-color) !important;
 }
 
 /* Blockquote */
@@ -14866,15 +14880,6 @@ img:not(.emote):not(.emoji)::after {
 .membershipDialogSwitchHouses-1K8L1U,
 .membershipDialogSwitchHousesAction-2a3eDg:hover {
   color: white !important;
-}
-
-/* Voice & Video tab */
-.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
-  background-color: var(--hover-color) !important;
-  border-color: var(--hover-dark-color) !important;
-}
-.option-n0icdO {
-  background-color: var(--hover-color) !important;
 }
 
 /* Language tab */
