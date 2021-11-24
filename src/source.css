@@ -10525,31 +10525,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   padding-left: 0px !important;
 }
 
-/* Keybinds Menu */
-.keybindGroup-JQs9x_ {
-  margin-top: -1px !important;
-  padding: 20px !important;
-  position: relative !important;
-}
-.theme-dark .card-FDVird:before,
-.theme-dark .button-mM-y8i:hover,
-.theme-dark .button-mM-y8i {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  border-color: var(--main-color) !important;
-}
-.card-FDVird.active-nvdKfC:before,
-.card-FDVird:hover:before {
-  opacity: 0 !important;
-}
-.input-1UhAnY {
-  text-align: center !important;
-}
-.item-rJ_Cmt,
-.keybindMessage-20JT9A {
-  position: relative !important;
-  text-align: center !important;
-}
-
 /* Games Menu */
 .theme-dark .user-settings-games .game {
   padding: 20px !important;
@@ -14528,6 +14503,35 @@ path[fill="rgb(255,216,54)"] {
 }
 .description-3_Ncsb.formText-3fs7AJ.modeDisabled-33Av8D {
   color: var(--hover-bright-color) !important;
+}
+
+/* Keybinds (User Settings) */
+.warning-3C2pOH {
+  background: var(--hover-yellow-color) !important;
+  border: 1px solid var(--hover-yellow-bright-color) !important;
+  color: var(--yellow-bright-color) !important;
+}
+.warning-3C2pOH .icon-1jlFSw {
+  color: var(--yellow-bright-color) !important;
+}
+.input-1G2o7i.input-1UhAnY.base-96ewKC {
+  color: var(--soft-bright-color) !important;
+}
+.input-1G2o7i.input-1UhAnY.base-96ewKC::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.container-CpszHS:not(.disabled-29eJ21):focus-within,
+.container-CpszHS:not(.disabled-29eJ21):hover {
+  border-color: transparent !important;
+}
+.button-2CgfFz.filled-1iCBCZ.removeKeybind-39dSFj {
+  background-color: var(--hover-faint-color) !important;
+  -webkit-box-shadow: 0 0 0 1px var(--hover-dark-color),
+    0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 0 0 1px var(--hover-dark-color), 0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
+}
+.button-2CgfFz.filled-1iCBCZ.removeKeybind-39dSFj:hover {
+  background-color: var(--hover-color) !important;
 }
 
 /* Blockquote */
