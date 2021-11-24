@@ -10525,18 +10525,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   padding-left: 0px !important;
 }
 
-/* Games Menu */
-.theme-dark .user-settings-games .game {
-  padding: 20px !important;
-}
-.theme-dark .notDetected-33MY4s,
-.theme-light .notDetected-33MY4s {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
-.theme-dark .game-1ipmAa {
-  background: transparent !important;
-}
-
 /* Server Overview */
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
   color: var(--hover-bright-color) !important;
@@ -14532,6 +14520,77 @@ path[fill="rgb(255,216,54)"] {
 }
 .button-2CgfFz.filled-1iCBCZ.removeKeybind-39dSFj:hover {
   background-color: var(--hover-color) !important;
+}
+
+/* Activity status (User Settings) */
+.activeGame-14JI7o.notDetected-33MY4s {
+  background-color: var(--hover-color) !important;
+}
+.notDetected-33MY4s .gameName-1RiWHm,
+.notDetected-33MY4s .lastPlayed-3bQ7Bo,
+.nowPlayingAdd-1Kdmh_.marginReset-236NPn.marginTop8-1DLZ1n.marginBottom20-32qID7
+  > span {
+  color: var(--hover-bright-color) !important;
+}
+.addGamePopout-2RY8Ju {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.theme-dark .elevationBorderHigh-2WYJ09 {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.value-3EB36z {
+  color: var(--soft-bright-color) !important;
+}
+.searchInput-5YMkDH::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .lookLink-9FtZy-.colorGrey-2DXtkV:hover .contents-18-Yxp {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  );
+}
+.nowPlaying-284llR {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--soft-bright-color) !important;
+}
+.nowPlaying-284llR .gameName-1RiWHm,
+.nowPlaying-284llR .lastPlayed-3bQ7Bo,
+.nowPlaying-284llR .overlayStatusText-L2IACa {
+  color: var(--soft-bright-color) !important;
+}
+.nowPlaying-284llR .gameNameInput-385LoS:focus,
+.nowPlaying-284llR .gameNameInput-385LoS:hover,
+.gameNameInput-385LoS:focus,
+.theme-dark .gameNameInput-385LoS:hover {
+  border-color: var(--hover-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.overlayToggleIconOff-1kT42w > g > rect {
+  fill: var(--hover-red-bright-color) !important;
+}
+.detectedApplication-1qfUIv .gameName-1RiWHm,
+.gameName-1RiWHm {
+  color: var(--hover-bright-color) !important;
+}
+.lastPlayed-3bQ7Bo, .overlayStatusText-L2IACa {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .game-1ipmAa {
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
+  box-shadow: 0 1px 0 0 var(--hover-color) !important;
+}
+.overlayToggleIconOff-1kT42w .fill-1ugeBG {
+  fill: var(--hover-red-bright-color) !important;
+}
+.overlayToggleIconOn-3UNmty .fill-1ugeBG {
+  fill: var(--hover-bright-color) !important;
 }
 
 /* Blockquote */
