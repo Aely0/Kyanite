@@ -13633,8 +13633,8 @@ div[class*="flex-"][class*="title-"],
 .sparkle-3AiT4r {
   color: var(--soft-bright-color) !important;
 }
-.theme-dark .holidayPromotionSelectedBackground-181xIv,
-.theme-light .holidayPromotionSelectedBackground-181xIv {
+.holidayPromotionSelectedBackground-181xIv,
+.holidayPromotionSelectedBackground-1jYrxz {
   background: -webkit-gradient(
     linear,
     left top,
@@ -13648,6 +13648,12 @@ div[class*="flex-"][class*="title-"],
     var(--hover-bright-color)
   );
   color: #fff;
+}
+.holidayPromotionBackground-3A9hk1 {
+  background: none !important;
+}
+.premiumLabel-fDtYys.holidayPromotionLabel-1cuyn0 {
+  color: var(--soft-bright-color) !important;
 }
 .holidayHeroContainer-252amJ {
   border-radius: 8px;
