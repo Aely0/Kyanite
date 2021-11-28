@@ -10401,14 +10401,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .scroller-5bBood,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .scroller-9moviB,
-.theme-dark .messagesPopout-24nkyi,
+.messagesPopout-24nkyi,
 .scroller-305q3I,
 .scroller-1JpcIc,
 .scroller-zPkAnE,
 .scroller-2XE8rp,
-.theme-dark .bodyInner-245q0L,
-.theme-dark .footer-1fjuF6,
-.theme-dark .perksModal-fSYqOq {
+.bodyInner-245q0L,
+.footer-1fjuF6,
+.perksModal-1pSu7w {
   background-color: transparent !important;
 }
 
@@ -11143,6 +11143,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server boost status */
+.headerLogo-gwwSNh {
+  color: var(--soft-bright-color) !important;
+}
 .theme-dark .tierNoneContainer-3hhK3h {
   background-color: transparent !important;
 }
@@ -11151,7 +11154,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .tierHeaderContent-3t3DoO,
 .theme-dark .tierBody-16Chc9,
 .theme-dark .tierBody-x9kBBp,
-.theme-dark .tierBody-3aUxuc {
+.theme-dark .tierBody-3aUxuc,
+.tierBody-3gjrjH {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .carouselLeftGradientEdge-3P4spl,
@@ -11188,17 +11192,16 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .footer-30ewN8 {
   background-color: transparent !important;
 }
-.theme-dark .ctaBar-2UsjF2 {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+.theme-dark .ctaBar-2nFzdG {
+  background-color: var(--hover-color) !important;
 }
 .theme-dark .barForeground-3KglC8 {
   background-color: var(--main-color) !important;
 }
-.theme-dark .perk-2WeBWW {
+.perk-2YwViL {
   background-color: var(--hover-color) !important;
 }
-.theme-dark .tierUnlocked-27DwHo,
-.theme-dark .tierUnlocked-25K6Kv {
+.tierUnlocked-3mPMcg {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
@@ -11217,7 +11220,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .wrapper-3nSjSv,
 .theme-dark .tierHeaderUnlockedBackground-MW5XJU,
-.theme-dark .tierHeaderUnlocked-1n-OTI,
+.theme-dark .tierHeaderUnlocked-3QAU1o,
 .theme-dark .tierUnlocked-2H6ULo {
   background: -webkit-gradient(
       linear,
@@ -11256,7 +11259,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .tierHeaderLocked-1a2opw,
-.tierTitle-1zWf2L {
+.tierTitle-msxAL8 {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .tierHeaderUnlocked-1n-OTI,
@@ -11273,14 +11276,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-.giftIcon-ZxlWk5,
+.giftIcon-2nHRRI,
 .headerLogo--hLLAk {
   color: var(--soft-bright-color) !important;
 }
-.unlocked-251xRB {
+.unlocked-2xBD74 {
   color: var(--hover-bright-color) !important;
 }
-.tierBody-16Chc9 {
+.tierBody-3gjrjH {
   color: var(--soft-bright-color) !important;
 }
 .perkAvailable-2qYI1g.perk-1g1yg- {
@@ -11291,6 +11294,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .theme-dark .currentTierIcon-2gcTCn,
 .theme-dark .selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F {
+  color: var(--soft-bright-color) !important;
+}
+.tierIcon-q2NQri {
   color: var(--soft-bright-color) !important;
 }
 
@@ -15112,21 +15118,22 @@ img:not(.emote):not(.emoji)::after {
 .finePrint-RDL9Gx {
   color: var(--hover-bright-color) !important;
 }
-.planSelectStep-siOMix .planSelectText-27NxQV.bodyText-2BAgX2,
-.planSelectorPreviewPrice-2xDAwc,
+.bodyText-2eZo6h,
+.planSelectorLabel-VhUMV5,
+.planSelectText-iD7oUX.bodyText-13Rlv8,
+.planSelectorPreviewPrice-2aqquY,
 .pricePerInterval-WZc5oR,
 .upsellFooter-3coAfO {
   color: var(--hover-bright-color) !important;
 }
-.planSelectorLabel-1aEsuE,
-.planSelectorSubtotal-Ze7sIQ,
+.planSelectorSubtotal-2OO1hR,
 .pricePerInterval-WZc5oR > strong {
   color: var(--soft-bright-color) !important;
 }
 .bodyText-GzTXXM {
   color: var(--hover-bright-color) !important;
 }
-.perksList-1vtwXn {
+.perksList-2yVqLk {
   background-color: var(--hover-color) !important;
 }
 .perkRow-4H5Kvz {
