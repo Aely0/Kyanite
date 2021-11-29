@@ -6592,6 +6592,14 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
 }
 
+/* Notification settings */
+.icon-IkZExu.lighten-kLb06a {
+  color: var(--soft-bright-color) !important;
+}
+.checkboxContainer-2vV9zd:before {
+  background-color: var(--hover-color) !important;
+}
+
 /* System message */
 .system-message {
   color: hsla(0, 0%, 100%, 0.6) !important;
