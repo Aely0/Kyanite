@@ -145,18 +145,6 @@ body {
   overflow-y: auto !important;
 }
 
-.theme-dark .input-1mgnkM {
-  color: #f6f6f7 !important;
-}
-
-.theme-dark .input-cIJ7To {
-  border-color: var(--hover-color) !important;
-}
-
-.theme-dark .input-cIJ7To:focus {
-  border-color: var(--hover-dark-color) !important;
-}
-
 .userPopout-3XzG_A .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
   width: 14px !important;
 }
@@ -10508,7 +10496,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Server Emote menu */
+/* Server Emoji */
 .theme-dark .description-3_Ncsb,
 .theme-dark .labelDescriptor-1PqHgD {
   color: #72767d !important;
@@ -10540,6 +10528,24 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
     var(--soft-bright-color) 2px,
     transparent 0
   ) !important;
+}
+.emojiRow-3pAGQS.card-FDVird {
+  background: transparent !important;
+}
+.inputMini-2xQV9P.input-cIJ7To {
+  color: var(--hover-bright-color) !important;
+}
+.inputMini-2xQV9P.input-cIJ7To.emojiInput-13mgdV:focus,
+.inputMini-2xQV9P.input-cIJ7To.emojiInput-13mgdV:hover {
+  color: var(--soft-bright-color) !important;
+  border: none !important;
+}
+.emojiRow-3pAGQS {
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
+  box-shadow: 0 1px 0 0 var(--hover-color) !important;
+}
+.emojiAliasPlaceholder-1jdMVl {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Server Roles menu */
@@ -15318,6 +15324,9 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark.authBox-hW6HRx {
   background: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--hover-color) !important;
+}
+.needAccount-23l_Wh {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Reconnect screen */
