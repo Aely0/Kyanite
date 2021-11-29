@@ -6572,7 +6572,8 @@ pre:hover .copybutton {
 .stageIcon-30nbHU,
 .iconLive-3cjv0g,
 .channelInfoContainer-1e3r6z,
-.channelLocationLink-1sEXuj {
+.channelLocationLink-1sEXuj,
+.channelIcon-11pgiB {
   color: var(--soft-bright-color) !important;
 }
 .liveIndicator-1MhhnA {
@@ -6875,6 +6876,15 @@ pre:hover .copybutton {
 .invite-button.expired .invite-button-icon::after,
 .invite-button.expired .invite-button-icon::before {
   border-color: #f04747 !important;
+}
+
+/* Invite people */
+.inner-2P4tQO .input-3Xdcic,
+.inner-2P4tQO .input-3Xdcic::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.inviteRowName-1tVaxu {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Color picker */
