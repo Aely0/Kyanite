@@ -10123,7 +10123,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: hsla(0, 0%, 100%, 0.04) !important;
 }
 
-/* Invite */
+/* Invite link */
 .invite-modal .scroller {
   background: rgba(0, 0, 0, 0.5) !important;
 }
@@ -10150,8 +10150,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .invite-button .invite-button-body {
   color: hsla(0, 0%, 100%, 0.5) !important;
 }
-
-/* Invite message */
 .theme-dark .wrapper-35wsBm,
 .theme-dark .invite-18yqGF {
   background: rgba(0, 0, 0, 0.2) !important;
@@ -10163,6 +10161,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .guildIconExpired-2Qcq05 {
   background-color: var(--hover-color) !important;
+}
+.statusCounts-2qk4EE .count-30T-5k {
+  color: var(--hover-bright-color) !important;
+}
+.statusOnline-8PnF5L.status-2L8Zc7 {
+  background-color: var(--soft-bright-color) !important;
+}
+.statusOffline-37RKt7.status-2L8Zc7 {
+  background-color: var(--main-color) !important;
 }
 
 /* Game Invites */
