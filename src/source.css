@@ -14482,6 +14482,12 @@ path[fill="rgb(255,216,54)"] {
 .defaultSwatch-yhthU8[style="background-color: rgb(54, 57, 63);"] {
   background-color: var(--hover-color) !important;
 }
+.customizationSection-2f2fhI {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.divider-3Ll72z {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Avatar preview (User Settings > User Profile) */
 .optionBox-1b4n4P {
