@@ -14801,6 +14801,13 @@ path[fill="rgb(255,216,54)"] {
 .button-2CgfFz.filled-1iCBCZ.removeKeybind-39dSFj:hover {
   background-color: var(--hover-color) !important;
 }
+.keybindGroup-JQs9x_.card-FDVird {
+  background: transparent !important;
+}
+.row-2okwlC {
+  -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
+  box-shadow: inset 0 -1px 0 var(--hover-color) !important;
+}
 
 /* Activity status (User Settings) */
 .activeGame-14JI7o.notDetected-33MY4s {
