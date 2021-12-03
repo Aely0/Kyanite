@@ -10616,7 +10616,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .preview-vCswHc {
   color: var(--soft-bright-color) !important;
 }
-.perks-26lTSw {
+.perks-2hUniO {
   background-color: var(--hover-color) !important;
 }
 .colorStandard-2KCXvj.size14-e6ZScH.description-3_Ncsb.formText-3fs7AJ.modeDefault-3a2Ph1 {
@@ -15284,6 +15284,23 @@ img:not(.emote):not(.emoji)::after {
   color: var(--main-color) !important;
 }
 .colorInteractiveActive-3Ip9Eu.size12-3cLvbJ.guildInfo-1lwBoW {
+  color: var(--soft-bright-color) !important;
+}
+.selectPlanChooseTitle-2ClZSL,
+.totalLabel-kW8CA9 {
+  color: var(--soft-bright-color) !important;
+}
+.headerIcon-1xNrfZ.tier1-2JtqM9 {
+  color: var(--soft-bright-color) !important;
+}
+.planOption-3m2svN,
+.planOptionInterval-2idEhf {
+  color: var(--hover-bright-color) !important;
+}
+.optionSelected-1d91jC {
+  color: var(--soft-bright-color) !important;
+}
+.paymentNote-3NUaTF {
   color: var(--soft-bright-color) !important;
 }
 
