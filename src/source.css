@@ -14332,6 +14332,9 @@ path[fill="rgb(255,216,54)"] {
 .selectedIcon-T40qOF {
   fill: var(--soft-bright-color) !important;
 }
+.separator-gCa7yv {
+  background-color: var(--hover-color) !important;
+}
 
 /* User Settings (Save Changes) */
 .contents-18-Yxp > span {
