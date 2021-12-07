@@ -12213,12 +12213,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Home button */
-.childWrapper-anI2G9 {
-  background-color: transparent !important;
+.childWrapper-anI2G9 > svg > g > rect[fill="#36393f"] {
+  fill: transparent !important;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--hover-dark-color) !important;
+.childWrapper-anI2G9 > svg > g > rect[fill="#6370f4"] {
+  fill: var(--hover-dark-color) !important;
 }
 
 /* Guilds bar */
