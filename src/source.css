@@ -7505,6 +7505,14 @@ button[aria-label="Stop Watching"]
   border: solid 1px var(--main-color) !important;
 }
 
+/* Number badge */
+.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+  font-weight: bold !important;
+  border: 2px solid var(--soft-bright-color) !important;
+}
+
 /* Guild list voice icon */
 .base-PmTxvP {
   background-color: var(--main-color) !important;
