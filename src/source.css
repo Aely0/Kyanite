@@ -13811,6 +13811,9 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--main-color) !important;
 }
+.addFriendInputWrapper-3PjsbB:focus-within {
+  border-color: var(--hover-bright-color) !important;
+}
 
 /* Quick switcher notification */
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
