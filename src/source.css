@@ -7510,7 +7510,7 @@ button[aria-label="Stop Watching"]
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
   font-weight: bold !important;
-  border: 2px solid var(--soft-bright-color) !important;
+  border: none !important;
 }
 
 /* Guild list voice icon */
