@@ -7500,6 +7500,14 @@ button[aria-label="Stop Watching"]
   border: solid 1px var(--main-color) !important;
 }
 
+/* Number badge */
+.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
 /* Guild list voice icon */
 .base-PmTxvP {
   background-color: var(--main-color) !important;
@@ -12206,6 +12214,13 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .childWrapper-anI2G9 > svg > g > rect[fill="#6370f4"] {
   fill: var(--hover-dark-color) !important;
 }
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--hover-dark-color) !important;
+}
+.childWrapper-anI2G9 {
+  background-color: transparent !important;
+}
 
 /* Guilds bar */
 .theme-dark .wrapper-2lTRaf,
@@ -13780,6 +13795,9 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--main-color) !important;
 }
+.addFriendInputWrapper-3PjsbB:focus-within {
+  border-color: var(--hover-bright-color) !important;
+}
 
 /* Quick switcher notification */
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
@@ -13843,6 +13861,22 @@ div[class*="flex-"][class*="title-"],
 }
 .selectedIcon-3uS11H {
   color: var(--hover-bright-color) !important;
+}
+.container-GIKiY5 {
+  background-color: var(--main-color) !important;
+}
+.pointer-2HX1mz {
+  border-top-color: var(--main-color) !important;
+}
+.infoIcon-1aFH6I {
+  color: var(--soft-bright-color) !important;
+}
+.seasonalGiftBox-aNVgUn {
+  background-color: var(--hover-color) !important;
+}
+.seasonalGiftBoxHighlighted-3kLUoZ {
+  border-color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
 }
 
 /* Sticker Suggestion popup */
