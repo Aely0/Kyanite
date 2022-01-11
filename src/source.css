@@ -59,11 +59,29 @@ body::after,
   /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important; */
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
-.app-2rEoOp,
-.appMount-3lHmkl,
-.content-MLh4nU,
+.app-3xd6d0,
+.app-2CXKsg,
+.appMount-2yBXZl,
+.content-1jQy2l,
 .container-2lgZY8,
-.bg-h5JY_x,
+.chat-2ZfjoI,
+.container-ZMc96U.themed-Hp1KC_,
+.bg-1QIAus,
+.sidebar-1tnWFu,
+.container-1NXEtd,
+.scroller-3X7KbA,
+.wrapper-1_HaEi,
+.panels-3wFtMD,
+.scroller-WSmht3,
+.privateChannels-oVe7HL,
+.container-2cd8Mz,
+.container-1oAagU,
+.nowPlayingColumn-1eCBCN,
+.sidebarRegionScroller-FXiQOh,
+.standardSidebarView-E9Pc3j,
+.layer-86YKbF,
+.contentRegion-3HkfJJ,
+.contentRegionScroller-2_GT_N,
 body {
   background-color: transparent !important;
 }
@@ -7538,7 +7556,7 @@ button[aria-label="Stop Watching"]
 }
 
 /* Guild header nitro badge */
-.premiumGuildTierIconWithVisibleBanner-3hKxmo {
+.boostedGuildTierIconWithVisibleBanner-1Q-9f0 {
   color: var(--soft-bright-color) !important;
 }
 
@@ -11769,11 +11787,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Member list */
-.container-2wlB3z {
+.container-2o3qEW {
   background: transparent !important;
 }
-.theme-dark .members-1998pB,
-.theme-dark .members-1998pB > div {
+.members-3WRCEx,
+.members-3WRCEx > div {
   background-color: transparent !important;
 }
 .member-3W1lQa {
