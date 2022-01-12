@@ -9676,10 +9676,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border: 3px solid transparent !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-::-webkit-scrollbar {
-  width: 10px !important;
-  height: 10px !important;
-}
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-radius: 10px !important;
@@ -12251,6 +12247,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Guilds bar */
 .item-2LIpTv {
   background-color: var(--main-color) !important;
+}
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt::-webkit-scrollbar {
+  display: none !important;
 }
 
 /* Guild avatars */
