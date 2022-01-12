@@ -5136,10 +5136,6 @@ ul.bda-slist {
 .emoji {
   position: relative !important;
 }
-.emoji.jumboable {
-  margin-bottom: 0 !important;
-  margin-top: 0.2em !important;
-}
 .embed-IeVjo6 .emoji {
   margin: 0 0.05em 0 0.1em !important;
 }
@@ -5662,10 +5658,9 @@ ul.bda-slist {
   background-color: var(--hover-color) !important;
 }
 
-/* Message hover toolbar (hidden by default, can be reverted by uncommenting the override in theme files) */
-.message-2CShn3.selected-2LX7Jy .buttons-3dF5Kd,
-.mouse-mode .message-2CShn3:hover .buttons-3dF5Kd {
-  visibility: hidden !important;
+/* Message hover toolbar */
+.wrapper-2aW0bm {
+  background: rgba(0, 0, 0, 0.4) !important;
 }
 .wrapper-2vIMkT {
   background: rgba(0, 0, 0, 0.4) !important;
@@ -8120,17 +8115,6 @@ img:not(.emote):not(.emoji)::after {
 .containerBackground-LlUax5:after {
   border: 7px solid transparent !important;
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
-}
-
-/* Emoji */
-.emoji.jumboable {
-  width: 2rem !important;
-  height: 2rem !important;
-  min-height: 2rem !important;
-}
-.customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
-  width: 32px !important;
-  height: 32px !important;
 }
 
 /* Emoji info */
@@ -15410,6 +15394,17 @@ img:not(.emote):not(.emoji)::after {
 }
 .tipTitle-GL9qAt {
   color: var(--soft-bright-color) !important;
+}
+
+/* Powercord */
+.powercord-entities-manage-tabs {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.powercord-quickcss:not(.popped-out) {
+  background-color: var(--hover-color) !important;
+}
+.powercord-quickcss-header .button, .powercord-quickcss-footer .button {
+  background-color: transparent !important;
 }
 
 /* Code blocks */
