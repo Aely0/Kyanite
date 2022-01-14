@@ -11061,6 +11061,50 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: hsla(0, 0%, 100%, 0.8) !important;
 }
 
+/* Community Server Insights */
+.developerPortalCtaWrapper-2PniQs {
+  background-color: var(--hover-color) !important;
+}
+
+/* Community Server Partner Programme */
+.featureIcon-2sTnDK > svg > path {
+  fill: var(--soft-bright-color) !important;
+}
+.checklistContainer-12xGp5,
+.checklistHeader-3liG7E {
+  background-color: var(--hover-color) !important;
+}
+.checklistContainer-12xGp5 .separator-2qVfIV {
+  background-color: var(--hover-bright-color) !important;
+}
+.warning-2DeIgm {
+  color: var(--hover-red-bright-color) !important;
+}
+.checklistItem-1gWPPD
+  .checkbox-f1HnKB.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.round-1RSG-3.checked-1pZh2h {
+  background-color: var(--hover-green-bright-color) !important;
+  border-radius: 10px !important;
+  border-color: transparent !important;
+}
+.checklistItem-1gWPPD
+  .checkbox-f1HnKB.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.round-1RSG-3.checked-1pZh2h
+  > svg
+  > path {
+  fill: var(--green-bright-color) !important;
+}
+.checklistItem-1gWPPD
+  .checklistIcon-D7psvE
+  > svg
+  > path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361328 10.6819 3.346 13.6666 7.02799 13.6666C10.71 13.6666 13.6947 10.6819 13.6947 6.99992C13.6947 3.31792 10.7093 0.333252 7.02799 0.333252ZM10.166 9.19525L9.22333 10.1379L7.02799 7.94325L4.83266 10.1379L3.89 9.19525L6.08466 6.99992L3.88933 4.80459L4.832 3.86259L7.02733 6.05792L9.22266 3.86259L10.1653 4.80459L7.97066 6.99992L10.166 9.19525Z"] {
+  fill: var(--hover-red-bright-color) !important;
+}
+.checklistItem-1gWPPD
+  .checklistIcon-D7psvE
+  > svg
+  > path[d="M10 0C4.486 0 0 4.486 0 10C0 15.515 4.486 20 10 20C15.514 20 20 15.515 20 10C20 4.486 15.514 0 10 0ZM9 4H11V11H9V4ZM10 15.25C9.31 15.25 8.75 14.691 8.75 14C8.75 13.31 9.31 12.75 10 12.75C10.69 12.75 11.25 13.31 11.25 14C11.25 14.691 10.69 15.25 10 15.25Z"] {
+  fill: var(--hover-yellow-bright-color) !important;
+}
+
 /* Community Server Discovery */
 .defaultIcon-2NMkWn {
   background-color: var(--hover-dark-color) !important;
