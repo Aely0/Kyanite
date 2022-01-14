@@ -10524,56 +10524,53 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Server Emoji */
+/* Options Menu Descriptions */
 .theme-dark .description-30xx7u,
 .theme-dark .labelDescriptor-34wZ-z {
-  color: #72767d !important;
-  padding-left: 10px !important;
+  padding-left: 0px !important;
 }
-.emoji-row .emoji-image {
-  margin-left: 10px !important;
-}
-.theme-dark .emoji-alias-input .emoji-input {
-  background-color: transparent !important;
-}
-.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-  border-color: transparent !important;
-  background-color: transparent !important;
-}
-.emojiInput-B8MGX {
-  color: var(--soft-bright-color) !important;
-}
-.emojiAliasPlaceholder-3oShSx:after,
-.emojiAliasPlaceholder-3oShSx:before,
-.emojiAliasPlaceholderContent-12ybcH {
+
+/* Server Overview */
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo {
   color: var(--hover-bright-color) !important;
+  border-color: var(--main-color) !important;
 }
-.upsell-1ZXP3R {
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo:active {
   background-color: var(--hover-color) !important;
 }
-.upsell-1ZXP3R.premiumUpsell-2K2V_c .colorInteractiveNormal-36ZhyZ {
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
+  color: var(--soft-bright-color) !important;
+  border-color: var(--soft-bright-color) !important;
+}
+.lookGhost-2Fn_0-.colorGrey-2iAG-B {
+  background-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+}
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ,
+.guildFeatureAvailabilityIndicator-34eQAP {
+  background-color: transparent !important;
   color: var(--soft-bright-color) !important;
 }
-.button-f2h6uQ.lookLink-15mFoz.colorLink-1Md3RZ.sizeMedium-2bFIHr.grow-2sR_-F:hover
-  .contents-3ca1mk {
-  background-image: linear-gradient(
-    0deg,
-    transparent,
-    transparent 1px,
-    var(--soft-bright-color) 0,
-    var(--soft-bright-color) 2px,
-    transparent 0
-  ) !important;
-}
-.emojiRow-1aPaM-.card-2ART2V {
-  background: transparent !important;
-}
-.emojiRow-1aPaM- {
-  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
-  box-shadow: 0 1px 0 0 var(--hover-color) !important;
-}
-.emojiAliasPlaceholder-3oShSx {
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   color: var(--hover-bright-color) !important;
+}
+.name-3suiPo {
+  color: var(--soft-bright-color) !important;
+}
+.premiumGuildAvailabilityIndicator-2yVVuW {
+  background-color: var(--hover-color) !important;
+}
+.icon-1WcxU9 {
+  color: var(--soft-bright-color) !important;
+}
+.divider--oiTeJ {
+  border-color: var(--hover-color) !important;
+}
+.colorInteractiveActive-30E9n8 {
+  color: var(--hover-bright-color) !important;
+}
+.bannerUpsellContainer-31E9J5 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Server Roles menu */
@@ -10655,61 +10652,72 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-color: var(--hover-color) !important;
 }
 
-/* Options Menu Descriptions */
+/* Server Emoji */
 .theme-dark .description-30xx7u,
 .theme-dark .labelDescriptor-34wZ-z {
-  padding-left: 0px !important;
+  color: #72767d !important;
+  padding-left: 10px !important;
+}
+.emoji-row .emoji-image {
+  margin-left: 10px !important;
+}
+.theme-dark .emoji-alias-input .emoji-input {
+  background-color: transparent !important;
+}
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+.emojiInput-B8MGX {
+  color: var(--soft-bright-color) !important;
+}
+.emojiAliasPlaceholder-3oShSx:after,
+.emojiAliasPlaceholder-3oShSx:before,
+.emojiAliasPlaceholderContent-12ybcH {
+  color: var(--hover-bright-color) !important;
+}
+.upsell-1ZXP3R {
+  background-color: var(--hover-color) !important;
+}
+.upsell-1ZXP3R.premiumUpsell-2K2V_c .colorInteractiveNormal-36ZhyZ {
+  color: var(--soft-bright-color) !important;
+}
+.button-f2h6uQ.lookLink-15mFoz.colorLink-1Md3RZ.sizeMedium-2bFIHr.grow-2sR_-F:hover
+  .contents-3ca1mk {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  ) !important;
+}
+.emojiRow-1aPaM-.card-2ART2V {
+  background: transparent !important;
+}
+.emojiRow-1aPaM- {
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
+  box-shadow: 0 1px 0 0 var(--hover-color) !important;
+}
+.emojiAliasPlaceholder-3oShSx {
+  color: var(--hover-bright-color) !important;
 }
 
-/* Server Overview */
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo {
-  color: var(--hover-bright-color) !important;
-  border-color: var(--main-color) !important;
+/* Server Stickers */
+.upsellContainer-22N_CL {
+  background: var(--hover-color) !important;
 }
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo:active {
-  background-color: var(--hover-color) !important;
-}
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
-  color: var(--soft-bright-color) !important;
-  border-color: var(--soft-bright-color) !important;
-}
-.lookGhost-2Fn_0-.colorGrey-2iAG-B {
-  background-color: transparent !important;
-  color: var(--hover-bright-color) !important;
-}
-.lookGhost-2Fn_0-.colorBrand-I6CyqQ,
-.guildFeatureAvailabilityIndicator-34eQAP {
-  background-color: transparent !important;
-  color: var(--soft-bright-color) !important;
-}
-.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-  color: var(--hover-bright-color) !important;
-}
-.name-3suiPo {
-  color: var(--soft-bright-color) !important;
-}
-.premiumGuildAvailabilityIndicator-2yVVuW {
-  background-color: var(--hover-color) !important;
-}
-.icon-1WcxU9 {
-  color: var(--soft-bright-color) !important;
-}
-.divider--oiTeJ {
-  border-color: var(--hover-color) !important;
-}
-.colorInteractiveActive-30E9n8 {
-  color: var(--hover-bright-color) !important;
-}
-.bannerUpsellContainer-31E9J5 {
-  background-color: var(--hover-color) !important;
+.tierIconLocked-RGSkSl {
+  color: var(--hover-dark-color) !important;
 }
 
-/* Server Invites Menu */
+/* Server Invites */
 .inviteSettingsInviteRow-1rZeIM {
   padding-left: 12px !important;
 }
 
-/* Server Ban Menu */
+/* Server Ban */
 .theme-dark .guild-settings-banned-user {
   padding: 10px !important;
 }
