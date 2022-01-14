@@ -251,6 +251,7 @@ body {
 
 input {
   border-width: 1px !important;
+  border-radius: 4px !important;
 }
 
 [class*="need-help-modal"] .footer {
@@ -12315,7 +12316,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Add guild menu */
-.theme-dark .root-g14mjS {
+.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -13310,6 +13311,10 @@ div[class*="flex-"][class*="title-"],
 }
 .quickswitcher-pKcM9U .scrollerBase-_bVAAt::-webkit-scrollbar-track {
   background: var(--hover-dark-color) !important;
+}
+.container-qBnZJg.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+  background-color: transparent !important;
+  border: none !important;
 }
 
 /* Audit log dropdown menus */
@@ -15137,37 +15142,37 @@ img:not(.emote):not(.emoji)::after {
 .descriptionStandalone-3aMqwN {
   color: var(--soft-bright-color) !important;
 }
-.wrapper-WLdlSO,
-.navigationBar-2Z_P4D {
+.wrapper-1w686E,
+.navigationBar-3r0IQK {
   background-color: transparent !important;
 }
-.progressBarTrack-1hwRWy {
+.progressBarTrack-31JzOY {
   background-color: var(--hover-dark-color) !important;
 }
-.progressBarSimplifiedVariant-OzHIWH
-  .progressBarMarkerUnlocked-2PZus2
-  .progressBarMarkerIndicator-1CQQ0J:after {
+.progressBarSimplifiedVariant-9LuGB-
+  .progressBarMarkerUnlocked-2l_py0
+  .progressBarMarkerIndicator-2Vf_sE:after {
   border: 4px solid var(--soft-bright-color) !important;
 }
-.colorStandard-21JIj7.size12-oc4dx4.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
+.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
   color: var(--soft-bright-color) !important;
 }
 .progressBarMarker-2cJyNP {
   background-color: var(--main-color) !important;
 }
 .progressBarMarkerNextTier-rwVUBI:after,
-.progressBarMarkerNextTier-3bmxd0 .progressBarMarkerIndicator-1CQQ0J:after {
+.progressBarMarkerNextTier-1lj6AI .progressBarMarkerIndicator-2Vf_sE:after {
   background-color: var(--main-color) !important;
 }
-.progressBarMarkerNextTier-3bmxd0 .progressBarMarkerIndicator-1CQQ0J,
-.progressBarMarkerUnlocked-2PZus2 .progressBarMarkerIndicator-1CQQ0J {
+.progressBarMarkerNextTier-1lj6AI .progressBarMarkerIndicator-2Vf_sE,
+.progressBarMarkerUnlocked-2l_py0 .progressBarMarkerIndicator-2Vf_sE {
   background-image: linear-gradient(
     45deg,
     var(--hover-bright-color),
     var(--hover-dark-color)
   );
 }
-.progressBarFill-3CArtq.progressBarTrack-1hwRWy {
+.progressBarFill-r3JZQ7.progressBarTrack-31JzOY {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -15181,17 +15186,17 @@ img:not(.emote):not(.emoji)::after {
     var(--soft-bright-color)
   );
 }
-.progressBarMarker-9hJsza {
+.progressBarMarker-2F7kNV {
   background-color: var(--main-color) !important;
 }
 .progressBarMarker-2cJyNP.progressBarMarkerUnlocked-3YdWPU
   .colorStandard-21JIj7.size12-oc4dx4.progressBarMarkerNumSubscriptionsRequired-1DMOqy {
   color: var(--soft-bright-color) !important;
 }
-.planCard-vET3Ia {
+.planCard-3heGy1 {
   background-color: var(--hover-color) !important;
 }
-.perksTable-H9sPBm {
+.perksTable-2Hjc0m {
   background-color: var(--hover-color) !important;
 }
 .perksTableRow-31boQO + .perksTableRowBody-3Ppvgz:hover .perksTableCell-3bb-JW,
@@ -15199,8 +15204,8 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--hover-color) !important;
   border-top: none !important;
 }
-.perksTableRow-31boQO + .perksTableRowBody-3Ppvgz:hover,
-.perksTableRow-31boQO + .perksTableRowFocused-26nQ6l {
+.perksTableRow-n0T8Yj + .perksTableRowBody-pELwOS:hover,
+.perksTableRow-n0T8Yj + .perksTableRowFocused--UdCIh {
   background-color: var(--hover-color) !important;
 }
 .perksTableRowBody-3Ppvgz:hover
@@ -15211,21 +15216,21 @@ img:not(.emote):not(.emoji)::after {
   .perksTableCell-3bb-JW {
   border-color: transparent !important;
 }
-.perksTableRow-31boQO + .perksTableRow-31boQO .perksTableCell-3bb-JW {
+.perksTableRow-n0T8Yj + .perksTableRow-n0T8Yj .perksTableCell-1vOCXk {
   border-top: none !important;
 }
-.perksTableHighlightedColumnHeader-df-V1U,
-.perksTableRow-31boQO:last-child .perksTableRowPerkHighlighted-2dKrsT:after {
+.perksTableHighlightedColumnHeader-1f38p4,
+.perksTableRow-n0T8Yj:last-child .perksTableRowPerkHighlighted-33Ea3c:after {
   background-color: var(--hover-color) !important;
 }
-.perksTableRowPerkHighlighted-2dKrsT {
+.perksTableRowPerkHighlighted-33Ea3c {
   background-color: var(--hover-color) !important;
 }
 .perksTablePerkCheckmarkTier0-dYaej- {
   color: var(--hover-dark-color) !important;
 }
-.perkPopout-18_jX- {
-  border: none !important;
+.perkPopout-2bt1aW {
+  border: 1px solid var(--hover-color) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
   -webkit-box-shadow: var(--hover-color) !important;
   box-shadow: var(--hover-color) !important;
@@ -15254,21 +15259,21 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
 }
 .bodyText-2eZo6h,
-.planSelectorLabel-VhUMV5,
-.planSelectText-iD7oUX.bodyText-13Rlv8,
-.planSelectorPreviewPrice-2aqquY,
+.planSelectorLabel-2T9D_0,
+.planSelectText-KaU9kb.bodyText-1qcdxO,
+.planSelectorPreviewPrice-3is8Gl,
 .pricePerInterval-3PUiOj,
 .upsellFooter-1H_OCF {
   color: var(--hover-bright-color) !important;
 }
-.planSelectorSubtotal-2OO1hR,
+.planSelectorSubtotal-1A7sWH,
 .pricePerInterval-3PUiOj > strong {
   color: var(--soft-bright-color) !important;
 }
-.bodyText-GzTXXM {
+.bodyText-3Op3yx {
   color: var(--hover-bright-color) !important;
 }
-.perksList-2yVqLk {
+.perksList-34peAu {
   background-color: var(--hover-color) !important;
 }
 .perkRow-10K6XE {
@@ -15277,30 +15282,40 @@ img:not(.emote):not(.emoji)::after {
 .perkDescription-3e1T_w {
   color: var(--soft-bright-color) !important;
 }
-.heroImageWrapper-3kkDad {
+.heroImageWrapper-3qntgD {
   background: var(--hover-dark-color) !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-.colorStandard-21JIj7.size14-3fJ-ot.heroHeading-1UG-VZ,
-.colorStandard-21JIj7.size16-rrJ6ag.heroSubheading-3_0vzX,
-.colorStandard-21JIj7.size12-oc4dx4.progressBarMarkerNumSubscriptionsRequired-1jES8_ {
+.hero-stXd0P,
+.heroLowSaturation-1S_eu5 {
+  background-image: none !important;
+  background-color: var(--hover-color) !important;
+}
+.heroHeading-1UG-VZ,
+.heroSubheading-3_0vzX,
+.progressBarMarkerNumSubscriptionsRequired-1jES8_ {
   color: var(--soft-bright-color) !important;
 }
-.colorInteractiveActive-30E9n8.size14-3fJ-ot.progressBarMarkerLabel-_EKcLz {
+.progressBarMarkerLabel-_EKcLz,
+.progressBarMarkerPurchaseCta-1OaNxR {
   color: var(--hover-bright-color) !important;
 }
-.colorInteractiveNormal-36ZhyZ.size14-3fJ-ot.progressBarMarkerLabel-_EKcLz {
+.progressBarMarkerLabel-_EKcLz {
   color: var(--main-color) !important;
 }
-.guildInfoWrapper-1uFgJ9 {
-  background-color: var(--main-color) !important;
+.guildInfoWrapper-27qEn2 {
+  background-color: var(--hover-color) !important;
 }
-.iconBackgroundTierNone-3LSpaF,
-.iconBackgroundTierOne-14U-J-,
-.iconBackgroundTierThree-3z-kK8,
-.iconBackgroundTierTwo-1BQGc- {
+.iconBackgroundTierNone-3M21Zn,
+.iconBackgroundTierOne-1S68CI,
+.iconBackgroundTierThree-2hfNBO,
+.iconBackgroundTierTwo-2XoNXD {
   color: var(--main-color) !important;
+}
+.iconTierOne-2h4ba6,
+.iconTierTwo-3MBPlM {
+  color: var(--soft-bright-color) !important;
 }
 .colorInteractiveActive-30E9n8.size12-oc4dx4.guildInfo-2HFXsY {
   color: var(--soft-bright-color) !important;
