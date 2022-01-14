@@ -10811,6 +10811,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Server Invites */
 .inviteSettingsInviteRow-1rZeIM {
   padding-left: 12px !important;
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+  border-radius: 10px !important;
+}
+.inviteSettingsInviteRow-1rZeIM .username-3JLfHz {
+  color: var(--soft-bright-color) !important;
+}
+.inviteSettingsInviteRow-1rZeIM .discriminator-3DuA9_ {
+  color: var(--hover-bright-color) !important;
+}
+.inviteSettingsInviteRow-1rZeIM .colorHeaderSecondary-g5teka {
+  padding-left: 28px !important;
 }
 
 /* Server Ban */
