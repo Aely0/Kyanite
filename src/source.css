@@ -10813,7 +10813,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Server Enable Community */
 .guildDetails-1il1dn,
 .featureCard-3XHbjy,
-.featureIcon-3p1TC_ {
+.featureIcon-2sTnDK {
   background-color: var(--hover-color) !important;
 }
 .overviewSidebar-3JDLaJ {
@@ -10845,6 +10845,16 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .overviewSidebar-3JDLaJ > h3,
 #uid_32 {
   color: var(--soft-bright-color) !important;
+}
+.featuredText-1kAYlq,
+.infoIcon-QtHJ1h {
+  color: var(--soft-bright-color) !important;
+}
+.headerCaption-3Tw9SO {
+  color: var(--hover-bright-color) !important;
+}
+.checkboxWrapper-2fDzaA.row-31nALW {
+  background-color: var(--hover-color) !important;
 }
 
 /* Community settings */
