@@ -10788,6 +10788,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Server Widget */
+.copyInput-3AbKWB {
+  background-color: var(--hover-faint-color) !important;
+  border-color: var(--hover-color) !important;
+}
+.copyInput-3AbKWB .input-2QVoG3 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Server Invites */
 .inviteSettingsInviteRow-1rZeIM {
   padding-left: 12px !important;
@@ -10802,8 +10811,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Enable Community */
-.guildDetails-2p1NmK,
-.featureCard-1RR4Tl,
+.guildDetails-1il1dn,
+.featureCard-3XHbjy,
 .featureIcon-3p1TC_ {
   background-color: var(--hover-color) !important;
 }
@@ -10887,8 +10896,24 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Template */
-.descriptionBox-1EKQKL {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+.descriptionBox-SKGNgB {
+  background-color: var(--hover-color) !important;
+}
+.descriptionSection-2uY1K5 .h5-2RwDNl.title-3hptVQ,
+.descriptionSection-2uY1K5 .descriptionRow-1UPN0d {
+  color: var(--hover-bright-color) !important;
+}
+.descriptionIcon-3nDZrK > g > path {
+  fill: var(--green-dark-color) !important;
+}
+.descriptionIcon-3nDZrK circle[r="8"] {
+  fill: var(--green-bright-color) !important;
+}
+.descriptionIcon-3nDZrK > path {
+  fill: var(--red-dark-color) !important;
+}
+.descriptionIcon-3nDZrK circle[r="5"] {
+  fill: var(--red-bright-color) !important;
 }
 
 /* Server Template Preview */
