@@ -10771,6 +10771,23 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   stroke: var(--hover-bright-color) !important;
 }
 
+/* Server Integrations */
+.iconWrapper-1sOtkE {
+  background-color: var(--hover-color) !important;
+}
+.icon-3TvnqF,
+.title-3hptVQ .channelName-3pdImQ {
+  color: var(--soft-bright-color) !important;
+}
+.caret-3r4dUI,
+.detailsIcon-2NtTO9,
+.featureIcon-3rvFkz,
+.icon-1PAq_f,
+.expandIcon-kTQHvx,
+.avatarUploader-AF-hm- .sizeInfo-Wk0Ksj {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Server Invites */
 .inviteSettingsInviteRow-1rZeIM {
   padding-left: 12px !important;
