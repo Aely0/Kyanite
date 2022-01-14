@@ -10677,7 +10677,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: transparent !important;
   color: var(--hover-bright-color) !important;
 }
-.lookGhost-2Fn_0-.colorBrand-I6CyqQ {
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ,
+.guildFeatureAvailabilityIndicator-34eQAP {
   background-color: transparent !important;
   color: var(--soft-bright-color) !important;
 }
@@ -10698,6 +10699,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .colorInteractiveActive-30E9n8 {
   color: var(--hover-bright-color) !important;
+}
+.bannerUpsellContainer-31E9J5 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Server Invites Menu */
