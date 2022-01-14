@@ -10540,6 +10540,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-color: transparent !important;
   background-color: transparent !important;
 }
+.emojiInput-B8MGX {
+  color: var(--soft-bright-color) !important;
+}
+.emojiAliasPlaceholder-3oShSx:after,
+.emojiAliasPlaceholder-3oShSx:before,
+.emojiAliasPlaceholderContent-12ybcH {
+  color: var(--hover-bright-color) !important;
+}
 .upsell-1ZXP3R {
   background-color: var(--hover-color) !important;
 }
@@ -10559,14 +10567,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .emojiRow-1aPaM-.card-2ART2V {
   background: transparent !important;
-}
-.inputMini-Un2tP4.input-2g-os5 {
-  color: var(--hover-bright-color) !important;
-}
-.inputMini-Un2tP4.input-2g-os5.emojiInput-B8MGXq:focus,
-.inputMini-Un2tP4.input-2g-os5.emojiInput-B8MGXq:hover {
-  color: var(--soft-bright-color) !important;
-  border: none !important;
 }
 .emojiRow-1aPaM- {
   -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
