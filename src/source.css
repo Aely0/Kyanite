@@ -12716,6 +12716,9 @@ div[class*="flex-"][class*="title-"],
 .submenuContainer-3EVTeH .arrow-2HswgU.caret-2MOQD6 > path {
   fill: var(--hover-bright-color) !important;
 }
+.separator-1So4YB {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
