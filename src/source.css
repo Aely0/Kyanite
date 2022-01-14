@@ -10826,11 +10826,20 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Server Ban */
-.theme-dark .guild-settings-banned-user {
-  padding: 10px !important;
+.bannedUser-26qsXF.card-2ART2V {
+  padding-left: 12px !important;
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+  border-radius: 10px !important;
 }
-.theme-dark .bannedUser-1IalTM {
-  background: transparent !important;
+.bannedUser-26qsXF.card-2ART2V .username-2QcOp4 {
+  color: var(--soft-bright-color) !important;
+}
+.bannedUser-26qsXF.card-2ART2V .discrim-1rThJo {
+  color: var(--hover-bright-color) !important;
+}
+.children-1xdcWE .divider-_0um2u {
+  border-top: none !important;
 }
 
 /* Server Enable Community */
