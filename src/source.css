@@ -12352,21 +12352,39 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 
 /* Role name box */
 .membersGroup-2eiWxl {
-  color: hsla(0, 0%, 100%, 0.6) !important;
-  font-size: 12px !important;
-  text-transform: capitalize !important;
-  letter-spacing: 0.08em !important;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
-  width: auto !important;
-  font-weight: 500 !important;
-  height: 25px !important;
-  padding-top: 2px !important;
-  text-align: center !important;
-  background-color: transparent !important;
-  margin-top: 20px !important;
-  margin-bottom: 10px !important;
-  margin-left: 10px !important;
-  border-radius: 0px !important;
+  color: var(--hover-bright-color) !important;
+  border-bottom: none !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.15s ease-in-out !important;
+  opacity: 0.85 !important;
+}
+.membersGroup-2eiWxl:hover {
+  opacity: 1 !important;
+}
+.membersGroup-2eiWxl:before,
+.membersGroup-2eiWxl:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+}
+.membersGroup-2eiWxl:before {
+  background: linear-gradient(
+    to left,
+    var(--hover-bright-color) 50%,
+    transparent
+  );
+  margin-right: 5px;
+}
+.membersGroup-2eiWxl:after {
+  background: linear-gradient(
+    to right,
+    var(--hover-bright-color) 50%,
+    transparent
+  );
+  margin-left: 5px;
 }
 
 /* Channel and category names */
