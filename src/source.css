@@ -6587,11 +6587,13 @@ pre:hover .copybutton {
 .channelContainer-7uiQGJ {
   color: var(--soft-bright-color) !important;
 }
+.closeIcon-1AEDhI,
 .closeIcon-2jT3e_,
 .close-2oihA7,
 .iconButton-2rHy7x .icon-3DnmvF {
   color: var(--hover-dark-color) !important;
 }
+.closeIcon-1AEDhI:hover,
 .closeIcon-2jT3e_:hover,
 .close-2oihA7:hover,
 .iconButton-2rHy7x .icon-3DnmvF:hover {
@@ -15817,6 +15819,9 @@ img:not(.emote):not(.emoji)::after {
 }
 .tipTitle-3FYEQp {
   color: var(--soft-bright-color) !important;
+}
+.tip-1AwED_ {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Code blocks */
