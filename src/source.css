@@ -12137,6 +12137,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   box-shadow: none !important;
   background-color: #b31818 !important;
 }
+.iconBadge-3Mmg92 {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Member picture (member list) */
 .mask-3OgeRz {
@@ -12887,6 +12890,9 @@ div[class*="flex-"][class*="title-"],
 .separator-1So4YB {
   border-bottom: 1px solid var(--hover-color) !important;
 }
+.label-2gNW3x .subtext-2GlkbE {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
@@ -13447,9 +13453,6 @@ div[class*="flex-"][class*="title-"],
 .secondary-2bzKEX:hover {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
-}
-.iconBadge-3Mmg92 {
-  background-color: var(--soft-bright-color) !important;
 }
 
 /* Link to file */
