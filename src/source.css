@@ -8784,6 +8784,12 @@ img:not(.emote):not(.emoji)::after {
 .private-channel-recipients-invite .error-state .text {
   color: #999 !important;
 }
+.discordTag-2ke74W.nameTag-H6kSJ0 {
+  color: var(--hover-bright-color) !important;
+}
+.tag-15zcD_ {
+  background-color: var(--hover-color) !important;
+}
 
 /* Old checkbox */
 .checkbox .checkbox-inner {
