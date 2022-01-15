@@ -12389,18 +12389,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Channel and category names */
-.iconCollapsed-3hFp_8,
-.iconDefault-3Gr8d2,
-.nameCollapsed-34uFWo,
-.nameDefault-2DI02H {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
-.nameDefaultText-24KCy5,
-.nameDefaultVoice-3WUH7s,
-.nameLockedText-3pqQcL,
-.nameLockedVoice-26MhB1 {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
 .muted-19J0ih .name-3BUDLf.container-q97qHp,
 .muted-19J0ih .addButtonIcon-3rJeaD,
 .muted-19J0ih .arrow-2HswgU.icon-3zI3d2 {
@@ -12413,6 +12401,55 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .inputPrefix-1HHwWv {
   color: var(--hover-bright-color) !important;
+}
+.name-28HaxV,
+.actionIcon-2sw4Sl {
+  color: var(--hover-bright-color) !important;
+}
+.name-3Uvkvr,
+.button-2BMPJJ,
+.actionIcon-2sw4Sl:hover {
+  color: var(--soft-bright-color) !important;
+}
+.unread-36eUEm.unreadRelevant-2f-VSK {
+  background-color: var(--soft-bright-color) !important;
+}
+.containerDefault-YUSmu3 .content-1gYQeQ .name-28HaxV.overflow-1wOqNV,
+.containerDefault-YUSmu3 .content-1gYQeQ .icon-2W8DHg {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.85 !important;
+}
+.containerDefault-YUSmu3
+  .modeSelected-3DmyhH
+  .content-1gYQeQ
+  .name-28HaxV.overflow-1wOqNV,
+.containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg {
+  color: var(--soft-bright-color) !important;
+  opacity: 1 !important;
+}
+.modeSelected-3DmyhH .content-1gYQeQ {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.containerDefault-YUSmu3
+  .modeUnread-3Cxepe
+  .content-1gYQeQ
+  .name-28HaxV.overflow-1wOqNV,
+.containerDefault-YUSmu3 .modeUnread-3Cxepe .content-1gYQeQ .icon-2W8DHg {
+  color: var(--soft-bright-color) !important;
+  opacity: 1 !important;
+}
+.containerDefault-YUSmu3
+  .modeMuted-2T4MDZ
+  .content-1gYQeQ
+  .name-28HaxV.overflow-1wOqNV,
+.containerDefault-YUSmu3 .modeMuted-2T4MDZ .content-1gYQeQ .icon-2W8DHg {
+  opacity: 0.4 !important;
+}
+.voiceUser-3nRK-K .usernameFont-2oJxoI.username-vAneIW {
+  color: var(--soft-bright-color) !important;
+}
+.voiceUser-3nRK-K .icon-N9JZb6 {
+  color: var(--hover-red-bright-color) !important;
 }
 
 /* Message text */
