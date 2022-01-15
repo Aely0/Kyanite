@@ -12350,41 +12350,42 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: hsla(0, 0%, 100%, 0.8) !important;
 }
 
-/* Role name box */
-.membersGroup-2eiWxl {
+/* Role and category names */
+.membersGroup-2eiWxl,
+.name-3BUDLf.container-q97qHp {
   color: var(--hover-bright-color) !important;
   border-bottom: none !important;
   font-weight: 600 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  transition: all 0.15s ease-in-out !important;
   opacity: 0.85 !important;
 }
-.membersGroup-2eiWxl:hover {
-  opacity: 1 !important;
+.membersGroup-2eiWxl:before,
+.membersGroup-2eiWxl:after,
+.name-3BUDLf.container-q97qHp:before,
+.name-3BUDLf.container-q97qHp:after {
+  content: "" !important;
+  height: 2px !important;
+  flex-grow: 1 !important;
 }
 .membersGroup-2eiWxl:before,
-.membersGroup-2eiWxl:after {
-  content: "";
-  height: 2px;
-  flex-grow: 1;
-}
-.membersGroup-2eiWxl:before {
+.name-3BUDLf.container-q97qHp:before {
   background: linear-gradient(
     to left,
     var(--hover-bright-color) 50%,
     transparent
-  );
-  margin-right: 5px;
+  ) !important;
+  margin-right: 5px !important;
 }
-.membersGroup-2eiWxl:after {
+.membersGroup-2eiWxl:after,
+.name-3BUDLf.container-q97qHp:after {
   background: linear-gradient(
     to right,
     var(--hover-bright-color) 50%,
     transparent
-  );
-  margin-left: 5px;
+  ) !important;
+  margin-left: 5px !important;
 }
 
 /* Channel and category names */
@@ -12399,6 +12400,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .nameLockedText-3pqQcL,
 .nameLockedVoice-26MhB1 {
   color: rgba(255, 255, 255, 0.6) !important;
+}
+.muted-19J0ih .name-3BUDLf.container-q97qHp,
+.muted-19J0ih .addButtonIcon-3rJeaD,
+.muted-19J0ih .arrow-2HswgU.icon-3zI3d2 {
+  opacity: 0.4 !important;
+}
+.addButtonIcon-3rJeaD,
+.arrow-2HswgU.icon-3zI3d2 {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.85 !important;
+}
+.inputPrefix-1HHwWv {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Message text */
