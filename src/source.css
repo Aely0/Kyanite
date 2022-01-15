@@ -10566,7 +10566,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .item-3XjbnG.themed-2-lozF[aria-controls="delete-tab"]:hover {
   color: var(--hover-red-bright-color) !important;
-  background: var(--hover-red-dark-color) !important;
+  background: var(--hover-red-color) !important;
 }
 .menu-Sp6bN1 {
   background: rgba(0, 0, 0, 0.8) !important;
@@ -13332,14 +13332,26 @@ div[class*="flex-"][class*="title-"],
   .message-group:hover {
   border: 1px solid var(--main-color) !important;
 }
-.theme-dark .messageGroupWrapper-1jf_7C:hover .actionButtons-2mNSAB {
-  -webkit-box-shadow: 0 0 2px 4px var(--hover-color) !important;
-  background-color: var(--hover-color) !important;
-  box-shadow: 0 0 2px 4px var(--hover-color) !important;
-}
-.theme-dark .jumpButton-1ZwI_j {
+.messageGroupWrapper-1jf_7C:hover .actionButtons-2mNSAB {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
   background-color: transparent !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+}
+.jumpButton-1ZwI_j {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 4px !important;
+}
+.jumpButton-1ZwI_j:hover {
+  color: var(--soft-bright-color) !important;
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.closeIcon-2IriN1 {
+  color: var(--hover-dark-color) !important;
+}
+.closeIcon-2IriN1:hover {
+  color: var(--hover-bright-color) !important;
 }
 .jumpButton-1V_1FA {
   background-color: var(--hover-color) !important;
@@ -13377,6 +13389,9 @@ div[class*="flex-"][class*="title-"],
 .secondary-2bzKEX:hover {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
+}
+.iconBadge-3Mmg92 {
+  background-color: var(--soft-bright-color) !important;
 }
 
 /* Link to file */
