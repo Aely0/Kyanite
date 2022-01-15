@@ -8152,6 +8152,15 @@ img:not(.emote):not(.emoji)::after {
 .unicodeShortcut-3N8oDe {
   color: var(--hover-bright-color) !important;
 }
+.upsell-3B1lnN.emptyGuildUpsell-2s9mrR {
+  background-color: var(--hover-color) !important;
+}
+.colorInteractiveNormal-36ZhyZ {
+  color: var(--hover-bright-color) !important;
+}
+.icon-3HBUVv {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
@@ -14111,26 +14120,23 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Gif picker */
-.theme-dark .autocomplete-3NRXG8 {
+.autocomplete-3NRXG8 {
   border: 1px solid var(--main-color) !important;
 }
-.theme-dark .categoryFadeBlurple-1HuV1x:hover,
-.theme-light .categoryFadeBlurple-1HuV1x:hover {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+.categoryFadeBlurple-1HuV1x,
+.categoryFadeBlurple-1HuV1x:hover,
+.categoryFade-2EGqIh:hover {
+  background-color: var(--hover-color) !important;
 }
-.theme-dark .categoryFadeBlurple-1HuV1x,
-.theme-light .categoryFadeBlurple-1HuV1x {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
-.theme-dark .focused-q9B2e4:after,
-.theme-dark .result-3OpoO7:hover:after {
+.focused-q9B2e4:after,
+.result-3OpoO7:hover:after {
   -webkit-box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
   box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
 }
 .result-3OpoO7:after {
   border-radius: 5px !important;
 }
-.theme-dark .emptyHintCard-3Btf0V {
+.emptyHintCard-3Btf0V {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--main-color) !important;
   color: var(--hover-bright-color) !important;
