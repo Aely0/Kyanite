@@ -13698,11 +13698,14 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 .quickswitcher-pKcM9U .scrollerBase-_bVAAt::-webkit-scrollbar-track {
-  background: var(--hover-dark-color) !important;
+  background: transparent !important;
 }
 .container-qBnZJg.root-g14mjS.fullscreenOnMobile-ixj0e3 {
   background-color: transparent !important;
   border: none !important;
+}
+.emptyStateNote-3W5lug {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Audit log dropdown menus */
