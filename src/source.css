@@ -16,6 +16,7 @@
   --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
   --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
   --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
+  --solid-bright-color: rgba(253, 97, 227, 1) !important;
 
   /* State colors */
   --green-bright-color: rgb(143, 255, 133) !important;
@@ -14587,15 +14588,12 @@ div[class*="flex-"][class*="title-"],
   border-top: 1px solid var(--hover-color) !important;
 }
 .peopleListItem-u6dGxF .username-3JLfHz.username-Qpc78p,
-.peopleListItem-u6dGxF .discriminator-WV5K5s {
+.peopleListItem-u6dGxF .discriminator-WV5K5s,
+.peopleListItem-u6dGxF .subtext-xfubwR {
   color: var(--hover-bright-color) !important;
 }
 .peopleListItem-u6dGxF:hover .username-3JLfHz.username-Qpc78p {
   color: var(--soft-bright-color) !important;
-}
-.peopleListItem-u6dGxF .subtext-xfubwR {
-  color: var(--hover-bright-color) !important;
-  opacity: 0.6 !important;
 }
 
 /* Links */
