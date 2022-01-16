@@ -13572,8 +13572,7 @@ div[class*="flex-"][class*="title-"],
 
 /* Search bar */
 .searchBar-zdmu7v,
-.searchResultsWrap-5RVOkx,
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.searchResultsWrap-5RVOkx {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
 .theme-dark .focused-2FU0YH {
@@ -13594,6 +13593,11 @@ div[class*="flex-"][class*="title-"],
 }
 .jumpButton-JkYoYK {
   background-color: var(--hover-color) !important;
+}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+  text-align: center !important;
 }
 
 /* Search bar date picker */
