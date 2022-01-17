@@ -12503,6 +12503,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .wrapper-3HVHpV {
   background-color: transparent !important;
 }
+.auto-2K3UW5::-webkit-scrollbar {
+  width: 12px !important;
+}
 
 /* Message list side bars */
 .barButtonMain-2GIx4o.barButtonBase-Sk2mdB,
@@ -14631,8 +14634,8 @@ div[class*="flex-"][class*="title-"],
 .closeIcon-1NwtbI {
   color: var(--soft-bright-color) !important;
 }
-.auto-2K3UW5::-webkit-scrollbar {
-  width: 12px !important;
+.scroller-WSmht3.thin-31rlnD::-webkit-scrollbar {
+  width: 6px !important;
 }
 
 /* Links */
