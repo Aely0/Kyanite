@@ -12666,6 +12666,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt::-webkit-scrollbar {
   display: none !important;
 }
+.guildSeparator-a4uisj {
+  background-color: var(--hover-color) !important;
+}
 
 /* Guild avatars */
 .guilds-wrapper .guilds .guild .guild-inner a {
