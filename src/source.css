@@ -14628,6 +14628,9 @@ div[class*="flex-"][class*="title-"],
 .closeIcon-1NwtbI {
   color: var(--soft-bright-color) !important;
 }
+.auto-2K3UW5::-webkit-scrollbar {
+  width: 12px !important;
+}
 
 /* Links */
 .anchor-1MIwyf,
