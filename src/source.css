@@ -14608,6 +14608,9 @@ div[class*="flex-"][class*="title-"],
 .peopleListItem-u6dGxF:hover .username-3JLfHz.username-Qpc78p {
   color: var(--soft-bright-color) !important;
 }
+.peopleList-2VBrVI.auto-2K3UW5::-webkit-scrollbar {
+  width: 10px !important;
+}
 
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
