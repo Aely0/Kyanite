@@ -12433,7 +12433,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: var(--soft-bright-color) !important;
 }
 .containerDefault-YUSmu3 .content-1gYQeQ .name-28HaxV.overflow-1wOqNV,
-.containerDefault-YUSmu3 .content-1gYQeQ .icon-2W8DHg {
+.containerDefault-YUSmu3 .content-1gYQeQ .icon-2W8DHg,
+.container-1jha_j .icon-3akWb2 {
   color: var(--hover-bright-color) !important;
   opacity: 0.85 !important;
 }
@@ -12477,7 +12478,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .message-group .comment .markup,
 .markup-eYLPri {
   font-size: 0.95rem !important;
-  /* margin-top: 0px  !important; */
 }
 .chat > .content .messages .message-group .markup {
   line-height: 1.5em !important;
