@@ -13038,7 +13038,7 @@ div[class*="flex-"][class*="title-"],
 .activityText-1rR-8O strong,
 .activityText-ev7Z1T strong,
 .subtext-xfubwR strong {
-  color: var(--soft-bright-color) !important;
+  color: var(--hover-bright-color) !important;
 }
 .activityText-1rR-8O strong,
 .activityText-ev7Z1T strong {
@@ -14611,7 +14611,9 @@ div[class*="flex-"][class*="title-"],
 .peopleListItem-u6dGxF .subtext-xfubwR {
   color: var(--hover-bright-color) !important;
 }
-.peopleListItem-u6dGxF:hover .username-3JLfHz.username-Qpc78p {
+.peopleListItem-u6dGxF:hover .username-3JLfHz.username-Qpc78p,
+.peopleListItem-u6dGxF.active-2UF8Zh .username-3JLfHz.username-Qpc78p,
+.peopleListItem-u6dGxF .activity-1KqKY2 strong {
   color: var(--soft-bright-color) !important;
 }
 .peopleList-2VBrVI.auto-2K3UW5::-webkit-scrollbar {
