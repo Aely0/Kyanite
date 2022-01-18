@@ -12978,6 +12978,9 @@ div[class*="flex-"][class*="title-"],
   background: var(--hover-color) !important;
   border: 1px solid var(--hover-dark-color) !important;
 }
+.icon-nmEpWl {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Message context menu */
 .button-1I8KM5 {
