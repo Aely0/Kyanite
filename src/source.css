@@ -14628,6 +14628,12 @@ div[class*="flex-"][class*="title-"],
 .channel-1Shao0:hover .activity-1-H7Zd {
   color: var(--hover-bright-color) !important;
 }
+.channel-1Shao0.container-1oeRFJ .muted-14PyqW {
+  opacity: 0.4 !important;
+}
+.muted-14PyqW .avatar-6qzftW {
+  opacity: 1 !important;
+}
 .channel-1Shao0.container-1oeRFJ .activityText-ev7Z1T strong {
   color: var(--soft-bright-color) !important;
 }
