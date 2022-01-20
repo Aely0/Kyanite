@@ -12467,7 +12467,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .voiceUser-3nRK-K .usernameFont-2oJxoI.username-vAneIW {
   color: var(--soft-bright-color) !important;
 }
-.voiceUser-3nRK-K .icon-N9JZb6 {
+.voiceUser-3nRK-K .icon-N9JZb6:not(.iconServer-GeSR0b):not(.strikethrough-2G7pYT) {
+  color: var(--hover-yellow-dark-color) !important;
+}
+.iconServer-GeSR0b,
+.strikethrough-2G7pYT {
   color: var(--hover-red-bright-color) !important;
 }
 .spine-29OFwR {
