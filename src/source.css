@@ -11391,6 +11391,23 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--main-color) !important;
 }
 
+/* Connect PSN notification */
+.container-xB0xPf {
+  background-color: var(--main-color) !important;
+}
+.container-xB0xPf .lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.container-xB0xPf .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
+.container-xB0xPf .lookLink-15mFoz.colorWhite-1H92hK:hover .contents-3ca1mk {
+  border-bottom: 1px solid var(--soft-bright-color) !important;
+}
+.container-xB0xPf .title-22j6wC {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Server Nitro Boost notification */
 .channelNotices-41mJbj .channelNotice-tO6Tus.premiumGuildSubscription-3oKecP {
   background: rgba(0, 0, 0, 0.4)
