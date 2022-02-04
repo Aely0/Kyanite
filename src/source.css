@@ -6524,6 +6524,14 @@ pre:hover .copybutton {
   border-bottom: 1px solid var(--hover-color) !important;
 }
 
+/* Forum channels */
+.container-3wLKDe {
+  background-color: transparent !important;
+}
+.container-3wLKDe.outOfDate-cxmqSe .colorStandard-21JIj7 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Select control */
 .Select-control {
   background: rgba(0, 0, 0, 0.6) !important;
