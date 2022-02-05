@@ -6605,6 +6605,11 @@ pre:hover .copybutton {
 }
 .footer-3UjAHx.hasNewMessages-2Hr_la.hasEverViewed-2ygRNN:before {
   background-color: var(--soft-bright-color) !important;
+  transition: background-color 100ms ease-out !important;
+}
+.container-q2_DnH:hover
+  .footer-3UjAHx.hasNewMessages-2Hr_la.hasEverViewed-2ygRNN:before {
+  background-color: var(--hover-bright-color) !important;
 }
 
 /* Select control */
