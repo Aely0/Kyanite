@@ -13097,9 +13097,18 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .actionButton-1YKTU0:hover {
   border-color: var(--hover-dark-color) !important;
 }
-.theme-dark .streamPreview-3qoMP4 {
+.streamPreview-I7itZ6 {
   background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
+}
+.watchButton-2YRKxv {
+  border-color: var(--hover-dark-color) !important;
+}
+.watchButton-2YRKxv:hover {
+  border-color: var(--hover-bright-color) !important;
+}
+.previewHover-H_atpI {
+  background: var(--hover-color) !important;
 }
 .topSection-13QKHs {
   background: rgba(0, 0, 0, 0.9) !important;
