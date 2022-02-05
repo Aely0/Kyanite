@@ -7819,8 +7819,14 @@ button[aria-label="Stop Watching"]
 }
 
 /* File upload */
+.upload-vLbqu- {
+  background-color: var(--hover-color) !important;
+}
 .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF {
   background: var(--hover-dark-color) !important;
+}
+.webkit-QgSAqd .divider-2rZFJK {
+  border-top: 1px solid var(--main-color) !important;
 }
 .attachment-1PZZB2 {
   background: rgba(0, 0, 0, 0.25) !important;
