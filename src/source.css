@@ -12150,7 +12150,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   padding: 0px !important;
 }
 .bar-2eAyLE {
-  border-radius: 0px !important;
+  border-radius: 5px !important;
+  color: var(--soft-bright-color) !important;
+  text-transform: unset !important;
 }
 
 /* Pin notification badge */
@@ -13180,6 +13182,9 @@ div[class*="flex-"][class*="title-"],
 .streamPreview-I7itZ6 {
   background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
+}
+.previewContainer-35LFgt {
+  background-color: var(--hover-color) !important;
 }
 .watchButton-2YRKxv {
   border-color: var(--hover-dark-color) !important;
