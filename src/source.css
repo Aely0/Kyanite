@@ -12377,8 +12377,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .botTagRegular-kpctgU,
 .botTag-2mryIa,
 .akaBadge-3i7V3p {
-  background: var(--main-color) !important;
-  color: hsla(0, 0%, 100%, 0.8) !important;
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
 }
 
 /* Role and category names + Direct Messages title */
