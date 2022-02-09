@@ -8280,6 +8280,17 @@ img:not(.emote):not(.emoji)::after {
 .premiumPromoDescription-1kf0Oa {
   color: var(--hover-bright-color) !important;
 }
+.icon-2SPLaT {
+  fill: var(--hover-bright-color) !important;
+}
+.icon-PeEVCD {
+  fill: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.emojiItemSelected-2Lg50V:hover .icon-PeEVCD {
+  fill: var(--soft-bright-color) !important;
+  opacity: 1 !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
