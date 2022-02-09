@@ -7938,6 +7938,15 @@ button[aria-label="Stop Watching"]
 .uploadDropModal-13Kd20 .instructions-272j2A {
   color: var(--soft-bright-color) !important;
 }
+.altTag-3DeQpq {
+  background: var(--hover-yellow-color) !important;
+  border: 1px solid var(--hover-yellow-bright-color) !important;
+  color: var(--yellow-bright-color) !important;
+  border-radius: 5px !important;
+}
+.actionBarIcon-2vVzNZ rect {
+  fill: var(--yellow-bright-color) !important;
+}
 
 /* File upload (Source Files) */
 .textContainer-36wgKK,
