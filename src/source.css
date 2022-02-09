@@ -8261,6 +8261,15 @@ img:not(.emote):not(.emoji)::after {
 .icon-3HBUVv {
   color: var(--soft-bright-color) !important;
 }
+.premiumPromo-1eKAIB {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+.premiumPromoTitle-3tWrPT {
+  color: var(--soft-bright-color) !important;
+}
+.premiumPromoDescription-1kf0Oa {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
@@ -11686,7 +11695,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .perk-19D_HN {
   background-color: var(--hover-color) !important;
 }
-.serverBoostTabItem-3QwA3W[aria-selected=true] .icon-3FU6Ir {
+.serverBoostTabItem-3QwA3W[aria-selected="true"] .icon-3FU6Ir {
   fill: var(--soft-bright-color) !important;
 }
 
