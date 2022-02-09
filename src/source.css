@@ -11644,7 +11644,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .tierHeaderLocked-1a2opw,
 .tierHeaderLocked-3ItHYn,
-.tierTitle-msxAL8 {
+.tierTitle-kGI87L,
+.perkText-3nOGp0 {
   color: var(--hover-bright-color) !important;
 }
 .theme-dark .tierHeaderUnlocked-1n-OTI,
@@ -11668,7 +11669,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .unlocked-2xBD74 {
   color: var(--hover-bright-color) !important;
 }
-.tierBody-3ju-rc {
+.tierBody-1d3UiS {
   color: var(--soft-bright-color) !important;
 }
 .perkIcon-3RsaNA.unlocked-Vc8qg9 {
@@ -11684,6 +11685,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .perk-19D_HN {
   background-color: var(--hover-color) !important;
+}
+.serverBoostTabItem-3QwA3W[aria-selected=true] .icon-3FU6Ir {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Server boost progress bar */
