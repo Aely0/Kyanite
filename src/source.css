@@ -8258,8 +8258,9 @@ img:not(.emote):not(.emoji)::after {
 .colorInteractiveNormal-36ZhyZ.size14-3fJ-ot.body-3j-bH6 {
   color: var(--hover-bright-color) !important;
 }
-.icon-3HBUVv {
-  color: var(--soft-bright-color) !important;
+.icon-3HBUVv,
+.icon-18rqoe {
+  color: var(--hover-bright-color) !important;
 }
 .premiumPromo-1eKAIB {
   background-color: rgba(0, 0, 0, 0.95) !important;
@@ -14275,26 +14276,35 @@ div[class*="flex-"][class*="title-"],
   display: none !important;
 }
 
-/* Gif picker */
+/* Gif tab */
 .autocomplete-3NRXG8 {
   border: 1px solid var(--main-color) !important;
 }
-.categoryFadeBlurple-1HuV1x,
-.categoryFadeBlurple-1HuV1x:hover,
-.categoryFade-2EGqIh:hover {
+.categoryFadeBlurple-1l49_Q,
+.categoryFadeBlurple-1l49_Q:hover,
+.categoryFade-3RRG67:hover {
   background-color: var(--hover-color) !important;
 }
 .focused-q9B2e4:after,
-.result-3OpoO7:hover:after {
-  -webkit-box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
-  box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px #2f3136 !important;
+.result-pzZrwj:hover:after {
+  -webkit-box-shadow: inset 0 0 0 4px var(--hover-bright-color) !important;
+  box-shadow: inset 0 0 0 4px var(--hover-bright-color) !important;
 }
-.result-3OpoO7:after {
+.result-pzZrwj {
+  background-color: var(--hover-color) !important;
+}
+.result-pzZrwj:after {
   border-radius: 5px !important;
 }
 .emptyHintCard-3Btf0V {
   background-color: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--main-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.placeholder-T1Tuu8 {
+  background: var(--hover-color) !important;
+}
+.backButton-bSKWLe {
   color: var(--hover-bright-color) !important;
 }
 
