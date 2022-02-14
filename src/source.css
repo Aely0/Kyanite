@@ -6388,21 +6388,6 @@ pre:hover .copybutton {
   border-right-color: rgba(0, 0, 0, 0.55) !important;
 }
 
-/* Screenshare and Video */
-.selectorButton-3sW6Qm {
-  background-color: transparent !important;
-}
-.selectorButtonSelected-3Z0WNU {
-  background-color: var(--hover-color) !important;
-}
-.tile-2TcwiO {
-  background-color: transparent !important;
-}
-.button-3Vyz67 {
-  background-color: var(--hover-dark-color) !important;
-  color: var(--soft-bright-color) !important;
-}
-
 /* Stage Channels */
 .scroller-35tvpe,
 .callContainer-BGIngG,
@@ -7363,16 +7348,29 @@ pre:hover .copybutton {
   color: var(--soft-bright-color) !important;
   border-bottom: 2px solid var(--soft-bright-color) !important;
 }
-.segmentControlOption-2LyihQ {
+.segmentControlOption-3MnJdT {
   color: var(--hover-bright-color) !important;
 }
-.tile-38DNjt:hover .sourceThumbnail-3n4cjJ {
+.sourceThumbnail-ERDcZE {
+  background-color: var(--hover-color) !important;
+}
+.tile-3POX2m:hover .sourceThumbnail-ERDcZE {
   -webkit-box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
   box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
 }
-.sourceThumbnail-3n4cjJ.selected-2BhCFl {
+.sourceThumbnail-ERDcZE.selected-2BhCFl {
   -webkit-box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
   box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
+}
+.selectorButton-3fWZ0_ {
+  background-color: transparent !important;
+}
+.selectorButtonSelected-3cQUnj {
+  background-color: var(--hover-color) !important;
+}
+.root-g14mjS {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 .group-1_ptLP.flex-3BkGQD {
   border: 1px solid var(--hover-color) !important;
@@ -7504,12 +7502,14 @@ button[aria-label="Stop Watching"]
   background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.selectedIcon-1JOfpo > path,
-.channelIcon-1su68_ > path {
+.selectedIcon-277z4I > path,
+.channelIcon-1BydE- > path,
+.channelIcon-2x-GOw > path,
+.selectedIcon-k6L6Yx > path {
   fill: var(--soft-bright-color) !important;
 }
-.ellipsisText-jQS2Ek,
-.channelName-GgHzXu {
+.ellipsisText-1-5iVA,
+.channelName-3Ezu2W {
   color: var(--hover-bright-color) !important;
 }
 .warningIcon-2ywF2D > path {
@@ -7518,11 +7518,57 @@ button[aria-label="Stop Watching"]
 .warning-3w1u1s .size12-oc4dx4 {
   color: var(--hover-yellow-bright-color) !important;
 }
-.qualitySettingsContainer-30AsSH {
+.qualitySettingsContainer-2LjkfM {
   border-color: var(--hover-color) !important;
 }
 .size16-rrJ6ag.header-1BxQhu {
   color: var(--soft-bright-color) !important;
+}
+.description-3jrWCU {
+  color: var(--hover-bright-color) !important;
+}
+.tile-2TcwiO {
+  background-color: transparent !important;
+}
+.qualityIndicatorFullQuality-3Onyt5 {
+  color: var(--soft-bright-color) !important;
+}
+.buttonColor-28DXIe,
+.button-3Vyz67 {
+  color: var(--soft-bright-color) !important;
+  border: 1px solid transparent !important;
+  background-color: var(--hover-color) !important;
+}
+.buttonColor-28DXIe:hover,
+.button-3Vyz67:hover {
+  border: 1px solid var(--hover-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.button-3Vyz67 {
+  border-radius: 5px !important;
+}
+.participantName-1xQQfc {
+  color: var(--soft-bright-color) !important;
+}
+.overlayTitle-2efoIF,
+.status-15kcmy {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.header-C83U_D {
+  color: var(--soft-bright-color) !important;
+}
+.ratingBody-1GrX6N {
+  color: var(--hover-bright-color) !important;
+}
+.checkbox-1ycfTw .checkboxInner-1aRh1d span {
+  border-color: var(--hover-dark-color) !important;
+}
+.checkbox-1ycfTw
+  .checkboxInner-1aRh1d
+  .checkboxElement-uwAa9F:checked
+  + span:after {
+  border-color: var(--soft-bright-color) !important;
 }
 
 /* Popout menu + Status picker */
