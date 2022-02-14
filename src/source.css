@@ -11547,6 +11547,21 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .close-R97Oc7:hover {
   color: var(--soft-bright-color) !important;
 }
+.container--0Z8bx {
+  background-color: var(--main-color) !important;
+}
+.container--0Z8bx .colorStandard-21JIj7 {
+  color: var(--soft-bright-color) !important;
+}
+.pointer-AsyL3r {
+  border-top: 12px solid var(--main-color) !important;
+}
+.container--0Z8bx .lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.container--0Z8bx .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
 
 /* Server Nitro Badge */
 .disableColor-2z9rkr,
