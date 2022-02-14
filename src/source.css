@@ -13125,11 +13125,22 @@ div[class*="flex-"][class*="title-"],
   font-size: 0.7rem !important;
 }
 
-/* Conversation list */
-.selected-1-Z6gm.container-1oeRFJ,
-.channel-1Shao0.selected-1HYmZZ .activity-1-H7Zd,
-.channel-1Shao0:hover .activity-1-H7Zd {
-  color: #8e9297 !important;
+/* Activities notification */
+.container-JMJRDf {
+  background: var(--main-color) !important;
+}
+.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F {
+  border-color: var(--hover-bright-color) !important;
+}
+.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F:hover {
+  border-color: var(--soft-bright-color) !important;
+}
+.container-JMJRDf .betaTag-3QG2yr.textBadge-1fdDPJ.base-3IDx3L.baseShapeRound-3epLEv {
+  background-color: transparent !important;
+}
+.container-JMJRDf .size16-rrJ6ag.headerText-SuRRj8,
+.container-JMJRDf .size12-oc4dx4.subheaderText-Jg7wmo {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Profile popout */
