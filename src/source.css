@@ -8337,6 +8337,9 @@ img:not(.emote):not(.emoji)::after {
   fill: var(--soft-bright-color) !important;
   opacity: 1 !important;
 }
+.wrapper-2g4olo {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
