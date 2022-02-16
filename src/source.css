@@ -5697,17 +5697,24 @@ ul.bda-slist {
   color: var(--soft-bright-color) !important;
 }
 
-/* Reacted Users */
-.theme-dark .container-KM8BU6,
-.theme-dark .reactors-1VXca7,
-.theme-dark .scroller-2GkvCq {
+/* Reaction list */
+.container-KM8BU6,
+.reactors-1VXca7,
+.scroller-2GkvCq {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.theme-dark .sidebar-1-SQro {
+.sidebar-1-SQro {
   background: rgba(0, 0, 0, 0.2) !important;
 }
-.theme-dark .reactionSelected-1aMb2K {
+.reactionSelected-1aMb2K {
   background-color: var(--hover-color) !important;
+}
+.reactor-1J25Qp .discriminator-1DCM-o {
+  color: var(--hover-bright-color) !important;
+}
+.reactorDefault-3GSyaV {
+  -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
+  box-shadow: inset 0 -1px 0 var(--hover-color) !important;
 }
 
 /* Message hover toolbar (hidden by default, can be reverted by uncommenting the override in theme files) */
