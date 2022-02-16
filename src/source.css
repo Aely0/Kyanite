@@ -124,8 +124,8 @@ body {
 [class*="autocomplete-"] .selectorSelected-1_M1WV,
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ,
-.option-2KkUJO:hover,
-.option-2KkUJO[aria-selected="true"] {
+.option-ayUoaq:hover,
+.option-ayUoaq[aria-selected="true"] {
   background: var(--hover-color) !important;
 }
 #autocomplete-popout .row.selected {
@@ -8542,61 +8542,64 @@ img:not(.emote):not(.emoji)::after {
 .searchQuery-1B7rtx.selected-rZcOL- {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
-.option-2KkUJO .selected-rZc0L-:after {
+.option-ayUoaq .selected-rZc0L-:after {
   background: transparent !important;
 }
-.option-2KkUJO:after {
+.option-ayUoaq:after {
   background: transparent !important;
 }
 .container-2McqkF {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
 }
-.option-2KkUJO.selected-rZcOL- {
+.option-ayUoaq.selected-rZcOL- {
   background-color: var(--hover-color) !important;
 }
-.header-3A13BX {
+.header-1BR0Ro {
   color: var(--hover-bright-color) !important;
 }
-[aria-labelledby="SEARCH_OPTIONS-header"] .searchOption-351dTI .filter-5YbOzJ,
-[aria-labelledby="HISTORY-header"] .option-2KkUJO .answer-2fBfuP,
-[aria-labelledby="HISTORY-header"] .option-2KkUJO .nonText-3_4gtu,
-[aria-labelledby="HISTORY-header"] .option-2KkUJO strong {
+[aria-labelledby="SEARCH_OPTIONS-header"] .searchOption-3u1gRt .filter-2QaH9y,
+[aria-labelledby="HISTORY-header"] .option-ayUoaq .answer-14OVbQ,
+[aria-labelledby="HISTORY-header"] .option-ayUoaq .nonText-28q_Ot,
+[aria-labelledby="HISTORY-header"] .option-ayUoaq strong,
+[aria-labelledby="DATES-header"] .option-ayUoaq strong {
   color: var(--hover-bright-color) !important;
 }
-.searchOption-351dTI .answer-2fBfuP,
-[aria-labelledby="HISTORY-header"] .option-2KkUJO .filter-5YbOzJ {
+.searchOption-3u1gRt .answer-14OVbQ,
+[aria-labelledby="HISTORY-header"] .option-ayUoaq .filter-2QaH9y,
+[aria-labelledby*="FILTER_"] .option-ayUoaq .filter-2QaH9y,
+[aria-labelledby="DATES-header"] .option-ayUoaq .filter-2QaH9y {
   color: var(--hover-bright-color) !important;
   opacity: 0.5 !important;
 }
-.searchClearHistory-2Be-92 {
+.searchClearHistory-3nIKUO {
   color: var(--hover-red-bright-color) !important;
 }
-.plusIcon-2V7coV,
-.searchClearHistory-2Be-92:hover {
+.plusIcon-1RVszG,
+.searchClearHistory-3nIKUO:hover {
   color: var(--hover-bright-color) !important;
 }
-.option-2KkUJO.user-23VtPS .displayedNick-2dDbfG,
-[aria-labelledby="FILTER_HAS-header"] .option-2KkUJO strong {
+.option-ayUoaq.user-1dKxvu .displayedNick-1atSpT,
+[aria-labelledby="FILTER_HAS-header"] .option-ayUoaq strong {
   color: var(--hover-bright-color) !important;
 }
-.option-2KkUJO.user-23VtPS .displayUsername-14aOpK {
+.option-ayUoaq.user-1dKxvu .displayUsername-UTerwm {
   color: var(--hover-bright-color) !important;
   opacity: 0.5 !important;
 }
-.datePickerHint-17MnA8 .hint-3D5yHh,
-.datePickerHint-17MnA8 .hintValue-1x-flY {
+.datePickerHint-Ir4715 .hint-xfbpCV,
+.datePickerHint-Ir4715 .hintValue-V9hd8l {
   color: var(--hover-bright-color) !important;
 }
-[aria-labelledby="FILTER_IN-header"] .resultChannel-1ZxSuE strong,
+[aria-labelledby="FILTER_IN-header"] .resultChannel-37MfX_ strong,
 [aria-labelledby="FILTER_IN-header"]
-  .resultChannel-1ZxSuE
-  .searchResultChannelIcon-1Il1Qo {
+  .resultChannel-37MfX_
+  .searchResultChannelIcon-C-3P9x {
   color: var(--hover-bright-color) !important;
 }
 [aria-labelledby="FILTER_IN-header"]
-  .resultChannel-1ZxSuE
-  .searchResultChannelCategory-3cL8uG {
+  .resultChannel-37MfX_
+  .searchResultChannelCategory-19ujDo {
   color: var(--hover-bright-color) !important;
   opacity: 0.5 !important;
 }
@@ -8605,6 +8608,9 @@ img:not(.emote):not(.emoji)::after {
 }
 .queryText-j8z984 strong {
   color: var(--soft-bright-color) !important;
+}
+.noResults-ASk8Ae {
+  color: var(--hover-bright-color) !important;
 }
 
 /* NSFW confirmation */
@@ -13754,7 +13760,7 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Search bar */
-.searchBar-zdmu7v,
+.searchBar-jGtisZ,
 .searchResultsWrap-5RVOkx {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
@@ -13784,21 +13790,21 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Search bar date picker */
-.datePicker-70cO23 {
+.datePicker-3iA7_k {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
-.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+.calendarPicker-sDhzdi .react-datepicker {
   background-color: rgba(0, 0, 0, 0.8) !important;
   min-width: 120% !important;
 }
 .theme-dark
   .calendarPicker-sDhzdi
   .react-datepicker__day.react-datepicker__day--disabled,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
+.calendarPicker-sDhzdi .react-datepicker__day--outside-month {
   background-color: rgba(0, 0, 0, 0.8) !important;
   color: var(--main-color) !important;
 }
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day:hover {
+.calendarPicker-sDhzdi .react-datepicker__day:hover {
   background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
 }
@@ -13824,25 +13830,25 @@ div[class*="flex-"][class*="title-"],
   .react-datepicker__day.react-datepicker__day--selected:hover {
   background-color: var(--main-color) !important;
 }
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 {
+.datePicker-3iA7_k .datePickerHint-Ir4715 {
   background-color: rgba(0, 0, 0, 0.8) !important;
   margin: 0px !important;
   padding: 0px !important;
 }
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
+.datePicker-3iA7_k .datePickerHint-Ir4715 .hint-xfbpCV {
   padding-left: 80px !important;
   padding-bottom: 20px !important;
 }
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
+.datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {
   padding-bottom: 21px !important;
   background-color: rgb(0, 0, 0) !important;
   color: var(--hover-bright-color) !important;
 }
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY:hover {
+.datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l:hover {
   background-color: rgb(0, 0, 0) !important;
   color: var(--soft-bright-color) !important;
 }
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
+.calendarPicker-sDhzdi .react-datepicker__header {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
