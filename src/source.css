@@ -12715,6 +12715,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .separator-8ngZ3p {
   background-color: var(--hover-color) !important;
 }
+.threadSuggestionBar-3ExSyc {
+  background: var(--hover-color) !important;
+  border-top: 1px solid var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.createThreadButton-mTzu71 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Typing notification */
 .theme-dark .typing-2J1mQU {
