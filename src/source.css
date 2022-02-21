@@ -15850,6 +15850,18 @@ img:not(.emote):not(.emoji)::after {
   > strong {
   color: var(--soft-bright-color) !important;
 }
+.categoryItem-Kc_HK_ .wrappedName-1GzMwB {
+  color: var(--hover-bright-color) !important;
+}
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
+  color: var(--soft-bright-color) !important;
+}
+.new-3EJMgr {
+  background-color: var(--hover-dark-color) !important;
+}
+.newText-1EvoMa {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server boost tab */
 .theme-dark .gemIndicatorContainer-PqApbX {
