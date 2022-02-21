@@ -12906,7 +12906,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .input-2g-os5 {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
-  border: 1px solid transparent !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.input-2g-os5:focus {
+  border: 1px solid var(--hover-dark-color) !important;
 }
 .uploadIcon-2wV7s_ {
   color: var(--soft-bright-color) !important;
@@ -15116,6 +15119,23 @@ path[fill="rgb(255,216,54)"] {
 }
 .bannerNitroUpsell-3f4I57 {
   background-color: var(--hover-color) !important;
+}
+
+/* Edit username (User Settings > My Account) */
+.input-2g-os5.disabled-1MTS26 {
+  border-color: transparent !important;
+}
+.inputPrefix-1VU7MB {
+  color: var(--hover-bright-color) !important;
+}
+.questionMark-3V9mGJ {
+  background-color: var(--hover-dark-color) !important;
+}
+.questionMark-3V9mGJ .icon-3JHfo7 {
+  color: var(--soft-bright-color) !important;
+}
+.multiInputLast-35zVz0:before {
+  display: none !important;
 }
 
 /* Add phone number (User Settings > My Account) */
