@@ -8053,6 +8053,18 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
 }
 
+/* Download executable warning */
+.lookLink-15mFoz.colorTransparent-13Bvvi:hover .contents-3ca1mk {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  ) !important;
+}
+
 /* Channel text area */
 .channel-textarea-inner {
   border: 2px solid hsla(0, 0%, 100%, 0.1) !important;
