@@ -6487,7 +6487,7 @@ pre:hover .copybutton {
   fill: var(--soft-bright-color) !important;
 }
 .icon-3CZSYe.continueIconContainer-1-f6X1 {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: var(--hover-color) !important;
 }
 .radioSelected-1B_0_L,
 .radioIconForeground-3RtZiv {
@@ -6514,6 +6514,23 @@ pre:hover .copybutton {
 }
 .channelNotice-2bJINM {
   border-bottom: 1px solid var(--hover-color) !important;
+}
+.iconBackground-3qSXiM {
+  background-color: var(--hover-color) !important;
+}
+.icon-1Et9lL,
+.icon-3CZSYe {
+  color: var(--soft-bright-color) !important;
+}
+.divider-vv_iHh {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.auto-1QyTTa::-webkit-scrollbar-thumb {
+  background-color: var(--hover-dark-color) !important;
+}
+.auto-1QyTTa::-webkit-scrollbar-thumb,
+.auto-1QyTTa::-webkit-scrollbar-track {
+  border: 4px solid var(--hover-color) !important;
 }
 
 /* Forum channels */
@@ -6743,6 +6760,9 @@ pre:hover .copybutton {
 }
 .circle-2tR2Qh {
   background-color: var(--hover-color) !important;
+}
+.maxLength-IdVNmX {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Notification settings */
