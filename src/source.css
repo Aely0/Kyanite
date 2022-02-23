@@ -6561,10 +6561,12 @@ pre:hover .copybutton {
 .container-q2_DnH .divider-2USc3N {
   background-color: var(--hover-dark-color) !important;
 }
-.container-q2_DnH .messageCount-17_iHw {
+.container-q2_DnH .messageCount-17_iHw,
+.container-q2_DnH .messageCountIcon-32-p8d {
   color: var(--soft-bright-color) !important;
 }
-.container-q2_DnH.isRead-1iC7_7 .messageCount-17_iHw {
+.container-q2_DnH.isRead-1iC7_7 .messageCount-17_iHw,
+.container-q2_DnH.isRead-1iC7_7 .messageCountIcon-32-p8d {
   color: var(--hover-bright-color) !important;
 }
 .container-q2_DnH .dots-3b0kDm {
@@ -6590,7 +6592,7 @@ pre:hover .copybutton {
   border-top: none !important;
 }
 .createButton-zq2in5,
-.submitButton-2S7nJN,
+.submitButton-I8lDDQ,
 .header-1Uy0p6 .select-1Ia3hD.sort-37NWdz.lookFilled-1GseHa {
   border-radius: 5px !important;
   transition: border 250ms ease-out !important;
@@ -6602,6 +6604,23 @@ pre:hover .copybutton {
 .container-q2_DnH:hover
   .footer-3UjAHx.hasNewMessages-2Hr_la.hasEverViewed-2ygRNN:before {
   background-color: var(--hover-bright-color) !important;
+}
+.mainCard-3KBsBI.header-1Uy0p6,
+.subCard-128RYo {
+  background-color: var(--hover-color) !important;
+  border: 1px solid transparent !important;
+}
+.inputWrapper-1YNMmM.title-30eova .inputDefault-3FGxgL.input-2g-os5 {
+  border-color: transparent !important;
+}
+.mainCard-3KBsBI.header-1Uy0p6:hover
+  .container-2CqxMS.collapsed-2g44BS
+  .inputDefault-3FGxgL.input-2g-os5::placeholder {
+  color: var(--soft-bright-color) !important;
+  transition: color 250ms ease-out !important;
+}
+.colorBrand-21Le_q {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Select control */
