@@ -13245,6 +13245,39 @@ div[class*="flex-"][class*="title-"],
   font-size: 0.7rem !important;
 }
 
+/* Activities */
+.guildBoostingIconNormal-3bLOln {
+  color: var(--soft-bright-color) !important;
+}
+.activityItem-1HXcMa.enabledItem-1sZQ_h:hover {
+  background: var(--hover-color) !important;
+}
+.authorize-2xTTr- {
+  background-color: var(--hover-color) !important;
+}
+.authorize-2xTTr- .footer-3Gu_Tl {
+  background-color: var(--hover-color) !important;
+}
+.authorize-2xTTr- .ellipse-3ghlOA {
+  background-color: var(--soft-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.entryIcon-2bcrKV {
+  color: var(--soft-bright-color) !important;
+}
+.scopeCheck-3trytX {
+  background-color: var(--hover-green-dark-color) !important;
+}
+.scopeCheck-3trytX .icon-hDztL8 {
+  color: var(--green-bright-color) !important;
+}
+.scopeTimes-KsAOBb {
+  background-color: var(--hover-dark-color) !important;
+}
+.scopeTimes-KsAOBb .icon-hDztL8 {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Activities notification */
 .container-JMJRDf {
   background: var(--main-color) !important;
