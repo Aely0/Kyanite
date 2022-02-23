@@ -14879,6 +14879,11 @@ div[class*="flex-"][class*="title-"],
 .fakeLink-2FvUR7 {
   color: var(--soft-bright-color) !important;
 }
+.markup-eYLPri a:hover {
+  text-decoration: none !important;
+  background-color: var(--hover-color) !important;
+  border-radius: 4px !important;
+}
 
 /* Obfuscated link popup */
 .noWrap-hBpHBz.content-Z3Xihu > div > strong {
