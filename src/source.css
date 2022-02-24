@@ -13031,40 +13031,18 @@ div[class*="scroller"].channel-members {
   background-color: transparent !important;
 }
 
-/* Master separator */
-.theme-dark .divider-IqmEqJ:before {
-  background-color: transparent !important;
-}
-.dividerContent-2L12VI:after,
-.dividerContent-2L12VI:before {
-  background-color: transparent !important;
-}
-.dividerRed-MKoLlr .dividerContent-2L12VI:after,
-.dividerRed-MKoLlr .dividerContent-2L12VI:before {
-  background-color: transparent !important;
-}
+/* Day divider */
 .divider-2rZFJK {
   margin-top: 1rem !important;
-  border-top: 1px solid hsla(0, 0%, 100%, 0.2) !important;
+  border-top: none !important;
 }
-
-/* Separator text */
-.divider-IqmEqJ > span {
-  border-radius: 0px !important;
-  text-transform: capitalize !important;
-  text-align: left !important;
-  width: auto !important;
-  margin-top: -10px !important;
-}
-
-/* Day separator */
-.theme-dark .divider-IqmEqJ:not(.red-1YQ4s7) div {
+.divider-IqmEqJ:not(.red-1YQ4s7) div {
   background: rgba(0, 0, 0, 0.25) !important;
 }
-.theme-dark .divider-IqmEqJ:not(.red-1YQ4s7) span {
+.divider-IqmEqJ:not(.red-1YQ4s7) span {
   background-color: transparent !important;
 }
-.theme-dark .divider-IqmEqJ:not(.red-1YQ4s7) div {
+.divider-IqmEqJ:not(.red-1YQ4s7) div {
   background: rgba(255, 255, 255, 0.2) !important;
 }
 .dividerContent-2L12VI:after,
@@ -13076,59 +13054,80 @@ div[class*="scroller"].channel-members {
   margin-bottom: 0px !important;
 }
 .content-3spvdd {
-  color: hsla(0, 0%, 100%, 0.3) !important;
-  background: none !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  border-radius: 0px !important;
-  margin-top: -20px !important;
-  padding-bottom: 15px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+.content-3spvdd:before,
+.content-3spvdd:after {
+  content: "" !important;
+  height: 2px !important;
+  flex-grow: 1 !important;
+}
+.content-3spvdd:before {
+  background: linear-gradient(
+    to left,
+    hsla(0, 0%, 100%, 0.3) 80%,
+    transparent
+  ) !important;
+  margin-right: 5px !important;
+}
+.content-3spvdd:after {
+  background: linear-gradient(
+    to right,
+    hsla(0, 0%, 100%, 0.3) 80%,
+    transparent
+  ) !important;
+  margin-left: 5px !important;
 }
 
-/* New messages separator */
-.theme-dark .divider-IqmEqJ.dividerRed-MKoLlr > span {
-  background: transparent !important;
-  color: rgba(5, 131, 189, 0.8) !important;
-  opacity: 1 !important;
-  border-bottom: 1px solid var(--main-color) !important;
-}
-.theme-dark .divider-IqmEqJ.dividerRed-MKoLlr > div {
-  background: var(--main-color) !important;
-  opacity: 1 !important;
-}
-.theme-dark .divider-IqmEqJ span {
-  background-color: var(--main-color) !important;
-}
-.dividerRed-MKoLlr .dividerContent-2L12VI:after,
-.dividerRed-MKoLlr .dividerContent-2L12VI:before {
-  border-bottom: none !important;
-}
-.isUnread-3Lojb- {
-  border-color: var(--hover-bright-color) !important;
-}
+/* New message divider */
+.unreadPill-3nEWYM,
 .isUnread-3Lojb- .content-3spvdd {
   color: var(--hover-bright-color) !important;
-}
-.group-spacing-16 .beforeGroup-1BvJAt {
-  margin-bottom: 0px !important;
-  margin-top: 24px !important;
-}
-.unreadPill-3nEWYM,
-.unreadPillCap-2-iI4h {
   position: relative !important;
   height: 12px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  text-transform: capitalize !important;
+}
+.unreadPill-3nEWYM:before,
+.unreadPill-3nEWYM:after,
+.isUnread-3Lojb- .content-3spvdd:before,
+.isUnread-3Lojb- .content-3spvdd:after {
+  content: "" !important;
+  height: 2px !important;
+  flex-grow: 1 !important;
+  opacity: 0.8 !important;
+}
+.unreadPill-3nEWYM:before,
+.isUnread-3Lojb- .content-3spvdd:before {
+  background: linear-gradient(
+    to left,
+    var(--hover-bright-color) 80%,
+    transparent
+  ) !important;
+  margin-right: 5px !important;
+}
+.unreadPill-3nEWYM:after,
+.isUnread-3Lojb- .content-3spvdd:after {
+  background: linear-gradient(
+    to right,
+    var(--hover-bright-color) 80%,
+    transparent
+  ) !important;
+  margin-left: 5px !important;
 }
 .unreadPillCap-2-iI4h {
   display: none !important;
 }
-.unreadPill-3nEWYM {
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  padding: 0px !important;
-  border-radius: 0px !important;
-  text-transform: capitalize !important;
-  color: var(--hover-bright-color) !important;
-  background-color: transparent !important;
+.hasContent-31hcsn .unreadPill-3nEWYM {
+  display: none !important;
 }
 
 /* Unread messages bar */
