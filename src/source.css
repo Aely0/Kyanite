@@ -13054,6 +13054,7 @@ div[class*="scroller"].channel-members {
   margin-bottom: 0px !important;
 }
 .content-3spvdd {
+  color: hsla(0, 0%, 100%, 0.4) !important;
   font-size: 13px !important;
   font-weight: 600 !important;
   display: flex !important;
