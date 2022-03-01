@@ -6322,18 +6322,98 @@ pre:hover .copybutton {
 }
 
 /* Embed player */
-.embed .embed-video-actions .embed-video-actions-inner {
-  background: rgba(0, 0, 0, 0.5) !important;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5) !important;
+.audioControls-3fmemK,
+.videoControls-2NzHnF {
+  background-color: transparent !important;
 }
-.theme-dark .wrapper-1FP9YQ,
-.theme-dark .applicationStreamingPreviewWrapper-7j27t8,
+.wrapper-1FP9YQ,
+.applicationStreamingPreviewWrapper-7j27t8,
 .videoWrapper-3rtb_V {
   background-color: var(--hover-color) !important;
 }
-.theme-dark .previewContainer-21fFBz,
+.previewContainer-21fFBz,
 .sourceThumbnail-3n4cjJ {
   background-color: var(--hover-faint-color) !important;
+}
+.metadataName-1KMZtB,
+.metadataSize-2A2s1T,
+.metadataIcon-3QMhu9,
+.videoControls-2NzHnF {
+  color: var(--soft-bright-color) !important;
+}
+.metadataSize-2A2s1T {
+  opacity: 1 !important;
+}
+.mediaBarInteractionVolume-zGrOSh {
+  background-color: var(--hover-dark-color) !important;
+}
+.mediaBarWrapper-33h1oY,
+.mediaBarWrapper-33h1oY:after,
+.mediaBarWrapper-33h1oY:before,
+.buffer-3eVqKK,
+.buffer-3eVqKK:after,
+.buffer-3eVqKK:before {
+  background-color: var(--main-color) !important;
+}
+.mediaBarProgress-38I317.fakeEdges-18N907 {
+  background-color: var(--hover-bright-color) !important;
+}
+.mediaBarGrabber-FvJKJg {
+  background-color: var(--hover-bright-color) !important;
+}
+.mediaBarProgress-38I317,
+.mediaBarProgress-38I317:after,
+.mediaBarProgress-38I317:before {
+  background-color: var(--hover-bright-color) !important;
+}
+.mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY,
+.mediaBarInteractionDragging-3XLL8k:hover .mediaBarWrapper-33h1oY {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.mediaBarPreview-1gUbVy,
+.mediaBarPreview-1gUbVy:after,
+.mediaBarPreview-1gUbVy:before {
+  background-color: var(--soft-bright-color) !important;
+}
+.bubble-3XikHF {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+}
+.bubble-3XikHF::before {
+  border-top-color: var(--hover-dark-color) !important;
+}
+.metadata-3IncIG {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    to(var(--hover-color))
+  ) !important;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    var(--hover-dark-color)
+  ) !important;
+}
+.playPausePop-1x3uED {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.wrapper-x4po40 {
+  background-color: var(--hover-dark-color) !important;
+  opacity: 0.5 !important;
+  transition: ease-out 200ms !important;
+}
+.wrapper-x4po40:hover {
+  background-color: var(--hover-dark-color) !important;
+  opacity: 0.6 !important;
+}
+.iconWrapperActive-LhB4mn.iconWrapper-1lfhOx,
+.iconExternalMargins-2Ufdu_.icon-23NjRH {
+  color: var(--soft-bright-color) !important;
+  opacity: 1 !important;
 }
 
 /* Channel text area glow */
@@ -6614,13 +6694,8 @@ pre:hover .copybutton {
   border-radius: 5px !important;
   transition: border 250ms ease-out !important;
 }
-.footer-3UjAHx.hasNewMessages-2Hr_la.hasEverViewed-2ygRNN:before {
+.neverSeenBefore-dRkpX-:before {
   background-color: var(--soft-bright-color) !important;
-  transition: background-color 100ms ease-out !important;
-}
-.container-q2_DnH:hover
-  .footer-3UjAHx.hasNewMessages-2Hr_la.hasEverViewed-2ygRNN:before {
-  background-color: var(--hover-bright-color) !important;
 }
 .mainCard-3KBsBI.header-1Uy0p6,
 .subCard-128RYo {
@@ -6763,6 +6838,9 @@ pre:hover .copybutton {
 }
 .maxLength-IdVNmX {
   color: var(--hover-bright-color) !important;
+}
+.divider-2zyEHJ {
+  background-color: var(--hover-color) !important;
 }
 
 /* Notification settings */
@@ -14443,18 +14521,6 @@ div[class*="flex-"][class*="title-"],
 }
 .giftContainer-1X7m0c {
   background-color: var(--hover-color) !important;
-}
-
-/* Media bar */
-.mediaBarGrabber-FvJKJg,
-.mediaBarProgress-38I317,
-.mediaBarProgress-38I317:after,
-.mediaBarProgress-38I317:before {
-  background-color: var(--main-color) !important;
-}
-.audioControls-3fmemK,
-.videoControls-2NzHnF {
-  background-color: transparent !important;
 }
 
 /* Audio panel */
