@@ -15825,6 +15825,14 @@ path[fill="rgb(255,216,54)"] {
   border-top: 1px solid var(--hover-color) !important;
 }
 
+/* Updated ToS popup */
+.buttonContainer-28osRq {
+  background-color: transparent !important;
+}
+.title-1ysNt8 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Blockquote */
 .theme-dark .blockquoteDivider-363utW {
   background-color: var(--main-color) !important;
