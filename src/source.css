@@ -15539,37 +15539,40 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Connections (User Settings) */
-.accountBtnInner-3XK70s,
-.accountList-305sx3,
-.connection-107AGH {
+.accountBtnInner-3ttD-i,
+.accountList-Wii_T5,
+.connection-YOVI9j {
   background-color: var(--hover-color) !important;
   border-color: transparent !important;
 }
-.connectionHeader-2rV1ze {
+.connectionHeader-Ixbb1s {
   background-color: transparent !important;
 }
-.integration-1f5IUi {
+.integration-1qC-fv {
   background-color: var(--hover-color) !important;
 }
-.connectionHeader-2rV1ze .connectionAccountValue-3gVX0m {
+.connectionHeader-Ixbb1s .connectionAccountValue-3gVX0m {
   color: var(--soft-bright-color) !important;
 }
-.connectionDelete-XXTMqE > svg > path {
+.connectionDelete-3YgMVq > svg > path {
   fill: var(--hover-dark-color) !important;
 }
-.connectionDelete-XXTMqE:hover > svg > path {
+.connectionDelete-3YgMVq:hover > svg > path {
   fill: var(--hover-bright-color) !important;
 }
-.connectionList-1NoxUk .subEnabledTitle-2MHkAH {
+.connectionList-11Q_X- .subEnabledTitle-2YpsZq {
   color: var(--hover-bright-color) !important;
 }
-.connectionList-1NoxUk .description-30xx7u,
-.connectionList-1NoxUk .labelDescriptor-34wZ-z {
+.connectionList-11Q_X- .description-30xx7u,
+.connectionList-11Q_X- .labelDescriptor-34wZ-z {
   color: var(--hover-bright-color) !important;
   opacity: 0.8 !important;
 }
 .divider-_0um2u {
   border-top: thin solid var(--hover-color) !important;
+}
+.connectionAccountValue-YkFI6F {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Server Boost (User Settings) */
