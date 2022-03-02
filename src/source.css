@@ -7821,14 +7821,28 @@ button[aria-label="Stop Watching"]
 }
 
 /* Voice info */
-.theme-dark .container-1ILvLB .header-2C89wJ {
+.section-2zQkYM {
   background-color: rgba(0, 0, 0, 0.9) !important;
+  border: solid 1px var(--hover-color) !important;
+  border-radius: 5px !important;
 }
-.theme-dark .container-1ILvLB section {
-  background-color: rgba(0, 0, 0, 0.9) !important;
+.popoutText-3NRmTw {
+  color: var(--hover-bright-color) !important;
 }
-.container-1ILvLB {
-  border: solid 1px var(--main-color) !important;
+.popoutText-3NRmTw strong {
+  color: var(--soft-bright-color) !important;
+}
+.separator-15Vn3M {
+  border-top: 1px solid var(--hover-color) !important;
+}
+.canvas-2-hC7a {
+  background-color: var(--hover-color) !important;
+}
+.title-3mdsZ_ {
+  color: var(--hover-bright-color) !important;
+}
+.itemValue-1-Xx5h {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Number badge */
