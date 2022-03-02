@@ -15769,16 +15769,16 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Activity status (User Settings) */
-.activeGame-3ncS55.notDetected-2HEmAp {
+.activeGame-1OdxzI.notDetected-M3Ghh2 {
   background-color: var(--hover-color) !important;
 }
-.notDetected-2HEmAp .gameName-Uw4dbt,
-.notDetected-2HEmAp .lastPlayed-3aHvxk,
-.nowPlayingAdd-3lvnXJ.marginReset-28ZZyF.marginTop8-24uXGp.marginBottom20-315RVT
+.notDetected-M3Ghh2 .gameName-zbZetm,
+.notDetected-M3Ghh2 .lastPlayed-1jum9A,
+.nowPlayingAdd-3I4RbE.marginReset-28ZZyF.marginTop8-24uXGp.marginBottom20-315RVT
   > span {
   color: var(--hover-bright-color) !important;
 }
-.addGamePopout-3yePJc {
+.addGamePopout-2SKNIV {
   background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
 }
@@ -15802,44 +15802,41 @@ path[fill="rgb(255,216,54)"] {
     transparent 0
   );
 }
-.nowPlaying-zBamm2 {
-  background-color: var(--hover-color) !important;
-  border: 1px solid var(--soft-bright-color) !important;
-}
-.nowPlaying-zBamm2 .gameName-Uw4dbt,
-.nowPlaying-zBamm2 .lastPlayed-3aHvxk,
-.nowPlaying-zBamm2 .overlayStatusText-AHDYB3 {
+.nowPlayingAdd-3I4RbE,
+.gameName-zbZetm,
+.nowPlayingAdd-3I4RbE .lastPlayed-1jum9A,
+.nowPlayingAdd-3I4RbE .overlayStatusText-In0YrK {
   color: var(--soft-bright-color) !important;
 }
-.nowPlaying-zBamm2 .gameNameInput-3TuPuA:focus,
-.nowPlaying-zBamm2 .gameNameInput-3TuPuA:hover,
-.gameNameInput-3TuPuA:focus,
-.theme-dark .gameNameInput-3TuPuA:hover {
+.nowPlayingAdd-3I4RbE .gameNameInput-2wbDJ9:focus,
+.nowPlayingAdd-3I4RbE .gameNameInput-2wbDJ9:hover,
+.gameNameInput-2wbDJ9:focus,
+.theme-dark .gameNameInput-2wbDJ9:hover {
   border-color: var(--hover-bright-color) !important;
   background-color: var(--hover-color) !important;
 }
-.overlayToggleIconOff-3hGOmN > g > rect {
+.overlayToggleIconOff-ps4gGp > g > rect {
   fill: var(--hover-red-bright-color) !important;
 }
 .detectedApplication-1kHex1 .gameName-Uw4dbt,
 .gameName-Uw4dbt {
   color: var(--hover-bright-color) !important;
 }
-.lastPlayed-3aHvxk,
-.overlayStatusText-AHDYB3 {
+.lastPlayed-1jum9A,
+.overlayStatusText-In0YrK {
   color: var(--hover-bright-color) !important;
 }
-.theme-dark .game-3x3aDt {
+.theme-dark .game-2f2vPC {
   -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
   box-shadow: 0 1px 0 0 var(--hover-color) !important;
 }
-.overlayToggleIconOff-3hGOmN .fill-MYciTJ {
+.overlayToggleIconOff-ps4gGp .fill-297bdf {
   fill: var(--hover-red-bright-color) !important;
 }
-.overlayToggleIconOn-3_-nGm .fill-MYciTJ {
+.overlayToggleIconOn-21NN2N .fill-297bdf {
   fill: var(--hover-bright-color) !important;
 }
-.game-3x3aDt.card-2ART2V {
+.game-2f2vPC.card-2ART2V {
   background-color: transparent !important;
 }
 
