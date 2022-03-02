@@ -15694,6 +15694,11 @@ path[fill="rgb(255,216,54)"] {
   background: var(--soft-bright-color) !important;
 }
 
+/* Accessibility (User Settings) */
+.previewMessage-2g_aBv {
+  background-color: transparent !important;
+}
+
 /* Voice & Video (User Settings) */
 .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
   background-color: var(--hover-color) !important;
