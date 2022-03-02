@@ -8119,6 +8119,27 @@ button[aria-label="Stop Watching"]
 .actionBarIcon-2vVzNZ rect {
   fill: var(--yellow-bright-color) !important;
 }
+.audioControls-3fmemK,
+.filename-3A5bVl,
+.size-2mQ7x9 {
+  color: var(--soft-bright-color) !important;
+}
+.progress-24WBU3 {
+  background-color: var(--hover-dark-color) !important;
+}
+.progressBar-1T6LYX {
+  background: linear-gradient(
+    to right,
+    var(--hover-dark-color),
+    var(--soft-bright-color)
+  ) !important;
+}
+.cancelButton-oOSTov {
+  color: var(--hover-dark-color) !important;
+}
+.cancelButton-oOSTov:hover {
+  color: var(--hover-bright-color) !important;
+}
 
 /* File upload (Source Files) */
 .textContainer-36wgKK,
