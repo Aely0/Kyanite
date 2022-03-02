@@ -15575,6 +15575,17 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Discord Nitro (User Settings) */
+.selectedBackground-1t6xXq {
+  background-color: var(--hover-dark-color) !important;
+}
+.premiumLabel-3HPvdB.selected-2Uns2B {
+  color: var(--soft-bright-color) !important;
+}
+.selectedIcon-2zSuOP {
+  fill: var(--soft-bright-color) !important;
+}
+
 /* Server Boost (User Settings) */
 .repositioningMarketingLogo-33lOWL {
   color: var(--soft-bright-color) !important;
