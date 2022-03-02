@@ -7816,6 +7816,56 @@ button[aria-label="Stop Watching"]
   box-shadow: none !important;
 }
 
+/* General status panel */
+.container-YkUktl .avatar-1EWyVD:hover {
+  opacity: 1 !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW {
+  border: 2px solid transparent !important;
+  border-radius: 50px !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW:hover {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.container-YkUktl .title-338goq,
+.container-YkUktl .subtext-2HDqJ7 {
+  color: var(--hover-bright-color) !important;
+}
+.nameTag-sc-gpq.canCopy-IgTwyV:hover .title-338goq,
+.nameTag-sc-gpq.canCopy-IgTwyV:hover .subtext-2HDqJ7 {
+  color: var(--soft-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur {
+  color: var(--hover-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur:hover {
+  color: var(--soft-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur[aria-checked="true"] {
+  color: var(--hover-yellow-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur[aria-checked="true"]:hover {
+  color: var(--yellow-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur .strikethrough-2Kl6HF {
+  color: var(--hover-yellow-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur:hover .strikethrough-2Kl6HF {
+  color: var(--yellow-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur .redIcon-1ppjsM {
+  color: var(--hover-red-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur:hover .redIcon-1ppjsM {
+  color: var(--red-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur .redIcon-1ppjsM .strikethrough-2Kl6HF {
+  color: var(--hover-red-bright-color) !important;
+}
+.container-YkUktl .button-12Fmur:hover .redIcon-1ppjsM .strikethrough-2Kl6HF {
+  color: var(--red-bright-color) !important;
+}
+
 /* Voice status panel */
 .ping-2IpLcU {
   color: var(--hover-color) !important;
