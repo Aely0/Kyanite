@@ -13395,6 +13395,30 @@ div[class*="flex-"][class*="title-"],
 .icon-nmEpWl {
   color: var(--hover-bright-color) !important;
 }
+.placeholder-1_mJY1 {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.attachButtonPlus-3IYelE {
+  fill: var(--hover-bright-color) !important;
+}
+.attachButton-1ijpt9:hover .attachButtonPlus-3IYelE {
+  fill: var(--soft-bright-color) !important;
+}
+.buttons-uaqb-5 .buttonWrapper-3YFQGJ {
+  color: var(--hover-bright-color) !important;
+  transition: color 200ms !important;
+}
+.active-z80xEj .buttonWrapper-3YFQGJ,
+.buttonWrapper-3YFQGJ:hover {
+  color: var(--soft-bright-color) !important;
+}
+.emojiButtonNormal-35P0_i .sprite-2lxwfc {
+  /* Kyanite */
+  /* filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important; */
+  /* Magenta */
+  filter: hue-rotate(260deg) brightness(65%) saturate(180%) !important;
+}
 
 /* Message context menu */
 .button-1I8KM5 {
