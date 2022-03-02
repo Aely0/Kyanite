@@ -7816,6 +7816,20 @@ button[aria-label="Stop Watching"]
   box-shadow: none !important;
 }
 
+/* Voice status panel */
+.ping-2IpLcU {
+  color: var(--hover-color) !important;
+}
+.subtext-2HDqJ7.channel-3prF2u {
+  color: var(--hover-bright-color) !important;
+}
+.container-1zzFcN .button-12Fmur {
+  color: var(--hover-bright-color) !important;
+}
+.container-1zzFcN .button-12Fmur:hover {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Voice info */
 .section-2zQkYM {
   background-color: rgba(0, 0, 0, 0.9) !important;
