@@ -14057,7 +14057,18 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Search bar */
-.searchBar-jGtisZ,
+.searchBar-jGtisZ {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.search-2Mwzzq.focused-1xh-wG {
+  border: 1px solid var(--hover-bright-color) !important;
+  border-radius: 4px !important;
+}
 .searchResultsWrap-5RVOkx {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
