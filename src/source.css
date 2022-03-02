@@ -49,6 +49,17 @@
 .wordmarkWindows-2dq6rw {
   display: none !important;
 }
+.winButton-3UMjdg {
+  color: var(--hover-bright-color) !important;
+}
+.winButton-3UMjdg:hover {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.winButtonClose-3Q8ZH5:hover {
+  color: var(--red-bright-color) !important;
+  background-color: var(--hover-red-dark-color) !important;
+}
 
 /* Background */
 body::after,
