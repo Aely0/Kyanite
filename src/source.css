@@ -655,12 +655,6 @@ div.slider-handle {
   transition: all 0.3s ease-in-out !important;
 }
 
-[class*="title-"] [class*="topic-"]:before,
-[class*="title-"] [class*="divider-"],
-#friends [class*="headerBar-"] .tab-bar .tab-bar-separator {
-  background-color: hsla(0, 0%, 85%, 0.1) !important;
-}
-
 #friends [class*="headerBar-"] .tab-bar .tab-bar-item,
 #friends [class*="headerBar-"] .tab-bar .tab-bar-item.tab-bar-item-primary {
   color: hsla(0, 0%, 100%, 0.6) !important;
@@ -7867,6 +7861,9 @@ button[aria-label="Stop Watching"]
 }
 
 /* Voice status panel */
+.container-1zzFcN {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 .ping-2IpLcU {
   color: var(--hover-color) !important;
 }
@@ -12468,6 +12465,26 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .container-R7B0VZ .dots-1BwzZQ.themed-3T-OPr {
   color: var(--soft-bright-color) !important;
+}
+
+/* Title panel */
+.divider-q3P9HC {
+  background-color: var(--hover-color) !important;
+}
+.title-31SJ6t .topic-11NuQZ,
+.toolbar-3_r2xA .icon-2xnN2Y,
+.toolbar-3_r2xA .count-vTKEhF {
+  color: var(--hover-bright-color) !important;
+}
+.toolbar-3_r2xA .selected-29KTGM .icon-2xnN2Y,
+.toolbar-3_r2xA .icon-2xnN2Y:hover,
+.toolbar-3_r2xA .selected-29KTGM .count-vTKEhF {
+  color: var(--soft-bright-color) !important;
+}
+.toolbar-3_r2xA
+  .icon-2xnN2Y
+  > path[d="M21.178 1.70703L22.592 3.12103L4.12103 21.593L2.70703 20.178L21.178 1.70703Z"] {
+  fill: var(--hover-red-bright-color) !important;
 }
 
 /* Load more messages */
