@@ -15833,6 +15833,36 @@ path[fill="rgb(255,216,54)"] {
   color: var(--red-dark-color) !important;
 }
 
+/* Change Log (User Settings) */
+.wrapper-1HSdhi {
+  color: var(--soft-bright-color) !important;
+}
+.date-2tmzZM {
+  font-weight: 600 !important;
+}
+.content-FDHp32 ul li:before {
+  background-color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.content-FDHp32 strong {
+  color: var(--hover-bright-color) !important;
+}
+.content-FDHp32 ul li {
+  color: var(--hover-bright-color) !important;
+}
+.added-mQcv9V {
+  color: var(--hover-green-bright-color) !important;
+}
+.added-mQcv9V:after {
+  background-color: var(--hover-green-bright-color) !important;
+}
+.progress-1DcfFh {
+  color: var(--hover-yellow-bright-color) !important;
+}
+.progress-1DcfFh:after {
+  background-color: var(--hover-yellow-bright-color) !important;
+}
+
 /* HypeSquad (User Settings) */
 .feature-2sPtnu .title-2pQsrN,
 .feature-2sPtnu .description-22Sl9U,
