@@ -7804,10 +7804,6 @@ button[aria-label="Stop Watching"]
 .container-1zzFcN {
   background: transparent !important;
 }
-.noiseCancellationPopout-2-e5Xz {
-  background: rgba(0, 0, 0, 0.9) !important;
-  border: 1px solid var(--main-color) !important;
-}
 .clearStatusIcon-9SeHGZ > path {
   fill: var(--hover-red-dark-color) !important;
 }
@@ -7843,6 +7839,15 @@ button[aria-label="Stop Watching"]
 }
 .itemValue-1-Xx5h {
   color: var(--soft-bright-color) !important;
+}
+
+/* Noise Suppression */
+.noiseCancellationPopout-2-e5Xz {
+  background: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.notches-2w7UZJ.black-11MaxJ {
+  background: none !important;
 }
 
 /* Number badge */
