@@ -29,6 +29,10 @@ body::after,
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important;
 }
 
+.emojiButtonNormal-35P0_i .sprite-2lxwfc {
+  filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important;
+}
+
 /* Custom rules */
 
 /* Here you can add your custom css to override the styling set by the theme. */
