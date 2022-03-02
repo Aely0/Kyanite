@@ -15218,6 +15218,13 @@ path[fill="rgb(255,216,54)"] {
 .separator-2wx7h6 {
   background-color: var(--hover-color) !important;
 }
+.link-1-SDSV .foreground-3Wtm7n {
+  fill: var(--soft-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.link-1-SDSV:hover .foreground-3Wtm7n {
+  opacity: 1 !important;
+}
 
 /* Server Profile */
 .notice-5OG6bf,
@@ -15593,7 +15600,7 @@ path[fill="rgb(255,216,54)"] {
 .descriptionStandalone-3ChjDk {
   color: var(--hover-bright-color) !important;
 }
-.cardWrapper-1bSePP{
+.cardWrapper-1bSePP {
   background-color: transparent !important;
 }
 .card-2xlCYc {
