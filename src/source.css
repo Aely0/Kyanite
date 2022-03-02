@@ -1464,7 +1464,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .CodeMirror-line > span::selection,
 .CodeMirror-line > span > span::selection,
 .note textarea::selection {
-  color: #fff !important;
+  color: var(--soft-bright-color) !important;
   background: var(--main-color) !important;
 }
 .chat .welcome-message a,
@@ -6407,13 +6407,15 @@ pre:hover .copybutton {
   transition: ease-out 200ms !important;
 }
 .wrapper-x4po40:hover {
-  background-color: var(--hover-dark-color) !important;
   opacity: 0.6 !important;
 }
 .iconWrapperActive-LhB4mn.iconWrapper-1lfhOx,
 .iconExternalMargins-2Ufdu_.icon-23NjRH {
   color: var(--soft-bright-color) !important;
   opacity: 1 !important;
+}
+.clickable-LksVCf.embedVideoImageComponent-3Clc3C {
+  z-index: 0 !important;
 }
 
 /* Channel text area glow */
@@ -15016,11 +15018,6 @@ div[class*="flex-"][class*="title-"],
 .anchor-1MIwyf,
 .fakeLink-2FvUR7 {
   color: var(--soft-bright-color) !important;
-}
-.markup-eYLPri a:hover {
-  text-decoration: none !important;
-  background-color: var(--hover-color) !important;
-  border-radius: 4px !important;
 }
 
 /* Obfuscated link popup */
