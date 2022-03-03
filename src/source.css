@@ -8823,7 +8823,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .plusIcon-1RVszG,
 .searchClearHistory-3nIKUO:hover {
-  color: var(--hover-bright-color) !important;
+  color: var(--red-bright-color) !important;
 }
 .option-ayUoaq.user-1dKxvu .displayedNick-1atSpT,
 [aria-labelledby="FILTER_HAS-header"] .option-ayUoaq strong {
