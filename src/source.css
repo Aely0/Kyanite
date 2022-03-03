@@ -3845,10 +3845,6 @@ div#bd-pub-button:hover {
 .search-bar-icon {
   width: 0 !important;
 }
-.theme-dark .searchAnswer-23w-CH,
-.theme-dark .searchFilter-2UfsDk {
-  background-color: var(--hover-color) !important;
-}
 .private-channels .search-bar .search-bar-icon {
   margin-top: 1px !important;
 }
@@ -14137,6 +14133,14 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-color) !important;
   color: var(--hover-bright-color) !important;
   text-align: center !important;
+}
+.searchFilter-2UfsDk {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+}
+.searchAnswer-23w-CH {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
 }
 
 /* Search bar date picker */
