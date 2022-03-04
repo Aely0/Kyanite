@@ -15242,8 +15242,15 @@ div[class*="flex-"][class*="title-"],
 .spamBanner-1auiob {
   background-color: var(--hover-color) !important;
 }
-.spamBanner-1auiob .bannerHeader-1svgLW, .spamBanner-1auiob .bannerSubtext-1_62x- {
+.spamBanner-1auiob .bannerHeader-1svgLW,
+.spamBanner-1auiob .bannerSubtext-1_62x- {
   color: var(--soft-bright-color) !important;
+}
+.description-22d6ux {
+  font-weight: 600 !important;
+}
+.divider-2BCfFf {
+  background-color: var(--hover-bright-color) !important;
 }
 
 /* Links */
