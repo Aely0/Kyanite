@@ -15678,18 +15678,28 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Privacy & Safety (User Settings) */
+.item-2idW98.itemFilled-1cPbtg,
+.item-2idW98.itemFilled-1cPbtg:hover {
+  background-color: transparent !important;
+}
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
   color: var(--hover-green-bright-color) !important;
   border-left-color: var(--green-dark-color) !important;
+  background-color: var(--hover-green-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"],
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]:hover {
   color: var(--green-bright-color) !important;
-  background-color: var(--hover-green-dark-color) !important;
+  border-left-color: var(--green-bright-color) !important;
 }
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]
   .radioIconForeground-2BMavi {
   fill: var(--hover-green-bright-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]
+  .radioIconForeground-2BMavi,
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"]:hover
   .radioIconForeground-2BMavi {
   fill: var(--green-bright-color) !important;
@@ -15697,15 +15707,21 @@ path[fill="rgb(255,216,54)"] {
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"] {
   color: var(--hover-yellow-bright-color) !important;
   border-left-color: var(--yellow-dark-color) !important;
+  background-color: var(--hover-yellow-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"],
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]:hover {
   color: var(--yellow-bright-color) !important;
-  background-color: var(--hover-yellow-dark-color) !important;
+  border-left-color: var(--yellow-bright-color) !important;
 }
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]
   .radioIconForeground-2BMavi {
   fill: var(--hover-yellow-bright-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]
+  .radioIconForeground-2BMavi,
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"]:hover
   .radioIconForeground-2BMavi {
   fill: var(--yellow-bright-color) !important;
@@ -15713,15 +15729,21 @@ path[fill="rgb(255,216,54)"] {
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
   color: var(--hover-red-bright-color) !important;
   border-left-color: var(--red-dark-color) !important;
+  background-color: var(--hover-red-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"],
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]:hover {
   color: var(--red-bright-color) !important;
-  background-color: var(--hover-red-dark-color) !important;
+  border-left-color: var(--red-bright-color) !important;
 }
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]
   .radioIconForeground-2BMavi {
   fill: var(--hover-red-bright-color) !important;
 }
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"]
+  .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]
+  .radioIconForeground-2BMavi,
 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"]:hover
   .radioIconForeground-2BMavi {
   fill: var(--red-bright-color) !important;
