@@ -8854,10 +8854,12 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
   opacity: 0.5 !important;
 }
+.plusIcon-1RVszG {
+  color: var(--soft-bright-color) !important;
+}
 .searchClearHistory-3nIKUO {
   color: var(--hover-red-bright-color) !important;
 }
-.plusIcon-1RVszG,
 .searchClearHistory-3nIKUO:hover {
   color: var(--red-bright-color) !important;
 }
