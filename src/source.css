@@ -14741,12 +14741,32 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Add friend tab */
-.theme-dark .wrapper-1cBijl {
+.wrapper-1cBijl {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--main-color) !important;
 }
+.addFriendInputWrapper-kkoSV9 {
+  background-color: transparent !important;
+  border: 2px solid var(--hover-dark-color) !important;
+}
 .addFriendInputWrapper-kkoSV9:focus-within {
   border-color: var(--hover-bright-color) !important;
+}
+.addFriendInputWrapper-kkoSV9.success-2Cnckk {
+  border-color: var(--hover-green-bright-color) !important;
+}
+.addFriendInput-1Ta-rO .input-2g-os5 {
+  color: var(--soft-bright-color) !important;
+  border: none !important;
+}
+.addFriendHint-1EVQJY {
+  color: var(--hover-dark-color) !important;
+}
+.formText-2ngGjI {
+  font-weight: 600 !important;
+}
+.header-30YxSJ {
+  border-bottom: 1px solid var(--hover-color) !important;
 }
 
 /* Quick switcher notification */
