@@ -15246,11 +15246,17 @@ div[class*="flex-"][class*="title-"],
 .spamBanner-1auiob .bannerSubtext-1_62x- {
   color: var(--soft-bright-color) !important;
 }
-.description-22d6ux {
+.description-22d6ux,
+.container-12Vzf8 .contents-3ca1mk {
   font-weight: 600 !important;
 }
 .divider-2BCfFf {
   background-color: var(--hover-bright-color) !important;
+}
+.container-12Vzf8
+  .button-f2h6uQ.lookFilled-yCfaCM.colorRed-rQXKgM.sizeTiny-3y2SSK.grow-2sR_-F
+  .contents-3ca1mk {
+  color: var(--red-bright-color) !important;
 }
 
 /* Links */
