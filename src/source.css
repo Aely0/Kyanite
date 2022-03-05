@@ -13036,6 +13036,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   font-size: 0.8rem !important;
 }
 
+/* Slowmode notification */
+.cooldownWrapper-2k1jHK {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Channel list header */
 .header-2o-2hj {
   background-color: transparent !important;
