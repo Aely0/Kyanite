@@ -12973,6 +12973,22 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Message list loading */
+.scrollerInner-2PPAp2 .avatar-l9Txm5,
+.scrollerInner-2PPAp2 .blob-1uHjdp,
+.scrollerInner-2PPAp2 .attachment-16cAbS {
+  background-color: var(--soft-bright-color) !important;
+}
+.scrollerInner-2PPAp2 .avatar-l9Txm5 {
+  opacity: 0.2 !important;
+}
+.scrollerInner-2PPAp2 .blob-1uHjdp {
+  opacity: 0.1 !important;
+}
+.scrollerInner-2PPAp2 .attachment-16cAbS {
+  opacity: 0.05 !important;
+}
+
 /* Message reply */
 .replyBar-1oi75v {
   background: var(--hover-color) !important;
