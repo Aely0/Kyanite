@@ -13022,8 +13022,15 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Typing notification */
-.theme-dark .typing-2J1mQU {
+.typing-2J1mQU {
   background: transparent !important;
+}
+.typing-2J1mQU .ellipsis-1e7x0D.dots-1BwzZQ.themed-3T-OPr,
+.typing-2J1mQU .text-3S7XCz {
+  color: var(--hover-bright-color) !important;
+}
+.typing-2J1mQU .text-3S7XCz strong {
+  color: var(--soft-bright-color) !important;
 }
 .typing .text {
   font-size: 0.8rem !important;
