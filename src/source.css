@@ -8521,6 +8521,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .medium-13kyaW .input-2FSSDe,
 .medium-2NClDM .input-2m5SfJ {
+  color: var(--soft-bright-color) !important;
   border: 1px solid var(--hover-color) !important;
 }
 .medium-13kyaW .input-2FSSDe:focus,
@@ -15209,6 +15210,9 @@ div[class*="flex-"][class*="title-"],
 }
 .peopleList-2VBrVI.auto-2K3UW5::-webkit-scrollbar {
   width: 10px !important;
+}
+.searchBar-2aylmZ.medium-2NClDM .input-2m5SfJ {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Direct Messages */
