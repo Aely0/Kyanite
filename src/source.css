@@ -8630,6 +8630,16 @@ img:not(.emote):not(.emoji)::after {
 .wrapper-2g4olo {
   color: var(--hover-bright-color) !important;
 }
+.guildIcon-2SUGiq.guildIconWithoutImage-3bOll3 {
+  background-color: var(--hover-dark-color) !important;
+}
+.guildAcronym-80rQch {
+  color: var(--soft-bright-color) !important;
+}
+.guildIcon-2SUGiq {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
