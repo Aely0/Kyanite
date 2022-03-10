@@ -11859,6 +11859,21 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--main-color) !important;
 }
 
+/* After server delete popup */
+.root-cw9rWQ {
+  background: var(--hover-color) !important;
+}
+.option-1O-Hwt {
+  color: var(--hover-bright-color) !important;
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.option-1O-Hwt:hover {
+  background: var(--hover-color) !important;
+}
+.caret-2qZrqJ {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Connect PSN notification */
 .container-xB0xPf {
   background-color: var(--main-color) !important;
