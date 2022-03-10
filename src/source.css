@@ -12567,6 +12567,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--red-bright-color) !important;
 }
 
+/* AKA profile button */
+.nicknames-10Sg6e.overflow-1wOqNV {
+  color: var(--hover-bright-color) !important;
+  font-weight: 600 !important;
+}
+
 /* Load more messages */
 .hasMore-3e72_v {
   background-color: rgba(0, 0, 0, 0.15) !important;
