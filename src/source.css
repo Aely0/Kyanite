@@ -8682,6 +8682,18 @@ img:not(.emote):not(.emoji)::after {
 .showMoreEmojis-1K08_X {
   color: var(--soft-bright-color) !important;
 }
+.emojiSection-3QtaWO .emojiName-3KEqts {
+  color: var(--soft-bright-color) !important;
+}
+.emojiSection-3QtaWO .colorStandard-21JIj7 {
+  font-weight: 500 !important;
+}
+.dotSeparator-2N42Ni {
+  background-color: var(--hover-bright-color) !important;
+}
+.guildSection-2Zyzy8 .colorHeaderSecondary-g5teka {
+  font-weight: 600 !important;
+}
 
 /* Public server popout */
 .guildPopout-G6M0fK {
