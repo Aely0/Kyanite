@@ -6724,6 +6724,43 @@ pre:hover .copybutton {
 .colorBrand-21Le_q {
   color: var(--soft-bright-color) !important;
 }
+.sidebarCard-1Gn1ch {
+  background-color: var(--hover-color) !important;
+  border: none !important;
+}
+.sort-37NWdz,
+.sortContainer-33Xf0u {
+  color: var(--hover-bright-color) !important;
+}
+.value-26hJ01 {
+  text-transform: initial !important;
+  font-size: 0.9rem !important;
+  padding: 2px 6px 2px 6px !important;
+}
+.button-276HzQ,
+.messageCount-TqQgPU {
+  color: var(--soft-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.button-276HzQ:hover {
+  opacity: 1 !important;
+}
+.box-2iMsQm {
+  background-color: var(--hover-color) !important;
+  border: none !important;
+}
+.box-2iMsQm:before {
+  border-top-color: transparent !important;
+}
+.box-2iMsQm:after {
+  border-top-color: var(--hover-color) !important;
+}
+.iconWrapper-3FqQ75 {
+  background-color: var(--hover-color) !important;
+}
+.icon-3gfzEo {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Select control */
 .Select-control {
