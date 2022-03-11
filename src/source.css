@@ -12051,8 +12051,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
-.tierMarkerAccomplished-1SkbEJ,
-.tierMarkerInProgress-2Tdxjz {
+.tierMarkerInProgress-2Tdxjz,
+.tierMarkerAccomplished-1SkbEJ {
   background-color: rgba(0, 0, 0, 0.65) !important;
 }
 .barSecondary-VouwoY {
@@ -16627,6 +16627,12 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 .paymentNote-1cWz9m {
+  color: var(--soft-bright-color) !important;
+}
+.badgeIconWithoutSubscribers-1hjTfX {
+  color: var(--hover-bright-color) !important;
+}
+.tierBody-3ju-rc {
   color: var(--soft-bright-color) !important;
 }
 
