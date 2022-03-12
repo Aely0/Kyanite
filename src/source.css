@@ -7778,6 +7778,7 @@ button[aria-label="Stop Watching"]
   border-color: var(--soft-bright-color) !important;
 }
 
+
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
   top: 0px !important;
@@ -7945,6 +7946,28 @@ button[aria-label="Stop Watching"]
 }
 .container-YkUktl .button-12Fmur:hover .redIcon-1ppjsM .strikethrough-2Kl6HF {
   color: var(--red-bright-color) !important;
+}
+
+/* Activity status panel */
+.icon-39rdLt {
+  background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.badge-370Op6 {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+}
+.info-88fTUI .title-338goq {
+  color: var(--hover-bright-color) !important;
+}
+.activityPanel-9icbyU .button-12Fmur {
+  color: var(--hover-bright-color) !important;
+}
+.activityPanel-9icbyU .button-12Fmur:hover {
+  color: var(--soft-bright-color) !important;
+}
+.activityPanel-9icbyU {
+  border-bottom: 1px solid var(--hover-color) !important;
 }
 
 /* Voice status panel */
