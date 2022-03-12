@@ -8814,6 +8814,11 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-dark-color) !important;
 }
 
+/* Voice chat stream popout */
+.emptyPreviewText-2b-QI5 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Update icon */
 .updateIconForeground-2V_zo4 {
   fill: var(--soft-bright-color) !important;
