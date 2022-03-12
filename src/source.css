@@ -7778,7 +7778,6 @@ button[aria-label="Stop Watching"]
   border-color: var(--soft-bright-color) !important;
 }
 
-
 /* Popout menu + Status picker */
 .popout.popout-bottom[style*="top: 56px !important;"] {
   top: 0px !important;
@@ -13032,6 +13031,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   padding: 4px 0 4px 32px !important;
   z-index: -1 !important;
   border-radius: 50px !important;
+}
+.iconSpacing-3rBbgf[aria-label="Video"] .icon-N9JZb6 > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Message text */
