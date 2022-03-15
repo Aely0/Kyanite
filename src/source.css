@@ -16310,6 +16310,53 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 
+ /* Account switching notification */
+.container-5N5x2A {
+  background-color: var(--main-color) !important;
+}
+.container-5N5x2A .pointer-1bsD64 {
+  border-top-color: var(--main-color) !important;
+}
+.container-5N5x2A .button-f2h6uQ.grow-2sR_-F {
+  border-color: var(--hover-bright-color) !important;
+}
+.container-5N5x2A .button-f2h6uQ.grow-2sR_-F:hover {
+  border-color: var(--soft-bright-color) !important;
+}
+.icon-1Hx9id > rect {
+  fill: var(--main-color) !important;
+}
+.icon-1Hx9id > g[fill="#4F5660"] {
+  fill: var(--soft-bright-color) !important;
+}
+
+/* Account switcher */
+.theme-dark.navRow-dG-XX8,
+.list-3-WAYB {
+  background-color: transparent !important;
+}
+.separator-3pyJLj {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.toast-q3Y4wI {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.userActionMenu-3-DfuT .overflowMenuIcon-35A0oT {
+  color: var(--hover-dark-color) !important;
+}
+.userActionMenu-3-DfuT:hover .overflowMenuIcon-35A0oT,
+.switchAccountsIcon-36imMT > g > path {
+  color: var(--hover-bright-color) !important;
+}
+.activeIcon-1ykRnF > g > path {
+  fill: var(--main-color) !important;
+}
+.activeIcon-1ykRnF > circle,
+.icon-2QUmmw > path {
+  fill: var(--soft-bright-color) !important
+}
+
 /* Premium promo */
 .premiumPromo-yVfLiA {
   background-color: rgba(46, 1, 1, 0.8) !important;
