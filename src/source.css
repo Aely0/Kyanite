@@ -16310,7 +16310,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 
- /* Account switching notification */
+/* Account switching notification */
 .container-5N5x2A {
   background-color: var(--main-color) !important;
 }
@@ -16355,6 +16355,13 @@ path[fill="rgb(255,216,54)"] {
 .activeIcon-1ykRnF > circle,
 .icon-2QUmmw > path {
   fill: var(--soft-bright-color) !important;
+}
+.item-1OdjEX.focused-3qFvc8 .switchAccountsIcon-36imMT > path {
+  fill: var(--soft-bright-color) !important;
+}
+.backButton-2rLJZw:hover {
+  -webkit-text-decoration-color: var(--soft-bright-color) !important;
+  text-decoration-color: var(--soft-bright-color) !important;
 }
 
 /* Premium promo */
