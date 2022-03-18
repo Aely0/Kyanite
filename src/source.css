@@ -13610,6 +13610,9 @@ div[class*="flex-"][class*="title-"],
 .buttonWrapper-3YFQGJ:hover {
   color: var(--soft-bright-color) !important;
 }
+.separator-3ng7S5:before {
+  border-left: 1px solid var(--hover-color) !important;
+}
 .emojiButtonNormal-35P0_i .sprite-2lxwfc {
   /* Kyanite */
   /* filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important; */
