@@ -10891,6 +10891,18 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .lookFilled-yCfaCM.colorTransparent-13Bvvi:disabled {
   background-color: var(--hover-color) !important;
 }
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.infoLink-3jBZ_6 {
+  color: var(--hover-bright-color) !important;
+}
+.theme-dark .buildDetails-15XTIW,
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.infoLink-3jBZ_6:hover,
+.theme-dark .copyLink-1bBHaR:hover,
+.theme-dark .infoLink-3jBZ_6:hover {
+  color: var(--soft-bright-color) !important;
+}
+.copyLink-1bBHaR:before {
+  background-color: var(--hover-color) !important;
+}
 
 /* CSS syntax highlighting */
 [class~="css"] .hljs-tag,
