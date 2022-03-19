@@ -15176,6 +15176,27 @@ div[class*="flex-"][class*="title-"],
 .tooltipPointer-r3VntW {
   border-top: 5px solid rgba(0, 0, 0, 0.8) !important;
 }
+.icon-1kx1ir {
+  color: var(--soft-bright-color) !important;
+}
+.optionals-2w-NPQ {
+  border-left: 1px solid var(--hover-color) !important;
+}
+.commandName-1s8HNs,
+.name-1DypRz,
+.optionPillKey-2JyeoP,
+.optionPillValue-2uxsMp {
+  color: var(--soft-bright-color) !important;
+}
+.remainingOptions-2kCt8U,
+.description-39ogHl {
+  color: var(--hover-bright-color) !important;
+}
+.optionPill-2kmuZR,
+.optionPillKey-2JyeoP {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-bright-color) !important;
+}
 
 /* Slash commands - Dropdown menu */
 .tag-4fIUbr {
@@ -15413,7 +15434,7 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
 }
 .closeIcon-1NwtbI {
-  color: var(--hover-hover-color) !important;
+  color: var(--hover-color) !important;
 }
 .closeIcon-1NwtbI {
   color: var(--soft-bright-color) !important;
