@@ -13741,6 +13741,17 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 
+/* Activities selection modal */
+.activityItem-1Z9CTr {
+  background-color: var(--hover-color) !important;
+}
+.activityItem-1Z9CTr:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.activityTag-3C3YK5 {
+  background-color: var(--main-color) !important;
+}
+
 /* Activities notification */
 .container-JMJRDf {
   background: var(--main-color) !important;
