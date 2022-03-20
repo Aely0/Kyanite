@@ -6633,6 +6633,7 @@ pre:hover .copybutton {
   border-top: 1px solid transparent !important;
   border-left: 1px solid transparent !important;
   transition: box-shadow 250ms ease-out, border 250ms ease-out !important;
+  margin: 5px 0 5px 0 !important;
 }
 .container-4Sm420.isRead-1m5wou {
   box-shadow: 2px 2px 0px 2px var(--hover-dark-color) !important;
@@ -6641,6 +6642,7 @@ pre:hover .copybutton {
   box-shadow: 2px 2px 0px 2px var(--soft-bright-color) !important;
   border-top: 1px solid var(--soft-bright-color) !important;
   border-left: 1px solid var(--soft-bright-color) !important;
+  transform: none !important;
 }
 .container-4Sm420.isRead-1m5wou:hover {
   box-shadow: 2px 2px 0px 2px var(--hover-bright-color) !important;
