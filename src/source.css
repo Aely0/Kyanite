@@ -13948,6 +13948,7 @@ div[class*="flex-"][class*="title-"],
 }
 .tabBarContainer-sCZC4w {
   border-top-color: var(--hover-color) !important;
+  border-bottom: none !important;
 }
 .headerFill-adLl4x,
 .activity-1ythUs {
@@ -14087,6 +14088,9 @@ div[class*="flex-"][class*="title-"],
 }
 .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF {
   background: transparent !important;
+}
+.userInfoSection-2u2hir + .userInfoSection-2u2hir {
+  border-top: none !important;
 }
 
 /* Embeds */
