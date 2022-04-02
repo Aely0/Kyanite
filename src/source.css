@@ -8074,9 +8074,12 @@ button[aria-label="Stop Watching"]
 }
 .communityIcon-28UI1f {
   margin-right: 0px !important;
+  color: var(--soft-bright-color) !important;
 }
 .communityInfoContainer-1dMVpU {
   margin: -24px 0 0 170px !important;
+  opacity: 1 !important;
+  height: 20px !important;
 }
 .communityInfoVisible-3zc5_s .communityInfo-3YsNIn {
   color: var(--soft-bright-color) !important;
