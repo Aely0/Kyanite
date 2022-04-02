@@ -15015,6 +15015,15 @@ div[class*="flex-"][class*="title-"],
   display: none !important;
 }
 
+/* Gif favourite button */
+.gifFavoriteButton-2IttKp:hover {
+  color: var(--soft-bright-color) !important;
+}
+.gifFavoriteButton-3ZomyF.selected-7JJuv5,
+.selected-7JJuv5 .icon-1m_PLf {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Gif tab */
 .autocomplete-3NRXG8 {
   border: 1px solid var(--main-color) !important;
