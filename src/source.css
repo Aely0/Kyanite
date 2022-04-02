@@ -8064,6 +8064,30 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
 }
 
+/* Guild header public status */
+.communityInfoPill-2Mll66 {
+  background: var(--main-color) !important;
+  padding: 2px !important;
+}
+.communityInfoPill-2Mll66 .size12-oc4dx4 {
+  display: none !important;
+}
+.communityIcon-28UI1f {
+  margin-right: 0px !important;
+}
+.communityInfoContainer-1dMVpU {
+  margin: -24px 0 0 170px !important;
+}
+.communityInfoVisible-3zc5_s .communityInfo-3YsNIn {
+  color: var(--soft-bright-color) !important;
+}
+.header-3OsQeK {
+  padding: 12px 16px 12px 16px !important;
+}
+.headerContent-2SNbie.primaryInfo-2ocY3v .name-3Uvkvr {
+  padding-right: 18px !important;
+}
+
 /* Guild list folders */
 .folder-1hbNCn {
   background-color: transparent !important;
