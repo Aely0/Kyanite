@@ -8053,6 +8053,13 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
 }
 
+/* Guild header */
+.animatedContainer-2laTjx {
+  background-color: var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 /* Guild header partner badge */
 .partnered-23cXFN,
 .background-3Da2vZ {
