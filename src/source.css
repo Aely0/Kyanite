@@ -13438,9 +13438,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   > div:hover {
   color: var(--soft-bright-color) !important;
 }
-.closeIcon-11LhXr > path {
-  fill: var(--hover-dark-color) !important;
-}
 
 /* Guild verified badge */
 .guildBadgeWithoutColor-20tGtS {
@@ -13787,6 +13784,9 @@ div[class*="flex-"][class*="title-"],
 }
 .scopeTimes-KsAOBb .icon-hDztL8 {
   color: var(--hover-bright-color) !important;
+}
+.rocketIcon-XUHfhE {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Activities selection modal */
@@ -15586,6 +15586,15 @@ div[class*="flex-"][class*="title-"],
 /* Title */
 .theme-dark .title-2Dc-Cb {
   color: var(--hover-bright-color) !important;
+}
+
+/* Close button */
+button[aria-label="Close"] {
+  color: var(--hover-bright-color) !important;
+}
+button[aria-label="Close"]:hover {
+  color: var(--soft-bright-color) !important;
+  opacity: 0.6 !important;
 }
 
 /* Random buttons */
