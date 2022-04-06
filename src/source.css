@@ -6815,6 +6815,9 @@ pre:hover .copybutton {
 .mainCard-3KBsBI .editor-H2NA06 {
   color: var(--soft-bright-color) !important;
 }
+.divider-AZrXIA {
+  display: none !important;
+}
 
 /* Select control */
 .Select-control {
@@ -11288,6 +11291,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .imageUploaderAcronym-2JJw9B {
   color: var(--soft-bright-color) !important;
+}
+.avatarUploaderInnerSquareDisabled-3M9eJS {
+  background-color: var(--hover-color) !important;
 }
 
 /* Server Roles */
