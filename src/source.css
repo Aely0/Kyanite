@@ -11595,6 +11595,8 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 /* Server Members */
 .member-2cj2PI {
   background-color: transparent !important;
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
+  box-shadow: 0 1px 0 0 var(--hover-color) !important;
 }
 .member-2cj2PI .overflowIconFg-29oz-o {
   fill: var(--soft-bright-color) !important;
