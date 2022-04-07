@@ -12068,7 +12068,26 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
-/* Connect PSN notification */
+/* Personalised invites popup */
+.upsellTooltipWrapper-1wqikQ {
+  background-color: var(--main-color) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+}
+.upsellTooltipWrapper-1wqikQ:after {
+  border-bottom: 8px solid var(--main-color) !important;
+}
+.upsellTooltipHeader-28hJ7J {
+  color: var(--soft-bright-color) !important;
+}
+.upsellButtonsContainer-1RUYlp .lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.upsellButtonsContainer-1RUYlp .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
+
+/* Connect PSN popup */
 .container-xB0xPf {
   background-color: var(--main-color) !important;
 }
@@ -12085,7 +12104,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
-/* Server Nitro Boost notification */
+/* Server Nitro Boost popup */
 .channelNotices-41mJbj .channelNotice-tO6Tus.premiumGuildSubscription-3oKecP {
   background: rgba(0, 0, 0, 0.4)
     url(/assets/c88e15accf612aef3b209311aaee9f29.svg) no-repeat center 23px !important;
