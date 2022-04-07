@@ -7323,6 +7323,19 @@ pre:hover .copybutton {
   background-color: rgba(0, 0, 0, 0.95) !important;
   border: 1px solid var(--hover-color) !important;
 }
+.notice-2olXi7 {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.notice-2HEN-u .button-YGmtzG {
+  background-color: transparent !important;
+}
+.container-3ssFyj {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid var(--hover-color) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+}
 
 /* Server settings emoji tab */
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
@@ -11315,7 +11328,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .icon-2DGsye {
   background-color: var(--hover-color) !important;
 }
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) {
+.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-),
+.roleRow-3LoHQ6:before,
+.roleRow-3LoHQ6:last-child:after {
   background-color: var(--hover-color) !important;
 }
 .memberCountContainer-30IqIo {
@@ -11326,13 +11341,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .header-JUTO-g {
   background-color: transparent !important;
+  backdrop-filter: blur(40px) !important;
+  border-radius: 4px !important;
 }
-/* !!! Hiding the "<- Roles" button, as it gets */
-/* !!! in the way when it's made into a non-solid */
-/* !!! color block. You can still uses the side */
-/* !!! "Roles" button as a "Back" button. */
 .titleContainer-3fPic2 {
-  display: none;
+  background-color: transparent !important;
+}
+.title-JU0E7C,
+.addRole-viKZpC {
+  color: var(--hover-bright-color) !important;
+}
+.title-JU0E7C:hover,
+.addRole-viKZpC:hover {
+  color: var(--soft-bright-color) !important;
 }
 .emptyRowContainer-1phf3W {
   color: var(--hover-bright-color) !important;
@@ -11368,9 +11389,42 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
+.colorPickerSwatch-RTUGRR.custom-1Up2lr.noColor-1Oln62 {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+.colorPickerDropperFg-Lureab {
+  fill: var(--soft-bright-color) !important;
+}
 .colorPickerCustom-1swUKF {
   background: rgba(0, 0, 0, 0.8) !important;
   border-color: var(--hover-color) !important;
+}
+.dragIcon-kQZ0Jv {
+  color: var(--hover-bright-color) !important;
+}
+.page-15bX59 .sidebar-3K3Z4C {
+  border-right: 1px solid transparent !important;
+}
+.tabBar-3DfKkN {
+  border-bottom: 2px solid var(--hover-color) !important;
+}
+.lock-4DarK4 {
+  color: var(--hover-bright-color) !important;
+}
+.memberDetails-3TbgsK .userTag-3gvsDM {
+  color: var(--main-color) !important;
+  font-weight: 600 !important;
+}
+.textContainer-13mOcB {
+  color: var(--main-color) !important;
+}
+.removeButton-JGNeoQ {
+  color: var(--soft-bright-color) !important;
+  opacity: 0.6 !important;
+}
+.removeButton-JGNeoQ:hover {
+  opacity: 0.8 !important;
 }
 
 /* Server Emoji */
