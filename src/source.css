@@ -13569,6 +13569,14 @@ div[class*="scroller"].channel-members {
   background-color: transparent !important;
 }
 
+/* Thread/Forum resize handle */
+.resizeHandle-PBRzPC:hover,
+.resizeHandle-PBRzPC:active {
+  background-color: var(--soft-bright-color) !important;
+  transition: background-color 800ms ease-out !important;
+  border-radius: 2px !important;
+}
+
 /* Day divider */
 .divider-2rZFJK {
   margin-top: 1rem !important;
