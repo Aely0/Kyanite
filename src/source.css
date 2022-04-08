@@ -14245,6 +14245,9 @@ div[class*="flex-"][class*="title-"],
 .userInfoSection-2u2hir + .userInfoSection-2u2hir {
   border-top: none !important;
 }
+.timestamp-6-ptG3 {
+  background-color: var(--hover-color) !important;
+}
 
 /* Embeds */
 .embedFull-1HGV2S {
