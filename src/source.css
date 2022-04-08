@@ -13629,6 +13629,9 @@ div[class*="scroller"].channel-members {
 }
 
 /* Thread/Forum resize handle */
+.resizeHandle-PBRzPC {
+  width: 4px !important;
+}
 .resizeHandle-PBRzPC:hover,
 .resizeHandle-PBRzPC:active {
   background-color: var(--soft-bright-color) !important;
