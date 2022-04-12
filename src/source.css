@@ -6818,6 +6818,9 @@ pre:hover .copybutton {
 .divider-AZrXIA {
   display: none !important;
 }
+.reactionCount-354GaR {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Select control */
 .Select-control {
