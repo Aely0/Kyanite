@@ -6794,18 +6794,18 @@ pre:hover .copybutton {
   opacity: 1 !important;
   transition: opacity 250ms ease-out !important;
 }
-.form-OAMK3y .mediaButton-3EqVVW {
+.controls-3EanmI .mediaButton-3lZSdn {
   background-color: var(--hover-color) !important;
 }
-.mediaButton-3EqVVW .icon-104TFy {
+.mediaButton-3lZSdn .icon-QoFgn_ {
   color: var(--soft-bright-color) !important;
   opacity: 0.8 !important;
 }
-.mediaButton-3EqVVW:hover .icon-104TFy {
+.mediaButton-3lZSdn:hover .icon-QoFgn_ {
   opacity: 1 !important;
   transition: border-color 250ms ease-out !important;
 }
-.mainCard-3KBsBI .channelTextAreaInner-1iN6-i {
+.mainCard-3KBsBI .channelTextAreaInner-2_mflx {
   padding: 5px !important;
 }
 .mainCard-3KBsBI .placeholder-1rCBhr {
@@ -6820,6 +6820,10 @@ pre:hover .copybutton {
 }
 .reactionCount-354GaR {
   color: var(--hover-bright-color) !important;
+}
+.inputDefault-3FGxgL.input-2g-os5,
+.inputDefault-3FGxgL.input-2g-os5:focus {
+  border: none !important;
 }
 
 /* Select control */
