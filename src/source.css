@@ -16696,6 +16696,10 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Explore servers tab */
+.pageWrapper-2PwDoS .headerContent-2Z-1wE .searchTitle-1qceKb,
+.pageWrapper-2PwDoS .headerContent-2Z-1wE .searchSubtitle-C5P4gh {
+  color: var(--soft-bright-color) !important;
+}
 .search-25t1e9 .searchBox-31Zv9h:focus,
 .search-25t1e9 .searchBox-31Zv9h:focus-within {
   -webkit-box-shadow: 0 0 0 1px var(--hover-dark-color),
@@ -16809,6 +16813,48 @@ img:not(.emote):not(.emoji)::after {
 }
 .newText-1EvoMa {
   color: var(--soft-bright-color) !important;
+}
+.loading-3ozbwt,
+.placeholder-2jEh13 {
+  background-color: var(--hover-color) !important;
+}
+.clearIcon-TMIIUa,
+.arrow-3fMmSH {
+  color: var(--hover-bright-color);
+  opacity: 0.8 !important;
+}
+.clearIcon-TMIIUa:hover,
+.arrow-3fMmSH:hover {
+  color: var(--hover-bright-color);
+  opacity: 1 !important;
+}
+.searchPage-3tt6dh .searchBox-pyIJJj {
+  background-color: transparent !important;
+  border: 2px solid var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.searchPage-3tt6dh .searchBox-pyIJJj:focus,
+.searchPage-3tt6dh .searchBox-pyIJJj:focus-within {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.dotSeparator-3MbNc4 {
+  background-color: var(--hover-dark-color) !important;
+}
+.header-3m4_6U {
+  padding-top: 5px !important;
+}
+.memberInfo-1LJpwT {
+  padding-bottom: 5px !important;
+}
+.card-1rhKXq {
+  border-radius: 8px !important;
+}
+.separator-2t2gPa {
+  border-top: 1px solid var(--hover-color) !important;
+}
+.searchIcon-34RNw9 {
+  color: var(--hover-bright-color) !important;
 }
 
 /* Server boost tab */
