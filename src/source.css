@@ -14585,6 +14585,9 @@ div[class*="flex-"][class*="title-"],
   color: var(--soft-bright-color) !important;
   background-color: transparent !important;
 }
+.resultsGroup-cfY57t:before {
+  border-top: 1px solid var(--hover-color) !important;
+}
 
 /* Search bar date picker */
 .datePicker-3iA7_k {
