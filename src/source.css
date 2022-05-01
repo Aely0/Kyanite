@@ -6763,9 +6763,6 @@ pre:hover .copybutton {
 .icon-3gfzEo {
   color: var(--soft-bright-color) !important;
 }
-.reactionBox-1FeKQU {
-  background-color: var(--hover-color) !important;
-}
 .reactionBtn-3_qQdk,
 .reactionBtn-3_qQdk .icon-uXAV0f {
   color: var(--soft-bright-color) !important;
@@ -6786,11 +6783,11 @@ pre:hover .copybutton {
   backdrop-filter: blur(16px) !important;
   border: none !important;
 }
-.button-DAkLIy {
+.buttons-BK5gED .button-DAkLIy {
   color: var(--soft-bright-color) !important;
   opacity: 0.8 !important;
 }
-.button-DAkLIy:hover {
+.buttons-BK5gED .button-DAkLIy:hover {
   opacity: 1 !important;
   transition: opacity 250ms ease-out !important;
 }
@@ -6824,6 +6821,13 @@ pre:hover .copybutton {
 .inputDefault-3FGxgL.input-2g-os5,
 .inputDefault-3FGxgL.input-2g-os5:focus {
   border: none !important;
+}
+.pinIcon-zVODC5 {
+  background-color: var(--hover-color) !important;
+  border: 2px solid var(--soft-bright-color) !important;
+}
+.pinIcon-zVODC5 > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Select control */
