@@ -14290,6 +14290,9 @@ div[class*="flex-"][class*="title-"],
 .timestamp-6-ptG3 {
   background-color: var(--hover-color) !important;
 }
+.listRow-2nO1T6:hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Embeds */
 .embedFull-1HGV2S {
