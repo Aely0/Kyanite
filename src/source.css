@@ -12163,6 +12163,17 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Try Forum Channels popup */
+.button-1QpZVP .contents-3ca1mk {
+  color: var(--hover-bright-color) !important;
+}
+.button-1QpZVP:hover .contents-3ca1mk {
+  color: var(--soft-bright-color) !important;
+}
+.tabBar-2A0exa {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+
 /* Personalised invites popup */
 .upsellTooltipWrapper-1wqikQ {
   background-color: var(--main-color) !important;
