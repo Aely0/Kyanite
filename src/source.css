@@ -12931,6 +12931,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .membersWrap-3NUR2t.hiddenMembers-8kpYM0 {
   height: 100% !important;
 }
+.memberGroupsPlaceholder-9tqX9V,
+.mulitplePlaceholderUsername-2T3DCI,
+.placeholderAvatar-1qAcRZ,
+.placeholderUsername-3iQi_D {
+  background-color: var(--hover-color) !important;
+}
 
 /* New unreads bar */
 .container-1qIct8 {
