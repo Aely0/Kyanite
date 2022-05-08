@@ -6528,6 +6528,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--hover-bright-color) !important;
 }
 
+/* Custom Invite Link */
+.guildFeatureAvailabilityIndicator-1-B8Jv {
+  background-color: var(--hover-color) !important;
+}
+
 /* Server Members */
 .member-2cj2PI {
   background-color: transparent !important;
