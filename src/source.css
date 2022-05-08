@@ -8933,6 +8933,9 @@ div[class*="flex-"][class*="title-"],
 .activityTag-3C3YK5 {
   background-color: var(--main-color) !important;
 }
+.modalHeader-3X0A4K {
+  background-color: var(--hover-color) !important;
+}
 
 /* Activities notification */
 .container-JMJRDf {
