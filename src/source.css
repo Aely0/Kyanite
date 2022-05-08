@@ -166,6 +166,21 @@ body::after,
   background: var(--hover-color) !important;
 }
 
+/* Generic text */
+.colorHeaderPrimary-3kwW7L,
+[style="color: var(--interactive-normal);"] {
+  color: var(--soft-bright-color) !important;
+}
+.colorInteractiveActive-1W8YKn,
+.colorStandard-1Xxp1s,
+.h5-2RwDNl,
+.description-30xx7u,
+.labelDescriptor-34wZ-z,
+[style="color: var(--header-primary);"],
+[style="color: var(--header-secondary);"] {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Message Search */
 .theme-dark .searchResultsWrap-2DKFzt,
 .theme-dark .searchHeader-1l-wpR,
