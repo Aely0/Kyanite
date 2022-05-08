@@ -6245,16 +6245,16 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .icon-2DGsye {
   background-color: var(--hover-color) !important;
 }
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-),
-.roleRow-3LoHQ6:before,
-.roleRow-3LoHQ6:last-child:after {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-2TXfy-),
+.roleRow-230vCm:before,
+.roleRow-230vCm:last-child:after {
   background-color: var(--hover-color) !important;
 }
-.memberCountContainer-30IqIo {
+.memberCountContainer-2sIXRp.memberSpacing-1e6OH3 {
   color: var(--hover-bright-color) !important;
 }
-.person-1w1dG9 > path {
-  fill: var(--hover-bright-color) !important;
+.memberCountContainer-2sIXRp.memberSpacing-1e6OH3:hover {
+  color: var(--soft-bright-color) !important;
 }
 .header-JUTO-g {
   background-color: transparent !important;
@@ -6317,8 +6317,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: rgba(0, 0, 0, 0.8) !important;
   border-color: var(--hover-color) !important;
 }
-.dragIcon-kQZ0Jv {
+.dragIcon-2L691r {
   color: var(--hover-bright-color) !important;
+}
+.dragIcon-2L691r:hover {
+  color: var(--soft-bright-color) !important;
 }
 .page-15bX59 .sidebar-3K3Z4C {
   border-right: 1px solid transparent !important;
@@ -6342,6 +6345,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 .removeButton-JGNeoQ:hover {
   opacity: 0.8 !important;
+}
+.selected-g-kMVV .roleName-3910zV {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Server Emoji */
