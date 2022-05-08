@@ -189,6 +189,9 @@ body::after,
 .colorDefault-CDqZdO .check-3HZJs4 {
   color: var(--soft-bright-color) !important;
 }
+.colorDanger-3n-KnP.colorDefault-CDqZdO .check-3HZJs4 {
+  color: var(--hover-red-bright-color) !important;
+}
 
 /* Message Search */
 .theme-dark .searchResultsWrap-2DKFzt,
