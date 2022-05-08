@@ -168,8 +168,8 @@ body::after,
 
 /* Generic text */
 .colorHeaderPrimary-3kwW7L,
-[style="color: var(--interactive-normal);"],
-[style="color: var(--interactive-active);"] {
+[style*="color: var(--interactive-normal)"],
+[style*="color: var(--interactive-active)"] {
   color: var(--soft-bright-color) !important;
 }
 .colorInteractiveActive-1W8YKn,
@@ -177,8 +177,8 @@ body::after,
 .h5-2RwDNl,
 .description-30xx7u,
 .labelDescriptor-34wZ-z,
-[style="color: var(--header-primary);"],
-[style="color: var(--header-secondary);"] {
+[style*="color: var(--header-primary)"],
+[style*="color: var(--header-secondary)"] {
   color: var(--hover-bright-color) !important;
 }
 
@@ -1611,7 +1611,8 @@ pre:hover .copybutton {
   background-color: var(--hover-bright-color) !important;
   transition: background-color 200ms !important;
 }
-.neverSeenBefore-3UB8fL:before {
+.neverSeenBefore-3UB8fL:before,
+.neverOpened-1FG73I::before {
   background-color: var(--soft-bright-color) !important;
 }
 .mainCard-3KBsBI.header-1Uy0p6,
@@ -1679,6 +1680,20 @@ pre:hover .copybutton {
   transition: opacity 250ms ease-out !important;
   opacity: 1 !important;
 }
+.reactionBtn-3_qQdk .addReactButton-3bSQb6 {
+  background-color: var(--hover-color) !important;
+}
+.buttons-BK5gED .buttonInner-3aRbcx,
+.reactButtons-FRvFhI .addReactButton-3bSQb6 {
+  color: var(--hover-bright-color) !important;
+  background-color: var(--hover-color) !important;
+  border: 1px solid transparent;
+}
+.buttons-BK5gED .buttonInner-3aRbcx:hover,
+.reactButtons-FRvFhI .addReactButton-3bSQb6:hover {
+  border: 1px solid var(--hover-color) !important;
+  transition: border 600ms ease-out !important;
+}
 .header-1RJoTb {
   -webkit-box-shadow: var(--elevation-low);
   box-shadow: var(--elevation-low);
@@ -1687,6 +1702,9 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(16px) !important;
   border: none !important;
+}
+.form-25Aujy .submitButton-3B-dZd:hover {
+  transition: border-color 600ms ease-out !important;
 }
 .buttons-BK5gED .button-DAkLIy {
   color: var(--soft-bright-color) !important;
@@ -1733,6 +1751,13 @@ pre:hover .copybutton {
 }
 .pinIcon-zVODC5 > svg > path {
   fill: var(--soft-bright-color) !important;
+}
+.newPill-229JSO {
+  background-color: var(--hover-color) !important;
+  border: 2px solid var(--soft-bright-color) !important;
+}
+.newPill-229JSO .newPillText-1prsRg {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Select control */
