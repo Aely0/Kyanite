@@ -181,6 +181,15 @@ body::after,
   color: var(--hover-bright-color) !important;
 }
 
+/* Generic checkbox/radio */
+.colorDefault-CDqZdO .checkbox-hADx5o,
+.colorDefault-CDqZdO .radioSelection-1UHp0b {
+  color: transparent !important;
+}
+.colorDefault-CDqZdO .check-3HZJs4 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Message Search */
 .theme-dark .searchResultsWrap-2DKFzt,
 .theme-dark .searchHeader-1l-wpR,
