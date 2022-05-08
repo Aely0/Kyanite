@@ -168,7 +168,8 @@ body::after,
 
 /* Generic text */
 .colorHeaderPrimary-3kwW7L,
-[style="color: var(--interactive-normal);"] {
+[style="color: var(--interactive-normal);"],
+[style="color: var(--interactive-active);"] {
   color: var(--soft-bright-color) !important;
 }
 .colorInteractiveActive-1W8YKn,
