@@ -11225,6 +11225,12 @@ path[fill="rgb(255,216,54)"] {
 .tierVertical-1fTmTd.tier-R8h9Y_ {
   background-color: var(--hover-color) !important;
 }
+.divider-1wnNcY {
+  background-color: var(--hover-color) !important;
+}
+.guildsSection-30CJxX {
+  border-top: 1px solid var(--hover-color) !important;
+}
 
 /* Subscriptions (User Settings) */
 .sectionDescription-3uMpPK,
