@@ -10386,7 +10386,7 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Slash commands */
-.autocomplete-3NRXG8.outerWrapper-3UdjNj {
+.autocomplete-3NRXG8 {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .selected-3B2w1z,
@@ -10455,6 +10455,15 @@ div[class*="flex-"][class*="title-"],
 .optionPillKey-2JyeoP {
   background-color: var(--hover-color) !important;
   border-color: var(--hover-bright-color) !important;
+}
+.contentTitle-3CylD3 strong {
+  color: var(--soft-bright-color) !important;
+}
+.colorMuted-1jNaVo {
+  color: var(--hover-bright-color) !important;
+}
+.option-Tt7anD {
+  background-color: var(--hover-color) !important;
 }
 
 /* Slash commands - Dropdown menu */
