@@ -166,6 +166,12 @@ body::after,
   background: var(--hover-color) !important;
 }
 
+/* Selection */
+::selection {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--main-color) !important;
+}
+
 /* Generic text */
 .colorHeaderPrimary-3kwW7L,
 [style*="color: var(--interactive-normal)"],
