@@ -10468,6 +10468,18 @@ div[class*="flex-"][class*="title-"],
 .option-Tt7anD {
   background-color: var(--hover-color) !important;
 }
+.usageWrapper-3FpyBH {
+  background: var(--soft-bright-color) !important;
+  opacity: 0.25 !important;
+}
+.description-RgwbdW,
+.source-2hsju- {
+  background: var(--hover-bright-color) !important;
+  opacity: 0.25 !important;
+}
+.selectable-fgiA2c:hover {
+  background-color: var(--hover-color) !important;
+}
 
 /* Slash commands - Dropdown menu */
 .tag-4fIUbr {
