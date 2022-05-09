@@ -3706,6 +3706,9 @@ img:not(.emote):not(.emoji)::after {
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
   background-color: var(--hover-color) !important;
 }
+.categoryItemDefaultCategory-3haEDq:hover {
+  background-color: var(--hover-color) !important;
+}
 .header-1XpmZs {
   color: var(--soft-bright-color) !important;
 }
