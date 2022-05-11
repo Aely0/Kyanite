@@ -10274,6 +10274,12 @@ div[class*="flex-"][class*="title-"],
 .backButton-bSKWLe {
   color: var(--hover-bright-color) !important;
 }
+.searchSuggestion-2Dgyvo.searchSuggestion-2Dgyvo:hover {
+  background-color: var(--hover-color) !important;
+}
+.endText-3Ps2ZN {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Chat gift menu */
 .theme-dark .option-1l2vXE {
