@@ -174,6 +174,7 @@ body::after,
 
 /* Generic text */
 .colorHeaderPrimary-3kwW7L,
+[style*="color: var(--text-brand)"],
 [style*="color: var(--interactive-normal)"],
 [style*="color: var(--interactive-active)"] {
   color: var(--soft-bright-color) !important;
@@ -183,6 +184,7 @@ body::after,
 .h5-2RwDNl,
 .description-30xx7u,
 .labelDescriptor-34wZ-z,
+[style*="color: var(--text-muted)"],
 [style*="color: var(--header-primary)"],
 [style*="color: var(--header-secondary)"] {
   color: var(--hover-bright-color) !important;
