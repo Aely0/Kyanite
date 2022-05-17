@@ -10508,7 +10508,8 @@ div[class*="flex-"][class*="title-"],
   background: var(--hover-bright-color) !important;
   opacity: 0.25 !important;
 }
-.selectable-fgiA2c:hover {
+.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0:hover,
+.clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
   background-color: var(--hover-color) !important;
 }
 
