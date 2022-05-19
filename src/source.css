@@ -1584,10 +1584,11 @@ pre:hover .copybutton {
 .mainCard-3KBsBI.isRead-17SUFc .messageCountIcon-2CvKyY {
   color: var(--hover-bright-color) !important;
 }
-.mainCard-3KBsBI .dots-3PpBal {
-  background-color: var(--hover-dark-color);
+.typing-uHRw1D .dots-2_b2Mn {
+  background-color: var(--hover-color) !important;
+  border: 2px solid var(--hover-bright-color) !important;
 }
-.mainCard-3KBsBI .dots-1BwzZQ.themed-3T-OPr {
+.typing-uHRw1D .dots-1BwzZQ.themed-3T-OPr {
   color: var(--soft-bright-color) !important;
 }
 .mainCard-3KBsBI .bullet-3kDmK0 {
@@ -1768,6 +1769,12 @@ pre:hover .copybutton {
   color: var(--soft-bright-color) !important;
 }
 .newMessageCount-jqlY9z {
+  color: var(--soft-bright-color) !important;
+}
+.hasUnreads-3kKLnS:before {
+  background-color: var(--soft-bright-color) !important;
+}
+.messageCountBox-XEP63e .text-sm-medium-3Pz3rB {
   color: var(--soft-bright-color) !important;
 }
 
