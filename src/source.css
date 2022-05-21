@@ -585,29 +585,35 @@ body::after,
 }
 
 /* Reactions */
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
   background-color: var(--hover-color) !important;
 }
-.reaction-2A2y9y.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
   background-color: var(--hover-dark-color) !important;
 }
-.reaction-2A2y9y:hover .reactionCount-1zkLcN,
-.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+.reaction-3vwAF2:hover .reactionCount-26U4As,
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--hover-bright-color) !important;
 }
-.reactionBtn-3_qQdk {
+.reactionBtn-3I19bq {
   padding-left: 5px !important;
-}
-.reaction-2A2y9y:hover {
-  border-color: var(--hover-color) !important;
-}
-.reaction-2A2y9y.reactionMe-3I9gFK {
-  border-color: var(--hover-color) !important;
-}
-.reactionCount-1zkLcN {
   color: var(--hover-bright-color) !important;
 }
-.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+.reactionBtn-3I19bq:hover .icon-1q31jb,
+.reactionBtn-3I19bq.active-Rk-d9U .icon-1q31jb {
+  transition: color 200ms ease-out !important;
+  color: var(--soft-bright-color) !important;
+}
+.reaction-3vwAF2:hover {
+  border-color: var(--hover-color) !important;
+}
+.reaction-3vwAF2.reactionMe-1PwQAc {
+  border-color: var(--hover-color) !important;
+}
+.reactionCount-26U4As {
+  color: var(--hover-bright-color) !important;
+}
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--soft-bright-color) !important;
 }
 
