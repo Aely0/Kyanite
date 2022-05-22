@@ -1546,6 +1546,33 @@ pre:hover .copybutton {
   border: 4px solid var(--hover-color) !important;
 }
 
+/* Premium Membership */
+.scroller-38C5lh,
+.guildIconContainer-17YqOH {
+  background-color: transparent !important;
+}
+.subscriptionPerks-17BiNa,
+.tierInfoContainer-3o77tj {
+  background-color: var(--hover-color) !important;
+}
+.button-32Jo2d {
+  background: var(--hover-color) !important;
+}
+.roleMessagePreview-NUi2Ri {
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-dark-color) !important;
+}
+.tierTrialIndicator-2gWK6S {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.joinCtaTitle-jCYLIk > strong {
+  color: var(--soft-bright-color) !important;
+}
+.tierInfoContainer-3o77tj .text-sm-normal-3Zj3Iv {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Forum channels */
 .container-3wLKDe {
   background-color: transparent !important;
