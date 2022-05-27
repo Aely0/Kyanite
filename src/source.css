@@ -1620,11 +1620,11 @@ pre:hover .copybutton {
 .mainCard-3KBsBI .divider-2USc3N {
   background-color: var(--hover-dark-color) !important;
 }
-.mainCard-3KBsBI .messageCount-13eJ-p,
+.mainCard-3KBsBI .messageCountText-J-9pag,
 .mainCard-3KBsBI .messageCountIcon-2CvKyY {
   color: var(--soft-bright-color) !important;
 }
-.mainCard-3KBsBI.isRead-17SUFc .messageCount-13eJ-p,
+.mainCard-3KBsBI.isRead-17SUFc .messageCountText-J-9pag,
 .mainCard-3KBsBI.isRead-17SUFc .messageCountIcon-2CvKyY {
   color: var(--hover-bright-color) !important;
 }
