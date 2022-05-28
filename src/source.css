@@ -8848,7 +8848,7 @@ div[class*="flex-"][class*="title-"],
 
 /* Message markdown toolbar */
 .toolbar-37BrJ5 {
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--hover-color) !important;
 }
 .toolbar-37BrJ5:before {
