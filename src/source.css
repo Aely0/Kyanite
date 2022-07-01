@@ -8418,11 +8418,12 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: var(--hover-color) !important;
 }
 .replyLabel-WWnhHi,
-.colorLink-2apWfY.size14-3fJ-ot.mentionButton-3C5YMI {
+.colorLink-12GX9V.mentionButton-3C5YMI {
   color: var(--soft-bright-color) !important;
 }
-.colorMuted-20987_.size14-3fJ-ot.mentionButton-3C5YMI {
-  color: var(--hover-dark-color) !important;
+.colorMuted-1jNaVo.mentionButton-3C5YMI {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
 }
 .closeButton-3IEry2 {
   color: var(--hover-dark-color) !important;
