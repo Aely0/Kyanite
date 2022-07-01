@@ -593,8 +593,10 @@ body::after,
 .reaction-3vwAF2.reactionMe-1PwQAc {
   background-color: var(--hover-dark-color) !important;
 }
-.reaction-102jx9:hover .reactionCount-SWXh9W
-.reaction-3vwAF2:hover .reactionCount-26U4As,
+.reaction-102jx9:hover
+  .reactionCount-SWXh9W
+  .reaction-3vwAF2:hover
+  .reactionCount-26U4As,
 .reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W,
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--hover-bright-color) !important;
@@ -7977,6 +7979,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border-radius: 5px !important;
   color: var(--soft-bright-color) !important;
   text-transform: unset !important;
+}
+
+/* New mentions bar */
+.unreadMentionsBar-ZXXoOH {
+  background-color: var(--main-color) !important;
+}
+.text-2GsXbW {
+  text-transform: capitalize !important;
 }
 
 /* Pin notification badge */
