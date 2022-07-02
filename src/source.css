@@ -3194,6 +3194,15 @@ button[aria-label="Stop Watching"]
   background-color: transparent !important;
 }
 
+/* Guild unavailable */
+.errorInner-1WxcWa {
+  color: var(--red-bright-color) !important;
+}
+.guildsError-2gzNaD {
+  background-color: var(--hover-red-dark-color) !important;
+  border: 2px solid var(--hover-red-dark-color) !important;
+}
+
 /* Channel notice */
 .channel-notices .channel-notice.invite,
 .channel-notices .channel-notice.quickswitcher-notice {
