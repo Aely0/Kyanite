@@ -10261,6 +10261,25 @@ div[class*="flex-"][class*="title-"],
 .giftContainer-1X7m0c {
   background-color: var(--hover-color) !important;
 }
+.premiumTrialAcknowledgedBadge-2QxbU_ {
+  background-color: var(--hover-dark-color) !important;
+}
+.premiumTrialBadge-pEqntF {
+  color: var(--soft-bright-color) !important;
+}
+.giftWrapper-2Rmqr2 {
+  background-color: var(--hover-color) !important;
+}
+.trialOfferWrapper-2Y24ok,
+.trialOfferCopyHeading-9ABI7M {
+  color: var(--soft-bright-color) !important;
+}
+.trialOfferWrapper-2Y24ok .button-f2h6uQ {
+  border: 1px solid var(--hover-bright-color) !important;
+}
+.trialOfferWrapper-2Y24ok .button-f2h6uQ:hover {
+  border: 1px solid var(--soft-bright-color) !important;
+}
 
 /* Audio panel */
 .theme-dark .wrapperAudio-1Bzv_Z {
