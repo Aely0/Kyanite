@@ -3123,7 +3123,8 @@ button[aria-label="Stop Watching"]
 .moreUsers-_v6T-L {
   background-color: transparent !important;
   color: var(--soft-bright-color) !important;
-  border: 1px solid var(--soft-bright-color) !important;
+  border: 2px solid var(--soft-bright-color) !important;
+  font-weight: bold !important;
 }
 
 /* Guild list muted tag */
