@@ -10296,6 +10296,40 @@ div[class*="flex-"][class*="title-"],
 .trialOfferWrapper-2Y24ok .button-f2h6uQ:hover {
   border: 1px solid var(--soft-bright-color) !important;
 }
+.offerBadge-1KDtMz {
+  background: linear-gradient(
+    97.5deg,
+    var(--hover-color) 6.21%,
+    var(--hover-dark-color) 94.22%
+  ) !important;
+}
+.defaultColor-HXu-5n.offerBadge-1KDtMz {
+  color: var(--soft-bright-color) !important;
+}
+.heroBanner-1TdjJA {
+  background: url(https://discord.com/assets/0f1ee6bbf5a1ce9e9c6b37d2250223fa.svg)
+      right 24px center/190px 150px no-repeat,
+    linear-gradient(
+      97.5deg,
+      var(--hover-color) 6.21%,
+      var(--hover-dark-color) 94.22%
+    ) !important;
+}
+.textGroup-2EWkQ- .promoHeader-3Rd7PI,
+.textGroup-2EWkQ- .promoText-3MD6Aq {
+  color: var(--soft-bright-color) !important;
+}
+.bogoPromo-WNXw7H {
+  background: linear-gradient(
+    97.5deg,
+    var(--hover-color) 6.21%,
+    var(--hover-dark-color) 94.22%
+  ) !important;
+}
+.giftIcon-1n-FNE,
+.bogoPromo-WNXw7H .textHeader-1ptkaY {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Audio panel */
 .theme-dark .wrapperAudio-1Bzv_Z {
