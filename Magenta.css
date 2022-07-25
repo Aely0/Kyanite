@@ -44,11 +44,3 @@ you can make it visible by uncommenting the style below. */
 .mouse-mode .message-2CShn3:hover .buttons-3dF5Kd {
   visibility: visible !important;
 } */
-
-/* Also, the emote size in emote only messages has been reduced,
-you can bring it back to the original sizes by uncommenting the style below. */
-/* .emoji.jumboable {
-  width: 3rem !important;
-  height: 3rem !important;
-  min-height: 3rem !important;
-} */
