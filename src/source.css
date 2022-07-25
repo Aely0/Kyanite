@@ -3840,17 +3840,6 @@ img:not(.emote):not(.emoji)::after {
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
 }
 
-/* Emoji */
-.emoji.jumboable {
-  width: 2rem !important;
-  height: 2rem !important;
-  min-height: 2rem !important;
-}
-.customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
-  width: 32px !important;
-  height: 32px !important;
-}
-
 /* Emoji info */
 .clickCTA-1bk0UN {
   color: var(--hover-bright-color) !important;
