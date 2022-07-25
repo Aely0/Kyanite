@@ -9275,14 +9275,15 @@ div[class*="flex-"][class*="title-"],
 .tabBarItem-1b8RUP.item-3XjbnG[style="border-color: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6);"] {
   border-color: var(--hover-bright-color) !important;
 }
-.connectedAccount-1xKpli {
-  border-color: var(--hover-color) !important;
-}
-.connectedAccountOpenIcon-1yfBsb {
+.connectedAccountOpenIcon-QgWKH8 {
   color: var(--hover-bright-color) !important;
 }
-.connectedAccountOpenIcon-1yfBsb:hover {
+.connectedAccountOpenIcon-QgWKH8:hover {
   color: var(--soft-bright-color) !important;
+}
+.connectedAccountContainer-SlCC-S {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
 }
 .additionalActionsIcon-3Cy8UU {
   color: var(--hover-bright-color) !important;
