@@ -6489,6 +6489,19 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .tierIconLocked-RGSkSl {
   color: var(--hover-dark-color) !important;
 }
+.tierHeaderLocked-30MLlO,
+.tierHeaderUnlocked-1OpOLf {
+  background-color: var(--hover-color) !important;
+}
+.placeholderCard-3eGmb3 {
+  border: 2px dashed var(--hover-dark-color) !important;
+}
+.fileUploadInput-3Y6j6T.input-3K7d_z.base-ddxxyL::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.fileUploadInput-3Y6j6T.input-3K7d_z.base-ddxxyL {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server Audit log */
 .quickSelectLabel-ArUyd9 {
