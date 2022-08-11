@@ -2987,8 +2987,15 @@ button[aria-label="Stop Watching"]
 .container-YkUktl .subtext-2HDqJ7 {
   color: var(--hover-bright-color) !important;
 }
-.nameTag-sc-gpq.canCopy-IgTwyV:hover .title-338goq,
-.nameTag-sc-gpq.canCopy-IgTwyV:hover .subtext-2HDqJ7 {
+.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover .title-338goq,
+.avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover .subtext-2HDqJ7 {
+  color: var(--soft-bright-color) !important;
+}
+.withTagAsButton-OsgQ9L:hover,
+.withTagless-10ooWt:hover {
+  background-color: var(--hover-color) !important;
+}
+.copyIcon-3HI-E4 {
   color: var(--soft-bright-color) !important;
 }
 .container-YkUktl .button-12Fmur {
