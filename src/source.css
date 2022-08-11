@@ -5866,6 +5866,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   margin-left: -209px !important;
   border-radius: 3px !important;
 }
+.divider-vDS6Vl,
+.tabBar-2WK2Dm {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Quickswitcher */
 .quickswitcher {
