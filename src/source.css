@@ -8387,6 +8387,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--hover-bright-color) !important;
 }
 
+/* Message remove attachment confirmation */
+.confirmText-2FxFHs {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Message list */
 .messagesWrapper-RpOMA3 {
   margin-bottom: 8px !important;
