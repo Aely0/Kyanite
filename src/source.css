@@ -7219,6 +7219,11 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   border: 1px solid var(--soft-bright-color) !important;
 }
 
+/* Server bio popup */
+.aboutMeGuildIconTooltip-2cYR0X {
+  background-color: var(--main-color) !important;
+}
+
 /* Connect PSN popup */
 .container-xB0xPf {
   background-color: var(--main-color) !important;
