@@ -4400,50 +4400,26 @@ img:not(.emote):not(.emoji)::after {
   color: var(--main-color) !important;
 }
 
-/* Payment */
-.premium-payment-modal {
-  background: rgba(0, 0, 0, 0.6) !important;
+/* Payment menu */
+.paymentModalContent {
+  background-color: transparent !important;
 }
-.premium-payment-modal .premium-animation {
-  display: none !important;
+.modalHeader-gQTY3L {
+  background-image: none !important;
 }
-.premium-payment-modal .premium-payment-form .premium-payment-title {
-  color: var(--main-color) !important;
+.selectPlanChooseSubtitle-1MPOZK,
+.selectPlanChooseTitle-2d61LF {
+  color: var(--soft-bright-color) !important;
 }
-.premium-payment-modal .premium-payment-form .premium-payment-subtitle {
-  color: #a6a6a6 !important;
+.planOption-187LtR,
+.planOptionInterval-3QyrC0 {
+  color: var(--hover-bright-color) !important;
 }
-.fancy-credit-input {
-  background: rgba(0, 0, 0, 0.4) !important;
-  -webkit-transition: border-color 0.3s ease-in-out !important;
-  transition: border-color 0.3s ease-in-out !important;
+.optionSelected-2AMHHJ {
+  color: var(--soft-bright-color) !important;
 }
-.fancy-credit-input .expiration-placeholder,
-.fancy-credit-input input {
-  color: hsla(0, 0%, 100%, 0.5) !important;
-}
-.fancy-credit-input .cc-number-wrapper .cc-number-placeholder {
-  color: hsla(0, 0%, 100%, 0.1) !important;
-}
-.fancy-credit-input .card-icon {
-  -webkit-filter: grayscale(1) !important;
-  filter: grayscale(1) !important;
-  opacity: 0.3 !important;
-}
-.premium-payment-modal .premium-payment-button {
-  background: var(--main-color) !important;
-  color: #fff !important;
-  border: none !important;
-  -webkit-transition: all 0.3s ease-in-out !important;
-  transition: all 0.3s ease-in-out !important;
-}
-.premium-payment-modal .premium-payment-button:hover {
-  background: var(--hover-color) !important;
-}
-.premium-payment-modal .premium-payment-button:disabled {
-  background: hsla(0, 0%, 100%, 0.1) !important;
-  opacity: 0.3 !important;
-  cursor: not-allowed !important;
+.selectPlanDivider-1j8LTI {
+  background-color: var(--hover-color) !important;
 }
 
 /* Group DM */
@@ -12508,7 +12484,7 @@ img:not(.emote):not(.emoji)::after {
 
 /* Checkbox unchecked */
 .theme-dark .checkbox-f1HnKB {
-  border-color: var(--hover-dark-color) !important;
+  border: 2px solid var(--hover-dark-color) !important;
 }
 
 /* Modded/Corrupted Discord banner */
