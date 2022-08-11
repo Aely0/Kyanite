@@ -3836,6 +3836,42 @@ img:not(.emote):not(.emoji)::after {
   background-color: transparent !important;
   color: var(--soft-bright-color) !important;
 }
+.createSticker-y-_Ug2 {
+  background-color: var(--hover-color) !important;
+}
+.iconWrapper-Tkg0P1 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--hover-dark-color)),
+    to(var(--hover-bright-color))
+  );
+  background-image: linear-gradient(
+    90deg,
+    var(--hover-dark-color),
+    var(--hover-bright-color)
+  );
+  color: var(--soft-bright-color) !important;
+}
+.premiumCategorySelected-2KWLhN,
+.premiumCategorySelected-2KWLhN:hover,
+.stickerCategoryGenericSelected-DnO2K8,
+.stickerCategoryGenericSelected-DnO2K8:hover {
+  background-color: var(--hover-dark-color) !important;
+}
+.stickerCategoryGenericIcon-3wumVD {
+  color: var(--hover-bright-color) !important;
+}
+.stickerCategoryGeneric-29JiZ2:hover {
+  background-color: var(--hover-color) !important;
+}
+.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
+  color: var(--soft-bright-color) !important;
+}
+.guildCategorySeparator-1YkjLr {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground-Ang24O {
