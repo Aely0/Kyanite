@@ -11918,6 +11918,17 @@ img:not(.emote):not(.emoji)::after {
   display: none !important;
 }
 
+/* Image view */
+.carouselModal-1eUFoq.root-g14mjS {
+  background-color: transparent !important;
+  border: none !important;
+}
+.arrowContainer-2wpC4q {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+  transition: opacity 200ms linear !important;
+}
+
 /* Calls */
 .incomingCallInner-2VmFiR {
   border: 1px solid var(--main-color) !important;
