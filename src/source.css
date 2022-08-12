@@ -9124,6 +9124,23 @@ div[class*="flex-"][class*="title-"],
 .rocketIcon-XUHfhE {
   color: var(--soft-bright-color) !important;
 }
+.rocket-3_PlYZ {
+  color: var(--hover-bright-color) !important;
+}
+.rocket-3_PlYZ:hover {
+  color: var(--soft-bright-color) !important;
+}
+.scrollTierBackground-BnWR8k {
+  background-color: var(--hover-color) !important;
+}
+.modalDivider-MtZbPb {
+  background: var(--hover-color) !important;
+  opacity: 1 !important;
+}
+.footer-31IekZ.footer-yVEuwO {
+  background-color: var(--hover-color) !important;
+  box-shadow: none !important;
+}
 
 /* Activities selection modal */
 .activityItem-1Z9CTr {
