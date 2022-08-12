@@ -1578,6 +1578,74 @@ pre:hover .copybutton {
   color: var(--hover-bright-color) !important;
 }
 
+/* Server Home */
+.icon-2W8DHg {
+  color: var(--hover-bright-color) !important;
+}
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH .name-28HaxV {
+  color: var(--soft-bright-color) !important;
+}
+.typingIndicator-KF8hGa {
+  background-color: transparent !important;
+  border: 2px solid var(--soft-bright-color) !important;
+}
+.dots-1BwzZQ.themed-3T-OPr {
+  color: var(--soft-bright-color) !important;
+}
+.container-2Hi7Km,
+.container-xwOzwi,
+.icon-2IDTxf {
+  background-color: var(--hover-color) !important;
+}
+.icon-2IDTxf {
+  border-top: 4px solid var(--hover-color) !important;
+  border-left: 4px solid var(--hover-color) !important;
+  border-right: 4px solid var(--hover-color) !important;
+}
+.dotOnline-3uN0x9 {
+  background-color: var(--soft-bright-color) !important;
+}
+.dotOffline-3Fue9z {
+  background-color: var(--hover-dark-color) !important;
+}
+.accessoryContainer-3h083S .moreUsers-_v6T-L {
+  padding: 8px 6px 8px 6px !important;
+}
+.iconContainer-2R-3M1 {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.card-3x20HF.container-2AOBgv,
+.card-3x20HF.container-3SAnGB {
+  background-color: var(--hover-color) !important;
+}
+.channelIcon-28tsYn,
+.channelIcon-2Qzc_v,
+.icon-1lctVn {
+  color: var(--soft-bright-color) !important;
+}
+.feedItemHeader-txJq98 {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.attachment-16cAbS,
+.avatar-l9Txm5,
+.blob-1uHjdp {
+  background-color: var(--hover-bright-color) !important;
+}
+.showMore-22xKD3 {
+  color: var(--soft-bright-color) !important;
+}
+.pill-3pRQlO {
+  border-radius: 6px !important;
+  background-color: transparent !important;
+  border: 2px solid var(--hover-bright-color) !important;
+}
+.reactionBtn-3I19bq.forceShowLook-1zmTr- {
+  background-color: var(--hover-color) !important;
+  border: 1px solid transparent !important;
+}
+
 /* Forum channels */
 .container-3wLKDe {
   background-color: transparent !important;
