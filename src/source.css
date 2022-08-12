@@ -1826,6 +1826,52 @@ pre:hover .copybutton {
 .messageCountBox-XEP63e .text-sm-medium-3Pz3rB {
   color: var(--soft-bright-color) !important;
 }
+.pencilIcon-1d4fcw,
+.searchIcon-2Nw0OL {
+  color: var(--hover-bright-color) !important;
+}
+.closeIcon-3xe5xL,
+.mediaIcon-3-Zrn7 {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.closeIcon-3xe5xL:hover,
+.mediaIcon-3-Zrn7:hover {
+  color: var(--soft-bright-color) !important;
+}
+.loader-9SdUOa {
+  border: 3px solid var(--hover-dark-color) !important;
+  border-left-color: var(--soft-bright-color) !important;
+}
+.loadingCard-3pIp9h {
+  background-color: var(--hover-dark-color) !important;
+}
+.enterIcon-3UYB70 {
+  fill: var(--soft-bright-color) !important;
+}
+.tagsDivider-3LhkLA {
+  background-color: var(--hover-color) !important;
+}
+.uploadInput-3fblkw {
+  background-color: transparent !important;
+}
+.uploadIcon-M15owY {
+  color: var(--hover-bright-color) !important;
+}
+.uploadIcon-M15owY:hover {
+  color: var(--soft-bright-color) !important;
+}
+.badge-39TqBS {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.popout-2vZMlk {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Select control */
 .Select-control {
