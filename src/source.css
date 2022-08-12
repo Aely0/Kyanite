@@ -1888,7 +1888,8 @@ pre:hover .copybutton {
 .icon-3iEhgE,
 .icon-UTJvnX,
 .icon-1DBCvl,
-.channelContainer-7uiQGJ {
+.channelContainer-7uiQGJ,
+.stepContainer-3L3EXG .colorBrand-3Xb6JG {
   color: var(--soft-bright-color) !important;
 }
 .closeIcon-1AEDhI,
@@ -1951,8 +1952,22 @@ pre:hover .copybutton {
 .maxLength-IdVNmX {
   color: var(--hover-bright-color) !important;
 }
-.divider-2zyEHJ {
+.divider-2zyEHJ,
+.divider-2_8P_2,
+.sectionDivider-189lqb {
   background-color: var(--hover-color) !important;
+}
+.imageUploaderInner-IIRaFr {
+  background-color: var(--hover-color) !important;
+}
+.imageUploaderInner-IIRaFr .imageUploaderIcon-2OHmFu {
+  background-color: transparent !important;
+}
+.imageUploaderIcon-2OHmFu > svg > path {
+  fill: var(--soft-bright-color) !important;
+}
+[style="color: var(--text-positive);"] {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Notification settings */
@@ -6302,6 +6317,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
   color: var(--soft-bright-color) !important;
   border-color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
 }
 .lookGhost-2Fn_0-.colorGrey-2iAG-B {
   background-color: transparent !important;
@@ -9564,6 +9580,7 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .watchButton-2v6cPT:hover {
   color: var(--soft-bright-color) !important;
   border-color: var(--hover-bright-color) !important;
+  transition: border-color 0.6s ease !important;
 }
 .lookOutlined-3yKVGo.colorRed-rQXKgM,
 .lookFilled-yCfaCM.colorRed-rQXKgM {
