@@ -1593,6 +1593,9 @@ pre:hover .copybutton {
 .dots-1BwzZQ.themed-3T-OPr {
   color: var(--soft-bright-color) !important;
 }
+.container-3HMTms:hover {
+  background-color: var(--hover-color) !important;
+}
 .container-2Hi7Km,
 .container-xwOzwi,
 .icon-2IDTxf {
