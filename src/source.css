@@ -8668,12 +8668,10 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background-color: transparent !important;
 }
 .dragInner-1CUBf_,
-.folderIconWrapper-1oRIZr,
 .expandedFolderBackground-1kSAf6 {
   background-color: var(--hover-color) !important;
 }
 .folder-241Joy,
-.folderIconWrapper-1oRIZr:not([style="background-color: rgba(88, 101, 242, 0.4);"]),
 .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
   background-color: transparent !important;
 }
