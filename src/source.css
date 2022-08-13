@@ -1648,6 +1648,14 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
   border: 1px solid transparent !important;
 }
+.card-3x20HF.submitContainer-5XQiPn,
+.card-3x20HF.receivedContainer-32VACz {
+  background-color: var(--hover-color) !important;
+}
+.subtitle-1XxVgF,
+.receivedText-1Zj5xQ .text-xs-normal-3SiVjE {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Forum channels */
 .container-3wLKDe {
