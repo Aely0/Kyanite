@@ -1656,6 +1656,21 @@ pre:hover .copybutton {
 .receivedText-1Zj5xQ .text-xs-normal-3SiVjE {
   color: var(--hover-bright-color) !important;
 }
+.previewContainer-3BJM_S {
+  background-color: var(--hover-color) !important;
+}
+.previewName-jZBH04 {
+  color: var(--soft-bright-color) !important;
+  background: var(--hover-color) !important;
+  backdrop-filter: blur(10px) !important;
+}
+.previewHover--hT3kb {
+  background: var(--hover-color) !important;
+}
+.previewButton-R2zhrl {
+  background: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
+}
 
 /* Forum channels */
 .container-3wLKDe {
