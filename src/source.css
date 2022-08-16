@@ -1954,7 +1954,7 @@ pre:hover .copybutton {
   border-left-color: var(--soft-bright-color) !important;
 }
 .loadingCard-3pIp9h {
-  background-color: var(--hover-dark-color) !important;
+  background-color: var(--hover-color) !important;
 }
 .enterIcon-3UYB70 {
   fill: var(--soft-bright-color) !important;
@@ -1999,8 +1999,25 @@ pre:hover .copybutton {
 .submitButton-3B-dZd.colorBrand-I6CyqQ.grow-2sR_-F {
   border: 2px solid var(--hover-dark-color) !important;
 }
-.container-2IhveL {
+.container-2IhveL,
+.container-2nXUah {
   background-color: var(--hover-color) !important;
+}
+.icon-2ujrkG {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.cta-1ioHap {
+  color: var(--soft-bright-color) !important;
+}
+.cta-1ioHap .button-3aPhzG {
+  border: 1px solid var(--hover-bright-color) !important;
+  border-radius: 6px !important;
+  padding: 4px 10px !important;
+}
+.cta-1ioHap:hover .button-3aPhzG {
+  border: 1px solid var(--soft-bright-color) !important;
+  transition: border 200ms ease-out !important;
 }
 .tagsButton-2EKn70.lookLink-15mFoz.colorBrand-I6CyqQ:hover .contents-3ca1mk {
   background-image: linear-gradient(
