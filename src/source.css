@@ -2726,6 +2726,27 @@ pre:hover .copybutton {
   background: hsla(0, 0%, 100%, 0.2) !important;
 }
 
+/* Voice channel calls */
+.callContainer-HtHELf {
+  background: transparent !important;
+}
+.participantsRow-3uCoud .text-sm-normal-3Zj3Iv {
+  font-weight: 600 !important;
+}
+.container-1l_891 .joinButton-2KP9ZZ.grow-2sR_-F {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.container-1l_891 .joinButton-2KP9ZZ.grow-2sR_-F:hover {
+  border: 2px solid var(--hover-bright-color) !important;
+  transition: border 200ms ease-out !important;
+}
+.flex-2S1XBF .text-md-normal-304U3g.header-1BxQhu {
+  color: var(--hover-bright-color) !important;
+}
+.inviteBannerUpsell-1t_LYM {
+  background-color: var(--hover-color) !important;
+}
+
 /* Private calls */
 .private-channel-call.minimum .private-channel-call-actions .center {
   background: rgba(0, 0, 0, 0.3) !important;
@@ -3286,6 +3307,7 @@ button[aria-label="Stop Watching"]
 }
 .subtext-2HDqJ7.channel-3prF2u {
   color: var(--hover-bright-color) !important;
+  font-weight: 600 !important;
 }
 .container-1zzFcN .button-12Fmur {
   color: var(--hover-bright-color) !important;
