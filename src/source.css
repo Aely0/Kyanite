@@ -1644,6 +1644,22 @@ pre:hover .copybutton {
   background-color: transparent !important;
   border: 2px solid var(--hover-bright-color) !important;
 }
+.pill-3pRQlO:hover {
+  border: 2px solid var(--soft-bright-color) !important;
+  transition: border 200ms ease-out !important;
+}
+.pill-3pRQlO:hover .defaultColor-24IHKz {
+  color: var(--soft-bright-color) !important;
+  transition: color 200ms ease-out !important;
+}
+.pill-3pRQlO.selected-24z1Ou {
+  background-color: var(--hover-dark-color) !important;
+  border: 2px solid var(--soft-bright-color) !important;
+}
+.pill-3pRQlO.selected-24z1Ou .defaultColor-24IHKz {
+  color: var(--soft-bright-color) !important;
+  transition: color 200ms ease-out !important;
+}
 .reactionBtn-3I19bq.forceShowLook-1zmTr- {
   background-color: var(--hover-color) !important;
   border: 1px solid transparent !important;
@@ -1961,10 +1977,40 @@ pre:hover .copybutton {
   border: 2px solid var(--hover-dark-color) !important;
 }
 .popout-2vZMlk {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  -webkit-box-shadow: var(--hover-color) !important;
-  box-shadow: var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid var(--hover-color) !important;
+}
+.popout-2vZMlk .upload-vLbqu- {
+  background-color: transparent !important;
+}
+.newPostsButton-UaBhcU {
+  background-color: var(--hover-color) !important;
+  border: 2px solid var(--soft-bright-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 6px 16px 8px 16px !important;
+}
+.tagsIcon-1ia6lX {
+  color: var(--soft-bright-color) !important;
+}
+.submitButton-3B-dZd.colorBrand-I6CyqQ.grow-2sR_-F {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.container-2IhveL {
+  background-color: var(--hover-color) !important;
+}
+.tagsButton-2EKn70.lookLink-15mFoz.colorBrand-I6CyqQ:hover .contents-3ca1mk {
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--soft-bright-color) 0,
+    var(--soft-bright-color) 2px,
+    transparent 0
+  ) !important;
 }
 
 /* Select control */
@@ -3617,6 +3663,9 @@ button[aria-label="Stop Watching"]
 }
 .cancelButton-oOSTov:hover {
   color: var(--hover-bright-color) !important;
+}
+.footer-VCsJQY {
+  background-color: transparent !important;
 }
 
 /* File upload (Source Files) */
@@ -9644,9 +9693,11 @@ div[class*="flex-"][class*="title-"],
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.textBadge-1fdDPJ.base-3IDx3L.baseShapeRound-3epLEv {
+.newBadge-1LcB6t.baseShapeRound-3epLEv {
+  background-color: transparent !important;
+}
+.newBadge-1LcB6t .newBadgeText-1y7fMO {
   color: var(--soft-bright-color) !important;
-  background-color: var(--hover-dark-color) !important;
 }
 .premiumIcon-3ZB6PS {
   color: var(--soft-bright-color) !important;
