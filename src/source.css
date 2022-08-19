@@ -3220,7 +3220,7 @@ button[aria-label="Stop Watching"]
 }
 .container-YkUktl .avatarWrapper-1B9FTW {
   border: 2px solid transparent !important;
-  border-radius: 50px !important;
+  border-radius: 6px !important;
 }
 .container-YkUktl .avatarWrapper-1B9FTW:hover {
   border: 2px solid var(--hover-dark-color) !important;
