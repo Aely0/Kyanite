@@ -7592,6 +7592,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Connect Xbox popup */
+.upsellTooltipWrapper-1wqikQ .text-sm-normal-3Zj3Iv {
+  color: var(--soft-bright-color) !important;
+}
+.upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after {
+  border-top-color: var(--main-color) !important;
+}
+
 /* Party Mode popup */
 .content-1rmYE- {
   background-color: var(--main-color) !important;
