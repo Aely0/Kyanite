@@ -8735,6 +8735,14 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   fill: var(--hover-red-bright-color) !important;
 }
 
+/* Element focus */
+.focus-rings-ring {
+  --__adaptive-focus-ring-color: var(--hover-bright-color) !important;
+  -webkit-box-shadow: 0 0 0 4px
+    var(--__adaptive-focus-ring-color, var(--hover-color)) !important;
+  box-shadow: 0 0 0 4px var(--__adaptive-focus-ring-color, var(--hover-color)) !important;
+}
+
 /* Message edit confirmation buttons */
 .operations-3q3u6E > a {
   color: var(--hover-bright-color) !important;
