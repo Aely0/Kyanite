@@ -12313,6 +12313,11 @@ path[fill="rgb(255,216,54)"] {
   color: white !important;
 }
 
+/* Popup dialog */
+.focusLock-2tveLW[aria-labelledby^="uid"] .root-g14mjS {
+  background-color: var(--hover-color) !important;
+}
+
 /* Unknown image */
 img:not(.emote):not(.emoji)::after {
   display: none !important;
