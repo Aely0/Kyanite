@@ -12314,7 +12314,7 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Popup dialog */
-.focusLock-2tveLW[aria-labelledby^="uid"] .root-g14mjS {
+.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]) .root-g14mjS {
   background-color: var(--hover-color) !important;
 }
 
