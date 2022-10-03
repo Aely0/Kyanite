@@ -3757,6 +3757,14 @@ button[aria-label="Stop Watching"]
 .selected-22ukbQ {
   background: var(--hover-color) !important;
 }
+.focusLock-2tveLW[aria-label="Plaintext file previews"] .root-g14mjS,
+.focusLock-2tveLW[aria-label="Plaintext file previews"] .footer-GXWBBp {
+  background-color: transparent !important;
+}
+.focusLock-2tveLW[aria-label="Plaintext file previews"]
+  .modalTextContainer-1FUO2W {
+  border: 1px solid var(--hover-color) !important;
+}
 
 /* Image upload */
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.image-2ssF8k {
@@ -12314,9 +12322,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Popup dialog */
-.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"])
+.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(.focusLock-2tveLW[aria-label="Image"])
   .root-g14mjS:not(.carouselModal-1eUFoq) {
-  background-color: var(--hover-color) !important;
+  background-color: transparent !important;
   backdrop-filter: blur(8px) !important;
 }
 
