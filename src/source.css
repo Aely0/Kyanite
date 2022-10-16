@@ -12324,7 +12324,7 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Popup dialog */
-.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(.focusLock-2tveLW[aria-label="Plaintext file previews"])
+.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(.focusLock-2tveLW[aria-label="Plaintext file previews"]):not(.focusLock-2tveLW[aria-label="Quick switcher"])
   .root-g14mjS:not(.carouselModal-1eUFoq) {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(8px) !important;
