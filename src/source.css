@@ -3956,7 +3956,8 @@ img:not(.emote):not(.emoji)::after {
 .wrapper-22rqw6,
 .wrapper-1NNaWG,
 .wrapper-i1awk3,
-.stickerCategoryShopWrapper-3EnJdQ {
+.stickerCategoryShopWrapper-3EnJdQ,
+#emoji-picker-tab-panel .header-11eigE {
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
 .contentWrapper-3vHNP2 {
