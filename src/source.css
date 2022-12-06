@@ -413,7 +413,9 @@ body::after,
 }
 .react-datepicker
   .react-datepicker__week:first-of-type
-  .react-datepicker__day:not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
+  .react-datepicker__day:not(.react-datepicker__day--disabled):not(
+    .react-datepicker__day--outside-month
+  ) {
   border-top: 1px solid hsla(0, 0%, 100%, 0.04) !important;
   border-bottom: none !important;
 }
@@ -425,7 +427,9 @@ body::after,
 }
 .react-datepicker
   .react-datepicker__week
-  .react-datepicker__day:not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month):last-of-type {
+  .react-datepicker__day:not(.react-datepicker__day--disabled):not(
+    .react-datepicker__day--outside-month
+  ):last-of-type {
   border-right: 1px solid hsla(0, 0%, 100%, 0.04) !important;
 }
 .react-datepicker .react-datepicker__day {
@@ -2235,15 +2239,6 @@ pre:hover .copybutton {
 .sp-container {
   background: rgba(0, 0, 0, 0.7) !important;
   border-color: transparent !important;
-}
-.sp-container,
-.sp-container button,
-.sp-container input,
-.sp-color,
-.sp-hue,
-.sp-clear {
-  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
-    sans-serif !important;
 }
 .sp-picker-container {
   border-color: transparent !important;
@@ -4976,8 +4971,6 @@ img:not(.emote):not(.emoji)::after {
   width: 36px !important;
   top: 42px !important;
   color: hsla(0, 0%, 100%, 0.3) !important;
-  font-family: WhitneyMedium, Whitney, Helvetica Neue, Helvetica, Arial,
-    sans-serif !important;
   font-size: 13px !important;
   text-align: center !important;
 }
@@ -8631,7 +8624,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT {
   color: var(--hover-bright-color) !important;
   border-bottom: none !important;
-  font-family: Whitney !important;
   font-size: 0.82rem !important;
   font-weight: 600 !important;
   display: flex !important;
@@ -8796,7 +8788,9 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   height: 10px !important;
 }
 .message-2CShn3.selected-2LX7Jy,
-.message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv):not(.ephemeral-2nDdnn) {
+.message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv):not(
+    .ephemeral-2nDdnn
+  ) {
   background-color: var(--hover-faint-color) !important;
 }
 .wrapper-15CKyy,
@@ -9703,7 +9697,9 @@ div[class*="flex-"][class*="title-"],
   border-color: var(--soft-bright-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.tabBarItem-1b8RUP.item-3XjbnG:not([style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"]) {
+.tabBarItem-1b8RUP.item-3XjbnG:not(
+    [style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"]
+  ) {
   border-color: transparent !important;
   color: var(--hover-bright-color) !important;
 }
@@ -12362,7 +12358,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Popup dialog */
-.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(.focusLock-2tveLW[aria-label="Plaintext file previews"]):not(.focusLock-2tveLW[aria-label="Quick switcher"])
+.focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(
+    .focusLock-2tveLW[aria-label="Plaintext file previews"]
+  ):not(.focusLock-2tveLW[aria-label="Quick switcher"])
   .root-g14mjS:not(.carouselModal-1eUFoq) {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(8px) !important;
