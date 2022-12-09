@@ -11381,6 +11381,14 @@ div[class*="flex-"][class*="title-"],
   color: var(--red-bright-color) !important;
 }
 
+/* Snowsgiving */
+.snowsgivingLink-1TZi3c:hover {
+  background-color: var(--hover-color) !important;
+}
+.snowsgivingIcon-3d0pr1 > path {
+  fill: var(--hover-bright-color) !important;
+}
+
 /* Links */
 .anchor-1MIwyf,
 .fakeLink-1wGafz {
