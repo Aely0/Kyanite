@@ -11544,7 +11544,8 @@ path[fill="rgb(255,216,54)"] {
 .emptyText-29ycwI {
   color: var(--hover-bright-color) !important;
 }
-.nowPlayingColumn-1eCBCN .defaultColor-1EVLSt.header-Imy05m {
+.nowPlayingColumn-1eCBCN .defaultColor-1EVLSt.header-Imy05m,
+.emptyCard-KDifrB .defaultColor-1EVLSt.emptyHeader-2tT-AY {
   color: var(--hover-bright-color) !important;
 }
 
