@@ -3300,7 +3300,7 @@ button[aria-label="Stop Watching"]
 .activityPanel-9icbyU {
   border-bottom: 1px solid var(--hover-color) !important;
 }
-.defaultColor-HXu-5n,
+.defaultColor-1EVLSt,
 .defaultColor-24IHKz,
 .textContent-TsKzji {
   color: var(--hover-bright-color) !important;
@@ -11318,9 +11318,6 @@ div[class*="flex-"][class*="title-"],
 .searchBar-2aylmZ.medium-2NClDM .input-2m5SfJ {
   color: var(--soft-bright-color) !important;
 }
-.titleWrapper-24Kyzc .defaultColor-1GKx81 {
-  color: var(--hover-bright-color) !important;
-}
 
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
@@ -11542,10 +11539,6 @@ path[fill="rgb(255,216,54)"] {
   background-color: var(--hover-color) !important;
 }
 .emptyText-29ycwI {
-  color: var(--hover-bright-color) !important;
-}
-.nowPlayingColumn-1eCBCN .defaultColor-1EVLSt.header-Imy05m,
-.emptyCard-KDifrB .defaultColor-1EVLSt.emptyHeader-2tT-AY {
   color: var(--hover-bright-color) !important;
 }
 
