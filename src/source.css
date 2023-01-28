@@ -11935,6 +11935,21 @@ path[fill="rgb(255,216,54)"] {
   opacity: 0.6 !important;
 }
 
+/* Devices (User Settings) */
+.sessionIcon-2fwSzb {
+  background: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.session-9khLqt {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.sessionMoreButton-2cApSx {
+  color: var(--hover-bright-color) !important;
+}
+.sessionMoreButton-2cApSx:hover {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Connections (User Settings) */
 .accountBtnInner-3ttD-i,
 .accountList-Wii_T5,
