@@ -3117,6 +3117,9 @@ button[aria-label="Stop Watching"]
   padding: 0 2px 0 !important;
   border: 1px solid var(--hover-color) !important;
 }
+.caret-2MOQD6 {
+  color: var(--hover-bright-color) !important;
+}
 .button-1zW0-r {
   background-color: var(--hover-color) !important;
 }
