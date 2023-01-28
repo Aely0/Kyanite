@@ -12193,7 +12193,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--red-dark-color) !important;
 }
 
-/* Change Log (User Settings) */
+/* What's New (User Settings) */
 .wrapper-1HSdhi {
   color: var(--soft-bright-color) !important;
 }
@@ -12205,9 +12205,10 @@ path[fill="rgb(255,216,54)"] {
   opacity: 0.8 !important;
 }
 .content-FDHp32 strong {
-  color: var(--hover-bright-color) !important;
+  color: var(--soft-bright-color) !important;
 }
-.content-FDHp32 ul li {
+.content-FDHp32 ul li,
+.content-FDHp32 p {
   color: var(--hover-bright-color) !important;
 }
 .added-mQcv9V {
