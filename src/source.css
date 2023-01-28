@@ -6397,7 +6397,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
   background: rgba(0, 0, 0, 0.5) !important;
   pointer-events: none !important;
 }
-.defaultValue-19SZ-q .markValue-2U_-UG {
+.defaultValue-1-QxQ0 .markValue-2U_-UG {
   color: var(--hover-bright-color) !important;
 }
 
@@ -12105,17 +12105,30 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Appearance (User Settings) */
-.markValue-2U_-UG {
+.markValue-21gAVC {
   color: var(--hover-bright-color) !important;
 }
-.markDash-yk2kJ- {
-  background: var(--hover-dark-color) !important;
-}
-.mark-2iakCT.defaultValue-19SZ-q.markAbove-21dc11 .markValue-2U_-UG {
+.mark-3BqK0R.defaultValue-1-QxQ0.markAbove-1tF6yT .markValue-21gAVC {
   color: var(--soft-bright-color) !important;
 }
-.mark-2iakCT.defaultValue-19SZ-q.markAbove-21dc11 .markDash-yk2kJ- {
+.mark-3BqK0R.defaultValue-1-QxQ0.markAbove-1tF6yT .markDash-1ATsxA {
   background: var(--soft-bright-color) !important;
+}
+.bar-2H7Q9u,
+.markDash-1ATsxA {
+  background: var(--hover-dark-color) !important;
+}
+.bar-2H7Q9u .barFill-3RgCsY {
+  background: var(--hover-bright-color) !important;
+}
+.mark-3BqK0R.markAbove-1tF6yT {
+  color: var(--soft-bright-color) !important;
+}
+.grabber-3R-Rx9 {
+  background-color: var(--soft-bright-color) !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* Accessibility (User Settings) */
