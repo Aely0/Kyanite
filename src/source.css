@@ -11568,8 +11568,11 @@ path[fill="rgb(255,216,54)"] {
 
 /* Settings */
 .theme-dark .defaultColor-2cKwKo,
-.theme-dark .title-2dsDLn,
+.theme-dark .title-lXcL8p,
 .theme-dark .radioGroup-1GBvlr,
+.h5-2feg8J,
+.label-7akf7-,
+.legend-3BgtI3,
 .sidebar-nqHbhN .header-2Kx1US {
   color: var(--soft-bright-color) !important;
 }
@@ -11603,6 +11606,10 @@ path[fill="rgb(255,216,54)"] {
 }
 .info-3pQQBb .line-18uChy {
   color: var(--hover-bright-color) !important;
+}
+.divider-1bpIoX,
+.tabBar-11FwuO {
+  border-bottom: 1px solid var(--hover-color) !important;
 }
 
 /* Server Profile */
@@ -11678,6 +11685,55 @@ path[fill="rgb(255,216,54)"] {
 }
 .bannerNitroUpsell-3f4I57 {
   background-color: var(--hover-color) !important;
+}
+
+/* Profiles (User Settings) */
+.divider-3nqZNm {
+  border-top: thin solid var(--hover-color) !important;
+}
+.premiumBackground-34OIdE,
+.tryItOutSection-W9qeGH {
+  background: transparent !important;
+}
+.editPencilIcon-22tRaH > path {
+  fill: var(--soft-bright-color) !important;
+}
+.lookFilled-GPyucw.select-Zz0IcO,
+.inputDefault-Ciwd-S.input-3O04eu {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.searchInput-2-KiNf {
+  color: var(--soft-bright-color) !important;
+}
+.searchInput-2-KiNf::placeholder,
+.inputDefault-Ciwd-S.input-3O04eu::placeholder {
+  color: var(--hover-bright-color) !important;
+}
+.dropdownIcon-2sYF18 > path {
+  fill: var(--hover-bright-color) !important;
+}
+.popout-15UxD6 {
+  border: 1px solid var(--hover-color) !important;
+  background: var(--hover-color) !important;
+  backdrop-filter: blur(40px) !important;
+}
+.option-Uc12mm[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4) {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.option-Uc12mm:hover {
+  background-color: var(--hover-color) !important;
+}
+.option-Uc12mm {
+  color: var(--hover-bright-color) !important;
+}
+.selectedIcon-122rMx > circle {
+  fill: var(--soft-bright-color) !important;
+}
+.selectedIcon-122rMx > g {
+  color: transparent !important;
 }
 
 /* Edit username (User Settings > My Account) */
@@ -12374,6 +12430,9 @@ path[fill="rgb(255,216,54)"] {
   .root-g14mjS:not(.carouselModal-1eUFoq) {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(8px) !important;
+}
+.message-3C6JQ1 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Unknown image */
