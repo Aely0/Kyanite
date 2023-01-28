@@ -11951,16 +11951,22 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Connections (User Settings) */
-.accountBtnInner-3ttD-i,
+.accountButtonInner-33vCDY,
+.accountBtnInner-1DCgBm,
 .accountList-Wii_T5,
-.connection-YOVI9j {
+.connection-YOVI9j,
+.connectContainer-1hylYM {
   background-color: var(--hover-color) !important;
   border-color: transparent !important;
+}
+.accountButtonInner-33vCDY > svg > g > polygon[fill="currentColor"] {
+  fill: var(--soft-bright-color) !important;
 }
 .connectionHeader-Ixbb1s {
   background-color: transparent !important;
 }
-.integration-1qC-fv {
+.integration-1qC-fv,
+.metadataContainer-35U-On {
   background-color: var(--hover-color) !important;
 }
 .connectionHeader-Ixbb1s .connectionAccountValue-3gVX0m {
