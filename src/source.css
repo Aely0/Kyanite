@@ -9064,6 +9064,7 @@ div[class*="scroller"].channel-members {
 
 /* Thread/Forum resize handle */
 .resizeHandle-PBRzPC {
+  background-color: transparent !important;
   width: 4px !important;
 }
 .resizeHandle-PBRzPC:hover,
