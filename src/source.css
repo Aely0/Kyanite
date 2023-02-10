@@ -3924,19 +3924,6 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Emoji/Stickers tab */
-.emote::after,
-.emoji::after {
-  content: "" !important;
-  position: absolute !important;
-  top: -1px !important;
-  right: -1px !important;
-  bottom: -1px !important;
-  left: -1px !important;
-  background-color: #222 !important;
-  border: 2px dashed rgba(0, 0, 0, 0.3) !important;
-  box-sizing: border-box !important;
-  border-radius: 3px !important;
-}
 .emojiPicker-3m1S-j .header-1nkwgG {
   border-bottom: 1px solid var(--main-color) !important;
 }
