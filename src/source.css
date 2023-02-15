@@ -9852,18 +9852,7 @@ div[class*="flex-"][class*="title-"],
 .lookFilled-1H2Jvj.colorRed-2VFhM4:hover {
   border-color: var(--hover-red-bright-color) !important;
 }
-.button-f2h6uQ.lookOutlined-3RTC7c.colorRed-2VFhM4.sizeSmall-3R2P2p.grow-2T4nbg
-  .contents-3ca1mk,
-.disableButton-3BR0Vj.button-f2h6uQ.lookFilled-1H2Jvj.colorRed-2VFhM4.sizeSmall-3R2P2p.grow-2T4nbg
-  .contents-3ca1mk,
-.button-f2h6uQ.lookOutlined-3RTC7c.colorRed-2VFhM4.sizeMedium-2bFIHr.grow-2T4nbg
-  .contents-3ca1mk,
-.button-f2h6uQ.lookFilled-1H2Jvj.colorRed-2VFhM4.sizeSmall-3R2P2p.grow-2T4nbg
-  .contents-3ca1mk,
-.button-f2h6uQ.lookFilled-1H2Jvj.colorRed-2VFhM4.sizeMedium-2bFIHr.grow-2T4nbg
-  .contents-3ca1mk,
-.button-f2h6uQ.lookLink-13iF2K.colorRed-2VFhM4.sizeMin-DfpWCE.grow-2T4nbg
-  .contents-3ca1mk {
+.button-f2h6uQ.colorRed-2VFhM4 .contents-3ca1mk {
   color: var(--red-bright-color) !important;
 }
 .button-f2h6uQ.lookLink-13iF2K.colorPrimary-2-Lusz.sizeMedium-2bFIHr.grow-2T4nbg {
@@ -9888,6 +9877,12 @@ div[class*="flex-"][class*="title-"],
   color: var(--green-bright-color) !important;
   border: 1px solid var(--hover-green-dark-color) !important;
   transition: border-color 0.6s ease !important;
+}
+.shinyButton-2Q9MDB,
+.buttonWhite-hd8TaT {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+  border: 1px solid var(--soft-bright-color) !important;
 }
 
 /* Pinned messages */
