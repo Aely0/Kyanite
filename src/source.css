@@ -9850,14 +9850,14 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .watchButton-2v6cPT:hover {
   color: var(--soft-bright-color) !important;
   border-color: var(--hover-bright-color) !important;
-  transition: border-color 0.6s ease !important;
+  transition: all 200ms ease !important;
 }
 .lookOutlined-3RTC7c.colorRed-2VFhM4,
 .lookFilled-1H2Jvj.colorRed-2VFhM4 {
   color: var(--red-bright-color) !important;
   border: 1px solid var(--hover-red-dark-color) !important;
   background: transparent !important;
-  transition: border-color 0.6s ease !important;
+  transition: all 200ms ease !important;
 }
 .lookOutlined-3RTC7c.colorRed-2VFhM4:hover,
 .lookFilled-1H2Jvj.colorRed-2VFhM4:hover {
@@ -9881,13 +9881,13 @@ div[class*="flex-"][class*="title-"],
 }
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover {
   background-color: transparent !important;
-  border: 1px solid var(--hover-green-bright-color) !important;
+  border: 1px solid var(--soft-bright-color) !important;
 }
 .lookFilled-1H2Jvj.colorGreen-jIPCAS {
   background-color: transparent !important;
-  color: var(--green-bright-color) !important;
-  border: 1px solid var(--hover-green-dark-color) !important;
-  transition: border-color 0.6s ease !important;
+  color: var(--soft-bright-color) !important;
+  border: 1px solid var(--hover-bright-color) !important;
+  transition: all 200ms ease !important;
 }
 .shinyButton-2Q9MDB,
 .buttonWhite-hd8TaT {
