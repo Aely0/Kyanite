@@ -1342,12 +1342,13 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.wrapper-x4po40 {
+.iconWrapper-XpfprW {
   background-color: var(--hover-dark-color) !important;
+  color: var(--soft-bright-color) !important;
   opacity: 0.5 !important;
   transition: ease-out 200ms !important;
 }
-.wrapper-x4po40:hover {
+.iconWrapper-XpfprW:hover {
   opacity: 0.6 !important;
 }
 .iconWrapperActive-LhB4mn.iconWrapper-1lfhOx,
@@ -1357,6 +1358,14 @@ pre:hover .copybutton {
 }
 .clickable-LksVCf.embedVideoImageComponent-3Clc3C {
   z-index: 0 !important;
+}
+.hoverButtonGroup-2yZIzC {
+  background-color: var(--hover-color) !important;
+  transition: ease-out 400ms !important;
+}
+.hoverButton-36QWJk:hover,
+.keyboard-mode .hoverButton-36QWJk:focus {
+  background-color: transparent !important;
 }
 
 /* Channel text area glow */
