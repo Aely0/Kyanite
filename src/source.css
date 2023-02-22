@@ -1342,13 +1342,15 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
-.iconWrapper-XpfprW {
+.iconWrapper-XpfprW,
+.wrapper-x4po40 {
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
-  opacity: 0.5 !important;
+  opacity: 0.4 !important;
   transition: ease-out 200ms !important;
 }
-.iconWrapper-XpfprW:hover {
+.iconWrapper-XpfprW:hover,
+.wrapper-x4po40:hover {
   opacity: 0.6 !important;
 }
 .iconWrapperActive-LhB4mn.iconWrapper-1lfhOx,
