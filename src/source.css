@@ -4015,15 +4015,15 @@ img:not(.emote):not(.emoji)::after {
 .guildCategorySeparator-3QYkij {
   border-bottom: 1px solid var(--hover-color) !important;
 }
-.navItem-3McpmW .contents-3ca1mk {
+.navItem-3McpmW .contents-3NembX {
   color: var(--hover-bright-color) !important;
   border-radius: 4px !important;
   padding: 2px 8px !important;
 }
-.navItem-3McpmW .contents-3ca1mk:hover {
+.navItem-3McpmW .contents-3NembX:hover {
   background-color: var(--hover-color) !important;
 }
-.navButtonActive-1EqC5l .contents-3ca1mk {
+.navButtonActive-1EqC5l .contents-3NembX {
   color: var(--soft-bright-color) !important;
 }
 .navList-YSb9UB {
