@@ -1369,6 +1369,12 @@ pre:hover .copybutton {
 .keyboard-mode .hoverButton-36QWJk:focus {
   background-color: transparent !important;
 }
+.downloadHoverButtonIcon-16xasX {
+  color: var(--soft-bright-color) !important;
+}
+.removeAttachmentHoverButton-3gHROs {
+  color: var(--hover-red-bright-color) !important;
+}
 
 /* Channel text area glow */
 .channel-textarea-inner {
