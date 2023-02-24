@@ -1083,6 +1083,26 @@ pre:hover .copybutton {
   color: var(--soft-bright-color) !important;
 }
 
+/* Obfuscated link popup */
+.noWrap-hBpHBz.content-Z3Xihu > div > strong {
+  color: var(--soft-bright-color) !important;
+}
+.footer-31IekZ > div > div {
+  color: var(--soft-bright-color) !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
+/* Loading animations */
+.wanderingCubes-2A046F .item-2VgEex {
+  background-color: var(--soft-bright-color) !important;
+}
+.path-_o_4bT,
+.path2-6i8gUh,
+.path3-3TAamH {
+  stroke: var(--soft-bright-color) !important;
+}
+
 /* Messages popout */
 .themed-popout {
   background-color: rgba(0, 0, 0, 0.85) !important;
@@ -11314,22 +11334,6 @@ div[class*="flex-"][class*="title-"],
   fill: var(--hover-bright-color) !important;
 }
 
-/* Links */
-.anchor-1MIwyf,
-.fakeLink-1wGafz {
-  color: var(--soft-bright-color) !important;
-}
-
-/* Obfuscated link popup */
-.noWrap-hBpHBz.content-Z3Xihu > div > strong {
-  color: var(--soft-bright-color) !important;
-}
-.footer-31IekZ > div > div {
-  color: var(--soft-bright-color) !important;
-  font-weight: 600 !important;
-  opacity: 1 !important;
-}
-
 /* Brand colored button */
 .lookOutlined-3RTC7c.colorBrand-2M3O3N {
   color: var(--soft-bright-color) !important;
@@ -12216,6 +12220,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* What's New (User Settings) */
+.rootWithShadow-5gdwPA {
+  background-color: transparent !important;
+}
 .wrapper-1HSdhi {
   color: var(--soft-bright-color) !important;
 }
@@ -12391,7 +12398,7 @@ path[fill="rgb(255,216,54)"] {
 .focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(
     .focusLock-2tveLW[aria-label="Plaintext file previews"]
   ):not(.focusLock-2tveLW[aria-label="Quick switcher"])
-  .root-g14mjS:not(.carouselModal-1eUFoq) {
+  .root-g14mjS:not(.carouselModal-1eUFoq):not(.rootWithShadow-5gdwPA) {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(8px) !important;
 }
