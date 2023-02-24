@@ -1074,6 +1074,13 @@ pre:hover .copybutton {
   margin-left: 0px !important;
 }
 
+/* Links */
+.markup-eYLPri a,
+.topic-11NuQZ a,
+.downloadLink-3cavAH {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Messages popout */
 .themed-popout {
   background-color: rgba(0, 0, 0, 0.85) !important;
