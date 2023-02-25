@@ -3713,14 +3713,13 @@ button[aria-label="Stop Watching"]
 .downloadButton-2HLFWN {
   color: var(--soft-bright-color) !important;
 }
+.nonMediaAttachment-3C_4Pd {
+  outline: none !important;
+}
 .filename-1r50Xu,
 .destination-YLLTZP strong,
 .label-21vOgf {
   color: var(--soft-bright-color) !important;
-}
-.uploadModal-2ie9O_ {
-  border: 1px solid var(--hover-color) !important;
-  border-radius: 4px !important;
 }
 .uploadModal-2ie9O_ .footer-VCsJQY {
   -webkit-box-shadow: none !important;
