@@ -1079,7 +1079,8 @@ pre:hover .copybutton {
 .fileNameLink-1odyIc,
 .markup-eYLPri a,
 .topic-11NuQZ a,
-.downloadLink-3cavAH {
+.downloadLink-3cavAH,
+.fakeLink-1wGafz {
   color: var(--soft-bright-color) !important;
 }
 
@@ -4305,7 +4306,7 @@ img:not(.emote):not(.emoji)::after {
   fill: var(--soft-bright-color) !important;
 }
 
-/* Recent mentions tab */
+/* Inbox tab */
 .theme-dark .footer-5ji8u1 {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
@@ -4332,6 +4333,32 @@ img:not(.emote):not(.emoji)::after {
 }
 .protip-3Kd73Y {
   color: var(--soft-bright-color) !important;
+}
+.friendRequestsButton-77veU7 {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+  border-radius: 8px !important;
+}
+.friendRequestsButton-77veU7
+  .numberBadge-37OJ3S.base-3IDx3L.baseShapeRound-3epLEv {
+  background-color: transparent !important;
+}
+.inboxIcon-1XO7FO {
+  color: var(--hover-bright-color) !important;
+}
+.container-1A0qQO,
+.header-145e10.header-1w9Q93 {
+  background-color: transparent !important;
+}
+.recentMentionsPopout-2bI1ZN {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.row-7jGzPR .mask-1TJ4vP {
+  display: none !important;
+}
+.row-7jGzPR:hover {
+  background-color: var(--hover-color) !important;
 }
 
 /* Checkbox (roles) */
