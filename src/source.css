@@ -10792,6 +10792,9 @@ div[class*="flex-"][class*="title-"],
 .searchBar-2aylmZ.medium-2NClDM .input-2m5SfJ {
   color: var(--soft-bright-color) !important;
 }
+.addFriendInputWrapper-kkoSV9 .inputDefault-Ciwd-S.input-3O04eu {
+  background-color: transparent !important;
+}
 
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon-1ObKXK.icon-2xnN2Y {
@@ -11101,6 +11104,13 @@ path[fill="rgb(255,216,54)"] {
 }
 .fakeActivityIcon-KeXVoI.phibi-3Bl5zI {
   background-color: var(--main-color) !important;
+}
+.select-Zz0IcO.lookFilled-GPyucw {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+.inputDefault-Ciwd-S.input-3O04eu {
+  background-color: var(--hover-color) !important;
 }
 
 /* User Settings (Save Changes) */
