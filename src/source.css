@@ -11785,8 +11785,10 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* What's New (User Settings) */
-.rootWithShadow-5gdwPA {
+.rootWithShadow-2hdL2J,
+.footer-IubaaS {
   background-color: transparent !important;
+  box-shadow: none !important;
 }
 .wrapper-1HSdhi {
   color: var(--soft-bright-color) !important;
@@ -11963,7 +11965,7 @@ path[fill="rgb(255,216,54)"] {
 .focusLock-2tveLW:not(.focusLock-2tveLW[aria-label="Image"]):not(
     .focusLock-2tveLW[aria-label="Plaintext file previews"]
   ):not(.focusLock-2tveLW[aria-label="Quick switcher"])
-  .root-g14mjS:not(.carouselModal-1eUFoq):not(.rootWithShadow-5gdwPA) {
+  .root-g14mjS:not(.carouselModal-1eUFoq):not(.rootWithShadow-2hdL2J) {
   background-color: var(--hover-color) !important;
   backdrop-filter: blur(8px) !important;
 }
