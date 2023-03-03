@@ -683,69 +683,6 @@ body::after,
 }
 
 /* Tooltip */
-.tooltip-1OS-Ti.black-2bmmnj,
-.tooltip,
-.tooltip.tooltip-error {
-  position: absolute !important;
-  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1) !important;
-  border-radius: 3px !important;
-  font-weight: 600 !important;
-  font-size: 12px !important;
-  color: #fff !important;
-  z-index: 1002 !important;
-  max-width: 160px !important;
-  box-sizing: border-box !important;
-  word-wrap: break-word !important;
-  padding: 5px 10px !important;
-}
-.tooltip.tooltip-top::after,
-.tooltip.tooltip-top.tooltip-error::after {
-  position: absolute !important;
-  top: 100% !important;
-  left: 50% !important;
-  margin-left: -5px !important;
-  border-top-color: var(--main-color) !important;
-}
-.tooltip.tooltip-right::after,
-.tooltip.tooltip-right.tooltip-error::after {
-  position: absolute !important;
-  right: 100% !important;
-  top: 50% !important;
-  border-right-color: var(--main-color) !important;
-  margin-top: -5px !important;
-}
-.tooltip.tooltip-bottom::after,
-.tooltip.tooltip-bottom.tooltip-error::after {
-  position: absolute !important;
-  bottom: 100% !important;
-  left: 50% !important;
-  border-bottom-color: var(--main-color) !important;
-  margin-left: -5px !important;
-}
-.tooltip.tooltip-left::after,
-.tooltip.tooltip-left.tooltip-error::after {
-  position: absolute !important;
-  left: 100% !important;
-  top: 50% !important;
-  border-left-color: var(--main-color) !important;
-  margin-top: -5px !important;
-}
-.theme-dark .tooltipBlack-vMYxvw {
-  color: var(--soft-bright-color) !important;
-  background-color: var(--main-color) !important;
-}
-.theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb,
-.theme-light .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
-  border-top-color: var(--main-color) !important;
-}
-.tooltipGreen-oouJdx {
-  color: var(--soft-bright-color) !important;
-  background-color: var(--main-color) !important;
-}
-.tooltipGreen-oouJdx .tooltipPointer-3L49xb {
-  border-top-color: var(--main-color) !important;
-}
 .subscribeTooltipWrapper-32-Ce8 {
   background-color: var(--hover-color) !important;
   -webkit-box-shadow: var(--hover-color) !important;
@@ -762,11 +699,13 @@ body::after,
 .tooltip-14MtrL {
   color: var(--soft-bright-color) !important;
 }
-.tooltipPrimary-3qLMbS {
-  background-color: var(--main-color) !important;
+.tooltipPrimary-2466a2 {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(40px) !important;
 }
-.theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-  border-top-color: var(--main-color) !important;
+.tooltipPrimary-2466a2 .tooltipPointer-sMBQqe {
+  border-top-color: var(--hover-color) !important;
 }
 
 /* Tooltip Green */
