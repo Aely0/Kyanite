@@ -8267,10 +8267,10 @@ img:not(.emote):not(.emoji)::after {
   background: var(--hover-color) !important;
 }
 .replyLabel-WWnhHi,
-.colorLink-12GX9V.mentionButton-3C5YMI {
+.mentionButton-3C5YMI[style="color: var(--text-link);"] {
   color: var(--soft-bright-color) !important;
 }
-.colorMuted-1jNaVo.mentionButton-3C5YMI {
+.mentionButton-3C5YMI[style="color: var(--text-muted);"] {
   color: var(--hover-bright-color) !important;
   opacity: 0.6 !important;
 }
