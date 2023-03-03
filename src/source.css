@@ -4360,6 +4360,17 @@ img:not(.emote):not(.emoji)::after {
 .row-7jGzPR:hover {
   background-color: var(--hover-color) !important;
 }
+.themed-qqoYp3,
+.text-md-normal-2rFCH3 {
+  color: var(--hover-bright-color) !important;
+}
+.themed-qqoYp3:hover,
+.selected-1sf9UK {
+  color: var(--soft-bright-color) !important;
+}
+.unread-O4ZgUu {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
