@@ -2176,6 +2176,29 @@ pre:hover .copybutton {
 [style="color: var(--text-positive);"] {
   color: var(--soft-bright-color) !important;
 }
+.eventCard-2ZL9GD {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(4px) !important;
+  border: none !important;
+}
+.newBadgeText-2Yqi08 {
+  color: var(--soft-bright-color) !important;
+}
+.top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover {
+  border-bottom-color: var(--hover-bright-color) !important;
+  background-color: transparent !important;
+}
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
+.top-Ktfr_T .themed-qqoYp3.item-2GWPIy:active {
+  border-bottom-color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+}
+.interactiveRow-ALfmDn:hover {
+  background-color: var(--hover-color) !important;
+}
+.container-3EBHNg {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Notification settings */
 .icon-qThCQ9.lighten-_eaPS6 {
