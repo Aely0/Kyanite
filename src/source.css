@@ -11691,6 +11691,15 @@ path[fill="rgb(255,216,54)"] {
   -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
   box-shadow: inset 0 -1px 0 var(--hover-color) !important;
 }
+.key-RP8gj3 {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+  box-shadow: inset 0 -4px 0 var(--hover-color) !important;
+}
+.bindArrow-L3Mvw5 g {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Activity status (User Settings) */
 .activeGame-1OdxzI.notDetected-M3Ghh2 {
