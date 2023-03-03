@@ -5314,6 +5314,9 @@ img:not(.emote):not(.emoji)::after {
 .ui-scroller-wrap.ui-scroller-track > .scroller::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
+.auto-2TJ1RH::-webkit-scrollbar {
+  width: 14px !important;
+}
 
 /* User profile */
 #user-profile-modal .scroller {
