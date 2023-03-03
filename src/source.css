@@ -12504,6 +12504,12 @@ img:not(.emote):not(.emoji)::after {
 .checkbox-1LuCGM.checked-22NTbO > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.colorDefault-2_rLdz .checkbox-397WsK {
+  color: transparent !important;
+}
+.colorDefault-2_rLdz .check-3-73a4 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Modded/Corrupted Discord banner */
 .noticeDanger-7u-yT9 {
