@@ -5315,7 +5315,7 @@ img:not(.emote):not(.emoji)::after {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 .auto-2TJ1RH::-webkit-scrollbar {
-  width: 14px !important;
+  width: 12px !important;
 }
 
 /* User profile */
