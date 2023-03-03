@@ -11407,8 +11407,10 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Authorized apps (User Settings) */
-.cardPrimary-3qRT__.card-16VQ8C {
-  background-color: var(--hover-color) !important;
+.formNotice-1JW4h2.card-2guEcY,
+.cardPrimary-pAe8Ed.card-2guEcY {
+  background-color: transparent !important;
+  border: none !important;
 }
 .theme-dark .text-27cdrj,
 .theme-dark .title-2CL_z0 {
