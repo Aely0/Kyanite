@@ -702,7 +702,7 @@ body::after,
 .tooltipPrimary-2466a2 {
   color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
-  backdrop-filter: blur(40px) !important;
+  backdrop-filter: brightness(4%) !important;
 }
 .tooltipPrimary-2466a2 .tooltipPointer-sMBQqe {
   border-top-color: var(--hover-color) !important;
