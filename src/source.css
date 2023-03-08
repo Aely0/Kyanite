@@ -708,6 +708,23 @@ body::after,
   border-top-color: var(--hover-color) !important;
 }
 
+/* Tooltip Brand */
+.tooltipBrand-uKW6Xn {
+  color: var(--soft-bright-color) !important;
+  background: linear-gradient(
+    90deg,
+    var(--hover-color) 0%,
+    var(--hover-dark-color) 100%
+  ) !important;
+  backdrop-filter: brightness(10%) !important;
+}
+.tooltipText-2kLmrq {
+  color: var(--soft-bright-color) !important;
+}
+.tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe {
+  border-top-color: var(--hover-color) !important;
+}
+
 /* Tooltip Green */
 .tooltipGreen-oouJdx {
   color: var(--soft-bright-color) !important;
