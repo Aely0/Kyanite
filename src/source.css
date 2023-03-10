@@ -8867,7 +8867,6 @@ div[class*="flex-"][class*="title-"],
   box-shadow: var(--hover-color) !important;
   background: rgba(0, 0, 0, 0.8) !important;
   border: 1px solid var(--hover-color) !important;
-  backdrop-filter: blur(8px) !important;
 }
 
 /* Disabled message bar */
