@@ -701,11 +701,10 @@ body::after,
 }
 .tooltipPrimary-2466a2 {
   color: var(--soft-bright-color) !important;
-  background-color: var(--hover-color) !important;
-  backdrop-filter: brightness(4%) !important;
+  background-color: var(--main-color) !important;
 }
 .tooltipPrimary-2466a2 .tooltipPointer-sMBQqe {
-  border-top-color: var(--hover-color) !important;
+  border-top-color: var(--main-color) !important;
 }
 
 /* Tooltip Brand */
@@ -4166,6 +4165,7 @@ img:not(.emote):not(.emoji)::after {
 /* Emoji info */
 .clickCTA-1bk0UN {
   color: var(--hover-bright-color) !important;
+  font-weight: 500 !important;
 }
 .emojiSection-3QtaWO,
 .guildSection-2Zyzy8 {
@@ -4177,10 +4177,9 @@ img:not(.emote):not(.emoji)::after {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-.showMoreEmojis-1K08_X {
-  color: var(--soft-bright-color) !important;
-}
-.emojiSection-3QtaWO .emojiName-3KEqts {
+.showMoreEmojis-1K08_X,
+.emojiSection-3QtaWO .emojiName-3KEqts,
+.emojiSection-3QtaWO .overflow-1wOqNV {
   color: var(--soft-bright-color) !important;
 }
 .emojiSection-3QtaWO .colorStandard-21JIj7 {
@@ -8865,7 +8864,7 @@ div[class*="flex-"][class*="title-"],
 .submenu-3ycVEH {
   -webkit-box-shadow: var(--hover-color) !important;
   box-shadow: var(--hover-color) !important;
-  background: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0, 0, 0, 0.85) !important;
   border: 1px solid var(--hover-color) !important;
 }
 
