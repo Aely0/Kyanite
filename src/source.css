@@ -1596,6 +1596,29 @@ pre:hover .copybutton {
   color: var(--hover-bright-color) !important;
 }
 
+/* Server Guide */
+.welcomeMessageContent-1ZqlKh span,
+.adminUsernameContainer-3euuky .defaultColor-1EVLSt {
+  color: var(--soft-bright-color) !important;
+}
+.userCardInner-2VgttK {
+  background-color: var(--hover-dark-color) !important;
+}
+.avatarBackground-2PaDOT,
+.avatarBorder-20IrEw {
+  background-color: transparent !important;
+}
+.sidebarCardWrapper-34oCuK,
+.row--LCpto {
+  background-color: var(--hover-color) !important;
+}
+.guildInfo-qvSBPv {
+  color: var(--soft-bright-color) !important;
+}
+.guildInfo-qvSBPv .dotOnline-X29jV2 {
+  background-color: var(--soft-bright-color) !important;
+}
+
 /* Channels & Roles */
 .tabBar-1_P75h {
   border-bottom: 2px solid var(--hover-color) !important;
