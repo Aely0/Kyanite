@@ -4937,40 +4937,9 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Group DM */
-.private-channel-recipients-invite .body .scroller {
-  height: 300px !important;
-  width: 192px !important;
-}
-.private-channel-recipients-invite .friend {
-  background: transparent !important;
-}
-.search-bar-tag {
-  background: hsla(0, 0%, 100%, 0.07) !important;
-}
-.search-bar-tag:hover {
-  background: hsla(0, 0%, 100%, 0.15) !important;
-}
-.private-channel-recipients-invite .footer button,
-.private-channel-recipients-invite .error-state.not-friends .btn {
-  background-color: var(--main-color) !important;
-  -webkit-transition: all 0.3s ease-in-out !important;
-  transition: all 0.3s ease-in-out !important;
-}
-.private-channel-recipients-invite .footer button:hover,
-.private-channel-recipients-invite .error-state.not-friends .btn:hover {
-  background-color: var(--hover-color) !important;
-}
-.private-channel-recipients-invite .footer button:disabled {
-  background: hsla(0, 0%, 100%, 0.1) !important;
-  opacity: 0.3 !important;
-  cursor: not-allowed !important;
-}
-.private-channel-recipients-invite .error-state.not-friends .icon,
-.private-channel-recipients-invite .error-state.search-results .icon {
-  display: none !important;
-}
-.private-channel-recipients-invite .error-state .text {
-  color: #999 !important;
+.layer-2BGhQ8 {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 2px solid var(--hover-color) !important;
 }
 .discordTag-2ke74W.nameTag-H6kSJ0 {
   color: var(--hover-bright-color) !important;
@@ -7652,6 +7621,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .theme-dark .message-G6O-Wv {
   background-color: var(--hover-color) !important;
+  box-shadow: none !important;
 }
 .spacing-2kYqCu {
   font-weight: 500 !important;
