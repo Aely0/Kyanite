@@ -8778,6 +8778,7 @@ div[class*="flex-"][class*="title-"],
   background-color: rgba(0, 0, 0, 0.5) !important;
   border: 1px solid var(--main-color) !important;
   border-radius: 5px !important;
+  padding-bottom: 1px !important;
 }
 .channelTextArea-1FufC0 {
   background-color: transparent !important;
