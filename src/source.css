@@ -2154,6 +2154,59 @@ pre:hover .copybutton {
     transparent 0
   ) !important;
 }
+.guidelinesButton-3Vrz0u {
+  color: var(--hover-bright-color) !important;
+}
+.matchingPostsRow-2IiEQ1 {
+  background-color: var(--hover-color) !important;
+}
+.startPostHelp-RNMDiS .text-xs-normal-3O7EaX {
+  color: var(--hover-bright-color) !important;
+}
+.formContainer-1zrOWf .inputDefault-Ciwd-S.input-3O04eu,
+.container-2oNtJn {
+  background-color: transparent !important;
+}
+.container-2kTWmC.scroller-1h6YN5 {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 2px solid var(--hover-color) !important;
+}
+.searchWithScrollbar-2PoZTD .input-2m5SfJ {
+  border-radius: 4px !important;
+}
+.item-1Mjtru:hover,
+.selected-3xdT87 {
+  background-color: var(--hover-color) !important;
+}
+.sortDropdown-hY93nR,
+.tagsButton-4pwOKH,
+.divider-2bkesd {
+  background-color: var(--hover-color) !important;
+}
+.sortDropdownInner-1kHAUi,
+.tagsButtonInner-2pvSm1,
+.radioSelection-3PDNAQ {
+  color: var(--soft-bright-color) !important;
+}
+.container-3kfp0r {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 2px solid var(--hover-color) !important;
+  box-shadow: none !important;
+}
+.separator-13F3xT {
+  border-top: 1px solid var(--hover-color) !important;
+}
+.clear-2gkgln.button-ejjZWC.lookLink-13iF2K .text-sm-medium-2-Xzsi {
+  color: var(--soft-bright-color) !important;
+}
+.countContainer-3DOo5v,
+.countContainer-3uQ087 {
+  background-color: transparent !important;
+}
+.countText-35ewVE,
+.countText-1d5thl {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Select control */
 .Select-control {
@@ -4067,7 +4120,6 @@ img:not(.emote):not(.emoji)::after {
 .diversitySelectorOptions-3DhNYs,
 .emojiPicker-6YCk8a,
 .container-1SX9VC,
-.container-2oNtJn,
 .wrapper-22rqw6,
 .wrapper-1NNaWG,
 .wrapper-i1awk3,
