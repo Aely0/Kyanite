@@ -6142,9 +6142,8 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--hover-color) !important;
 }
 .theme-dark .elevationHigh-28Pty4 {
-  background-color: var(--hover-color) !important;
-  border: 1px solid var(--hover-color) !important;
-  backdrop-filter: blur(20px) !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 4px solid var(--hover-bright-color) !important;
 }
 
 /* Options Menu Descriptions */
@@ -11285,7 +11284,6 @@ path[fill="rgb(255,216,54)"] {
 }
 .avatar-3mTjvZ {
   background-color: transparent !important;
-  border: 7px solid var(--hover-color) !important;
 }
 .userTag-2qPxEZ.nameTag-H6kSJ0 .username-3JLfHz {
   color: var(--soft-bright-color) !important;
@@ -11551,6 +11549,19 @@ path[fill="rgb(255,216,54)"] {
 }
 .selectedIcon-122rMx > g {
   color: transparent !important;
+}
+.button-ejjZWC.lookLink-13iF2K .contents-3NembX > span {
+  color: var(--soft-bright-color) !important;
+}
+.customColorPicker-C_jddW {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.icon-2xnN2Y {
+  color: var(--hover-bright-color) !important;
+}
+.suggestedColor-2q1U7c {
+  border: 1px solid var(--hover-color) !important;
 }
 
 /* Privacy & Safety (User Settings) */
