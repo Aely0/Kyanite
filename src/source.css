@@ -348,6 +348,26 @@ body::after,
   background-color: var(--hover-color) !important;
   border: 1px solid var(--hover-color) !important;
 }
+.channelNameText-2q3Lge,
+.channelNameIcon-2d0YcP,
+.parentChannelNameIcon-3ziOpg {
+  color: var(--hover-bright-color) !important;
+}
+.pageButton-uta6J3.activeButton-2K2Fwx,
+.pageButton-uta6J3:hover {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+}
+.pageButton-uta6J3 {
+  color: var(--hover-bright-color) !important;
+}
+.button-ejjZWC:hover {
+  background-color: var(--hover-color) !important;
+}
+.inputMini-30Nl9m.input-3O04eu {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
 
 /* Search */
 .search .search-bar {
