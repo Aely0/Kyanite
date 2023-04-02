@@ -1596,6 +1596,42 @@ pre:hover .copybutton {
   color: var(--hover-bright-color) !important;
 }
 
+/* Channels & Roles */
+.tabBar-1_P75h {
+  border-bottom: 2px solid var(--hover-color) !important;
+}
+.prompt-1sE27N {
+  background-color: var(--hover-color) !important;
+}
+.optionButtonWrapper-2lbogO.selected-KQBgNS {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-bright-color) !important;
+}
+.optionButtonWrapper-2lbogO.selected-KQBgNS:hover {
+  border-color: var(--soft-bright-color) !important;
+  transition: border-color 200ms ease-out !important;
+}
+.optionButtonWrapper-2lbogO {
+  border-color: var(--hover-color) !important;
+}
+.optionButtonWrapper-2lbogO:hover {
+  border-color: var(--hover-dark-color) !important;
+  transition: border-color 200ms ease-out !important;
+}
+.checkIcon-3eAeN_,
+.memberCount-2G9rxE {
+  background-color: var(--main-color) !important;
+}
+.checkIcon-3eAeN_ svg > path,
+.memberCount-2G9rxE svg > path {
+  fill: var(--soft-bright-color) !important;
+}
+.profile-3xd-Cg .profileCard-2gVmvm,
+.separator-2prxtM,
+.role-3uAPnQ {
+  background-color: var(--hover-color) !important;
+}
+
 /* Server Home */
 .icon-2W8DHg {
   color: var(--hover-bright-color) !important;
