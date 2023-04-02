@@ -1406,6 +1406,17 @@ pre:hover .copybutton {
   color: var(--soft-bright-color) !important;
 }
 
+/* Voice channel toggle show all */
+.voiceChannelsButton-SRmgo8 {
+  color: var(--hover-bright-color) !important;
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.voiceChannelsButton-SRmgo8:hover {
+  border: 2px solid var(--hover-bright-color) !important;
+  background-color: var(--hover-color) !important;
+  transition: all 200ms ease-out !important;
+}
+
 /* Voice channel limits */
 .wrapper-2fEmwW {
   color: var(--soft-bright-color) !important;
