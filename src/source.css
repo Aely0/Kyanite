@@ -4350,6 +4350,13 @@ img:not(.emote):not(.emoji)::after {
 .unread-O4ZgUu {
   background-color: var(--soft-bright-color) !important;
 }
+.channelHeader-DFRX8q {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(20px) !important;
+}
+.messageContainer-3VTXBC {
+  background-color: transparent !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
@@ -9513,8 +9520,6 @@ div[class*="flex-"][class*="title-"],
 .jumpButton-1V_1FA:hover {
   background-color: var(--hover-dark-color) !important;
 }
-.messageContainer-3VTXBC,
-.channelHeader-DFRX8q,
 .messages-23can0,
 .tutorial-Nb3Zz5 {
   background-color: var(--hover-color) !important;
