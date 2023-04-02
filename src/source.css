@@ -1719,6 +1719,21 @@ pre:hover .copybutton {
   fill: var(--soft-bright-color) !important;
 }
 
+/* Browse channels */
+.search-kg4MrS .input-2m5SfJ {
+  border-radius: 4px !important;
+}
+.channelRow-4X_3fi,
+.separator-3vTHjS {
+  background-color: var(--hover-color) !important;
+}
+.subtitleSeparator-276LUA {
+  background-color: var(--hover-bright-color) !important;
+}
+.lineClamp1-1voJi7.channelText-30KI3D {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Forum channels */
 .container-3wLKDe {
   background-color: transparent !important;
