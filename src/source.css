@@ -8367,6 +8367,9 @@ img:not(.emote):not(.emoji)::after {
 .iconSpacing-3rBbgf[aria-label="Server Deafened"] .icon-N9JZb6 > path {
   fill: var(--hover-red-bright-color) !important;
 }
+.overlap-1yhayD .avatar-3FKimL {
+  border: 4px solid var(--main-color) !important;
+}
 
 /* Element focus */
 .focus-rings-ring {
