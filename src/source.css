@@ -4947,7 +4947,7 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Group DM */
-#popout_8568.layer-2BGhQ8 {
+.popout-3gby1q.rootWithShadow-2hdL2J {
   background-color: rgba(0, 0, 0, 0.9) !important;
   border: 2px solid var(--hover-color) !important;
 }
