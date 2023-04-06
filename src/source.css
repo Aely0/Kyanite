@@ -8376,6 +8376,16 @@ img:not(.emote):not(.emoji)::after {
 .moreContainer-R0kRGB .text-sm-medium-2-Xzsi {
   color: var(--soft-bright-color) !important;
 }
+.bar-wDIGjg {
+  background-color: var(--hover-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.voiceChannelsIcon-2smmeE > path {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Element focus */
 .focus-rings-ring {
