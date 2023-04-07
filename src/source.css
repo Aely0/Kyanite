@@ -4524,6 +4524,9 @@ img:not(.emote):not(.emoji)::after {
 .messageContainer-3VTXBC {
   background-color: transparent !important;
 }
+.iconBadge-mrmJe5.circleBadge-yRqaN-.baseShapeRound-3epLEv {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
