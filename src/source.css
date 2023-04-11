@@ -1247,6 +1247,54 @@ pre:hover .copybutton {
 .reaction.reaction-me:hover::after {
   opacity: 0.7 !important;
 }
+.burstReactionTooltipSpacer-1oUrib {
+  border-bottom: none !important;
+}
+
+/* Reaction menu */
+.contentWrapper-2f9yME {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+}
+.navList-3uG4ub .navButton-Z_c6CC {
+  color: var(--hover-bright-color) !important;
+  border-bottom: 2px solid transparent !important;
+}
+.navList-3uG4ub .navButton-Z_c6CC:hover {
+  color: var(--soft-bright-color) !important;
+}
+.navList-3uG4ub .navButtonActive-fwiUKp,
+.navList-3uG4ub .navButtonSuperReactActive-1WNAEM  {
+  color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--soft-bright-color) !important;
+  border-radius: 0px !important;
+}
+.navList-3uG4ub .navButtonSuperReactActive-1WNAEM {
+  background: none !important;
+  border-bottom: 2px solid var(--soft-bright-color) !important;
+}
+.tooltipBlack-3X399X {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.tooltipBlack-3X399X .tooltipPointer-sMBQqe {
+  border-top-color: var(--main-color) !important;
+}
+.burstNotice-_eSKPc {
+  background-color: var(--hover-color) !important;
+}
+.burstNoticeContent-1_1vHr .text-xs-normal-3O7EaX {
+  font-weight: 600 !important;
+}
+.burstNoticeClose-1KRP2W {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important;
+}
+.burstNoticeClose-1KRP2W:hover {
+  opacity: 1 !important;
+}
 
 /* Keyboard-mode focus */
 .ring-370dIp {
