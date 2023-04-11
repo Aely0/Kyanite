@@ -1295,6 +1295,10 @@ pre:hover .copybutton {
 .burstNoticeClose-1KRP2W:hover {
   opacity: 1 !important;
 }
+.burstCount-breNyu,
+.burstCount-breNyu .defaultColor-1GKx81 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Keyboard-mode focus */
 .ring-370dIp {
