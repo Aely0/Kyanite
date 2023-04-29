@@ -8954,6 +8954,7 @@ div[class*="scroller"].channel-members {
 /* Unread messages bar */
 .newMessagesBar-1hF-9G {
   background-color: var(--main-color) !important;
+  height: auto !important;
 }
 .theme-dark .hasMore-3e72_v button {
   background: transparent !important;
