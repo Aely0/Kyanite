@@ -10810,6 +10810,41 @@ div[class*="flex-"][class*="title-"],
   color: var(--hover-bright-color) !important;
 }
 
+/* Discord's Birthday tab */
+.outerContainer-2qLQSo {
+  background-color: transparent !important;
+}
+.birthdayExplanationWrapper-c5wg5T {
+  background-color: var(--hover-color) !important;
+}
+.scrollerButton-25TzVU {
+  color: var(--hover-bright-color) !important;
+}
+.flipCardOpened-hiYLHX {
+  background-color: var(--hover-color) !important; 
+}
+.newTag-3g6dtV {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.flipCardText-2qCpbY,
+.flipCardClosedText-3MGk_l {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-dark-color) !important;
+}
+.flipCardClosedImg-17wHvQ {
+  border: 2px solid var(--hover-dark-color) !important;
+}
+.activityCard-3EABg3,
+.activityCardTag-glB7qz,
+.celebrateCardContainer-MAdnBa {
+  background-color: var(--hover-color) !important;
+}
+.activityGridToggleIcon-2wxz1b,
+.activityGridToggleText-2NkY6v {
+  color: var(--hover-bright-color) !important;
+}
+
 /* Stage Discovery */
 .stageSection-3mAD8V {
   background: transparent !important;
