@@ -9550,6 +9550,7 @@ div[class*="flex-"][class*="title-"],
   border-radius: 3px !important;
 }
 .embedTitle-2n1pEb {
+  color: var(--soft-bright-color) !important;
   font-size: 0.85rem !important;
 }
 .embedAuthorName-pGyUPR {
