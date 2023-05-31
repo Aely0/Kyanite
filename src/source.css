@@ -11125,13 +11125,13 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Spoiler tag */
-.spoilerText-2G40u0.hidden-2lQZ5q:hover {
+.spoilerContent-32CqO-.hidden-2lQZ5q:hover {
   background-color: var(--hover-dark-color) !important;
 }
-.spoilerText-2G40u0.hidden-2lQZ5q {
+.spoilerContent-32CqO-.hidden-2lQZ5q {
   background-color: var(--hover-color) !important;
 }
-.spoilerText-2G40u0 {
+.spoilerContent-32CqO- {
   background-color: var(--hover-color) !important;
   color: var(--soft-bright-color) !important;
 }
