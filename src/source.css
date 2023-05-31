@@ -9434,7 +9434,8 @@ div[class*="flex-"][class*="title-"],
 .discrimBase-1QwWzY,
 .customStatus-3XAoF9,
 .text-31kWmP,
-.emptyText-mZZyQk {
+.emptyText-mZZyQk,
+.customStatusText-V9aTHE {
   color: var(--hover-bright-color) !important;
 }
 .connectedAccountName-j0meX4,
@@ -9442,13 +9443,15 @@ div[class*="flex-"][class*="title-"],
 .lookLink-13iF2K.colorLink-34zig_ {
   color: var(--soft-bright-color) !important;
 }
-.nameTag-2Nlmsy.nameTag-H6kSJ0 .username-3JLfHz.username-1g6Iq1,
-.headerTagUsernameNoNickname-1TjuLc {
+.nickname-3P1RuO {
   color: var(--soft-bright-color) !important;
 }
-.nameTag-2Nlmsy.nameTag-H6kSJ0 .discriminator-1bqsd3,
-.discrimBase-1VOoau {
+.userTagUsernameBase-267ALn,
+.discrimBase-v65kTs {
   color: var(--hover-bright-color) !important;
+}
+.divider-2dDziJ {
+  background-color: var(--hover-color) !important;
 }
 .bar-1GpknY {
   background-color: var(--hover-dark-color) !important;
@@ -9502,6 +9505,9 @@ div[class*="flex-"][class*="title-"],
 }
 .customStatus-kFfkj5 {
   color: var(--hover-bright-color) !important;
+}
+.rolePillBorder-3R4Bb5 {
+  border-color: var(--hover-color) !important;
 }
 
 /* Embeds */
