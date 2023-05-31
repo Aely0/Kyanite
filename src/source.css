@@ -4382,6 +4382,18 @@ img:not(.emote):not(.emoji)::after {
   border: 7px solid transparent !important;
   border-top: 7px solid rgba(0, 0, 0, 0.85) !important;
 }
+.textDivider-34kVsR {
+  height: 1px;
+  margin: 0 0 4px;
+  background-color: transparent !important;
+}
+.closeIcon-14ZT1N {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.8 !important
+}
+.closeIcon-14ZT1N:hover {
+  opacity: 1 !important
+}
 
 /* Emoji info */
 .clickCTA-1bk0UN {
