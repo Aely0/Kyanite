@@ -1799,12 +1799,19 @@ pre:hover .copybutton {
   transition: color 200ms ease-out !important;
 }
 .pill-3pRQlO.selected-24z1Ou {
+  color: var(--soft-bright-color) !important;
   background-color: var(--hover-dark-color) !important;
   border: 2px solid var(--soft-bright-color) !important;
 }
-.pill-3pRQlO.selected-24z1Ou .defaultColor-24IHKz {
+.pill-3pRQlO.selected-24z1Ou .defaultColor-1EVLSt {
   color: var(--soft-bright-color) !important;
   transition: color 200ms ease-out !important;
+}
+.tagPill-1kSbgP {
+  background-color: var(--hover-dark-color) !important;
+}
+.tagPill-1kSbgP .defaultColor-1EVLSt {
+  color: var(--soft-bright-color) !important;
 }
 .reactionBtn-3I19bq.forceShowLook-1zmTr- {
   background-color: var(--hover-color) !important;
@@ -11401,7 +11408,8 @@ path[fill="rgb(255,216,54)"] {
 .avatar-3mTjvZ {
   background-color: transparent !important;
 }
-.userTag-2qPxEZ.nameTag-H6kSJ0 .username-3JLfHz {
+.userTag-2qPxEZ.nameTag-H6kSJ0 .username-3JLfHz,
+.userTag-2qPxEZ {
   color: var(--soft-bright-color) !important;
 }
 .userTag-2qPxEZ.nameTag-H6kSJ0 .discriminator-2m-MqL,
