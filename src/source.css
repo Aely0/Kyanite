@@ -11157,6 +11157,7 @@ div[class*="flex-"][class*="title-"],
 }
 .spoilerContent-32CqO-.hidden-2lQZ5q {
   background-color: var(--hover-color) !important;
+  transition: background-color 200ms ease-out !important;
 }
 .spoilerContent-32CqO- {
   background-color: var(--hover-color) !important;
