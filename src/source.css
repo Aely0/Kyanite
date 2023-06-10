@@ -3652,43 +3652,18 @@ button[aria-label="Stop Watching"]
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-
-/* Guild header partner badge */
-.partnered-23cXFN,
-.background-3Da2vZ {
-  color: var(--hover-bright-color) !important;
+.tooltipPremiumFooterContainer-3Z8jwf {
+  background: none !important;
+  border: none !important;
 }
-
-/* Guild header nitro badge */
-.boostedGuildTierIconWithVisibleBanner-3XawD_ {
+.tooltipPremiumFooterTierSegment-24h1a0 {
+  border: none !important;
+}
+.tooltipPremiumFooterSegment-2IQzwU .gemIcon-1rhNmW > g > path {
+  fill: var(--soft-bright-color) !important;
+}
+.tooltipPremiumFooterSegment-2IQzwU > div {
   color: var(--soft-bright-color) !important;
-}
-
-/* Guild header public status */
-.communityInfoPill-2Mll66 {
-  background: var(--main-color) !important;
-  padding: 2px !important;
-}
-.communityInfoPill-2Mll66 .text-xs-normal-3O7EaX {
-  display: none !important;
-}
-.communityIcon-28UI1f {
-  margin-right: 0px !important;
-  color: var(--soft-bright-color) !important;
-}
-.communityInfoContainer-1dMVpU {
-  margin: -24px 0 0 170px !important;
-  opacity: 1 !important;
-  height: 20px !important;
-}
-.communityInfoVisible-3zc5_s .communityInfo-3YsNIn {
-  color: var(--soft-bright-color) !important;
-}
-.header-3OsQeK {
-  padding: 12px 16px 12px 16px !important;
-}
-.headerContent-2SNbie.primaryInfo-2ocY3v .name-3Uvkvr {
-  padding-right: 18px !important;
 }
 
 /* Guild list folders */
@@ -6833,9 +6808,6 @@ img:not(.emote):not(.emoji)::after {
   background-color: rgba(0, 0, 0, 0.9) !important;
   border: 1px solid var(--hover-color) !important;
 }
-.flowerStarContainer-1QeD-L > svg > path {
-  fill: var(--main-color) !important;
-}
 .staffBadge-2Fa1nk {
   color: hsla(0, 0%, 100%, 0.8) !important;
 }
@@ -9374,9 +9346,6 @@ div[class*="flex-"][class*="title-"],
 .topSectionStreaming-1Tpf5X {
   background: var(--main-color) !important;
 }
-.flowerStar-2tNFCR > path {
-  fill: var(--main-color) !important;
-}
 .brand-3g5E0C.item-3XjbnG,
 .themed-2-lozF.item-3XjbnG {
   color: var(--hover-bright-color) !important;
@@ -9503,9 +9472,6 @@ div[class*="flex-"][class*="title-"],
   -webkit-box-shadow: inset 0 0 120px var(--main-color) !important;
   box-shadow: inset 0 0 120px var(--main-color) !important;
   color: var(--soft-bright-color) !important;
-}
-.childContainer-U_a6Yh > svg > path {
-  fill: var(--soft-bright-color) !important;
 }
 .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF {
   background: transparent !important;
