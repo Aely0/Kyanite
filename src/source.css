@@ -8783,14 +8783,6 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
-/* Guild verified badge */
-.guildBadgeWithoutColor-20tGtS {
-  color: var(--main-color) !important;
-}
-.icon-3BYlXK > path {
-  fill: var(--soft-bright-color) !important;
-}
-
 /* Guild welcome channel */
 .titleName-2vkJTW p {
   color: var(--hover-bright-color) !important;
@@ -9490,6 +9482,22 @@ div[class*="flex-"][class*="title-"],
 }
 .rolePillBorder-3R4Bb5 {
   border-color: var(--hover-color) !important;
+}
+.nameTag-35jqbZ span {
+  color: var(--hover-bright-color) !important;
+}
+.connectedAccountContainer-3aLMHJ {
+  background-color: var(--hover-color) !important;
+  border: none !important;
+}
+.connectedAccountOpenIcon-3i81Tz {
+  color: var(--soft-bright-color) !important;
+}
+.flowerStar-2tNFCR[aria-label="Verified Connection"] path {
+  fill: transparent !important;
+}
+.connectedAccountVerifiedIcon-3EPFPC .childContainer-U_a6Yh > svg > path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Embeds */
