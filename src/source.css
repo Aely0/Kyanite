@@ -3654,7 +3654,8 @@ button[aria-label="Stop Watching"]
 }
 .tooltipPremiumFooterContainer-3Z8jwf {
   background: none !important;
-  border: none !important;
+  border-bottom: 2px solid var(--soft-bright-color) !important;
+  border-radius: 8px !important;
 }
 .tooltipPremiumFooterTierSegment-24h1a0 {
   border: none !important;
