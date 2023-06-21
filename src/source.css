@@ -651,6 +651,12 @@ body::after,
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--soft-bright-color) !important;
 }
+.reactionTooltip-3IOBwg {
+  color: var(--soft-bright-color) !important;
+  background: var(--main-color) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
 
 /* Reaction list */
 .container-KM8BU6,
