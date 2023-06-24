@@ -9627,6 +9627,7 @@ div[class*="flex-"][class*="title-"],
 .lookFilled-1H2Jvj.colorGrey-2iAG-B,
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v,
+.lookFilled-1H2Jvj.colorTransparent-2SBJ8-,
 .theme-dark .watchButton-2v6cPT {
   background-color: transparent !important;
   border: 1px solid var(--hover-dark-color) !important;
@@ -9648,6 +9649,7 @@ div[class*="flex-"][class*="title-"],
 .lookFilled-1H2Jvj.colorGrey-2iAG-B:hover,
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v:hover,
+.lookFilled-1H2Jvj.colorTransparent-2SBJ8-:hover,
 .theme-dark .watchButton-2v6cPT:hover {
   color: var(--soft-bright-color) !important;
   border-color: var(--hover-bright-color) !important;
