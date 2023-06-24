@@ -11122,22 +11122,22 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* DM profile panel */
-.userPanelInnerThemed-3YO1BB {
+.profilePanel-2VBkh8 .userPanelInnerThemed-3YO1BB {
   background: transparent !important;
 }
-.userProfileOuterUnthemed-11rPfA {
+.profilePanel-2VBkh8 .userProfileOuterUnthemed-11rPfA {
   background-color: transparent !important;
 }
-.overlayBackground-2aa7wt {
+.profilePanel-2VBkh8 .overlayBackground-2aa7wt {
   background-color: var(--hover-color) !important;
 }
 .profilePanel-2VBkh8 .banner-1YaD3N {
   background-color: transparent !important;
 }
-.mutualFriendsDivider-_X_dLc {
+.profilePanel-2VBkh8 .mutualFriendsDivider-_X_dLc {
   border-top: 1px solid var(--hover-color) !important;
 }
-.transition-30IQBn > path {
+.profilePanel-2VBkh8 .transition-30IQBn > path {
   stroke: var(--hover-bright-color) !important;
 }
 .profilePanel-2VBkh8 .badgeList-2hF9ig {
