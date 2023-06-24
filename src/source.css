@@ -11119,6 +11119,29 @@ div[class*="flex-"][class*="title-"],
   color: var(--red-bright-color) !important;
 }
 
+/* DM profile panel */
+.userPanelInnerThemed-3YO1BB {
+  background: transparent !important;
+}
+.userProfileOuterUnthemed-11rPfA {
+  background-color: transparent !important;
+}
+.overlayBackground-2aa7wt {
+  background-color: var(--hover-color) !important;
+}
+.profilePanel-2VBkh8 .banner-1YaD3N {
+  background-color: transparent !important;
+}
+.mutualFriendsDivider-_X_dLc {
+  border-top: 1px solid var(--hover-color) !important;
+}
+.transition-30IQBn > path {
+  stroke: var(--hover-bright-color) !important;
+}
+.profilePanel-2VBkh8 .badgeList-2hF9ig {
+  background-color: var(--hover-color) !important;
+}
+
 /* Snowsgiving */
 .snowsgivingLink-1TZi3c:hover {
   background-color: var(--hover-color) !important;
