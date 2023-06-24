@@ -1072,6 +1072,14 @@ pre:hover .copybutton {
   opacity: 1 !important;
 }
 
+/* External link popup (Leaving Discord) */
+.linkCalloutContainer-1CixBe {
+  border: 1px solid var(--hover-color) !important;
+}
+.linkCalloutContainer-1CixBe .text-md-semibold-2VMhBr {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Loading animations */
 .wanderingCubes-2A046F .item-2VgEex {
   background-color: var(--soft-bright-color) !important;
