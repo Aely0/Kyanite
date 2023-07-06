@@ -9608,13 +9608,19 @@ div[class*="flex-"][class*="title-"],
   background-color: transparent !important;
 }
 
-/* Channels */
-.container-1NXEtd {
-  background-color: transparent !important;
-}
-.modeSelected-3DmyhH .content-1gYQeQ,
-.wrapper-NhbLHG:hover .content-1gYQeQ {
+/* Channel list */
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV {
   background-color: var(--hover-color) !important;
+}
+.wrapper-NhbLHG:hover .link-1_kTxV {
+  background: var(--hover-color);
+}
+.modeUnread-3Cxepe .linkTop-1W1aK6 .name-28HaxV,
+.modeUnread-3Cxepe .linkTop-1W1aK6 .icon-2W8DHg,
+.wrapper-NhbLHG:hover .name-28HaxV,
+.wrapper-NhbLHG:hover .icon-2W8DHg {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Username */
