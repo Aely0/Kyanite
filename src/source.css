@@ -12967,6 +12967,14 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
 }
 
+/* Code blocks (copy icon) */
+.codeActions-NqAKTN {
+  padding-right: 2px !important;
+}
+.codeActions-NqAKTN > div[role="button"] > svg > g {
+  fill: var(--soft-bright-color) !important;
+}
+
 /* Code blocks */
 .codeView-12LUIl,
 .theme-dark .markup-eYLPri code,
