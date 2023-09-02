@@ -105,10 +105,6 @@ body::after,
 .container-3XgAHv {
   background-color: transparent !important;
 }
-body {
-  -webkit-backface-visibility: hidden !important;
-  backface-visibility: hidden !important;
-}
 body::after {
   z-index: -9999 !important;
 }
