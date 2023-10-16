@@ -647,11 +647,14 @@ body::after,
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--soft-bright-color) !important;
 }
-.reactionTooltip-3IOBwg {
+.reactionTooltip-1qrpUf {
   color: var(--soft-bright-color) !important;
   background: var(--main-color) !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+.defaultColor-1EVLSt.text-sm-normal-AEQz4v.reactionTooltipText-277c-U {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Reaction list */
@@ -4404,8 +4407,9 @@ img:not(.emote):not(.emoji)::after {
   background-color: transparent !important;
 }
 .popoutContainer-2wbmiM {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: var(--hover-color) !important;
   border: 1px solid var(--hover-color) !important;
+  backdrop-filter: brightness(10%) !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
