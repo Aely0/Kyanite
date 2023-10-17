@@ -5809,6 +5809,9 @@ img:not(.emote):not(.emoji)::after {
 .tabBar-2WK2Dm {
   border-bottom: 1px solid var(--hover-color) !important;
 }
+.premiumFeatureBorder-1i95si {
+  background: transparent !important;
+}
 
 /* Quickswitcher */
 .quickswitcher {
@@ -11643,9 +11646,6 @@ path[fill="rgb(255,216,54)"] {
 }
 .divider-1wtgZ3 {
   background-color: var(--hover-color) !important;
-}
-.avatarUploaderInner-p38nm2 {
-  border: 6px solid rgb(0, 0, 0) !important;
 }
 .avatarUploaderIcon-3-5PWB {
   background-color: rgb(0, 0, 0) !important;
