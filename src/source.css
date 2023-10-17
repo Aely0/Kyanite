@@ -1702,6 +1702,10 @@ pre:hover .copybutton {
 }
 
 /* Channels & Roles */
+.container-2IKOsH,
+.header-3xB4vB {
+  background-color: transparent !important;
+}
 .tabBar-1_P75h {
   border-bottom: 2px solid var(--hover-color) !important;
 }
