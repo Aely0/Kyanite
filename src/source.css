@@ -11817,6 +11817,27 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 
+/* Family Centre */
+.settingsTabBar-1Fi_kb {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
+.container-2WMFjc,
+.container-jV-A82,
+.container-1iKw09 {
+  background-color: var(--hover-color) !important;
+  box-shadow: none !important;
+}
+.row-XYkFDK,
+.circle-1ip_Nd,
+.iconContainer-3cz2oI,
+.box-3QCU9H,
+.stepNumber-1OYCPJ {
+  background-color: var(--hover-color) !important;
+}
+.icon-1V65ku {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Authorized apps (User Settings) */
 .formNotice-1JW4h2.card-2guEcY,
 .cardPrimary-pAe8Ed.card-2guEcY {
