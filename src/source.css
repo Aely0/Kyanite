@@ -7807,7 +7807,8 @@ img:not(.emote):not(.emoji)::after {
   fill: var(--hover-bright-color) !important;
 }
 .threadSidebar-1o3BTy,
-.channelTextArea-2ZBawt {
+.channelTextArea-2ZBawt,
+.container-3s2w-i {
   background-color: transparent !important;
 }
 .iconWrapper-3plkqh {
@@ -8854,12 +8855,12 @@ div[class*="scroller"].channel-members {
 }
 
 /* Thread/Forum resize handle */
-.resizeHandle-PBRzPC {
+.resizeHandle-2F4Beb {
   background-color: transparent !important;
   width: 4px !important;
 }
-.resizeHandle-PBRzPC:hover,
-.resizeHandle-PBRzPC:active {
+.resizeHandle-2F4Beb:hover,
+.resizeHandle-2F4Beb:active {
   background-color: var(--soft-bright-color) !important;
   transition: background-color 800ms ease-out !important;
   border-radius: 2px !important;
@@ -9204,6 +9205,11 @@ div[class*="flex-"][class*="title-"],
 .textAreaEnabledSubmitting-1cJX-K {
   pointer-events: none !important;
   text-align: center !important;
+}
+
+/* Announcement message bar */
+.wrapper-IjGAlW {
+  background-color: var(--hover-color) !important;
 }
 
 /* Blocked messages */
