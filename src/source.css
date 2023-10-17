@@ -7567,6 +7567,9 @@ img:not(.emote):not(.emoji)::after {
 .divider-3qUeLQ {
   border-top: none !important;
 }
+.container-2giAcK:after {
+  border-bottom: 1px solid var(--hover-color) !important;
+}
 
 /* Channel permissions */
 .theme-dark .group-LWHoGI {
