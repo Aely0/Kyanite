@@ -9900,6 +9900,9 @@ div[class*="flex-"][class*="title-"],
   background-color: var(--hover-dark-color) !important;
   color: var(--soft-bright-color) !important;
 }
+.body-GBnhET {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Link to file */
 .downloadLink-2oSgiF {
