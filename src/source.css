@@ -11530,6 +11530,10 @@ path[fill="rgb(255,216,54)"] {
 .message-3C6JQ1.flexChild-3PzYmX {
   color: var(--soft-bright-color) !important;
 }
+.container-20TyK0 {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: brightness(5%) !important;
+}
 
 /* My Account (User Settings) */
 .accountProfileCard-lbN7n- {
