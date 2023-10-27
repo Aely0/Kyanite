@@ -62,7 +62,7 @@
 }
 
 /* Background */
-[class*="appMount"] {
+#app-mount {
   background: rgba(0, 0, 0, 0.75) !important;
 }
 body,
@@ -77,14 +77,14 @@ body::after,
   /* background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/kyanite.jpg") !important; */
   background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
+.app_de4237,
+.bg__12180,
 .app_b1f720,
-.app__00c92,
 .content__1a4fe,
 .container__037ed,
 .chat__52833,
 .chatContent__5dca8,
 .container__11d72.themed_b152d4,
-.bg__7adbf,
 .sidebar_ded4b5,
 .container__590e2,
 .scroller__3d071,
@@ -124,8 +124,6 @@ body::after,
 }
 
 /* Hover colors */
-.channel_c21703.selected-1HYmZZ a,
-.channel_c21703:hover a,
 .clickable__17ccb:hover .layout_bb8e67,
 .selected__9800b .layout_bb8e67,
 .item-1GzJrl:hover,
@@ -1055,6 +1053,7 @@ pre:hover .copybutton {
 .markup_a7e664 a,
 .topic__16ae3 a,
 .downloadLink_e5ebe9,
+.anchor_c8ddc0.downloadLink_e5ebe9,
 .fakeLink__57dfc {
   color: var(--soft-bright-color) !important;
 }
@@ -8786,6 +8785,9 @@ img:not(.emote):not(.emoji)::after {
 }
 .cardWrapper__09290 {
   background: transparent !important;
+}
+.card__3662a {
+  background-color: var(--hover-color) !important;
 }
 
 /* Left + Right */
