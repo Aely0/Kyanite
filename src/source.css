@@ -615,7 +615,8 @@ body::after,
 .reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
   color: var(--hover-bright-color) !important;
 }
-.reactionBtn__46474 {
+.reactionBtn__46474,
+.reactionBtn_b81964 {
   padding-left: 5px !important;
   color: var(--hover-bright-color) !important;
 }
@@ -4187,7 +4188,7 @@ img:not(.emote):not(.emoji)::after {
 .container_e4c233,
 .wrapper__4f229,
 .wrapper__7a35f,
-.wrapper_e3070a,
+.wrapper_cd625e,
 .stickerCategoryShopWrapper-3EnJdQ,
 #emoji-picker-tab-panel .header__55964 {
   background-color: rgba(0, 0, 0, 0.85) !important;
