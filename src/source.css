@@ -1073,7 +1073,7 @@ pre:hover .copybutton {
 .linkCalloutContainer__8ff6e {
   border: 1px solid var(--hover-color) !important;
 }
-.linkCalloutContainer__8ff6e .text-md-semibold__79164 {
+.linkCalloutContainer__8ff6e [data-text-variant="text-md/semibold"] {
   color: var(--soft-bright-color) !important;
 }
 
