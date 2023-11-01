@@ -9582,6 +9582,15 @@ div[class*="flex-"][class*="title-"],
 .connectedAccountVerifiedIcon_db6dbd .childContainer__4e664 > svg > path {
   fill: var(--soft-bright-color) !important;
 }
+.divider__2bbbc {
+  background-color: transparent !important;
+}
+.userPopoutOverlayBackground_d8afa4 .menu__5cf7f {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+}
 
 /* Embeds */
 .embedFull__8dc21 {
