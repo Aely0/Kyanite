@@ -9596,6 +9596,20 @@ div[class*="flex-"][class*="title-"],
   background: transparent !important;
   border: none !important;
 }
+.tabBarContainer__63f55 {
+  border-bottom: none !important;
+}
+.discriminator_a801dd,
+.additionalActionsIcon__33de0 {
+  color: var(--hover-bright-color) !important;
+}
+.additionalActionsIcon__33de0:hover {
+  color: var(--soft-bright-color) !important;
+  transition: color 400ms ease !important;
+}
+.additionalActionsIcon__33de0:active {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Embeds */
 .embedFull__8dc21 {
