@@ -6421,10 +6421,14 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
 }
 .upsell_ae371b {
-  background-color: var(--hover-color) !important;
+  background-color: transparent !important;
 }
 .upsell_ae371b.premiumUpsell_e1bfd9 .colorInteractiveNormal-36ZhyZ {
   color: var(--soft-bright-color) !important;
+}
+.wrapper__2d96c {
+  background-color: var(--hover-color) !important;
+  border-radius: 4px !important;
 }
 .button_afdfd9.lookLink__93965:hover .contents_fb6220 {
   background-image: linear-gradient(
