@@ -12082,6 +12082,79 @@ path[fill="rgb(255,216,54)"] {
 .barFill-2Bh7CX {
   background: var(--hover-bright-color) !important;
 }
+/* + Choose a sound */
+.soundButtonSettingContainer__548af {
+  background: var(--hover-color) !important;
+}
+.secondaryIconDisabled__6bd93.secondaryIcon_de5138  {
+  color: var(--hover-dark-color) !important;
+}
+.secondaryIcon_de5138 {
+  color: var(--hover-bright-color) !important;
+}
+.picker__6dca7 {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(20px) !important;
+}
+.picker__6dca7 .categoryList__173de {
+  background-color: transparent !important;
+}
+.header_bf5f46 {
+  box-shadow: none !important;
+}
+.background__097ec.upsellInner__7bc2c {
+  background-color: var(--hover-color) !important;
+}
+.nitroWheel_a5ee67 {
+  color: var(--soft-bright-color) !important;
+}
+.categoryIconIcon_ae84ad {
+  color: var(--soft-bright-color) !important;
+}
+.categoryIcon__7b2ea:hover {
+  color: var(--hover-color);
+  background-color: var(--hover-color) !important;
+}
+.categoryIcon__7b2ea.selected__532c1 {
+  background-color: var(--hover-dark-color) !important;
+}
+.sectionHeader_c664ae,
+.sectionHeader_c664ae .sectionTitle__8df35 {
+  color: var(--soft-bright-color) !important;
+}
+.soundButton__5ad7b {
+  background-color: var(--hover-color) !important;
+}
+.secondaryButton__41267,
+.settingsIcon_a5223f {
+  color: var(--hover-bright-color) !important;
+}
+.secondaryIcon__8154f:hover,
+.settingsIcon_a5223f:hover,
+.settingsIcon_a5223f:active {
+  color: var(--soft-bright-color) !important;
+  transition: color ease-out 200ms !important;
+}
+.favoriteIconFavorite_a2c6b6 > path[fill="var(--gold)"] {
+  fill: var(--soft-bright-color) !important;
+}
+.menu_dc52c6[aria-label="User Settings Actions"] {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: blur(20px) !important;
+}
+.tooltipGrey_a35fcf {
+  background-color: var(--main-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.tooltipGrey_a35fcf .tooltipPointer_a79354 {
+  border-top-color: var(--main-color) !important;
+}
+.picker__6dca7 .container_e4c233 {
+  background-color: var(--hover-color) !important;
+}
+.picker__6dca7 .inspector__993e1 {
+  background-color: var(--hover-color) !important;
+}
 
 /* Keybinds (User Settings) */
 .warning__9db16 {
