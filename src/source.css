@@ -12205,7 +12205,7 @@ path[fill="rgb(255,216,54)"] {
   color: var(--soft-bright-color) !important;
 }
 
-/* Activity status (User Settings) */
+/* Registered Games (User Settings) */
 .activeGame__99516.notDetected__2a0c9 {
   background-color: var(--hover-color) !important;
 }
@@ -12275,6 +12275,32 @@ path[fill="rgb(255,216,54)"] {
 }
 .game__19f4b.card_dc88cd {
   background-color: transparent !important;
+}
+.toggleIcon__69c45[aria-label="Report incorrectly detected game"] .fill__80e66,
+.toggleIcon__69c45[aria-label="Toggle detection"]
+  .toggleIconOff_b79a58
+  .fill__80e66,
+.toggleIcon__69c45[aria-label="Toggle detection"]
+  .toggleIconOff_b79a58
+  .fill__80e66 {
+  fill: var(--red-dark-color) !important;
+}
+.toggleIcon__69c45[aria-label="Report incorrectly detected game"]:hover
+  .fill__80e66,
+.toggleIcon__69c45[aria-label="Toggle detection"]:hover
+  .toggleIconOff_b79a58
+  .fill__80e66 {
+  fill: var(--red-bright-color) !important;
+}
+.toggleIcon__69c45[aria-label="Toggle detection"]
+  .toggleIconOn_ca5bbe
+  .fill__80e66 {
+  fill: var(--hover-bright-color) !important;
+}
+.toggleIcon__69c45[aria-label="Toggle detection"]:hover
+  .toggleIconOn_ca5bbe
+  .fill__80e66 {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Game overlay (User Settings) */
