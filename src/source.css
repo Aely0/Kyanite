@@ -9603,7 +9603,7 @@ div[class*="flex-"][class*="title-"],
 .additionalActionsIcon__33de0 {
   color: var(--hover-bright-color) !important;
 }
-.userInfoSection__1daf8+.userInfoSection__1daf8 {
+.userInfoSection__1daf8 + .userInfoSection__1daf8 {
   border-top: none !important;
 }
 
@@ -11687,7 +11687,7 @@ path[fill="rgb(255,216,54)"] {
 .imageUploaderHint_dc8def {
   color: var(--soft-bright-color) !important;
 }
-.userInfoSection__1daf8+.userInfoSection__1daf8 {
+.userInfoSection__1daf8 + .userInfoSection__1daf8 {
   border-top: none !important;
 }
 
@@ -12063,7 +12063,7 @@ path[fill="rgb(255,216,54)"] {
 .notches__065e9.gray__4fb3f {
   color: transparent !important;
 }
-.cameraWrapper-3a7Ngv {
+.cameraWrapper__1ee6d {
   background-color: var(--hover-color) !important;
   border: 1px solid var(--hover-color) !important;
 }
@@ -12086,7 +12086,7 @@ path[fill="rgb(255,216,54)"] {
 .soundButtonSettingContainer__548af {
   background: var(--hover-color) !important;
 }
-.secondaryIconDisabled__6bd93.secondaryIcon_de5138  {
+.secondaryIconDisabled__6bd93.secondaryIcon_de5138 {
   color: var(--hover-dark-color) !important;
 }
 .secondaryIcon_de5138 {
@@ -12200,6 +12200,9 @@ path[fill="rgb(255,216,54)"] {
 }
 .bindArrow_f664a0 g {
   fill: var(--soft-bright-color) !important;
+}
+.input__956cc {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Activity status (User Settings) */
