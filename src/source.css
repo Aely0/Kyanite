@@ -9603,12 +9603,8 @@ div[class*="flex-"][class*="title-"],
 .additionalActionsIcon__33de0 {
   color: var(--hover-bright-color) !important;
 }
-.additionalActionsIcon__33de0:hover {
-  color: var(--soft-bright-color) !important;
-  transition: color 400ms ease !important;
-}
-.additionalActionsIcon__33de0:active {
-  color: var(--soft-bright-color) !important;
+.userInfoSection__1daf8+.userInfoSection__1daf8 {
+  border-top: none !important;
 }
 
 /* Embeds */
@@ -11674,7 +11670,7 @@ path[fill="rgb(255,216,54)"] {
 .defaultSwatch-1tVtRe[style="background-color: rgb(54, 57, 63);"] {
   background-color: var(--hover-color) !important;
 }
-.customizationSection__16fec {
+.customizationSection__16fec:not(.preview__0c5fe) {
   border-bottom: 1px solid var(--hover-color) !important;
 }
 .divider-ogkn3u {
@@ -11690,6 +11686,9 @@ path[fill="rgb(255,216,54)"] {
 }
 .imageUploaderHint_dc8def {
   color: var(--soft-bright-color) !important;
+}
+.userInfoSection__1daf8+.userInfoSection__1daf8 {
+  border-top: none !important;
 }
 
 /* Avatar preview (User Settings > User Profile) */
