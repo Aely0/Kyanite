@@ -1,5 +1,5 @@
 /* Pulling source for the latest version */
-@import url(https://rawgithub.com/Andris0/Kyanite/master/src/source.css);
+@import url(https://raw.githubusercontent.com/Aely0/Kyanite/master/src/source.css);
 
 /* Adjustable main color palette and background options */
 :root {
@@ -27,7 +27,7 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-  background-image: url("https://rawgithub.com/Andris0/Kyanite/master/src/resources/magenta.jpg") !important;
+  background-image: url("https://raw.githubusercontent.com/Aely0/Kyanite/master/src/resources/magenta.jpg") !important;
 }
 
 /* Theme specific filter for the emoji button */
