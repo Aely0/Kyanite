@@ -6456,6 +6456,9 @@ img:not(.emote):not(.emoji)::after {
 .emojiAliasPlaceholder__71733 {
   color: var(--hover-bright-color) !important;
 }
+.emojiUploadUploadRequirementsList__2ac5a li::marker {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Server Stickers */
 .upsellContainer__12e24 {
