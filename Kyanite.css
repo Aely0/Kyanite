@@ -5,6 +5,7 @@
 :root {
   /* Kyanite accents */
   --main-color: rgba(22, 91, 123, 1) !important;
+  --dark-bg: rgba(7, 22, 37, 0.95) !important;
   --soft-bright-color: rgb(133, 206, 255) !important;
   --hover-color: rgba(22, 91, 123, 0.3) !important;
   --hover-faded-color: rgba(22, 91, 123, 0.2) !important;

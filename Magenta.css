@@ -5,6 +5,7 @@
 :root {
   /* Magenta accents */
   --main-color: rgb(115, 22, 123) !important;
+  --dark-bg: rgba(37, 7, 37, 0.95) !important;
   --soft-bright-color: rgba(255, 133, 255, 1) !important;
   --hover-color: rgba(123, 22, 123, 0.3) !important;
   --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
