@@ -6480,6 +6480,12 @@ img:not(.emote):not(.emoji)::after {
 .fileUploadInput-3Y6j6T.input-3K7d_z.base-ddxxyL {
   color: var(--soft-bright-color) !important;
 }
+.subscriberCount__53026 {
+  color: var(--hover-bright-color) !important;
+}
+.subscriberCount__53026 strong {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server Audit log */
 .quickSelectLabel_cf5c1b {
