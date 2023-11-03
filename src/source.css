@@ -6760,21 +6760,22 @@ img:not(.emote):not(.emoji)::after {
   padding-left: 28px !important;
 }
 
-/* Server Ban */
-.bannedUser_fb03db.card_dc88cd {
-  padding-left: 12px !important;
-  background-color: var(--hover-color) !important;
-  border-color: var(--hover-color) !important;
-  border-radius: 10px !important;
+/* Server Bans */
+.scrollerContainer_c3503a {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
-.bannedUser_fb03db.card_dc88cd .username_ae1d35 {
+.bannedUser__38b44 {
+  background-color: var(--hover-color) !important;
+}
+.bannedUser__38b44 {
+  box-shadow: none !important;
+}
+.bannedUser__38b44 .username__7a2a6 {
   color: var(--soft-bright-color) !important;
 }
-.bannedUser_fb03db.card_dc88cd .discrim__7fd4d {
+.bannedUser__38b44 .username__7a2a6 .discrim__8d32f {
   color: var(--hover-bright-color) !important;
-}
-.children_b15c64 .divider-_0um2u {
-  border-top: none !important;
 }
 
 /* Server Enable Community */
