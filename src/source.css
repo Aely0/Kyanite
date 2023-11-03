@@ -2379,8 +2379,7 @@ pre:hover .copybutton {
 }
 .rsvpCount__4657d,
 .container_f3270f,
-.container__47676,
-.footer__89240.footerSeparator__57d95 {
+.container__47676 {
   background-color: var(--hover-color) !important;
 }
 .rsvpIcon_a79c28,
@@ -6535,6 +6534,57 @@ img:not(.emote):not(.emoji)::after {
 }
 .button_c1569f {
   background: transparent !important;
+}
+
+/* Server Safety Setup */
+.changelog__6d46d,
+.safetyChecklist__826c8,
+.valuePill__9d21a,
+.simpleItemWrapper__2a0a0,
+.collapseable__71e46 {
+  background-color: var(--hover-color) !important;
+}
+.divider__150fc,
+.container__74689,
+.clickableContainer__69013 {
+  background-color: transparent !important;
+}
+.button_afdfd9.borderPrimary__60ecd.grow__4c8a4 {
+  border-color: var(--hover-bright-color) !important;
+}
+.backButton__54768,
+.caret__4c002,
+.editChannel__45c49,
+.channelIcon__801cb {
+  color: var(--soft-bright-color) !important;
+}
+.previewIcon_dbf27a,
+.requirementIcon_cb8611,
+.arrow__23c57,
+.arrow_ad7862 {
+  color: var(--hover-bright-color) !important;
+}
+.previewIcon_dbf27a:hover {
+  color: var(--soft-bright-color) !important;
+  transition: color 200ms ease-out !important;
+}
+.divider_e8e5fa,
+.termsRow_a03d1d {
+  border-bottom: none !important;
+}
+.requirementContainer__45cb0,
+.fieldBackground_d6edfa {
+  background-color: var(--hover-color) !important;
+  border: none !important;
+}
+.addAnotherRuleCardContainer__5425d {
+  border: 2px dashed var(--hover-bright-color) !important;
+}
+.addAnotherRuleCardContainer__5425d .text-md-semibold__4cb23 {
+  color: var(--soft-bright-color) !important;
+}
+.plusIcon_ec63ef path {
+  fill: var(--soft-bright-color) !important;
 }
 
 /* Server Audit log */
