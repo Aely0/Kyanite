@@ -10698,6 +10698,10 @@ div[class*="flex-"][class*="title-"],
 .bogoPromo-WNXw7H .textHeader-1ptkaY {
   color: var(--soft-bright-color) !important;
 }
+.premiumTrialBadge_f2180d {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+}
 
 /* Audio panel */
 .theme-dark .wrapperAudio__555ce {
