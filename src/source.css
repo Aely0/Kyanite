@@ -6198,63 +6198,6 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
-/* Server Overview */
-.lookOutlined__46d54.colorPrimary__6ed40 {
-  color: var(--hover-bright-color) !important;
-  border-color: var(--main-color) !important;
-}
-.lookOutlined__46d54.colorPrimary__6ed40:active {
-  background-color: var(--hover-color) !important;
-}
-.lookOutlined__46d54.colorPrimary__6ed40:hover {
-  color: var(--soft-bright-color) !important;
-  border-color: var(--soft-bright-color) !important;
-  background-color: transparent !important;
-}
-.lookGhost-2Fn_0-.colorGrey-2iAG-B {
-  background-color: transparent !important;
-  color: var(--hover-bright-color) !important;
-}
-.lookGhost-2Fn_0-.colorBrand_b2253e,
-.guildFeatureAvailabilityIndicator__3fb19 {
-  background-color: transparent !important;
-  color: var(--soft-bright-color) !important;
-}
-.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-  color: var(--hover-bright-color) !important;
-}
-.name-3suiPo {
-  color: var(--soft-bright-color) !important;
-}
-.premiumGuildAvailabilityIndicator-2yVVuW {
-  background-color: var(--hover-color) !important;
-}
-.icon__0c3d6 {
-  color: var(--soft-bright-color) !important;
-}
-.divider__12403 {
-  border-color: var(--hover-color) !important;
-}
-.colorInteractiveActive-30E9n8 {
-  color: var(--hover-bright-color) !important;
-}
-.bannerUpsellContainer-31E9J5 {
-  background-color: var(--hover-color) !important;
-}
-.imageUploader__8d497 .sizeInfo__254b6 {
-  color: var(--hover-bright-color) !important;
-  font-weight: 600 !important;
-}
-.imageUploaderInner_da8332.avatarUploaderInner__63001 {
-  background-color: var(--hover-dark-color) !important;
-}
-.imageUploaderAcronym__7bc67 {
-  color: var(--soft-bright-color) !important;
-}
-.avatarUploaderInnerSquareDisabled__3cfd1 {
-  background-color: var(--hover-color) !important;
-}
-
 /* Server Roles */
 .side-2ur1Qk .itemSelected-1qLhcL {
   background-color: rgba(22, 91, 123, 0.5) !important;
@@ -6799,6 +6742,61 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Server Overview */
+.lookOutlined__46d54.colorPrimary__6ed40 {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--main-color) !important;
+}
+.lookOutlined__46d54.colorPrimary__6ed40:active {
+  background-color: var(--hover-color) !important;
+}
+.lookOutlined__46d54.colorPrimary__6ed40:hover {
+  color: var(--soft-bright-color) !important;
+  border-color: var(--soft-bright-color) !important;
+  background-color: transparent !important;
+}
+.lookGhost-2Fn_0-.colorGrey-2iAG-B {
+  background-color: transparent !important;
+  color: var(--hover-bright-color) !important;
+}
+.lookGhost-2Fn_0-.colorBrand_b2253e,
+.guildFeatureAvailabilityIndicator__3fb19 {
+  background-color: transparent !important;
+  color: var(--soft-bright-color) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+  color: var(--hover-bright-color) !important;
+}
+.name-3suiPo {
+  color: var(--soft-bright-color) !important;
+}
+.premiumGuildAvailabilityIndicator-2yVVuW {
+  background-color: var(--hover-color) !important;
+}
+.icon__0c3d6 {
+  color: var(--soft-bright-color) !important;
+}
+.divider__12403 {
+  border-color: var(--hover-color) !important;
+}
+.colorInteractiveActive-30E9n8 {
+  color: var(--hover-bright-color) !important;
+}
+.bannerUpsellContainer-31E9J5 {
+  background-color: var(--hover-color) !important;
+}
+.imageUploader__8d497 .sizeInfo__254b6 {
+  color: var(--hover-bright-color) !important;
+  font-weight: 600 !important;
+}
+.imageUploaderInner_da8332.avatarUploaderInner__63001 {
+  background-color: var(--hover-dark-color) !important;
+}
+.imageUploaderAcronym__7bc67 {
+  color: var(--soft-bright-color) !important;
+}
+.avatarUploaderInnerSquareDisabled__3cfd1 {
+  background-color: var(--hover-color) !important;
+}
 .maxLength_f4921c {
   color: var(--hover-bright-color) !important;
 }
