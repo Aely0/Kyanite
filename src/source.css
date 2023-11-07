@@ -4574,6 +4574,9 @@ img:not(.emote):not(.emoji)::after {
 .iconBadge__181df.circleBadge_aa5fe3.baseShapeRound__95d0f {
   background-color: var(--soft-bright-color) !important;
 }
+.rowContent__90814 .text-md-normal__4afad {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
