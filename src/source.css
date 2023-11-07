@@ -1444,6 +1444,12 @@ pre:hover .copybutton {
   color: var(--hover-red-bright-color) !important;
 }
 
+/* Channel start */
+.overflow__5f7bc {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+
 /* Channel text area glow */
 .channel-textarea-inner {
   -webkit-transform: translateZ(0) !important;
