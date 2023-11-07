@@ -1651,6 +1651,13 @@ pre:hover .copybutton {
 .auto__7597f::-webkit-scrollbar-track {
   border: 4px solid var(--hover-color) !important;
 }
+.audienceContainerCollapsed__3fa97 {
+  background-color: var(--dark-bg) !important;
+  border: solid 4px var(--hover-dark-color) !important;
+}
+.audienceIcon_f0f8e7 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Premium Membership */
 .scroller__5e182,
@@ -4388,6 +4395,10 @@ img:not(.emote):not(.emoji)::after {
 .guildSection_ebda04 .colorHeaderSecondary-g5teka {
   font-weight: 600 !important;
 }
+.joinGuildLink_a21822,
+.joinGuildLink_a21822 .text-xs-normal__56c35 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Public server popout */
 .guildPopout-G6M0fK {
@@ -6775,6 +6786,11 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 .bannedUser__38b44 .username__7a2a6 .discrim__8d32f {
+  color: var(--hover-bright-color) !important;
+}
+
+/* Server Overview */
+.maxLength_f4921c {
   color: var(--hover-bright-color) !important;
 }
 
