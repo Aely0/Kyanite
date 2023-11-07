@@ -11544,6 +11544,20 @@ path[fill="rgb(255,216,54)"] {
 .headerDivider_ec8d1f {
   background-color: var(--hover-color) !important;
 }
+.container__60a4a {
+  background: var(--hover-color) !important;
+}
+.peopleIcon__08bfd {
+  color: var(--hover-bright-color) !important;
+}
+.headerLink__285a3 {
+  color: var(--soft-bright-color) !important;
+}
+.listenAlongIcon__86ce9,
+.spotifyButtonLogo__526f7,
+.flex_f5fbb7.noWrap__5c413 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Settings */
 .theme-dark .defaultColor-2cKwKo,
