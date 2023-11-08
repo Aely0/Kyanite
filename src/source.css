@@ -7180,6 +7180,20 @@ img:not(.emote):not(.emoji)::after {
   background: var(--hover-color) !important;
 }
 
+/* Server Invites */
+.linkIcon_f4077d {
+  color: var(--hover-bright-color) !important;
+}
+.discriminator_d0f37d {
+  color: var(--hover-bright-color) !important;
+}
+.user__3b273 {
+  color: var(--soft-bright-color) !important;
+}
+.inviteSettingsInviteRow__0d747 {
+  box-shadow: none !important;
+}
+
 /* Server Enable Community */
 .guildDetails_fc2c63,
 .featureCard__0a441,
