@@ -7883,6 +7883,15 @@ img:not(.emote):not(.emoji)::after {
 .serverBoostTabItem_b19426[aria-selected="true"] .icon__11372 {
   fill: var(--soft-bright-color) !important;
 }
+.serverBoostTabItem_b19426.selected__5711d .tabBarItemContainer_d74773 {
+  color: var(--soft-bright-color) !important;
+}
+.serverBoostTabItem_b19426[aria-selected="true"] .icon__11372 path {
+  fill: var(--soft-bright-color) !important;
+}
+.tierUnlocked__01133 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Server boost progress bar */
 .colorInteractiveActive-30E9n8.size12-oc4dx4.goalText-2FXXG-,
