@@ -7122,6 +7122,64 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Server Members */
+.mainTableContainer__5ffe0,
+.mainTableContainer_ea650e,
+.movedTable__31aca {
+  background-color: var(--hover-color) !important;
+  box-shadow: none !important;
+}
+.inviteContainer__4d80b {
+  background-color: var(--hover-color) !important;
+}
+.memberRowContainer_f0d0e5 td:after {
+  background: transparent !important;
+}
+.tableHeaderRow__89a36:first-child:after {
+  box-shadow: none !important;
+}
+.table_a843c4,
+.paginationContainer__7663e {
+  border-color: var(--hover-color) !important;
+}
+.smallCol__893bd [style="color: var(--text-normal);"] {
+  color: var(--hover-bright-color) !important;
+}
+.filterIcon__59a93 path {
+  fill: var(--hover-bright-color) !important;
+}
+.actionCell__56a28 {
+  color: var(--soft-bright-color) !important;
+}
+.button_fb10b9 {
+  background-color: transparent !important;
+}
+.memberRowContainer_f0d0e5:hover td {
+  background-color: var(--hover-color) !important;
+}
+.addRoleContainer__23777,
+.otherRoles_a19529 {
+  background-color: var(--hover-color) !important;
+}
+.addRoleIcon__6eb16 {
+  color: var(--soft-bright-color) !important;
+}
+.pageLabel__604ab strong {
+  color: var(--soft-bright-color) !important;
+}
+.colorRed_d6b062 .defaultColor__77578.text-sm-semibold__41578 {
+  color: var(--red-bright-color) !important;
+}
+.messageContainer__0ffa4 > svg > path {
+  fill: var(--hover-bright-color) !important;
+}
+.messageContainer__0ffa4 .heading-md-bold__27797 {
+  color: var(--hover-bright-color) !important;
+}
+.bannerContainer__3f96d {
+  background: var(--hover-color) !important;
+}
+
 /* Server Enable Community */
 .guildDetails_fc2c63,
 .featureCard__0a441,
@@ -7891,6 +7949,12 @@ img:not(.emote):not(.emoji)::after {
 }
 .tierUnlocked__01133 {
   color: var(--soft-bright-color) !important;
+}
+.divider_ec850d {
+  background: transparent !important;
+}
+.channelNotice_bbc8e6 {
+  box-shadow: none !important;
 }
 
 /* Server boost progress bar */
