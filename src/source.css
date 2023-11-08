@@ -6957,6 +6957,21 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
 }
 
+/* Server Insights */
+.developerPortalCtaWrapper__21172 {
+  background-color: var(--hover-color) !important;
+}
+.backgroundAccent__6330c {
+  background-color: var(--hover-yellow-color) !important;
+  color: var(--yellow-bright-color) !important;
+}
+.analyticsCard_a976ba {
+  background-color: var(--hover-color) !important;
+}
+.infoIcon_d8b28e {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Server Enable Community */
 .guildDetails_fc2c63,
 .featureCard__0a441,
@@ -7136,11 +7151,6 @@ img:not(.emote):not(.emoji)::after {
 }
 .staffBadge__35ce0 {
   color: hsla(0, 0%, 100%, 0.8) !important;
-}
-
-/* Community Server Insights */
-.developerPortalCtaWrapper__21172 {
-  background-color: var(--hover-color) !important;
 }
 
 /* Community Server Partner Programme */
