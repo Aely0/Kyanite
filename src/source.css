@@ -4405,6 +4405,10 @@ img:not(.emote):not(.emoji)::after {
 .joinGuildLink_a21822 .text-xs-normal__56c35 {
   color: var(--soft-bright-color) !important;
 }
+.popoutLoadingForeground_f61095 {
+  background-image: none !important;
+  background-color: var(--hover-color) !important;
+}
 
 /* Public server popout */
 .guildPopout-G6M0fK {
