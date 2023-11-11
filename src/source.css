@@ -4581,6 +4581,10 @@ img:not(.emote):not(.emoji)::after {
 .rowContent__90814 .text-md-normal__4afad {
   color: var(--hover-bright-color) !important;
 }
+.title_f68caf,
+.body__8db42 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
