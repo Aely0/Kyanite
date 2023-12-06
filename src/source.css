@@ -3497,29 +3497,30 @@ button[aria-label="Stop Watching"]
 .container_ca50b9 .button__4f306:hover {
   color: var(--soft-bright-color) !important;
 }
-.container_ca50b9 .button__4f306[aria-checked="true"] {
-  color: var(--hover-yellow-bright-color) !important;
+.container_ca50b9 .button__4f306 path[fill="var(--interactive-normal)"] {
+  fill: var(--hover-bright-color) !important;
 }
-.container_ca50b9 .button__4f306[aria-checked="true"]:hover {
-  color: var(--yellow-bright-color) !important;
+.container_ca50b9 .button__4f306:hover path[fill="var(--interactive-normal)"] {
+  fill: var(--soft-bright-color) !important;
 }
-.container_ca50b9 .button__4f306 .strikethrough__29b20 {
-  color: var(--hover-yellow-bright-color) !important;
+.container_ca50b9
+  .button__4f306[aria-checked="true"]
+  path[fill="var(--status-danger)"] {
+  fill: var(--hover-yellow-bright-color) !important;
 }
-.container_ca50b9 .button__4f306:hover .strikethrough__29b20 {
-  color: var(--yellow-bright-color) !important;
+.container_ca50b9
+  .button__4f306[aria-checked="true"]:hover
+  path[fill="var(--status-danger)"] {
+  fill: var(--yellow-bright-color) !important;
 }
-.container_ca50b9 .button__4f306 .redIcon__457ad {
-  color: var(--hover-red-bright-color) !important;
+.container_ca50b9 .button__4f306[aria-checked="true"] .redIcon__457ad path {
+  fill: var(--hover-red-bright-color) !important;
 }
-.container_ca50b9 .button__4f306:hover .redIcon__457ad {
-  color: var(--red-bright-color) !important;
-}
-.container_ca50b9 .button__4f306 .redIcon__457ad .strikethrough__29b20 {
-  color: var(--hover-red-bright-color) !important;
-}
-.container_ca50b9 .button__4f306:hover .redIcon__457ad .strikethrough__29b20 {
-  color: var(--red-bright-color) !important;
+.container_ca50b9
+  .button__4f306[aria-checked="true"]:hover
+  .redIcon__457ad
+  path {
+  fill: var(--red-bright-color) !important;
 }
 
 /* Activity status panel */
