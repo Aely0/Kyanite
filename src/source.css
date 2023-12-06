@@ -8748,11 +8748,11 @@ img:not(.emote):not(.emoji)::after {
 }
 .muted_de6e6e .name__590d6.container_de798d,
 .muted_de6e6e .addButtonIcon_b776b3,
-.muted_de6e6e .arrow_cb03b8.icon_ef4486 {
+.muted_de6e6e .icon_ef4486 {
   opacity: 0.4 !important;
 }
 .addButtonIcon_b776b3,
-.arrow_cb03b8.icon_ef4486 {
+.icon_ef4486 {
   color: var(--hover-bright-color) !important;
   opacity: 0.85 !important;
 }
@@ -8760,12 +8760,14 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
 }
 .name__8d1ec,
-.actionIcon_d679b5 {
+.actionIcon_d679b5,
+.pencilIcon__1ec62 {
   color: var(--hover-bright-color) !important;
 }
 .name_c08dbc,
 .button__07e07,
-.actionIcon_d679b5:hover {
+.actionIcon_d679b5:hover,
+.pencilIcon__1ec62:hover {
   color: var(--soft-bright-color) !important;
 }
 .unread__48cf4.unreadImportant_c775b3 {
