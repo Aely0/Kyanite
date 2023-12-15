@@ -9543,10 +9543,7 @@ div[class*="flex-"][class*="title-"],
   border-left: 1px solid var(--hover-color) !important;
 }
 .emojiButtonNormal__73cd3 .sprite__294b3 {
-  /* Kyanite */
-  /* filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important; */
-  /* Magenta */
-  filter: hue-rotate(260deg) brightness(65%) saturate(180%) !important;
+  background-color: var(--hover-bright-color) !important;
 }
 
 /* Message edit bar */
