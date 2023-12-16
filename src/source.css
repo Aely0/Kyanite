@@ -1090,6 +1090,15 @@ pre:hover .copybutton {
   stroke: var(--soft-bright-color) !important;
 }
 
+/* Loading (Degraded and Unavailable) */
+.text__32559 .title__4cf32,
+.text__32559 .body_c562e6,
+.problemsText__046e8,
+.anchor_c8ddc0.links_ab4aa2,
+.icon__8f8f4 {
+  color: var(--yellow-bright-color) !important;
+}
+
 /* Messages popout */
 .themed-popout {
   background-color: var(--dark-bg) !important;
@@ -3617,6 +3626,12 @@ button[aria-label="Stop Watching"]
 .base__92a12 {
   background-color: var(--main-color) !important;
   color: var(--soft-bright-color) !important;
+}
+
+/* Guild list unavailable icon */
+.unavailableBadge__93b13 {
+  color: var(--red-bright-color) !important;
+  background-color: var(--red-dark-color) !important;
 }
 
 /* Guild list screen charing badge */
@@ -10146,6 +10161,11 @@ div[class*="flex-"][class*="title-"],
 .wrapper__7bcde:hover .name__8d1ec,
 .wrapper__7bcde:hover .icon_eff5d4 {
   color: var(--soft-bright-color) !important;
+}
+.category__758fd,
+.channelIcon_ad6049,
+.channelName_f48c90 {
+  background-color: var(--hover-color) !important;
 }
 
 /* Username */
