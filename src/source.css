@@ -653,7 +653,7 @@ body::after,
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-.defaultColor__77578.reactionTooltipText_fdeb2f {
+.defaultColor__87d87.reactionTooltipText_fdeb2f {
   color: var(--soft-bright-color) !important;
 }
 
@@ -1707,7 +1707,7 @@ pre:hover .copybutton {
 
 /* Server Guide */
 .welcomeMessageContent_c19bb5 span,
-.adminUsernameContainer_a242ff .defaultColor__77578 {
+.adminUsernameContainer_a242ff .defaultColor__87d87 {
   color: var(--soft-bright-color) !important;
 }
 .userCardInner-2VgttK {
@@ -1847,14 +1847,14 @@ pre:hover .copybutton {
   background-color: var(--hover-dark-color) !important;
   border: 2px solid var(--soft-bright-color) !important;
 }
-.pill_f055c3.selected_dc72d1 .defaultColor__77578 {
+.pill_f055c3.selected_dc72d1 .defaultColor__87d87 {
   color: var(--soft-bright-color) !important;
   transition: color 200ms ease-out !important;
 }
 .tagPill-1kSbgP {
   background-color: var(--hover-dark-color) !important;
 }
-.tagPill-1kSbgP .defaultColor__77578 {
+.tagPill-1kSbgP .defaultColor__87d87 {
   color: var(--soft-bright-color) !important;
 }
 .reactionBtn__46474.forceShowLook_b78cf9 {
@@ -3557,7 +3557,7 @@ button[aria-label="Stop Watching"]
 .activityPanel__22355 {
   border-bottom: 1px solid var(--hover-color) !important;
 }
-.defaultColor__77578,
+.defaultColor__87d87,
 .defaultColor-24IHKz,
 .textContent__45dd0 {
   color: var(--hover-bright-color) !important;
@@ -7195,7 +7195,7 @@ img:not(.emote):not(.emoji)::after {
 .pageLabel__604ab strong {
   color: var(--soft-bright-color) !important;
 }
-.colorRed_d6b062 .defaultColor__77578.text-sm-semibold__41578 {
+.colorRed_d6b062 .defaultColor__87d87.text-sm-semibold__41578 {
   color: var(--red-bright-color) !important;
 }
 .messageContainer__0ffa4 > svg > path {
