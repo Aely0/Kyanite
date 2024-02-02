@@ -1514,6 +1514,9 @@ pre:hover .copybutton {
   background-color: var(--hover-color) !important;
   transition: all 200ms ease-out !important;
 }
+.defaultColor__37d78 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Voice channel limits */
 .wrapper__5848b {
@@ -3558,6 +3561,7 @@ button[aria-label="Stop Watching"]
   border-bottom: 1px solid var(--hover-color) !important;
 }
 .defaultColor__87d87,
+.defaultColor__37d78,
 .defaultColor-24IHKz,
 .textContent__45dd0 {
   color: var(--hover-bright-color) !important;
