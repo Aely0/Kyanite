@@ -5581,7 +5581,7 @@ img:not(.emote):not(.emoji)::after {
 .ui-scroller-wrap.ui-scroller-track > .scroller::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-.auto_a48086::-webkit-scrollbar {
+.auto__76cc7::-webkit-scrollbar {
   width: 12px !important;
 }
 
