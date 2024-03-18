@@ -12641,6 +12641,18 @@ path[fill="rgb(255,216,54)"] {
 .picker__6dca7 .inspector__993e1 {
   background-color: var(--hover-color) !important;
 }
+.soundAddIcon__0f1fb,
+.playIcon__68d2d {
+  color: var(--soft-bright-color) !important;
+}
+.buttonOverlayBackground_ec646a.absoluteFill_bda114 {
+  background-color: var(--hover-color) !important;
+  opacity: 1 !important;
+}
+.soundButtonInteractive__341d7.playing_ca65b9 {
+  border-color: var(--soft-bright-color) !important;
+  border-width: 2px !important;
+}
 
 /* Keybinds (User Settings) */
 .warning__9db16 {
