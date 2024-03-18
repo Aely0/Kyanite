@@ -3511,31 +3511,43 @@ button[aria-label="Stop Watching"]
   color: var(--hover-bright-color) !important;
 }
 .container_ca50b9 .button__4f306:hover {
+  background-color: transparent !important;
   color: var(--soft-bright-color) !important;
 }
-.container_ca50b9 .button__4f306 path[fill="var(--interactive-normal)"] {
+.container_d667ff .button__4f306:hover {
+  background-color: transparent !important;
+}
+.lottieIcon__9d8ab.buttonIcon__80d32 path {
+  fill: var(--soft-bright-color) !important;
+  stroke: var(--soft-bright-color) !important;
+}
+.disabledButtonWrapper__69c70.buttonColor_a6eb73,
+.disabledButtonWrapper__69c70 .disabledButtonOverlay__2a969 {
+  background-color: transparent !important;
+}
+.container_ca50b9 .button__4f306 path[d^=" M-1.4420000314712524"],
+.container_d667ff .button__4f306 path {
   fill: var(--hover-bright-color) !important;
 }
-.container_ca50b9 .button__4f306:hover path[fill="var(--interactive-normal)"] {
+.container_ca50b9 .button__4f306:hover path[d^=" M-1.4420000314712524"],
+.container_d667ff .button__4f306:hover path  {
   fill: var(--soft-bright-color) !important;
 }
 .container_ca50b9
-  .button__4f306[aria-checked="true"]
-  path[fill="var(--status-danger)"] {
-  fill: var(--hover-yellow-bright-color) !important;
+  .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
+    --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
 .container_ca50b9
   .button__4f306[aria-checked="true"]:hover
-  path[fill="var(--status-danger)"] {
-  fill: var(--yellow-bright-color) !important;
+  .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
+    --__lottieIconColor: var(--yellow-bright-color) !important;
 }
-.container_ca50b9 .button__4f306[aria-checked="true"] .redIcon__457ad path {
+.container_ca50b9 .button__4f306[aria-checked="true"] path[fill="var(--status-danger)"] {
   fill: var(--hover-red-bright-color) !important;
 }
 .container_ca50b9
   .button__4f306[aria-checked="true"]:hover
-  .redIcon__457ad
-  path {
+  path[fill="var(--status-danger)"] {
   fill: var(--red-bright-color) !important;
 }
 
