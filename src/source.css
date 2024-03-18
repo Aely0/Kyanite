@@ -3428,6 +3428,9 @@ button[aria-label="Stop Watching"]
   color: var(--soft-bright-color) !important;
   background-color: var(--hover-color) !important;
 }
+.status__42e87 path[fill="var(--white)"] {
+  fill: var(--soft-bright-color) !important;
+}
 .header_c2c186 {
   color: var(--soft-bright-color) !important;
 }
@@ -3442,6 +3445,15 @@ button[aria-label="Stop Watching"]
   .checkboxElement-uwAa9F:checked
   + span:after {
   border-color: var(--soft-bright-color) !important;
+}
+.container__77df0 {
+  background-color: var(--hover-color) !important;
+}
+.dropDown__8be15 {
+  color: var(--hover-bright-color) !important;
+}
+.dropDown__8be15:hover {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Popout menu + Status picker */
@@ -3530,19 +3542,21 @@ button[aria-label="Stop Watching"]
   fill: var(--hover-bright-color) !important;
 }
 .container_ca50b9 .button__4f306:hover path[d^=" M-1.4420000314712524"],
-.container_d667ff .button__4f306:hover path  {
+.container_d667ff .button__4f306:hover path {
   fill: var(--soft-bright-color) !important;
 }
 .container_ca50b9
   .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
-    --__lottieIconColor: var(--hover-yellow-bright-color) !important;
+  --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
 .container_ca50b9
   .button__4f306[aria-checked="true"]:hover
   .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
-    --__lottieIconColor: var(--yellow-bright-color) !important;
+  --__lottieIconColor: var(--yellow-bright-color) !important;
 }
-.container_ca50b9 .button__4f306[aria-checked="true"] path[fill="var(--status-danger)"] {
+.container_ca50b9
+  .button__4f306[aria-checked="true"]
+  path[fill="var(--status-danger)"] {
   fill: var(--hover-red-bright-color) !important;
 }
 .container_ca50b9
