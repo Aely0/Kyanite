@@ -3548,6 +3548,9 @@ button[aria-label="Stop Watching"]
   fill: var(--soft-bright-color) !important;
   stroke: var(--soft-bright-color) !important;
 }
+.ping__47992 path[fill="var(--interactive-normal)"] {
+  fill: var(--yellow-bright-color) !important;
+}
 .disabledButtonWrapper__69c70.buttonColor_a6eb73,
 .disabledButtonWrapper__69c70 .disabledButtonOverlay__2a969 {
   background-color: transparent !important;
