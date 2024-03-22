@@ -9033,6 +9033,9 @@ img:not(.emote):not(.emoji)::after {
 .protip {
   color: var(--soft-bright-color) !important;
 }
+.jumpToPresentBar__0ff7f .spinnerItem__83246 {
+  background-color: var(--soft-bright-color) !important;
+}
 
 /* Message list loading */
 .scrollerInner__059a5 .avatar_eb6eba,
