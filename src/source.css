@@ -10152,6 +10152,9 @@ div[class*="flex-"][class*="title-"],
 .userInfoSection__1daf8 + .userInfoSection__1daf8 {
   border-top: none !important;
 }
+.editIcon__48e69 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Embeds */
 .embedFull__8dc21 {
