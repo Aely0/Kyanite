@@ -4432,6 +4432,22 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Enable Super Reactions menu */
+.wrapper_b1db9d {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: brightness(5%) !important;
+}
+.closeButton_f88a0f {
+  color: var(--hover-bright-color) !important;
+  opacity: 0.6 !important;
+}
+.closeButton_f88a0f:hover {
+  opacity: 1 !important;
+}
+.nitroWheel_aa5b24 {
+  color: var(--soft-bright-color) !important;
+}
+
 /* Sticker Suggestion popup */
 .containerBackground__1e084 {
   background-color: rgba(0, 0, 0.85) !important;
