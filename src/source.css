@@ -10155,6 +10155,10 @@ div[class*="flex-"][class*="title-"],
 .editIcon__48e69 {
   color: var(--soft-bright-color) !important;
 }
+.loadingPopout__5f0e8 {
+  background-color: var(--hover-color) !important;
+  border-radius: 50px !important;
+}
 
 /* Embeds */
 .embedFull__8dc21 {
