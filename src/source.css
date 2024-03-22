@@ -4413,6 +4413,24 @@ img:not(.emote):not(.emoji)::after {
   border-bottom: 2px solid var(--soft-bright-color) !important;
   border-radius: 0px !important;
 }
+.categoryItemLockIconContainer__9e6a3 {
+  background-color: var(--hover-dark-color) !important;
+}
+.categoryItemLockIcon_d74c21 {
+  color: var(--soft-bright-color) !important;
+}
+.emojiLockIconContainer_edde9a {
+  background-color: var(--hover-color) !important;
+}
+.label_ee78c3 {
+  background: var(--hover-color) !important;
+}
+.label_ee78c3 .icon__88132 path {
+  fill: var(--soft-bright-color) !important;
+}
+.tooltipContainer__4c678 .text-sm-medium__1ba28 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Sticker Suggestion popup */
 .containerBackground__1e084 {
