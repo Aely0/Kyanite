@@ -656,6 +656,9 @@ body::after,
 .defaultColor__37d78.reactionTooltipText_fdeb2f {
   color: var(--soft-bright-color) !important;
 }
+.reactionEmojiDetailsClickable__990fc {
+  color: var(--soft-bright-color) !important;
+}
 
 /* Reaction list */
 .container_dc03c3,
