@@ -9706,6 +9706,9 @@ div[class*="flex-"][class*="title-"],
   background: var(--dark-bg) !important;
   border: 1px solid var(--hover-color) !important;
 }
+.colorDefault__0b482.focused__27621 path {
+  fill: var(--soft-bright-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
