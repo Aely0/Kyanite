@@ -8405,6 +8405,9 @@ img:not(.emote):not(.emoji)::after {
 .divider_dec9ac {
   background-color: var(--hover-color) !important;
 }
+.caret__33d19 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Threads Early Access tab */
 .info-1Vr1AV {
