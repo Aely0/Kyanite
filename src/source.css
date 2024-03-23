@@ -10025,6 +10025,10 @@ div[class*="flex-"][class*="title-"],
 .previewHover__1e0e0 {
   background: var(--hover-color) !important;
 }
+.previewHover__1e0e0 .white_eba900,
+.watchButton__0d283 {
+  color: var(--soft-bright-color) !important;
+}
 .topSection-13QKHs {
   background: var(--dark-bg) !important;
 }
