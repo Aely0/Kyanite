@@ -8698,6 +8698,9 @@ img:not(.emote):not(.emoji)::after {
 .unread__75c9f {
   background-color: var(--main-color) !important;
 }
+.unreadIcon_efbd40 {
+  color: var(--soft-bright-color) !important;
+}
 
 /* New mentions bar */
 .unreadMentionsBar__0d02a {
