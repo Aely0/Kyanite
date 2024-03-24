@@ -4316,7 +4316,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .emojiItem_b15dee.emojiItemSelected__1a09a,
 .stickerInspected__1c897 .stickerBackground-2XECKi {
-  background-color: var(--hover-dark-color) !important;
+  background-color: var(--hover-color) !important;
 }
 .medium__2d9f3 .input_f4043f,
 .medium__0fb5d .input__74754 {
@@ -4487,7 +4487,7 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 .emojiLockIconContainer_edde9a {
-  background-color: var(--hover-color) !important;
+  background-color: var(--hover-red-color) !important;
 }
 .label_ee78c3 {
   background: var(--hover-color) !important;
@@ -4497,6 +4497,22 @@ img:not(.emote):not(.emoji)::after {
 }
 .tooltipContainer__4c678 .text-sm-medium__1ba28 {
   color: var(--soft-bright-color) !important;
+}
+.emojiLockIcon__37643,
+.upsellContainer__3c02a,
+.nitroBottomDivider_d06fca,
+.nitroTopDividerContainer__4c8fd {
+  display: none !important;
+}
+.imageLoading__37d01 {
+  background-image: none !important;
+}
+.categorySectionNitroLocked_cf3b81 {
+  background-color: var(--hover-red-color) !important;
+}
+.assetWrapperMasked__20115 {
+  -webkit-mask: none !important;
+  mask: none !important;
 }
 
 /* Enable Super Reactions menu */
