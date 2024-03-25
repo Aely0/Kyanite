@@ -3631,12 +3631,13 @@ button[aria-label="Stop Watching"]
   fill: var(--soft-bright-color) !important;
 }
 .container_ca50b9
-  .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
+  .button__4f306[aria-checked="true"]
+  .lottieIcon__9d8ab {
   --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
 .container_ca50b9
   .button__4f306[aria-checked="true"]:hover
-  .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger);"] {
+  .lottieIcon__9d8ab {
   --__lottieIconColor: var(--yellow-bright-color) !important;
 }
 .container_ca50b9
@@ -9788,9 +9789,6 @@ div[class*="flex-"][class*="title-"],
   box-shadow: var(--hover-color) !important;
   background: var(--dark-bg) !important;
   border: 1px solid var(--hover-color) !important;
-}
-.colorDefault__0b482.focused__27621 path {
-  fill: var(--soft-bright-color) !important;
 }
 
 /* Disabled message bar */
