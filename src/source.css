@@ -12761,8 +12761,10 @@ path[fill="rgb(255,216,54)"] {
   color: var(--hover-bright-color) !important;
 }
 .picker__6dca7 {
-  background-color: var(--hover-color) !important;
-  backdrop-filter: blur(20px) !important;
+  background-color: var(--hover-faint-color) !important;
+  backdrop-filter: brightness(5%) !important;
+  box-shadow: var(--hover-color) 0px 0px 5px inset !important;
+  border-radius: 12px !important;
 }
 .picker__6dca7 .categoryList__173de {
   background-color: transparent !important;
