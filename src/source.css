@@ -9790,6 +9790,14 @@ div[class*="flex-"][class*="title-"],
   background: var(--dark-bg) !important;
   border: 1px solid var(--hover-color) !important;
 }
+.item__183e8.colorDefault__0b482.focused__27621 path,
+.item__183e8.colorDefault__0b482[aria-checked="true"] path {
+  fill: var(--soft-bright-color) !important;
+}
+.item__183e8.colorDanger_eec36d.focused__27621 path,
+.item__183e8.colorDanger_eec36d[aria-checked="true"] path {
+  fill: var(--red-bright-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
