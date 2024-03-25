@@ -2383,12 +2383,52 @@ pre:hover .copybutton {
 .linkContainer__32221 {
   background-color: transparent !important;
 }
-.clickable_f7865e {
+.clickable_f7865e,
+.closeIcon__55065 {
   color: var(--soft-bright-color) !important;
   opacity: 0.6 !important;
 }
-.clickable_f7865e:hover {
+.clickable_f7865e:hover,
+.closeIcon__55065:hover {
   opacity: 1 !important;
+}
+.countContainer__51412,
+.countContainer__1b48f {
+  background-color: var(--hover-dark-color) !important;
+  border-radius: 4px !important;
+}
+.countText__8c2eb,
+.countText__6ebee {
+  color: var(--soft-bright-color) !important;
+}
+.messageCountIcon__73000,
+.messageCountText__13680 {
+  color: var(--hover-bright-color) !important;
+}
+.bullet__4f67e {
+  color: var(--hover-color) !important;
+}
+.tagsIcon_a86878 {
+  color: var(--soft-bright-color) !important;
+}
+.tagsDivider_a1443e {
+  background-color: var(--hover-color) !important;
+}
+.channelTextAreaInner__33239 {
+  padding: 10px !important;
+}
+.uploadInput_bbab2f {
+  background-color: var(--hover-color) !important;
+}
+.uploadIcon_fe2ad4 {
+  color: var(--soft-bright-color) !important;
+}
+.dots__44c48 {
+  background-color: var(--hover-color) !important;
+  border: 3px solid var(--hover-color) !important;
+}
+.dots_a97068.themed__4f364 {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Select control */
@@ -3630,14 +3670,10 @@ button[aria-label="Stop Watching"]
 .container_d667ff .button__4f306:hover path {
   fill: var(--soft-bright-color) !important;
 }
-.container_ca50b9
-  .button__4f306[aria-checked="true"]
-  .lottieIcon__9d8ab {
+.container_ca50b9 .button__4f306[aria-checked="true"] .lottieIcon__9d8ab {
   --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
-.container_ca50b9
-  .button__4f306[aria-checked="true"]:hover
-  .lottieIcon__9d8ab {
+.container_ca50b9 .button__4f306[aria-checked="true"]:hover .lottieIcon__9d8ab {
   --__lottieIconColor: var(--yellow-bright-color) !important;
 }
 .container_ca50b9
