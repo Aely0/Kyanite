@@ -12480,6 +12480,37 @@ path[fill="rgb(255,216,54)"] {
 .title__28a65 {
   color: var(--soft-bright-color) !important;
 }
+.selectedIcon__4b0ba {
+  background-color: var(--soft-bright-color) !important;
+  border-radius: 4px !important;
+}
+.selectedIcon__4b0ba path,
+.selectedIcon__4b0ba circle {
+  fill: transparent !important;
+}
+.settingsTabBar__17e8a {
+  border-bottom: none !important;
+}
+.avatarBackground__92f2a {
+  background-color: var(--hover-color) !important;
+}
+.title__211a4 .text-sm-normal_e612c7 {
+  color: var(--hover-bright-color) !important;
+}
+.line__333ed {
+  background-color: var(--hover-color) !important;
+}
+.marker__6f061,
+.marker__6f061 .empty__3837d {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: brightness(10%) !important;
+}
+.marker__6f061 path {
+  fill: var(--hover-bright-color) !important;
+}
+.statusLabel__4e7e9 {
+  color: var(--hover-bright-color) !important;
+}
 
 /* Family Centre */
 .settingsTabBar__19aa3 {
