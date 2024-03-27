@@ -6923,19 +6923,6 @@ img:not(.emote):not(.emoji)::after {
   background-color: var(--hover-color) !important;
 }
 
-/* Server Members */
-.member-2cj2PI {
-  background-color: transparent !important;
-  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
-  box-shadow: 0 1px 0 0 var(--hover-color) !important;
-}
-.member-2cj2PI .overflowIconFg-29oz-o {
-  fill: var(--soft-bright-color) !important;
-}
-.member-2cj2PI .ownerHelpIcon-ZVaFw4 {
-  color: var(--soft-bright-color) !important;
-}
-
 /* Server Invites */
 .inviteSettingsInviteRow-1rZeIM {
   padding-left: 12px !important;
@@ -7408,6 +7395,31 @@ img:not(.emote):not(.emoji)::after {
 }
 .bannerContainer__3f96d {
   background: var(--hover-color) !important;
+}
+.member-2cj2PI {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
+  box-shadow: 0 1px 0 0 var(--hover-color) !important;
+}
+.member-2cj2PI .overflowIconFg-29oz-o {
+  fill: var(--soft-bright-color) !important;
+}
+.member-2cj2PI .ownerHelpIcon-ZVaFw4 {
+  color: var(--soft-bright-color) !important;
+}
+.sortButton_d8b97a path {
+  fill: var(--soft-bright-color) !important;
+}
+.inviteContainer__16047 {
+  background-color: var(--hover-color) !important;
+  color: var(--soft-bright-color) !important;
+}
+.container__3b77e {
+  background-color: var(--hover-color) !important;
+}
+.container__3b77e .input__7e45c,
+.container__3b77e .input__7e45c::placeholder {
+  color: var(--soft-bright-color) !important;
 }
 
 /* Server Invites */
