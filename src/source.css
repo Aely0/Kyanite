@@ -10754,26 +10754,22 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Audit log dropdown menus */
-.theme-dark .popoutList-10IFAa {
+.container_d27846 {
   background: var(--dark-bg) !important;
   border: 1px solid var(--hover-color) !important;
 }
-.theme-dark .selectableItem__166c5:hover {
+.selectedBrand__37ae4,
+.selectedBrand__37ae4:hover {
   background: var(--hover-color) !important;
 }
-.selectableItem__166c5.selected__47180,
-.selectableItem__166c5.selected__47180:hover {
-  background: var(--main-color) !important;
+.item__287de .itemLabel__6d2fe,
+.itemCheckbox__8e8b3 {
+  color: var(--hover-bright-color) !important;
 }
-.selectedBrand-1AtwYE {
-  background: var(--hover-dark-color) !important;
+.selectedBrand__37ae4 .itemLabel__6d2fe,
+.selectedBrand__37ae4 .itemLabel__6d2fe .defaultColor__37d78,
+.selectedBrand__37ae4 .itemCheckbox__8e8b3 {
   color: var(--soft-bright-color) !important;
-}
-.selectedBrand-1AtwYE:hover {
-  background: var(--main-color) !important;
-}
-.item-1BCeuB .itemCheckbox-2G8-Td > svg > path {
-  fill: var(--hover-bright-color) !important;
 }
 
 /* Audit log entries */
