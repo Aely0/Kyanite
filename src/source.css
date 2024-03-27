@@ -13435,6 +13435,9 @@ img:not(.emote):not(.emoji)::after {
 .pulsingEllipsisItem-3pNmEc {
   background-color: var(--soft-bright-color) !important;
 }
+.item__0e5d6 {
+  background-color: var(--soft-bright-color) !important;
+}
 .viewWrapper-2sTW6t.searchPage-1Rxeav
   .header__809e1.base-21yXnu.size24-17l95E
   > strong {
@@ -13493,6 +13496,16 @@ img:not(.emote):not(.emoji)::after {
 }
 .searchIcon_e60ea8 {
   color: var(--hover-bright-color) !important;
+}
+.card__86773 {
+  background-color: var(--hover-color) !important;
+}
+.notice__5fd4c .lookOutlined__46d54.colorWhite__43488 {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--hover-bright-color) !important;
+}
+.search_e47903 .searchBox__88a98:focus-within {
+  box-shadow: none !important;
 }
 
 /* Server boost tab */
