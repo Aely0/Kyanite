@@ -3577,6 +3577,51 @@ button[aria-label="Stop Watching"]
 .channelStatusClickable__6c2ec {
   color: var(--hover-bright-color) !important;
 }
+.headerDescription_fc3801,
+.tabItem__0cb9d {
+  color: var(--hover-bright-color) !important;
+}
+.tabItem__0cb9d:hover {
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+.tabItemSelected__3dfe7,
+.tabItemSelected__3dfe7:hover {
+  color: var(--soft-bright-color) !important;
+  border-bottom: 2px solid var(--soft-bright-color) !important;
+}
+.sourceThumbnail__21c87 {
+  background-color: var(--hover-faint-color) !important;
+}
+.tile__46960:hover .sourceThumbnail__21c87 {
+  box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
+}
+.card__7756d {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-bright-color) !important;
+  border: none !important;
+}
+.selectedIcon_eb9f1c,
+.channelIcon_ea8535 {
+  color: var(--soft-bright-color) !important;
+}
+.selectorButton_c6ae93 {
+  background: var(--hover-color) !important;
+}
+.selectorButtonSelected_fbe8fc {
+  background: var(--hover-dark-color) !important;
+}
+.selectorTextSelected_d7d560.selectorText_b1d64c {
+  color: var(--soft-bright-color) !important;
+}
+.item__126a6 {
+  border-color: var(--hover-color) !important;
+}
+.qualitySettingsContainer__5cacd {
+  border: 1px solid var(--hover-color) !important;
+}
+.enhancedBanner__09743 {
+  background: var(--hover-color) !important;
+}
 
 /* Popout menu + Status picker */
 .menu_dc52c6,
