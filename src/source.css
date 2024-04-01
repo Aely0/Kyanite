@@ -4780,6 +4780,9 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
   border-color: var(--hover-color) !important;
 }
+.activity_ce3ac0+.activity_ce3ac0 {
+  border-top: 1px solid var(--hover-color) !important;
+}
 
 /* Update icon */
 .updateIconForeground_abfc5a {
