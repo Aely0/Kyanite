@@ -4764,6 +4764,23 @@ img:not(.emote):not(.emoji)::after {
   color: var(--soft-bright-color) !important;
 }
 
+/* Voice channel hover popout */
+.container__628c8 {
+  background-color: var(--dark-bg) !important;
+  box-shadow: var(--hover-color) 0px 0px 5px inset !important;
+  border-radius: 12px !important;
+}
+.channelIcon__0be4e {
+  color: var(--soft-bright-color) !important;
+}
+.headerDivider__07db6 {
+  background-color: var(--hover-color) !important;
+}
+.button__76c4e {
+  color: var(--hover-bright-color) !important;
+  border-color: var(--hover-color) !important;
+}
+
 /* Update icon */
 .updateIconForeground_abfc5a {
   fill: var(--soft-bright-color) !important;
