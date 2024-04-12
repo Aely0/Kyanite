@@ -14017,7 +14017,7 @@ img:not(.emote):not(.emoji)::after {
 .codeActions__13d69 {
   padding-right: 2px !important;
 }
-.codeActions__13d69 > div[role="button"] > svg > g {
+.codeActions__13d69 > div[role="button"] > svg > path {
   fill: var(--soft-bright-color) !important;
 }
 
@@ -14026,6 +14026,7 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .markup_a7e664 code,
 .theme-dark .markup_a7e664 code.inline,
 .markup_a7e664 pre {
+  font-family: "Consolas", "Source Code Pro", "gg mono" !important;
   font-size: 11px !important;
   background: rgba(0, 0, 0, 0.2) !important;
   border-color: var(--hover-color) !important;
