@@ -4780,7 +4780,7 @@ img:not(.emote):not(.emoji)::after {
   color: var(--hover-bright-color) !important;
   border-color: var(--hover-color) !important;
 }
-.activity_ce3ac0+.activity_ce3ac0 {
+.activity_ce3ac0 + .activity_ce3ac0 {
   border-top: 1px solid var(--hover-color) !important;
 }
 
@@ -11642,6 +11642,20 @@ div[class*="flex-"][class*="title-"],
 .clickable__0b25f[aria-disabled="false"] > .base__87e58:hover,
 .clickable__0b25f[aria-selected="true"] > .base__87e58 {
   background-color: var(--hover-color) !important;
+}
+.wrapper__35c78 {
+  background-color: transparent !important;
+}
+.selected_fd9558,
+.selected_fd9558:hover,
+.selectable_b68b2e:hover {
+  background-color: transparent !important;
+}
+.selectable__8161d:hover {
+  background-color: var(--hover-color) !important;
+}
+.builtInSeparator__3f669 {
+  border-bottom: none !important;
 }
 
 /* Slash commands - Dropdown menu */
