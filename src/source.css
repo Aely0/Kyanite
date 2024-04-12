@@ -9812,6 +9812,9 @@ div[class*="flex-"][class*="title-"],
 .emojiButtonNormal__5f64f .sprite__294b3 {
   background-color: var(--hover-bright-color) !important;
 }
+.form_d8a4a1:after {
+  background: transparent !important;
+}
 
 /* Message edit bar */
 .message_ccca67 .operations__62559 {
