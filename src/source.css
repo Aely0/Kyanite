@@ -1458,6 +1458,36 @@ pre:hover .copybutton {
   color: var(--hover-red-bright-color) !important;
 }
 
+/* Voice message */
+.container_ce813c {
+  background-color: var(--hover-color) !important;
+}
+.playButtonContainer_bf2199 {
+  background: var(--hover-dark-color) !important;
+}
+.playIcon__25e6e {
+  color: var(--soft-bright-color) !important;
+}
+.waveform_c1ffcc {
+  color: var(--soft-bright-color) !important;
+}
+.container_ce813c .duration_ffb8b9 {
+  color: var(--soft-bright-color) !important;
+}
+.volumeButtonIcon__99a56 {
+  color: var(--hover-bright-color) !important;
+}
+.volumeButtonIcon__99a56:hover {
+  color: var(--soft-bright-color) !important;
+}
+.ripple__74f0d {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--hover-dark-color)
+  ) !important;
+}
+
 /* Channel start */
 .overflow_fb7b90 {
   background-color: var(--hover-color) !important;
