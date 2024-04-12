@@ -12796,7 +12796,6 @@ path[fill="rgb(255,216,54)"] {
 .connectionHeader__2b82f {
   background-color: transparent !important;
 }
-.integration_b27c42,
 .metadataContainer__1842c {
   background-color: var(--hover-color) !important;
 }
@@ -12822,6 +12821,12 @@ path[fill="rgb(255,216,54)"] {
 }
 .connectionAccountValue_a30590 {
   color: var(--soft-bright-color) !important;
+}
+.integration_b27c42 {
+  background-color: transparent !important;
+}
+.integrationWrapper__359c4 {
+  background: var(--hover-color) !important;
 }
 
 /* Discord Nitro (User Settings) */
