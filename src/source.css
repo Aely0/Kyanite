@@ -11716,10 +11716,11 @@ div[class*="flex-"][class*="title-"],
   outline: 1px solid var(--soft-bright-color) !important;
 }
 .voteCount_dc1eb4,
-.contents__322f4 {
+.detailsText__4bc99 .contents__322f4 {
   color: var(--hover-bright-color) !important;
 }
-.contents__322f4:hover,
+.buttonPresentation_adf90c,
+.detailsText__4bc99 .contents__322f4:hover,
 .detailsTextButton__26fd0.interactive__15e0f:hover,
 .fontScaling__56c42.text-sm-normal__95a78[style="color: var(--text-muted);"],
 .fontScaling__56c42.text-sm-medium__726be[style="color: var(--text-normal);"] {
