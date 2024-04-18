@@ -4260,6 +4260,28 @@ button[aria-label="Stop Watching"]
   ) !important;
 }
 
+/* File download/delete buttons */
+.hoverButtonGroup__745e4 {
+  background-color: var(--hover-color) !important;
+  backdrop-filter: brightness(40%) !important;
+  border: none !important;
+}
+.hoverButton__78b6a {
+  color: var(--hover-bright-color) !important;
+  transition: ease-out 150ms !important;
+}
+.hoverButton__78b6a:hover {
+  color: var(--soft-bright-color) !important;
+  background-color: var(--hover-color) !important;
+}
+.removeMosaicItemHoverButton__56c64 {
+  color: var(--hover-red-bright-color) !important;
+}
+.removeMosaicItemHoverButton__56c64:hover {
+  color: var(--red-bright-color) !important;
+  background-color: var(--hover-red-color) !important;
+}
+
 /* Channel text area */
 .channel-textarea-inner {
   border: 2px solid hsla(0, 0%, 100%, 0.1) !important;
