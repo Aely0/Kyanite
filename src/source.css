@@ -12816,8 +12816,11 @@ path[fill="rgb(255,216,54)"] {
   background-color: var(--hover-color) !important;
   border-color: transparent !important;
 }
-.accountButtonInner__00bdd > svg > g > polygon[fill="currentColor"] {
-  fill: var(--soft-bright-color) !important;
+.accountButtonInner__00bdd {
+  color: var(--soft-bright-color) !important;
+}
+.accountBtnInner__1470b {
+  background-color: var(--hover-color) !important;
 }
 .connectionHeader__2b82f {
   background-color: transparent !important;
