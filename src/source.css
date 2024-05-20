@@ -8770,6 +8770,18 @@ img:not(.emote):not(.emoji)::after {
 .toolbar__62fb5 .selected__1fc53 .count__03d4d {
   color: var(--soft-bright-color) !important;
 }
+.icon_ae0b42 > path[d^="M14.5 8a3"],
+.icon_ae0b42 > path[d^="M19 14a1"],
+.actionIcon_b149a2 > path[d^="M14.5 8a3"],
+.actionIcon_b149a2 > path[d^="M19 14a1"] {
+  fill: var(--hover-bright-color) !important;
+}
+.icon_ae0b42:hover > path[d^="M14.5 8a3"],
+.icon_ae0b42:hover > path[d^="M19 14a1"],
+.actionIcon_b149a2:hover > path[d^="M14.5 8a3"],
+.actionIcon_b149a2:hover > path[d^="M19 14a1"] {
+  fill: var(--soft-bright-color) !important;
+}
 .icon_ae0b42 > path[d^="M1.3 21.3a1"] {
   fill: var(--hover-red-bright-color) !important;
 }
