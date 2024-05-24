@@ -4281,6 +4281,9 @@ button[aria-label="Stop Watching"]
   color: var(--red-bright-color) !important;
   background-color: var(--hover-red-color) !important;
 }
+.nonMediaMosaicItem__6d1a2 {
+  outline: none !important;
+}
 
 /* Channel text area */
 .channel-textarea-inner {
