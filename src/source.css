@@ -9890,7 +9890,7 @@ div[class*="flex-"][class*="title-"],
   font-weight: 600 !important;
 }
 
-/* Message context menu */
+/* Server / Message context menu */
 .button-1I8KM5 {
   background-color: var(--hover-color) !important;
 }
@@ -9938,6 +9938,10 @@ div[class*="flex-"][class*="title-"],
 .item__183e8.colorDanger__08c25.focused_dcafb9 path,
 .item__183e8.colorDanger__08c25[aria-checked="true"] path {
   fill: var(--red-bright-color) !important;
+}
+.icon__0bfbf path[d^="M14.5 8a3"],
+.icon__0bfbf path[d^="M19 14a1"] {
+  fill: var(--hover-bright-color) !important;
 }
 
 /* Disabled message bar */
