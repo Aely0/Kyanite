@@ -12334,6 +12334,15 @@ path[fill="rgb(255,216,54)"] {
 .flex_f18b02.noWrap__5c413 {
   color: var(--hover-bright-color) !important;
 }
+.popout__7a706 {
+  background-color: var(--dark-bg) !important;
+  -webkit-box-shadow: var(--hover-color) !important;
+  box-shadow: var(--hover-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+.outline__7c4d9 {
+  border: 2px solid var(--hover-bright-color) !important;
+}
 
 /* Settings */
 .theme-dark .defaultColor-2cKwKo,
