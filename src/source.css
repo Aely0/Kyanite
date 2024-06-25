@@ -11451,6 +11451,11 @@ div[class*="flex-"][class*="title-"],
   display: none !important;
 }
 
+/* Gif loading icon */
+.imageLoadingOverlay_d4597d {
+  background-color: var(--hover-color) !important;
+}
+
 /* Gif favourite button */
 .gifFavoriteButton_c5e128:hover {
   color: var(--soft-bright-color) !important;
