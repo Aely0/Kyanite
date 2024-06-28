@@ -9045,6 +9045,44 @@ img:not(.emote):not(.emoji)::after {
     color: var(--soft-bright-color) !important;
 }
 
+/* Guild popout */
+.container_c22357 {
+    background: var(--dark-bg) !important;
+}
+.clanTagChiplet_e0fe28 {
+    background-color: var(--hover-color) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.clanTagChiplet_e0fe28 div[style="color: var(--text-primary);"] {
+    color: var(--soft-bright-color) !important;
+}
+.cardContainer_c22357,
+.buttonContainer_c22357 {
+    background: var(--dark-bg) !important;
+}
+.nameText_e0fe28,
+.clanInfoItem_e0fe28 {
+    color: var(--soft-bright-color) !important;
+}
+.clanIconInner_e0fe28 {
+    background-color: var(--dark-bg) !important;
+}
+.trait_c18810 {
+    border: 1px solid var(--hover-color) !important;
+}
+.cardFooter_e0fe28 {
+    border-top: 1px solid var(--hover-color) !important;
+}
+.gameImageContainer_fda254 {
+    border: 1px solid var(--hover-color) !important;
+}
+.extraGameCount_fda254 {
+    background-color: var(--dark-bg) !important;
+}
+.extraGameCount_fda254 div[style="color: white;"] {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Role and category names + Direct Messages title */
 .membersGroup_cbd271 {
     margin-bottom: 8px !important;
