@@ -9024,11 +9024,14 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Tags */
-.botTagRegular_c89c9a,
+.botTagRegular_a02df3,
 .botTag_a31c43,
 .akaBadge__27cd4 {
     background-color: var(--hover-dark-color) !important;
     color: var(--soft-bright-color) !important;
+}
+.botTagRegular_a02df3 svg path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Role and category names + Direct Messages title */
