@@ -9034,6 +9034,17 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Guild tag */
+.chipletContainerInner_d5cb59 {
+    background: var(--hover-dark-color) !important;
+}
+.chipletContainerInner_d5cb59:hover {
+    background: var(--bg-mod-faint);
+}
+.unselectable_d5cb59 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Role and category names + Direct Messages title */
 .membersGroup_cbd271 {
     margin-bottom: 8px !important;
