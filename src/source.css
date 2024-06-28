@@ -9014,12 +9014,12 @@ img:not(.emote):not(.emoji)::after {
 .mention:hover {
     text-decoration: none !important;
 }
-.wrapper_a7c28c {
+.wrapper_bf1b19 {
     padding: none !important;
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.wrapper_a7c28c:hover {
+.wrapper_bf1b19:hover {
     background-color: var(--hover-dark-color) !important;
 }
 
