@@ -681,6 +681,9 @@ body::after,
     -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
     box-shadow: inset 0 -1px 0 var(--hover-color) !important;
 }
+.reactionDefault_f2bfbb:hover {
+    background-color: var(--hover-color) !important;
+}
 
 /* Message hover toolbar (hidden by default, can be reverted by uncommenting the override in theme files) */
 .message_d5deea.selected_d5deea .buttons_d5deea,
