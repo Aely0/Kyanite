@@ -14184,17 +14184,17 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Code blocks (copy icon) */
-.codeActions_d6076c {
+.codeActions_f8f345 {
     padding-right: 2px !important;
 }
-.codeActions_d6076c > div[role="button"] > svg > path {
+.codeActions_f8f345 > div[role="button"] > svg > path {
     fill: var(--soft-bright-color) !important;
 }
 
 /* Code blocks */
 .codeView_ad9cbd,
-.theme-dark .markup_d6076c code,
-.theme-dark .markup_d6076c code.inline,
+.theme-dark .markup_f8f345 code,
+.theme-dark .markup_f8f345 code.inline,
 .markup_d6076c pre {
     font-family: "Consolas", "Source Code Pro", "gg mono" !important;
     font-size: 11px !important;
