@@ -1449,6 +1449,9 @@ pre:hover .copybutton {
 .durationTimeSeparator_f72aac {
     color: var(--soft-bright-color) !important;
 }
+.wrapperMediaMosaic_f72aac {
+    background-color: var(--hover-faint-color) !important;
+}
 
 /* Voice message */
 .container_d6cb89 {
