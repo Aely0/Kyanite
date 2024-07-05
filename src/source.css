@@ -1348,7 +1348,7 @@ pre:hover .copybutton {
     fill: rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Audio panel */
+/* Audio player */
 .wrapperAudio_f72aac {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-faint-color) !important;
