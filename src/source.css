@@ -1,13 +1,13 @@
 :root {
     /* Kyanite accents */
     /* --main-color: rgba(22, 91, 123, 1) !important;
-  --dark-bg: rgba(7, 22, 37, 0.95) !important;
-  --soft-bright-color: rgb(133, 206, 255) !important;
-  --hover-color: rgba(22, 91, 123, 0.3) !important;
-  --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
-  --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
-  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-  --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
+    --dark-bg: rgba(7, 22, 37, 0.95) !important;
+    --soft-bright-color: rgb(133, 206, 255) !important;
+    --hover-color: rgba(22, 91, 123, 0.3) !important;
+    --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
+    --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
+    --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
+    --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
 
     /* Magenta accents */
     --main-color: rgb(115, 22, 123) !important;
@@ -9319,18 +9319,21 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Message list loading */
-.scrollerInner_e2e187 .avatar_b211c6,
-.scrollerInner_e2e187 .blob_b211c6,
-.scrollerInner_e2e187 .attachment_b211c6 {
+.scrollerInner_e2e187 .avatar_b75bb9,
+.scrollerInner_e2e187 .blob_b75bb9,
+.scrollerInner_e2e187 .attachment_b75bb9 {
     background-color: var(--soft-bright-color) !important;
 }
-.scrollerInner_e2e187 .avatar_b211c6 {
+.wrapper_b75bb9 {
+    background: transparent !important;
+}
+.scrollerInner_e2e187 .avatar_b75bb9 {
     opacity: 0.2 !important;
 }
-.scrollerInner_e2e187 .blob_b211c6 {
+.scrollerInner_e2e187 .blob_b75bb9 {
     opacity: 0.1 !important;
 }
-.scrollerInner_e2e187 .attachment_b211c6 {
+.scrollerInner_e2e187 .attachment_b75bb9 {
     opacity: 0.05 !important;
 }
 
