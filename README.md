@@ -6,6 +6,6 @@ Meant to be used with [leovoel's BeautifulDiscord](https://github.com/leovoel/Be
 - [Download Magenta (03-11-2023)](https://github.com/Aely0/Kyanite/releases/download/v1.8/Magenta.css)
 
 ## Kyanite
-![Kyanite](https://github.com/Aely0/Kyanite/blob/master/screenshots/kyanite.png)
+![Kyanite](https://github.com/Aely0/Kyanite/blob/main/screenshots/kyanite.png)
 ## Magenta
-![Magenta](https://github.com/Aely0/Kyanite/blob/master/screenshots/magenta.png)
+![Magenta](https://github.com/Aely0/Kyanite/blob/main/screenshots/magenta.png)
