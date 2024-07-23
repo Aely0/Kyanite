@@ -3888,7 +3888,7 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 
-/* Guild header */
+/* Guild banner */
 .animatedContainer_fd6364 {
     background-color: var(--hover-color) !important;
     -webkit-box-shadow: none !important;
@@ -3907,6 +3907,9 @@ button[aria-label="Stop Watching"]
 }
 .tooltipPremiumFooterSegment_d56d78 > div {
     color: var(--soft-bright-color) !important;
+}
+.bannerImage_fd6364:before {
+    background: none !important;
 }
 
 /* Guild list folders */
