@@ -4615,11 +4615,14 @@ img:not(.emote):not(.emoji)::after {
 .navList_af5dbb .navButton_af5dbb {
     color: var(--hover-bright-color) !important;
     border-bottom: 2px solid transparent !important;
+    background-color: transparent !important;
+    border-radius: 0px !important;
 }
 .navList_af5dbb .navButton_af5dbb:hover {
-    color: var(--soft-bright-color) !important;
+    border-bottom: 2px solid var(--hover-bright-color) !important;
 }
-.navList_af5dbb .navButtonActive_af5dbb {
+.navList_af5dbb .navButtonActive_af5dbb,
+.navList_af5dbb .navButtonActive_af5dbb:hover {
     color: var(--soft-bright-color) !important;
     background-color: transparent !important;
     border-bottom: 2px solid var(--soft-bright-color) !important;
@@ -4658,6 +4661,14 @@ img:not(.emote):not(.emoji)::after {
 .assetWrapperMasked_cb3343 {
     -webkit-mask: none !important;
     mask: none !important;
+}
+.header_b56bbc,
+.header_d8cdac {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.container_b56bbc {
+    background-color: transparent !important;
 }
 
 /* Enable Super Reactions menu */
