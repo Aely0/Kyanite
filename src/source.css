@@ -10822,6 +10822,23 @@ div[class*="flex-"][class*="title-"],
     border-top: 1px solid var(--hover-color) !important;
 }
 
+/* Search bar (GIFs/Friends) */
+.container_c18ec9 {
+    background-color: var(--hover-color) !important;
+}
+.container_c18ec9 .input_c18ec9 {
+    color: var(--soft-bright-color) !important;
+}
+.container_c18ec9 .input_c18ec9::placeholder {
+    color: var(--hover-bright-color) !important;
+}
+.icon_c18ec9 {
+    color: var(--hover-bright-color) !important;
+}
+.icon_c18ec9:hover {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Search bar date picker */
 .datePicker_b0286e {
     background-color: var(--dark-bg) !important;
