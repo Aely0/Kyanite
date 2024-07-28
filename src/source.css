@@ -7189,9 +7189,6 @@ img:not(.emote):not(.emoji)::after {
 .pillItem_a18ec1:hover {
     background-color: var(--hover-color) !important;
 }
-.userProfileOuterThemed_c69a7b {
-    background: transparent !important;
-}
 .checkboxCircle_aa7c25 {
     background-color: var(--main-color) !important;
 }
@@ -10484,6 +10481,21 @@ div[class*="flex-"][class*="title-"],
 }
 .divider__979dc {
     background-color: var(--hover-dark-color) !important;
+}
+.biteSizeInnerThemed_c69a7b {
+    background: transparent !important;
+}
+.userProfileOuterUnthemed_c69a7b {
+    background-color: var(--dark-bg) !important;
+}
+.warningCircleIcon_f89da9 path {
+    fill: var(--yellow-dark-color) !important;
+}
+.warningCircleIcon_f89da9 circle {
+    fill: var(--yellow-bright-color) !important;
+}
+.overlayBackground_c69a7b {
+    background-color: var(--hover-color) !important;
 }
 
 /* Embeds */
