@@ -9102,7 +9102,7 @@ img:not(.emote):not(.emoji)::after {
     margin-bottom: 8px !important;
 }
 .membersGroup_cbd271,
-.name_a08117.container_cc72c1,
+.name_a08117.container_a5ad5c,
 .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9 {
     color: var(--hover-bright-color) !important;
     border-bottom: none !important;
@@ -9115,8 +9115,8 @@ img:not(.emote):not(.emoji)::after {
 }
 .membersGroup_cbd271:before,
 .membersGroup_cbd271:after,
-.name_a08117.container_cc72c1:before,
-.name_a08117.container_cc72c1:after,
+.name_a08117.container_a5ad5c:before,
+.name_a08117.container_a5ad5c:after,
 .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9:before,
 .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9:after {
     content: "" !important;
@@ -9124,7 +9124,7 @@ img:not(.emote):not(.emoji)::after {
     flex-grow: 1 !important;
 }
 .membersGroup_cbd271:before,
-.name_a08117.container_cc72c1:before,
+.name_a08117.container_a5ad5c:before,
 .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9:before {
     background: linear-gradient(
         to left,
@@ -9134,7 +9134,7 @@ img:not(.emote):not(.emoji)::after {
     margin-right: 5px !important;
 }
 .membersGroup_cbd271:after,
-.name_a08117.container_cc72c1:after,
+.name_a08117.container_a5ad5c:after,
 .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9:after {
     background: linear-gradient(
         to right,
