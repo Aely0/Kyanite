@@ -3706,11 +3706,14 @@ button[aria-label="Stop Watching"]
 .container_b2ca13 .avatarWrapper_b2ca13:hover {
     border: 2px solid var(--hover-dark-color) !important;
 }
-.container_b2ca13 .title_d1da5f,
+.container_b2ca13 .title_b97bdb,
 .container_b2ca13 .subtext_be40e6 {
     color: var(--hover-bright-color) !important;
 }
-.avatarWrapper_b2ca13.withTagAsButton_b2ca13:hover .title_d1da5f,
+.avatarWrapper_b2ca13:hover {
+    background-color: var(--hover-color) !important;
+}
+.avatarWrapper_b2ca13.withTagAsButton_b2ca13:hover .title_b97bdb,
 .avatarWrapper_b2ca13.withTagAsButton_b2ca13:hover .subtext_be40e6 {
     color: var(--soft-bright-color) !important;
 }
@@ -3776,7 +3779,7 @@ button[aria-label="Stop Watching"]
     background-color: transparent !important;
     color: var(--soft-bright-color) !important;
 }
-.info_bf1a22 .title_d1da5f {
+.info_bf1a22 .title_b97bdb {
     color: var(--hover-bright-color) !important;
 }
 .activityPanel_a4d4d9 .button_adca65 {
