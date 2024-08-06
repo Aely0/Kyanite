@@ -4044,7 +4044,7 @@ button[aria-label="Stop Watching"]
     border-radius: 3px !important;
     border-bottom: none !important;
     -webkit-transition: all 0.1s ease-in-out !important;
-    transition: all 0.1s ease-in-out !important;
+    transition: all 0 1s ease-in-out !important;
 }
 #instant-invite-modal-advanced .form-actions .btn-default:hover {
     color: #fff !important;
@@ -10499,6 +10499,68 @@ div[class*="flex-"][class*="title-"],
 }
 .overlayBackground_c69a7b {
     background-color: var(--hover-color) !important;
+}
+.viewFullBioColor_fc5c48 {
+    color: var(--soft-bright-color) !important;
+}
+.dotSpacer_c32acf,
+.divider_b06bc5 {
+    background-color: var(--hover-bright-color) !important;
+}
+.userTagUsername_c32acf {
+    color: var(--hover-bright-color) !important;
+}
+.container_e5a42d,
+.pill_c83b44 {
+    border: 1px solid var(--hover-color) !important;
+    background-color: var(--hover-color) !important;
+}
+.activity_cd74cc {
+    background: var(--hover-color) !important;
+}
+.bannerColor_f9d37d {
+    border: 1px solid var(--hover-color) !important;
+    background: var(--dark-bg) !important;
+    color: var(--hover-bright-color) !important;
+}
+.bannerColor_f9d37d:hover {
+    color: var(--soft-bright-color) !important;
+}
+.custom-profile-theme .pill_f9575e {
+    border-color: var(--hover-color) !important;
+}
+.statusBubbleOuter_d0a252,
+.statusBubble_d0a252 {
+    background: var(--hover-color) !important;
+    box-shadow: var(--hover-color) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.statusBubbleOuter_d0a252:after,
+.statusBubbleOuter_d0a252:before {
+    display: none !important;
+}
+.icon_f9d37d svg path,
+.childWrapper_d19e26 svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.tabBar_c1519f {
+    border-bottom: none !important;
+}
+.fullSizeInnerThemed_c69a7b {
+    background: var(--dark-bg) !important;
+}
+.addStatusIcon_d0a252 path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
+.addStatusIcon_d0a252:hover path {
+    fill: var(--soft-bright-color) !important;
+}
+.activeIcon_e1268c path[fill="var(--brand-500)"] {
+    fill: var(--main-color) !important;
+}
+.activeIcon_e1268c path[fill="var(--red-400)"] {
+    fill: var(--red-dark-color) !important;
 }
 
 /* Embeds */
