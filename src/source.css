@@ -1677,7 +1677,7 @@ pre:hover .copybutton {
 .colorStandard-21JIj7.size12-oc4dx4.stageListenerCount_a6ae3c {
     color: var(--soft-bright-color) !important;
 }
-.iconBadge-3qSJIw.iconBadge__0c126.base__5ed84.baseShapeRound_df8943 {
+.iconBadge-3qSJIw.iconBadge__0c126.base_df8943.baseShapeRound_df8943 {
     color: var(--soft-bright-color) !important;
 }
 .stageIcon-3DmINn {
@@ -3391,9 +3391,9 @@ pre:hover .copybutton {
 .theme-dark .item-2OyinQ {
     border-color: transparent !important;
 }
-.live_ec1c2d.liveSmall_ec1c2d.textBadge_f05120.base__5ed84,
-.liveIndicator_ba4b17.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base__5ed84,
-.button_ae6b8e.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base__5ed84 {
+.live_ec1c2d.liveSmall_ec1c2d.textBadge_f05120.base_df8943,
+.liveIndicator_ba4b17.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base_df8943,
+.button_ae6b8e.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base_df8943 {
     background-color: var(--hover-dark-color) !important;
     color: var(--soft-bright-color) !important;
 }
@@ -3505,13 +3505,13 @@ button[aria-label="Stop Watching"]
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.liveQualityIndicator-8fb_DX.textBadge_f05120.base__5ed84.baseShapeRoundLeft_df8943 {
+.liveQualityIndicator-8fb_DX.textBadge_f05120.base_df8943.baseShapeRoundLeft_df8943 {
     background-color: var(--hover-dark-color) !important;
 }
 .qualityIndicatorFullQuality-2_CF21 {
     color: var(--hover-bright-color) !important;
 }
-.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base__5ed84 {
+.live_ec1c2d.liveLarge_ec1c2d.textBadge_f05120.base_df8943 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
@@ -3854,7 +3854,7 @@ button[aria-label="Stop Watching"]
 }
 
 /* Number badge */
-.numberBadge__40d6f.base__5ed84.baseShapeRound_df8943 {
+.numberBadge_df8943.base_df8943.baseShapeRound_df8943 {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     font-weight: bold !important;
@@ -3862,7 +3862,7 @@ button[aria-label="Stop Watching"]
 }
 
 /* Guild list voice icon */
-.base__5ed84 {
+.base_df8943 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
@@ -4900,7 +4900,7 @@ img:not(.emote):not(.emoji)::after {
     border-radius: 8px !important;
 }
 .friendRequestsButton_c0c071
-    .numberBadge__40d6f.base__5ed84.baseShapeRound_df8943 {
+    .numberBadge_df8943.base_df8943.baseShapeRound_df8943 {
     background-color: transparent !important;
 }
 .inboxIcon_f0cd33 {
@@ -10136,7 +10136,7 @@ div[class*="flex-"][class*="title-"],
     border-color: var(--soft-bright-color) !important;
 }
 .container_bd9e38
-    .betaTag__856ce.textBadge_f05120.base__5ed84.baseShapeRound_df8943 {
+    .betaTag__856ce.textBadge_f05120.base_df8943.baseShapeRound_df8943 {
     background-color: transparent !important;
 }
 .container_bd9e38 .size16-rrJ6ag.headerText-SuRRj8,
