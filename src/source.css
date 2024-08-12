@@ -4271,16 +4271,16 @@ button[aria-label="Stop Watching"]
 }
 
 /* File download/delete buttons */
-.hoverButtonGroup_e5c1dc {
+.hoverButtonGroup_d0395d {
     background-color: var(--hover-color) !important;
     backdrop-filter: brightness(40%) !important;
     border: none !important;
 }
-.hoverButton_e5c1dc {
+.hoverButton_d0395d {
     color: var(--hover-bright-color) !important;
     transition: ease-out 150ms !important;
 }
-.hoverButton_e5c1dc:hover {
+.hoverButton_d0395d:hover {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
@@ -4291,7 +4291,7 @@ button[aria-label="Stop Watching"]
     color: var(--red-bright-color) !important;
     background-color: var(--hover-red-color) !important;
 }
-.hoverButtonGroup_e5c1dc.nonMediaMosaicItem_e5c1dc {
+.hoverButtonGroup_d0395d.nonMediaMosaicItem_e5c1dc {
     outline: none !important;
 }
 
@@ -10561,6 +10561,18 @@ div[class*="flex-"][class*="title-"],
 }
 .activeIcon_e1268c path[fill="var(--red-400)"] {
     fill: var(--red-dark-color) !important;
+}
+.iconWrapper_ce1058 {
+    color: var(--hover-bright-color) !important;
+}
+.footer_ecc60d {
+    border-top: 1px solid var(--hover-color) !important;
+}
+.footerButtonColor_ecc60d {
+    color: var(--hover-bright-color) !important;
+}
+.footerButtonColor_ecc60d:hover {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Embeds */
