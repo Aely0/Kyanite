@@ -4933,8 +4933,7 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--soft-bright-color) !important;
 }
 .channelHeader_f3978e {
-    background-color: var(--hover-color) !important;
-    backdrop-filter: blur(20px) !important;
+    background-color: var(--dark-bg) !important;
 }
 .messageContainer_ddb5b4 {
     background-color: transparent !important;
@@ -4948,6 +4947,18 @@ img:not(.emote):not(.emoji)::after {
 .title_b95f0d,
 .body_b95f0d {
     color: var(--hover-bright-color) !important;
+}
+.tertiary_e258f5,
+.secondary_e258f5 {
+    background-color: var(--hover-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.tertiary_e258f5:hover,
+.secondary_e258f5:hover {
+    color: var(--soft-bright-color) !important;
+}
+.messagesPopoutWrap_ac90a2 {
+    box-shadow: none !important;
 }
 
 /* Checkbox (roles) */
