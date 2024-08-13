@@ -9268,7 +9268,7 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-color) !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    backdrop-filter: blur(20px) !important;
+    backdrop-filter: brightness(5%) !important;
     border: 1px solid var(--hover-bright-color) !important;
     border-radius: 8px !important;
 }
