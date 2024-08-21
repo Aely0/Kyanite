@@ -9986,6 +9986,11 @@ div[class*="flex-"][class*="title-"],
     font-weight: 600 !important;
 }
 
+/* Apps and Commands button */
+.channelAppLauncher_df39bd {
+    display: none !important;
+}
+
 /* Server / Message context menu */
 .button-1I8KM5 {
     background-color: var(--hover-color) !important;
