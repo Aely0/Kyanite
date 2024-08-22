@@ -9991,6 +9991,11 @@ div[class*="flex-"][class*="title-"],
     display: none !important;
 }
 
+/* Apps and Commands button (images) */
+.hoverButton_d0395d[aria-label="Edit Image with Apps"] {
+    display: none !important;
+}
+
 /* Server / Message context menu */
 .button-1I8KM5 {
     background-color: var(--hover-color) !important;
