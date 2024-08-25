@@ -12056,6 +12056,18 @@ div[class*="flex-"][class*="title-"],
 .answerSelectionIcon_cf2c85 path[d^="M12 20C16"] {
     fill: var(--hover-bright-color) !important;
 }
+.container_e365d2 {
+    background-color: var(--hover-color) !important;
+}
+.fontScaling_dc00ef[style="color: var(--input-placeholder-text);"] {
+    color: var(--hover-bright-color) !important;
+}
+.victorIcon_e365d2 circle {
+    fill: var(--soft-bright-color) !important;
+}
+.victorIcon_e365d2 path {
+    fill: var(--main-color) !important;
+}
 
 /* Home tabs */
 .children_fc4f04 .iconWrapper_fc4f04 .icon_fc4f04 {
