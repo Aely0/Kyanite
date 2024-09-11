@@ -4303,6 +4303,9 @@ button[aria-label="Stop Watching"]
 .hoverButtonGroup_d0395d.nonMediaMosaicItem_e5c1dc {
     outline: none !important;
 }
+.nonMediaMosaicItem_d0395d {
+    outline: none !important;
+}
 
 /* Channel text area */
 .channel-textarea-inner {
