@@ -9347,12 +9347,13 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--main-color) !important;
     padding-bottom: 0px !important;
     margin-bottom: -2px !important;
-}
-.protip {
-    color: var(--soft-bright-color) !important;
+    right: 16px !important;
 }
 .jumpToPresentBar_cf58b5 .spinnerItem_cf58b5 {
     background-color: var(--soft-bright-color) !important;
+}
+.protip {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Message list loading */
