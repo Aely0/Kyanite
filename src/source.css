@@ -9390,10 +9390,10 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
     opacity: 0.6 !important;
 }
-.closeButton_b11c5e {
+.closeButton_cb4d21 {
     color: var(--hover-dark-color) !important;
 }
-.closeButton_b11c5e:hover {
+.closeButton_cb4d21:hover {
     color: var(--hover-red-bright-color) !important;
 }
 .repliedMessage_f9f2ca:before {
