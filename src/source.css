@@ -661,6 +661,10 @@ body::after,
 .reactionEmojiDetailsClickable_e58351 {
     color: var(--soft-bright-color) !important;
 }
+.reactionBtn_ec6b19.forceShowLook_ec6b19 {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
 
 /* Reaction list */
 .container_f2bfbb,
