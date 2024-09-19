@@ -9387,6 +9387,13 @@ img:not(.emote):not(.emoji)::after {
     opacity: 0.05 !important;
 }
 
+/* Message hover timestamp */
+.cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca,
+.compact_f9f2ca .timestamp_f9f2ca {
+    color: var(--soft-bright-color) !important;
+    transition: all ease-in-out 200ms !important;
+}
+
 /* Message reply */
 .replyBar_b11c5e {
     background: var(--hover-color) !important;
