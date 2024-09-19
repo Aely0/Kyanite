@@ -11660,6 +11660,15 @@ div[class*="flex-"][class*="title-"],
 .keyboardShortcutsModal_ad95dc .keybindDescription_c0b6a8 {
     color: var(--hover-bright-color) !important;
 }
+.keyboardShortcutList_ad95dc .keybindGroup_ad95dc {
+    background-color: var(--hover-faint-color) !important;
+}
+.keyboardShortcutSection_ad95dc {
+    border-bottom: none !important;
+}
+.tips_ca0caf {
+    background-color: var(--hover-color) !important;
+}
 
 /* Add friend tab */
 .wrapper-1cBijl {
