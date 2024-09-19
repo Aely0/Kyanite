@@ -6286,6 +6286,12 @@ img:not(.emote):not(.emoji)::after {
 .quickswitcher .tips .misc-controls .keybind-shortcut:last-of-type::before {
     background: hsla(0, 0%, 100%, 0.04) !important;
 }
+.scroller_f4e139::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.tutorialMessages_c36bbe {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Invite link */
 .invite-modal .scroller {
