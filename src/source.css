@@ -13712,20 +13712,20 @@ path[fill="rgb(255,216,54)"] {
 
 /* Account switcher */
 .theme-dark.navRow-dG-XX8,
-.list-3-WAYB {
+.list_f20a46 {
     background-color: transparent !important;
 }
-.separator-3pyJLj {
-    border-bottom: 1px solid var(--hover-color) !important;
+.separator_f20a46 {
+    border-bottom: none !important;
 }
 .toast-q3Y4wI {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.userActionMenu-3-DfuT .overflowMenuIcon-35A0oT {
+.userActionMenu_f20a46 .overflowMenuIcon_f20a46 {
     color: var(--hover-dark-color) !important;
 }
-.userActionMenu-3-DfuT:hover .overflowMenuIcon-35A0oT,
+.userActionMenu_f20a46:hover .overflowMenuIcon_f20a46,
 .switchAccountsIcon_e0f739 > g > path {
     color: var(--hover-bright-color) !important;
 }
@@ -13742,6 +13742,14 @@ path[fill="rgb(255,216,54)"] {
 .backButton-2rLJZw:hover {
     -webkit-text-decoration-color: var(--soft-bright-color) !important;
     text-decoration-color: var(--soft-bright-color) !important;
+}
+.authBox_b83a05[data-theme="dark"] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.navRow_be9398[data-theme="dark"],
+.input_f8bc55.input_cc6ddd {
+    background-color: transparent !important;
 }
 
 /* Premium promo */
