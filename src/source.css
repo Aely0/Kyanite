@@ -12431,6 +12431,12 @@ div[class*="flex-"][class*="title-"],
 .profilePanel_b433b4 .badgeList_ab525a {
     background-color: var(--hover-color) !important;
 }
+.footer_a823cd {
+    border-top: none !important;
+}
+.footerButtonColor_a823cd {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Snowsgiving */
 .snowsgivingLink-1TZi3c:hover {
