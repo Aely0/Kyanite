@@ -10609,6 +10609,33 @@ div[class*="flex-"][class*="title-"],
 .footerButtonColor_ecc60d:hover {
     color: var(--soft-bright-color) !important;
 }
+.menuDivider_ad5fac {
+    background-color: transparent !important;
+}
+.menuItemColor_ad5fac {
+    color: var(--hover-bright-color) !important;
+}
+.menuItemColor_ad5fac:hover {
+    background-color: var(--hover-color) !important;
+}
+.tabBar_ecc04c {
+    border-bottom: 1px solid transparent;
+}
+.container_b64375,
+.pill_e6f2d0 {
+    background: var(--hover-color) !important;
+    border: 1px solid transparent !important;
+}
+.pill_e6f2d0 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.listRow_d2d6cb,
+.guildNick_c5a773 {
+    color: var(--hover-bright-color) !important;
+}
+.listRow_d2d6cb:hover {
+    background-color: var(--hover-color) !important;
+}
 
 /* Embeds */
 .embedFull_b0068a {
