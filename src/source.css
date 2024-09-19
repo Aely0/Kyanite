@@ -10636,6 +10636,23 @@ div[class*="flex-"][class*="title-"],
 .listRow_d2d6cb:hover {
     background-color: var(--hover-color) !important;
 }
+.viewFullBioColor_abaf7d {
+    color: var(--soft-bright-color) !important;
+}
+.connectedAccountContainer_ab12c6 {
+    background-color: var(--hover-color) !important;
+    border: none !important;
+}
+.connectedAccountOpenIcon_ab12c6.right_c48316 {
+    color: var(--hover-bright-color) !important;
+}
+.theme-dark.custom-profile-theme .biteSizeOverlayBackground_c69a7b,
+.theme-dark.custom-profile-theme .fullSizeOverlayBackground_c69a7b {
+    border-color: transparent !important;
+}
+.redesignIconChildContainer_c91f7d > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Embeds */
 .embedFull_b0068a {
