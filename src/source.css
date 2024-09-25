@@ -12390,6 +12390,12 @@ div[class*="flex-"][class*="title-"],
     background-color: transparent !important;
 }
 
+/* Nitro / Shop tab (tag:hidden) */
+.channel_c91bad [href="/store"],
+.channel_c91bad [href="/shop"] {
+    display: none !important;
+}
+
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon_c47fa9.icon_fc4f04 {
     color: var(--hover-bright-color) !important;
