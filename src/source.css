@@ -9619,6 +9619,9 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
+.footer_aa1bff {
+    background: transparent !important;
+}
 
 /* Add guild menu */
 .root_f9a4c9.small-23Atuv.fullscreenOnMobile_f9a4c9 {
