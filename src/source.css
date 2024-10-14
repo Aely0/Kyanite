@@ -2476,6 +2476,13 @@ pre:hover .copybutton {
 .dots_ce0450.themed_ce0450 {
     color: var(--soft-bright-color) !important;
 }
+.contentPreview_a57509 {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.textContentFooter_a57509 {
+    background: transparent !important;
+}
 
 /* Select control */
 .Select-control {
