@@ -31,9 +31,7 @@ body::after,
 }
 
 /* Theme specific filter for the emoji button */
-.emojiButtonNormal-35P0_i .sprite-2lxwfc {
-  filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important;
-}
+--interactive-normal: #ff85ff !important;
 
 /* Custom rules */
 
@@ -41,7 +39,7 @@ body::after,
 
 /* For instance, message quick action bar is hidden by default in this theme, 
 you can make it visible by uncommenting the style below. */
-/* .message-2CShn3.selected-2LX7Jy .buttons-3dF5Kd,
-.mouse-mode .message-2CShn3:hover .buttons-3dF5Kd {
+/* .message_d5deea.selected_d5deea .buttons_d5deea,
+.mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;
 } */
