@@ -14762,3 +14762,18 @@ img:not(.emote):not(.emoji)::after {
     content: " Elixir" !important;
     background: rgba(65, 24, 101, 0.6) !important;
 }
+
+/* Vencord SpotifyControls */
+#vc-spotify-album-title.vc-spotify-album,
+.vc-spotify-artist {
+    color: var(--soft-bright-color) !important;
+}
+#vc-spotify-player {
+    background-color: var(--dark-bg) !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.vc-spotify-button:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
