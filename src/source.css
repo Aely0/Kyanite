@@ -727,6 +727,43 @@ body::after,
     color: var(--soft-bright-color) !important;
 }
 
+/* Message forwarding */
+.title_d0585c .defaultColor_e42ec6 {
+    color: var(--hover-bright-color) !important;
+}
+.destinationRow_d0585c:not(.disabled_d0585c):hover {
+    background-color: var(--hover-color) !important;
+}
+.iconWithGuildIcon_fcf03e {
+    background: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.quote_e4c972,
+.quote_f66b8e {
+    background-color: var(--hover-dark-color) !important;
+}
+.headerText_f66b8e {
+    color: var(--hover-bright-color) !important;
+}
+.headerIcon_f66b8e path {
+    fill: var(--hover-bright-color) !important;
+}
+.footerContainer_f66b8e {
+    color: var(--hover-bright-color) !important;
+}
+.footerContainer_f66b8e svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.footerContainer_f66b8e:hover {
+    background-color: var(--hover-color) !important;
+}
+.footerContainer_f66b8e:hover .footerText_f66b8e {
+    color: var(--soft-bright-color) !important;
+}
+.text_e31053 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
     background-color: var(--hover-color) !important;
