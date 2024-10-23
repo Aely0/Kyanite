@@ -12534,6 +12534,9 @@ div[class*="flex-"][class*="title-"],
 .profilePanel_b433b4 .badgeList_ab525a {
     background-color: var(--hover-color) !important;
 }
+.clickable_d8eba3 svg path {
+    fill: var(--hover-bright-color) !important;
+}
 .footer_a823cd {
     border-top: none !important;
 }
