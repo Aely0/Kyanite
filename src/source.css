@@ -1,13 +1,13 @@
 :root {
     /* Kyanite accents */
-    /* --main-color: rgba(22, 91, 123, 1) !important;
-    --dark-bg: rgba(7, 22, 37, 0.95) !important;
-    --soft-bright-color: rgb(133, 206, 255) !important;
-    --hover-color: rgba(22, 91, 123, 0.3) !important;
-    --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
-    --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
-    --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-    --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
+    /* --main-color: rgba(22, 91, 123, 1) !important; */
+    /* --dark-bg: rgba(7, 22, 37, 0.95) !important; */
+    /* --soft-bright-color: rgb(133, 206, 255) !important; */
+    /* --hover-color: rgba(22, 91, 123, 0.3) !important; */
+    /* --hover-faded-color: rgba(22, 91, 123, 0.2) !important; */
+    /* --hover-faint-color: rgba(22, 91, 123, 0.1) !important; */
+    /* --hover-dark-color: rgba(22, 91, 123, 0.8) !important; */
+    /* --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
 
     /* Magenta accents */
     --main-color: rgb(115, 22, 123) !important;
@@ -9427,7 +9427,6 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--main-color) !important;
     padding-bottom: 0px !important;
     margin-bottom: -2px !important;
-    right: 16px !important;
 }
 .jumpToPresentBar_cf58b5 .spinnerItem_cf58b5 {
     background-color: var(--soft-bright-color) !important;
@@ -10075,16 +10074,6 @@ div[class*="flex-"][class*="title-"],
 .message_d5deea .operations_baf0d6 {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
-}
-
-/* Apps and Commands button */
-.channelAppLauncher_df39bd {
-    display: none !important;
-}
-
-/* Apps and Commands button (images) */
-.hoverButton_d0395d[aria-label="Edit Image with Apps"] {
-    display: none !important;
 }
 
 /* Server / Message context menu */
@@ -12455,12 +12444,6 @@ div[class*="flex-"][class*="title-"],
     background-color: transparent !important;
 }
 
-/* Nitro / Shop tab (tag:hidden) */
-.channel_c91bad [href="/store"],
-.channel_c91bad [href="/shop"] {
-    display: none !important;
-}
-
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon_c47fa9.icon_fc4f04 {
     color: var(--hover-bright-color) !important;
@@ -14776,4 +14759,40 @@ img:not(.emote):not(.emoji)::after {
 .vc-spotify-button:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
+}
+
+/* Message hover toolbar (tag:hidden) */
+.message_d5deea.selected_d5deea .buttons_d5deea,
+.mouse-mode .message_d5deea:hover .buttons_d5deea {
+    display: none !important;
+}
+
+/* Nitro / Shop tab (tag:hidden) */
+.channel_c91bad [href="/store"],
+.channel_c91bad [href="/shop"] {
+    display: none !important;
+}
+
+/* Message bar gift button (tag:hidden) */
+.container_efde15,
+.giftIconButton_efde15 {
+    display: none !important;
+}
+
+/* Help button (tag:hidden) */
+.clickable_fc4f04[aria-label="Help"] {
+    display: none !important;
+}
+
+/* Apps and Commands button (tag:hidden) */
+.channelAppLauncher_df39bd {
+    display: none !important;
+}
+.jumpToPresentBar_cf58b5 {
+    right: 16px !important;
+}
+
+/* Apps and Commands button (images) (tag:hidden) */
+.hoverButton_d0395d[aria-label="Edit Image with Apps"] {
+    display: none !important;
 }
