@@ -694,11 +694,7 @@ body::after,
     background-color: var(--hover-color) !important;
 }
 
-/* Message hover toolbar (hidden by default, can be reverted by uncommenting the override in theme files) */
-.message_d5deea.selected_d5deea .buttons_d5deea,
-.mouse-mode .message_d5deea:hover .buttons_d5deea {
-    visibility: hidden !important;
-}
+/* Message hover toolbar */
 .wrapper_f7e168 {
     background: rgba(0, 0, 0, 0.4) !important;
     border: 1px solid var(--hover-color) !important;
@@ -719,6 +715,16 @@ body::after,
 .button_f7e168.selected_f7e168 {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-dark-color) !important;
+}
+.hoverBarButton_e986d9:hover .icon_e986d9 {
+    color: var(--soft-bright-color) !important;
+    transition: all 250ms ease-in-out !important;
+}
+.separator_e986d9 {
+    background: transparent !important;
+}
+.emojiTooltipText_a3b500 {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Tooltip */
