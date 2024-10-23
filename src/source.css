@@ -763,6 +763,18 @@ body::after,
 .text_e31053 {
     color: var(--soft-bright-color) !important;
 }
+.attachmentRow_e4c972 svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.attachmentRow_e4c972 [style="color: var(--text-low-contrast);"] {
+    color: var(--hover-bright-color) !important;
+}
+.overflowCount_e4c972 {
+    background: var(--hover-color) !important;
+}
+.forwardPreviewWrapper_d0585c {
+    border-bottom: none !important;
+}
 
 /* Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
