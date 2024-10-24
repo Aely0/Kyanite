@@ -3,19 +3,19 @@
 
 /* Adjustable main color palette and background options */
 :root {
-  /* Kyanite accents */
-  --main-color: rgba(22, 91, 123, 1) !important;
-  --dark-bg: rgba(7, 22, 37, 0.95) !important;
-  --soft-bright-color: rgb(133, 206, 255) !important;
-  --hover-color: rgba(22, 91, 123, 0.3) !important;
-  --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
-  --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
-  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+    /* Kyanite accents */
+    --main-color: rgba(22, 91, 123, 1) !important;
+    --dark-bg: rgba(7, 22, 37, 0.95) !important;
+    --soft-bright-color: rgb(133, 206, 255) !important;
+    --hover-color: rgba(22, 91, 123, 0.3) !important;
+    --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
+    --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
+    --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
+    --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
 
-  /* Background options */
-  --background-blur: 0px !important;
-  --background-brightness: 100% !important;
+    /* Background options */
+    --background-blur: 0px !important;
+    --background-brightness: 100% !important;
 }
 
 /* Main background */
@@ -27,19 +27,58 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-  background-image: url("https://raw.githubusercontent.com/Aely0/Kyanite/master/src/resources/kyanite.jpg") !important;
+    background-image: url("https://raw.githubusercontent.com/Aely0/Kyanite/master/src/resources/kyanite.jpg") !important;
 }
 
-/* Theme specific filter for the emoji button */
---interactive-normal: #66d4ff !important;
+/* Some elements are hidden by default, uncomment the ones below to unhide them */
 
-/* Custom rules */
-
-/* Here you can add your custom css to override the styling set by the theme. */
-
-/* For instance, message quick action bar is hidden by default in this theme, 
-you can make it visible by uncommenting the style below. */
-/* .message_d5deea.selected_d5deea .buttons_d5deea,
+/* Message hover toolbar (tag:hidden) */
+.message_d5deea.selected_d5deea .buttons_d5deea,
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
-  visibility: visible !important;
-} */
+    display: initial !important;
+}
+
+/* Nitro / Shop tab (tag:hidden) */
+/*
+.channel_c91bad [href="/store"],
+.channel_c91bad [href="/shop"] {
+    display: initial !important;
+}
+*/
+
+/* Message bar gift button (tag:hidden) */
+/*
+.container_efde15,
+.giftIconButton_efde15 {
+    display: initial !important;
+}
+*/
+
+/* Help button (tag:hidden) */
+/*
+.clickable_fc4f04[aria-label="Help"] {
+    display: initial !important;
+}
+*/
+
+/* Apps and Commands button (tag:hidden) */
+/*
+.channelAppLauncher_df39bd {
+    display: initial !important;
+}
+.jumpToPresentBar_cf58b5 {
+    right: calc(
+        16px + var(--custom-channel-textarea-text-area-height) +
+            var(--custom-channel-textarea-app-launcher-button-gap)
+    ) !important;
+}
+*/
+
+/* Apps and Commands button (images) (tag:hidden) */
+/*
+.hoverButton_d0395d[aria-label="Edit Image with Apps"] {
+    display: initial !important;
+}
+*/
+
+/* Add your custom rules here */
