@@ -10004,18 +10004,21 @@ div[class*="flex-"][class*="title-"],
 .toolbar_de3e42:before {
     border-top-color: var(--dark-bg) !important;
 }
-.hover_d0ebf2:hover {
+.button_de3e42:hover {
     background-color: var(--hover-color) !important;
 }
 .icon_de3e42 {
     color: var(--hover-bright-color) !important;
 }
-.active__05fbc,
-.active__05fbc.hover_d0ebf2:hover {
+.button_de3e42[aria-pressed="true"],
+.button_de3e42[aria-pressed="true"].button_de3e42:hover {
     background-color: var(--hover-dark-color) !important;
 }
-.active__05fbc .icon_de3e42 {
+.button_de3e42[aria-pressed="true"] .icon_de3e42 {
     color: var(--soft-bright-color) !important;
+}
+.divider_de3e42 {
+    display: none !important;
 }
 
 /* Message markdown preview `tickbox` */
