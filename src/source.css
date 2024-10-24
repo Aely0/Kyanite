@@ -14808,3 +14808,8 @@ img:not(.emote):not(.emoji)::after {
 .hoverButton_d0395d[aria-label="Edit Image with Apps"] {
     display: none !important;
 }
+
+/* Fix username in add friends to dm dialog */
+.info_e86508.discordTag_ebf869 {
+    color: var(--hover-bright-color) !important;
+}
