@@ -5043,6 +5043,9 @@ img:not(.emote):not(.emoji)::after {
 .messagesPopoutWrap_ac90a2 {
     box-shadow: none !important;
 }
+.container_f1c3d9 {
+    box-shadow: none !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
