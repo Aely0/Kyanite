@@ -5469,27 +5469,17 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Group DM */
-.popout_e6af9c.rootWithShadow_f9a4c9 {
-    background-color: var(--dark-bg) !important;
-    border: 2px solid var(--hover-color) !important;
-}
-.discordTag_ebf869.nameTag_cd0810 {
+.popout_e6af9c .friend_ebf869 .discordTag_ebf869 {
     color: var(--hover-bright-color) !important;
 }
-.tag_effbe2 {
+.popout_e6af9c .tag_effbe2 {
     background-color: var(--hover-color) !important;
 }
-.outer_f8b740.channelName_f0fccd .input_f8b740 {
-    color: var(--hover-bright-color) !important;
+.popout_e6af9c .input_f8bc55 {
+    background-color: transparent !important;
 }
-.outer_f8b740:hover .input_f8b740 {
-    -webkit-box-shadow: inset 0 0 0 1px var(--hover-color) !important;
-    box-shadow: inset 0 0 0 1px var(--hover-color) !important;
-}
-.outer_f8b740.channelName_f0fccd .input_f8b740:focus {
-    background-color: var(--hover-color) !important;
-    -webkit-box-shadow: inset 0 0 0 1px var(--hover-bright-color) !important;
-    box-shadow: inset 0 0 0 1px var(--hover-bright-color) !important;
+.popout_e6af9c .copyButton_e6af9c {
+    margin-left: 16px !important;
 }
 
 /* Backgrounds */
