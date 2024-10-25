@@ -3444,22 +3444,16 @@ pre:hover .copybutton {
 .segmentControlOption-3MnJdT {
     color: var(--hover-bright-color) !important;
 }
-.sourceThumbnail-ERDcZE {
+.sourceThumbnail_d7ec26 {
     background-color: var(--hover-color) !important;
 }
-.tile-3POX2m:hover .sourceThumbnail-ERDcZE {
+.tile-3POX2m:hover .sourceThumbnail_d7ec26 {
     -webkit-box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
     box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
 }
-.sourceThumbnail-ERDcZE.selected-2BhCFl {
+.sourceThumbnail_d7ec26.selected_d7ec26 {
     -webkit-box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
     box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
-}
-.selectorButton-3fWZ0_ {
-    background-color: transparent !important;
-}
-.selectorButtonSelected-3cQUnj {
-    background-color: var(--hover-color) !important;
 }
 .root_f9a4c9 {
     -webkit-box-shadow: none !important;
@@ -3715,13 +3709,14 @@ button[aria-label="Stop Watching"]
     color: var(--hover-bright-color) !important;
     border: none !important;
 }
-.selectedIcon_da7eaa,
-.channelIcon_c32699 {
-    color: var(--soft-bright-color) !important;
+.selectedIcon_da7eaa path,
+.channelIcon_c32699 path {
+    fill: var(--soft-bright-color) !important;
 }
 .selectorButton_a78967 {
     background: var(--hover-color) !important;
 }
+.selectorButton_a78967:before,
 .selectorButtonSelected_a78967 {
     background: var(--hover-dark-color) !important;
 }
@@ -14783,8 +14778,9 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Help button (tag:hidden) */
-.toolbar_fc4f04 [href="https://support.discord.com"] {
-  display: none;
+.toolbar_fc4f04 [href="https://support.discord.com"]
+{
+    display: none !important;
 }
 
 /* Apps and Commands button (tag:hidden) */
