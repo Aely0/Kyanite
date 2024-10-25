@@ -56,7 +56,7 @@ body::after,
 
 /* Help button (tag:hidden) */
 /*
-.clickable_fc4f04[aria-label="Help"] {
+.toolbar_fc4f04 [href="https://support.discord.com"] {
     display: initial !important;
 }
 */
