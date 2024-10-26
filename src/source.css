@@ -2936,67 +2936,8 @@ pre:hover .copybutton {
 	background-color: var(--hover-faded-color) !important;
 }
 
-/* VENCORD SETTINGS BELLOW */
-
-/* Buttons color in vencord tab */
-.vc-settings-quickActions-pill {
-	background-color: var(--hover-color) !important;
-}
-
-/* Text in buttons */
-.vc-settings-quickActions-pill {
-	color: var(--soft-bright-color) !important;
-}
-
-/* Colored icons in buttons */
-.vc-settings-quickActions-img.vc-log-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-paintbrush-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-restart-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-folder-icon.vc-icon path {
-	fill: var(--soft-bright-color) !important;
-}
-
-/* Link in vencord tab */
-.contents_dd4f85,
-.contents_dd4f85:hover {
-	color: var(--soft-bright-color) !important;
-	text-decoration: underline !important;
-	text-decoration-color: var(--soft-bright-color) !important;
-}
-
-/* Plugins tab cards */
-.vc-addon-card {
-	background-color: var(--hover-faded-color) !important;
-}
-
-/* Updater and cloud links */
-#vencordupdater-tab a[role="link"],
-#vencordcloud-tab a[role="link"] {
-    color: var(--soft-bright-color) !important;
-    text-decoration: underline !important;
-}
-
-/* Backup and restore text */
-.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 strong,
-.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 span {
-    color: var(--soft-bright-color) !important;
-}
-
-/* Experiments control text */
-.experimentDate_d8d11a {
-	color: var(--soft-bright-color) !important;
-}
-
-/* Developer options date */
-.datePicker_b71016 {
-	background-color: var(--hover-color) !important;
-	color: var(--soft-bright-color) !important;
-}
-
-/* Design systems */
-.section_ad57ee,
-.checkboxWrapper_f6cde8.alignCenter_f6cde8.row_f6cde8 {
-	background-color: var(--hover-color) !important;
+.activityText_a31c43 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Settings Nitro boosting and gifts */
@@ -14935,4 +14876,67 @@ img:not(.emote):not(.emoji)::after {
 /* Apps and Commands button (images) (tag:hidden) */
 .hoverButton_d0395d[aria-label="Edit Image with Apps"] {
     display: none !important;
+}
+
+/* VENCORD SETTINGS BELLOW */
+
+/* Buttons color in vencord tab */
+.vc-settings-quickActions-pill {
+	background-color: var(--hover-color) !important;
+}
+
+/* Text in buttons */
+.vc-settings-quickActions-pill {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Colored icons in buttons */
+.vc-settings-quickActions-img.vc-log-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-paintbrush-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-restart-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-folder-icon.vc-icon path {
+	fill: var(--soft-bright-color) !important;
+}
+
+/* Link in vencord tab */
+.contents_dd4f85,
+.contents_dd4f85:hover {
+	color: var(--soft-bright-color) !important;
+	text-decoration: underline !important;
+	text-decoration-color: var(--soft-bright-color) !important;
+}
+
+/* Plugins tab cards */
+.vc-addon-card {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* Updater and cloud links */
+#vencordupdater-tab a[role="link"],
+#vencordcloud-tab a[role="link"] {
+    color: var(--soft-bright-color) !important;
+    text-decoration: underline !important;
+}
+
+/* Backup and restore text */
+.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 strong,
+.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 span {
+    color: var(--soft-bright-color) !important;
+}
+
+/* Experiments control text */
+.experimentDate_d8d11a {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Developer options date */
+.datePicker_b71016 {
+	background-color: var(--hover-color) !important;
+	color: var(--soft-bright-color) !important;
+}
+
+/* Design systems */
+.section_ad57ee,
+.checkboxWrapper_f6cde8.alignCenter_f6cde8.row_f6cde8 {
+	background-color: var(--hover-color) !important;
 }
