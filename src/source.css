@@ -2858,6 +2858,147 @@ pre:hover .copybutton {
     text-shadow: none !important;
 }
 
+/* Nitro ad in profiles */
+.container_da1432{
+	display: none !important;
+}
+
+/* Nitro preview in profiles button */
+.button_bb7809 {
+	background-color: var(--hover-color) !important;
+}
+
+/* Middle cards in family centre */
+.container_d7c696.container_d7c696.container_d7c696 {
+	background-color: var(--hover-color) !important;
+}
+
+/* Favourite gifs empty search*/
+.emptyHintCard_bad108 {
+	background-color: var(--hover-faint-color) !important;
+}
+
+.emptyHintText_bad108 {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Arrow and underline link in Authorised apps */
+.externalLinkIcon_f0135d path {
+    fill: var(--soft-bright-color) !important;
+}
+
+.tos_f0135d:hover,
+.privacy_f0135d:hover {
+	color: var(--soft-bright-color) !important;
+	text-decoration-color: var(--soft-bright-color) !important;
+}
+
+/* Notice in Clips */
+.root_dc0d6d.formItem_b3ae59.info_dc0d6d {
+	background-color: var(--hover-faded-color) !important;
+    border-color: var(--hover-dark-color) !important;
+}
+
+.icon_dc0d6d path {
+	fill: var(--soft-bright-color) !important;
+}
+
+/* Kayboard shortcut in clips */
+.flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.recorderLayout_fb7bb2.layout_c67e31 {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* Perk color in Nitro */
+.perkCard_d611db, 
+.innerWrapper_c511e4 {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* Server bg color in server boost */
+.recommendedServerCard_ebbdfd.guildContainer_e0d799,
+.wrapper_d4ec61 {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* Server boost true and false colored */
+.booleanValueIcon_ebd3d3.booleanValueTrue_ebd3d3,
+.booleanValueIcon_ebd3d3 {
+    color: var(--soft-bright-color) !important;
+}
+
+/* server boost cards */
+.card_d1fdce.boosterRecognitionCard_eaedb7 {
+	background-color: var(--hover-dark-color) !important;
+}
+
+/* Boosting FAQ */
+.wrapper_e55051.faq_eaedb7 {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* VENCORD SETTINGS BELLOW */
+
+/* Buttons color in vencord tab */
+.vc-settings-quickActions-pill {
+	background-color: var(--hover-color) !important;
+}
+
+/* Text in buttons */
+.vc-settings-quickActions-pill {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Colored icons in buttons */
+.vc-settings-quickActions-img.vc-log-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-paintbrush-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-restart-icon.vc-icon path,
+.vc-settings-quickActions-img.vc-folder-icon.vc-icon path {
+	fill: var(--soft-bright-color) !important;
+}
+
+/* Link in vencord tab */
+.contents_dd4f85,
+.contents_dd4f85:hover {
+	color: var(--soft-bright-color) !important;
+	text-decoration: underline !important;
+	text-decoration-color: var(--soft-bright-color) !important;
+}
+
+/* Plugins tab cards */
+.vc-addon-card {
+	background-color: var(--hover-faded-color) !important;
+}
+
+/* Updater and cloud links */
+#vencordupdater-tab a[role="link"],
+#vencordcloud-tab a[role="link"] {
+    color: var(--soft-bright-color) !important;
+    text-decoration: underline !important;
+}
+
+/* Backup and restore text */
+.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 strong,
+.vc-settings-card.vc-backup-restore-card.cardPrimary_a298b8.card_a298b8 span {
+    color: var(--soft-bright-color) !important;
+}
+
+/* Experiments control text */
+.experimentDate_d8d11a {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Developer options date */
+.datePicker_b71016 {
+	background-color: var(--hover-color) !important;
+	color: var(--soft-bright-color) !important;
+}
+
+/* Design systems */
+.section_ad57ee,
+.checkboxWrapper_f6cde8.alignCenter_f6cde8.row_f6cde8 {
+	background-color: var(--hover-color) !important;
+}
+
 /* Settings Nitro boosting and gifts */
 .theme-dark .expandedInfo_a28a08,
 .header_f3d244,
