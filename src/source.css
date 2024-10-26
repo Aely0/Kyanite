@@ -14835,12 +14835,6 @@ img:not(.emote):not(.emoji)::after {
     color: var(--soft-bright-color) !important;
 }
 
-/* Vencord Settings (Themes) */
-#vencordthemes-tab a[role="link"] {
-    color: var(--soft-bright-color) !important;
-    text-decoration: underline !important;
-}
-
 /* Message hover toolbar (tag:hidden) */
 .message_d5deea.selected_d5deea .buttons_d5deea,
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
@@ -14879,6 +14873,12 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* VENCORD SETTINGS BELLOW */
+/* Vencord Settings (Themes) */
+#vencordthemes-tab a[role="link"] {
+    color: var(--soft-bright-color) !important;
+    text-decoration: underline !important;
+}
+
 
 /* Buttons color in vencord tab */
 .vc-settings-quickActions-pill {
