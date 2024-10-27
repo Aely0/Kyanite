@@ -11854,10 +11854,16 @@ div[class*="flex-"][class*="title-"],
 
 /* Message requests */
 .messageRequestItem_a5de62 {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
 }
-.userPreview__4a102 .username__419c9 {
+.messageRequestItem_a5de62:not(.firstItem_a5de62) {
+    border-top: none !important;
+}
+.userPreview_e4d6ba .username_e4d6ba {
     color: var(--soft-bright-color) !important;
+}
+.userPreview_e4d6ba .globalName_e4d6ba {
+    color: var(--hover-bright-color) !important;
 }
 .messageRequestItem_a5de62.active_a5de62,
 .messageRequestItem_a5de62:hover {
@@ -11874,7 +11880,7 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
     transition: color 400ms ease-out !important;
 }
-.sectionTitle_f3abf4.container_a5ad5c {
+.sectionTitle_cc7518.text_a5ad5c {
     color: var(--hover-bright-color) !important;
 }
 
