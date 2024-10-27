@@ -8999,6 +8999,9 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
 }
+.nicknames_d6c26f .tooltip_d6c26f {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Load more messages */
 .hasMore-3e72_v {
