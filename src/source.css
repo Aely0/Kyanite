@@ -5566,6 +5566,14 @@ img:not(.emote):not(.emoji)::after {
 .popout_e6af9c .copyButton_e6af9c {
     margin-left: 16px !important;
 }
+.channelName_f0fccd .input_f8b740 {
+    color: var(--hover-bright-color) !important;
+}
+.channelName_f0fccd:hover .input_f8b740,
+.channelName_f0fccd .input_f8b740:focus {
+    box-shadow: none !important;
+    background-color: var(--hover-color) !important;
+}
 
 /* Backgrounds */
 .layers {
