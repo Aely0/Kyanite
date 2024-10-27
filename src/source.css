@@ -4996,6 +4996,14 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-dark-color) !important;
 }
 
+/* Member change nickname */
+.cardWarning_a298b8 {
+    --__card-accent-color: var(--hover-yellow-color) !important;
+}
+.cardWarning_a298b8 .warning_fa7401 {
+    color: var(--yellow-bright-color) !important;
+}
+
 /* Voice chat stream popout */
 .emptyPreviewText_ed81cc {
     color: var(--soft-bright-color) !important;
