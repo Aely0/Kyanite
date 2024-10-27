@@ -2926,7 +2926,7 @@ pre:hover .copybutton {
     color: var(--soft-bright-color) !important;
 }
 
-/* server boost cards */
+/* Server boost cards */
 .card_d1fdce.boosterRecognitionCard_eaedb7 {
     background-color: var(--hover-dark-color) !important;
 }
@@ -2935,10 +2935,10 @@ pre:hover .copybutton {
 .wrapper_e55051.faq_eaedb7 {
     background-color: var(--hover-faded-color) !important;
 }
-
-.activityText_a31c43 {
-    color: var(--hover-bright-color) !important;
-}
+/* TODO: needs a parent selector tied to the tab/container - Aely */
+/* .activityText_a31c43 { */
+/* color: var(--hover-bright-color) !important; */
+/* } */
 
 /* Settings Nitro boosting and gifts */
 .theme-dark .expandedInfo_a28a08,
