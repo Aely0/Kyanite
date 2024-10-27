@@ -14892,12 +14892,13 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Link in vencord tab */
-.contents_dd4f85,
-.contents_dd4f85:hover {
-    color: var(--soft-bright-color) !important;
-    text-decoration: underline !important;
-    text-decoration-color: var(--soft-bright-color) !important;
-}
+/* TODO: needs a parent selector tied to the tab - Aely */
+/* .contents_dd4f85, */
+/* .contents_dd4f85:hover { */
+/* color: var(--soft-bright-color) !important; */
+/* text-decoration: underline !important; */
+/* text-decoration-color: var(--soft-bright-color) !important; */
+/* } */
 
 /* Plugins tab cards */
 .vc-addon-card {
