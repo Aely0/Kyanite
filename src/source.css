@@ -11167,6 +11167,10 @@ div[class*="flex-"][class*="title-"],
 .body_ac90a2 {
     color: var(--hover-bright-color) !important;
 }
+.titleContainer_ac90a2 svg path,
+.iconContainer_d76df7 svg path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Link to file */
 .downloadLink-2oSgiF {
