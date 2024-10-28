@@ -7223,6 +7223,54 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--red-bright-color) !important;
 }
 
+/* Server Soundboard */
+.fileUpload_aef0dd.container_c67e31 {
+    background-color: var(--hover-color) !important;
+    border-color: var(--hover-color) !important;
+}
+.fileUploadInput_aef0dd.input_c67e31::placeholder {
+    color: var(--hover-dark-color) !important;
+}
+.fakeInput_a79deb {
+    border: none !important;
+    background: var(--hover-color) !important;
+}
+.handleFrame_e7d4d4:before,
+.handleFrame_e7d4d4:after {
+    background-color: var(--hover-color) !important;
+}
+.handleIconFrame_e7d4d4,
+.handleIconContainer_e7d4d4 {
+    background-color: var(--hover-dark-color) !important;
+}
+.handleIcon_e7d4d4 {
+    color: var(--soft-bright-color) !important;
+}
+.playhead_e7d4d4:before {
+    background-color: var(--soft-bright-color) !important;
+}
+.playButton_eca3b2,
+.playButton_b5bbcc {
+    background-color: var(--hover-color) !important;
+}
+.playButtonIcon_eca3b2,
+.playIcon_b5bbcc {
+    color: var(--soft-bright-color) !important;
+}
+.row_b10b92 {
+    border-bottom: none !important;
+}
+.soundUpdate_b10b92 {
+    color: var(--hover-bright-color) !important;
+}
+.soundUpdate_b10b92:hover {
+    color: var(--soft-bright-color) !important;
+}
+.soundEdit_b10b92 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 /* Server Widget */
 .copyInput_d7e343 {
     background-color: var(--hover-faint-color) !important;
