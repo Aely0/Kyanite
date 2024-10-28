@@ -4014,24 +4014,24 @@ button[aria-label="Stop Watching"]
     border: none !important;
 }
 
-/* Guild list voice icon */
+/* Server list voice icon */
 .base_df8943 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
 
-/* Guild list unavailable icon */
+/* Server list unavailable icon */
 .unavailableBadge_c96c45 {
     color: var(--red-bright-color) !important;
     background-color: var(--red-dark-color) !important;
 }
 
-/* Guild list screen charing badge */
+/* Server list screen charing badge */
 .iconBadge-3qSJIw.participating-1NvRVd {
     background-color: var(--main-color) !important;
 }
 
-/* Guild list voice user overflow */
+/* Server list voice user overflow */
 .moreUsers_d03bba {
     background-color: transparent !important;
     color: var(--soft-bright-color) !important;
@@ -4039,12 +4039,12 @@ button[aria-label="Stop Watching"]
     font-weight: bold !important;
 }
 
-/* Guild list muted tag */
+/* Server list muted tag */
 .muteText_a6ae3c {
     color: var(--soft-bright-color) !important;
 }
 
-/* Guild banner */
+/* Server banner */
 .animatedContainer_fd6364 {
     background-color: var(--hover-color) !important;
     -webkit-box-shadow: none !important;
@@ -4068,7 +4068,7 @@ button[aria-label="Stop Watching"]
     background: none !important;
 }
 
-/* Guild list folders */
+/* Server list folders */
 .folder-1hbNCn {
     background-color: transparent !important;
 }
@@ -4086,7 +4086,7 @@ button[aria-label="Stop Watching"]
     background-color: transparent !important;
 }
 
-/* Guild unavailable */
+/* Server unavailable */
 .errorInner_aada25 {
     color: var(--red-bright-color) !important;
 }
