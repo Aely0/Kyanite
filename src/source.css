@@ -13555,87 +13555,92 @@ path[fill="rgb(255,216,54)"] {
 .barFill-2Bh7CX {
     background: var(--hover-bright-color) !important;
 }
-/* + Choose a sound */
-.soundButtonSettingContainer_c801bb {
+
+/* Soundboard (+ choose a sound) */
+.soundButtonRefresh_f40049 {
+    background: var(--hover-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.emojiCircle_f40049 {
     background: var(--hover-color) !important;
 }
-.secondaryIconDisabled_c801bb.secondaryIcon_c801bb {
-    color: var(--hover-dark-color) !important;
-}
-.secondaryIcon_c801bb {
+.secondaryButtonRefresh_f40049 {
     color: var(--hover-bright-color) !important;
 }
-.picker_cd703d {
-    background-color: var(--dark-bg) !important;
-    box-shadow: var(--hover-color) !important;
-    border: 1px solid var(--hover-color) !important;
+.secondaryButtonRefresh_f40049:focus,
+.secondaryButtonRefresh_f40049:hover {
+    color: var(--soft-bright-color) !important;
 }
-.picker_cd703d .categoryList_ceda83 {
-    background-color: transparent !important;
+.picker_cd703d.refresh_cd703d {
+    background-color: var(--dark-bg) !important;
+}
+.categoryIcon_ceda83:hover,
+.categoryIcon_ceda83.selected_ceda83 {
+    background-color: var(--hover-color) !important;
+}
+.categoryIconIcon_ceda83 {
+    color: var(--hover-bright-color) !important;
+    transition: color 200ms ease-in-out !important;
+}
+.categoryIcon_ceda83:hover .categoryIconIcon_ceda83,
+.categoryIcon_ceda83.selected_ceda83 .categoryIconIcon_ceda83 {
+    color: var(--soft-bright-color) !important;
 }
 .header_d0dc1d {
     box-shadow: none !important;
 }
-.background_c6d722.upsellInner_d6af8e {
-    background-color: var(--hover-color) !important;
-}
-.nitroWheel_d6af8e {
-    color: var(--soft-bright-color) !important;
-}
-.categoryIconIcon_ceda83 {
-    color: var(--soft-bright-color) !important;
-}
-.categoryIcon_ceda83:hover {
-    color: var(--hover-color);
-    background-color: var(--hover-color) !important;
-}
-.categoryIcon_ceda83.selected_ceda83 {
-    background-color: var(--hover-dark-color) !important;
-}
-.sectionHeader_ca5acd,
-.sectionHeader_ca5acd .sectionTitle_ca5acd {
-    color: var(--soft-bright-color) !important;
-}
-.soundButton_f40049 {
-    background-color: var(--hover-color) !important;
-}
-.secondaryButton_f40049,
-.settingsIcon_ca5acd {
+.sectionHeader_ca5acd .sectionTitle_ca5acd,
+.headerIcon_ca5acd {
     color: var(--hover-bright-color) !important;
 }
-.secondaryIcon_f40049:hover,
+.soundButtonSettingContainer_c801bb {
+    background: var(--hover-color) !important;
+}
+.secondaryIconDisabled_c801bb {
+    color: var(--hover-dark-color) !important;
+}
+.secondaryButton_f40049 {
+    color: var(--hover-bright-color) !important;
+}
+.secondaryButton_f40049:hover,
+.secondaryButton_f40049:focus {
+    color: var(--soft-bright-color) !important;
+}
+.settingsIcon_ca5acd,
+.nitroWheel_d6af8e,
+.lockIcon_f40049,
+.soundAddIconRefresh_c06ee5 {
+    color: var(--hover-bright-color) !important;
+}
 .settingsIcon_ca5acd:hover,
-.settingsIcon_ca5acd:active {
-    color: var(--soft-bright-color) !important;
-    transition: color ease-out 200ms !important;
-}
-.favoriteIconFavorite_f40049 > path[fill="var(--gold)"] {
-    fill: var(--soft-bright-color) !important;
-}
-.tooltipGrey_b6c360 {
-    background-color: var(--main-color) !important;
+.settingsIcon_ca5acd:focus {
     color: var(--soft-bright-color) !important;
 }
-.tooltipGrey_b6c360 .tooltipPointer_b6c360 {
-    border-top-color: var(--main-color) !important;
-}
-.picker_cd703d .container_effbe2 {
-    background-color: var(--hover-color) !important;
-}
-.picker_cd703d .inspector_c3120f {
-    background-color: var(--hover-color) !important;
-}
-.soundAddIcon_c06ee5,
-.playIcon_f40049 {
+.favoriteIconFavorite_f40049 {
     color: var(--soft-bright-color) !important;
 }
-.buttonOverlayBackground_f40049.absoluteFill_f40049 {
-    background-color: var(--hover-color) !important;
-    opacity: 1 !important;
+.upsellInner_d6af8e {
+    background: var(--hover-color) !important;
 }
-.soundButtonInteractive_f40049.playing_f40049 {
-    border-color: var(--soft-bright-color) !important;
-    border-width: 2px !important;
+.upsellContainer_ad7baa,
+.sectionContainerNitroLocked_ca5acd,
+.soundRowNitroLocked_ca5acd {
+    background: transparent !important;
+}
+.sectionFooter_ca5acd {
+    background-color: transparent !important;
+}
+.soundButtonInteractiveRefresh_f40049.previewing_f40049 {
+    outline: 2px solid var(--hover-bright-color) !important;
+}
+.soundButtonInteractiveRefresh_f40049.playing_f40049 {
+    outline: 2px solid var(--soft-bright-color) !important;
+}
+.soundInfoRefresh_f40049:hover .soundAddIconRefresh_c06ee5,
+.soundInfoRefresh_f40049:hover .soundAddTextRefresh_c06ee5 {
+    color: var(--soft-bright-color) !important;
+    transition: color 200ms ease-in-out !important;
 }
 
 /* Keybinds (User Settings) */
