@@ -13544,6 +13544,11 @@ path[fill="rgb(255,216,54)"] {
     fill: var(--soft-bright-color) !important; /* Change color as needed */
 }
 
+/* Apps hover popup */
+.container_b572de {
+	background-color: var(--dark-bg) !important;
+}
+
 /* Devices (User Settings) */
 .sessionIcon_c7a2c0 {
     background: var(--hover-color) !important;
