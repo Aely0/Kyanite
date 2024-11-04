@@ -3125,21 +3125,16 @@ pre:hover .copybutton {
     color: var(--soft-bright-color) !important;
 }
 
-/* Invite as guest in VC invite */
+/* Voice channel invite */
 .temporaryMembershipContainerBackground_cedfaf {
 	background-color: var(--dark-bg) !important;
 }
-
 .temporaryMembershipContainerBackground_cedfaf::before {
     background-color: transparent !important;
 }
-
-/* Copy button in VC invite */
 .input_f8bc55.flexCenter_ec1a20 {
     background-color: var(--hover-color) !important;
 }
-
-/* Hover on users color in vc invite */
 .inviteRow_cedfaf:hover {
 	background-color: var(--hover-color) !important;
 }
@@ -10503,6 +10498,44 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-color) !important;
     box-shadow: none !important;
 }
+.appDetailsContainer_e5da8b {
+    background-color: var(--hover-color) !important;
+}
+.appDetailsHeaderContainer_e5da8b button svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.lineClamp1_a595eb span {
+    color: var(--soft-bright-color) !important;
+}
+.container_ec8cd2.none_c49869.scrollerBase_c49869.fade_c49869 {
+    background-color: var(--dark-bg) !important;
+}
+.overviewContainerWithVideo_e80fe9 {
+    background-color: var(--hover-color) !important;
+}
+.tagContainer_e80fe9 {
+    background-color: var(--hover-color) !important;
+}
+.container_e33430 .clickable_e33430 svg path,
+.clickable_e82700 svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.content_c5a065.contentBackground_c5a065,
+.footer_c5a065 {
+    background-color: var(--dark-bg) !important;
+}
+.messageContentWrapper_dbb3d0 {
+    background-color: var(--hover-color) !important;
+}
+.scopes_cf14a8 svg path {
+    fill: var(--soft-bright-color) !important; /* Change color as needed */
+}
+.scopes_cf14a8 svg path {
+    fill: var(--soft-bright-color) !important; /* Change color as needed */
+}
+.container_b572de {
+	background-color: var(--dark-bg) !important;
+}
 
 /* Activities selection modal */
 .activityItem-1Z9CTr {
@@ -13485,67 +13518,6 @@ path[fill="rgb(255,216,54)"] {
 
 /* Activities bg */
 .container_c7c1c7 {
-	background-color: var(--dark-bg) !important;
-}
-
-/* Activities app names */
-.appDetailsContainer_e5da8b {
-	background-color: var(--hover-color) !important;
-}
-
-/* Eye button in activities */
-.appDetailsHeaderContainer_e5da8b button svg path {
-    fill: var(--soft-bright-color) !important;
-}
-
-/* Activity description */
-.lineClamp1_a595eb span {
-    color: var(--soft-bright-color) !important;
-}
-
-/* bg on thing when pressed the activity */
-.container_ec8cd2.none_c49869.scrollerBase_c49869.fade_c49869 {
-	background-color: var(--dark-bg) !important;
-}
-
-/* Video bg in activity */
-.overviewContainerWithVideo_e80fe9 {
-	background-color: var(--hover-color) !important;
-}
-
-/* Tags in activity */
-.tagContainer_e80fe9 {
-	background-color: var(--hover-color) !important;
-}
-
-/* Buttons in activities */
-.container_e33430 .clickable_e33430 svg path,
-.clickable_e82700 svg path {
-    fill: var(--soft-bright-color) !important;
-}
-
-/* Authorize app */
-.content_c5a065.contentBackground_c5a065,
-.footer_c5a065 {
-	background-color: var(--dark-bg) !important;
-}
-
-/* Click to see command in activity */
-.messageContentWrapper_dbb3d0 {
-	background-color: var(--hover-color) !important;
-}
-	
-/* Authorize app circles */
-.scopes_cf14a8 svg path {
-    fill: var(--soft-bright-color) !important; /* Change color as needed */
-}
-/* Authorize app circles */
-.scopes_cf14a8 svg path {
-    fill: var(--soft-bright-color) !important; /* Change color as needed */
-}
-
-/* Apps hover popup */
-.container_b572de {
 	background-color: var(--dark-bg) !important;
 }
 
