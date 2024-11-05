@@ -5165,6 +5165,18 @@ img:not(.emote):not(.emoji)::after {
     color: var(--soft-bright-color) !important;
 }
 
+/* Voice chat user volume */
+.tooltipGrey_b6c360 {
+    background-color: var(--main-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.tooltip_b6c360 {
+    box-shadow: var(--hover-color) !important;
+}
+.tooltipGrey_b6c360 .tooltipPointer_b6c360 {
+    border-top-color: var(--main-color) !important;
+}
+
 /* Voice channel hover popout */
 .container_e88961 {
     background-color: var(--dark-bg) !important;
