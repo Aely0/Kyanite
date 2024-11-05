@@ -3127,7 +3127,7 @@ pre:hover .copybutton {
 
 /* Voice channel invite */
 .temporaryMembershipContainerBackground_cedfaf {
-	background-color: var(--dark-bg) !important;
+    background-color: var(--dark-bg) !important;
 }
 .temporaryMembershipContainerBackground_cedfaf::before {
     background-color: transparent !important;
@@ -3136,7 +3136,22 @@ pre:hover .copybutton {
     background-color: var(--hover-color) !important;
 }
 .inviteRow_cedfaf:hover {
-	background-color: var(--hover-color) !important;
+    background-color: var(--hover-color) !important;
+}
+.channelIcon_cedfaf path {
+    fill: var(--soft-bright-color) !important;
+}
+.inviteRowName_cedfaf {
+    color: var(--hover-bright-color) !important;
+}
+.separator_f9a4c9 {
+    box-shadow: none !important;
+}
+.copyInput_cedfaf .inputDefault_f8bc55.input_cedfaf {
+    background-color: transparent !important;
+}
+.title_a3747e {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Color picker */
@@ -4326,6 +4341,10 @@ button[aria-label="Stop Watching"]
 .lookOutlined_dd4f85.colorGreen_dd4f85 {
     color: var(--hover-bright-color) !important;
     border-color: var(--hover-dark-color) !important;
+}
+.lookOutlined_dd4f85.colorGreen_dd4f85:active,
+.lookOutlined_dd4f85.colorGreen_dd4f85:hover {
+    background-color: var(--hover-color) !important;
 }
 
 /* Progress bar */
@@ -10534,7 +10553,7 @@ div[class*="flex-"][class*="title-"],
     fill: var(--soft-bright-color) !important; /* Change color as needed */
 }
 .container_b572de {
-	background-color: var(--dark-bg) !important;
+    background-color: var(--dark-bg) !important;
 }
 
 /* Activities selection modal */
@@ -13518,7 +13537,7 @@ path[fill="rgb(255,216,54)"] {
 
 /* Activities bg */
 .container_c7c1c7 {
-	background-color: var(--dark-bg) !important;
+    background-color: var(--dark-bg) !important;
 }
 
 /* Devices (User Settings) */
@@ -15148,9 +15167,9 @@ img:not(.emote):not(.emoji)::after {
 /* Link in vencord tab */
 #vencordsettings-tab .contents_dd4f85,
 #vencordsettings-tab .contents_dd4f85:hover {
-	color: var(--soft-bright-color) !important;
-	text-decoration: underline !important; */
-	text-decoration-color: var(--soft-bright-color) !important;
+    color: var(--soft-bright-color) !important;
+    text-decoration: underline !important;
+    text-decoration-color: var(--soft-bright-color) !important;
 }
 
 /* Plugins tab cards */
