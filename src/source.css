@@ -5325,6 +5325,9 @@ img:not(.emote):not(.emoji)::after {
 .container_f1c3d9 {
     box-shadow: none !important;
 }
+.iconBadge_f0cd33[style="background-color: var(--status-danger);"] {
+    background-color: var(--soft-bright-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
