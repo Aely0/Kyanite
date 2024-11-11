@@ -5746,6 +5746,12 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-color) !important;
 }
 
+/* Group DM (new message notification) */
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+    background-color: var(--hover-color) !important;
+}
+
 /* Backgrounds */
 .layers {
     background: rgba(0, 0, 0, 0.6) !important;
