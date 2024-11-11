@@ -12944,25 +12944,13 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* DM profile panel */
-.profilePanel_b433b4 .userPanelInnerThemed_c69a7b {
-    background: transparent !important;
-}
-.profilePanel_b433b4 .userProfileOuterUnthemed_c69a7b {
+.panel_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"] {
     background-color: transparent !important;
 }
-.profilePanel_b433b4 .overlayBackground_c69a7b {
-    background-color: var(--hover-color) !important;
-}
-.profilePanel_b433b4 .banner_c3e427 {
-    background-color: transparent !important;
-}
-.profilePanel_b433b4 .mutualFriendsDivider_b433b4 {
-    border-top: 1px solid var(--hover-color) !important;
-}
-.profilePanel_b433b4 .transition_f48d4e > path {
-    stroke: var(--hover-bright-color) !important;
-}
-.profilePanel_b433b4 .badgeList_ab525a {
+.panel_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"]
+    .overlay_a972fe,
+.panel_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"]
+    .overlay_a8795b {
     background-color: var(--hover-color) !important;
 }
 .clickable_d8eba3 svg path {
