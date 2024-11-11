@@ -48,8 +48,7 @@ body::after,
 
 /* Message bar gift button (tag:hidden) */
 /*
-.container_efde15,
-.giftIconButton_efde15 {
+.buttons_bdf0de > button {
     display: initial !important;
 }
 */
