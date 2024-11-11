@@ -3535,8 +3535,30 @@ pre:hover .copybutton {
 .regionSelectName_ccb5ca {
     color: var(--hover-bright-color) !important;
 }
-.quickSelectPopoutOption_b852b1.selected {
+.quickSelectLabel_abbf45 {
+    color: var(--hover-bright-color) !important;
+}
+.quickSelectValue_abbf45 {
+    color: var(--soft-bright-color) !important;
+}
+.quickSelectArrow_abbf45,
+.check_ccb5ca {
+    display: none !important;
+}
+.quickSelectPopoutOption_abbf45:hover,
+.quickSelectPopoutOption_abbf45:focus,
+.quickSelectPopoutOption_abbf45.selected {
     background-color: var(--hover-color) !important;
+}
+.quickSelectPopoutOption_abbf45.selected .regionSelectName_ccb5ca {
+    color: var(--soft-bright-color) !important;
+    font-weight: 600 !important;
+}
+.callAvatarMaskContainer_db83a2 .status_db83a2 {
+    background-color: var(--red-dark-color) !important;
+}
+.callAvatarMaskContainer_db83a2 .status_db83a2 path {
+    fill: var(--red-bright-color) !important;
 }
 
 /* Screen sharing / Video calls */
