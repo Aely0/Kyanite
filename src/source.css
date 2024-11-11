@@ -3682,6 +3682,9 @@ button[aria-label="Stop Watching"]
 .streamPreview_ba4b17 {
     background: var(--hover-color) !important;
 }
+.viewersIcon_bc9592 path {
+    fill: var(--soft-bright-color) !important;
+}
 .overflow_bc9592 {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
