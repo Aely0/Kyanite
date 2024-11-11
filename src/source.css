@@ -4744,6 +4744,7 @@ img:not(.emote):not(.emoji)::after {
 .contentWrapper_af5dbb {
     border: 1px solid var(--hover-color) !important;
     border-radius: 8px !important;
+    box-shadow: none !important;
 }
 .categoryItemDefaultCategory_dfa278:hover {
     background-color: var(--hover-color) !important;
@@ -5348,6 +5349,7 @@ img:not(.emote):not(.emoji)::after {
 .container_eedf95 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
 }
 .option_b0286e.selected-rZcOL- {
     background-color: var(--hover-color) !important;
