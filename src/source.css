@@ -11151,6 +11151,22 @@ div[class*="flex-"][class*="title-"],
 .redesignIconChildContainer_c91f7d > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.biteSize_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt);"]
+    .inner_c69a7b.biteSize_c69a7b {
+    background: var(--dark-bg) !important;
+}
+.fullSize_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt);"]
+    .inner_c69a7b.fullSize_c69a7b {
+    background-color: var(--dark-bg) !important;
+}
+.fullSize_c69a7b[style^="--profile-gradient-primary-color: var(--background-secondary-alt);"]
+    .inner_c69a7b.fullSize_c69a7b
+    .overlay_b9fccc {
+    background-color: var(--hover-color) !important;
+}
+.emptyText_d2d6cb {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .embedFull_b0068a {
