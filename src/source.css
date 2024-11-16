@@ -10021,8 +10021,11 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
-.footer_aa1bff {
+.footer_f8ec41 {
     background: transparent !important;
+}
+.gradient_f8ec41 {
+    display: none !important;
 }
 
 /* Add guild menu */
