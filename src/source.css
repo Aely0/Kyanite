@@ -10597,6 +10597,46 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--soft-bright-color) !important;
 }
 
+/* Server activity feed */
+.headerContainer_bc6acb .header_bc6acb svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.container_c64476.openOnHover_c64476 {
+    background: var(--hover-faded-color) !important;
+}
+.badgeContainer_d60c6d .lineClamp1_a595eb.text-xs\/normal_dc00ef {
+    color: var(--soft-bright-color) !important;
+}
+.popoutUsername_a35965.popoutTextPrimary_a35965 {
+    color: var(--soft-bright-color) !important;
+}
+.menuIcon_aa0ae7 {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.menuIcon_aa0ae7:hover {
+    color: var(--soft-bright-color) !important;
+}
+.popoutContentWrapper_a35965,
+.interactionsContainer_a35965 {
+    background: var(--dark-bg) !important;
+}
+.interactionsContainer_a35965 .replyInput_d0fc0d {
+    background: var(--dark-bg) !important;
+}
+.interactionsContainer_a35965 .replyInput_d0fc0d .markup_f8f345 {
+    color: var(--soft-bright-color) !important;
+}
+.popoutContentWrapper_a35965 [data-disable-adaptive-theme="true"] {
+    background: var(--hover-faded-color) !important;
+}
+.popout_a35965:has(.popoutContentWrapper_a35965) {
+    filter: drop-shadow(0 8px 8px var(--hover-color)) !important;
+}
+.interactionsContainerHeader_a35965 {
+    border-top: none !important;
+}
+
 /* Activities */
 .guildBoostingIconNormal-3bLOln {
     color: var(--soft-bright-color) !important;
