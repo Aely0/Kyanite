@@ -10573,6 +10573,30 @@ div[class*="flex-"][class*="title-"],
     font-size: 0.66rem !important;
 }
 
+/* Profile activity */
+.overlay_c69a7b.activity_b8cc6d {
+    background: var(--hover-faded-color) !important;
+}
+.contextMenu_ae1fa2 > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.contextMenu_ae1fa2:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.badgeContainer_d60c6d > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.badgeContainer_d60c6d .badgeLabel_d60c6d {
+    color: var(--soft-bright-color) !important;
+}
+.bar_b5cd55 {
+    background-color: var(--hover-dark-color) !important;
+}
+.progress_b5cd55 {
+    background-color: var(--soft-bright-color) !important;
+}
+
 /* Activities */
 .guildBoostingIconNormal-3bLOln {
     color: var(--soft-bright-color) !important;
