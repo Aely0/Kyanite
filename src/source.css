@@ -13291,8 +13291,7 @@ path[fill="rgb(255,216,54)"] {
     color: var(--soft-bright-color) !important;
 }
 .container_b6cd66 {
-    background-color: var(--hover-color) !important;
-    backdrop-filter: brightness(5%) !important;
+    background-color: var(--dark-bg) !important;
 }
 
 /* My Account (User Settings) */
