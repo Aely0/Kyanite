@@ -8810,8 +8810,9 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .group_d25d19 {
     border-color: var(--hover-color) !important;
 }
-.theme-dark .passthrough_d25d19.selected_d25d19 {
-    background: var(--hover-color) !important;
+.item_d25d19.passthrough_d25d19.selected_d25d19 {
+    color: var(--hover-bright-color) !important;
+    background-color: var(--hover-color) !important;
 }
 .item_d25d19.passthrough_d25d19 > svg > g > polygon,
 .item_d25d19.allow_d25d19 > svg > path,
@@ -8844,6 +8845,59 @@ img:not(.emote):not(.emoji)::after {
 .folderTitle-10TLL9,
 .sectionTitle-2Ao270 {
     color: var(--hover-bright-color) !important;
+}
+.settingCard_dd864e,
+.settingCard_dd864e.active_dd864e,
+.cardFolder_dd864e {
+    background: transparent !important;
+}
+.cardIcon_dd864e {
+    color: var(--hover-bright-color) !important;
+}
+.removeIcon_dd864e {
+    color: var(--hover-red-dark-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.removeIcon_dd864e:hover {
+    color: var(--hover-red-bright-color) !important;
+}
+.removeIcon_dd864e.disabledRemoveIcon_dd864e {
+    color: var(--hover-red-color) !important;
+}
+.sidebarHeaderDefault_a49993.sidebarHeader_a49993::after {
+    content: "+" !important;
+    font-size: 20px !important;
+}
+img.sidebarHeader_a49993 {
+    display: none !important;
+}
+.container_cf6b7d {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.container_cf6b7d .header_cf6b7d {
+    background-color: transparent !important;
+}
+.autocompleteShadow_cf6b7d {
+    box-shadow: var(--hover-bright-color) !important;
+}
+.autocompleteArrow_cf6b7d {
+    background-color: var(--hover-color) !important;
+    box-shadow: var(--hover-bright-color) !important;
+}
+.container_cf6b7d .headerText_cf6b7d,
+.container_cf6b7d .input_cf6b7d::placeholder,
+.section_cf6b7d {
+    color: var(--hover-bright-color) !important;
+}
+.container_cf6b7d .input_cf6b7d {
+    color: var(--soft-bright-color) !important;
+}
+.empty_cf6b7d p {
+    color: var(--hover-bright-color) !important;
+}
+.row_cf6b7d.selected_cf6b7d .rowInner_cf6b7d {
+    background-color: var(--hover-color) !important;
 }
 
 /* Advanced permissions menu */
