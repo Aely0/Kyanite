@@ -13172,6 +13172,12 @@ div[class*="flex-"][class*="title-"],
     .overlay_a8795b {
     background-color: var(--hover-color) !important;
 }
+.overlay_c69a7b.activity_a972fe {
+    background-color: var(--hover-color) !important;
+}
+.divider_e3d8a6 {
+    background-color: transparent !important;
+}
 .clickable_d8eba3 svg path {
     fill: var(--hover-bright-color) !important;
 }
