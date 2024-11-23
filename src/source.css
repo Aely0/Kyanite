@@ -2573,7 +2573,7 @@ pre:hover .copybutton {
 
 /* Server Events */
 .iconBadge_c96c45,
-.progressBar-18rmp1 {
+.progressBar_eccd5f {
     background-color: var(--hover-dark-color) !important;
 }
 .icon_fa4e6d,
@@ -2598,8 +2598,11 @@ pre:hover .copybutton {
 .listRow_b5365d.selected_b5365d {
     background-color: var(--hover-color);
 }
-.selectedProgressBar-11z5d9 {
-    background-color: var(--hover-bright-color) !important;
+.selectedProgressBar_eccd5f {
+    background-color: var(--soft-bright-color) !important;
+}
+.colorBrand_d1aa77 {
+    color: var(--soft-bright-color) !important;
 }
 .container-3zZkKh,
 .textInput-3g8y92,
@@ -2747,6 +2750,49 @@ pre:hover .copybutton {
 }
 .eventStatusContainer_d6a475 path {
     fill: var(--soft-bright-color) !important;
+}
+.editingContainer_ba5b9e {
+    background-color: var(--hover-color) !important;
+}
+.overlay_ba5b9e {
+    border: 5px solid var(--hover-bright-color) !important;
+    box-shadow: var(--hover-color) 0 0 0 9999px !important;
+}
+.icon_ba5b9e {
+    color: var(--hover-bright-color) !important;
+}
+.icon_f4830e {
+    color: var(--soft-bright-color) !important;
+}
+.calendarContainer_f4830e {
+    box-shadow: var(--hover-bright-color) !important;
+}
+.inputWrapper_f8bc55.textInput_b229b0 {
+    background-color: var(--dark-color) !important;
+    border: 1px solid var(--main-color) !important;
+}
+.inputDefault_f8bc55.input_f8bc55.container_f4830e,
+.select_f6639d.searchable_f6639d.select_caf9a3.lookFilled_f6639d {
+    border: 1px solid var(--main-color) !important;
+}
+.container_ee9d1a.clickable_ee9d1a.active_ee9d1a,
+.container_ee9d1a.clickable_ee9d1a:hover {
+    background-color: var(--hover-color) !important;
+}
+.iconButton_ee9d1a .icon_ee9d1a path {
+    fill: var(--soft-bright-color) !important;
+}
+.circle_c1cfd2,
+.iconContainer_d7123a {
+    background-color: transparent !important;
+}
+.icon_c1cfd2,
+.icon_d7123a {
+    color: var(--hover-bright-color) !important;
+}
+.close_d7123a,
+.closeIcon_a31cc1 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Notification settings */
