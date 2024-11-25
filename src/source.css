@@ -11275,6 +11275,15 @@ div[class*="flex-"][class*="title-"],
 .statusBubbleOuter_d0a252:before {
     display: none !important;
 }
+.content_d0a252 {
+    color: var(--hover-bright-color) !important;
+}
+.platformIcon_ae1fa2 {
+    background-color: var(--soft-bright-color) !important;
+}
+.custom-profile-theme .clanTagContainer_c32acf {
+    border-color: var(--hover-bright-color) !important;
+}
 .icon_f9d37d svg path,
 .childWrapper_d19e26 svg path {
     fill: var(--soft-bright-color) !important;
