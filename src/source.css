@@ -10620,7 +10620,8 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Profile activity */
-.overlay_c69a7b.activity_b8cc6d {
+.overlay_c69a7b.activity_b8cc6d,
+.overlay_c69a7b.fullSize_c69a7b {
     background: var(--hover-faded-color) !important;
 }
 .contextMenu_ae1fa2 > svg > path {
