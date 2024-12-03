@@ -15503,6 +15503,12 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-faded-color) !important;
 }
 
+/* Plugin icons */
+.button_adca65 .vc-cog-wheel path,
+.button_adca65 .vc-info-icon path {
+    fill: var(--soft-bright-color) !important;
+}
+
 /* Updater and cloud links */
 #vencordupdater-tab a[role="link"],
 #vencordcloud-tab a[role="link"] {
