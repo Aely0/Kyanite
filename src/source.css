@@ -13204,6 +13204,14 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
 }
 
+/* DM blocked user */
+.muted_f5eb4b .favoriteIcon_c91bad {
+    color: var(--hover-bright-color) !important;
+}
+.muted_f5eb4b.selected_f5eb4b .favoriteIcon_c91bad {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Snowsgiving */
 .snowsgivingLink-1TZi3c:hover {
     background-color: var(--hover-color) !important;
