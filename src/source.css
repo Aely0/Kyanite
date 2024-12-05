@@ -11267,13 +11267,17 @@ div[class*="flex-"][class*="title-"],
     border-color: var(--hover-color) !important;
 }
 .statusBubbleOuter_af9888,
-.statusBubble_af9888 {
+.statusBubble_af9888,
+.statusBubbleOuter_a82ccc,
+.statusBubble_a82ccc {
     background: var(--hover-color) !important;
     box-shadow: var(--hover-color) !important;
     border: 1px solid var(--hover-color) !important;
 }
 .statusBubbleOuter_af9888:after,
-.statusBubbleOuter_af9888:before {
+.statusBubbleOuter_af9888:before,
+.statusBubbleOuter_a82ccc:after,
+.statusBubbleOuter_a82ccc:before {
     display: none !important;
 }
 .content_af9888 {
