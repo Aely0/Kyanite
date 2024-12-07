@@ -4056,6 +4056,9 @@ button[aria-label="Stop Watching"]
 .panel_bf1a22 {
     background: transparent !important;
 }
+.gameWrapper_bf1a22 .subtext_be40e6 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Voice status panel */
 .container_adcaac {
