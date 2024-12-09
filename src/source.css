@@ -13455,7 +13455,9 @@ path[fill="rgb(255,216,54)"] {
 .brand_a0.selected_a0 {
     color: var(--soft-bright-color) !important;
 }
-.item_a0.selected_a0.themed_a0 {
+.item_a0.selected_a0.themed_a0,
+.topPill_a0 .themed_a0.item_a0:active:not(.disabled_a0),
+.side_a0 .themed_a0.item_a0:active:not(.disabled_a0) {
     background-color: var(--hover-color) !important;
 }
 
