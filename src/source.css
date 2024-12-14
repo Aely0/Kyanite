@@ -12490,6 +12490,11 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Gif favourite button */
+.gifFavoriteButton_c5e128 {
+    color: var(--hover-bright-color) !important;
+    background-color: var(--dark-bg) !important;
+    padding: 4px !important;
+}
 .gifFavoriteButton_c5e128:hover {
     color: var(--soft-bright-color) !important;
 }
