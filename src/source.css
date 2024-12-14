@@ -4534,8 +4534,8 @@ button[aria-label="Stop Watching"]
     fill: var(--yellow-bright-color) !important;
 }
 .audioControls_f316dd,
-.filename_b52bef,
-.size_b52bef {
+.filename_f46c86,
+.size_f46c86 {
     color: var(--soft-bright-color) !important;
 }
 .progress_c6473a {
@@ -4548,10 +4548,10 @@ button[aria-label="Stop Watching"]
         var(--soft-bright-color)
     ) !important;
 }
-.cancelButton_b52bef {
+.cancelButton_f46c86 {
     color: var(--hover-dark-color) !important;
 }
-.cancelButton_b52bef:hover {
+.cancelButton_f46c86:hover {
     color: var(--hover-bright-color) !important;
 }
 .footer_f82cc7 {
@@ -4559,6 +4559,10 @@ button[aria-label="Stop Watching"]
 }
 .uploadDropModal_f82cc7 .inner_f82cc7 {
     border: 2px dashed var(--soft-bright-color) !important;
+}
+.file_f46c86 {
+    border: none !important;
+    background-color: var(--hover-faint-color) !important;
 }
 
 /* File upload (Source Files) */
