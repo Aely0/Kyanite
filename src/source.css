@@ -15450,7 +15450,7 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Message bar gift button (tag:hidden) */
-.buttons_bdf0de > button {
+.buttons_bdf0de .giftIconContainer_fdeb78 {
     display: none !important;
 }
 
