@@ -4025,6 +4025,9 @@ button[aria-label="Stop Watching"]
     path[fill="var(--status-danger)"] {
     fill: var(--red-bright-color) !important;
 }
+.wrapperVisible_c721cc {
+    display: none;
+}
 
 /* Activity status panel */
 .icon_c07d45 {
