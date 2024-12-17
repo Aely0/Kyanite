@@ -15462,7 +15462,8 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Message bar gift button (tag:hidden) */
-.buttons_bdf0de .giftIconContainer_fdeb78 {
+.buttons_bdf0de .container_fdeb78,
+.buttons_bdf0de .button_dd4f85[aria-label="Send a gift"] {
     display: none !important;
 }
 
