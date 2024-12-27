@@ -94,6 +94,7 @@ body::after,
 .panels_a4d4d9,
 .scroller_c47fa9,
 .privateChannels_f0963d,
+.channelChatWrapper_d880dc,
 .container_c2739c,
 .container_bf550a,
 .nowPlayingColumn_c2739c,
@@ -4027,6 +4028,9 @@ button[aria-label="Stop Watching"]
 }
 .wrapperVisible_c721cc {
     display: none;
+}
+.avatarSpeaking_c51b4e {
+    box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
 }
 
 /* Activity status panel */
@@ -9772,16 +9776,16 @@ img.sidebarHeader_a49993 {
 .speaking-3K28iH {
     box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
 }
-.usernameSpeaking_d80634 {
+.content_d80634:has(.avatarSpeaking_d80634) {
     background: linear-gradient(
         90deg,
-        var(--hover-dark-color) 0%,
+        var(--hover-dark-color) 5%,
         transparent 95%
     ) !important;
-    margin-left: -32px !important;
-    padding: 4px 0 4px 32px !important;
-    z-index: -1 !important;
     border-radius: 50px !important;
+}
+.content_d80634 .userAvatar_ac3629 {
+    margin-left: 4px !important;
 }
 .iconSpacing_d80634 .icon_d80634 {
     color: var(--soft-bright-color) !important;
@@ -9821,6 +9825,13 @@ img.sidebarHeader_a49993 {
 }
 .voiceChannelsIcon_eba0ba > path {
     fill: var(--soft-bright-color) !important;
+}
+.listDefault_d80634 .clickable_d80634:active .content_d80634 {
+    background: var(--hover-color) !important;
+}
+.containerUserOver_f6f816:after {
+    background-color: var(--hover-faded-color) !important;
+    border: 2px solid var(--hover-bright-color) !important;
 }
 
 /* Element focus */
