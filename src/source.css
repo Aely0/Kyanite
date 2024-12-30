@@ -3914,6 +3914,15 @@ button[aria-label="Stop Watching"]
 .enhancedBanner_f59576 {
     background: var(--hover-color) !important;
 }
+.videoWrapper_ba4b17 {
+    background-color: var(--hover-color) !important;
+}
+.toggleMute_ba4b17.interactive_ba4b17:hover {
+    background-color: transparent !important;
+}
+.premiumStreamIcon_c5881c {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Popout menu + Status picker */
 .menu_d90b3d,
