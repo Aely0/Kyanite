@@ -7309,8 +7309,18 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-color) !important;
 }
 .headerIcon_a1eac2 {
-    border-color: var(--hover-color) !important;
-    background-color: var(--hover-dark-color) !important;
+    border-color: transparent !important;
+    background-color: var(--dark-bg) !important;
+}
+.iconMask_b5d566 {
+    background-color: var(--dark-bg) !important;
+}
+h1.title_eaa702 strong,
+h2.title_eaa702 strong {
+    color: var(--hover-bright-color) !important;
+}
+.memberCountIcon_b5d566 {
+    color: var(--hover-bright-color) !important;
 }
 .headerSidebar_a1eac2,
 .headerContent_a1eac2,
@@ -7337,6 +7347,36 @@ img:not(.emote):not(.emoji)::after {
 }
 .button_c1569f {
     background: transparent !important;
+}
+.overviewContainerNoVideo_c2f3ef {
+    background-color: var(--hover-faint-color) !important;
+}
+.row_c2f3ef {
+    background: var(--hover-faint-color) !important;
+}
+.row_c2f3ef:hover {
+    background: var(--hover-color) !important;
+}
+.expandableDescriptionClickable_c2f3ef svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.leftIcon_c2f3ef,
+.rightIcon_c2f3ef {
+    color: var(--soft-bright-color) !important;
+}
+.row_c2f3ef:not(:last-child) .rowInner_c2f3ef,
+.selectorGroup_cb11e0:not(:last-child) {
+    border-bottom: none !important;
+}
+.icon_a94328 {
+    border: none !important;
+}
+.closeButton_c2f3ef {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.4 !important;
+}
+.closeButton_c2f3ef:hover {
+    opacity: 0.8 !important;
 }
 
 /* Server Safety Setup */
