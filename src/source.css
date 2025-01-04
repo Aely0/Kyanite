@@ -2009,6 +2009,9 @@ pre:hover .copybutton {
 }
 
 /* Browse channels */
+.pageBody_c2efea {
+    background: transparent !important;
+}
 .search_c2efea .input__48d49 {
     border-radius: 4px !important;
 }
