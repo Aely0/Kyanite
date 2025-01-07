@@ -4583,6 +4583,12 @@ button[aria-label="Stop Watching"]
     border: none !important;
     background-color: var(--hover-faint-color) !important;
 }
+.anchor_af404b.fileNameLink_f46c86 {
+    color: var(--soft-bright-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+}
 
 /* File upload (Source Files) */
 .textContainer_d8e2d0,
