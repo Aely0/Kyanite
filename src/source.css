@@ -11463,6 +11463,21 @@ div[class*="flex-"][class*="title-"],
 .emptyText_d2d6cb {
     color: var(--hover-bright-color) !important;
 }
+.overlay_c69a7b.menuOverlay_ad5fac {
+    background: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.addStatusIconColor_af9888 {
+    fill: var(--hover-bright-color) !important;
+}
+.addStatusIcon_af9888:hover .addStatusIconColor_af9888 {
+    fill: var(--soft-bright-color) !important;
+}
+.statusBubbleOuter_af9888.fullSize_af9888.statusBubbleShape_af9888.statusBubbleSingleLineWithTextShape_af9888.statusBubbleOuterAddStatusCursor_af9888 {
+    position: relative !important;
+    top: 1rem !important;
+    left: 1rem !important;
+}
 
 /* Embeds */
 .embedFull_b0068a {
