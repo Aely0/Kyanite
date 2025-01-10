@@ -662,13 +662,13 @@ body::after,
 .reactionEmojiDetailsClickable_e58351 {
     color: var(--soft-bright-color) !important;
 }
-.reactionBtn_ec6b19.forceShowLook_ec6b19 {
+.reactionBtn_ec6b19.forceShow_ec6b19 {
     background-color: transparent !important;
     border-color: transparent !important;
     opacity: 0 !important;
     transition: all ease-in-out 200ms !important;
 }
-.messageListItem_d5deea:hover .reactionBtn_ec6b19.forceShowLook_ec6b19 {
+.messageListItem_d5deea:hover .reactionBtn_ec6b19.forceShow_ec6b19 {
     opacity: 1 !important;
 }
 
