@@ -3134,6 +3134,20 @@ pre:hover .copybutton {
     box-shadow: 0 -1px hsla(0, 0%, 100%, 0.04) !important;
 }
 
+/* Toast Notification */
+.toast_f42767 {
+    background-color: var(--dark-bg) !important;
+    border: 2px solid var(--hover-color) !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+}
+.toast_f42767 .text-md\/normal_dc00ef {
+    color: var(--soft-bright-color) !important;
+}
+.icon_f42767 path {
+    fill: var(--soft-bright-color) !important;
+}
+
 /* Invite button */
 .invite-button {
     background-color: rgba(0, 0, 0, 0.54) !important;
