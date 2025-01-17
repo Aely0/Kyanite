@@ -12587,6 +12587,21 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-color) !important;
 }
 
+/* Gif tag */
+.gifTag_b11e6c {
+    background-image: none !important;
+    width: auto !important;
+    margin-top: 7px !important;
+}
+.gifTag_b11e6c::after {
+    content: "GIF" !important;
+    font-weight: 600 !important;
+    color: var(--soft-bright-color) !important;
+    background-color: var(--dark-bg) !important;
+    border-radius: 5px !important;
+    padding: 4px !important;
+}
+
 /* Gif favourite button */
 .gifFavoriteButton_c5e128 {
     color: var(--hover-bright-color) !important;
