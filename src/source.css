@@ -780,6 +780,26 @@ body::after,
     border-bottom: none !important;
 }
 
+/* System message */
+.isSystemMessage_f9f2ca .content_d76df7 {
+    background-color: var(--hover-color) !important;
+    color: var(--hover-bright-color) !important;
+    font-weight: 600 !important;
+    padding: 4px 8px !important;
+    border-radius: 5px !important;
+}
+.isSystemMessage_f9f2ca .content_d76df7 .timestampInline_f9f2ca {
+    color: var(--hover-bright-color) !important;
+    font-weight: 600 !important;
+}
+
+.isSystemMessage_f9f2ca .content_d76df7 a {
+    font-weight: 600 !important;
+}
+.isSystemMessage_f9f2ca .iconContainer_d76df7 {
+    display: none !important;
+}
+
 /* Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
     background-color: var(--hover-color) !important;
