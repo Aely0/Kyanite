@@ -2720,6 +2720,11 @@ pre:hover .copybutton {
 .channelNotice_a6cd4e {
     border-bottom: 1px solid var(--hover-color) !important;
 }
+.channelNotice_a6cd4e .userNames_a6cd4e,
+.channelNotice_a6cd4e .channelName_a6cd4e {
+    color: var(--hover-bright-color) !important;
+    font-weight: 600 !important;
+}
 .button_a75489.button_dd4f85.lookOutlined_dd4f85.colorGrey-2iAG-B.sizeSmall_dd4f85.grow_dd4f85 {
     border-color: var(--hover-dark-color) !important;
 }
