@@ -11379,19 +11379,25 @@ div[class*="flex-"][class*="title-"],
 .custom-profile-theme .pill_f9575e {
     border-color: var(--hover-color) !important;
 }
-.statusBubbleOuter_af9888,
-.statusBubble_af9888,
-.statusBubbleOuter_a82ccc,
-.statusBubble_a82ccc {
+.outer_af9888,
+.inner_af9888 {
     background: var(--hover-color) !important;
     box-shadow: var(--hover-color) !important;
     border: 1px solid var(--hover-color) !important;
 }
-.statusBubbleOuter_af9888:after,
-.statusBubbleOuter_af9888:before,
-.statusBubbleOuter_a82ccc:after,
-.statusBubbleOuter_a82ccc:before {
+.outer_af9888:after,
+.outer_af9888:before {
     display: none !important;
+}
+.outer_af9888 {
+    position: relative !important;
+    top: 1rem !important;
+}
+.headerText_d5bea8 {
+    color: var(--soft-bright-color) !important;
+}
+.cancelButton_d5bea8 {
+    color: var(--soft-bright-color) !important;
 }
 .content_af9888 {
     color: var(--hover-bright-color) !important;
@@ -11506,11 +11512,6 @@ div[class*="flex-"][class*="title-"],
 }
 .addStatusIcon_af9888:hover .addStatusIconColor_af9888 {
     fill: var(--soft-bright-color) !important;
-}
-.statusBubbleOuter_af9888.fullSize_af9888.statusBubbleShape_af9888.statusBubbleSingleLineWithTextShape_af9888.statusBubbleOuterAddStatusCursor_af9888 {
-    position: relative !important;
-    top: 1rem !important;
-    left: 1rem !important;
 }
 
 /* Embeds */
