@@ -10054,6 +10054,13 @@ img.sidebarHeader_a49993 {
 .repliedMessage_f9f2ca:before {
     border-color: var(--hover-bright-color) !important;
 }
+.repliedMessageClickableSpine_f9f2ca {
+    border-color: var(--hover-bright-color) !important;
+    opacity: 0.8 !important;
+}
+.repliedMessageClickableSpine_f9f2ca:hover {
+    opacity: 1 !important;
+}
 .localBot-GrCgVt:before,
 .replying_d5deea:before {
     background-color: var(--soft-bright-color) !important;
