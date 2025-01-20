@@ -5333,6 +5333,9 @@ img:not(.emote):not(.emoji)::after {
 .channelIcon_aab567 {
     color: var(--soft-bright-color) !important;
 }
+.channelIcon_aab567 path {
+    fill: var(--soft-bright-color) !important;
+}
 .headerDivider_e88961 {
     background-color: var(--hover-color) !important;
 }
