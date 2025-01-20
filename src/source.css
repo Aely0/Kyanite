@@ -796,7 +796,8 @@ body::after,
 .isSystemMessage_f9f2ca .content_d76df7 a {
     font-weight: 600 !important;
 }
-.isSystemMessage_f9f2ca .iconContainer_d76df7 {
+.isSystemMessage_f9f2ca .iconContainer_d76df7,
+.hasThread_f9f2ca.isSystemMessage_f9f2ca:after {
     display: none !important;
 }
 
@@ -9191,13 +9192,22 @@ img.sidebarHeader_a49993 {
 .autoArchiveDuration_dbe0bd {
     color: var(--soft-bright-color) !important;
 }
-.cozy_f9f2ca.hasThread_f9f2ca:after {
+.cozy_f9f2ca.hasThread_f9f2ca:not(.isSystemMessage_f9f2ca):after {
     border-left: 2px solid var(--hover-bright-color) !important;
     border-bottom: 2px solid var(--hover-bright-color) !important;
 }
 .container_c15230 {
     background-color: var(--hover-color) !important;
-    border: 1px solid var(--hover-dark-color) !important;
+    border-radius: 5px !important;
+}
+.threadMessageAccessoryContent_f9f2ca .timestamp_f9f2ca {
+    color: var(--hover-bright-color) !important;
+}
+.threadMessageAccessory_f9f2ca .username_f9f2ca {
+    font-weight: 600 !important;
+}
+.threadMessageAccessory_f9f2ca .username_f9f2ca:not([style^="color"]) {
+    color: var(--soft-bright-color) !important;
 }
 .topLine_c15230 .name_c15230 {
     color: var(--hover-bright-color) !important;
