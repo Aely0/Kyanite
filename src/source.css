@@ -4043,9 +4043,13 @@ button[aria-label="Stop Watching"]
 .container_adcaac .button_adca65:hover {
     background-color: transparent !important;
 }
-.lottieIcon_f73ef7.buttonIcon_adcaac path {
-    fill: var(--soft-bright-color) !important;
-    stroke: var(--soft-bright-color) !important;
+.lottieIcon_f73ef7 {
+    --__lottieIconColor: var(--hover-bright-color) !important;
+}
+.lottieIcon_f73ef7:hover,
+.actionButtons_adcaac .button_adcaac:hover .lottieIcon_f73ef7,
+.container_b2ca13 .button_adca65:hover .lottieIcon_f73ef7 {
+    --__lottieIconColor: var(--soft-bright-color) !important;
 }
 .ping_c0cb95 path[fill="var(--interactive-normal)"] {
     fill: var(--yellow-bright-color) !important;
