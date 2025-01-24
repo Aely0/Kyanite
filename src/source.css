@@ -801,6 +801,28 @@ body::after,
     display: none !important;
 }
 
+/* Soundboard message */
+.infoSoundContainer_dd5a70 {
+    background-color: transparent !important;
+}
+.infoSoundIcon_dd5a70 path {
+    fill: var(--soft-bright-color) !important;
+}
+.infoSoundContainer_dd5a70 .text-md\/semibold_dc00ef,
+.infoSoundContainer_dd5a70 .defaultColor_a595eb {
+    color: var(--soft-bright-color) !important;
+}
+.sliderContainer_dd5a70 {
+    background-color: var(--dark-bg) !important;
+}
+.infoExpandedSoundContainer_dd5a70,
+.infoExpandedGuildContainer_dd5a70 {
+    background-color: transparent !important;
+}
+.infoExpandedGuildTitle_dd5a70 {
+    color: var(--hover-faint-color) !important;
+}
+
 /* Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
     background-color: var(--hover-color) !important;
