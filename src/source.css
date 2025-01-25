@@ -10510,7 +10510,8 @@ div[class*="scroller"].channel-members {
     background-color: var(--main-color) !important;
     height: auto !important;
 }
-.newTopicsBarText_cf58b5 {
+.newTopicsBarText_cf58b5,
+.newTopicsBarInitial_cf58b5 {
     color: var(--soft-bright-color) !important;
 }
 .newTopicsBarIcon_cf58b5 > path {
