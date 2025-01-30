@@ -33,39 +33,39 @@ body::after,
 /* Some elements are hidden by default, uncomment the ones below to unhide them */
 
 /* Message hover toolbar (tag:hidden) */
-.message_d5deea.selected_d5deea .buttons_d5deea,
-.mouse-mode .message_d5deea:hover .buttons_d5deea {
+.message__5126c.selected__5126c .buttons__5126c,
+.mouse-mode .message__5126c:hover .buttons__5126c {
     display: initial !important;
 }
 
 /* Nitro / Shop tab (tag:hidden) */
 /*
-.channel_c91bad [href="/store"],
-.channel_c91bad [href="/shop"] {
+.channel__972a0 [href="/store"],
+.channel__972a0 [href="/shop"] {
     display: initial !important;
 }
 */
 
 /* Message bar gift button (tag:hidden) */
 /*
-.buttons_bdf0de .giftIconContainer_fdeb78 {
+.buttons__74017 .giftIconContainer_fdeb78 {
     display: initial !important;
 }
 */
 
 /* Help button (tag:hidden) */
 /*
-.toolbar_fc4f04 [href="https://support.discord.com"] {
+.toolbar__9293f [href="https://support.discord.com"] {
     display: initial !important;
 }
 */
 
 /* Apps and Commands button (tag:hidden) */
 /*
-.channelAppLauncher_df39bd {
+.channelAppLauncher_e6e74f {
     display: initial !important;
 }
-.jumpToPresentBar_cf58b5 {
+.jumpToPresentBar__0f481 {
     right: calc(
         16px + var(--custom-channel-textarea-text-area-height) +
             var(--custom-channel-textarea-app-launcher-button-gap)
@@ -75,7 +75,7 @@ body::after,
 
 /* Apps and Commands button (images) (tag:hidden) */
 /*
-.hoverButton_d0395d[aria-label="Edit Image with Apps"] {
+.hoverButton__06ab4[aria-label="Edit Image with Apps"] {
     display: initial !important;
 }
 */
