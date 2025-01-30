@@ -13321,6 +13321,9 @@ div[class*="flex-"][class*="title-"],
 .addFriendInputWrapper__72ba7 .inputDefault__0f084.input__0f084 {
     background-color: transparent !important;
 }
+.blockedIgnoredSettingsNotice_e40e0c {
+    background-color: var(--hover-color) !important;
+}
 
 /* Direct Messages */
 .privateChannelRecipientsInviteButtonIcon__99e7c.icon__9293f {
