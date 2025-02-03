@@ -10850,6 +10850,12 @@ div[class*="flex-"][class*="title-"],
 .interactionsContainerHeader_af3b89 {
     border-top: none !important;
 }
+.shareToChannelButton_af3b89 {
+    border-right: none !important;
+}
+.shareToChannelButton_af3b89 svg path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Activities */
 .guildBoostingIconNormal-3bLOln {
