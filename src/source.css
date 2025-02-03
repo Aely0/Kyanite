@@ -183,7 +183,7 @@ body::after,
 .description-30xx7u,
 .labelDescriptor-34wZ-z,
 [style*="color: var(--text-normal)"],
-[style*="color: var(--text-muted)"],
+[style*="color: var(--text-muted)"]:not(.activityText__5d473),
 [style*="color: var(--header-primary)"],
 [style*="color: var(--header-secondary)"] {
     color: var(--hover-bright-color) !important;
@@ -10772,21 +10772,17 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Status game text */
-.activityText__5d473,
-.activityText__972a0 {
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
+.subText__91a9d .overflow__82b15 {
+    font-weight: 600 !important;
+}
+.subText__91a9d .overflow__82b15,
+.subText__20a53 .overflow__82b15 {
     font-size: 0.7rem !important;
 }
-.activityText__5d473 strong,
-.activityText__972a0 strong,
-.subtext__0a06e strong {
+.subText__91a9d .overflow__82b15 strong,
+.subText__20a53 .overflow__82b15,
+.subtext__0a06e .overflow__82b15 {
     color: var(--hover-bright-color) !important;
-}
-.activityText__5d473 strong,
-.activityText__972a0 strong {
-    font-size: 0.66rem !important;
 }
 
 /* Profile activity */
