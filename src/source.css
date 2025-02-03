@@ -8994,6 +8994,9 @@ h2.title_feb59c strong {
 }
 
 /* Channel permissions */
+.scroller__53543 {
+    background-color: transparent !important;
+}
 .theme-dark .group__344e6 {
     border-color: var(--hover-color) !important;
 }
@@ -9026,29 +9029,29 @@ h2.title_feb59c strong {
 .item__344e6 {
     background: rgba(0, 0, 0, 0.2) !important;
 }
-.cardIcon-2nTUq4 {
+.cardIcon__1a4ef {
     color: var(--hover-bright-color) !important;
 }
 .folderTitle-10TLL9,
 .sectionTitle-2Ao270 {
     color: var(--hover-bright-color) !important;
 }
-.settingCard_dd864e,
-.settingCard_dd864e.active_dd864e,
-.cardFolder_dd864e {
+.settingCard__1a4ef,
+.settingCard__1a4ef.active__1a4ef,
+.cardFolder__1a4ef {
     background: transparent !important;
 }
 .cardIcon_dd864e {
     color: var(--hover-bright-color) !important;
 }
-.removeIcon_dd864e {
+.removeIcon__1a4ef {
     color: var(--hover-red-dark-color) !important;
     transition: color 100ms ease-in-out !important;
 }
-.removeIcon_dd864e:hover {
+.removeIcon__1a4ef:hover {
     color: var(--hover-red-bright-color) !important;
 }
-.removeIcon_dd864e.disabledRemoveIcon_dd864e {
+.removeIcon__1a4ef.disabledRemoveIcon__1a4ef {
     color: var(--hover-red-color) !important;
 }
 .sidebarHeaderDefault__0ab2c.sidebarHeader__0ab2c::after {
