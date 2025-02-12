@@ -12403,7 +12403,8 @@ div[class*="flex-"][class*="title-"],
                 from(var(--hover-color)),
                 to(var(--main-color))
             ) !important;
-    background-image: url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),
+    background-image:
+        url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),
         linear-gradient(270deg, var(--hover-color), var(--main-color)) !important;
 }
 .theme-dark .overlappingBorder-3aFng4,
@@ -13326,8 +13327,18 @@ div[class*="flex-"][class*="title-"],
 .addFriendInputWrapper__72ba7 .inputDefault__0f084.input__0f084 {
     background-color: transparent !important;
 }
-.blockedIgnoredSettingsNotice_e40e0c {
-    background-color: var(--hover-color) !important;
+.blockedIgnoredSettingsNotice__6811a {
+    background: var(--hover-color) !important;
+}
+.blockedIgnoredSettingsNotice__6811a > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.closeButton__6811a > svg > path {
+    fill: var(--soft-bright-color) !important;
+    opacity: 0.6 !important;
+}
+.closeButton__6811a:hover > svg > path {
+    opacity: 0.8 !important;
 }
 
 /* Direct Messages */
