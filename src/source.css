@@ -9293,7 +9293,7 @@ img.sidebarHeader__0ab2c {
     background-color: transparent !important;
 }
 .iconWrapper__54b20 {
-    background-color: var(--main-color) !important;
+    background-color: var(--hover-color) !important;
 }
 .icon__54b20 {
     color: var(--soft-bright-color) !important;
@@ -9346,6 +9346,15 @@ img.sidebarHeader__0ab2c {
 }
 .caret__9293f {
     color: var(--hover-bright-color) !important;
+}
+.container_fb64c9 {
+    background: transparent !important;
+}
+.chat_fb64c9:before {
+    box-shadow: none !important;
+}
+.icon__54b20 > path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Threads Early Access tab */
