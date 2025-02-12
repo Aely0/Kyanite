@@ -1010,6 +1010,25 @@ span.discrypt:hover {
     opacity: 0.7 !important;
 }
 
+/* Confetti */
+.bar_f5401d {
+    border-radius: 8px 8px 0px 0px !important;
+}
+.emojiSelectContainer_f5401d {
+    color: var(--hover-bright-color) !important;
+}
+.separator_f5401d {
+    display: none !important;
+}
+.messageConfettiButton__74017:hover .messageConfettiIcon__74017,
+.messageConfettiIcon__74017.active__74017 {
+    color: var(--soft-bright-color) !important;
+}
+.potionBadge__18061 {
+    color: var(--soft-bright-color) !important;
+    background: var(--hover-color) !important;
+}
+
 /* User avatar */
 .image-33JSyf,
 .wrapper-2F3Zv8 {
