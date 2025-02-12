@@ -12635,6 +12635,54 @@ div[class*="flex-"][class*="title-"],
     border-bottom: 1px solid var(--hover-color) !important;
 }
 
+/* Shop tab */
+.shop__6db1d,
+.shopScroll__6db1d,
+.pageWrapper__6db1d {
+    background-color: transparent !important;
+}
+.shop__08415 {
+    background: transparent !important;
+}
+.shopCardDark_c3d04b {
+    background-color: var(--hover-color) !important;
+}
+.darkCardBackground_c3d04b {
+    background-color: transparent !important;
+}
+.shopCard_c3d04b {
+    border-color: transparent !important;
+}
+.shopCardDarkHighlighted_c3d04b {
+    box-shadow: 0 0 15px 1px var(--hover-color) !important;
+}
+.back__80679 > svg > path {
+    fill: var(--hover-bright-color) !important;
+    opacity: 0.6 !important;
+    transition: opacity 100ms ease-in-out !important;
+}
+.back__80679:hover > svg > path {
+    opacity: 1 !important;
+}
+.discordLogo__80679 path {
+    fill: var(--hover-bright-color) !important;
+}
+.variantsGroup_c3d04b .variantLabel__6f029 {
+    color: var(--hover-bright-color) !important;
+}
+.minimalState__6f029 .colorSwatch__6f029 {
+    border: 1px solid var(--hover-color) !important;
+}
+.colorSwatch__6f029 {
+    border: 2px solid var(--hover-color) !important;
+}
+.open__6f029.selected__6f029 {
+    box-shadow: 0 0 0 1px var(--soft-bright-color) !important;
+}
+.shopBanner__7f856 {
+    box-shadow: none !important;
+}
+
 /* Message requests */
 .messageRequestItem_abb9ad {
     border-bottom: none !important;
