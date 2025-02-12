@@ -14021,7 +14021,26 @@ path[fill="rgb(255,216,54)"] {
     color: var(--soft-bright-color) !important;
 }
 
-/* Privacy & Safety (User Settings) */
+/* Content & Social (User Settings) */
+.card__5cea9 {
+    background-color: var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.header__5cea9 {
+    background-color: transparent !important;
+}
+.row__5cea9 {
+    border-bottom: none !important;
+}
+.iconContainer__5cea9,
+.loadMoreButton__5cea9 {
+    background-color: var(--hover-color) !important;
+}
+.iconContainer__5cea9 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+
+/* Data & Privacy (User Settings) */
 .title__0d850 {
     color: var(--soft-bright-color) !important;
 }
