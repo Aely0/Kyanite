@@ -822,6 +822,15 @@ body::after,
 .infoExpandedGuildTitle__14ad3 {
     color: var(--hover-faint-color) !important;
 }
+.inlineButton__5cc6a {
+    border: 1px solid var(--hover-color) !important;
+    background: var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.inlineButton__5cc6a > span {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
 
 /* Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
