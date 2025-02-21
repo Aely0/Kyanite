@@ -5506,6 +5506,9 @@ img:not(.emote):not(.emoji)::after {
 .iconBadge_ab6641[style="background-color: var(--status-danger);"] {
     background-color: var(--soft-bright-color) !important;
 }
+.upsellContainer__4a7f0 {
+    background: var(--hover-faint-color) !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
