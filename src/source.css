@@ -4055,6 +4055,9 @@ button[aria-label="Stop Watching"]
 }
 
 /* General status panel */
+.content__37e49 {
+    background: transparent !important;
+}
 .container__37e49 .avatar__37e49:hover {
     opacity: 1 !important;
 }
