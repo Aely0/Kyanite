@@ -10827,6 +10827,9 @@ div[class*="flex-"][class*="title-"],
 .subtext__0a06e .overflow__82b15 {
     color: var(--hover-bright-color) !important;
 }
+.icon__8ac07 path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Profile activity */
 .overlay_c0bea0.activity__5be3e,
