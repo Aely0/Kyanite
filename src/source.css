@@ -2012,14 +2012,21 @@ pre:hover .copybutton {
 .showMore__5ddb2 {
     color: var(--soft-bright-color) !important;
 }
+.pill_a2c9e8 [style="color: currentcolor;"] {
+    color: var(--hover-bright-color) !important;
+}
+.pill_a2c9e8:hover [style="color: currentcolor;"],
+.pill_a2c9e8.selected_a2c9e8 [style="color: currentcolor;"] {
+    color: var(--soft-bright-color) !important;
+    transition: color 200ms ease-out !important;
+}
 .pill_a2c9e8 {
     border-radius: 6px !important;
-    background-color: transparent !important;
-    border: 2px solid var(--hover-bright-color) !important;
+    background-color: var(--hover-faded-color) !important;
 }
 .pill_a2c9e8:hover {
-    border: 2px solid var(--soft-bright-color) !important;
-    transition: border 200ms ease-out !important;
+    background-color: var(--hover-color) !important;
+    transition: background-color 200ms ease-out !important;
 }
 .pill_a2c9e8:hover .defaultColor-24IHKz {
     color: var(--soft-bright-color) !important;
@@ -2027,8 +2034,8 @@ pre:hover .copybutton {
 }
 .pill_a2c9e8.selected_a2c9e8 {
     color: var(--soft-bright-color) !important;
-    background-color: var(--hover-dark-color) !important;
-    border: 2px solid var(--soft-bright-color) !important;
+    background-color: var(--hover-color) !important;
+    border-color: var(--soft-bright-color) !important;
 }
 .pill_a2c9e8.selected_a2c9e8 .defaultColor_e9e35f {
     color: var(--soft-bright-color) !important;
@@ -2379,7 +2386,7 @@ pre:hover .copybutton {
     border: 3px solid var(--hover-dark-color) !important;
     border-left-color: var(--soft-bright-color) !important;
 }
-.loadingCard-3pIp9h {
+.loadingCard_f369db {
     background-color: var(--hover-color) !important;
 }
 .enterIcon-3UYB70 {
@@ -2617,6 +2624,12 @@ pre:hover .copybutton {
 }
 .textContentFooter__9a337 {
     background: transparent !important;
+}
+.contents__201d5 [style="color: var(--text-link);"] {
+    color: var(--soft-bright-color) !important;
+}
+.icon__7e6bb path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Select control */
