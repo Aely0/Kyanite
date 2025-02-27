@@ -5208,6 +5208,9 @@ img:not(.emote):not(.emoji)::after {
 .upsellContainer__0b69f {
     display: none !important;
 }
+.searchSuggestion_e94b8c {
+    background: var(--hover-color) !important;
+}
 
 /* Enable Super Reactions menu */
 .wrapper__97f37 {
