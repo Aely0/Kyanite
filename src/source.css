@@ -10922,6 +10922,9 @@ div[class*="flex-"][class*="title-"],
 .shareToChannelButton_af3b89 svg path {
     fill: var(--soft-bright-color) !important;
 }
+.toggleExpandIcon__095fe path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Activities */
 .guildBoostingIconNormal-3bLOln {
