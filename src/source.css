@@ -11623,6 +11623,25 @@ div[class*="flex-"][class*="title-"],
 .addStatusIcon_ab8609:hover .addStatusIconColor_ab8609 {
     fill: var(--soft-bright-color) !important;
 }
+.custom-profile-theme .container_e928f4 {
+    background: transparent !important;
+    border: none !important;
+}
+.avatar_e928f4 {
+    outline: none !important;
+}
+.overflowCount_e928f4 {
+    background: transparent !important;
+}
+.voiceIcon__39ec2 path {
+    fill: var(--hover-bright-color) !important;
+}
+.overflowCount_e928f4 .overflow__82b15 {
+    color: var(--soft-bright-color) !important;
+}
+.circle_e928f4 {
+    box-shadow: none !important;
+}
 
 /* Embeds */
 .embedFull__623de {
