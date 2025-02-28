@@ -11750,6 +11750,9 @@ div[class*="flex-"][class*="title-"],
 .circle_e928f4 {
     box-shadow: none !important;
 }
+.details__39ec2 .clickableText__39ec2:hover {
+    text-decoration-color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .embedFull__623de {
