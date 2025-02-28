@@ -11864,17 +11864,20 @@ div[class*="flex-"][class*="title-"],
     color: hsla(0, 0%, 100%, 0.65) !important;
 }
 
-/* Button color */
+/* Generic buttons */
 .theme-dark .price-1PvQ0u,
 .lookFilled__201d5.colorBrand__201d5,
 .lookFilled__201d5.colorGrey-2iAG-B,
 .lookFilled__201d5.colorPrimary__201d5,
 .lookFilled__201d5.colorBrandNew__8872c,
 .lookFilled__201d5.colorTransparent__201d5,
-.theme-dark .watchButton-2v6cPT {
-    background-color: transparent !important;
-    border: 1px solid var(--hover-dark-color) !important;
-    color: var(--soft-bright-color) !important;
+.lookFilled__201d5.colorGreen__201d5,
+.theme-dark .watchButton-2v6cPT,
+.shinyButton_d5e126,
+.buttonWhite-hd8TaT {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
+    color: var(--hover-bright-color) !important;
 }
 .buttonContainer-21MN7J,
 .buttons-205you,
@@ -11893,21 +11896,29 @@ div[class*="flex-"][class*="title-"],
 .lookFilled__201d5.colorPrimary__201d5:hover,
 .lookFilled__201d5.colorBrandNew__8872c:hover,
 .lookFilled__201d5.colorTransparent__201d5:hover,
-.theme-dark .watchButton-2v6cPT:hover {
+.lookFilled__201d5.colorGreen__201d5:hover,
+.theme-dark .watchButton-2v6cPT:hover,
+.shinyButton_d5e126:hover,
+.buttonWhite-hd8TaT:hover {
+    background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
-    border-color: var(--hover-bright-color) !important;
     transition: all 200ms ease !important;
 }
 .lookOutlined__201d5.colorRed__201d5,
 .lookFilled__201d5.colorRed__201d5 {
-    color: var(--red-bright-color) !important;
-    border: 1px solid var(--hover-red-dark-color) !important;
-    background: transparent !important;
+    background: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        transparent
+    ) !important;
+    color: var(--hover-red-bright-color) !important;
+    border: none !important;
     transition: all 200ms ease !important;
 }
 .lookOutlined__201d5.colorRed__201d5:hover,
 .lookFilled__201d5.colorRed__201d5:hover {
-    border-color: var(--hover-red-bright-color) !important;
+    background: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
 }
 .button__201d5.colorRed__201d5 .contents-3ca1mk {
     color: var(--red-bright-color) !important;
@@ -11924,22 +11935,6 @@ div[class*="flex-"][class*="title-"],
         var(--soft-bright-color) 2px,
         transparent 0
     ) !important;
-}
-.lookFilled__201d5.colorGreen__201d5:hover {
-    background-color: transparent !important;
-    border: 1px solid var(--soft-bright-color) !important;
-}
-.lookFilled__201d5.colorGreen__201d5 {
-    background-color: transparent !important;
-    color: var(--soft-bright-color) !important;
-    border: 1px solid var(--hover-bright-color) !important;
-    transition: all 200ms ease !important;
-}
-.shinyButton_d5e126,
-.buttonWhite-hd8TaT {
-    background-color: transparent !important;
-    color: var(--soft-bright-color) !important;
-    border: 1px solid var(--soft-bright-color) !important;
 }
 
 /* Pinned messages */
@@ -13879,7 +13874,7 @@ path[fill="rgb(255,216,54)"] {
 }
 .divider__8b90f,
 .tabBar_d6f9e9 {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
 }
 .top_b3f026 .brand_b3f026.item_b3f026:hover {
     border-bottom-color: var(--hover-bright-color) !important;
@@ -13988,6 +13983,9 @@ path[fill="rgb(255,216,54)"] {
 }
 .badgeList__1fed1 {
     background-color: transparent !important;
+}
+.tabBar_f8303a {
+    border-bottom: none !important;
 }
 
 /* Edit username (User Settings > My Account) */
