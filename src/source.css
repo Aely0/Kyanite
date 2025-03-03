@@ -3777,9 +3777,29 @@ pre:hover .copybutton {
     color: var(--hover-bright-color) !important;
 }
 .participantsButton__211d1 {
-    background-color: var(--hover-dark-color) !important;
+    background-color: var(--hover-faded-color) !important;
+    border-radius: 8px !important;
 }
-.members__211d1.controlIcon_f1ceac > path,
+.participantsButton__211d1 {
+    background-color: var(--hover-faded-color) !important;
+}
+.participantsButton__211d1 .iconContainer__211d1 svg {
+    color: var(--hover-bright-color) !important;
+    transition: color 200ms ease !important;
+}
+.participantsButton__211d1 .iconContainer__211d1:hover svg {
+    color: var(--soft-bright-color) !important;
+}
+.volumeButton__2d263 .controlIcon_f1ceac path {
+    fill: var(--hover-bright-color) !important;
+}
+.volumeButton__2d263 .controlIcon_f1ceac:hover path {
+    fill: var(--soft-bright-color) !important;
+}
+.liveQualityIndicator__30845.baseShapeRoundLeft__2b1f5,
+.live_a7acae.liveShapeRoundRight_a7acae {
+    background-color: transparent !important;
+}
 .arrow_d64d50.leftCaret__211d1.controlIcon_f1ceac > path,
 .icon-E4cW1l > circle.radioSelection-1UHp0b,
 .arrow_d64d50.caret_c1e9c4 > path,
@@ -3822,7 +3842,7 @@ pre:hover .copybutton {
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--soft-bright-color) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5,
+.disconnect_f1ceac,
 .staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5 {
     background: color-mix(
         in srgb,
@@ -3830,21 +3850,40 @@ pre:hover .copybutton {
         transparent
     ) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5
-    .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
+.staticButton_f1ceac.disconnect_f1ceac .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
 .staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5
+    .lottieIcon__5eb9b.experimentControlIcon_f1ceac,
+.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--hover-red-bright-color) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5:hover,
+.staticButton_f1ceac.disconnect_f1ceac:hover,
 .staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5:hover {
     background: var(--hover-red-color) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5:hover
+.staticButton_f1ceac.disconnect_f1ceac:hover
     .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
 .staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5:hover
+    .lottieIcon__5eb9b.experimentControlIcon_f1ceac,
+.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--red-bright-color) !important;
+}
+.contextMenuNubExperiment_f1ceac.disconnect_f1ceac {
+    background-color: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        transparent
+    ) !important;
+}
+.contextMenuNubExperiment_f1ceac.disconnect_f1ceac:hover {
+    background-color: var(--hover-red-color) !important;
+}
+.contextMenuNubExperiment_f1ceac.disconnect_f1ceac svg path {
+    fill: var(--hover-red-bright-color) !important;
+}
+.contextMenuNubExperiment_f1ceac.disconnect_f1ceac:hover svg path {
+    fill: var(--red-bright-color) !important;
 }
 .colorable_f1ceac.white_f1ceac {
     background: var(--hover-dark-color) !important;
@@ -3858,6 +3897,9 @@ pre:hover .copybutton {
 .colorable_f1ceac.green_f1ceac,
 .colorable_f1ceac.green_f1ceac .centerIcon_f1ceac {
     color: var(--soft-bright-color) !important;
+}
+.fullRegionDropdownButton_f1ceac {
+    border: none !important;
 }
 .buttonSection__1405b {
     border: none !important;
@@ -3943,8 +3985,9 @@ button[aria-label="Stop Watching"]
     background-color: var(--dark-bg) !important;
 }
 .cta_a3a802 {
-    background-color: var(--hover-dark-color) !important;
+    background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
+    border-radius: 8px !important;
 }
 .cta_a3a802:hover,
 .button_c6e099:hover {
@@ -4115,9 +4158,6 @@ button[aria-label="Stop Watching"]
 }
 .videoWrapper__2f4f7 {
     background-color: var(--hover-color) !important;
-}
-.toggleMute__2f4f7.interactive__2f4f7:hover {
-    background-color: transparent !important;
 }
 .premiumStreamIcon__30845 {
     color: var(--hover-bright-color) !important;
