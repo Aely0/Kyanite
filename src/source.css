@@ -10959,6 +10959,27 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
 }
 
+/* Ignore menu */
+.icon_ea1e0b {
+    background-color: var(--hover-color) !important;
+}
+.icon_ea1e0b svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.textContainer_f70307 .text-xs\/medium_cf4812,
+.textContainer__19fd1 .text-xs\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.icon_f70307 {
+    color: var(--hover-bright-color) !important;
+}
+.cell_f70307 {
+    border-bottom: none !important;
+}
+.tableRowGroup__19fd1 .content__19fd1 {
+    background-color: var(--hover-faded-color) !important;
+}
+
 /* Status game text */
 .subText__91a9d .overflow__82b15 {
     font-weight: 600 !important;
