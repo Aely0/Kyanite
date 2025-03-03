@@ -1088,7 +1088,12 @@ span.discrypt:hover {
     border: 2px solid var(--hover-color) !important;
     background: var(--hover-color) !important;
 }
-.roleName__48c1c {
+.buttonInner_fb7f94 {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-out !important;
+}
+.roleName__48c1c,
+.buttonInner_fb7f94:hover {
     color: var(--soft-bright-color) !important;
 }
 .button_fb7f94 svg path {
@@ -4162,13 +4167,6 @@ button[aria-label="Stop Watching"]
 .container__37e49 .avatar__37e49:hover {
     opacity: 1 !important;
 }
-.container__37e49 .avatarWrapper__37e49 {
-    border: 2px solid transparent !important;
-    border-radius: 6px !important;
-}
-.container__37e49 .avatarWrapper__37e49:hover {
-    border: 2px solid var(--hover-dark-color) !important;
-}
 .container__37e49 .title_b6c092,
 .container__37e49 .subtext__339d0 {
     color: var(--hover-bright-color) !important;
@@ -4279,7 +4277,7 @@ button[aria-label="Stop Watching"]
 
 /* Voice status panel */
 .container_e131a9 {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
 }
 .ping_c0cb95 {
     color: var(--hover-color) !important;
@@ -11752,6 +11750,22 @@ div[class*="flex-"][class*="title-"],
 }
 .details__39ec2 .clickableText__39ec2:hover {
     text-decoration-color: var(--hover-bright-color) !important;
+}
+.container_e928f4 {
+    background: var(--hover-faded-color) !important;
+    border: none !important;
+}
+.container_e928f4:before {
+    background: transparent !important;
+}
+.voiceChannelDivider__39ec2 {
+    display: none !important;
+}
+.voiceChannel__39ec2 svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.image__3299f {
+    background-color: var(--hover-faded-color) !important;
 }
 
 /* Embeds */
