@@ -1,5 +1,5 @@
 /* Pulling source for the latest version */
-@import url(https://raw.githubusercontent.com/Aely0/Kyanite/master/src/source.css);
+@import url("https://aely0.github.io/Kyanite/src/source.css");
 
 /* Adjustable main color palette and background options */
 :root {
@@ -27,7 +27,7 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-    background-image: url("https://raw.githubusercontent.com/Aely0/Kyanite/master/src/resources/kyanite.jpg") !important;
+    background-image: url("https://aely0.github.io/Kyanite/src/resources/kyanite.jpg") !important;
 }
 
 /* Some elements are hidden by default, uncomment the ones below to unhide them */
