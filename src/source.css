@@ -365,6 +365,9 @@ body::after,
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
+.option__56fec[aria-selected="true"] {
+    box-shadow: none !important;
+}
 
 /* Search */
 .search .search-bar {
