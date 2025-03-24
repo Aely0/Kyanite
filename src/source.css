@@ -4486,6 +4486,112 @@ button[aria-label="Stop Watching"]
     background-color: transparent !important;
 }
 
+/* Server Discover (Apps) */
+.avatar_f215b9 {
+    border-color: transparent !important;
+    background: var(--dark-bg) !important;
+}
+.container__19cf2 {
+    background-color: var(--hover-color) !important;
+}
+.relative__8a7fc {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.iconButton__8a7fc,
+.category_ed45d7 {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+    color: var(--hover-bright-color) !important;
+}
+.iconButton__8a7fc:hover,
+.category_ed45d7:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    transition: all 200ms ease !important;
+}
+.category_ed45d7 [style="color: var(--redesign-button-tertiary-text);"] {
+    color: var(--hover-bright-color) !important;
+}
+.category_ed45d7:hover [style="color: var(--redesign-button-tertiary-text);"] {
+    color: var(--soft-bright-color) !important;
+    transition: color 200ms ease !important;
+}
+.avatar_efaad4,
+.iconMask_c59071 {
+    border-color: transparent !important;
+    background: var(--dark-bg) !important;
+}
+.defaultIcon_bb856d,
+.listIcon__8a003,
+.memberCountIcon_c59071,
+.languageItem__5a77b:before,
+.showMoreButtonIcon_c4b47c,
+.intentContainer__8f46b {
+    color: var(--hover-bright-color) !important;
+}
+.contentContainer__8f46b,
+.appContainer__5a4b6,
+.contentContainer_c6b177,
+.commandName_c6b177,
+.container__62119,
+.contentContainer_f8758b {
+    background-color: var(--hover-color) !important;
+    border: none !important;
+}
+.divider__5a4b6 {
+    display: none !important;
+}
+.card_c59071 {
+    background-color: var(--hover-color) !important;
+}
+.themedPagination__00dfb .dot__00dfb {
+    background-color: var(--hover-bright-color) !important;
+}
+.detailedDescription_c4b47c {
+    color: var(--hover-bright-color) !important;
+}
+.showMoreContent_c4b47c [style="color: var(--interactive-normal);"] {
+    color: var(--hover-bright-color) !important;
+}
+.divider_c4b47c:first-child {
+    background: linear-gradient(
+        to left,
+        var(--hover-bright-color) 80%,
+        transparent
+    ) !important;
+}
+.divider_c4b47c:last-child {
+    background: linear-gradient(
+        to right,
+        var(--hover-bright-color) 80%,
+        transparent
+    ) !important;
+}
+.intentsList__8f46b {
+    border-bottom: transparent !important;
+}
+.card__62119,
+.benefits__62119 {
+    background-color: transparent !important;
+}
+.wrapper__3564f.hoverCard__26e8b {
+    background-color: var(--hover-color) !important;
+}
+.footer__3564f {
+    border-top: none !important;
+}
+.check__83c7c {
+    color: var(--soft-bright-color) !important;
+}
+.markdown_d285a6 code {
+    background-color: var(--hover-color) !important;
+    border-radius: 4px !important;
+}
+.markdown_d285a6 .codeInline_d285a6 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Server Discover (Servers) */
 .container_cbd375,
 .search_eed148 {
