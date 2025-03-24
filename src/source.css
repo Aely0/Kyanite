@@ -4634,11 +4634,15 @@ button[aria-label="Stop Watching"]
     border-width: 2px !important;
 }
 .container_b5b7aa,
+.container__956c6,
 .rewardDescriptionContainer__956c6 {
     background-color: transparent !important;
 }
 .container_cec934.questTile__60f82 {
     background-color: var(--hover-color) !important;
+}
+.container_cec934 {
+    border: none !important;
 }
 .container__960ef {
     border-top: none !important;
