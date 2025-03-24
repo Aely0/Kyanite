@@ -5657,6 +5657,12 @@ img:not(.emote):not(.emoji)::after {
 .upsellContainer__4a7f0 {
     background: var(--hover-faint-color) !important;
 }
+.messages__1ccd1 {
+    background-color: transparent !important;
+}
+.divider__1ccd1 .content__908e2 {
+    background: transparent !important;
+}
 
 /* Checkbox (roles) */
 .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked + span {
@@ -12073,7 +12079,6 @@ div[class*="flex-"][class*="title-"],
 .jumpButton_ed0c8c:hover {
     background-color: var(--hover-dark-color) !important;
 }
-.messages__1ccd1,
 .tutorial__2692d {
     background-color: var(--hover-color) !important;
     border-radius: 0px !important;
