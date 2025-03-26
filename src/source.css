@@ -13662,7 +13662,8 @@ div[class*="flex-"][class*="title-"],
     background: none !important;
     border-bottom: none !important;
 }
-.theme-dark .container-3gCOGc {
+.theme-dark .container-3gCOGc,
+.visual-refresh .tabBody__133bf {
     background-color: transparent !important;
 }
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
@@ -13787,6 +13788,21 @@ div[class*="flex-"][class*="title-"],
 }
 .closeButton__6811a:hover > svg > path {
     opacity: 0.8 !important;
+}
+.visual-refresh .container__133bf {
+    border-top: none !important;
+}
+.visual-refresh.theme-midnight .tabBody__133bf {
+    border-left: none !important;
+}
+:where(.visual-refresh) .dot__9293f {
+    color: var(--hover-bright-color) !important;
+}
+:where(.visual-refresh) .container_a45028 {
+    border: none !important;
+}
+.friendsEmpty_c7ea19 .text__33d12 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Direct Messages */
