@@ -209,6 +209,24 @@ body::after,
 .colorDanger_c1e9c4.colorDefault_c1e9c4 .check-3HZJs4 {
     color: var(--hover-red-bright-color) !important;
 }
+.radioIndicator__001a7 {
+    margin-bottom: -3px !important;
+}
+:where(.visual-refresh) .refreshIconStroke__001a7 {
+    stroke: var(--hover-bright-color) !important;
+    stroke-width: 4px !important;
+}
+:where(.visual-refresh)
+    .radioIndicatorChecked__001a7
+    .refreshIconStroke__001a7 {
+    stroke: var(--soft-bright-color) !important;
+}
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
+    fill: transparent !important;
+}
+:where(.visual-refresh) .refreshIcon__001a7 {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Title bar (visual-refresh) */
 .title__85643 svg path {
@@ -11221,7 +11239,6 @@ div[class*="flex-"][class*="title-"],
     background: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
 }
-.item_c1e9c4.colorDefault_c1e9c4.focused_c1e9c4 path,
 .item_c1e9c4.colorDefault_c1e9c4[aria-checked="true"] path {
     fill: var(--soft-bright-color) !important;
 }
@@ -16007,21 +16024,21 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-green-color) !important;
     transition: all 200ms ease-out !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"],
 .radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover {
     color: var(--green-bright-color) !important;
     border-left-color: var(--green-bright-color) !important;
 }
 .radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .radioIconForeground__001a7 {
-    fill: var(--hover-green-bright-color) !important;
+    .refreshIconStroke__001a7 {
+    stroke: var(--hover-green-bright-color) !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .radioIconForeground__001a7,
-.radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover
-    .radioIconForeground__001a7 {
+.radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
+    .radioIndicatorChecked__001a7
+    .refreshIconStroke__001a7 {
+    stroke: var(--green-bright-color) !important;
+}
+.radioBar__001a7[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
+    .refreshIcon__001a7 {
     fill: var(--green-bright-color) !important;
 }
 
@@ -16031,21 +16048,21 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-yellow-color) !important;
     transition: all 200ms ease-out !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"],
 .radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover {
     color: var(--yellow-bright-color) !important;
     border-left-color: var(--yellow-bright-color) !important;
 }
 .radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .radioIconForeground__001a7 {
-    fill: var(--hover-yellow-bright-color) !important;
+    .refreshIconStroke__001a7 {
+    stroke: var(--hover-yellow-bright-color) !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .radioIconForeground__001a7,
-.radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover
-    .radioIconForeground__001a7 {
+.radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
+    .radioIndicatorChecked__001a7
+    .refreshIconStroke__001a7 {
+    stroke: var(--yellow-bright-color) !important;
+}
+.radioBar__001a7[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
+    .refreshIcon__001a7 {
     fill: var(--yellow-bright-color) !important;
 }
 
@@ -16055,33 +16072,34 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-red-color) !important;
     transition: all 200ms ease-out !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"],
 .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover {
     color: var(--red-bright-color) !important;
     border-left-color: var(--red-bright-color) !important;
 }
 .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .radioIconForeground__001a7 {
-    fill: var(--hover-red-bright-color) !important;
+    .refreshIconStroke__001a7 {
+    stroke: var(--hover-red-bright-color) !important;
 }
-.item__001a7.itemFilled__001a7[aria-checked="true"]
-    .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .radioIconForeground__001a7,
-.radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover
-    .radioIconForeground__001a7 {
+.radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
+    .radioIndicatorChecked__001a7
+    .refreshIconStroke__001a7 {
+    stroke: var(--red-bright-color) !important;
+}
+.radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
+    .refreshIcon__001a7 {
     fill: var(--red-bright-color) !important;
 }
 
 /* Checkbox */
 .checkbox_f525d3 {
-    border-color: var(--hover-bright-color) !important;
+    border: 2px solid var(--hover-bright-color) !important;
 }
 .checkbox_f525d3.checked_f525d3 {
-    background-color: var(--hover-color) !important;
+    border: 2px solid var(--soft-bright-color) !important;
+    background-color: var(--soft-bright-color) !important;
 }
-.checkbox_f525d3.checked_f525d3 > svg > path {
-    fill: var(--soft-bright-color) !important;
+.focused_c1e9c4 .checkbox_f525d3 > svg > path {
+    fill: transparent !important;
 }
 .colorDefault_c1e9c4 .checkbox_c1e9c4 {
     color: transparent !important;
