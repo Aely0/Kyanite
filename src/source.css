@@ -858,8 +858,13 @@ body::after,
     color: var(--soft-bright-color) !important;
     background-color: var(--main-color) !important;
 }
-.tooltipPrimary__382e7 .tooltipPointer__382e7 {
+.tooltipPrimary__382e7 .tooltipPointer__382e7,
+:where(.visual-refresh) .tooltipPointer__382e7.tooltipPointerBg__382e7:before,
+:where(.visual-refresh) .tooltipPointer__382e7.tooltipPointerBg__382e7:after {
     border-top-color: var(--main-color) !important;
+}
+:where(.visual-refresh) .tooltip__382e7 {
+    border: none !important;
 }
 
 /* Tooltip Brand */
@@ -4457,6 +4462,9 @@ button[aria-label="Stop Watching"]
 }
 .visual-refresh .expandedFolderBackground__48112 {
     border: none !important;
+}
+.visual-refresh .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
+    background-color: var(--hover-color) !important;
 }
 
 /* Server unavailable */
