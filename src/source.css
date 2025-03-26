@@ -1705,6 +1705,9 @@ pre:hover .copybutton {
 .defaultColor__4bd52 {
     color: var(--hover-bright-color) !important;
 }
+.visual-refresh .wrapper__260e1 {
+    border: none !important;
+}
 
 /* Voice channel limits */
 .wrapper__260e1 {
@@ -4452,6 +4455,9 @@ button[aria-label="Stop Watching"]
 .expandedFolderBackground-1cujaW.collapsed-2ZrjoL.hover-qTxTR_ {
     background-color: transparent !important;
 }
+.visual-refresh .expandedFolderBackground__48112 {
+    border: none !important;
+}
 
 /* Server unavailable */
 .errorInner_e8d03f {
@@ -5183,6 +5189,12 @@ img:not(.emote):not(.emoji)::after {
     background-color: transparent !important;
     border-top: 1px solid var(--main-color) !important;
 }
+.visual-refresh .header_c0e32c {
+    border-bottom: none !important;
+}
+.visual-refresh .inspector_aeaaeb {
+    border-top: none !important;
+}
 .contentWrapper__08434,
 .categoryWrapper-UZ5YNj,
 .inspector_aeaaeb,
@@ -5234,12 +5246,20 @@ img:not(.emote):not(.emoji)::after {
     border-top: 1px solid var(--hover-color) !important;
 }
 .categoryList_c0e32c {
-    border-top: 1px solid var(--hover-color) !important;
-    border-right: 1px solid var(--hover-color) !important;
+    border-top: none !important;
+    border-right: none !important;
+}
+.visual-refresh .header__8ef02,
+.visual-refresh .header_fed6d3 {
+    border-bottom: none !important;
 }
 .emojiPickerListWrapper_c0e32c,
 .scroller_affa7e.scrollerBase-_bVAAt {
-    border-top: 1px solid var(--hover-color) !important;
+    border-top: none !important;
+}
+.visual-refresh .unicodeShortcut_b9ee0c,
+.visual-refresh .standardStickerShortcut__3ad28 {
+    border-top: none !important;
 }
 .none-2-_0dP::-webkit-scrollbar {
     display: none !important;
@@ -13577,6 +13597,9 @@ div[class*="flex-"][class*="title-"],
 .victorIcon_f69538 path {
     fill: var(--main-color) !important;
 }
+.visual-refresh .container__0be77 {
+    border: none !important;
+}
 
 /* Home tabs */
 .children__9293f .iconWrapper__9293f .icon__9293f {
@@ -14221,6 +14244,9 @@ path[fill="rgb(255,216,54)"] {
 }
 .inputDefault__0f084.input__0f084 {
     background-color: var(--hover-color) !important;
+}
+:where(.visual-refresh) .lookFilled__3f413.select__3f413 {
+    border: none !important;
 }
 
 /* User Settings (Save Changes) */
