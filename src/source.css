@@ -9254,12 +9254,22 @@ h2.title_feb59c strong {
 .channelNotice__4c43d {
     box-shadow: none !important;
 }
+:where(.visual-refresh) .container_eff079 {
+    border-bottom: none !important;
+}
+:where(.visual-refresh) .goalText_eff079,
+:where(.visual-refresh) .progressText_eff079 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 600 !important;
+}
+.count_eff079 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Server boost progress bar */
 .colorInteractiveActive-30E9n8.size12-oc4dx4.goalText-2FXXG-,
 .colorInteractiveNormal-36ZhyZ.size12-oc4dx4 strong,
-.colorInteractiveNormal-36ZhyZ.size12-oc4dx4,
-.count_eff079 {
+.colorInteractiveNormal-36ZhyZ.size12-oc4dx4 {
     color: var(--soft-bright-color) !important;
 }
 .progressBarContainer-DLPbha {
@@ -15170,6 +15180,12 @@ path[fill="rgb(255,216,54)"] {
     background-color: var(--dark-bg) !important;
     box-shadow: var(--hover-color) 0px 0px 5px inset !important;
     border-radius: 12px !important;
+}
+.visual-refresh .root__49fc1 {
+    border: none !important;
+}
+.backdrop__78332 {
+    background: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Updated ToS popup */
