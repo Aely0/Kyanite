@@ -3608,6 +3608,17 @@ pre:hover .copybutton {
 .iconDisabled__9293f {
     opacity: 1 !important;
 }
+.visual-refresh.theme-midnight .callContainer_cb9592 {
+    border-left: none !important;
+}
+.visual-refresh .callContainer_cb9592 {
+    border-top: none !important;
+    border-right: none !important;
+}
+.visual-refresh .wrapper_cb9592,
+.visual-refresh .root_bfe55a {
+    background: transparent !important;
+}
 
 /* Private calls */
 .private-channel-call.minimum .private-channel-call-actions .center {
@@ -4180,6 +4191,26 @@ button[aria-label="Stop Watching"]
 }
 .premiumStreamIcon__30845 {
     color: var(--hover-bright-color) !important;
+}
+.attachedCaretButtonContainer_f1ceac.popoutOpen_f1ceac .experimentDark_f1ceac,
+.attachedCaretButtonContainer_f1ceac:hover .experimentDark_f1ceac {
+    background-color: var(--hover-color) !important;
+}
+.gradientBackground__11664,
+.gradientBackground__41626 {
+    display: none !important;
+}
+.experimentOverlayTitle__2f4f7,
+.overlayButton__2f4f7 {
+    background: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+:where(.visual-refresh) .button__201d5 {
+    border: none !important;
+}
+.visual-refresh .container__01ae2 {
+    border-top: none !important;
+    border-left: none !important;
 }
 
 /* Popout menu + Status picker */
@@ -11402,9 +11433,6 @@ div[class*="flex-"][class*="title-"],
 .scopes__29337 svg path {
     fill: var(--soft-bright-color) !important; /* Change color as needed */
 }
-.scopes__29337 svg path {
-    fill: var(--soft-bright-color) !important; /* Change color as needed */
-}
 .container__9fa5a {
     background-color: var(--dark-bg) !important;
     box-shadow: var(--hover-color) !important;
@@ -11484,6 +11512,9 @@ div[class*="flex-"][class*="title-"],
 .container_c44293 {
     background: var(--hover-color) !important;
     border-radius: 8px !important;
+}
+.visual-refresh .container_c44293 {
+    border: none !important;
 }
 
 /* Activities selection modal */
