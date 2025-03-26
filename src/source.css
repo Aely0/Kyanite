@@ -2142,6 +2142,12 @@ pre:hover .copybutton {
 .dismissButton__29444:hover {
     color: var(--hover-red-bright-color) !important;
 }
+.visual-refresh .header__0b563 {
+    border-top: none !important;
+}
+.visual-refresh .channelRow_e4503a {
+    border: none !important;
+}
 
 /* Forum channels / Post channels */
 .container_f369db {
@@ -4495,7 +4501,7 @@ button[aria-label="Stop Watching"]
 
 /* Server banner */
 .animatedContainer_f37cb1 {
-    background-color: var(--hover-color) !important;
+    background-color: transparent !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
@@ -4515,6 +4521,12 @@ button[aria-label="Stop Watching"]
 }
 .bannerImage_f37cb1:before {
     background: none !important;
+}
+:where(.visual-refresh) .bannerVisible_f37cb1 .headerGlass_f37cb1 {
+    border-bottom: none !important;
+}
+.visual-refresh .dropdownButtonBannerVisible__2637a {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Server list folders */
@@ -12225,6 +12237,9 @@ div[class*="flex-"][class*="title-"],
 }
 .visual-refresh .header_f37cb1 {
     border-bottom: none !important;
+}
+.visual-refresh .sectionDivider__629e4 {
+    visibility: hidden !important;
 }
 
 /* Username */
