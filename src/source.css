@@ -10817,9 +10817,12 @@ div[class*="scroller"].channel-members {
 }
 
 /* New messages bar */
+.visual-refresh .barBase__0f481 {
+    border: none !important;
+}
 .newMessagesBar__0f481 {
     background-color: var(--main-color) !important;
-    height: auto !important;
+    height: 26px !important;
 }
 .theme-dark .hasMore-3e72_v button {
     background: transparent !important;
@@ -10829,7 +10832,7 @@ div[class*="scroller"].channel-members {
 /* Message summaries */
 .newTopicsBarContainer__0f481 {
     background-color: var(--main-color) !important;
-    height: auto !important;
+    height: 26px !important;
 }
 .newTopicsBarText__0f481,
 .newTopicsBarInitial__0f481 {
