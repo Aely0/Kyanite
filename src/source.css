@@ -11990,7 +11990,12 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Embeds */
-.embedFull__623de {
+.visual-refresh .embedFull__623de {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+.focused_c1e9c4 .embedFull__623de {
     border-left-width: 3px !important;
     padding-left: 0px !important;
     background-color: rgba(0, 0, 0, 0.2) !important;
