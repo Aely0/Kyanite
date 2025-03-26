@@ -47,6 +47,7 @@
 :root {
     --border-subtle: transparent !important;
     --border-faint: transparent !important;
+    --border-normal: transparent !important;
     --input-border: transparent !important;
 }
 
@@ -5063,9 +5064,13 @@ button[aria-label="Stop Watching"]
 }
 .anchor_edefb8.fileNameLink__0ccae {
     color: var(--soft-bright-color);
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: inherit;
+}
+.visual-refresh .channelAttachmentArea_b77158 {
+    background-color: transparent !important;
+}
+.visual-refresh .wrapper_f7ecac .visual-refresh .upload_aa605f,
+.visual-refresh .wrapper_f7ecac {
+    box-shadow: none !important;
 }
 
 /* File upload (Source Files) */
@@ -5915,6 +5920,9 @@ img:not(.emote):not(.emoji)::after {
 }
 .divider__1ccd1 .content__908e2 {
     background: transparent !important;
+}
+.container_fc561d {
+    box-shadow: none !important;
 }
 
 /* Checkbox (roles) */
