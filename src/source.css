@@ -11042,6 +11042,12 @@ div[class*="flex-"][class*="title-"],
 .button-1I8KM5:hover {
     background-color: var(--hover-dark-color) !important;
 }
+.label_c1e9c4 {
+    color: var(--hover-bright-color) !important;
+}
+.focused_c1e9c4 .label_c1e9c4 {
+    color: var(--soft-bright-color) !important;
+}
 .colorDefault_c1e9c4:active:not(.hideInteraction-2jPGL_) {
     background-color: var(--hover-color) !important;
 }
@@ -11049,8 +11055,12 @@ div[class*="flex-"][class*="title-"],
     color: var(--hover-bright-color) !important;
     border-color: var(--hover-bright-color) !important;
 }
+.colorDanger_c1e9c4 .label_c1e9c4,
 .colorDanger_c1e9c4.colorDefault_c1e9c4 {
     color: var(--hover-red-bright-color) !important;
+}
+.colorDanger_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
+    color: var(--red-bright-color) !important;
 }
 .colorDanger_c1e9c4.colorDefault_c1e9c4.focused_c1e9c4:active,
 .colorDanger_c1e9c4.colorDefault_c1e9c4.focused_c1e9c4:focus {
