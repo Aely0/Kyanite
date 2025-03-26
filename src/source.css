@@ -203,6 +203,14 @@ body::after,
     color: var(--hover-red-bright-color) !important;
 }
 
+/* Title bar (visual-refresh) */
+.title__85643 svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.title__85643 .text-sm\/medium_cf4812 {
+    font-weight: 600 !important;
+}
+
 /* Message Search */
 .theme-dark .searchResultsWrap-2DKFzt,
 .theme-dark .searchHeader-1l-wpR,
