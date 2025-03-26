@@ -10543,7 +10543,7 @@ img.sidebarHeader__0ab2c {
     display: none !important;
 }
 .guildSeparator__252b6 {
-    background-color: var(--hover-color) !important;
+    background-color: transparent !important;
 }
 
 /* Guild avatars */
@@ -12284,6 +12284,9 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Search bar */
+.visual-refresh .searchBar__97492 {
+    border: 1px solid transparent !important;
+}
 .searchBar__97492 {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
@@ -12292,9 +12295,12 @@ div[class*="flex-"][class*="title-"],
     color: var(--hover-bright-color) !important;
     opacity: 0.8 !important;
 }
+.search__97492 {
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+}
 .search__97492.focused__97492 {
     border: 1px solid var(--hover-bright-color) !important;
-    border-radius: 4px !important;
 }
 .searchResultsWrap_a9e706 {
     background-color: var(--dark-bg) !important;
@@ -13118,6 +13124,9 @@ div[class*="flex-"][class*="title-"],
 .sectionTitle_dcc822.text__13cf1 {
     color: var(--hover-bright-color) !important;
 }
+.visual-refresh .container_f391e3 {
+    border-top: none !important;
+}
 
 /* Quick switcher notification */
 .channelNotices-41mJbj .channelNotice-tO6Tus.quickswitcher-35bYg4 {
@@ -13828,6 +13837,10 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Direct Messages */
+.visual-refresh .sectionDivider__35e86 {
+    margin: 6px !important;
+    visibility: hidden !important;
+}
 .privateChannelRecipientsInviteButtonIcon__99e7c.icon__9293f {
     color: var(--hover-bright-color) !important;
     opacity: 0.85 !important;
