@@ -4550,7 +4550,8 @@ button[aria-label="Stop Watching"]
 :where(.visual-refresh) .bannerVisible_f37cb1 .headerGlass_f37cb1 {
     border-bottom: none !important;
 }
-.visual-refresh .dropdownButtonBannerVisible__2637a {
+.visual-refresh .dropdownButtonBannerVisible__2637a,
+.visual-refresh .dropdownButton__2637a {
     color: var(--hover-bright-color) !important;
 }
 
@@ -11249,6 +11250,10 @@ div[class*="flex-"][class*="title-"],
 .icon_c1e9c4 path[d^="M14.5 8a3"],
 .icon_c1e9c4 path[d^="M19 14a1"] {
     fill: var(--hover-bright-color) !important;
+}
+.focused_c1e9c4 .icon_c1e9c4 path,
+.focused_c1e9c4 .caret_c1e9c4 path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Disabled message bar */
