@@ -4280,6 +4280,23 @@ button[aria-label="Stop Watching"]
 .container__37e49 .button__67645[aria-checked="true"] .lottieIcon__5eb9b {
     --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
+.container__37e49 .button__67645.redGlow__67645[aria-checked="true"] {
+    background-color: color-mix(
+        in srgb,
+        var(--hover-yellow-color) 60%,
+        black
+    ) !important;
+}
+.container__37e49
+    .button__67645.redGlow__67645[aria-checked="true"]:has(
+        .contents__201d5 > svg
+    ) {
+    background-color: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        black
+    ) !important;
+}
 .container__37e49 .button__67645[aria-checked="true"]:hover .lottieIcon__5eb9b {
     --__lottieIconColor: var(--yellow-bright-color) !important;
 }
@@ -4292,6 +4309,15 @@ button[aria-label="Stop Watching"]
     .button__67645[aria-checked="true"]:hover
     path[fill="var(--status-danger)"] {
     fill: var(--red-bright-color) !important;
+}
+.icon_c9d15c path {
+    fill: var(--hover-bright-color) !important;
+}
+.lineClamp1__4bd52.text-sm\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.rtcConnectionStatusWrapper__06d62 .channel_e131a9:hover {
+    text-decoration: none !important;
 }
 .wrapperVisible__0d616 {
     display: none;
@@ -11019,10 +11045,8 @@ div[class*="flex-"][class*="title-"],
 
 /* Message bar */
 .scrollableContainer__74017 {
-    /* background-color: var(--hover-faint-color) !important; */
     background-color: transparent !important;
     border: 1px solid var(--hover-dark-color) !important;
-    /* border-radius: 12px !important; */
 }
 .channelTextArea_f75fb0 {
     background-color: transparent !important;
@@ -11076,6 +11100,9 @@ div[class*="flex-"][class*="title-"],
     --custom-channel-textarea-text-area-height: calc(
         36px + var(--space-xs)
     ) !important;
+}
+.visual-refresh .slateTextArea_ec4baf {
+    margin-left: 6px !important;
 }
 
 /* Message edit bar */
@@ -15217,7 +15244,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Modal focus */
-.root__49fc1.rootWithShadow__49fc1:not(:has(.modal__487be)),
+.root__49fc1.rootWithShadow__49fc1:not(
+        :has(.modal__487be, .quickswitcher_ac6cb0)
+    ),
 .modal__487be.rootWithShadow__49fc1 {
     background-color: var(--dark-bg) !important;
     box-shadow: var(--hover-color) 0px 0px 5px inset !important;
