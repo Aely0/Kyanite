@@ -43,6 +43,13 @@
     --background-brightness: 100% !important;
 }
 
+/* Generic border */
+:root {
+    --border-subtle: transparent !important;
+    --border-faint: transparent !important;
+    --input-border: transparent !important;
+}
+
 /* Title bar */
 #app-mount .titleBar__421ed {
     padding-top: 5px !important;
@@ -14723,7 +14730,7 @@ path[fill="rgb(255,216,54)"] {
 
 /* Family Centre */
 .settingsTabBar_dc2e0e {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: 1px solid transparent !important;
 }
 .container__5dbf8,
 .container__8e680,
