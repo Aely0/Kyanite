@@ -13947,7 +13947,7 @@ div[class*="flex-"][class*="title-"],
     color: var(--hover-bright-color) !important;
 }
 .peopleListItem_cc6179 {
-    border-top: 1px solid var(--hover-color) !important;
+    border-top: none !important;
 }
 .peopleListItem_cc6179 .username__05e81.username__0a06e,
 .peopleListItem_cc6179 .discriminator__0a06e,
@@ -13997,6 +13997,9 @@ div[class*="flex-"][class*="title-"],
 }
 .friendsEmpty_c7ea19 .text__33d12 {
     color: var(--hover-bright-color) !important;
+}
+.full-motion.visual-refresh .peopleListItem_cc6179 {
+    transition: none !important;
 }
 
 /* Direct Messages */
