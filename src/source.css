@@ -10969,12 +10969,10 @@ div[class*="flex-"][class*="title-"],
 
 /* Message bar */
 .scrollableContainer__74017 {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid var(--main-color) !important;
-    border-radius: 5px !important;
-}
-.textArea__74017 {
-    height: auto !important;
+    /* background-color: var(--hover-faint-color) !important; */
+    background-color: transparent !important;
+    border: 1px solid var(--hover-dark-color) !important;
+    /* border-radius: 12px !important; */
 }
 .channelTextArea_f75fb0 {
     background-color: transparent !important;
@@ -10994,10 +10992,14 @@ div[class*="flex-"][class*="title-"],
     color: var(--hover-bright-color) !important;
     opacity: 0.6 !important;
 }
-.attachButtonPlus__0923f {
+.visual-refresh .attachButton__0923f .attachButtonPlus__0923f {
     fill: var(--hover-bright-color) !important;
+    transition: fill 200ms !important;
+    d: path(
+        "M 13 5 a 1 1 0 1 0 -2 0 v 6 H 5 a 1 1 0 1 0 0 2 h 6 v 6 a 1 1 0 1 0 2 0 v -6 h 6 a 1 1 0 1 0 0 -2 h -6 V 5 Z"
+    ) !important;
 }
-.attachButton__74017:hover .attachButtonPlus__0923f {
+.visual-refresh .attachButton__0923f:hover .attachButtonPlus__0923f {
     fill: var(--soft-bright-color) !important;
 }
 .buttons__74017 .buttonWrapper__24af7 {
@@ -11019,7 +11021,11 @@ div[class*="flex-"][class*="title-"],
 }
 .channelTextArea__74017 {
     border: none !important;
-    margin-bottom: 10px !important;
+}
+.visual-refresh {
+    --custom-channel-textarea-text-area-height: calc(
+        36px + var(--space-xs)
+    ) !important;
 }
 
 /* Message edit bar */
