@@ -4577,7 +4577,7 @@ button[aria-label="Stop Watching"]
     border: none !important;
 }
 .visual-refresh .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
-    background-color: var(--hover-color) !important;
+    background-color: transparent !important;
 }
 
 /* Server unavailable */
