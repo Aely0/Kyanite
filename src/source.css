@@ -4573,11 +4573,18 @@ button[aria-label="Stop Watching"]
 .expandedFolderBackground-1cujaW.collapsed-2ZrjoL.hover-qTxTR_ {
     background-color: transparent !important;
 }
+.expandedFolderIconWrapper__48112 > svg {
+    height: 24px !important;
+    width: 24px !important;
+}
 .visual-refresh .expandedFolderBackground__48112 {
     border: none !important;
 }
 .visual-refresh .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
     background-color: transparent !important;
+}
+.isExpanded__48112 > ul[id^="folder-items"] {
+    height: auto !important;
 }
 
 /* Server unavailable */
