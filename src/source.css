@@ -4391,6 +4391,9 @@ button[aria-label="Stop Watching"]
 .visual-refresh .panels_c48ade {
     border: none !important;
 }
+.visual-refresh .sidebar_c48ade:after {
+    display: none !important;
+}
 
 /* Activity status panel */
 .icon_a629d4 {
