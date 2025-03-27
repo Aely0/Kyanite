@@ -10712,6 +10712,18 @@ img.sidebarHeader__0ab2c {
     x: -4 !important;
     y: -4 !important;
 }
+.svg_cc5dd2 foreignObject > img {
+    border-radius: 25px !important;
+    position: relative;
+    top: 4px !important;
+    left: 4px !important;
+    width: 22px !important;
+    height: 22px !important;
+}
+.circularImage__1ce5d {
+    width: 24px !important;
+    height: 24px !important;
+}
 .visual-refresh .svg_cc5dd2 {
     top: 0px !important;
     left: 0px !important;
@@ -10731,6 +10743,10 @@ img.sidebarHeader__0ab2c {
 .childWrapperNoHoverBg__6e9f8 > svg {
     width: 30px !important;
     height: 30px !important;
+}
+.wrapper__6e9f8.selected__6e9f8 .childWrapperHoverScale__6e9f8,
+.wrapper__6e9f8:hover .childWrapperHoverScale__6e9f8 {
+    scale: unset;
 }
 .item__58105 {
     background-color: var(--main-color) !important;
