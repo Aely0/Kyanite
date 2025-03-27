@@ -10751,6 +10751,10 @@ img.sidebarHeader__0ab2c {
 .wrapper__6e9f8:hover .childWrapperHoverScale__6e9f8 {
     scale: unset;
 }
+.stack_dbd263:has(.guildSeparator__252b6)
+    div[style^="opacity: 1; height: 40px;"] {
+    height: var(--guildbar-avatar-size) !important;
+}
 .item__58105 {
     background-color: var(--main-color) !important;
 }
