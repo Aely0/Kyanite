@@ -10694,6 +10694,35 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Guilds bar */
+:root {
+    --guildbar-avatar-size: 48px !important;
+}
+.svg_cc5dd2 foreignObject {
+    mask: none !important;
+    overflow: visible !important;
+    x: -4 !important;
+    y: -4 !important;
+}
+.visual-refresh .svg_cc5dd2 {
+    top: 0px !important;
+    left: 0px !important;
+}
+.childWrapper__6e9f8,
+.icon__6e9f8,
+.circleIconButton__5bc7e {
+    border-radius: 25px !important;
+    transition: all 400ms ease-in-out !important;
+}
+.selected__6e9f8 .childWrapper__6e9f8,
+.selected__6e9f8 .icon__6e9f8,
+.circleIconButton__5bc7e.selected__5bc7e {
+    border-radius: 16px !important;
+    transition: all 400ms ease-in-out !important;
+}
+.childWrapperNoHoverBg__6e9f8 > svg {
+    width: 30px !important;
+    height: 30px !important;
+}
 .item__58105 {
     background-color: var(--main-color) !important;
 }
