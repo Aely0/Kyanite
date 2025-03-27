@@ -4489,8 +4489,10 @@ button[aria-label="Stop Watching"]
 
 /* Number badge */
 .numberBadge__2b1f5.base__2b1f5.baseShapeRound__2b1f5 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--dark-bg) !important;
     color: var(--soft-bright-color) !important;
+    height: 18px !important;
+    width: 18px !important;
     font-weight: bold !important;
     border: none !important;
 }
