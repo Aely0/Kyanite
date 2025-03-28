@@ -78,6 +78,23 @@
     background-color: var(--hover-red-dark-color) !important;
 }
 
+/* Second title bar */
+.bar_c38106 .title_c38106 {
+    display: none !important;
+}
+.bar_c38106 .trailing_c38106 {
+    position: relative !important;
+    z-index: 200 !important;
+    top: 10px !important;
+}
+.visual-refresh .content_c48ade {
+    grid-row: noticeEnd / end !important;
+    margin-top: -36px !important;
+}
+.toolbar__9293f {
+    padding-right: 40px !important;
+}
+
 /* Background */
 #app-mount {
     background: rgba(0, 0, 0, 0.75) !important;
@@ -10785,6 +10802,9 @@ img.sidebarHeader__0ab2c {
 }
 .guildSeparator__252b6 {
     background-color: transparent !important;
+}
+.guilds_c48ade {
+    padding-top: 10px !important;
 }
 
 /* Guild avatars */
