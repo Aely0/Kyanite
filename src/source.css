@@ -4570,6 +4570,19 @@ button[aria-label="Stop Watching"]
 .visual-refresh .sidebarListRounded_c48ade {
     border-top-left-radius: 0px !important;
 }
+.clickable_f37cb1 .header_f37cb1:hover,
+.selected_f37cb1 .header_f37cb1 {
+    background-color: transparent !important;
+}
+:where(.visual-refresh) .bannerVisible_f37cb1 .headerGlass_f37cb1 {
+    backdrop-filter: none !important;
+}
+.visual-refresh .header_f37cb1 {
+    height: 44px !important;
+}
+.visual-refresh .header_f37cb1:hover {
+    background-color: var(--hover-color) !important;
+}
 
 /* Server list folders */
 .folder-1hbNCn {
