@@ -15512,6 +15512,16 @@ path[fill="rgb(255,216,54)"] {
 .button__201d5.lookLink__201d5.lowSaturationUnderline-Z6CW6z.cancelButton-27U_rB.sizeMedium-2bFIHr.grow__201d5 {
     color: var(--soft-bright-color) !important;
 }
+.icons__3f413,
+.clearIcon_dbc4b7 {
+    color: var(--hover-bright-color) !important;
+}
+:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084,
+:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084:hover,
+:where(.visual-refresh) .input__0f084:not([readOnly]):focus,
+:where(.visual-refresh) .input__0f084:not([readOnly]):focus:hover {
+    border-color: var(--hover-bright-color) !important;
+}
 
 /* Account switching notification */
 .container-5N5x2A {
