@@ -14214,6 +14214,10 @@ div[class*="flex-"][class*="title-"],
 .visual-refresh {
     border: none !important;
 }
+:where(.visual-refresh) .channel__972a0:not(.dm__972a0) svg {
+    width: 22px !important;
+    height: 22px !important;
+}
 
 /* DM profile panel */
 .panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"] {
