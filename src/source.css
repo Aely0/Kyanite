@@ -13454,6 +13454,25 @@ div[class*="flex-"][class*="title-"],
 .endText__2dc39 {
     color: var(--hover-bright-color) !important;
 }
+.categoryFade_d02962 {
+    background-color: var(--hover-faded-color) !important;
+}
+.categoryText_d02962 {
+    color: var(--hover-bright-color) !important;
+    text-shadow: none !important;
+}
+.categoryName_d02962 {
+    background-color: color-mix(
+        in srgb,
+        var(--dark-bg) 80%,
+        transparent
+    ) !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
+}
+.categoryIcon_d02962 {
+    display: none !important;
+}
 
 /* Chat gift menu */
 .theme-dark .option-1l2vXE {
