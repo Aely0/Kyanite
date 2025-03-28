@@ -10512,7 +10512,7 @@ img.sidebarHeader__0ab2c {
 /* Message list side bars */
 .barButtonMain__0f481.barButtonBase__0f481,
 .barButtonAlt__0f481.barButtonBase__0f481 {
-    color: var(--soft-bright-color) !important;
+    color: var(--hover-bright-color) !important;
 }
 .messagesErrorBar__0f481 {
     background-color: var(--hover-red-dark-color) !important;
@@ -10524,16 +10524,15 @@ img.sidebarHeader__0ab2c {
 .newMessagesBar__0f481 {
     background-color: var(--main-color) !important;
 }
-.jumpToPresentBar__0f481 {
-    background-color: var(--main-color) !important;
-    padding-bottom: 0px !important;
-    margin-bottom: -2px !important;
-}
 .jumpToPresentBar__0f481 .spinnerItem__0f481 {
     background-color: var(--soft-bright-color) !important;
 }
 .protip {
     color: var(--soft-bright-color) !important;
+}
+.visual-refresh .bottomBar__0f481 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: none !important;
 }
 
 /* Message list loading */
