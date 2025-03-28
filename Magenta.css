@@ -55,7 +55,7 @@ body::after,
 
 /* Help button (tag:hidden) */
 /*
-.toolbar__9293f [href="https://support.discord.com"] {
+a[href="https://support.discord.com"] {
     display: initial !important;
 }
 */
