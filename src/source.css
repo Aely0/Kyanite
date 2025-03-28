@@ -9948,9 +9948,9 @@ img.sidebarHeader__0ab2c {
 .option_b08511 .labelContainer_b08511 .description_b08511 {
     color: var(--hover-bright-color) !important;
 }
-.option__3f413.focused__3f413,
-.option__3f413:focus,
-.option__3f413:hover {
+.option__54675.focused__3f413,
+.option__54675:focus,
+.option__54675:hover {
     background-color: var(--hover-color) !important;
 }
 .optionTag_b08511 {
@@ -14764,14 +14764,25 @@ path[fill="rgb(255,216,54)"] {
     background: var(--hover-color) !important;
     backdrop-filter: blur(40px) !important;
 }
-.option__3f413[aria-selected="true"]:not(.option__3f413.multi__3f413) {
+.option__54675 {
+    color: var(--hover-bright-color) !important;
+    background-color: var(--hover-color) !important;
+}
+.option__54675 .optionIconAndLabel__54675 {
+    color: var(--hover-bright-color) !important;
+}
+.option__54675:hover .optionIconAndLabel__54675 {
     color: var(--soft-bright-color) !important;
+}
+.editingContainer__57752 {
     background-color: var(--hover-color) !important;
 }
-.option__3f413:hover {
-    background-color: var(--hover-color) !important;
+.overlay__57752 {
+    border: 5px solid var(--hover-bright-color) !important;
+    box-shadow: 0 0 0 9999px var(--dark-bg) !important;
 }
-.option__3f413 {
+.zoomIcon__57752,
+.rotateButton__57752 {
     color: var(--hover-bright-color) !important;
 }
 .selectedIcon__3f413 > circle {
@@ -14795,6 +14806,18 @@ path[fill="rgb(255,216,54)"] {
 }
 .profileBioInput__74017 .editor__1b31f {
     color: var(--soft-bright-color) !important;
+}
+.overlay_f9d668:after {
+    background-color: var(--hover-color) !important;
+}
+.overlayIcon_f9d668 > path {
+    fill: var(--soft-bright-color) !important;
+}
+.clickable__75b30 .text-sm\/medium_cf4812.defaultColor__5345c {
+    color: var(--hover-bright-color) !important;
+}
+.clickable__75b30 > svg > path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Content & Social (User Settings) */
