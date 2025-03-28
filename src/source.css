@@ -4566,6 +4566,9 @@ button[aria-label="Stop Watching"]
 .visual-refresh .dropdownButton__2637a {
     color: var(--hover-bright-color) !important;
 }
+.visual-refresh .sidebarListRounded_c48ade {
+    border-top-left-radius: 0px !important;
+}
 
 /* Server list folders */
 .folder-1hbNCn {
