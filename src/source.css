@@ -51,6 +51,7 @@
 .visual-refresh .theme-darker,
 .visual-refresh.theme-dark,
 .visual-refresh .theme-dark {
+    --app-border-frame: transparent !important;
     --border-subtle: transparent !important;
     --border-faint: transparent !important;
     --border-normal: transparent !important;
