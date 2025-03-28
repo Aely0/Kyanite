@@ -66,19 +66,18 @@
 .wordmarkWindows__421ed {
     display: none !important;
 }
-.winButton__421ed {
+.winButton_c38106 {
     color: var(--hover-bright-color) !important;
+    border-radius: 4px !important;
 }
-.winButton__421ed:hover {
+.winButton_c38106:hover {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
-.winButtonClose__421ed:hover {
+.winButtonClose_c38106:hover {
     color: var(--red-bright-color) !important;
-    background-color: var(--hover-red-dark-color) !important;
+    background-color: var(--hover-red-color) !important;
 }
-
-/* Second title bar */
 .bar_c38106 .title_c38106 {
     display: none !important;
 }
@@ -93,6 +92,16 @@
 }
 .toolbar__9293f {
     padding-right: 40px !important;
+}
+html.platform-win .bar_c38106 {
+    padding-left: 0px !important;
+    margin-left: calc(30%) !important;
+}
+html.platform-win .toolbar__9293f {
+    padding-right: 158px !important;
+}
+html.platform-win .winButtonsWithDivider_c38106:before {
+    display: none !important;
 }
 
 /* Background */
