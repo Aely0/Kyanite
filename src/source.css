@@ -10543,7 +10543,7 @@ img.sidebarHeader__0ab2c {
 /* Message list side bars */
 .barButtonMain__0f481.barButtonBase__0f481,
 .barButtonAlt__0f481.barButtonBase__0f481 {
-    color: var(--hover-bright-color) !important;
+    color: var(--soft-bright-color) !important;
 }
 .messagesErrorBar__0f481 {
     background-color: var(--hover-red-dark-color) !important;
@@ -11295,6 +11295,13 @@ div[class*="flex-"][class*="title-"],
 }
 .visual-refresh .slateTextArea_ec4baf {
     margin-left: 6px !important;
+}
+.channelTextArea__74017 .lottieIcon__5eb9b {
+    width: 24px !important;
+    height: 24px !important;
+}
+.emojiButton__04eed .sprite__04eed {
+    scale: 1.28 !important;
 }
 
 /* Message edit bar */
