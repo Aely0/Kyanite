@@ -44,7 +44,13 @@
 }
 
 /* Generic border */
-:root {
+:root,
+.visual-refresh.theme-midnight,
+.visual-refresh .theme-midnight,
+.visual-refresh.theme-darker,
+.visual-refresh .theme-darker,
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark {
     --border-subtle: transparent !important;
     --border-faint: transparent !important;
     --border-normal: transparent !important;
