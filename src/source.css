@@ -11274,9 +11274,6 @@ div[class*="flex-"][class*="title-"],
 .visual-refresh .attachButton__0923f .attachButtonPlus__0923f {
     fill: var(--hover-bright-color) !important;
     transition: fill 200ms !important;
-    d: path(
-        "M 13 5 a 1 1 0 1 0 -2 0 v 6 H 5 a 1 1 0 1 0 0 2 h 6 v 6 a 1 1 0 1 0 2 0 v -6 h 6 a 1 1 0 1 0 0 -2 h -6 V 5 Z"
-    ) !important;
 }
 .visual-refresh .attachButton__0923f:hover .attachButtonPlus__0923f {
     fill: var(--soft-bright-color) !important;
