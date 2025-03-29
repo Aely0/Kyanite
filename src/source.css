@@ -12232,6 +12232,9 @@ div[class*="flex-"][class*="title-"],
     background: var(--hover-faint-color) !important;
     border: none !important;
 }
+:where(.overlay_c0bea0) {
+    background: var(--hover-faint-color) !important;
+}
 .addStatusIconColor_ab8609 {
     fill: var(--hover-bright-color) !important;
 }
