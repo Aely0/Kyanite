@@ -4427,6 +4427,25 @@ button[aria-label="Stop Watching"]
 .visual-refresh .sidebar_c48ade:after {
     display: none !important;
 }
+.visual-refresh .panels_c48ade {
+    padding-left: 64px !important;
+}
+.wrapper__44b0c.avatar__37e49 > svg {
+    width: 44px !important;
+}
+.visual-refresh .avatarWrapper__37e49 {
+    gap: 4px !important;
+}
+.visual-refresh .container_e131a9 {
+    top: 4px;
+}
+.panels_c48ade .mask__44b0c.svg__44b0c {
+    height: 47px !important;
+}
+.visual-refresh .avatarWrapper__37e49 {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
 
 /* Activity status panel */
 .icon_a629d4 {
@@ -4447,7 +4466,9 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 .activityPanel_c48ade {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+    margin-bottom: -6px !important;
 }
 .defaultColor_e9e35f,
 .defaultColor__4bd52,
@@ -10814,6 +10835,10 @@ img.sidebarHeader__0ab2c {
 }
 .guilds_c48ade {
     padding-top: 10px !important;
+}
+.visual-refresh .wrapper_ef3116 {
+    margin-bottom: 0px !important;
+    z-index: 11 !important;
 }
 
 /* Guild avatars */
