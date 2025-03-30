@@ -10773,6 +10773,14 @@ img.sidebarHeader__0ab2c {
     transition: fill 200ms ease-out !important;
     fill: var(--soft-bright-color) !important;
 }
+.childWrapperNoHoverBg__6e9f8 > img {
+    border-radius: 25px !important;
+    transition: all 400ms ease-in-out !important;
+}
+.selected__6e9f8 .childWrapperNoHoverBg__6e9f8 > img {
+    border-radius: 16px !important;
+    transition: all 400ms ease-in-out !important;
+}
 
 /* Guilds bar */
 :root {
