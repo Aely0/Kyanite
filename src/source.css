@@ -15015,7 +15015,7 @@ path[fill="rgb(255,216,54)"] {
 .container__5dbf8,
 .container__8e680,
 .container__5b321 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
 .row__0624f,
@@ -15023,10 +15023,13 @@ path[fill="rgb(255,216,54)"] {
 .iconContainer__0624f,
 .box_d9914b,
 .stepNumber_d9914b {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .icon__8cc9a {
     color: var(--soft-bright-color) !important;
+}
+.iconContainer__0624f > svg > path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Authorized apps (User Settings) */
