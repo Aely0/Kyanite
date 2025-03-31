@@ -14556,7 +14556,7 @@ path[fill="rgb(255,216,54)"] {
     color: var(--hover-bright-color) !important;
 }
 .divider__46c3b {
-    border-top: thin solid var(--hover-color) !important;
+    display: none !important;
 }
 .divider__8b90f,
 .tabBar_d6f9e9 {
@@ -15070,20 +15070,20 @@ path[fill="rgb(255,216,54)"] {
 .accountList-Wii_T5,
 .connection_c7f964,
 .connectContainer_c7f964 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
     border-color: transparent !important;
 }
 .accountButtonInner_c7f964 {
     color: var(--soft-bright-color) !important;
 }
 .accountBtnInner__750de {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .connectionHeader_c7f964 {
     background-color: transparent !important;
 }
 .metadataContainer_c7f964 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .connectionHeader_c7f964 .connectionAccountValue-3gVX0m {
     color: var(--soft-bright-color) !important;
@@ -15103,7 +15103,7 @@ path[fill="rgb(255,216,54)"] {
     opacity: 0.8 !important;
 }
 .divider-_0um2u {
-    border-top: thin solid var(--hover-color) !important;
+    display: none !important;
 }
 .connectionAccountValue_c7f964 {
     color: var(--soft-bright-color) !important;
@@ -15112,7 +15112,7 @@ path[fill="rgb(255,216,54)"] {
     background-color: transparent !important;
 }
 .integrationWrapper_c7f964 {
-    background: var(--hover-color) !important;
+    background: var(--hover-faint-color) !important;
 }
 
 /* Discord Nitro (User Settings) */
