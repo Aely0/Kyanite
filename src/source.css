@@ -14624,7 +14624,7 @@ path[fill="rgb(255,216,54)"] {
 
 /* My Account (User Settings) */
 .accountProfileCard__1fed1 {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .background__1fed1 {
     background-color: transparent !important;
