@@ -78,29 +78,29 @@
     color: var(--red-bright-color) !important;
     background-color: var(--hover-red-color) !important;
 }
-.bar_c38106 .title_c38106 {
+:not(.platform-osx).visual-refresh .bar_c38106 .title_c38106 {
     display: none !important;
 }
-.bar_c38106 .trailing_c38106 {
+:not(.platform-osx).visual-refresh .bar_c38106 .trailing_c38106 {
     position: relative !important;
     z-index: 200 !important;
     top: 10px !important;
 }
-.visual-refresh .content_c48ade {
+:not(.platform-osx).visual-refresh .content_c48ade {
     grid-row: noticeEnd / end !important;
     margin-top: -36px !important;
 }
-.toolbar__9293f {
+:not(.platform-osx).visual-refresh .toolbar__9293f {
     padding-right: 40px !important;
 }
-html.platform-win .bar_c38106 {
+.platform-win.visual-refresh .bar_c38106 {
     padding-left: 0px !important;
     margin-left: calc(30%) !important;
 }
-html.platform-win .toolbar__9293f {
+.platform-win.visual-refresh .toolbar__9293f {
     padding-right: 158px !important;
 }
-html.platform-win .winButtonsWithDivider_c38106:before {
+.platform-win.visual-refresh .winButtonsWithDivider_c38106:before {
     display: none !important;
 }
 
@@ -10841,7 +10841,7 @@ img.sidebarHeader__0ab2c {
 .guildSeparator__252b6 {
     background-color: transparent !important;
 }
-.guilds_c48ade {
+:not(.platform-osx).visual-refresh .guilds_c48ade {
     padding-top: 10px !important;
 }
 .visual-refresh .wrapper_ef3116 {
