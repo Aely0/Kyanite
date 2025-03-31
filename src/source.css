@@ -15194,6 +15194,9 @@ path[fill="rgb(255,216,54)"] {
 .subscriptionDetails_e70817 {
     border-color: var(--hover-color) !important;
 }
+.hr__70151 {
+    display: none !important;
+}
 
 /* Gift inventory (User Settings) */
 .emptyStateHeader_d4883c,
