@@ -12354,6 +12354,12 @@ div[class*="flex-"][class*="title-"],
 .image__3299f {
     background-color: var(--hover-faded-color) !important;
 }
+.mutuals__530ce .text__530ce {
+    color: var(--hover-bright-color) !important;
+}
+.spacer__530ce {
+    background-color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .visual-refresh .embedFull__623de {
