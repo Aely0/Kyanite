@@ -12360,6 +12360,36 @@ div[class*="flex-"][class*="title-"],
 .spacer__530ce {
     background-color: var(--hover-bright-color) !important;
 }
+.popover__2d0ab.visible__2d0ab {
+    border-radius: 8px !important;
+}
+.tooltipContainer__2d0ab .button_f7ecac {
+    background-color: transparent !important;
+}
+.button_f7ecac .icon__2d0ab > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
+.button_f7ecac:hover .icon__2d0ab:hover > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
+.backdrop__5be3e {
+    background: color-mix(in srgb, var(--dark-bg) 60%, transparent) !important;
+}
+.emojiPicker_c0e32c {
+    box-shadow: none !important;
+}
+.container_b1f01d {
+    background: var(--dark-bg) !important;
+    box-shadow: var(--hover-color) !important;
+}
+.container_b1f01d .markup__75297 {
+    color: var(--soft-bright-color) !important;
+}
+.markup__75297 small:not(.inlineFormat__75297) span {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .visual-refresh .embedFull__623de {
