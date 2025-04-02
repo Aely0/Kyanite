@@ -14903,6 +14903,42 @@ path[fill="rgb(255,216,54)"] {
     box-shadow: 0 0 0 9999px var(--hover-dark-color) !important;
 }
 
+/* Avatar decorations and nameplates (Settings > User Profile) */
+.decorationGridItem_dfa67d,
+.decorationPreview__51743,
+.effectGridItem_b4019a,
+.smallDecorationPreviewsContainer__51743,
+.inventoryControlsButton__6980e,
+.previewBox__36852 {
+    background-color: var(--hover-color) !important;
+}
+.effectDescriptionContainer__92e52 {
+    background: var(--hover-faded-color) padding-box !important;
+}
+.effectDescriptionNoGradient__92e52 {
+    background: transparent !important;
+}
+.selected_dfa67d,
+.selected__6980e,
+.selected_b4019a {
+    box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
+}
+.previewBorder__36852:before {
+    background: var(--hover-dark-color);
+}
+.inventoryControlsButton__6980e > svg > path,
+.lock__6980e > svg > path,
+.effectGridItem_b4019a > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.lock__6980e {
+    background-color: var(--hover-dark-color) !important;
+}
+.customColorPicker__459fb {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+
 /* Profiles (User Settings) */
 .divider_ae36e5 {
     border-top: thin solid var(--hover-color) !important;
