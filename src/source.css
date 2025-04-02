@@ -4584,6 +4584,12 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 
+/* Server list favorites server */
+.ring_c9fddf > svg > path,
+.favoritesIcon_f37cb1 > path {
+    fill: var(--hover-bright-color) !important;
+}
+
 /* Server banner */
 .animatedContainer_f37cb1 {
     background-color: transparent !important;
