@@ -13405,6 +13405,9 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
+.freeTrialPill_ac86f6.greyBackgroundPill_ac86f6 {
+    background: var(--hover-dark-color) !important;
+}
 
 /* Keyboard shortcuts */
 .theme-dark .keyboardShortcutsModal_f061f6 {
