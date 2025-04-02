@@ -5938,7 +5938,7 @@ img:not(.emote):not(.emoji)::after {
     background-color: transparent !important;
 }
 .inboxIcon_ab6641 {
-    color: var(--hover-bright-color) !important;
+    color: var(--soft-bright-color) !important;
 }
 .container__0f711,
 .header_ab6641.header__45690 {
@@ -11279,6 +11279,10 @@ div[class*="flex-"][class*="title-"],
 }
 .iconWrapper__9293f.clickable__9293f:has(.svg__2338f):hover::before {
     background: var(--soft-bright-color) !important;
+}
+.recentsIcon_c99c29 .button__85643:hover .icon__9293f > path,
+.recentsIcon_c99c29 .button__85643.selected__9293f .icon__9293f > path {
+    fill: var(--soft-bright-color) !important;
 }
 .iconWrapper__9293f.clickable__9293f:has(.svg__2338f) .iconBadge__9293f {
     background-color: var(--soft-bright-color) !important;
