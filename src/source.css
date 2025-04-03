@@ -10532,6 +10532,23 @@ img.sidebarHeader__0ab2c {
     background-color: var(--hover-faded-color) !important;
     border: 2px solid var(--hover-bright-color) !important;
 }
+.optionsActive__07f91,
+.optionsButton__07f91:hover {
+    background: var(--hover-color) !important;
+}
+.optionsActive__07f91 .icon__07f91 > path,
+.optionsButton__07f91:hover .icon__07f91 > path {
+    fill: var(--soft-bright-color) !important;
+}
+.icon__07f91 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.item_c1e9c4 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.item_c1e9c4.focused_c1e9c4 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Element focus */
 .focus-rings-ring {
