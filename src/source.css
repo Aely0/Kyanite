@@ -15079,14 +15079,6 @@ path[fill="rgb(255,216,54)"] {
 .title__0d850 {
     color: var(--soft-bright-color) !important;
 }
-.selectedIcon__3f413 {
-    background-color: var(--soft-bright-color) !important;
-    border-radius: 4px !important;
-}
-.selectedIcon__3f413 path,
-.selectedIcon__3f413 circle {
-    fill: transparent !important;
-}
 .settingsTabBar_f62afd {
     border-bottom: none !important;
 }
@@ -16477,17 +16469,33 @@ img:not(.emote):not(.emoji)::after {
     border: 2px solid var(--hover-bright-color) !important;
 }
 .checkbox_f525d3.checked_f525d3 {
-    border: 2px solid var(--soft-bright-color) !important;
-    background-color: var(--soft-bright-color) !important;
+    background-color: transparent !important;
 }
-.focused_c1e9c4 .checkbox_f525d3 > svg > path {
+.checkbox_f525d3.checked_f525d3 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.colorDanger_c1e9c4 .checkbox_f525d3 {
+    border: 2px solid var(--hover-red-bright-color) !important;
+}
+.colorDanger_c1e9c4 .checkbox_f525d3.checked_f525d3 {
+    background-color: transparent !important;
+}
+.colorDanger_c1e9c4 .checkbox_f525d3.checked_f525d3 > svg > path {
+    fill: var(--hover-red-bright-color) !important;
+}
+
+/* Checkbox (other) */
+.selectedIcon__3f413 {
+    background-color: transparent !important;
+}
+.selectedIcon__3f413 circle {
     fill: transparent !important;
 }
-.colorDefault_c1e9c4 .checkbox_c1e9c4 {
-    color: transparent !important;
-}
-.colorDefault_c1e9c4 .check_c1e9c4 {
-    color: var(--soft-bright-color) !important;
+.selectedIcon__3f413 path {
+    d: path(
+        "M 19.06 6.94 a 1.5 1.5 0 0 1 0 2.12 l -8 8 a 1.5 1.5 0 0 1 -2.12 0 l -4 -4 a 1.5 1.5 0 0 1 2.12 -2.12 L 10 13.88 l 6.94 -6.94 a 1.5 1.5 0 0 1 2.12 0 Z"
+    ) !important;
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Modded/Corrupted Discord banner */
