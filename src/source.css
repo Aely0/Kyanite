@@ -14999,15 +14999,16 @@ path[fill="rgb(255,216,54)"] {
     background: var(--hover-color) !important;
     backdrop-filter: blur(40px) !important;
 }
-.option__54675 {
-    color: var(--hover-bright-color) !important;
-    background-color: var(--hover-color) !important;
-}
-.option__54675 .optionIconAndLabel__54675 {
-    color: var(--hover-bright-color) !important;
-}
-.option__54675:hover .optionIconAndLabel__54675 {
+.option__3f413[aria-selected="true"]:not(.option__3f413.multi__3f413) {
+    background-color: var(--hover-faint-color) !important;
     color: var(--soft-bright-color) !important;
+}
+:where(.visual-refresh) .option__3f413:hover {
+    background-color: var(--hover-faint-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+:where(.visual-refresh) .option__3f413 {
+    color: var(--hover-bright-color) !important;
 }
 .editingContainer__57752 {
     background-color: var(--hover-color) !important;
