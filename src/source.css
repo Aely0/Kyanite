@@ -14706,6 +14706,18 @@ path[fill="rgb(255,216,54)"] {
 .clickable__75b30 > svg > path {
     fill: var(--hover-bright-color) !important;
 }
+.preview__44061 .button__14992 {
+    background-color: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.preview__44061 .button__14992:hover {
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.preview__44061 .presetLabel__14992 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Content & Social (User Settings) */
 .card__5cea9 {
