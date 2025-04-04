@@ -1932,9 +1932,8 @@ pre:hover .copybutton {
 .auto_c8b5c7::-webkit-scrollbar-thumb {
     background-color: var(--hover-dark-color) !important;
 }
-.auto_c8b5c7::-webkit-scrollbar-thumb,
 .auto_c8b5c7::-webkit-scrollbar-track {
-    border: 4px solid var(--hover-color) !important;
+    border: 4px solid transparent !important;
 }
 .audienceContainerCollapsed__55bab {
     background-color: var(--dark-bg) !important;
@@ -1942,6 +1941,58 @@ pre:hover .copybutton {
 }
 .audienceIcon__55bab {
     color: var(--hover-bright-color) !important;
+}
+.buttonSection_fcb27c {
+    border: none !important;
+    background: var(--hover-faded-color) !important;
+}
+.colorable_f1ceac.greenGlow_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac {
+    color: var(--soft-bright-color) !important;
+}
+.iconDisabled__9293f > .icon__9293f > path,
+.titleWrapper__9293f svg > path,
+.raisedHandIcon__15cd2 > svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.raisedHandIcon__15cd2:hover > svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.downIcon__9aed4,
+.micIcon__9aed4 {
+    color: var(--hover-bright-color) !important;
+}
+.speakerCount__4783a {
+    font-weight: 500 !important;
+}
+.container__9aed4 {
+    border-bottom: none !important;
+}
+:where(.visual-refresh)
+    .colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4)
+    path {
+    fill: var(--red-bright-color) !important;
+}
+.pulse__6b38f {
+    box-shadow: none !important;
+    animation: none !important;
+}
+.stageIconBackground__4c084,
+.iconBackground__296bb {
+    background-color: var(--hover-color) !important;
+}
+.stageIcon__4c084,
+.headerIcon__296bb {
+    color: var(--soft-bright-color) !important;
+}
+.textInput__327b5 {
+    background-color: transparent !important;
+}
+.container_fdb9cf > svg > rect {
+    fill: var(--hover-color) !important;
+}
+.container_fdb9cf > svg > path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Premium Membership */
@@ -2873,10 +2924,12 @@ pre:hover .copybutton {
     background-color: var(--soft-bright-color) !important;
 }
 .channelNotice_e2d7b8 {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
 }
 .channelNotice_e2d7b8 .userNames_e2d7b8,
-.channelNotice_e2d7b8 .channelName_e2d7b8 {
+.channelNotice_e2d7b8 .channelName_e2d7b8,
+.channelNotice_e2d7b8 .dotDivider_e2d7b8,
+.channelNotice_e2d7b8 .details_e2d7b8 {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
 }
