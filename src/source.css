@@ -10956,13 +10956,13 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Header (pin + inbox) */
-.iconWrapper__9293f.clickable__9293f:has(.svg__2338f) > .svg__2338f {
-    display: none !important;
+.iconWrapper__9293f.clickable__9293f:has(.svg__2338f) > .svg__2338f path {
+    fill: transparent !important;
 }
 .iconWrapper__9293f.clickable__9293f:has(.svg__2338f)::before {
-    width: 100px !important;
+    width: 24px !important;
     height: 24px !important;
-    position: relative !important;
+    position: absolute !important;
     left: 4px !important;
     content: "" !important;
     background: var(--hover-bright-color) !important;
