@@ -13900,6 +13900,10 @@ div[class*="flex-"][class*="title-"],
     width: 22px !important;
     height: 22px !important;
 }
+.innerCloseButtonPlated__972a0 {
+    border-radius: 4px !important;
+    background-color: var(--hover-color) !important;
+}
 
 /* DM profile panel */
 .panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"] {
