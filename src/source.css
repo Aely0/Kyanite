@@ -5975,37 +5975,18 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* NSFW confirmation */
-.ui-guild-nsfw .image {
+.visual-refresh .scroller__28a87 {
+    background-color: transparent !important;
+}
+.gatedContent__7184c .image__7184c {
     display: none !important;
 }
-.ui-guild-nsfw .title {
-    color: var(--main-color) !important;
-    font-weight: 600 !important;
-}
-.ui-guild-nsfw .description {
-    color: hsla(0, 0%, 100%, 0.5) !important;
-}
-.ui-guild-nsfw .separator {
-    background-color: hsla(0, 0%, 100%, 0.04) !important;
-}
-.ui-guild-nsfw .ui-button {
-    -webkit-transition: all 0.3s ease-in-out !important;
-    transition: all 0.3s ease-in-out !important;
-}
-.ui-guild-nsfw .ui-button.outlined {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    color: #949494 !important;
-    border-color: transparent !important;
-}
-.ui-guild-nsfw .ui-button.outlined:hover {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    color: #fff !important;
-}
-.ui-guild-nsfw .action-button.dark-red {
-    background-color: var(--main-color) !important;
-}
-.ui-guild-nsfw .action-button.dark-red:hover {
-    background-color: var(--hover-color) !important;
+.gatedContent__7184c::before {
+    content: "" !important;
+    width: 250px !important;
+    height: 250px !important;
+    background: color-mix(in srgb, var(--hover-red-color), red 16%) !important;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z'/%3E%3C/svg%3E ") !important;
 }
 .actionRed-gYn8D3 {
     color: var(--hover-red-bright-color) !important;
