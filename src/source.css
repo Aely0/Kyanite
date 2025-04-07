@@ -4137,6 +4137,46 @@ button[aria-label="Stop Watching"]
     border-top: none !important;
     border-left: none !important;
 }
+.visual-refresh .container_a55fdc {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.headerDescription_a55fdc {
+    color: var(--hover-bright-color) !important;
+}
+.rightTrayIcon__2cdb8 svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.rightTrayIcon__2cdb8:hover svg path {
+    fill: var(--soft-bright-color) !important;
+}
+
+/* Screen sharing (Wayland) */
+.nativeSourceTypeButton_a2de16 {
+    color: var(--hover-bright-color) !important;
+    background-color: var(--hover-faint-color) !important;
+    transition: all 100ms ease-in-out !important;
+}
+.nativeSourceTypeButton_a2de16:hover {
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-faded-color) !important;
+    transition: all 100ms ease-in-out !important;
+}
+.nativeSourceTypeButton_a2de16
+    .nativeSourceTypeButtonInner_a2de16
+    > svg
+    > path {
+    fill: var(--hover-bright-color) !important;
+}
+.nativeSourceTypeButton_a2de16:hover
+    .nativeSourceTypeButtonInner_a2de16
+    > svg
+    > path {
+    fill: var(--soft-bright-color) !important;
+}
+.nativePickerRadioItem_a2de16 {
+    border: none !important;
+}
 
 /* Popout menu + Status picker */
 .menu_c1e9c4,
