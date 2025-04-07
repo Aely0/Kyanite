@@ -14268,8 +14268,12 @@ path[fill="rgb(255,216,54)"] {
 .label_b717a1,
 .legend_b717a1,
 .sidebar__23e6b .header-2Kx1US,
-.header_b3f026 {
+.header_b3f026,
+.title__3e443 {
     color: var(--soft-bright-color) !important;
+}
+.title__0d850 {
+    color: var(--hover-bright-color) !important;
 }
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.link-39xJu3 > svg > g > path {
     fill: var(--hover-bright-color) !important;
@@ -14303,7 +14307,7 @@ path[fill="rgb(255,216,54)"] {
     color: var(--hover-bright-color) !important;
 }
 .divider__46c3b {
-    display: none !important;
+    visibility: hidden !important;
 }
 .divider__8b90f,
 .tabBar_d6f9e9 {
@@ -14779,9 +14783,6 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Data & Privacy (User Settings) */
-.title__0d850 {
-    color: var(--soft-bright-color) !important;
-}
 .settingsTabBar_f62afd {
     border-bottom: none !important;
 }
