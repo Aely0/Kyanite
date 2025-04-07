@@ -10126,6 +10126,12 @@ img.sidebarHeader__0ab2c {
     background-color: var(--dark-bg) !important;
     box-shadow: none !important;
 }
+.visual-refresh .barButtonAlt__0f481 {
+    background-color: transparent !important;
+}
+.jumpToPresentBar__0f481 .button__201d5 {
+    padding: 8px;
+}
 
 /* Message list loading */
 .scrollerInner__36d07 .avatar_fc8177,
