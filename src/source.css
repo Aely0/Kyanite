@@ -15354,10 +15354,6 @@ path[fill="rgb(255,216,54)"] {
 .switchAccountsIcon_e0f739 > g > path {
     color: var(--hover-bright-color) !important;
 }
-.activeIcon_d40c56 > g > path {
-    fill: var(--main-color) !important;
-}
-.activeIcon_d40c56 > circle,
 .icon-2QUmmw > path {
     fill: var(--soft-bright-color) !important;
 }
@@ -15375,6 +15371,18 @@ path[fill="rgb(255,216,54)"] {
 .navRow__86e92[data-theme="dark"],
 .input__0f084.input_d64f22 {
     background-color: transparent !important;
+}
+.activeIcon_d40c56 circle {
+    display: none !important;
+}
+.userMenuItem_d40c56 .activeIcon_d40c56 path {
+    fill: var(--hover-bright-color) !important;
+    d: path(
+        "M19.06 6.94a1.5 1.5 0 0 1 0 2.12l-8 8a1.5 1.5 0 0 1-2.12 0l-4-4a1.5 1.5 0 0 1 2.12-2.12L10 13.88l6.94-6.94a1.5 1.5 0 0 1 2.12 0Z"
+    ) !important;
+}
+.focused_d40c56 .userMenuItem_d40c56 .activeIcon_d40c56 path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Premium promo */
