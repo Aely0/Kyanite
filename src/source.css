@@ -14693,6 +14693,39 @@ path[fill="rgb(255,216,54)"] {
     color: var(--hover-bright-color) !important;
     opacity: 0.6 !important;
 }
+.headerV2__50a54,
+.appDetailsContainer__50a54 {
+    background-color: var(--hover-faded-color) !important;
+}
+.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+    background-color: transparent !important;
+    border-bottom: none !important;
+}
+.appDetailsSectionHeader__50a54 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.permissionsDescription__50a54 {
+    color: var(--hover-bright-color) !important;
+}
+.actionMenuButton_d84e0f {
+    background-color: var(--hover-faint-color) !important;
+    transition: background-color 100ms ease-in-out !important;
+}
+.actionMenuButton_d84e0f:hover {
+    background-color: var(--hover-faded-color) !important;
+    transition: background-color 100ms ease-in-out !important;
+}
+.actionMenuButton_d84e0f > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.actionMenuButton_d84e0f:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.divider__50a54 {
+    visibility: hidden !important;
+}
 
 /* Activities bg */
 .container__927fc {
