@@ -9187,20 +9187,31 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Circular close button */
-.theme-dark .closeButton_c2b141 {
-    border-color: var(--hover-color) !important;
+.closeButton_c2b141 {
+    border-color: transparent !important;
+    background-color: var(--hover-faded-color) !important;
+    border-radius: 8px !important;
+    transition: background-color 100ms ease-in-out !important;
 }
-.theme-dark .closeButton_c2b141:hover {
+.closeButton_c2b141:hover {
     background-color: var(--hover-color) !important;
+    transition: background-color 100ms ease-in-out !important;
 }
 .closeButton_c2b141 > svg > path {
-    fill: var(--hover-dark-color) !important;
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
 .closeButton_c2b141:hover > svg > path {
-    fill: var(--hover-bright-color) !important;
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
-.theme-dark .keybind_c2b141 {
-    color: var(--hover-dark-color) !important;
+.keybind_c2b141 {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.closeButton_c2b141:hover + .keybind_c2b141 {
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
 }
 
 /* Dropdown menu */
