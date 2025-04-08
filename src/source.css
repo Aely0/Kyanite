@@ -14808,6 +14808,19 @@ path[fill="rgb(255,216,54)"] {
 .premiumLabel_e681d1.selected_e681d1 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.rowBottomBorder_e4ef5c {
+    border-bottom: 1px solid transparent !important;
+}
+.closeIcon_e4ef5c {
+    color: var(--hover-dark-color) !important;
+}
+.checkmarkIcon_e4ef5c {
+    color: var(--soft-bright-color) !important;
+}
+#discord-nitro-tab .innerWrapperV1__70f7f {
+    background-color: var(--dark-bg) !important;
+    box-shadow: none !important;
+}
 
 /* Server Boost (User Settings) */
 .repositioningMarketingLogo-33lOWL {
