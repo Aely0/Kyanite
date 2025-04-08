@@ -14860,6 +14860,66 @@ path[fill="rgb(255,216,54)"] {
 .guildsSection__337a8 {
     border-top: 1px solid var(--hover-color) !important;
 }
+.separator__5dba5 {
+    border-right: 1px solid transparent !important;
+}
+.columnHeading__686cf,
+.tableCell__686cf {
+    border-bottom: 1px solid transparent !important;
+}
+.icon__4d7bb > path {
+    fill: var(--hover-bright-color) !important;
+}
+.list__5b98e {
+    border-top: 1px solid transparent !important;
+}
+.listItem__5b98e {
+    border-bottom: 1px solid transparent !important;
+}
+.questionWrapper__5b98e,
+.questionWrapper__5b98e:active,
+.questionWrapper__5b98e:hover,
+.questionWrapperExpanded__5b98e {
+    color: var(--hover-bright-color) !important;
+}
+.breadcrumbWrapper__75013,
+.bodyText__945b8,
+.planSelectorLabel__945b8,
+.planSelectorPreviewPrice__945b8,
+.planSelectorSubtotal__945b8,
+.pricePerInterval_b39acb,
+.container_d0a022 .text-sm\/normal_cf4812,
+.bodyText__3bf54 {
+    color: var(--hover-bright-color) !important;
+}
+.activeBreadcrumb__75013,
+.pricePerInterval_b39acb strong {
+    color: var(--soft-bright-color) !important;
+}
+.planSelectDivider__945b8 {
+    background-color: transparent !important;
+}
+.upsellFooter__5e07c {
+    background-color: var(--hover-faint-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.icon_d0a022 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.iconWrapper__96f95,
+.perksList__3bf54 {
+    background: var(--hover-faded-color) !important;
+}
+.icon__96f95 {
+    color: var(--hover-bright-color) !important;
+}
+.icon__96f95:hover {
+    background: var(--hover-faint-color) !important;
+}
+:where(.visual-refresh) .planSelectorWrapper__945b8 .input__0f084:hover,
+:where(.visual-refresh) .planSelectorWrapper__945b8 .input__0f084[readonly] {
+    border: none !important;
+}
 
 /* Subscriptions (User Settings) */
 .sectionDescription-3uMpPK,
