@@ -15022,6 +15022,53 @@ path[fill="rgb(255,216,54)"] {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+.defaultThemeSelection__36dee {
+    box-shadow: none !important;
+}
+.selectionCircle__36dee {
+    box-shadow: inset 0 0 0 2px var(--hover-bright-color) !important;
+}
+.checkmarkCircle__36dee {
+    display: none !important;
+}
+.iconWrapper__36dee > svg > path,
+.premiumIcon_a00e6e > path,
+.premiumIcon__2a891 > path {
+    fill: var(--hover-bright-color) !important;
+}
+:where(.visual-refresh) .premiumIcon__67a11 {
+    color: var(--hover-bright-color) !important;
+}
+.editor__2a891,
+.themeEditor_cf6da1 {
+    background: transparent !important;
+    border-left: none !important;
+}
+.closeCircle__2a891,
+.closeCircle_cf6da1 {
+    background: var(--hover-faded-color) !important;
+    padding: 6px !important;
+    border-radius: 8px !important;
+    transition: background 100ms ease-in-out !important;
+}
+.closeCircle__2a891:hover,
+.closeCircle_cf6da1:hover {
+    background: var(--hover-color) !important;
+    transition: background 100ms ease-in-out !important;
+}
+.closeCircle__2a891 > path,
+.closeCircle_cf6da1 > path {
+    d: path(
+        "M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5.3-5.3a1 1 0 0 0-1.42-1.4L12 10.58l-5.3-5.3a1 1 0 0 0-1.4 1.42L10.58 12l-5.3 5.3a1 1 0 1 0 1.42 1.4L12 13.42l5.3 5.3Z"
+    ) !important;
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.closeCircle__2a891:hover > path,
+.closeCircle_cf6da1:hover > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
 
 /* Accessibility (User Settings) */
 .previewMessage__5d148 {
