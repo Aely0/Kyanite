@@ -15466,8 +15466,8 @@ path[fill="rgb(255,216,54)"] {
 .attendeeCTA_ca5ce6 {
     color: var(--hover-bright-color) !important;
 }
-.featureBorder_fbfab6fbfab6_4626b {
-    border-top: 1px solid var(--hover-color) !important;
+.featureBorder__4626b {
+    border-top: none !important;
 }
 
 /* Modal focus */
