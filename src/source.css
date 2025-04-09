@@ -13149,6 +13149,13 @@ div[class*="flex-"][class*="title-"],
 .selected__43deb .icon__43deb {
     color: var(--soft-bright-color) !important;
 }
+.gifFavoriteButton_b7e1cb {
+    transition: none !important;
+}
+.gifFavoriteButton_b7e1cb {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
 
 /* Gif tab */
 .autocomplete__13533 {
