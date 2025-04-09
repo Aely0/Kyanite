@@ -15266,7 +15266,8 @@ path[fill="rgb(255,216,54)"] {
 .container_e61cfb:not(.disabled__97701):hover {
     border-color: transparent !important;
 }
-.button_e18686.removeKeybind__740f2 {
+.button_e18686.removeKeybind__740f2,
+.button_e18686.removeGame_cc46f0 {
     text-indent: initial !important;
     width: 70px !important;
     height: 28px !important;
@@ -15276,18 +15277,21 @@ path[fill="rgb(255,216,54)"] {
     box-shadow: none !important;
     transition: color 200ms ease !important;
 }
-.button_e18686.removeKeybind__740f2:hover {
+.button_e18686.removeKeybind__740f2:hover,
+.button_e18686.removeGame_cc46f0:hover {
     background-color: var(--hover-red-color) !important;
     transition: color 200ms ease !important;
 }
-.button_e18686.removeKeybind__740f2::before {
+.button_e18686.removeKeybind__740f2::before,
+.button_e18686.removeGame_cc46f0::before {
     content: "Remove" !important;
     position: relative !important;
     top: 6px !important;
     left: 10px !important;
     color: var(--hover-red-bright-color) !important;
 }
-.button_e18686.removeKeybind__740f2:hover::before {
+.button_e18686.removeKeybind__740f2:hover::before,
+.button_e18686.removeGame_cc46f0:hover::before {
     color: var(--red-bright-color) !important;
 }
 .row__740f2 {
@@ -15370,8 +15374,8 @@ path[fill="rgb(255,216,54)"] {
     color: var(--hover-bright-color) !important;
 }
 .theme-dark .game_cc46f0 {
-    -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
-    box-shadow: 0 1px 0 0 var(--hover-color) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 .overlayToggleIconOff-ps4gGp .fill_cc46f0 {
     fill: var(--hover-red-bright-color) !important;
@@ -15382,31 +15386,31 @@ path[fill="rgb(255,216,54)"] {
 .game_cc46f0.card_b846e5 {
     background-color: transparent !important;
 }
-.toggleIcon_cc46f0[aria-label="Report incorrectly detected game"] .fill_cc46f0,
-.toggleIcon_cc46f0[aria-label="Toggle detection"]
-    .toggleIconOff_cc46f0
-    .fill_cc46f0,
-.toggleIcon_cc46f0[aria-label="Toggle detection"]
-    .toggleIconOff_cc46f0
-    .fill_cc46f0 {
+.gameVerifiedIcon_cc46f0 .flowerStar__3e3b0 {
+    display: none !important;
+}
+.redesignIconChildContainer__3e3b0 > svg {
+    width: 24px !important;
+    height: 24px !important;
+}
+.gameVerifiedIcon_cc46f0 {
+    margin-left: 4px !important;
+}
+.game_cc46f0 .toggleIconOn_cc46f0:has(path[d^="M3 1a1"]) path {
     fill: var(--red-dark-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
-.toggleIcon_cc46f0[aria-label="Report incorrectly detected game"]:hover
-    .fill_cc46f0,
-.toggleIcon_cc46f0[aria-label="Toggle detection"]:hover
-    .toggleIconOff_cc46f0
-    .fill_cc46f0 {
+.game_cc46f0 .toggleIconOn_cc46f0:has(path[d^="M3 1a1"]):hover path {
     fill: var(--red-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
-.toggleIcon_cc46f0[aria-label="Toggle detection"]
-    .toggleIconOn_cc46f0
-    .fill_cc46f0 {
+.game_cc46f0 .toggleIconOn_cc46f0:has(path[d^="M15.56 11.77c"]) path {
     fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
-.toggleIcon_cc46f0[aria-label="Toggle detection"]:hover
-    .toggleIconOn_cc46f0
-    .fill_cc46f0 {
+.game_cc46f0 .toggleIconOn_cc46f0:has(path[d^="M15.56 11.77c"]):hover path {
     fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
 
 /* Game overlay (User Settings) */
