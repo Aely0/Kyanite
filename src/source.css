@@ -15142,6 +15142,17 @@ path[fill="rgb(255,216,54)"] {
 .barFill-2Bh7CX {
     background: var(--hover-bright-color) !important;
 }
+.editIcon__2636e {
+    background-image: none !important;
+    background: var(--hover-bright-color) !important;
+    mask-image: url("https://discord.com/assets/fcbc6283c85dd170.svg") !important;
+}
+.notches__06283.gray__06283 {
+    color: transparent !important;
+}
+.progress__06283 {
+    background-color: var(--hover-faded-color) !important;
+}
 
 /* Soundboard (+ choose a sound) */
 .soundButtonRefresh__9be63 {
