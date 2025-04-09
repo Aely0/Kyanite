@@ -15242,43 +15242,57 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Keybinds (User Settings) */
-.warning__6436f {
+.iconDiv__35859 {
+    width: 20px !important;
+    height: 20px !important;
+    padding-top: 3px !important;
+}
+.warning__35859 {
     background: var(--hover-yellow-color) !important;
     border: 1px solid var(--hover-yellow-bright-color) !important;
     color: var(--yellow-bright-color) !important;
 }
-.warning__6436f .icon__6436f,
-.warning__6436f .text__6436f {
+.warning__35859 .icon__35859,
+.warning__35859 .text__35859 {
     color: var(--yellow-bright-color) !important;
 }
 .input__72d38.input-3K7d_z.base-ddxxyL {
     color: var(--soft-bright-color) !important;
 }
-.input__72d38.input-3K7d_z.base-ddxxyL::placeholder {
+.recorderLayout__2636e .keybindInput__2636e::placeholder {
     color: var(--hover-bright-color) !important;
 }
 .container_e61cfb:not(.disabled__97701):focus-within,
 .container_e61cfb:not(.disabled__97701):hover {
     border-color: transparent !important;
 }
-.button_e18686.filled_e18686.removeKeybind-2YVgVG {
-    background-color: var(--hover-faint-color) !important;
-    -webkit-box-shadow:
-        0 0 0 1px var(--hover-dark-color),
-        0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
-    box-shadow:
-        0 0 0 1px var(--hover-dark-color),
-        0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
+.button_e18686.removeKeybind__740f2 {
+    text-indent: initial !important;
+    width: 70px !important;
+    height: 28px !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+    background-color: var(--hover-red-color) !important;
+    box-shadow: none !important;
+    transition: color 200ms ease !important;
 }
-.button_e18686.filled_e18686.removeKeybind-2YVgVG:hover {
-    background-color: var(--hover-color) !important;
+.button_e18686.removeKeybind__740f2:hover {
+    background-color: var(--hover-red-color) !important;
+    transition: color 200ms ease !important;
 }
-.keybindGroup__740f2.card_b846e5 {
-    background: transparent !important;
+.button_e18686.removeKeybind__740f2::before {
+    content: "Remove" !important;
+    position: relative !important;
+    top: 6px !important;
+    left: 10px !important;
+    color: var(--hover-red-bright-color) !important;
+}
+.button_e18686.removeKeybind__740f2:hover::before {
+    color: var(--red-bright-color) !important;
 }
 .row__740f2 {
-    -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
-    box-shadow: inset 0 -1px 0 var(--hover-color) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 .key_fcddc1 {
     color: var(--soft-bright-color) !important;
@@ -15291,6 +15305,10 @@ path[fill="rgb(255,216,54)"] {
 }
 .input_f89b2c {
     color: var(--soft-bright-color) !important;
+}
+.card_b846e5:before {
+    border: none !important;
+    background-color: var(--hover-faint-color) !important;
 }
 
 /* Registered Games (User Settings) */
