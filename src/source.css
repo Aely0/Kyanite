@@ -3655,13 +3655,19 @@ pre:hover .copybutton {
     font-weight: 600 !important;
 }
 .callAvatarMaskContainer_f910d0 .status_f910d0 {
-    background-color: var(--red-dark-color) !important;
+    background-color: transparent !important;
 }
 .callAvatarMaskContainer_f910d0 .status_f910d0 path {
     fill: var(--red-bright-color) !important;
 }
 .disconnect_f1ceac .controlIcon_f1ceac > path {
     fill: var(--hover-red-bright-color) !important;
+}
+.border_f910d0.speaking_f910d0 {
+    box-shadow: inset 0 0 0 4px var(--hover-bright-color) !important;
+}
+.statusContainer_f910d0 {
+    background-color: var(--hover-red-dark-color) !important;
 }
 
 /* Screen sharing / Video calls */
