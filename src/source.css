@@ -1819,6 +1819,25 @@ pre:hover .copybutton {
 .container_fdb9cf > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.auto_c8b5c7::-webkit-scrollbar {
+    width: 12px !important;
+}
+.toast_d3c698 {
+    background-color: transparent !important;
+}
+.toast_d3c698 .messageContent_c19a55 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
+.toast_d3c698 .messageContentWrapper_d3c698 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+    background-color: var(--dark-bg) !important;
+    border-radius: 8px !important;
+}
+.messageContentTrailingIcon_d3c698 > path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Premium Membership */
 .scroller__808a1,
