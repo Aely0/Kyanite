@@ -5531,6 +5531,7 @@ img:not(.emote):not(.emoji)::after {
 }
 .categoryItemLockIconContainer__0fa6d {
     background-color: var(--hover-dark-color) !important;
+    border: none !important;
 }
 .categoryItemLockIcon__0fa6d {
     color: var(--soft-bright-color) !important;
@@ -15163,7 +15164,10 @@ path[fill="rgb(255,216,54)"] {
 .secondaryButtonRefresh__9be63:hover {
     color: var(--soft-bright-color) !important;
 }
-.picker__09f65.refresh__09f65 {
+.categoryList_a1e0e0 {
+    background-color: transparent !important;
+}
+.picker__09f65 {
     background-color: var(--dark-bg) !important;
 }
 .categoryIcon_a1e0e0:hover,
@@ -15184,6 +15188,23 @@ path[fill="rgb(255,216,54)"] {
 .sectionHeader__61424 .sectionTitle__61424,
 .headerIcon__61424 {
     color: var(--hover-bright-color) !important;
+}
+.soundButtonWrapper__9be63 {
+    background: transparent !important;
+}
+.soundButton__9be63 {
+    background: var(--hover-faded-color) !important;
+}
+.soundButton__9be63:hover {
+    border: 2px solid var(--hover-bright-color) !important;
+}
+.buttonOverlayBackground__9be63 {
+    background: var(--dark-bg) !important;
+    border-radius: 8px !important;
+}
+.primaryIcon__9be63,
+.primaryIconRefresh__9be63 {
+    color: var(--soft-bright-color) !important;
 }
 .soundButtonSettingContainer__84bad {
     background: var(--hover-color) !important;
@@ -15208,8 +15229,8 @@ path[fill="rgb(255,216,54)"] {
 .settingsIcon__61424:focus {
     color: var(--soft-bright-color) !important;
 }
-.favoriteIconFavorite__9be63 {
-    color: var(--soft-bright-color) !important;
+.favoriteIconFavorite__9be63 > path {
+    fill: var(--soft-bright-color) !important;
 }
 .upsellInner__50e68 {
     background: var(--hover-color) !important;
@@ -15222,16 +15243,26 @@ path[fill="rgb(255,216,54)"] {
 .sectionFooter__61424 {
     background-color: transparent !important;
 }
-.soundButtonInteractiveRefresh__9be63.previewing__9be63 {
-    outline: 2px solid var(--hover-bright-color) !important;
+.soundButtonInteractive__9be63.playing__9be63 {
+    border: 2px solid var(--soft-bright-color) !important;
 }
-.soundButtonInteractiveRefresh__9be63.playing__9be63 {
-    outline: 2px solid var(--soft-bright-color) !important;
+.soundAddButton_da9eb2 {
+    color: var(--hover-bright-color) !important;
 }
-.soundInfoRefresh__9be63:hover .soundAddIconRefresh_da9eb2,
-.soundInfoRefresh__9be63:hover .soundAddTextRefresh_da9eb2 {
+.soundAddButton_da9eb2:hover {
     color: var(--soft-bright-color) !important;
-    transition: color 200ms ease-in-out !important;
+}
+.soundShowAllButton__6eb78 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.visual-refresh .container_d829e7 {
+    background-color: var(--dark-bg) !important;
+}
+.visual-refresh .ctaContainer_d829e7 {
+    background-color: transparent !important;
+}
+.secondaryCTA_d829e7 {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Keybinds (User Settings) */
