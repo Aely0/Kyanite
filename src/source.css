@@ -6881,36 +6881,10 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Invite link */
-.invite-modal .scroller {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-.invite-modal .invite-title {
-    color: var(--main-color) !important;
-}
-.invite-modal .button {
-    background-color: var(--main-color) !important;
-}
-.invite-modal .button:hover {
-    background-color: var(--hover-color) !important;
-}
-.invite-modal .invite-body,
-.invite-modal .invite-cancel {
-    color: #b6bbc1 !important;
-}
-.invite-modal .invite-cancel:hover {
-    text-decoration: none !important;
-    text-shadow: 0 0 1px !important;
-}
-.invite-button .invite-button-header {
-    color: hsla(0, 0%, 100%, 0.7) !important;
-}
-.invite-button .invite-button-body {
-    color: hsla(0, 0%, 100%, 0.5) !important;
-}
 .theme-dark .wrapper_d5f3cd,
 .theme-dark .invite__4d3fa {
-    background: rgba(0, 0, 0, 0.2) !important;
-    border: 1px solid var(--hover-color) !important;
+    background: var(--hover-faint-color) !important;
+    border: none !important;
     border-radius: 12px !important;
 }
 .theme-dark .header__4d3fa {
@@ -6927,6 +6901,31 @@ img:not(.emote):not(.emoji)::after {
 }
 .statusOffline_d5f3cd.status_d5f3cd {
     background-color: var(--main-color) !important;
+}
+.visual-refresh .editProfileContainer__42179 {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+}
+.customizationSection__42179.opened__42179 {
+    border-top: 1px solid transparent !important;
+}
+.activityCount_fa285e .pillIconOnline__921c5 {
+    background-color: var(--soft-bright-color) !important;
+}
+.activityCount_fa285e .pillIconTotal__921c5 {
+    background-color: var(--hover-dark-color) !important;
+}
+.activityCount_fa285e .text-sm\/normal_cf4812 {
+    font-weight: 500 !important;
+}
+.caret__42179 {
+    color: var(--hover-bright-color) !important;
+}
+.headerIconWrapper__42179 {
+    background-color: var(--hover-faded-color) !important;
+}
+.headerIconWrapper__42179 > svg > path {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Game Invites */
