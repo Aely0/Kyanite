@@ -3472,6 +3472,27 @@ pre:hover .copybutton {
     color: var(--hover-dark-color) !important;
 }
 
+/* Server settings profile tab */
+.itemSelected_ec9088,
+.traitContainerFocused__4cbea {
+    border: 1px solid var(--hover-bright-color) !important;
+}
+.traitContainer__4cbea {
+    background: var(--hover-color) !important;
+}
+.container_cd2100 {
+    border: 1px solid transparent !important;
+}
+.inputDefault__0f084.input__0f084.traitInput__4cbea {
+    background-color: transparent !important;
+}
+.gameImageBackground_a3ec8a {
+    background-color: var(--hover-color) !important;
+}
+.gameUnknownImage_a3ec8a > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+
 /* Server settings tag tab */
 .enableSwitchContainer__69ef9,
 .tagInputWrapper__69ef9,
