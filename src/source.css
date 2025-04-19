@@ -3472,6 +3472,33 @@ pre:hover .copybutton {
     color: var(--hover-dark-color) !important;
 }
 
+/* Server settings tag tab */
+.enableSwitchContainer__69ef9,
+.tagInputWrapper__69ef9,
+.pickerItem__69ef9 {
+    background-color: var(--hover-color) !important;
+}
+.container__11014 {
+    background-color: var(--hover-color) !important;
+}
+.pickerItem__69ef9:hover:not(.pickerItemSelected__69ef9) {
+    border-color: var(--hover-dark-color) !important;
+}
+.tagInputWrapper__69ef9:hover {
+    border-color: var(--hover-faint-color) !important;
+}
+.tagInputWrapper__69ef9:focus-within,
+.pickerItemSelected__69ef9 {
+    border-color: var(--hover-bright-color) !important;
+}
+.inputDefault__0f084.input__0f084.tagInput__69ef9 {
+    background-color: transparent !important;
+}
+.guildIconImage__79e3e.acronym__79e3e {
+    background-color: var(--hover-faded-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+
 /* Private channels */
 .privateChannels__35e86 {
     background-color: transparent !important;
