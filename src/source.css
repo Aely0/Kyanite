@@ -9310,6 +9310,13 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Threads */
+.members_c8ffbb {
+    background: transparent !important;
+}
+.visual-refresh .container__7641b {
+    background-color: transparent !important;
+    border-left: none !important;
+}
 .threadIcon_d9c882 {
     color: var(--hover-bright-color) !important;
 }
