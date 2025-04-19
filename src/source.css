@@ -9875,15 +9875,26 @@ img.sidebarHeader__0ab2c {
     fill: var(--soft-bright-color) !important;
 }
 
-/* Guild tag */
+/* Server tag */
 .chipletContainerInner__4a25c {
     background: var(--hover-dark-color) !important;
 }
 .chipletContainerInner__4a25c:hover {
-    background: var(--bg-mod-faint);
+    background: color-mix(
+        in srgb,
+        var(--hover-bright-color) 50%,
+        transparent
+    ) !important;
 }
 .unselectable__4a25c {
     color: var(--soft-bright-color) !important;
+}
+.clanTagContainer__63ed3 {
+    border: none !important;
+    height: auto !important;
+}
+.badge__4a25c {
+    margin-bottom: -2px !important;
 }
 
 /* Guild popout */
