@@ -9924,10 +9924,10 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Server tag */
-.chipletContainerInner__4a25c {
+.chipletContainerInner__10651 {
     background: var(--hover-dark-color) !important;
 }
-.chipletContainerInner__4a25c:hover {
+.chipletContainerInner__10651:hover {
     background: color-mix(
         in srgb,
         var(--hover-bright-color) 50%,
