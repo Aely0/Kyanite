@@ -10955,8 +10955,14 @@ div[class*="flex-"][class*="title-"],
 .iconWrapper__9293f:has(.svg__2338f):hover::before {
     background: var(--soft-bright-color) !important;
 }
-.recentsIcon_c99c29 .button__85643:hover .icon__9293f > path,
-.recentsIcon_c99c29 .button__85643.selected__9293f .icon__9293f > path {
+.recentsIcon_c99c29
+    .button__85643:not(:has(.svg__2338f)):hover
+    .icon__9293f
+    > path,
+.recentsIcon_c99c29
+    .button__85643:not(:has(.svg__2338f)).selected__9293f
+    .icon__9293f
+    > path {
     fill: var(--soft-bright-color) !important;
 }
 .iconWrapper__9293f:has(.svg__2338f) .iconBadge__9293f {
