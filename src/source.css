@@ -9737,6 +9737,11 @@ img.sidebarHeader__0ab2c {
     border-left: none !important;
 }
 
+/* Member list (owner icon) */
+.ownerIcon__5d473 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* New unreads bar */
 .container__3b95d {
     padding: 0px !important;
