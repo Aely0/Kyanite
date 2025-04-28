@@ -11192,19 +11192,22 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Status game text */
-.subText__91a9d .overflow__82b15 {
+.subText__91a9d .overflow__82b15,
+.subText__20a53 .overflow__82b15,
+.subText__20a53 .subtext__972a0 {
+    color: var(--hover-bright-color) !important;
+    font-size: 0.7rem !important;
     font-weight: 600 !important;
 }
-.subText__91a9d .overflow__82b15,
-.subText__20a53 .overflow__82b15 {
-    font-size: 0.7rem !important;
-}
-.subText__91a9d .overflow__82b15 strong,
-.subText__20a53 .overflow__82b15,
 .subtext__0a06e .overflow__82b15 {
     color: var(--hover-bright-color) !important;
 }
-.icon__8ac07 path {
+.subText__91a9d .overflow__82b15 strong,
+.subText__20a53 .overflow__82b15 strong,
+.subtext__0a06e .overflow__82b15 strong {
+    color: var(--soft-bright-color) !important;
+}
+.icon_c9d15c path {
     fill: var(--hover-bright-color) !important;
 }
 
