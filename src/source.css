@@ -14080,6 +14080,17 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
 }
 
+/* DM unread blip */
+.unreadPill__972a0 {
+    background-color: var(--soft-bright-color) !important;
+    border-radius: 25px !important;
+    height: 8px !important;
+    left: -8px !important;
+    margin-top: 0px !important;
+    top: 40% !important;
+    width: 8px !important;
+}
+
 /* Snowsgiving */
 .snowsgivingLink-1TZi3c:hover {
     background-color: var(--hover-color) !important;
