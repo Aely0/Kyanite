@@ -13920,6 +13920,7 @@ div[class*="flex-"][class*="title-"],
 .channel__972a0 .subText__20a53,
 .channel__972a0:hover .activity__972a0 {
     color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
 }
 .interactive_bf202d.interactive__972a0.muted-3KGUWb {
     opacity: 0.4 !important;
@@ -14021,13 +14022,11 @@ div[class*="flex-"][class*="title-"],
 
 /* DM unread blip */
 .unreadPill__972a0 {
-    background-color: var(--soft-bright-color) !important;
-    border-radius: 25px !important;
-    height: 8px !important;
-    left: -8px !important;
-    margin-top: 0px !important;
-    top: 40% !important;
-    width: 8px !important;
+    display: none !important;
+}
+.dm__972a0:has(.unreadPill__972a0) .name__20a53 {
+    color: var(--soft-bright-color) !important;
+    transition: color 200ms ease-in-out !important;
 }
 
 /* Snowsgiving */
