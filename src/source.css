@@ -10456,9 +10456,15 @@ img.sidebarHeader__0ab2c {
     transition: all 400ms ease-in-out !important;
 }
 
-/* Guilds bar */
+/* Server list */
 :root {
     --guildbar-avatar-size: 48px !important;
+}
+.blobContainer_e5445c,
+.listItemWrapper__91816,
+.wrapper_cc5dd2 {
+    height: var(--guildbar-avatar-size) !important;
+    width: var(--guildbar-avatar-size) !important;
 }
 .svg_cc5dd2 foreignObject {
     mask: none !important;
@@ -10523,7 +10529,7 @@ img.sidebarHeader__0ab2c {
     z-index: 11 !important;
 }
 
-/* Guild add/discover buttons */
+/* Server add/discover buttons */
 .circleIconButton__5bc7e {
     color: var(--hover-dark-color) !important;
     background-color: rgba(0, 0, 0, 0.2) !important;
@@ -10588,7 +10594,7 @@ img.sidebarHeader__0ab2c {
     color: var(--soft-bright-color) !important;
 }
 
-/* Guild welcome channel */
+/* Server welcome channel */
 .titleName_aae012 p {
     color: var(--hover-bright-color) !important;
 }
