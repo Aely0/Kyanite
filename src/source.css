@@ -10466,7 +10466,7 @@ img.sidebarHeader__0ab2c {
     height: var(--guildbar-avatar-size) !important;
     width: var(--guildbar-avatar-size) !important;
 }
-.svg_cc5dd2 foreignObject {
+.svg_cc5dd2 foreignObject:not(:has(.folderIconWrapper__48112)) {
     mask: none !important;
     overflow: visible !important;
     x: -4 !important;
