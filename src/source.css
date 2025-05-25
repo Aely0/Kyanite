@@ -8634,6 +8634,28 @@ h2.title_feb59c strong {
 .backButton__78f69:hover {
     color: var(--soft-bright-color) !important;
 }
+.sampleLink__991a0 {
+    color: var(--hover-bright-color) !important;
+}
+.rowContainer__991a0 {
+    background-color: var(--hover-faded-color) !important;
+    transition: all 100ms ease-in-out !important;
+}
+.rowContainer__991a0:hover {
+    background-color: var(--hover-color) !important;
+    transition: all 100ms ease-in-out !important;
+}
+.rowContainer__991a0:hover div {
+    color: var(--soft-bright-color) !important;
+    transition: all 100ms ease-in-out !important;
+}
+.rowContainer__991a0 div {
+    text-align: center !important;
+    margin: auto !important;
+}
+.rowContainer__991a0 img {
+    display: none !important;
+}
 
 /* Server create menu */
 .avatarUploaderInner-yEhTv5 {
