@@ -9952,6 +9952,9 @@ img.sidebarHeader__0ab2c {
     border: none !important;
     height: auto !important;
 }
+.guildTagContainer__63ed3 {
+    border: 1px solid transparent !important;
+}
 
 /* Server tag popout */
 .container__86ab2,
