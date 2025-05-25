@@ -11796,6 +11796,8 @@ div[class*="flex-"][class*="title-"],
 .pill_fccfdf {
     border: 1px solid var(--hover-color) !important;
     background-color: var(--hover-color) !important;
+    border-radius: 8px !important;
+    padding: 2px !important;
 }
 .activity_f00225 {
     background: var(--hover-color) !important;
