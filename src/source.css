@@ -10545,7 +10545,7 @@ img.sidebarHeader__0ab2c {
     display: none !important;
 }
 
-/* Add guild menu */
+/* Add server menu */
 .root__49fc1.small-23Atuv.fullscreenOnMobile__49fc1 {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -10589,6 +10589,20 @@ img.sidebarHeader__0ab2c {
 .button__201d5.lookBlank-21BCro.colorBrand__201d5.sizeMin-DfpWCE.grow__201d5
     > div:hover {
     color: var(--soft-bright-color) !important;
+}
+.container_eb2cd2:has(.icon_eb2cd2) {
+    border: none !important;
+}
+.icon_eb2cd2 {
+    margin-left: auto !important;
+    margin-right: 16px !important;
+}
+.text_eb2cd2 {
+    margin-left: 0px !important;
+    margin-right: auto !important;
+}
+.arrow_eb2cd2 {
+    display: none !important;
 }
 
 /* Server welcome channel */
