@@ -4768,6 +4768,9 @@ button[aria-label="Stop Watching"]
 }
 
 /* Server Discover (Servers) */
+.container_d08938 .headerBar__8a7fc {
+    padding-right: 50px !important;
+}
 .container_cbd375,
 .search_eed148 {
     background: transparent !important;
@@ -4783,6 +4786,21 @@ button[aria-label="Stop Watching"]
 }
 .card__84e3e {
     background-color: var(--hover-color) !important;
+    border: 2px solid transparent !important;
+}
+.card__84e3e:focus,
+.card__84e3e:hover {
+    border-color: var(--hover-bright-color) !important;
+    box-shadow: none !important;
+}
+.icon__402f3 {
+    background-color: var(--dark-bg) !important;
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.icon__402f3:hover {
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
 }
 .iconMask__4cb8a {
     background-color: var(--dark-bg) !important;
