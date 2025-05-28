@@ -84,7 +84,7 @@
 :not(.platform-osx).visual-refresh .bar_c38106 .trailing_c38106 {
     position: relative !important;
     z-index: 200 !important;
-    top: 10px !important;
+    top: 8px !important;
 }
 :not(.platform-osx).visual-refresh .content_c48ade {
     grid-row: noticeEnd / end !important;
@@ -16433,6 +16433,50 @@ img:not(.emote):not(.emoji)::after {
         "M 19.06 6.94 a 1.5 1.5 0 0 1 0 2.12 l -8 8 a 1.5 1.5 0 0 1 -2.12 0 l -4 -4 a 1.5 1.5 0 0 1 2.12 -2.12 L 10 13.88 l 6.94 -6.94 a 1.5 1.5 0 0 1 2.12 0 Z"
     ) !important;
     fill: var(--soft-bright-color) !important;
+}
+
+/* Notice (Streamer Mode) */
+.notice__6e2b9 {
+    border-radius: 8px !important;
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-color) !important;
+    grid-row: titleBar / end !important;
+    grid-column: channelsList !important;
+    height: 75px !important;
+    line-height: 20px !important;
+    margin: 10px !important;
+    padding: 15px !important;
+}
+.container_c48ade:has(.notice__6e2b9) .sidebarList_c48ade {
+    padding-top: 130px !important;
+}
+.notice__6e2b9 .button__6e2b9 {
+    background: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        transparent
+    ) !important;
+    color: var(--hover-red-bright-color) !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: all 200ms ease !important;
+    top: 12px !important;
+    height: 30px !important;
+    width: 90px !important;
+}
+.notice__6e2b9 .button__6e2b9:hover {
+    background: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+}
+.notice__6e2b9 .closeButton__6e2b9 path {
+    fill: var(--soft-bright-color) !important;
+}
+.notice__6e2b9 .closeButton__6e2b9 {
+    width: 28px !important;
+    opacity: 0.6 !important;
+}
+.notice__6e2b9 .closeButton__6e2b9:hover {
+    opacity: 0.85 !important;
 }
 
 /* Modded/Corrupted Discord banner */
