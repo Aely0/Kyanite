@@ -4771,6 +4771,9 @@ button[aria-label="Stop Watching"]
 .container_d08938 .headerBar__8a7fc {
     padding-right: 50px !important;
 }
+.platform-win.visual-refresh .container_d08938 .headerBar__8a7fc {
+    padding-right: 148px !important;
+}
 .container_cbd375,
 .search_eed148 {
     background: transparent !important;
