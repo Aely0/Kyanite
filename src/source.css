@@ -11937,13 +11937,10 @@ div[class*="flex-"][class*="title-"],
 .iconWrapper_a4a127 {
     color: var(--hover-bright-color) !important;
 }
-.footer__537ec {
-    border-top: 1px solid var(--hover-color) !important;
-}
-.footerButtonColor__537ec {
+.footerButtonColor__7f9c0 {
     color: var(--hover-bright-color) !important;
 }
-.footerButtonColor__537ec:hover {
+.footerButtonColor__7f9c0:hover {
     color: var(--soft-bright-color) !important;
 }
 .menuDivider_af7fb7 {
@@ -11993,7 +11990,7 @@ div[class*="flex-"][class*="title-"],
 .outer_c0bea0[style^="--profile-gradient-primary-color: var(--background-"] {
     background-color: var(--dark-bg) !important;
 }
-.outer_c0bea0.panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-"] {
+.outer_c0bea0.user-profile-sidebar[style^="--profile-gradient-primary-color: var(--background-"] {
     background-color: transparent !important;
 }
 .emptyText__9d78f {
@@ -14055,14 +14052,8 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* DM profile panel */
-.panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"] {
+.user-profile-sidebar:not(.custom-user-profile-theme) {
     background-color: transparent !important;
-}
-.panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"]
-    .overlay__747b1,
-.panel_c0bea0[style^="--profile-gradient-primary-color: var(--background-secondary-alt)"]
-    .overlay__325ce {
-    background-color: var(--hover-color) !important;
 }
 .overlay_c0bea0.activity__747b1 {
     background-color: var(--hover-color) !important;
@@ -14070,14 +14061,19 @@ div[class*="flex-"][class*="title-"],
 .divider__23eb0 {
     background-color: transparent !important;
 }
-.clickable_c7ac92 svg path {
+.clickable__1f6ca svg path {
     fill: var(--hover-bright-color) !important;
 }
-.footer__537ec {
-    border-top: none !important;
+.row__0a95c,
+.row__89036 {
+    color: var(--hover-bright-color) !important;
 }
-.footerButtonColor__537ec {
-    color: var(--soft-bright-color) !important;
+.row__0a95c:hover,
+.row__89036:hover {
+    background-color: var(--hover-faded-color) !important;
+}
+.footer__7f9c0 {
+    border-top: none !important;
 }
 
 /* DM blocked user */
