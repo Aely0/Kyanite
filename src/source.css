@@ -11204,6 +11204,31 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-faded-color) !important;
 }
 
+/* Timeout menu */
+.selectorButton__0907c {
+    background: var(--hover-color) !important;
+}
+.selectorText__0907c {
+    color: var(--hover-bright-color) !important;
+    font-weight: 700 !important;
+}
+.selectorButtonSelected__0907c {
+    background: var(--main-color) !important;
+}
+.selectorButtonSelected__0907c .selectorTextSelected__0907c {
+    color: var(--soft-bright-color) !important;
+    font-weight: 700 !important;
+}
+.closeIcon__0907c {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.6 !important;
+    transition: opacity 100ms ease-in-out !important;
+}
+.closeIcon__0907c:hover {
+    opacity: 0.8 !important;
+    transition: opacity 100ms ease-in-out !important;
+}
+
 /* Status game text */
 .subText__91a9d .overflow__82b15,
 .subText__20a53 .overflow__82b15,
