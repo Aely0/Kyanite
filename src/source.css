@@ -4172,7 +4172,7 @@ button[aria-label="Stop Watching"]
 .selectorButtonSelected_c6d3dc {
     background: var(--hover-dark-color) !important;
 }
-.selectorTextSelected__147ec.selectorText_c6d3dc {
+.selectorButtonSelected_c6d3dc .selectorText_c6d3dc {
     color: var(--soft-bright-color) !important;
 }
 .item__126a6 {
@@ -4222,6 +4222,9 @@ button[aria-label="Stop Watching"]
 }
 .rightTrayIcon__2cdb8:hover svg path {
     fill: var(--soft-bright-color) !important;
+}
+.item__3d4a0 {
+    border-color: var(--hover-color) !important;
 }
 
 /* Screen sharing (Wayland) */
