@@ -10250,6 +10250,21 @@ img.sidebarHeader__0ab2c {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Voice channel set status */
+.visual-refresh .container__08bd2 {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.modal__08bd2 .textAreaWithoutAttachmentButton__74017 {
+    color: var(--soft-bright-color) !important;
+    font-weight: 500 !important;
+}
+.modal__08bd2 .textAreaWithoutAttachmentButton__74017 .codeBlockSyntax_ada32f,
+.modal__08bd2 .textAreaWithoutAttachmentButton__74017 .syntaxAfter_ada32f,
+.modal__08bd2 .textAreaWithoutAttachmentButton__74017 .syntaxBefore_ada32f {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Element focus */
 .focus-rings-ring {
     --__adaptive-focus-ring-color: var(--hover-bright-color) !important;
