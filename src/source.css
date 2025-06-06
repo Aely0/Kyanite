@@ -11792,10 +11792,7 @@ div[class*="flex-"][class*="title-"],
 .menuDivider_af7fb7 {
     background-color: transparent !important;
 }
-.menuItemColor_af7fb7 {
-    color: var(--hover-bright-color) !important;
-}
-.menuItemColor_af7fb7:hover {
+.menuItemColor_ce8328:hover {
     background-color: var(--hover-color) !important;
 }
 .tabBar_d1d9f3 {
