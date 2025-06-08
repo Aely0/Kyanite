@@ -16274,38 +16274,36 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--soft-bright-color) !important;
 }
 
-/* Notice (Streamer Mode) */
+/* Notice */
 .notice__6e2b9 {
-    border-radius: 8px !important;
+    /* border-radius: 8px !important; */
+    border-radius: 0px !important;
     color: var(--soft-bright-color) !important;
-    background-color: var(--hover-color) !important;
-    grid-row: titleBar / end !important;
-    grid-column: channelsList !important;
-    height: 75px !important;
-    line-height: 20px !important;
-    margin: 10px !important;
-    padding: 15px !important;
+    /* background-color: var(--hover-color) !important; */
+    background-color: var(--dark-bg) !important;
+    /* grid-row: titleBar / end !important; */
+    /* grid-column: channelsList !important; */
+    /* height: 75px !important; */
+    /* line-height: 20px !important; */
+    /* margin: 10px !important; */
+    /* padding: 15px !important; */
 }
-.container_c48ade:has(.notice__6e2b9) .sidebarList_c48ade {
-    padding-top: 130px !important;
-}
+/* .container_c48ade:has(.notice__6e2b9) .sidebarList_c48ade { */
+/* padding-top: 130px !important; */
+/* } */
 .notice__6e2b9 .button__6e2b9 {
-    background: color-mix(
-        in srgb,
-        var(--hover-red-color) 60%,
-        transparent
-    ) !important;
-    color: var(--hover-red-bright-color) !important;
+    background: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
     border-radius: 8px !important;
     border: none !important;
     transition: all 200ms ease !important;
-    top: 12px !important;
-    height: 30px !important;
-    width: 90px !important;
+    /* top: 12px !important; */
+    /* height: 30px !important; */
+    /* width: 90px !important; */
 }
 .notice__6e2b9 .button__6e2b9:hover {
-    background: var(--hover-red-color) !important;
-    color: var(--red-bright-color) !important;
+    background: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
 }
 .notice__6e2b9 .closeButton__6e2b9 path {
     fill: var(--soft-bright-color) !important;
@@ -16316,11 +16314,6 @@ img:not(.emote):not(.emoji)::after {
 }
 .notice__6e2b9 .closeButton__6e2b9:hover {
     opacity: 0.85 !important;
-}
-
-/* Modded/Corrupted Discord banner */
-.noticeDanger-7u-yT9 {
-    display: none !important;
 }
 
 /* Login page */
