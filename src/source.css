@@ -66,6 +66,38 @@
 .wordmarkWindows__421ed {
     display: none !important;
 }
+:not(.platform-osx).visual-refresh .bar_c38106 .title_c38106 {
+    display: none !important;
+}
+:not(.platform-osx).visual-refresh .bar_c38106 .trailing_c38106 {
+    position: relative !important;
+    z-index: 200 !important;
+}
+:not(.platform-osx).visual-refresh .content_c48ade {
+    grid-row: noticeEnd / end !important;
+}
+
+/* Title bar (Linux/Web) */
+.platform-linux.visual-refresh .base_c48ade,
+.platform-web.visual-refresh .base_c48ade {
+    grid-template-areas:
+        "notice notice notice"
+        "guildsList channelsList page" !important;
+    grid-template-rows: inherit !important;
+}
+.platform-linux.visual-refresh .bar_c38106,
+.platform-web.visual-refresh .bar_c38106 {
+    position: absolute !important;
+    grid-area: page !important;
+    right: 0px !important;
+    top: 12px !important;
+}
+.platform-linux.visual-refresh .toolbar__9293f,
+.platform-web.visual-refresh .toolbar__9293f {
+    padding-right: 40px !important;
+}
+
+/* Title bar (Windows) */
 .winButton_c38106 {
     color: var(--hover-bright-color) !important;
     border-radius: 4px !important;
@@ -78,20 +110,11 @@
     color: var(--red-bright-color) !important;
     background-color: var(--hover-red-color) !important;
 }
-:not(.platform-osx).visual-refresh .bar_c38106 .title_c38106 {
-    display: none !important;
-}
-:not(.platform-osx).visual-refresh .bar_c38106 .trailing_c38106 {
-    position: relative !important;
-    z-index: 200 !important;
+.platform-win.visual-refresh .bar_c38106 .trailing_c38106 {
     top: 8px !important;
 }
-:not(.platform-osx).visual-refresh .content_c48ade {
-    grid-row: noticeEnd / end !important;
+.platform-win.visual-refresh .content_c48ade {
     margin-top: -36px !important;
-}
-:not(.platform-osx).visual-refresh .toolbar__9293f {
-    padding-right: 40px !important;
 }
 .platform-win.visual-refresh .bar_c38106 {
     padding-left: 0px !important;
@@ -16280,7 +16303,7 @@ img:not(.emote):not(.emoji)::after {
     border-radius: 0px !important;
     color: var(--soft-bright-color) !important;
     /* background-color: var(--hover-color) !important; */
-    background-color: var(--dark-bg) !important;
+    background-color: var(--hover-color) !important;
     /* grid-row: titleBar / end !important; */
     /* grid-column: channelsList !important; */
     /* height: 75px !important; */
