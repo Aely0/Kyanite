@@ -4600,13 +4600,17 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 
-/* Server Discover (Servers) */
+/* Server Discover (Servers) (Linux/Web) */
 .container_d08938 .headerBar__8a7fc {
     padding-right: 50px !important;
 }
+
+/* Server Discover (Servers) (Windows) */
 .platform-win.visual-refresh .container_d08938 .headerBar__8a7fc {
     padding-right: 148px !important;
 }
+
+/* Server Discover (Servers) */
 .container_cbd375,
 .search_eed148 {
     background: transparent !important;
@@ -10356,6 +10360,11 @@ img.sidebarHeader__0ab2c {
     transition: all 400ms ease-in-out !important;
 }
 
+/* Server list (platform specific) */
+:not(.platform-osx).visual-refresh .guilds_c48ade {
+    padding-top: 10px !important;
+}
+
 /* Server list */
 :root {
     --guildbar-avatar-size: 48px !important;
@@ -10420,9 +10429,6 @@ img.sidebarHeader__0ab2c {
 }
 .guildSeparator__252b6 {
     background-color: transparent !important;
-}
-:not(.platform-osx).visual-refresh .guilds_c48ade {
-    padding-top: 10px !important;
 }
 .visual-refresh .wrapper_ef3116 {
     margin-bottom: 0px !important;
