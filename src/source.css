@@ -16359,6 +16359,20 @@ img:not(.emote):not(.emoji)::after {
     opacity: 0.85 !important;
 }
 
+/* Notice (Server Preview) */
+.notice__6e2b9 .colorWhite__201d5 {
+    background: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.notice__6e2b9 .colorWhite__201d5:hover {
+    background: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.notice__6e2b9 .header_c5cd6a {
+    color: var(--soft-bright-color) !important;
+    font-weight: 500 !important;
+}
+
 /* Login page */
 .theme-dark.authBox_dc6abe {
     background: var(--dark-bg) !important;
