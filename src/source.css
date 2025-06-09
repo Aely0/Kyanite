@@ -1367,6 +1367,15 @@ body::after,
         var(--hover-dark-color)
     ) !important;
 }
+.playbackRate_a8e786 {
+    background-color: var(--hover-faded-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+.playbackRate_a8e786:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
 
 /* Channel start */
 .overflow_ef4a91 {
