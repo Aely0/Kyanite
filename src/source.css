@@ -8012,10 +8012,10 @@ h2.title_feb59c strong {
 .theme-dark .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
     border-top-color: var(--main-color) !important;
 }
-.channelIcon-1eKmlw,
-.channelIcon__949ab {
-    background-color: var(--hover-color) !important;
-    color: var(--soft-bright-color) !important;
+.channelTitleIcon__949ab path,
+.channelIcon-1eKmlw path,
+.channelIcon__949ab path {
+    fill: var(--hover-bright-color) !important;
 }
 .icon-2BoU5V {
     background-color: var(--hover-color) !important;
