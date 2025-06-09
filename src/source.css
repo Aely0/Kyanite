@@ -16838,3 +16838,12 @@ a[href="https://support.discord.com"]
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
+
+/* VoiceMessages */
+.vc-vmsg-preview {
+    color: var(--hover-bright-color) !important;
+    background-color: var(--hover-faint-color) !important;
+}
+.vc-vmsg-preview-indicator {
+    background: var(--hover-faint-color) !important;
+}
