@@ -11023,6 +11023,9 @@ div[class*="flex-"][class*="title-"],
 .emojiButton__04eed .sprite__04eed {
     scale: 1.28 !important;
 }
+.focused_c1e9c4 .optionIcon__77820 > path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Message edit bar */
 .message__5126c .operations_bab751 {
