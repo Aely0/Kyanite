@@ -4467,6 +4467,17 @@ button[aria-label="Stop Watching"]
     border: 2px solid var(--hover-red-dark-color) !important;
 }
 
+/* Server Discover (Linux/Web) */
+.platform-linux.visual-refresh .headerBar__8a7fc.overlay__8a7fc,
+.platform-web.visual-refresh .headerBar__8a7fc.overlay__8a7fc {
+    padding-right: 50px !important;
+}
+
+/* Server Discover (Windows) */
+.platform-win.visual-refresh .headerBar__8a7fc.overlay__8a7fc {
+    padding-right: 148px !important;
+}
+
 /* Server Discover */
 .container__551b0,
 .scroller__23746 {
@@ -4600,16 +4611,6 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 
-/* Server Discover (Servers) (Linux/Web) */
-.container_d08938 .headerBar__8a7fc {
-    padding-right: 50px !important;
-}
-
-/* Server Discover (Servers) (Windows) */
-.platform-win.visual-refresh .container_d08938 .headerBar__8a7fc {
-    padding-right: 148px !important;
-}
-
 /* Server Discover (Servers) */
 .container_cbd375,
 .search_eed148 {
@@ -4657,6 +4658,9 @@ button[aria-label="Stop Watching"]
 }
 .memberCountDot__4cb8a {
     background-color: var(--hover-dark-color) !important;
+}
+.spinner__4cb8a {
+    background-color: var(--dark-bg) !important;
 }
 
 /* Server Discover (Quests) */
