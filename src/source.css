@@ -4236,9 +4236,6 @@ button[aria-label="Stop Watching"]
 .visual-refresh .panels_c48ade {
     padding-left: 64px !important;
 }
-.wrapper__44b0c.avatar__37e49 > svg {
-    width: 44px !important;
-}
 .visual-refresh .avatarWrapper__37e49 {
     gap: 4px !important;
 }
@@ -4246,7 +4243,12 @@ button[aria-label="Stop Watching"]
     top: 4px;
 }
 .panels_c48ade .mask__44b0c.svg__44b0c {
-    height: 47px !important;
+    width: 42px !important;
+}
+.panels_c48ade .avatarDecoration__44b0c {
+    width: 50px !important;
+    left: -0.25rem !important;
+    top: -0.1rem !important;
 }
 .visual-refresh .avatarWrapper__37e49 {
     border-top-left-radius: 8px !important;
@@ -4503,6 +4505,9 @@ button[aria-label="Stop Watching"]
 }
 .headerBar__8a7fc:after {
     background-color: transparent !important;
+}
+.searchIcon__1ac1c > svg > path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Server Discover (Apps) */
@@ -9176,6 +9181,11 @@ img.sidebarHeader__0ab2c {
     background: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid var(--main-color) !important;
     border-radius: 5px !important;
+}
+
+/* Message Avatars */
+.a11y-font-scaled-down .avatarDecoration_c19a55:not(.compact_c19a55) {
+    left: 0.75rem !important;
 }
 
 /* Message edited */
