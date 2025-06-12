@@ -66,24 +66,27 @@
 .wordmarkWindows__421ed {
     display: none !important;
 }
-:not(.platform-osx).visual-refresh .bar_c38106 .title_c38106 {
+
+/* Title bar (Linux/Web) */
+.platform-linux.visual-refresh .bar_c38106 .title_c38106,
+.platform-web.visual-refresh .bar_c38106 .title_c38106 {
     display: none !important;
 }
-:not(.platform-osx).visual-refresh .bar_c38106 .trailing_c38106 {
+.platform-linux.visual-refresh .bar_c38106 .trailing_c38106,
+.platform-web.visual-refresh .bar_c38106 .trailing_c38106 {
     position: relative !important;
     z-index: 200 !important;
 }
-:not(.platform-osx).visual-refresh .content_c48ade {
+.platform-linux.visual-refresh .content_c48ade,
+.platform-web.visual-refresh .content_c48ade {
     grid-row: noticeEnd / end !important;
 }
-
-/* Title bar (Linux/Web) */
 .platform-linux.visual-refresh .base_c48ade,
 .platform-web.visual-refresh .base_c48ade {
     grid-template-areas:
         "notice notice notice"
         "guildsList channelsList page" !important;
-    grid-template-rows: inherit !important;
+    grid-template-rows: [start] min-content [noticeEnd] 1fr [end] !important;
 }
 .platform-linux.visual-refresh .bar_c38106,
 .platform-web.visual-refresh .bar_c38106 {
@@ -110,19 +113,19 @@
     color: var(--red-bright-color) !important;
     background-color: var(--hover-red-color) !important;
 }
-.platform-win.visual-refresh .bar_c38106 .trailing_c38106 {
-    top: 8px !important;
-}
-.platform-win.visual-refresh .content_c48ade {
-    margin-top: -36px !important;
-}
-.platform-win.visual-refresh .bar_c38106 {
-    padding-left: 0px !important;
-    margin-left: calc(30%) !important;
-}
-.platform-win.visual-refresh .toolbar__9293f {
-    padding-right: 158px !important;
-}
+/* .platform-win.visual-refresh .bar_c38106 .trailing_c38106 { */
+/* top: 8px !important; */
+/* } */
+/* .platform-win.visual-refresh .content_c48ade { */
+/* margin-top: -36px !important; */
+/* } */
+/* .platform-win.visual-refresh .bar_c38106 { */
+/* padding-left: 0px !important; */
+/* margin-left: calc(30%) !important; */
+/* } */
+/* .platform-win.visual-refresh .toolbar__9293f { */
+/* padding-right: 158px !important; */
+/* } */
 .platform-win.visual-refresh .winButtonsWithDivider_c38106:before {
     display: none !important;
 }
@@ -4485,9 +4488,9 @@ button[aria-label="Stop Watching"]
 }
 
 /* Server Discover (Windows) */
-.platform-win.visual-refresh .headerBar__8a7fc.overlay__8a7fc {
-    padding-right: 148px !important;
-}
+/* .platform-win.visual-refresh .headerBar__8a7fc.overlay__8a7fc { */
+/* padding-right: 148px !important; */
+/* } */
 
 /* Server Discover */
 .container__551b0,
@@ -10441,8 +10444,9 @@ img.sidebarHeader__0ab2c {
     transition: all 400ms ease-in-out !important;
 }
 
-/* Server list (platform specific) */
-:not(.platform-osx).visual-refresh .guilds_c48ade {
+/* Server list (Linux/Web) */
+.platform-linux.visual-refresh .guilds_c48ade,
+.platform-web.visual-refresh .guilds_c48ade {
     padding-top: 10px !important;
 }
 
