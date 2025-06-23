@@ -8792,6 +8792,18 @@ h2.title_feb59c strong {
     border-top-color: var(--main-color) !important;
 }
 
+/* Adopt server tag popup */
+.container_cdb3b1 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color) 0px 0px 5px inset !important;
+}
+.container_cdb3b1:after {
+    border-top: 8px solid var(--dark-bg) !important;
+}
+.tag_cdb3b1 {
+    background-color: var(--hover-faded-color) !important;
+}
+
 /* Party Mode popup */
 .content_b00844 {
     background-color: var(--main-color) !important;
