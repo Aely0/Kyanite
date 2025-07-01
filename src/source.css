@@ -13706,6 +13706,12 @@ div[class*="flex-"][class*="title-"],
 .visual-refresh .container__0be77 {
     border: none !important;
 }
+.imageContainer_f69538 {
+    background: var(--hover-faded-color) !important;
+}
+.victorAnswerText_f69538 {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Home tabs */
 .children__9293f .iconWrapper__9293f .icon__9293f {
