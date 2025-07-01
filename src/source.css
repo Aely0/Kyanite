@@ -11045,6 +11045,9 @@ div[class*="flex-"][class*="title-"],
 .visual-refresh .attachButton__0923f:hover .attachButtonPlus__0923f {
     fill: var(--soft-bright-color) !important;
 }
+.attachButton__74017 {
+    margin-right: 0px !important;
+}
 .buttons__74017 .buttonWrapper__24af7 {
     color: var(--hover-bright-color) !important;
     transition: color 200ms !important;
