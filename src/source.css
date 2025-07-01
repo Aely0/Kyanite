@@ -14811,6 +14811,9 @@ path[fill="rgb(255,216,54)"] {
 .iconContainer__5cea9 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.emptyContainer_de8069 {
+    background-color: transparent !important;
+}
 
 /* Data & Privacy (User Settings) */
 .settingsTabBar_f62afd {
