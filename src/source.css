@@ -14779,6 +14779,12 @@ path[fill="rgb(255,216,54)"] {
 .preview__44061 .presetLabel__14992 {
     color: var(--hover-bright-color) !important;
 }
+.guildName_e7c728 {
+    color: var(--hover-bright-color) !important;
+}
+.option__3f413:hover .guildName_e7c728 {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Content & Social (User Settings) */
 .card__5cea9 {
