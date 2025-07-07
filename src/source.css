@@ -259,6 +259,18 @@ body::after,
 [style*="color: var(--header-secondary)"] {
     color: var(--hover-bright-color) !important;
 }
+:root,
+.visual-refresh.theme-midnight,
+.visual-refresh .theme-midnight,
+.visual-refresh.theme-darker,
+.visual-refresh .theme-darker,
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark {
+    --text-feedback-positive: var(--soft-bright-color) !important;
+}
+path {
+    --status-positive: var(--soft-bright-color) !important;
+}
 
 /* Generic checkbox/radio */
 .colorDefault_c1e9c4 .checkbox-hADx5o,
