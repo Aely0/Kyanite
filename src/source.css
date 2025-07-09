@@ -9099,38 +9099,22 @@ h2.title_feb59c strong {
 }
 
 /* Server boost progress bar */
-.colorInteractiveActive-30E9n8.size12-oc4dx4.goalText-2FXXG-,
-.colorInteractiveNormal-36ZhyZ.size12-oc4dx4 strong,
-.colorInteractiveNormal-36ZhyZ.size12-oc4dx4 {
-    color: var(--soft-bright-color) !important;
+.progressContainer__0d0f9 {
+    background-color: var(--hover-faint-color) !important;
 }
-.progressBarContainer-DLPbha {
-    background-color: var(--hover-color) !important;
-}
-.progressBar_eff079 {
-    position: absolute;
-    z-index: 2;
-    background: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(var(--hover-dark-color)),
-        to(var(--soft-bright-color))
-    ) !important;
+.progress__0d0f9 {
     background: linear-gradient(
-        90deg,
+        270deg,
         var(--hover-dark-color),
-        var(--soft-bright-color)
-    );
+        var(--dark-bg)
+    ) !important;
+    box-shadow: inset 0 0 4.6px 0 var(--hover-dark-color) !important;
 }
-.progressBarContainer_eff079 {
-    background-color: var(--hover-dark-color) !important;
+.container__0d0f9 .text__0d0f9 > path {
+    fill: var(--hover-bright-color) !important;
 }
-.divider__0c76f {
-    border-top: none !important;
-}
-.container_eff079:after {
-    border-bottom: 1px solid var(--hover-color) !important;
+.boostCountText__0d0f9 {
+    transition: opacity 200ms ease-in-out !important;
 }
 
 /* Channel permissions */
