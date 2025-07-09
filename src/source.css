@@ -3623,9 +3623,6 @@ path {
     background-color: var(--hover-faded-color) !important;
     border-radius: 8px !important;
 }
-.participantsButton__211d1 {
-    background-color: var(--hover-faded-color) !important;
-}
 .participantsButton__211d1 .iconContainer__211d1 svg {
     color: var(--hover-bright-color) !important;
     transition: color 200ms ease !important;
@@ -3669,46 +3666,43 @@ path {
 .toolbar__9293f .controlIcon_f1ceac:hover {
     color: var(--soft-bright-color) !important;
 }
-.colorable_f1ceac.experimentDark_f1ceac,
-.colorable_f1ceac.experimentDark_f1ceac .centerIcon_f1ceac {
+.colorable_f1ceac.primaryDark_f1ceac,
+.colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac {
     color: var(--hover-bright-color) !important;
 }
-.colorable_f1ceac.experimentDark_f1ceac:hover,
-.colorable_f1ceac.experimentDark_f1ceac:hover .centerIcon_f1ceac {
+.colorable_f1ceac.primaryDark_f1ceac:hover,
+.colorable_f1ceac.primaryDark_f1ceac:hover .centerIcon_f1ceac {
     color: var(--soft-bright-color) !important;
 }
-.staticButton_f1ceac.colorBrand__201d5
-    .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
+.colorBrand__201d5 .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--hover-bright-color) !important;
 }
-.staticButton_f1ceac.colorBrand__201d5:hover
-    .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
+.colorBrand__201d5:hover .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--soft-bright-color) !important;
 }
 .disconnect_f1ceac,
-.staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5 {
+.experimentRed_f1ceac.colorBrand__201d5 {
     background: color-mix(
         in srgb,
         var(--hover-red-color) 60%,
         transparent
     ) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
-.staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5
+.disconnect_f1ceac .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
+.experimentRed_f1ceac.colorBrand__201d5
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac,
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5
+.disconnect_f1ceac.colorBrand__201d5
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--hover-red-bright-color) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac:hover,
-.staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5:hover {
+.disconnect_f1ceac:hover,
+.experimentRed_f1ceac.colorBrand__201d5:hover {
     background: var(--hover-red-color) !important;
 }
-.staticButton_f1ceac.disconnect_f1ceac:hover
-    .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
-.staticButton_f1ceac.experimentRed_f1ceac.colorBrand__201d5:hover
+.disconnect_f1ceac:hover .lottieIcon__5eb9b.fullRegionIcon_f1ceac,
+.experimentRed_f1ceac.colorBrand__201d5:hover
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac,
-.staticButton_f1ceac.disconnect_f1ceac.colorBrand__201d5
+.disconnect_f1ceac.colorBrand__201d5
     .lottieIcon__5eb9b.experimentControlIcon_f1ceac {
     --__lottieIconColor: var(--red-bright-color) !important;
 }
@@ -3755,14 +3749,14 @@ path {
 .colorable_f1ceac.white_f1ceac {
     background: var(--hover-dark-color) !important;
 }
-.colorable_f1ceac.experimentDark_f1ceac,
+.colorable_f1ceac.primaryDark_f1ceac,
 .colorable_f1ceac.greenGlow_f1ceac {
     background: var(--hover-faded-color) !important;
 }
 .colorable_f1ceac.greenGlow_f1ceac.popoutOpen_f1ceac,
 .colorable_f1ceac.greenGlow_f1ceac:hover,
-.colorable_f1ceac.experimentDark_f1ceac.active_f1ceac:not(.disabled_f1ceac),
-.colorable_f1ceac.experimentDark_f1ceac:hover:not(.disabled_f1ceac) {
+.colorable_f1ceac.primaryDark_f1ceac.active_f1ceac:not(.disabled_f1ceac),
+.colorable_f1ceac.primaryDark_f1ceac:hover:not(.disabled_f1ceac) {
     background: var(--hover-color) !important;
 }
 .colorable_f1ceac.join_f1ceac,
@@ -4046,8 +4040,8 @@ button[aria-label="Stop Watching"]
 .premiumStreamIcon__30845 {
     color: var(--hover-bright-color) !important;
 }
-.attachedCaretButtonContainer_f1ceac.popoutOpen_f1ceac .experimentDark_f1ceac,
-.attachedCaretButtonContainer_f1ceac:hover .experimentDark_f1ceac {
+.attachedCaretButtonContainer_f1ceac.popoutOpen_f1ceac .primaryDark_f1ceac,
+.attachedCaretButtonContainer_f1ceac:hover .primaryDark_f1ceac {
     background-color: var(--hover-color) !important;
 }
 .gradientBackground__11664,
