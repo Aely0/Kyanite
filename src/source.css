@@ -9951,24 +9951,24 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Server tag popout */
-.container__86ab2,
-.spinnerContainer__86bf6,
-.avatarWrapper__86ab2 {
+.container_dca174,
+.spinnerContainer_d3846c,
+.avatarWrapper_dca174 {
     background: var(--dark-bg) !important;
 }
-.container__86ab2 {
+.container_dca174 {
     border: 1px solid var(--hover-color) !important;
 }
-.memberCount__99f53 .dotOnline__99f53,
-.memberCount__99f53 .dot__99f53 {
+.memberCount__6e500 .dotOnline__6e500,
+.memberCount__6e500 .dot__6e500 {
     background: var(--soft-bright-color) !important;
 }
-.memberCount__99f53 .dot__99f53 {
+.memberCount__6e500 .dot__6e500 {
     background: var(--hover-dark-color) !important;
 }
-.memberCount__99f53 .text-sm\/normal_cf4812,
-.established__99f53 .text-sm\/normal_cf4812,
-.body__86ab2 .text-sm\/normal_cf4812,
+.memberCount__6e500 .text-sm\/normal_cf4812,
+.established__6e500 .text-sm\/normal_cf4812,
+.body_dca174 .text-sm\/normal_cf4812,
 .traitLabel_d452e4 {
     color: var(--hover-bright-color) !important;
     font-weight: 500 !important;
@@ -9993,24 +9993,32 @@ img.sidebarHeader__0ab2c {
 .tooltip__3ff92 .traitLabel_d452e4 {
     color: var(--soft-bright-color) !important;
 }
-.gameIconImage__80da8 {
+.gameIconImage__4e338 {
     border: none !important;
 }
-.gameIconImage__80da8:hover {
+.gameIconImage__4e338:hover {
     background-color: var(--hover-faded-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
-.extraGameOverlay__80da8 {
+.extraGameOverlay__4e338 {
     background: color-mix(in srgb, var(--dark-bg) 80%, transparent) !important;
 }
-.extraGameText__80da8 .text-xs\/normal_cf4812 {
+.extraGameText__4e338 .text-xs\/normal_cf4812 {
     color: var(--soft-bright-color) !important;
 }
-.gameActivityLevel__80da8 {
+.gameActivityLevel__4e338 {
     background-color: var(--dark-bg) !important;
 }
-.gameActivityLevelInner__80da8 > svg > path {
+.gameActivityLevelInner__4e338 > svg > path {
     fill: var(--soft-bright-color) !important;
+}
+.active__6af3a .lineClamp1__4bd52.text-sm\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+    transition: color 200ms ease-in-out !important;
+}
+.active__6af3a:hover .lineClamp1__4bd52.text-sm\/medium_cf4812 {
+    color: var(--soft-bright-color) !important;
+    transition: color 200ms ease-in-out !important;
 }
 
 /* Role and category names + Direct Messages title */
@@ -12232,7 +12240,8 @@ div[class*="flex-"][class*="title-"],
 .lookFilled__201d5.colorGreen__201d5,
 .theme-dark .watchButton-2v6cPT,
 .shinyButton_d5e126,
-.buttonWhite-hd8TaT {
+.buttonWhite-hd8TaT,
+.active__6af3a {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
     color: var(--hover-bright-color) !important;
@@ -12257,7 +12266,8 @@ div[class*="flex-"][class*="title-"],
 .lookFilled__201d5.colorGreen__201d5:hover,
 .theme-dark .watchButton-2v6cPT:hover,
 .shinyButton_d5e126:hover,
-.buttonWhite-hd8TaT:hover {
+.buttonWhite-hd8TaT:hover,
+.active__6af3a:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
