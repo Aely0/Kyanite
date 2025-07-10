@@ -14874,7 +14874,8 @@ path[fill="rgb(255,216,54)"] {
 
 /* Authorized apps (User Settings) */
 .formNotice_f43ba5.card__73069,
-.cardPrimary__73069.card__73069 {
+.cardPrimary__73069.card__73069,
+.authedAppV2__50a54 {
     background-color: transparent !important;
     border: none !important;
 }
