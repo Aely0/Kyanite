@@ -4235,9 +4235,6 @@ button[aria-label="Stop Watching"]
 .icon_c9d15c path {
     fill: var(--hover-bright-color) !important;
 }
-.lineClamp1__4bd52.text-sm\/medium_cf4812 {
-    color: var(--hover-bright-color) !important;
-}
 .rtcConnectionStatusWrapper__06d62 .channel_e131a9:hover {
     text-decoration: none !important;
 }
@@ -12241,7 +12238,9 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .watchButton-2v6cPT,
 .shinyButton_d5e126,
 .buttonWhite-hd8TaT,
-.active__6af3a {
+.active__6af3a,
+.primary__6af3a,
+.secondary__6af3a {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
     color: var(--hover-bright-color) !important;
@@ -12267,13 +12266,17 @@ div[class*="flex-"][class*="title-"],
 .theme-dark .watchButton-2v6cPT:hover,
 .shinyButton_d5e126:hover,
 .buttonWhite-hd8TaT:hover,
-.active__6af3a:hover {
+.active__6af3a:hover,
+.primary__6af3a:hover,
+.secondary__6af3a:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
 }
 .lookOutlined__201d5.colorRed__201d5,
-.lookFilled__201d5.colorRed__201d5 {
+.lookFilled__201d5.colorRed__201d5,
+.critical-primary__6af3a,
+.critical-secondary__6af3a {
     background: color-mix(
         in srgb,
         var(--hover-red-color) 60%,
@@ -12284,7 +12287,9 @@ div[class*="flex-"][class*="title-"],
     transition: all 200ms ease !important;
 }
 .lookOutlined__201d5.colorRed__201d5:hover,
-.lookFilled__201d5.colorRed__201d5:hover {
+.lookFilled__201d5.colorRed__201d5:hover,
+.critical-primary__6af3a:hover,
+.critical-secondary__6af3a:hover {
     background: var(--hover-red-color) !important;
     color: var(--red-bright-color) !important;
 }
