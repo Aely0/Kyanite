@@ -12096,6 +12096,76 @@ div[class*="flex-"][class*="title-"],
 .markup__75297 small:not(.inlineFormat__75297) span {
     color: var(--hover-bright-color) !important;
 }
+.full-motion .showMoreButton__84832 {
+    transition: none !important;
+}
+.showMoreButton__84832 {
+    backdrop-filter: none !important;
+    background-color: transparent !important;
+    color: var(--hover-bright-color) !important;
+    transform: none !important;
+}
+.firstCardContainer__84832.hasShowMoreButton__84832 .card__84832 {
+    box-shadow: none !important;
+}
+.viewAllButton__84832:hover {
+    text-decoration-color: var(--hover-bright-color) !important;
+}
+.header_bf424d {
+    color: var(--hover-bright-color) !important;
+}
+.textarea__9daae {
+    color: var(--hover-bright-color) !important;
+}
+.profileNote__9c3be textarea::placeholder,
+.note_fcb628 textarea::placeholder {
+    color: var(--hover-bright-color) !important;
+    opacity: 0.6 !important;
+}
+.profileNote__9c3be textarea:focus:focus,
+.profileNote__9c3be textarea:focus:focus:hover,
+.note_fcb628 textarea:focus:focus,
+.note_fcb628 textarea:focus:focus:hover {
+    border-color: var(--hover-bright-color) !important;
+}
+.profileNote__9c3be textarea:focus,
+.note_fcb628 textarea:focus {
+    background: var(--hover-color) !important;
+}
+.tabBarItem__37bfc,
+.tabBarItem_d1d9f3 {
+    color: var(--hover-bright-color) !important;
+}
+.tabBarItem__37bfc:hover,
+.tabBarItem__37bfc.selected_b3f026,
+.tabBarItem_d1d9f3:hover .defaultColor__4bd52,
+.tabBarItem_d1d9f3.selected_b3f026 .defaultColor__4bd52 {
+    background-color: transparent !important;
+    color: var(--soft-bright-color) !important;
+}
+.platformUrlIcon__9bfb9 {
+    color: var(--hover-bright-color) !important;
+}
+.platformUrlAnchor__9bfb9:hover {
+    text-decoration: underline var(--soft-bright-color) !important;
+}
+.accountNameText__9bfb9 {
+    color: var(--soft-bright-color) !important;
+}
+.profile__9c3be {
+    --background-surface-high: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+.clickableImage__39ec2:after {
+    background-color: var(--soft-bright-color) !important;
+}
+.userTagDiscriminator__63ed3 {
+    color: var(--hover-bright-color) !important;
+}
+.rowIcon__95bea {
+    background-color: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
+}
 
 /* Embeds */
 .visual-refresh .embedFull__623de {
