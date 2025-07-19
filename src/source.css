@@ -254,6 +254,7 @@ body::after,
 .labelDescriptor-34wZ-z,
 [style*="color: var(--text-default)"],
 [style*="color: var(--text-normal)"],
+[style*="color: var(--text-secondary)"],
 [style*="color: var(--text-muted)"]:not(.activityText__5d473),
 [style*="color: var(--header-primary)"],
 [style*="color: var(--header-secondary)"] {
