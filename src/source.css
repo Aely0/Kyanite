@@ -15866,12 +15866,12 @@ img:not(.emote):not(.emoji)::after {
     padding: 4px !important;
     border: none !important;
 }
-.actionButton_cc1819 {
+.actionButtons_cc1819 .button__6af3a {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
     color: var(--hover-bright-color) !important;
 }
-.actionButton_cc1819:hover {
+.actionButtons_cc1819 .button__6af3a:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
