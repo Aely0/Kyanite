@@ -4253,24 +4253,32 @@ button[aria-label="Stop Watching"]
 }
 .visual-refresh .panels_c48ade {
     padding-left: 64px !important;
-}
-.visual-refresh .avatarWrapper__37e49 {
-    gap: 4px !important;
+    padding-bottom: 9px !important;
 }
 .visual-refresh .container_e131a9 {
     top: 4px;
 }
-.panels_c48ade .mask__44b0c.svg__44b0c {
-    width: 42px !important;
-}
-.panels_c48ade .avatarDecoration__44b0c {
-    width: 50px !important;
-    left: -0.25rem !important;
-    top: -0.1rem !important;
-}
 .visual-refresh .avatarWrapper__37e49 {
     border-top-left-radius: 8px !important;
     border-bottom-left-radius: 8px !important;
+}
+.align-chat-input .container__2637a {
+    -webkit-mask: none !important;
+    mask: none !important;
+}
+.align-chat-input .scroller__99e7c,
+.align-chat-input .scroller__629e4 {
+    -webkit-mask: none !important;
+    mask: none !important;
+}
+.align-chat-input .scroller__99e7c {
+    margin-bottom: calc(var(--custom-app-panels-height, 0) + 8px) !important;
+}
+.align-chat-input .scroller__629e4 {
+    margin-bottom: 24px !important;
+}
+.privateChannels__35e86 {
+    padding-bottom: 8px !important;
 }
 
 /* Activity status panel */
