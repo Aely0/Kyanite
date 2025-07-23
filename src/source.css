@@ -273,7 +273,7 @@ path {
     --input-border: transparent !important;
 }
 
-/* Generic checkbox/radio */
+/* Generic checkbox/radio/slider */
 .colorDefault_c1e9c4 .checkbox-hADx5o,
 .colorDefault_c1e9c4 .radioSelection-1UHp0b {
     color: transparent !important;
@@ -301,6 +301,9 @@ path {
 }
 :where(.visual-refresh) .refreshIcon__001a7 {
     fill: var(--soft-bright-color) !important;
+}
+.container__87bf1.checked__87bf1 {
+    border-color: transparent !important;
 }
 
 /* Generic input */
