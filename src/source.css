@@ -10570,6 +10570,10 @@ img.sidebarHeader__0ab2c {
     margin-bottom: 0px !important;
     z-index: 11 !important;
 }
+.align-chat-input .wrapper_ef3116 {
+    -webkit-mask: none !important;
+    mask: none !important;
+}
 
 /* Server add/discover buttons */
 .circleIconButton__5bc7e {
