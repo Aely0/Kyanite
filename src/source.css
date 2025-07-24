@@ -307,9 +307,11 @@ path {
 }
 
 /* Generic input */
-.input__0ed4f:not([name="add-friend"]) {
+.input__0ed4f:not([name="add-friend"], .title_d9be46) {
     background-color: var(--hover-faint-color) !important;
     border: 1px solid transparent !important;
+}
+.input__0ed4f {
     color: var(--hover-bright-color) !important;
 }
 .input__0ed4f::placeholder {
@@ -1861,20 +1863,17 @@ path {
 .prompt__5d7c9 {
     background-color: var(--hover-color) !important;
 }
-.optionButtonWrapper__270d7.selected__270d7 {
-    background-color: var(--hover-color) !important;
-    border-color: var(--hover-bright-color) !important;
-}
-.optionButtonWrapper__270d7.selected__270d7:hover {
-    border-color: var(--soft-bright-color) !important;
-    transition: border-color 200ms ease-out !important;
-}
 .optionButtonWrapper__270d7 {
-    border-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
+    border-color: transparent !important;
+    transition: background-color 200ms ease-out !important;
 }
 .optionButtonWrapper__270d7:hover {
-    border-color: var(--hover-dark-color) !important;
-    transition: border-color 200ms ease-out !important;
+    background-color: var(--hover-faded-color) !important;
+    transition: background-color 200ms ease-out !important;
+}
+.optionButtonWrapper__270d7.selected__270d7 {
+    background-color: var(--hover-color) !important;
 }
 .checkIcon__270d7,
 .memberCount__270d7 {
