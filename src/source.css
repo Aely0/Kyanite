@@ -13881,6 +13881,9 @@ div[class*="flex-"][class*="title-"],
 .victorAnswerText_f69538 {
     color: var(--soft-bright-color) !important;
 }
+.text__98277 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Home tabs */
 .children__9293f .iconWrapper__9293f .icon__9293f {
