@@ -15836,6 +15836,10 @@ path[fill="rgb(255,216,54)"] {
 .theme-dark .blockquoteDivider__75297 {
     background-color: var(--main-color) !important;
 }
+.blockquoteContainer__75297 span {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
 
 /* Custom status menu */
 .focusLock-2tveLW[aria-label="Set a custom status"] .root__49fc1 {
