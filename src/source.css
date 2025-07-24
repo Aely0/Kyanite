@@ -4439,6 +4439,9 @@ button[aria-label="Stop Watching"]
 .container_e131a9 .button__67645:hover {
     color: var(--soft-bright-color) !important;
 }
+.align-chat-input .rtcConnectionQualityFine__06d62 .largePing__06d62 {
+    background: var(--hover-faint-color) !important;
+}
 
 /* Voice info */
 .container__50387 {
