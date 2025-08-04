@@ -12619,6 +12619,9 @@ div[class*="flex-"][class*="title-"],
 .resultsGroup__56fec:before {
     border-top: 1px solid var(--hover-color) !important;
 }
+.icon__0c4c4 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Search bar (GIFs/Friends) */
 .container_a45028 {
