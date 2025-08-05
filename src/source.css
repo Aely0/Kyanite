@@ -16979,7 +16979,7 @@ img:not(.emote):not(.emoji)::after {
 
 /* Message bar gift button (tag:hidden) */
 .buttons__74017 .container_c0c49a,
-.buttons__74017 .button__201d5[aria-label="Send a gift"] {
+.buttons__74017 .button__24af7[aria-label="Send a gift"] {
     display: none !important;
 }
 
