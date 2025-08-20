@@ -12645,6 +12645,10 @@ div[class*="flex-"][class*="title-"],
 .icon__0c4c4 {
     color: var(--hover-bright-color) !important;
 }
+.dim_fcddc1 span {
+    background-color: transparent !important;
+    color: var(--soft-bright-color) !important;
+}
 
 /* Search bar (GIFs/Friends) */
 .container_a45028 {
