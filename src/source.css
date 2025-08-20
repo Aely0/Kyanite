@@ -12360,6 +12360,9 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-faded-color) !important;
     color: var(--hover-bright-color) !important;
 }
+:where(.outer_c0bea0).user-profile-popout {
+    box-shadow: none !important;
+}
 
 /* Embeds */
 .visual-refresh .embedFull__623de {
