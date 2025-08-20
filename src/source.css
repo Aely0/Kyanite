@@ -311,18 +311,39 @@ path {
     background-color: var(--hover-faint-color) !important;
     border: 1px solid transparent !important;
 }
-.input__0ed4f {
-    color: var(--hover-bright-color) !important;
+.input__0ed4f,
+.input__0f084 {
+    color: var(--soft-bright-color) !important;
 }
-.input__0ed4f::placeholder {
+.input__0ed4f::placeholder,
+.input__0f084::placeholder {
     color: var(--hover-bright-color) !important;
-    opacity: 0.6 !important;
 }
 .input__0ed4f:not([readOnly]).focused__0ed4f,
 .input__0ed4f:not([readOnly]).focused__0ed4f:hover,
 .input__0ed4f:not([readOnly]):focus,
 .input__0ed4f:not([readOnly]):focus:hover {
     border-color: var(--soft-bright-color) !important;
+}
+.wrapper_d14335:not([data-read-only="true"]):has(input:focus, textarea:focus) {
+    --custom-input-border-color: var(--soft-bright-color) !important;
+}
+.wrapper_d14335 {
+    --custom-input-background-color: var(--hover-color) !important;
+    --custom-input-border-color: transparent !important;
+    --custom-input-text-color: var(--soft-bright-color) !important;
+    --custom-input-hover-border-color: transparent !important;
+    --custom-input-focus-border-color: transparent !important;
+}
+.icon__0f084 path {
+    fill: var(--hover-bright-color) !important;
+}
+.clearButton__0f084 {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.8 !important;
+}
+.clearButton__0f084:hover {
+    opacity: 1 !important;
 }
 
 /* Generic buttons */
