@@ -11223,7 +11223,8 @@ div[class*="flex-"][class*="title-"],
 .focused_c1e9c4 .optionIcon__77820 > path {
     fill: var(--soft-bright-color) !important;
 }
-.messagesWrapper__36d07 {
+.messagesWrapper__36d07,
+.scroller__36d07 {
     mask: none !important;
 }
 .align-chat-input .form_f75fb0 {
