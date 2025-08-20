@@ -11394,6 +11394,7 @@ div[class*="flex-"][class*="title-"],
 /* Status text */
 .subText__91a9d .truncated_c9d15c,
 .subText__91a9d .activityCounter_c9d15c,
+.subText__20a53 .activityCounter_c9d15c,
 .subText__20a53 .truncated_c9d15c,
 .subText__20a53 .subtext__972a0 {
     color: var(--hover-bright-color) !important;
