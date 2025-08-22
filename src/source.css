@@ -16079,6 +16079,9 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
 }
+.base__5cd44 {
+    animation: fadeIn__5cd44 0s ease-out 0ms forwards !important;
+}
 
 /* Calls */
 .incomingCallInner-2VmFiR {
