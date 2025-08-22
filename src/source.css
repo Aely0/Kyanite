@@ -5223,8 +5223,8 @@ button[aria-label="Stop Watching"]
 /* File upload (Source Files) */
 .textContainer__4d95d,
 .footer__4d95d {
-    background-color: rgba(0, 0, 0, 0.25) !important;
-    border: 1px solid var(--hover-color) !important;
+    background-color: transparent !important;
+    border: none !important;
 }
 .toggleExpandSection__4d95d:hover,
 .openFullPreviewSection__4d95d:hover,
@@ -5238,7 +5238,6 @@ button[aria-label="Stop Watching"]
 .modalTextContainer__4d95d {
     background-color: transparent !important;
     border: none !important;
-    border-bottom: 1px solid var(--hover-color) !important;
 }
 .languageSelector__4d95d {
     background-color: var(--dark-bg) !important;
@@ -5262,9 +5261,11 @@ button[aria-label="Stop Watching"]
     background-color: transparent !important;
     backdrop-filter: blur(8px) !important;
 }
-.focusLock-2tveLW[aria-label="Plaintext file previews"]
-    .modalTextContainer__4d95d {
-    border: 1px solid var(--hover-color) !important;
+.modalTextContainer__4d95d {
+    margin-right: -8px !important;
+}
+.theme-dark .modalTextContainer__4d95d .hljs {
+    color: color-mix(in srgb, var(--hover-bright-color) 80%, white) !important;
 }
 
 /* Image upload */
