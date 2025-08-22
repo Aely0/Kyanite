@@ -17016,8 +17016,9 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Message bar gift button (tag:hidden) */
-.buttons__74017 .container_c0c49a,
-.buttons__74017 .button__24af7[aria-label="Send a gift"] {
+.button__74017.button__24af7:has(
+        div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8"]
+    ) {
     display: none !important;
 }
 
@@ -17036,7 +17037,7 @@ a[href="https://support.discord.com"]
 }
 
 /* Apps and Commands button (images) (tag:hidden) */
-.hoverButton__06ab4[aria-label="Edit Image with Apps"] {
+.hoverButton__06ab4:has(div > svg > g > g > g > g > path[d^=" M-6.55499982"]) {
     display: none !important;
 }
 

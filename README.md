@@ -2,8 +2,8 @@
 
 Meant to be used with [leovoel's BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord).
 
-- [Download Kyanite (06-08-2025)](https://github.com/Aely0/Kyanite/releases/download/2025.08.06/Kyanite.css)
-- [Download Magenta (06-08-2025)](https://github.com/Aely0/Kyanite/releases/download/2025.08.06/Magenta.css)
+- [Download Kyanite (22-08-2025)](https://github.com/Aely0/Kyanite/releases/download/2025.08.22/Kyanite.css)
+- [Download Magenta (22-08-2025)](https://github.com/Aely0/Kyanite/releases/download/2025.08.22/Magenta.css)
 
 ### Important Sidenote
 Some elements, mostly ones related to ads, upselling, Nitro pushing, shop, gifting,
