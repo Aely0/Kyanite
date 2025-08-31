@@ -11280,6 +11280,9 @@ div[class*="flex-"][class*="title-"],
 .scroller__36d07::-webkit-scrollbar-track {
     margin-bottom: 0px !important;
 }
+.chatGradient__36d07 {
+    display: none !important;
+}
 
 /* Message edit bar */
 .message__5126c .operations_bab751 {
