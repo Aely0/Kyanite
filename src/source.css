@@ -10186,6 +10186,9 @@ img.sidebarHeader__0ab2c {
     color: var(--soft-bright-color) !important;
     transition: color 200ms ease-in-out !important;
 }
+.container_d3846c {
+    box-shadow: none !important;
+}
 
 /* Role and category names + Direct Messages title */
 .membersGroup_c8ffbb {
