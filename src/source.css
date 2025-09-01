@@ -11263,8 +11263,8 @@ div[class*="flex-"][class*="title-"],
     padding: 6px 10px !important;
 }
 .align-chat-input .inTextChannel_b88801.base_b88801 {
-    bottom: 1px !important;
-    top: 44px !important;
+    bottom: 0px !important;
+    top: unset !important;
 }
 .align-chat-input .inTextChannel_b88801 .text_b88801 {
     margin-left: 20px !important;
@@ -11283,7 +11283,8 @@ div[class*="flex-"][class*="title-"],
 .scroller__36d07::-webkit-scrollbar-track {
     margin-bottom: 0px !important;
 }
-.chatGradient__36d07 {
+.chatGradient__36d07,
+.chatTypingGradientAtBottom__36d07 {
     display: none !important;
 }
 
