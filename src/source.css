@@ -11284,7 +11284,8 @@ div[class*="flex-"][class*="title-"],
     margin-bottom: 0px !important;
 }
 .chatGradient__36d07,
-.chatTypingGradientAtBottom__36d07 {
+.chatTypingGradientAtBottom__36d07,
+.chatTypingGradientNotAtBottom__36d07 {
     display: none !important;
 }
 
