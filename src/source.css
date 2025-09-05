@@ -302,9 +302,6 @@ path {
 :where(.visual-refresh) .refreshIcon__001a7 {
     fill: var(--soft-bright-color) !important;
 }
-.container__87bf1.checked__87bf1 {
-    border-color: transparent !important;
-}
 
 /* Generic input */
 .input__0ed4f:not([name="add-friend"], .title_d9be46) {
@@ -16535,13 +16532,17 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Setting toggle buttons */
-.container__87bf1 {
-    background-color: var(--hover-color) !important;
+.container__6f89e {
+    background-color: var(--hover-faded-color) !important;
 }
-.slider__87bf1 > rect {
+.container__6f89e.checked__6f89e {
+    background-color: var(--hover-color) !important;
+    border-color: transparent !important;
+}
+.slider__6f89e > rect {
     fill: transparent !important;
 }
-.slider__87bf1 > svg > path {
+.slider__6f89e > svg > path {
     fill: var(--soft-bright-color) !important;
 }
 
