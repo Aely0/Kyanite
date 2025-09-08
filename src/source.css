@@ -5949,6 +5949,29 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Inbox icon */
+.clickable_c99c29 {
+    color: var(--hover-bright-color) !important;
+}
+.clickable_c99c29:hover,
+.clickable_c99c29:active,
+.clickable_c99c29[aria-expanded="true"] {
+    color: var(--soft-bright-color) !important;
+}
+.badge_c99c29 {
+    background-color: var(--soft-bright-color) !important;
+}
+.tooltip__4e35b {
+    background-color: var(--main-color) !important;
+    box-shadow: none !important;
+}
+.caretIcon__4e35b .caretFill__4e35b {
+    fill: var(--main-color) !important;
+}
+.tooltipContent__4e35b .defaultColor__4bd52 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Inbox tab */
 .theme-dark .footer__45690 {
     background-color: rgba(0, 0, 0, 0.4) !important;
