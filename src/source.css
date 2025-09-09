@@ -14601,6 +14601,12 @@ path[fill="rgb(255,216,54)"] {
 .emptySearchIcon_b1c93b {
     display: none !important;
 }
+.redDot_cbe0b4 {
+    background-color: var(--soft-bright-color) !important;
+}
+.linkIcon__2c32f {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Server Profile */
 .notice-5OG6bf,
