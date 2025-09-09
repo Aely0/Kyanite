@@ -11379,6 +11379,9 @@ div[class*="flex-"][class*="title-"],
 .focused_c1e9c4 .caret_c1e9c4 path {
     fill: var(--soft-bright-color) !important;
 }
+.icon_c1e9c4 > circle[fill="#C12A35"] {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Disabled message bar */
 .textAreaDisabled-2_o-kZ,
