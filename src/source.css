@@ -4470,9 +4470,6 @@ button[aria-label="Stop Watching"]
 .container_e131a9 {
     border-bottom: none !important;
 }
-.ping_c0cb95 {
-    color: var(--hover-color) !important;
-}
 .subtext__339d0.channel_e131a9 {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
@@ -4483,8 +4480,12 @@ button[aria-label="Stop Watching"]
 .container_e131a9 .button__67645:hover {
     color: var(--soft-bright-color) !important;
 }
-.align-chat-input .rtcConnectionQualityFine__06d62 .largePing__06d62 {
+.ping__06d62.largePing__06d62 {
     background: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+.ping__06d62.largePing__06d62 > path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Voice info */
