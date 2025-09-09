@@ -10351,12 +10351,11 @@ img.sidebarHeader__0ab2c {
 .iconSpacing__07f91 .icon__07f91 > path {
     fill: var(--soft-bright-color) !important;
 }
-.iconSpacing__07f91[aria-label="Muted"] .icon__07f91 > path,
-.iconSpacing__07f91[aria-label="Deafened"] .icon__07f91 > path {
+.icon__07f91:has([d^="m2.7 22.7 20-2"]) > path,
+.icon__07f91:has([d^="M22.7 2.7a1 1 0"]) > path {
     fill: var(--hover-yellow-dark-color) !important;
 }
-.iconSpacing__07f91[aria-label="Server Muted"] .icon__07f91 > path,
-.iconSpacing__07f91[aria-label="Server Deafened"] .icon__07f91 > path {
+.icon__07f91:has([d^="M21.76.83a5"]) > path {
     fill: var(--hover-red-bright-color) !important;
 }
 .overlap__07f91 .avatar__07f91 {
