@@ -429,6 +429,9 @@ path {
         transparent 0
     ) !important;
 }
+.reduce-motion .buttonShine__6a443 {
+    display: none !important;
+}
 
 /* Title bar (visual-refresh) */
 .title__85643 svg path {
