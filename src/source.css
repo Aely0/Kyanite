@@ -2600,6 +2600,46 @@ path {
 .icon__7e6bb path {
     fill: var(--soft-bright-color) !important;
 }
+.container__93db4,
+.container_ee8e87,
+.tag_ee8e87,
+.inlineTag_ee8e87 {
+    background-color: var(--hover-faint-color) !important;
+}
+.post_ee8e87,
+.preview_ee8e87,
+.fakeReactions_ee8e87 {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+}
+.chatInput_ee8e87 {
+    background-color: var(--hover-faded-color) !important;
+}
+.preview_ee8e87 {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.bottomSeparator_ee8e87 {
+    background-color: transparent !important;
+}
+.forumPostIcon_ee8e87 {
+    background-color: transparent !important;
+    color: var(--hover-bright-color) !important;
+}
+.opTag_ee8e87 {
+    background-color: var(--main-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.infoIcon__56dee {
+    color: var(--hover-bright-color) !important;
+}
+.closeIcon__56dee {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.6 !important;
+}
+.closeIcon__56dee:hover {
+    opacity: 0.8 !important;
+}
 
 /* Select control */
 .Select-control {
