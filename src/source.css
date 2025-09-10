@@ -7368,7 +7368,7 @@ img:not(.emote):not(.emoji)::after {
     background-color: rgba(22, 91, 123, 0.2) !important;
 }
 .container_d8f25b {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faded-color) !important;
     color: var(--hover-bright-color) !important;
     border-radius: 8px !important;
 }
@@ -7383,25 +7383,39 @@ img:not(.emote):not(.emoji)::after {
 .icon_d8f25b {
     background-color: var(--hover-color) !important;
 }
-.roleRow_a930f1:hover:not(.roleRowDisableHover-2TXfy-),
-.roleRow_a930f1:before,
-.roleRow_a930f1:last-child:after {
+.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) {
     background-color: var(--hover-color) !important;
 }
-.memberCountContainer_a930f1.memberSpacing_db0ee9 {
+.roleRow__5f97b:before,
+.roleRow__5f97b:last-child:after {
+    background-color: transparent !important;
+}
+.memberCountContainer__5f97b.memberSpacing_db0ee9 {
     color: var(--hover-bright-color) !important;
 }
-.memberCountContainer_a930f1.memberSpacing_db0ee9:hover {
+.memberCountContainer__5f97b.memberSpacing_db0ee9:hover {
     color: var(--soft-bright-color) !important;
 }
 .header_c6bf1b {
     background-color: transparent !important;
-    backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(10px) !important;
     border-radius: 4px !important;
 }
-.warningContainer_d80a13 .text-sm-normal__95a78 {
+.warning_e3f97f .text-sm\/normal_cf4812,
+.warningContainer_d80a13 .text-sm\/normal_cf4812 {
     color: var(--yellow-bright-color) !important;
     font-weight: 600 !important;
+}
+.icon_e3f97f > path[d^="M12 23a11 11"] {
+    fill: var(--yellow-bright-color) !important;
+}
+.warningIcon_d80a13 {
+    color: var(--yellow-bright-color) !important;
+}
+.warning_e3f97f,
+.warningContainer_d80a13 {
+    background-color: var(--hover-yellow-color) !important;
+    border: 1px solid var(--hover-yellow-bright-color) !important;
 }
 .titleContainer_e29cd7 {
     background-color: transparent !important;
@@ -7432,7 +7446,7 @@ img:not(.emote):not(.emoji)::after {
     background-color: var(--hover-color) !important;
 }
 .previewContainer__05e8e {
-    background: var(--hover-dark-color) !important;
+    background: var(--hover-faded-color) !important;
 }
 .preview__05e8e {
     color: var(--soft-bright-color) !important;
@@ -7459,10 +7473,10 @@ img:not(.emote):not(.emoji)::after {
     background: var(--dark-bg) !important;
     border-color: var(--hover-color) !important;
 }
-.dragIcon_a930f1 {
+.dragIcon__5f97b {
     color: var(--hover-bright-color) !important;
 }
-.dragIcon_a930f1:hover {
+.dragIcon__5f97b:hover {
     color: var(--soft-bright-color) !important;
 }
 .page__91dc3 .sidebar_e29cd7 {
@@ -7487,6 +7501,16 @@ img:not(.emote):not(.emoji)::after {
 }
 .selected-g-kMVV .roleName-3910zV {
     color: var(--soft-bright-color) !important;
+}
+.roleStylePreviewContainer__981c8.selected__981c8 {
+    background: var(--hover-faint-color) !important;
+    border: 2px solid var(--hover-bright-color) !important;
+}
+.roleStylePreviewContainer__981c8 {
+    box-shadow: none !important;
+}
+.colorPickerSwatch__459fb.noColor__459fb {
+    border-color: var(--hover-color) !important;
 }
 
 /* Server Emoji */
