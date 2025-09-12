@@ -352,13 +352,13 @@ path {
 .lookFilled__201d5.colorTransparent__201d5,
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorBrandInverted__201d5,
-.overlay-primary__6af3a,
+.overlay-primary_a22cb0,
 .theme-dark .watchButton-2v6cPT,
 .shinyButton_d5e126,
 .buttonWhite-hd8TaT,
-.active__6af3a,
-.primary__6af3a,
-.secondary__6af3a {
+.active_a22cb0,
+.primary_a22cb0,
+.secondary_a22cb0 {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
     color: var(--hover-bright-color) !important;
@@ -382,21 +382,21 @@ path {
 .lookFilled__201d5.colorTransparent__201d5:hover,
 .lookFilled__201d5.colorGreen__201d5:hover,
 .lookFilled__201d5.colorBrandInverted__201d5:hover,
-.overlay-primary__6af3a:hover,
+.overlay-primary_a22cb0:hover,
 .theme-dark .watchButton-2v6cPT:hover,
 .shinyButton_d5e126:hover,
 .buttonWhite-hd8TaT:hover,
-.active__6af3a:hover,
-.primary__6af3a:hover,
-.secondary__6af3a:hover {
+.active_a22cb0:hover,
+.primary_a22cb0:hover,
+.secondary_a22cb0:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
 }
 .lookOutlined__201d5.colorRed__201d5,
 .lookFilled__201d5.colorRed__201d5,
-.critical-primary__6af3a,
-.critical-secondary__6af3a {
+.critical-primary_a22cb0,
+.critical-secondary_a22cb0 {
     background: color-mix(
         in srgb,
         var(--hover-red-color) 60%,
@@ -408,8 +408,8 @@ path {
 }
 .lookOutlined__201d5.colorRed__201d5:hover,
 .lookFilled__201d5.colorRed__201d5:hover,
-.critical-primary__6af3a:hover,
-.critical-secondary__6af3a:hover {
+.critical-primary_a22cb0:hover,
+.critical-secondary_a22cb0:hover {
     background: var(--hover-red-color) !important;
     color: var(--red-bright-color) !important;
 }
@@ -9574,7 +9574,7 @@ img.sidebarHeader__0ab2c {
     background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
-.icon-only__6af3a:hover {
+.icon-only_a22cb0:hover {
     background-color: transparent !important;
     border-color: transparent !important;
 }
@@ -10266,11 +10266,11 @@ img.sidebarHeader__0ab2c {
 .gameActivityLevelInner__4e338 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.active__6af3a .lineClamp1__4bd52.text-sm\/medium_cf4812 {
+.active_a22cb0 .lineClamp1__4bd52.text-sm\/medium_cf4812 {
     color: var(--hover-bright-color) !important;
     transition: color 200ms ease-in-out !important;
 }
-.active__6af3a:hover .lineClamp1__4bd52.text-sm\/medium_cf4812 {
+.active_a22cb0:hover .lineClamp1__4bd52.text-sm\/medium_cf4812 {
     color: var(--soft-bright-color) !important;
     transition: color 200ms ease-in-out !important;
 }
@@ -16173,12 +16173,12 @@ img:not(.emote):not(.emoji)::after {
     padding: 4px !important;
     border: none !important;
 }
-.actionButtons_cc1819 .button__6af3a {
+.actionButtons_cc1819 .button_a22cb0 {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
     color: var(--hover-bright-color) !important;
 }
-.actionButtons_cc1819 .button__6af3a:hover {
+.actionButtons_cc1819 .button_a22cb0:hover {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
