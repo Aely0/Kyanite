@@ -12473,6 +12473,39 @@ div[class*="flex-"][class*="title-"],
     box-shadow: none !important;
 }
 
+/* Profile popout (Board) */
+.container__62dd3 {
+    background: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.menuButton_cf2d33 {
+    color: var(--hover-bright-color) !important;
+}
+.menuButton_cf2d33:hover {
+    color: var(--soft-bright-color) !important;
+}
+.coverContainer__1a3d6 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.coverContainer__1a3d6:before {
+    background: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+.details_e1364f .text-sm\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.commentIcon_e1364f > path {
+    fill: var(--hover-bright-color) !important;
+}
+.tag__25a50 {
+    background: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.tag__25a50 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+
 /* Embeds */
 .visual-refresh .embedFull__623de {
     border-top: none !important;
