@@ -10206,6 +10206,9 @@ img.sidebarHeader__0ab2c {
 .guildTagContainer__63ed3 {
     border: 1px solid transparent !important;
 }
+.guildTagContainer__63ed3:hover {
+    background-color: transparent !important;
+}
 
 /* Server tag popout */
 .container_dca174,
