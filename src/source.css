@@ -11543,6 +11543,12 @@ div[class*="flex-"][class*="title-"],
 .icon_c9d15c path {
     fill: var(--hover-bright-color) !important;
 }
+.hasMultipleActivities_c9d15c .icon_c9d15c path {
+    fill: var(--soft-bright-color) !important;
+}
+.subtext__0a06e .activityCounter_c9d15c {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Profile activity */
 .overlay_c0bea0.activity__5be3e,
