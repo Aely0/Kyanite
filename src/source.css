@@ -15796,14 +15796,11 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Keybinds (User Settings) */
-.warning__35859 {
-    background: var(--hover-yellow-color) !important;
-    border: 1px solid var(--hover-yellow-bright-color) !important;
+.warning__740f2 .text-sm\/medium_cf4812 {
     color: var(--yellow-bright-color) !important;
 }
-.warning__35859 .icon__35859,
-.warning__35859 .text__35859 {
-    color: var(--yellow-bright-color) !important;
+.warning__740f2 > svg > path {
+    fill: var(--yellow-bright-color) !important;
 }
 .input__72d38.input-3K7d_z.base-ddxxyL {
     color: var(--soft-bright-color) !important;
@@ -15814,6 +15811,9 @@ path[fill="rgb(255,216,54)"] {
 .container_e61cfb:not(.disabled__97701):focus-within,
 .container_e61cfb:not(.disabled__97701):hover {
     border-color: transparent !important;
+}
+.button_e18686.removeKeybind__740f2 > svg {
+    visibility: hidden !important;
 }
 .button_e18686.removeKeybind__740f2,
 .button_e18686.removeGame_cc46f0 {
@@ -15835,8 +15835,7 @@ path[fill="rgb(255,216,54)"] {
 .button_e18686.removeGame_cc46f0::before {
     content: "Remove" !important;
     position: relative !important;
-    top: 6px !important;
-    left: 10px !important;
+    left: 9px !important;
     color: var(--hover-red-bright-color) !important;
 }
 .button_e18686.removeKeybind__740f2:hover::before,
