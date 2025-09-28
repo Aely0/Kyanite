@@ -16673,17 +16673,17 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Setting toggle buttons */
-.container__6f89e {
+.container__3f21e {
     background-color: var(--hover-faded-color) !important;
 }
-.container__6f89e.checked__6f89e {
+.container__3f21e.checked__3f21e {
     background-color: var(--hover-color) !important;
     border-color: transparent !important;
 }
-.slider__6f89e > rect {
+.slider__3f21e > rect {
     fill: transparent !important;
 }
-.slider__6f89e > svg > path {
+.slider__3f21e > svg > path {
     fill: var(--soft-bright-color) !important;
 }
 
