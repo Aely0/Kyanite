@@ -15863,6 +15863,31 @@ path[fill="rgb(255,216,54)"] {
     background-color: var(--hover-faint-color) !important;
 }
 
+/* Activity Privacy (User Settings) */
+.switchContainer_eda416 {
+    background-color: transparent !important;
+}
+.warning__35859 .text__35859 {
+    color: var(--yellow-bright-color) !important;
+}
+.warning__35859 {
+    background: var(--hover-yellow-color) !important;
+    border: 1px solid var(--yellow-bright-color) !important;
+    color: var(--yellow-bright-color) !important;
+}
+.warning__35859 .icon__35859 {
+    color: var(--yellow-bright-color) !important;
+}
+.headerContainer__7db08 {
+    background-color: transparent !important;
+    backdrop-filter: blur(80px) !important;
+    padding: 20px 20px 10px 20px !important;
+    border-radius: 0px 0px 8px 8px !important;
+}
+.memberCountDot__7db08 {
+    background-color: var(--soft-bright-color) !important;
+}
+
 /* Registered Games (User Settings) */
 .activeGame_cc46f0.notDetected_cc46f0 {
     background-color: var(--hover-color) !important;
