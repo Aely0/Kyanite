@@ -15147,6 +15147,20 @@ path[fill="rgb(255,216,54)"] {
 .option__3f413:hover .guildName_e7c728 {
     color: var(--soft-bright-color) !important;
 }
+.upsellOverlay__0f7dc {
+    background-color: var(--hover-faint-color) !important;
+    backdrop-filter: blur(2px) !important;
+}
+.upsellImage__0f7dc {
+    display: none !important;
+}
+.upsellTextContainer__0f7dc {
+    background: var(--hover-faint-color) !important;
+}
+.upsellTextContainer__0f7dc .text-lg\/semibold_cf4812,
+.upsellTextContainer__0f7dc .text-sm\/normal_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Content & Social (User Settings) */
 .card__5cea9 {
