@@ -16799,22 +16799,22 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Checkbox */
-.checkbox_c4538f {
+.checkbox__09aca {
     border: 2px solid var(--hover-bright-color) !important;
 }
-.checkbox_c4538f.checked_c4538f {
+.checkbox__09aca.checked__09aca {
     background-color: transparent !important;
 }
-.checkbox_c4538f.checked_c4538f > svg > path {
+.checkbox__09aca.checked__09aca > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.colorDanger_c1e9c4 .checkbox_c4538f {
+.colorDanger_c1e9c4 .checkbox__09aca {
     border: 2px solid var(--hover-red-bright-color) !important;
 }
-.colorDanger_c1e9c4 .checkbox_c4538f.checked_c4538f {
+.colorDanger_c1e9c4 .checkbox__09aca.checked__09aca {
     background-color: transparent !important;
 }
-.colorDanger_c1e9c4 .checkbox_c4538f.checked_c4538f > svg > path {
+.colorDanger_c1e9c4 .checkbox__09aca.checked__09aca > svg > path {
     fill: var(--hover-red-bright-color) !important;
 }
 
