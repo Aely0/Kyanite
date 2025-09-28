@@ -15183,6 +15183,12 @@ path[fill="rgb(255,216,54)"] {
 .emptyContainer_de8069 {
     background-color: transparent !important;
 }
+.tab_f8303a.vertical_f8303a.selected_f8303a {
+    border-left: 2px solid var(--soft-bright-color) !important;
+}
+.tabBarPanel_f8303a .selectItemRow_d81ffd .text-md\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Data & Privacy (User Settings) */
 .settingsTabBar_f62afd {
