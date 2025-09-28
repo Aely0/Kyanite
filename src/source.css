@@ -5048,6 +5048,9 @@ button[aria-label="Stop Watching"]
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
+.textBadge__2b1f5 {
+    padding: 1px 6px !important;
+}
 
 /* Instant invite menu */
 .instant-invite-modal {
