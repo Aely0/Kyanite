@@ -15889,8 +15889,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Registered Games (User Settings) */
-.activeGame_cc46f0.notDetected_cc46f0 {
-    background-color: var(--hover-color) !important;
+.activeGame_cc46f0.notDetected_cc46f0,
+.game_cc46f0 {
+    background-color: var(--hover-faint-color) !important;
 }
 .notDetected_cc46f0 .gameName_cc46f0,
 .notDetected_cc46f0 .lastPlayed_cc46f0,
