@@ -11938,6 +11938,7 @@ div[class*="flex-"][class*="title-"],
 .streamPreview__6da2d {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
 }
 .previewContainer__6da2d {
     background-color: var(--hover-color) !important;
