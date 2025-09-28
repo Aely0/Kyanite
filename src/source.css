@@ -15644,9 +15644,12 @@ path[fill="rgb(255,216,54)"] {
 .notches_e5cdf3.gray_e5cdf3 {
     color: transparent !important;
 }
-.cameraWrapper_d41d5f {
-    background-color: var(--hover-color) !important;
-    border: 1px solid var(--hover-color) !important;
+.cameraWrapper__11e1f {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.deviceIcon__12eef > svg > path {
+    fill: var(--hover-bright-color) !important;
 }
 .backgroundOptionRing__53965 {
     border: 2px solid var(--hover-bright-color) !important;
