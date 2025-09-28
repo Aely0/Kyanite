@@ -12883,9 +12883,6 @@ div[class*="flex-"][class*="title-"],
 
 /* Quickswitcher */
 .quickswitcher_ac6cb0 {
-    background-color: var(--dark-bg) !important;
-    color: var(--main-color) !important;
-    border: 2px solid !important;
     box-shadow: none !important;
 }
 .quickswitcher_ac6cb0 .input_ac6cb0 {
