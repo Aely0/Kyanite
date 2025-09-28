@@ -12512,6 +12512,26 @@ div[class*="flex-"][class*="title-"],
     fill: var(--hover-bright-color) !important;
 }
 
+/* Profile popout (Status Panel) */
+.menuItemInner_ce8328 {
+    color: var(--hover-bright-color) !important;
+}
+.menuItemInner_ce8328:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.menuItem_ce8328:after {
+    background-color: transparent !important;
+}
+.copyButton__252af {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.copyButton__252af:hover {
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+
 /* Embeds */
 .visual-refresh .embedFull__623de {
     border-top: none !important;
