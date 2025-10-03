@@ -4674,6 +4674,25 @@ button[aria-label="Stop Watching"]
     background-color: var(--hover-color) !important;
 }
 
+/* Server list organize */
+.centerTarget_d144f8.dragOver_d144f8:before,
+.target_d144f8.dragOver_d144f8:before {
+    background-color: var(--soft-bright-color) !important;
+    box-shadow: none !important;
+}
+.dragInner__87847 {
+    background-color: var(--hover-color) !important;
+    border: none !important;
+}
+.sorting_e5445c .folderPreviewWrapper__48112 {
+    background-color: var(--hover-color) !important;
+}
+.folderGroup__48112[data-drop-hovering="true"]:not(.isExpanded__48112)
+    .folderHeader__48112 {
+    background-color: var(--hover-color) !important;
+    outline: 1px solid var(--hover-bright-color) !important;
+}
+
 /* Server list folders */
 .folderIcon__48112:hover,
 .keyboard-mode .folderButton__48112:focus .folderIcon__48112 {
