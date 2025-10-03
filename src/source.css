@@ -2130,6 +2130,10 @@ path {
 .mainCard_f369db .title-2eD607 {
     color: var(--soft-bright-color) !important;
 }
+.mainCard_f369db .title_d9be46::placeholder {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.6 !important;
+}
 .mainCard_f369db.isRead-17SUFc .authorName-1J062Y,
 .mainCard_f369db.isRead-17SUFc .title-2eD607 {
     color: var(--hover-bright-color) !important;
