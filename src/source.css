@@ -12482,6 +12482,12 @@ div[class*="flex-"][class*="title-"],
 :where(.outer_c0bea0).user-profile-popout {
     box-shadow: none !important;
 }
+.nicknameIcons__63ed3 .button__0f074 {
+    color: var(--hover-bright-color) !important;
+}
+.nicknameIcons__63ed3 .button__0f074:hover {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Profile popout (Board) */
 .container__62dd3 {
