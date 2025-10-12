@@ -17219,6 +17219,13 @@ a[href="https://support.discord.com"]
     text-decoration: underline !important;
 }
 
+/* Settings (Plugins) */
+.vc-addon-badge {
+    background-color: var(--main-color) !important;
+    color: var(--soft-bright-color) !important;
+    font-weight: 600 !important;
+}
+
 /* Buttons color in vencord tab */
 .vc-settings-quickActions-pill {
     background-color: var(--hover-color) !important;
