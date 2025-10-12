@@ -7241,48 +7241,6 @@ img:not(.emote):not(.emoji)::after {
     color: #d98026 !important;
 }
 
-/* Appearance settings */
-.radio-theme label {
-    background-size: cover !important;
-}
-.radio-theme::after {
-    position: absolute !important;
-    top: 50% !important;
-    left: 0 !important;
-    right: 0 !important;
-    margin-top: -10px !important;
-    text-align: center !important;
-    color: hsla(0, 0%, 100%, 0.7) !important;
-    font-size: 20px !important;
-    font-weight: 600 !important;
-    pointer-events: none !important;
-}
-.radio-theme.dark::after {
-    content: "Dark Version" !important;
-}
-.radio-theme.light::after {
-    content: "Light Version" !important;
-}
-.radio-theme.dark::before {
-    content: "" !important;
-    position: absolute !important;
-    top: 4px !important;
-    left: 0 !important;
-    bottom: 4px !important;
-    right: 10px !important;
-    border-radius: 5px !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-    pointer-events: none !important;
-}
-.defaultValue_a562c8 .markValue-2U_-UG {
-    color: var(--hover-bright-color) !important;
-}
-
-/* Accessibility settings */
-.previewMessage-2uxBrA {
-    background-color: var(--hover-color) !important;
-}
-
 /* Background scrollers */
 .root-SR8cQa,
 .scroller_ef3116,
@@ -15695,6 +15653,9 @@ path[fill="rgb(255,216,54)"] {
 /* Accessibility (User Settings) */
 .previewMessage__5d148 {
     background-color: transparent !important;
+}
+.checkboxWrapper__09aca .text-md\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Voice & Video (User Settings) */
