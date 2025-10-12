@@ -3411,58 +3411,6 @@ path {
 }
 
 /* Server settings emoji tab */
-.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
-    color: #d0d0d0 !important;
-}
-.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
-    color: #b6bbc1 !important;
-}
-.guild-settings-modal-emoji .no-emoji p {
-    color: hsla(0, 0%, 100%, 0.2) !important;
-}
-.guild-settings-modal-emoji .guild-settings-modal-emoji-header {
-    border-bottom-color: hsla(0, 0%, 100%, 0.04) !important;
-}
-.guild-settings-modal-emoji .no-emoji img {
-    -webkit-filter: grayscale(1) !important;
-    filter: grayscale(1) !important;
-}
-.guild-settings-modal-emoji .emoji-row {
-    border-color: hsla(0, 0%, 100%, 0.04) !important;
-}
-.guild-settings-modal-emoji .emoji-row .emoji-name {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-color: transparent !important;
-    color: #d0d0d0 !important;
-}
-.guild-settings-modal-emoji .emoji-row .emoji-name:focus {
-    border-color: var(--main-color) !important;
-}
-.guild-settings-modal .emoji-row .btn.btn-danger,
-.guild-settings-modal .member-buttons .btn.btn-danger {
-    background-color: var(--main-color) !important;
-    border-color: transparent !important;
-    color: #fff !important;
-}
-.guild-settings-modal .emoji-row .btn.btn-danger:hover,
-.guild-settings-modal .member-buttons .btn.btn-danger:hover {
-    background-color: var(--hover-color) !important;
-}
-.theme-dark .emojiRow-zIc7ZX {
-    background: transparent !important;
-}
-.theme-dark .button_e18686 {
-    background-color: var(--hover-red-color) !important;
-    -webkit-box-shadow:
-        0 0 0 1px var(--hover-red-dark-color),
-        0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
-    box-shadow:
-        0 0 0 1px var(--hover-red-dark-color),
-        0 1px 5px 0 rgba(0, 0, 0, 0.3) !important;
-}
-.theme-dark .button_e18686:hover {
-    background-color: var(--hover-red-dark-color) !important;
-}
 
 /* Server settings sticker tab */
 .wrapper__83b1d {
@@ -12807,7 +12755,7 @@ div[class*="flex-"][class*="title-"],
 .icon__0c4c4 {
     color: var(--hover-bright-color) !important;
 }
-.dim_fcddc1 span {
+.dim__61c93 span {
     background-color: transparent !important;
     color: var(--soft-bright-color) !important;
 }
@@ -15842,47 +15790,23 @@ path[fill="rgb(255,216,54)"] {
 .container_e61cfb:not(.disabled__97701):hover {
     border-color: transparent !important;
 }
-.button_e18686.removeKeybind__740f2 > svg {
-    visibility: hidden !important;
+.button_e18686.removeKeybindFloating__740f2 {
+    color: var(--hover-red-dark-color) !important;
 }
-.button_e18686.removeKeybind__740f2,
-.button_e18686.removeGame_cc46f0 {
-    text-indent: initial !important;
-    width: 70px !important;
-    height: 28px !important;
-    border-radius: 4px !important;
-    background-image: none !important;
-    background-color: var(--hover-red-color) !important;
-    box-shadow: none !important;
-    transition: color 200ms ease !important;
-}
-.button_e18686.removeKeybind__740f2:hover,
-.button_e18686.removeGame_cc46f0:hover {
-    background-color: var(--hover-red-color) !important;
-    transition: color 200ms ease !important;
-}
-.button_e18686.removeKeybind__740f2::before,
-.button_e18686.removeGame_cc46f0::before {
-    content: "Remove" !important;
-    position: relative !important;
-    left: 9px !important;
+.button_e18686.removeKeybindFloating__740f2:hover {
     color: var(--hover-red-bright-color) !important;
-}
-.button_e18686.removeKeybind__740f2:hover::before,
-.button_e18686.removeGame_cc46f0:hover::before {
-    color: var(--red-bright-color) !important;
 }
 .row__740f2 {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.key_fcddc1 {
+.key__61c93 {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
     border: 1px solid var(--hover-color) !important;
     box-shadow: inset 0 -4px 0 var(--hover-color) !important;
 }
-.bindArrow_fcddc1 g {
+.bindArrow__61c93 g {
     fill: var(--soft-bright-color) !important;
 }
 .input_f89b2c {
@@ -15891,6 +15815,10 @@ path[fill="rgb(255,216,54)"] {
 .card_b846e5:before {
     border: none !important;
     background-color: var(--hover-faint-color) !important;
+}
+.defaultKeybindGroup__740f2 {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
 }
 
 /* Activity Privacy (User Settings) */
