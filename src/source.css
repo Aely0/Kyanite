@@ -15944,6 +15944,12 @@ path[fill="rgb(255,216,54)"] {
     fill: var(--soft-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
+.button_e18686.removeGame_cc46f0 {
+    color: var(--hover-red-dark-color) !important;
+}
+.button_e18686.removeGame_cc46f0:hover {
+    color: var(--hover-red-bright-color) !important;
+}
 
 /* Game overlay (User Settings) */
 .disabled_e03935 {
