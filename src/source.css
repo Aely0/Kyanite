@@ -1089,24 +1089,25 @@ path {
 }
 .listItemTooltip-CDcY8J,
 .guildNameText_b1f768,
-.tooltip-14MtrL {
+.tooltip_c36707 {
+    box-shadow: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.tooltipPrimary__382e7 {
-    color: var(--soft-bright-color) !important;
+.tooltipPrimary_c36707 {
+    --tooltip-pointer-bg: var(--main-color) !important;
     background-color: var(--main-color) !important;
 }
-.tooltipPrimary__382e7 .tooltipPointer__382e7,
-:where(.visual-refresh) .tooltipPointer__382e7.tooltipPointerBg__382e7:before,
-:where(.visual-refresh) .tooltipPointer__382e7.tooltipPointerBg__382e7:after {
+.tooltipPrimary_c36707 .tooltipPointer_c36707,
+:where(.visual-refresh) .tooltipPointer_c36707.tooltipPointerBg_c36707:before,
+:where(.visual-refresh) .tooltipPointer_c36707.tooltipPointerBg_c36707:after {
     border-top-color: var(--main-color) !important;
 }
-:where(.visual-refresh) .tooltip__382e7 {
+:where(.visual-refresh) .tooltip_c36707 {
     border: none !important;
 }
 
 /* Tooltip Brand */
-.tooltipBrand__382e7 {
+.tooltipBrand_c36707 {
     color: var(--soft-bright-color) !important;
     background: linear-gradient(
         90deg,
@@ -1118,7 +1119,7 @@ path {
 .tooltipText__0ca35 {
     color: var(--soft-bright-color) !important;
 }
-.tooltipBrand__382e7 .tooltipPointer__382e7 {
+.tooltipBrand_c36707 .tooltipPointer_c36707 {
     border-top-color: var(--hover-color) !important;
 }
 
@@ -1344,11 +1345,11 @@ path {
     background: none !important;
     border-bottom: 2px solid var(--soft-bright-color) !important;
 }
-.tooltipBlack__382e7 {
+.tooltipBlack_c36707 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.tooltipBlack__382e7 .tooltipPointer__382e7 {
+.tooltipBlack_c36707 .tooltipPointer_c36707 {
     border-top-color: var(--main-color) !important;
 }
 .burstNotice_ea6e72 {
@@ -5931,14 +5932,14 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Voice chat user volume */
-.tooltipGrey__382e7 {
+.tooltipGrey_c36707 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.tooltip__382e7 {
+.tooltip_c36707 {
     box-shadow: var(--hover-color) !important;
 }
-.tooltipGrey__382e7 .tooltipPointer__382e7 {
+.tooltipGrey_c36707 .tooltipPointer_c36707 {
     border-top-color: var(--main-color) !important;
 }
 
