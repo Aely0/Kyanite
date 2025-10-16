@@ -8987,15 +8987,21 @@ h2.title_feb59c strong {
 }
 
 /* Adopt server tag popup */
-.container_cdb3b1 {
+.popover_d6f39b,
+.popoverGradientWrapper_d6f39b {
     background-color: var(--dark-bg) !important;
     box-shadow: var(--hover-color) 0px 0px 5px inset !important;
+    border-radius: 12px !important;
 }
-.container_cdb3b1:after {
-    border-top: 8px solid var(--dark-bg) !important;
+.caretIcon_d6f39b .caretFill_d6f39b,
+.caretIcon_d6f39b .caretGradient_d6f39b {
+    fill: var(--dark-bg) !important;
 }
 .tag_cdb3b1 {
     background-color: var(--hover-faded-color) !important;
+}
+.headerBody_d6f39b .text-sm\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Party Mode popup */
