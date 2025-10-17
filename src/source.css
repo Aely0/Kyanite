@@ -4333,6 +4333,9 @@ button[aria-label="Stop Watching"]
 .container__37e49 .button__67645:hover .lottieIcon__5eb9b {
     --__lottieIconColor: var(--soft-bright-color) !important;
 }
+.container__37e49 .popoutOpen__37e49 .buttonChevronIcon__37e49 > path {
+    fill: var(--soft-bright-color) !important;
+}
 .ping_c0cb95 path[fill="var(--interactive-normal)"] {
     fill: var(--yellow-bright-color) !important;
 }
@@ -4348,37 +4351,55 @@ button[aria-label="Stop Watching"]
 .container_e131a9 .button__67645:hover path {
     fill: var(--soft-bright-color) !important;
 }
-.container__37e49 .button__67645[aria-checked="true"] .lottieIcon__5eb9b {
+.micButtonParent__37e49.popoutOpen__37e49 .buttonChevron__37e49,
+.micButtonParent__37e49.popoutOpen__37e49 .micButtonWithMenu__37e49,
+.micButtonParent__37e49:not(.hasColorGlow__37e49):hover .buttonChevron__37e49,
+.micButtonParent__37e49:not(.hasColorGlow__37e49):hover
+    .micButtonWithMenu__37e49 {
+    background-color: transparent !important;
+}
+.micButtonParent__37e49 .button__67645[aria-checked="true"] .lottieIcon__5eb9b {
     --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
-.container__37e49 .button__67645.redGlow__67645[aria-checked="true"] {
+.micButtonParent__37e49
+    .button__67645[aria-checked="true"]:hover
+    .lottieIcon__5eb9b {
+    --__lottieIconColor: var(--yellow-bright-color) !important;
+}
+.micButtonParent__37e49:has([aria-checked="true"]) .button__67645 path {
+    fill: var(--hover-yellow-bright-color) !important;
+}
+.micButtonParent__37e49:has([aria-checked="true"]) .button__67645:hover path,
+.micButtonParent__37e49:has([aria-checked="true"]) .popoutOpen__37e49 path {
+    fill: var(--yellow-bright-color) !important;
+}
+.micButtonParent__37e49:has([aria-checked="true"])
+    .button__67645.redGlow__67645 {
     background-color: color-mix(
         in srgb,
         var(--hover-yellow-color) 60%,
         black
     ) !important;
 }
-.container__37e49
-    .button__67645.redGlow__67645[aria-checked="true"]:has(
-        .contents__201d5 > svg
-    ) {
+.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
+    .button__67645.redGlow__67645 {
     background-color: color-mix(
         in srgb,
         var(--hover-red-color) 60%,
         black
     ) !important;
 }
-.container__37e49 .button__67645[aria-checked="true"]:hover .lottieIcon__5eb9b {
-    --__lottieIconColor: var(--yellow-bright-color) !important;
-}
-.container__37e49
-    .button__67645[aria-checked="true"]
-    path[fill="var(--status-danger)"] {
+.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
+    .button__67645
+    path {
     fill: var(--hover-red-bright-color) !important;
 }
-.container__37e49
-    .button__67645[aria-checked="true"]:hover
-    path[fill="var(--status-danger)"] {
+.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
+    .button__67645:hover
+    path,
+.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
+    .popoutOpen__37e49
+    path {
     fill: var(--red-bright-color) !important;
 }
 .icon_c9d15c path {
