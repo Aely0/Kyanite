@@ -5157,14 +5157,17 @@ button[aria-label="Stop Watching"]
 .upload_aa605f {
     background-color: var(--hover-color) !important;
 }
-.uploadModalIn_dbca3c .uploadDropModal_dbca3c .bgScale_dbca3c {
-    background: var(--hover-color) !important;
+.uploadDropModal_b78547 .bgScale_b78547 {
+    background: var(--dark-bg) !important;
+}
+.uploadDropModal_b78547 .inner_b78547 {
+    border: 2px dashed var(--soft-bright-color) !important;
 }
 .webkit__8d35a .divider__908e2 {
     border-top: 1px solid var(--main-color) !important;
 }
 .metadata__0ccae,
-.optional_dbca3c {
+.optional_b78547 {
     color: var(--hover-bright-color) !important;
 }
 .downloadButton__3fb6d {
@@ -5173,18 +5176,18 @@ button[aria-label="Stop Watching"]
 .nonMediaAttachment_ef83c1 {
     outline: none !important;
 }
-.filename_dbca3c,
-.destination_dbca3c strong,
-.label_dbca3c {
+.filename_b78547,
+.destination_b78547 strong,
+.label_b78547 {
     color: var(--soft-bright-color) !important;
 }
-.uploadModal_dbca3c .footer_dbca3c {
+.uploadModal_b78547 .footer_b78547 {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.uploadDropModal_dbca3c .title_dbca3c,
-.uploadDropModal_dbca3c .title_dbca3c strong,
-.uploadDropModal_dbca3c .instructions_dbca3c {
+.uploadDropModal_b78547 .title_b78547,
+.uploadDropModal_b78547 .title_b78547 strong,
+.uploadDropModal_b78547 .instructions_b78547 {
     color: var(--soft-bright-color) !important;
 }
 .altTag__41ea0 {
@@ -5217,11 +5220,8 @@ button[aria-label="Stop Watching"]
 .cancelButton__0ccae:hover {
     color: var(--hover-bright-color) !important;
 }
-.footer_dbca3c {
+.footer_b78547 {
     background-color: transparent !important;
-}
-.uploadDropModal_dbca3c .inner_dbca3c {
-    border: 2px dashed var(--soft-bright-color) !important;
 }
 .file__0ccae {
     border: none !important;
@@ -5288,7 +5288,7 @@ button[aria-label="Stop Watching"]
 }
 
 /* Image upload */
-.uploadModal_dbca3c .inner_dbca3c .file_dbca3c .icon_dbca3c.image_dbca3c {
+.uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.image_b78547 {
     background-color: var(--hover-color) !important;
 }
 
