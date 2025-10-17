@@ -12140,12 +12140,15 @@ div[class*="flex-"][class*="title-"],
 .activity_f00225 {
     background: var(--hover-color) !important;
 }
-.bannerColor_fb7f94 {
+.bannerColor_fb7f94,
+.bannerButton_de8008 {
     background: var(--dark-bg) !important;
     color: var(--hover-bright-color) !important;
     border-radius: 8px !important;
+    border: none !important;
 }
-.bannerColor_fb7f94:hover {
+.bannerColor_fb7f94:hover,
+.bannerButton_de8008:hover {
     color: var(--soft-bright-color) !important;
 }
 .custom-profile-theme .pill_dfa8b6 {
