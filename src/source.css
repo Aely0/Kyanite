@@ -226,9 +226,10 @@ body::after,
 
 /* Generic text */
 .colorHeaderPrimary_c9946a,
-[style*="color: var(--text-brand)"],
-[style*="color: var(--interactive-normal)"],
-[style*="color: var(--interactive-active)"] {
+[style^="color: var(--text-brand);"],
+[style^="color: var(--header-primary);"],
+[style^="color: var(--interactive-normal);"],
+[style^="color: var(--interactive-active);"] {
     color: var(--soft-bright-color) !important;
 }
 .colorInteractiveActive_c9946a,
@@ -236,12 +237,14 @@ body::after,
 .h5-2RwDNl,
 .description-30xx7u,
 .labelDescriptor-34wZ-z,
-[style*="color: var(--text-default)"],
-[style*="color: var(--text-normal)"],
-[style*="color: var(--text-secondary)"],
-[style*="color: var(--text-muted)"]:not(.activityText__5d473),
-[style*="color: var(--header-primary)"],
-[style*="color: var(--header-secondary)"] {
+.userTag__63ed3,
+[style^="color: var(--text-default);"],
+[style^="color: var(--text-normal);"],
+[style^="color: var(--text-primary);"],
+[style^="color: var(--text-secondary);"],
+[style^="color: var(--text-muted);"],
+[style^="color: var(--header-secondary);"],
+[data-text-variant="text-sm/normal"] > span {
     color: var(--hover-bright-color) !important;
 }
 :root,
