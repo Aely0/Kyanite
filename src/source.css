@@ -290,19 +290,19 @@ path {
 .radioIndicator__001a7 {
     margin-bottom: -3px !important;
 }
-:where(.visual-refresh) .refreshIconStroke__1bda4 {
+:where(.visual-refresh) .refreshIconStroke__88a69 {
     stroke: var(--hover-bright-color) !important;
     stroke-width: 4px !important;
 }
 :where(.visual-refresh)
-    .radioIndicatorChecked__1bda4
-    .refreshIconStroke__1bda4 {
+    .radioIndicatorChecked__88a69
+    .refreshIconStroke__88a69 {
     stroke: var(--soft-bright-color) !important;
 }
-:where(.visual-refresh) .radioIndicatorChecked__1bda4 .refreshIconFill__1bda4 {
+:where(.visual-refresh) .radioIndicatorChecked__88a69 .refreshIconFill__88a69 {
     fill: transparent !important;
 }
-:where(.visual-refresh) .refreshIcon__1bda4 {
+:where(.visual-refresh) .refreshIcon__88a69 {
     fill: var(--soft-bright-color) !important;
 }
 
@@ -16735,113 +16735,115 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Setting radio options */
-.radioBar__1bda4 {
+.radioBar__88a69 {
     color: var(--hover-bright-color) !important;
 }
-.radioIconForeground__1bda4 {
+.radioIconForeground__88a69 {
     color: var(--soft-bright-color) !important;
 }
-.item__1bda4 {
+.item__88a69 {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.item__1bda4:hover {
+.item__88a69:hover {
     background-color: var(--hover-color) !important;
 }
-.item__1bda4[aria-checked="true"] {
+.item__88a69[aria-checked="true"] {
     color: var(--soft-bright-color) !important;
 }
-.item__1bda4.itemFilled__1bda4,
-.item__1bda4.itemFilled__1bda4:hover {
+.item__88a69.itemFilled__88a69,
+.item__88a69.itemFilled__88a69:hover {
     background-color: transparent !important;
 }
 
-.item__1bda4.itemFilled__1bda4 .radioBar__1bda4[style="padding: 10px;"]:hover {
+.item__88a69.itemFilled__88a69[aria-checked="true"]
+    .radioBar__88a69[style="padding: 10px;"],
+.item__88a69.itemFilled__88a69 .radioBar__88a69[style="padding: 10px;"]:hover {
     color: var(--soft-bright-color) !important;
 }
-.item__1bda4.itemFilled__1bda4
-    .radioBar__1bda4[style="padding: 10px;"]:hover
-    .refreshIconStroke__1bda4 {
+.item__88a69.itemFilled__88a69
+    .radioBar__88a69[style="padding: 10px;"]:hover
+    .refreshIconStroke__88a69 {
     stroke: var(--soft-bright-color) !important;
 }
 
-.radioBar__1bda4,
-.radioBar__1bda4 .refreshIconStroke__1bda4 {
+.radioBar__88a69,
+.radioBar__88a69 .refreshIconStroke__88a69 {
     border-left: none !important;
     transition: all 200ms ease-out !important;
 }
 
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] {
     color: var(--hover-green-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:has(
-        .radioIndicatorChecked__1bda4
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:has(
+        .radioIndicatorChecked__88a69
     ),
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover {
     color: var(--green-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
+    .refreshIconStroke__88a69 {
     stroke: var(--hover-green-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .radioIndicatorChecked__1bda4
-    .refreshIconStroke__1bda4,
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
+    .radioIndicatorChecked__88a69
+    .refreshIconStroke__88a69,
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover
+    .refreshIconStroke__88a69 {
     stroke: var(--green-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .refreshIcon__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
+    .refreshIcon__88a69 {
     fill: var(--green-bright-color) !important;
 }
 
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] {
     color: var(--hover-yellow-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:has(
-        .radioIndicatorChecked__1bda4
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:has(
+        .radioIndicatorChecked__88a69
     ),
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover {
     color: var(--yellow-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
+    .refreshIconStroke__88a69 {
     stroke: var(--hover-yellow-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .radioIndicatorChecked__1bda4
-    .refreshIconStroke__1bda4,
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
+    .radioIndicatorChecked__88a69
+    .refreshIconStroke__88a69,
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover
+    .refreshIconStroke__88a69 {
     stroke: var(--yellow-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .refreshIcon__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
+    .refreshIcon__88a69 {
     fill: var(--yellow-bright-color) !important;
 }
 
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
     color: var(--hover-red-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:has(
-        .radioIndicatorChecked__1bda4
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:has(
+        .radioIndicatorChecked__88a69
     ),
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover {
     color: var(--red-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
+    .refreshIconStroke__88a69 {
     stroke: var(--hover-red-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .radioIndicatorChecked__1bda4
-    .refreshIconStroke__1bda4,
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover
-    .refreshIconStroke__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
+    .radioIndicatorChecked__88a69
+    .refreshIconStroke__88a69,
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover
+    .refreshIconStroke__88a69 {
     stroke: var(--red-bright-color) !important;
 }
-.radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .refreshIcon__1bda4 {
+.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
+    .refreshIcon__88a69 {
     fill: var(--red-bright-color) !important;
 }
 
