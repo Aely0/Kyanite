@@ -17249,8 +17249,80 @@ a[href="https://support.discord.com"]
 
 /* Vencord */
 
-/* Settings (Themes) */
-#vencordthemes-tab a[role="link"] {
+/* Settings (Generic Buttons) */
+.vc-settings-quickActions-pill {
+    font-weight: 500 !important;
+}
+.vc-settings-quickActions-pill .vc-icon path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
+.vc-settings-quickActions-pill:hover .vc-icon path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
+.vc-settings-quickActions-pill,
+.vc-btn-primary,
+.vc-btn-overlayPrimary {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+    color: var(--hover-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+.vc-settings-quickActions-pill:hover,
+.vc-btn-primary:hover,
+.vc-btn-overlayPrimary:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+.vc-btn-dangerPrimary {
+    background: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        transparent
+    ) !important;
+    color: var(--hover-red-bright-color) !important;
+    border: none !important;
+    transition: all 200ms ease-in-out !important;
+}
+.vc-btn-dangerPrimary:hover {
+    background: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+
+/* Settings (Generic Switches) */
+.vc-switch-container {
+    background-color: var(--hover-faded-color) !important;
+}
+.vc-switch-container.vc-switch-checked {
+    background-color: var(--hover-color) !important;
+    border-color: transparent !important;
+}
+.vc-switch-slider > rect {
+    fill: transparent !important;
+}
+.vc-switch-slider > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+
+/* Settings (Generic Text) */
+.vc-h5,
+.vc-h4,
+.vc-text-lg,
+.vc-text-xl,
+.vc-text-base a {
+    color: var(--soft-bright-color) !important;
+}
+.vc-text-sm,
+.vc-text-md {
+    color: var(--hover-bright-color) !important;
+}
+
+/* Settings (Links) */
+.vc-text-base a,
+#vencordthemes-tab a {
     color: var(--soft-bright-color) !important;
     text-decoration: underline !important;
 }
@@ -17261,55 +17333,27 @@ a[href="https://support.discord.com"]
     color: var(--soft-bright-color) !important;
     font-weight: 600 !important;
 }
-
-/* Buttons color in vencord tab */
-.vc-settings-quickActions-pill {
-    background-color: var(--hover-color) !important;
+.vc-settings-modal-link-icon {
+    border: 4px solid var(--hover-color) !important;
 }
-
-/* Text in buttons */
-.vc-settings-quickActions-pill {
-    color: var(--soft-bright-color) !important;
-}
-
-/* Colored icons in buttons */
-.vc-settings-quickActions-img.vc-log-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-paintbrush-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-restart-icon.vc-icon path,
-.vc-settings-quickActions-img.vc-folder-icon.vc-icon path {
+.vc-settings-modal-link-icon path {
     fill: var(--soft-bright-color) !important;
 }
-
-/* Link in vencord tab */
-#vencordsettings-tab .contents__201d5,
-#vencordsettings-tab .contents__201d5:hover {
-    color: var(--soft-bright-color) !important;
-    text-decoration: underline !important;
-    text-decoration-color: var(--soft-bright-color) !important;
+.vc-plugins-info-button path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
 }
-
-/* Plugins tab cards */
+.vc-plugins-info-button:hover path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
+}
 .vc-addon-card {
     background-color: var(--hover-faded-color) !important;
 }
 
-/* Plugin icons */
-.button__67645 .vc-cog-wheel path,
-.button__67645 .vc-info-icon path {
-    fill: var(--soft-bright-color) !important;
-}
-
-/* Updater and cloud links */
-#vencordupdater-tab a[role="link"],
-#vencordcloud-tab a[role="link"] {
-    color: var(--soft-bright-color) !important;
-    text-decoration: underline !important;
-}
-
-/* Backup and restore text */
-.vc-settings-card.vc-backup-restore-card.cardPrimary__73069.card__73069 strong,
-.vc-settings-card.vc-backup-restore-card.cardPrimary__73069.card__73069 span {
-    color: var(--soft-bright-color) !important;
+/* Settings (Themes) */
+.vc-addon-card {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Experiments control text */
