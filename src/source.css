@@ -325,10 +325,10 @@ path {
 .input__0ed4f:not([readOnly]):focus:hover {
     border-color: var(--soft-bright-color) !important;
 }
-.wrapper__3412a:not([data-read-only="true"]):has(input:focus, textarea:focus) {
+.wrapper__72c38:not([data-read-only="true"]):has(input:focus, textarea:focus) {
     --custom-input-border-color: var(--soft-bright-color) !important;
 }
-.wrapper__3412a {
+.wrapper__72c38 {
     --custom-input-background-color: var(--hover-color) !important;
     --custom-input-border-color: transparent !important;
     --custom-input-text-color: var(--soft-bright-color) !important;
