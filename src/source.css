@@ -6062,9 +6062,12 @@ img:not(.emote):not(.emoji)::after {
 .header_ab6641.header_e8b59c {
     background-color: transparent !important;
 }
-.recentMentionsPopout__95796 {
+.container_fc561d.recentMentionsPopout__95796 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+}
+.messagesPopoutWrap_e8b59c {
+    background-color: var(--dark-bg) !important;
 }
 .row__6fddf .mask_db811b {
     display: none !important;
@@ -12638,7 +12641,7 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Pinned messages */
-.theme-dark .messagesPopoutWrap_e8b59c,
+.messagesPopoutWrap_e8b59c:not(.recentMentionsPopout__95796),
 .container__2692d {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
