@@ -6019,10 +6019,10 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Inbox tab */
-.theme-dark .footer__45690 {
+.theme-dark .footer_e8b59c {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.theme-dark .header__45690 .title_ea15ce {
+.theme-dark .header_e8b59c .title_ea15ce {
     color: var(--main-color) !important;
 }
 .itemDefault-3Jdr52.item-3XjbnG.notSelected-1N1G5p.tabBarItem-1Cg-MI {
@@ -6059,7 +6059,7 @@ img:not(.emote):not(.emoji)::after {
     color: var(--soft-bright-color) !important;
 }
 .container__0f711,
-.header_ab6641.header__45690 {
+.header_ab6641.header_e8b59c {
     background-color: transparent !important;
 }
 .recentMentionsPopout__95796 {
@@ -6109,7 +6109,7 @@ img:not(.emote):not(.emoji)::after {
 .secondary__06eda:hover {
     color: var(--soft-bright-color) !important;
 }
-.messagesPopoutWrap__45690 {
+.messagesPopoutWrap_e8b59c {
     box-shadow: none !important;
 }
 .container__2692d {
@@ -7226,7 +7226,7 @@ img:not(.emote):not(.emoji)::after {
 .scroller-5bBood,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .scroller__244e5,
-.messagesPopout__45690,
+.messagesPopout_e8b59c,
 .scroller_ff90b2,
 .scroller__7dda4,
 .scroller_ac6cb0,
@@ -12638,48 +12638,48 @@ div[class*="flex-"][class*="title-"],
 }
 
 /* Pinned messages */
-.theme-dark .messagesPopoutWrap__45690,
+.theme-dark .messagesPopoutWrap_e8b59c,
 .container__2692d {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
 }
-.theme-dark .messageGroupWrapper__45690,
-.theme-dark .messageGroupWrapper__45690:hover {
-    background-color: var(--dark-bg) !important;
+.theme-dark .messageGroupWrapper_e8b59c,
+.theme-dark .messageGroupWrapper_e8b59c:hover {
+    background-color: var(--hover-faint-color) !important;
     border: none !important;
 }
-.theme-dark .messagesPopoutWrap__45690 .messagesPopout__45690 .message-group,
-.theme-dark .messagesPopoutWrap__45690 .header__45690,
+.theme-dark .messagesPopoutWrap_e8b59c .messagesPopout_e8b59c .message-group,
+.theme-dark .messagesPopoutWrap_e8b59c .header_e8b59c,
 .header_ab6641,
 .header_ab6641 .tab_ab6641 {
     border-color: transparent !important;
     background-color: var(--dark-bg) !important;
 }
 .theme-dark
-    .messagesPopoutWrap__45690
-    .messagesPopout__45690
+    .messagesPopoutWrap_e8b59c
+    .messagesPopout_e8b59c
     .message-group:hover {
     border: 1px solid var(--main-color) !important;
 }
-.messageGroupWrapper__45690:hover .actionButtons__45690 {
+.messageGroupWrapper_e8b59c:hover .actionButtons_e8b59c {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
 }
-.jumpButton__45690 {
+.jumpButton_e8b59c {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
     border: 1px solid var(--hover-color) !important;
     border-radius: 4px !important;
 }
-.jumpButton__45690:hover {
+.jumpButton_e8b59c:hover {
     color: var(--soft-bright-color) !important;
     border: 1px solid var(--hover-bright-color) !important;
 }
-.closeIcon__45690 {
+.closeIcon_e8b59c {
     color: var(--hover-dark-color) !important;
 }
-.closeIcon__45690:hover {
+.closeIcon_e8b59c:hover {
     color: var(--hover-bright-color) !important;
 }
 .jumpButton_ed0c8c {
@@ -12716,10 +12716,10 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-dark-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.body__45690 {
+.body_e8b59c {
     color: var(--hover-bright-color) !important;
 }
-.titleContainer__45690 svg path,
+.titleContainer_e8b59c svg path,
 .iconContainer__235ca svg path {
     fill: var(--soft-bright-color) !important;
 }
