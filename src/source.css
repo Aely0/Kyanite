@@ -7095,7 +7095,14 @@ img:not(.emote):not(.emoji)::after {
     color: var(--hover-bright-color) !important;
 }
 .guildIconExpired_d5f3cd {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
+}
+.guildInviteContainer__083ae {
+    background: var(--hover-faded-color) !important;
+    border: none !important;
+}
+.footerContent__083ae {
+    background: transparent !important;
 }
 .statusCounts_d5f3cd .count_d5f3cd {
     color: var(--hover-bright-color) !important;
