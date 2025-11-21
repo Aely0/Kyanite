@@ -4588,7 +4588,10 @@ button[aria-label="Stop Watching"]
     background-color: var(--main-color) !important;
 }
 
-/* Server list voice user overflow */
+/* Server list voice user list */
+.avatarWithBackground__183c2 {
+    background-color: var(--dark-bg) !important;
+}
 .moreUsers__183c2 {
     background-color: transparent !important;
     color: var(--soft-bright-color) !important;
