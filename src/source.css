@@ -9868,7 +9868,7 @@ img.sidebarHeader__0ab2c {
 .container_b08511 .dots-1BwzZQ.themed-3T-OPr {
     color: var(--soft-bright-color) !important;
 }
-/* Custom */
+/* Misc */
 .container__60fa3 {
     background: var(--hover-faded-color) !important;
 }
@@ -9880,6 +9880,9 @@ img.sidebarHeader__0ab2c {
 }
 .container__60fa3 .markup__75297 :is(h1, h2, h3, h4, h5, h6) {
     color: var(--soft-bright-color) !important;
+}
+.container__60fa3 .markup__75297 small:not(.inlineFormat__75297) {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Title panel */
