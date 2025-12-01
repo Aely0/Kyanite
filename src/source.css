@@ -923,26 +923,30 @@ path {
 }
 
 /* Reaction list */
-.container_cc2dff,
-.reactors_cc2dff,
-.scroller_cc2dff {
+.container_b7f4b4,
+.reactors_b7f4b4,
+.scroller_b7f4b4 {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .sidebar-1-SQro {
     background: rgba(0, 0, 0, 0.2) !important;
 }
-.reactionSelected_cc2dff {
+.reactionDefault_b7f4b4:hover,
+.reactionSelected_b7f4b4 {
     background-color: var(--hover-color) !important;
 }
-.reactor_cc2dff .discriminator_cc2dff {
+.reactor_b7f4b4 .discriminator_b7f4b4 {
     color: var(--hover-bright-color) !important;
 }
-.reactorDefault_cc2dff {
-    -webkit-box-shadow: inset 0 -1px 0 var(--hover-color) !important;
-    box-shadow: inset 0 -1px 0 var(--hover-color) !important;
+.reactorDefault_b7f4b4 {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 .reactionDefault_cc2dff:hover {
     background-color: var(--hover-color) !important;
+}
+.reactors_b7f4b4 {
+    border-radius: 0px !important;
 }
 
 /* Message hover toolbar */
