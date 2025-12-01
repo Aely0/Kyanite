@@ -10538,7 +10538,7 @@ img.sidebarHeader__0ab2c {
 }
 .visual-refresh .bottomBar__0f481 {
     background-color: var(--dark-bg) !important;
-    box-shadow: none !important;
+    box-shadow: var(--hover-color) 0px 0px 5px inset !important;
 }
 .visual-refresh .barButtonAlt__0f481 {
     background-color: transparent !important;
