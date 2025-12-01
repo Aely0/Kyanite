@@ -4658,6 +4658,21 @@ button[aria-label="Stop Watching"]
 .visual-refresh .header_f37cb1:hover {
     background-color: var(--hover-color) !important;
 }
+.invitesRefresh_f37cb1 .inviteButton_f37cb1:hover,
+.invitesRefresh_f37cb1 .guildDropdown_f37cb1:hover {
+    background-color: var(--hover-color) !important;
+}
+.guildDropdown_f37cb1 .headerChildren_f37cb1 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.inviteButton_f37cb1 > svg path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.inviteButton_f37cb1:hover > svg path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
 
 /* Server list organize */
 .centerTarget_d144f8.dragOver_d144f8:before,
