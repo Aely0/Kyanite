@@ -911,6 +911,12 @@ path {
 }
 .reactionEmojiDetailsClickable_d5cd2d {
     color: var(--soft-bright-color) !important;
+    background-color: var(--hover-faded-color) !important;
+    transition: background-color 200ms ease-in-out !important;
+}
+.reactionEmojiDetailsClickable_d5cd2d:hover {
+    background-color: var(--hover-color) !important;
+    transition: background-color 200ms ease-in-out !important;
 }
 .reactionBtn__23977.forceShow__23977 {
     background-color: transparent !important;
@@ -5883,7 +5889,7 @@ img:not(.emote):not(.emoji)::after {
     font-weight: 600 !important;
 }
 .joinGuildLink_d5cd2d,
-.joinGuildLink_d5cd2d .text-xs-normal__46d75 {
+.joinGuildLink_d5cd2d .text-xs\/normal_cf4812 {
     color: var(--soft-bright-color) !important;
 }
 .popoutLoadingForeground__0f481 {
@@ -8201,7 +8207,7 @@ h2.title_feb59c strong {
 .dragContainer__5d756,
 .container__5d756 .text-lg-semibold__9539a,
 .onboardingStepText__28e57
-    .text-xs-normal__46d75[style="color: var(--text-normal);"],
+    .text-xs\/normal_cf4812[style="color: var(--text-normal);"],
 .pillItem__9e06a {
     color: var(--hover-bright-color) !important;
 }
