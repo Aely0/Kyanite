@@ -618,234 +618,6 @@ path {
     box-shadow: none !important;
 }
 
-/* Search */
-.search .search-bar {
-    border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
-    -wekbit-transition: all 0.3s ease-in-out !important;
-    transition: all 0.3s ease-in-out !important;
-}
-.search.focused .search-bar {
-    border-color: var(--main-color) !important;
-}
-.search .search-bar .public-DraftEditorPlaceholder-root {
-    color: hsla(0, 0%, 100%, 0.3) !important;
-}
-.search .DraftEditor-root,
-.theme-dark .search .DraftEditor-root {
-    color: #fff !important;
-}
-.search-answer,
-.theme-dark .search-answer,
-.search-filter,
-.theme-dark .search-filter {
-    background-color: hsla(0, 0%, 100%, 0.1) !important;
-}
-.search-answer {
-    margin-left: 0 !important;
-    text-indent: -4px !important;
-}
-.search-popout,
-.react-datepicker {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-}
-.search-popout .option.selected {
-    background-color: var(--main-color) !important;
-}
-.search-popout .search-query {
-    border-color: transparent !important;
-}
-.search-popout .search-query.selected .keybind-shortcut span {
-    border-color: hsla(0, 0%, 100%, 0.7) !important;
-    -webkit-box-shadow: inset 0 -4px 0 rgba(227, 227, 227, 0.7) !important;
-    box-shadow: inset 0 -4px 0 rgba(227, 227, 227, 0.7) !important;
-}
-.search-popout .results-group .search-clear-history:hover {
-    opacity: 0.7 !important;
-}
-.search-popout .search-option .answer {
-    color: #caccce !important;
-}
-.search-popout .search-query .search-for strong,
-.search-popout .search-option .filter,
-.search-popout .search-option .non-text,
-.react-datepicker .react-datepicker__current-month {
-    color: #555 !important;
-}
-.search-popout .date-picker {
-    border-color: transparent !important;
-}
-.react-datepicker
-    .react-datepicker__navigation.react-datepicker__navigation--next.react-datepicker__navigation--next,
-.react-datepicker
-    .react-datepicker__navigation.react-datepicker__navigation--previous.react-datepicker__navigation--next {
-    -webkit-transform: rotateZ(-90deg) !important;
-    transform: rotateZ(-90deg) !important;
-}
-.react-datepicker
-    .react-datepicker__week:first-of-type
-    .react-datepicker__day:not(.react-datepicker__day--disabled):not(
-        .react-datepicker__day--outside-month
-    ) {
-    border-top: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-    border-bottom: none !important;
-}
-.react-datepicker
-    .react-datepicker__week:first-of-type
-    + .react-datepicker__week
-    .react-datepicker__day {
-    border-top: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-}
-.react-datepicker
-    .react-datepicker__week
-    .react-datepicker__day:not(.react-datepicker__day--disabled):not(
-        .react-datepicker__day--outside-month
-    ):last-of-type {
-    border-right: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-}
-.react-datepicker .react-datepicker__day {
-    border-color: transparent !important;
-    border-left: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-}
-.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover,
-.react-datepicker .react-datepicker__day:hover,
-.react-datepicker .react-datepicker__day.react-datepicker__day--today::after,
-.search-popout .date-picker .date-picker-hint .hint-value {
-    background-color: var(--hover-bright-color) !important;
-    -webkit-transition: background-color 0.3s ease-in-out !important;
-    transition: background-color 0.3s ease-in-out !important;
-}
-.search-popout .date-picker .date-picker-hint .hint-value:hover {
-    background-color: var(--hover-color) !important;
-}
-.react-datepicker .react-datepicker__day-name,
-.react-datepicker .react-datepicker__day {
-    color: hsla(0, 0%, 100%, 0.3) !important;
-}
-.react-datepicker .react-datepicker__day--disabled,
-.react-datepicker .react-datepicker__day--outside-month {
-    background: transparent !important;
-    border-color: hsla(0, 0%, 100%, 0.02) !important;
-    color: rgba(85, 85, 85, 0.5) !important;
-}
-.react-datepicker
-    .react-datepicker__day:not(.react-datepicker__day--disabled)
-    + .react-datepicker__day--disabled,
-.react-datepicker
-    .react-datepicker__day:not(.react-datepicker__day--outside-month)
-    + .react-datepicker__day--outside-month {
-    border-left-color: hsla(0, 0%, 100%, 0.04) !important;
-}
-.react-datepicker .react-datepicker__day-name,
-.react-datepicker .react-datepicker__day {
-    color: var(--hover-bright-color) !important;
-}
-.react-datepicker .react-datepicker__current-month {
-    color: var(--soft-bright-color) !important;
-}
-.calendarPicker_d27f17
-    .react-datepicker__day.react-datepicker__day--keyboard-selected,
-.calendarPicker_d27f17
-    .react-datepicker__day.react-datepicker__day--selected:hover,
-.calendarPicker_d27f17 .react-datepicker__day:hover {
-    background-color: var(--hover-dark-color) !important;
-}
-.react-datepicker.calendarContainer-TgxIEf.elevationBorderHigh__2b2f1 {
-    border: 1px solid var(--hover-color) !important;
-}
-.search-popout .date-picker .date-picker-hint {
-    border-color: transparent !important;
-}
-.search-results-wrap .search-header,
-.theme-dark .search-results-wrap .search-header,
-.react-datepicker .react-datepicker__header {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-}
-.search-results-wrap .search-header .tab,
-.search-results-wrap .search-header .total-results,
-.search-results-wrap .search-header a {
-    color: #fff !important;
-}
-.search-results-wrap .search-header .tab.selected,
-.search-results-wrap .search-header .tab:hover {
-    border-bottom: 2px solid #fff !important;
-}
-.search-results-wrap .search-header .tab.selected,
-.theme-dark .search-results-wrap .search-header .tab.selected {
-    color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
-}
-.search-results-wrap .channel-separator .channel-name {
-    color: #fff !important;
-}
-.search-results-wrap .channel-separator::before {
-    border-color: hsla(0, 0%, 100%, 0.1) !important;
-}
-.search-results-wrap .search-result {
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-}
-.search-results-wrap .search-result.expanded {
-    border-color: transparent !important;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.04) !important;
-}
-.search-results-wrap .search-result .search-result-message.after,
-.search-results-wrap .search-result .search-result-message.before {
-    opacity: 0.3 !important;
-}
-.search-results-wrap
-    .search-result:not(.expanded)
-    .search-result-message.before {
-    -webkit-mask-image: -webkit-linear-gradient(
-        top,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(0, 0, 0, 1) 70%,
-        transparent 100%
-    ) !important;
-    mask-image: -webkit-linear-gradient(
-        top,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(0, 0, 0, 1) 70%,
-        transparent 100%
-    ) !important;
-}
-.search-results-wrap
-    .search-result:not(.expanded)
-    .search-result-message.after {
-    -webkit-mask-image: -webkit-linear-gradient(
-        top,
-        transparent 0%,
-        rgba(0, 0, 0, 1) 30%,
-        rgba(0, 0, 0, 1) 70%,
-        transparent 100%
-    ) !important;
-    mask-image: -webkit-linear-gradient(
-        top,
-        transparent 0%,
-        rgba(0, 0, 0, 1) 30%,
-        rgba(0, 0, 0, 1) 70%,
-        transparent 100%
-    ) !important;
-}
-.search-results-wrap .search-result .search-result-message .message-group {
-    padding-bottom: 0 !important;
-}
-.search-results-wrap .channel-separator .channel-name,
-.theme-dark .search-results-wrap .channel-separator .channel-name {
-    background-color: transparent !important;
-}
-.search-results-wrap .search-result .hit,
-.theme-dark .search-results-wrap .search-result .hit {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-color: transparent !important;
-    box-shadow: none !important;
-}
-.search-popout .results-group::before,
-.search-popout .option::after,
-.search-results-wrap .search-result::before,
-.search-results-wrap .search-result::after {
-    display: none !important;
-}
-
 /* Highlights */
 .highlight {
     background: var(--hover-dark-color) !important;
@@ -12787,6 +12559,37 @@ div[class*="flex-"][class*="title-"],
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
+.container_f1c5c9 {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+    box-shadow: var(--hover-color) !important;
+}
+.itemContainer__1bb32:active,
+.itemContainer__1bb32:hover,
+.itemContainer__1bb32[aria-selected="true"] {
+    background-color: var(--hover-color) !important;
+}
+.itemIcon__1bb32 {
+    color: var(--hover-bright-color) !important;
+}
+.itemContainer__1bb32:active .itemIcon__1bb32,
+.itemContainer__1bb32:hover .itemIcon__1bb32,
+.itemContainer__1bb32[aria-selected="true"] .itemIcon__1bb32 {
+    color: var(--soft-bright-color) !important;
+}
+.filterSublabelTextContainer__1bb32 .text-sm\/medium_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+.clearSearchHistoryIcon__1bb32 {
+    color: var(--hover-red-bright-color) !important;
+}
+.clearSearchHistory__1bb32:hover .clearSearchHistoryIcon__1bb32 {
+    color: var(--red-bright-color) !important;
+}
+.answerPill__1bb32,
+.filterPill__1bb32 {
+    background-color: var(--hover-color) !important;
+}
 .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
     color: var(--hover-bright-color) !important;
     opacity: 0.8 !important;
@@ -12844,8 +12647,11 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
 }
 
-/* Search bar (GIFs/Friends) */
-.container_a45028 {
+/* "Were these search results helpful?" */
+.searchResultsWrap_a9e706 .container__3379f {
+    display: none !important;
+}
+
     background-color: var(--hover-color) !important;
 }
 .container_a45028 .input_a45028 {
