@@ -49,7 +49,7 @@ body::after,
 /* Message bar gift button (tag:hidden) */
 /*
 .button__74017.button__24af7:has(
-        div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8"]
+        div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8.104999542236328"]
     ) {
     display: initial !important;
 }

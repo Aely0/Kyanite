@@ -17160,8 +17160,9 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Message bar gift button (tag:hidden) */
+/* M-7,10 C-8.104999542236328,10 -9,9.104999542236328 ... */
 .button__74017.button__24af7:has(
-        div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8"]
+        div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8.104999542236328"]
     ) {
     display: none !important;
 }
