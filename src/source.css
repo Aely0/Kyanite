@@ -75,38 +75,38 @@
 
 /* Title bar (Linux/Web) */
 /* .platform-linux.visual-refresh .winButtons_c38106, */
-/* .platform-web.visual-refresh .winButtons_c38106, */
+.platform-web.visual-refresh .winButtons_c38106,
 /* .platform-linux.visual-refresh .bar_c38106 .title_c38106, */
-/* .platform-web.visual-refresh .bar_c38106 .title_c38106 { */
-/* display: none !important; */
-/* } */
+.platform-web.visual-refresh .bar_c38106 .title_c38106 {
+    display: none !important;
+}
 /* .platform-linux.visual-refresh .bar_c38106 .trailing_c38106, */
-/* .platform-web.visual-refresh .bar_c38106 .trailing_c38106 { */
-/* position: relative !important; */
-/* z-index: 200 !important; */
-/* } */
+.platform-web.visual-refresh .bar_c38106 .trailing_c38106 {
+    position: relative !important;
+    z-index: 200 !important;
+}
 /* .platform-linux.visual-refresh .content__5e434, */
-/* .platform-web.visual-refresh .content__5e434 { */
-/* grid-row: noticeEnd / end !important; */
-/* } */
+.platform-web.visual-refresh .content__5e434 {
+    grid-row: noticeEnd / end !important;
+}
 /* .platform-linux.visual-refresh .base__5e434, */
-/* .platform-web.visual-refresh .base__5e434 { */
-/* grid-template-areas: */
-/* "notice notice notice" */
-/* "guildsList channelsList page" !important; */
-/* grid-template-rows: [start] min-content [noticeEnd] 1fr [end] !important; */
-/* } */
+.platform-web.visual-refresh .base__5e434 {
+    grid-template-areas:
+        "notice notice notice"
+        "guildsList channelsList page" !important;
+    grid-template-rows: [start] min-content [noticeEnd] 1fr [end] !important;
+}
 /* .platform-linux.visual-refresh .bar_c38106, */
-/* .platform-web.visual-refresh .bar_c38106 { */
-/* position: absolute !important; */
-/* grid-area: page !important; */
-/* right: 0px !important; */
-/* top: 12px !important; */
-/* } */
+.platform-web.visual-refresh .bar_c38106 {
+    position: absolute !important;
+    grid-area: page !important;
+    right: 0px !important;
+    top: 12px !important;
+}
 /* .platform-linux.visual-refresh .toolbar__9293f, */
-/* .platform-web.visual-refresh .toolbar__9293f { */
-/* padding-right: 40px !important; */
-/* } */
+.platform-web.visual-refresh .toolbar__9293f {
+    padding-right: 40px !important;
+}
 
 /* Title bar (Windows) */
 /* .platform-win.visual-refresh .bar_c38106 .trailing_c38106 { */
@@ -4507,9 +4507,9 @@ button[aria-label="Stop Watching"]
 
 /* Server Discover (Linux/Web) */
 /* .platform-linux.visual-refresh .headerBar__8a7fc.overlay__8a7fc, */
-/* .platform-web.visual-refresh .headerBar__8a7fc.overlay__8a7fc { */
-/* padding-right: 50px !important; */
-/* } */
+.platform-web.visual-refresh .headerBar__8a7fc.overlay__8a7fc {
+    padding-right: 50px !important;
+}
 
 /* Server Discover (Windows) */
 /* .platform-win.visual-refresh .headerBar__8a7fc.overlay__8a7fc { */
@@ -10538,9 +10538,9 @@ img.sidebarHeader__0ab2c {
 
 /* Server list (Linux/Web) */
 /* .platform-linux.visual-refresh .guilds__5e434, */
-/* .platform-web.visual-refresh .guilds__5e434 { */
-/* padding-top: 10px !important; */
-/* } */
+.platform-web.visual-refresh .guilds__5e434 {
+    padding-top: 10px !important;
+}
 
 /* Server list */
 :root {
