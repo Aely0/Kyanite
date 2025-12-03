@@ -12652,24 +12652,73 @@ div[class*="flex-"][class*="title-"],
     display: none !important;
 }
 
+/* Search bar (filter) */
+.chevronIcon__5fa2f > svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.selectDropdown__5fa2f {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.listBoxItem__2e223:focus:not([aria-disabled]),
+.mouse-mode .listBoxItem__2e223:hover:not([aria-disabled]) {
     background-color: var(--hover-color) !important;
 }
-.container_a45028 .input_a45028 {
-    color: var(--soft-bright-color) !important;
-}
-.container_a45028 .input_a45028::placeholder {
+.listBoxItemContent__2e223 .lineClamp1__4bd52.text-md\/normal_cf4812 {
     color: var(--hover-bright-color) !important;
 }
-.icon_a45028 {
-    color: var(--hover-bright-color) !important;
-}
-.icon_a45028:hover {
+.listBoxItem__2e223:focus:not([aria-disabled])
+    .listBoxItemContent__2e223
+    .lineClamp1__4bd52.text-md\/normal_cf4812,
+.listBoxItem__2e223[aria-selected="true"]
+    .listBoxItemContent__2e223
+    .lineClamp1__4bd52.text-md\/normal_cf4812,
+.mouse-mode
+    .listBoxItem__2e223:hover:not([aria-disabled])
+    .listBoxItemContent__2e223
+    .lineClamp1__4bd52.text-md\/normal_cf4812 {
     color: var(--soft-bright-color) !important;
 }
-
-/* Search bar date picker */
-.datePicker__56fec {
-    background-color: var(--dark-bg) !important;
+.tag_cfee8f {
+    background-color: var(--hover-faded-color) !important;
+}
+.tag_cfee8f svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.tag_cfee8f [slot="remove"][data-hovered] {
+    background-color: var(--hover-faded-color);
+    border-color: transparent !important;
+}
+.tag_cfee8f [slot="remove"][data-hovered] svg path {
+    fill: var(--soft-bright-color) !important;
+}
+.container__9bb02 > svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.trashIcon__95e0a {
+    color: var(--hover-red-bright-color) !important;
+}
+.trashIcon__95e0a:hover {
+    color: var(--red-bright-color) !important;
+}
+.placeholder__5fa2f {
+    color: var(--hover-bright-color) !important;
+    opacity: 0.6 !important;
+}
+.clearButton__5fa2f {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.clearButton__5fa2f:hover {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
 }
 .calendarPicker_d27f17 .react-datepicker {
     background-color: var(--dark-bg) !important;
