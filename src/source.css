@@ -73,6 +73,35 @@
     display: none !important;
 }
 
+/* Title bar (Linux) */
+.winButtonMinMax_c38106::before {
+    width: 12% !important;
+    height: 58% !important;
+    position: absolute !important;
+    content: "" !important;
+}
+.winButtonMinMax_c38106:has(svg > rect[height="1"])::before {
+    background-color: var(--hover-bright-color) !important;
+    mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iIzAwMDAwMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC0wMDAwMDAsICMwMDAwMDApOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjxwYXRoIGQ9Ik0yMTMuNjYsMTAxLjY2bC04MCw4MGE4LDgsMCwwLDEtMTEuMzIsMGwtODAtODBBOCw4LDAsMCwxLDUzLjY2LDkwLjM0TDEyOCwxNjQuNjlsNzQuMzQtNzQuMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyWiI+PC9wYXRoPjwvc3ZnPg==") !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 100% !important;
+}
+.winButtonMinMax_c38106:has(svg > rect[height="9"])::before {
+    background-color: var(--hover-bright-color) !important;
+    mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iIzAwMDAwMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC0wMDAwMDAsICMwMDAwMDApOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjxwYXRoIGQ9Ik0yMTMuNjYsMTY1LjY2YTgsOCwwLDAsMS0xMS4zMiwwTDEyOCw5MS4zMSw1My42NiwxNjUuNjZhOCw4LDAsMCwxLTExLjMyLTExLjMybDgwLTgwYTgsOCwwLDAsMSwxMS4zMiwwbDgwLDgwQTgsOCwwLDAsMSwyMTMuNjYsMTY1LjY2WiI+PC9wYXRoPjwvc3ZnPg==") !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 100% !important;
+}
+.winButtonMinMax_c38106:has(
+        svg > rect[height="1"],
+        svg > rect[height="9"]
+    ):hover::before {
+    background-color: var(--soft-bright-color) !important;
+}
+.winButtonMinMax_c38106 > svg {
+    visibility: hidden !important;
+}
+
 /* Title bar (Linux/Web) */
 /* .platform-linux.visual-refresh .winButtons_c38106, */
 .platform-web.visual-refresh .winButtons_c38106,
