@@ -4150,6 +4150,21 @@ button[aria-label="Stop Watching"]
     display: none !important;
 }
 
+/* Whishlist panel */
+.moreOverlay__6d190,
+.card__39b32,
+.card__6d190 {
+    background: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+.card__39b32:hover,
+.card__6d190:hover {
+    background: var(--hover-faded-color) !important;
+}
+.moreOverlay__6d190 .text-xs\/medium_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+
 /* General status panel */
 .content__37e49 {
     background: transparent !important;
