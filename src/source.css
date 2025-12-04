@@ -4090,6 +4090,66 @@ button[aria-label="Stop Watching"]
     box-shadow: none !important;
 }
 
+/* Widgets panel */
+.container_c3474d {
+    background: var(--dark-bg) !important;
+    box-shadow: none !important;
+}
+.addButtonContainer__4a011 {
+    background: var(--hover-faded-color) !important;
+}
+.addButtonContainer__4a011:has(.addButtonContent__4a011:hover) {
+    background: var(--hover-color) !important;
+}
+.placeholderBar__7a78a {
+    background-color: var(--hover-faded-color) !important;
+}
+.addButton__4a011 {
+    color: var(--soft-bright-color) !important;
+}
+.dismissButton__203bc,
+.closeButton_c3474d {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.dismissButton__203bc:hover,
+.closeButton_c3474d:hover {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
+}
+.coverButton__36be8 {
+    background-color: var(--hover-faint-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.coverButton__36be8:hover {
+    background-color: var(--hover-faded-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.dragHandleButton__62dd3 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.addWidgetButton__97442 {
+    color: var(--hover-bright-color) !important;
+}
+.tooltipText__66b20 {
+    color: var(--hover-bright-color) !important;
+}
+.tooltipText__66b20 .text-sm\/normal_cf4812 {
+    font-weight: 500 !important;
+}
+.tooltipText__66b20 strong {
+    color: var(--soft-bright-color) !important;
+}
+.addIcon__203bc {
+    display: none !important;
+}
+
 /* General status panel */
 .content__37e49 {
     background: transparent !important;
