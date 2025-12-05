@@ -2720,7 +2720,7 @@ path {
     border: 1px solid var(--main-color) !important;
 }
 .inputDefault__0f084.input__0f084.container__9bb02,
-.select__3f413.searchable__3f413.select__71cea.lookFilled__3f413 {
+.select_a16aea.searchable_a16aea.select__71cea.lookFilled_a16aea {
     border: 1px solid var(--main-color) !important;
 }
 .container__04119.clickable__04119.active__04119,
@@ -9802,7 +9802,7 @@ img.sidebarHeader__0ab2c {
     color: var(--soft-bright-color) !important;
 }
 .option_b08511,
-.placeholder__3f413 {
+.placeholder_a16aea {
     color: var(--hover-bright-color) !important;
 }
 .option_b08511 .labelContainer_b08511 .label_b08511 {
@@ -9811,7 +9811,7 @@ img.sidebarHeader__0ab2c {
 .option_b08511 .labelContainer_b08511 .description_b08511 {
     color: var(--hover-bright-color) !important;
 }
-.option__54675.focused__3f413,
+.option__54675.focused_a16aea,
 .option__54675:focus,
 .option__54675:hover {
     background-color: var(--hover-color) !important;
@@ -14833,14 +14833,14 @@ path[fill="rgb(255,216,54)"] {
 .fakeActivityIcon_dfbe6b.phibi-3Bl5zI {
     background-color: var(--main-color) !important;
 }
-.select__3f413.lookFilled__3f413 {
+.select_a16aea.lookFilled_a16aea {
     background-color: var(--hover-color) !important;
     border-color: var(--hover-color) !important;
 }
 .inputDefault__0f084.input__0f084 {
     background-color: var(--hover-color) !important;
 }
-:where(.visual-refresh) .lookFilled__3f413.select__3f413 {
+:where(.visual-refresh) .lookFilled_a16aea.select_a16aea {
     border: none !important;
 }
 
@@ -15152,34 +15152,34 @@ path[fill="rgb(255,216,54)"] {
 .editPencilIcon__2d060 > path {
     fill: var(--soft-bright-color) !important;
 }
-.lookFilled__3f413.select__3f413,
+.lookFilled_a16aea.select_a16aea,
 .inputDefault__0f084.input__0f084 {
     color: var(--soft-bright-color) !important;
 }
-.searchInput__3f413 {
+.searchInput_a16aea {
     color: var(--soft-bright-color) !important;
 }
-.searchInput__3f413::placeholder,
+.searchInput_a16aea::placeholder,
 .inputDefault__0f084.input__0f084::placeholder {
     color: var(--hover-bright-color) !important;
 }
-.dropdownIcon__3f413 > path {
+.dropdownIcon_a16aea > path {
     fill: var(--hover-bright-color) !important;
 }
-.popout__3f413 {
+.popout_a16aea {
     border: 1px solid var(--hover-color) !important;
     background: var(--hover-color) !important;
     backdrop-filter: blur(40px) !important;
 }
-.option__3f413[aria-selected="true"]:not(.option__3f413.multi__3f413) {
+.option_a16aea[aria-selected="true"]:not(.option_a16aea.multi_a16aea) {
     background-color: var(--hover-faint-color) !important;
     color: var(--soft-bright-color) !important;
 }
-:where(.visual-refresh) .option__3f413:hover {
+:where(.visual-refresh) .option_a16aea:hover {
     background-color: var(--hover-faint-color) !important;
     color: var(--soft-bright-color) !important;
 }
-:where(.visual-refresh) .option__3f413 {
+:where(.visual-refresh) .option_a16aea {
     color: var(--hover-bright-color) !important;
 }
 .editingContainer__57752 {
@@ -15193,10 +15193,10 @@ path[fill="rgb(255,216,54)"] {
 .rotateButton__57752 {
     color: var(--hover-bright-color) !important;
 }
-.selectedIcon__3f413 > circle {
+.selectedIcon_a16aea > circle {
     fill: var(--soft-bright-color) !important;
 }
-.selectedIcon__3f413 > g {
+.selectedIcon_a16aea > g {
     color: transparent !important;
 }
 .button__201d5.lookLink__201d5 .contents__201d5 > span {
@@ -15242,7 +15242,7 @@ path[fill="rgb(255,216,54)"] {
 .guildName_e7c728 {
     color: var(--hover-bright-color) !important;
 }
-.option__3f413:hover .guildName_e7c728 {
+.option_a16aea:hover .guildName_e7c728 {
     color: var(--soft-bright-color) !important;
 }
 .upsellOverlay__0f7dc {
@@ -16217,7 +16217,7 @@ path[fill="rgb(255,216,54)"] {
 .button__201d5.lookLink__201d5.lowSaturationUnderline-Z6CW6z.cancelButton-27U_rB.sizeMedium-2bFIHr.grow__201d5 {
     color: var(--soft-bright-color) !important;
 }
-.icons__3f413,
+.icons_a16aea,
 .clearIcon_dbc4b7 {
     color: var(--hover-bright-color) !important;
 }
@@ -16957,13 +16957,13 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Checkbox (other) */
-.selectedIcon__3f413 {
+.selectedIcon_a16aea {
     background-color: transparent !important;
 }
-.selectedIcon__3f413 circle {
+.selectedIcon_a16aea circle {
     fill: transparent !important;
 }
-.selectedIcon__3f413 path {
+.selectedIcon_a16aea path {
     d: path(
         "M 19.06 6.94 a 1.5 1.5 0 0 1 0 2.12 l -8 8 a 1.5 1.5 0 0 1 -2.12 0 l -4 -4 a 1.5 1.5 0 0 1 2.12 -2.12 L 10 13.88 l 6.94 -6.94 a 1.5 1.5 0 0 1 2.12 0 Z"
     ) !important;
