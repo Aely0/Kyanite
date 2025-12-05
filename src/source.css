@@ -283,6 +283,8 @@ body::after,
 [style^="color: var(--text-primary);"],
 [style^="color: var(--text-secondary);"],
 [style^="color: var(--text-muted);"],
+[style^="color: var(--text-subtle);"],
+[style^="color: var(--text-strong);"],
 [style^="color: var(--header-secondary);"],
 [data-text-variant="text-sm/normal"] > span {
     color: var(--hover-bright-color) !important;
