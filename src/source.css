@@ -12617,6 +12617,12 @@ div[class*="flex-"][class*="title-"],
 .protip_ac6cb0 {
     border-top: 1px solid var(--hover-color) !important;
 }
+.scroller_ac6cb0::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.tutorialMessages__73f2a {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Audit log dropdown menus */
 .container__3dde2 {
