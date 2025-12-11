@@ -15991,6 +15991,9 @@ path[fill="rgb(255,216,54)"] {
 }
 
 /* Activity Privacy (User Settings) */
+.stack_dbd263 > div {
+    color: var(--hover-bright-color) !important;
+}
 .switchContainer_eda416 {
     background-color: transparent !important;
 }
