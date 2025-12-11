@@ -1996,6 +1996,20 @@ path {
 .typing-uHRw1D .dots-1BwzZQ.themed-3T-OPr {
     color: var(--soft-bright-color) !important;
 }
+.container__9a337.isOpen__9a337,
+.container__9a337.isOpen__9a337 .dots__9a337 {
+    border-color: var(--hover-color) !important;
+}
+.dots__9a337 {
+    background-color: var(--hover-color) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.headerLeft__5808f .headerText__5808f {
+    color: var(--hover-bright-color) !important;
+}
+.sortDropdownTextHighContrastForcedColor_f369db {
+    color: var(--soft-bright-color) !important;
+}
 .mainCard_f369db .bullet-3kDmK0 {
     color: var(--hover-dark-color) !important;
 }
