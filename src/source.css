@@ -15947,15 +15947,18 @@ path[fill="rgb(255,216,54)"] {
 .recorderLayout__2636e .keybindInput__2636e::placeholder {
     color: var(--hover-bright-color) !important;
 }
+.recorderLayout__2636e {
+    border-radius: 8px !important;
+}
 .container_e61cfb:not(.disabled__97701):focus-within,
 .container_e61cfb:not(.disabled__97701):hover {
     border-color: transparent !important;
 }
-.button_e18686.removeKeybindFloating__740f2 {
-    color: var(--hover-red-dark-color) !important;
+.removeKeybind__740f2 .icon_a22cb0 > path {
+    fill: var(--hover-red-dark-color) !important;
 }
-.button_e18686.removeKeybindFloating__740f2:hover {
-    color: var(--hover-red-bright-color) !important;
+.removeKeybind__740f2 .icon_a22cb0:hover > path {
+    fill: var(--hover-red-bright-color) !important;
 }
 .row__740f2 {
     -webkit-box-shadow: none !important;
