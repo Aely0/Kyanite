@@ -14975,6 +14975,12 @@ path[fill="rgb(255,216,54)"] {
 .positive__35859 .icon__35859 {
     color: var(--hover-bright-color) !important;
 }
+.status_d878e7 .defaultColor__5345c[style="color: var(--header-primary);"] {
+    color: var(--hover-bright-color) !important;
+}
+.status_d878e7 .heading-lg\/bold_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Edit username (User Settings > My Account) */
 .input-2g-os5.disabled-1MTS26 {
