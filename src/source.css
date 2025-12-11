@@ -17474,6 +17474,9 @@ a[href="https://support.discord.com"] {
     color: var(--soft-bright-color) !important;
     text-decoration: underline !important;
 }
+.vc-settings-tab {
+    --text-default: var(--hover-bright-color) !important;
+}
 
 /* Settings (Plugins) */
 .vc-addon-badge {
@@ -17515,6 +17518,11 @@ a[href="https://support.discord.com"] {
 }
 .vc-card-warning .vc-text-base {
     color: var(--yellow-bright-color) !important;
+}
+
+/* Settings (Updater) */
+.vc-card-base[style="padding: 0px 0.5em;"] {
+    background: transparent !important;
 }
 
 /* Experiments control text */
