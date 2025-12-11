@@ -14521,11 +14521,15 @@ path[fill="rgb(255,216,54)"] {
 .contents-3ca1mk > span {
     color: var(--soft-bright-color) !important;
 }
-.message_fcf29c.flexChild__7c0ba {
+.message__9a9f9.flexChild__7c0ba {
     color: var(--soft-bright-color) !important;
 }
-.container_fcf29c {
+.container__9a9f9 {
     background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color) 0px 0px 5px inset !important;
+}
+.spinnerItem__201d5 {
+    background-color: var(--soft-bright-color) !important;
 }
 
 /* My Account (User Settings) */
@@ -14595,6 +14599,9 @@ path[fill="rgb(255,216,54)"] {
 }
 .status_d878e7 .heading-lg\/bold_cf4812 {
     color: var(--soft-bright-color) !important;
+}
+.nameplatePreviewPlaceholder__39749 {
+    background: var(--hover-faint-color) !important;
 }
 
 /* Edit username (User Settings > My Account) */
@@ -16052,7 +16059,7 @@ path[fill="rgb(255,216,54)"] {
     background-color: var(--hover-color) !important;
     backdrop-filter: blur(8px) !important;
 }
-.message_fcf29c {
+.message__9a9f9 {
     color: var(--soft-bright-color) !important;
 }
 
