@@ -17462,7 +17462,8 @@ a[href="https://support.discord.com"] {
     color: var(--soft-bright-color) !important;
 }
 .vc-text-sm,
-.vc-text-md {
+.vc-text-md,
+.vc-text-base {
     color: var(--hover-bright-color) !important;
 }
 
@@ -17495,6 +17496,12 @@ a[href="https://support.discord.com"] {
 }
 .vc-addon-card {
     background-color: var(--hover-faded-color) !important;
+}
+.vc-plugin-ui-elements-button {
+    color: var(--hover-bright-color) !important;
+}
+.vc-plugin-ui-elements-button:hover {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Settings (Themes) */
