@@ -14131,6 +14131,12 @@ div[class*="flex-"][class*="title-"],
 .footer__7f9c0 {
     border-top: none !important;
 }
+.footerButton__7f9c0 .text-sm\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.footerButton__7f9c0:hover .text-sm\/normal_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
 
 /* DM blocked user */
 .muted_bf202d .favoriteIcon__972a0 {
