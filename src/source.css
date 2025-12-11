@@ -4142,6 +4142,20 @@ button[aria-label="Stop Watching"]
     color: var(--soft-bright-color) !important;
 }
 
+/* General status panel (Custom Nameplate) */
+.panels__5e434 .fitInAccount__4bbc6 .img__4bbc6 {
+    visibility: hidden !important;
+}
+.panels__5e434
+    .container__4bbc6.fitInAccount__4bbc6[style^="background: linear-gradient"] {
+    background: transparent !important;
+}
+.panels__5e434 .container__37e49 {
+    --custom-nameplate: transparent !important;
+    --custom-nameplate-neutral: transparent !important;
+    --custom-nameplate-neutral-hovered: transparent !important;
+}
+
 /* General status panel */
 .content__37e49 {
     background: transparent !important;
