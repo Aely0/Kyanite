@@ -15749,6 +15749,15 @@ path[fill="rgb(255,216,54)"] {
     fill: var(--soft-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
+.container_a1d343 {
+    background-color: var(--hover-faint-color) !important;
+}
+.colorThemesBackground_fbfab6 {
+    background: var(--hover-faint-color) !important;
+}
+.paletteIcon__8fea4 > path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Accessibility (User Settings) */
 .previewMessage__5d148 {
