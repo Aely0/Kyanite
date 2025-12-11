@@ -17525,6 +17525,11 @@ a[href="https://support.discord.com"] {
     background: transparent !important;
 }
 
+/* Settings (Backup & Restore) */
+.vc-card-warning > h4 {
+    color: var(--yellow-bright-color) !important;
+}
+
 /* Experiments control text */
 .experimentDate_bc4a3e {
     color: var(--soft-bright-color) !important;
