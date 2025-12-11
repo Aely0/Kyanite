@@ -14815,6 +14815,64 @@ path[fill="rgb(255,216,54)"] {
 .premiumTrialAcknowledgedBadge_e4ef22 {
     display: none !important;
 }
+.content_e9e3ed {
+    background: transparent !important;
+}
+.contentHeader_e9e3ed {
+    background: transparent !important;
+    border-bottom: none !important;
+}
+.fixedContent__409aa:after {
+    background: linear-gradient(
+        to bottom,
+        var(--dark-bg),
+        transparent
+    ) !important;
+}
+.item_caf372 {
+    color: var(--hover-bright-color) !important;
+}
+.item_caf372.active_caf372,
+.item_caf372:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.item_caf372[data-list-item-id="settings-sidebar___logout_sidebar_item"] {
+    color: var(--hover-red-bright-color) !important;
+}
+.item_caf372[data-list-item-id="settings-sidebar___logout_sidebar_item"]:hover {
+    background-color: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+}
+.editProfilesRow__99464 .lineClamp1__4bd52.text-sm\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.item_caf372.active_caf372
+    .editProfilesRow__99464
+    .lineClamp1__4bd52.text-sm\/normal_cf4812,
+.item_caf372:hover
+    .editProfilesRow__99464
+    .lineClamp1__4bd52.text-sm\/normal_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+.sectionLabel__409aa .label__409aa[style="color: var(--text-muted);"] {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 50%,
+        transparent
+    ) !important;
+}
+.clickable__2debe .text-xxs\/normal_cf4812 {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.navScroller__409aa > div > .clickable__2debe {
+    padding-bottom: 10px !important;
+}
+.compactInfo__2debe .text-xxs\/normal_cf4812::after,
+.bullet__7aac8 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Server Profile */
 .notice-5OG6bf,
