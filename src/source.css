@@ -17387,6 +17387,14 @@ a[href="https://support.discord.com"] {
 
 /* Vencord */
 
+/* Settings (General) */
+.vc-card-normal {
+    border: none !important;
+}
+.vc-card-base {
+    background: var(--hover-faint-color) !important;
+}
+
 /* Settings (Generic Buttons) */
 .vc-settings-quickActions-pill {
     font-weight: 500 !important;
