@@ -2933,79 +2933,6 @@ path {
     background-color: var(--hover-faded-color) !important;
 }
 
-/* Settings Nitro boosting and gifts */
-.theme-dark .expandedInfo_e9cb00,
-.header_fedacc,
-.guildHeader-3nh5RK,
-.guildSubscriptionSlots-JPXXvN {
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-/* Settings billing tab */
-.theme-dark .paymentPane__01014,
-.theme-dark .paginator__01014,
-.theme-dark .payment_e9cb00,
-.paymentRow__01014 .bottomDivider__01014 {
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-.theme-dark .bottomDivider__01014,
-.theme-dark .summaryInfo_e9cb00 {
-    border-bottom-color: hsla(0, 0%, 100%, 0.04) !important;
-    color: var(--hover-bright-color) !important;
-}
-.pageButtonPrev__2d021,
-.pageButtonPrev__2d021.disabled__2d021:hover,
-.pageIndicator__2d021,
-.pageButtonNext__2d021,
-.pageButtonNext__2d021.disabled__2d021:hover {
-    border-color: var(--hover-dark-color) !important;
-    color: var(--hover-dark-color) !important;
-}
-.pageButtonPrev__2d021:hover,
-.pageButtonNext__2d021:hover {
-    border-color: var(--hover-bright-color) !important;
-}
-
-/* Settings Nitro tab */
-.theme-dark .lookOutlined__201d5.colorTransparent-13Bvvi:hover {
-    border-color: var(--hover-bright-color) !important;
-}
-.theme-dark .lookOutlined__201d5.colorTransparent-13Bvvi {
-    border-color: var(--main-color) !important;
-}
-.detailsBlock-FoDTGA {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    border: 1px solid var(--hover-color) !important;
-}
-.checkbox-f1HnKB.flexCenter_abf706.flex_abf706.justifyCenter_abf706.alignCenter_abf706.round-1RSG-3.checked-1pZh2h
-    > svg
-    > path {
-    fill: var(--soft-bright-color) !important;
-}
-.planOptionDiscount-2UFc37 {
-    color: var(--soft-bright-color) !important;
-    background-color: var(--hover-dark-color) !important;
-}
-.newBadge-1Is7Nf {
-    background-color: var(--main-color) !important;
-    color: var(--soft-bright-color) !important;
-}
-.sparkle-9Ivjy- {
-    color: var(--soft-bright-color) !important;
-}
-
-/* Settings Overlay */
-.wrapper_e03935 {
-    border: 2px solid var(--main-color) !important;
-}
-.selected_e03935.option_e03935 {
-    background-color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
-}
-.option_e03935:hover {
-    background-color: var(--main-color) !important;
-}
-
 /* Settings Web Hook */
 .webhooks .webhooks-header {
     border-color: hsla(0, 0%, 100%, 0.1) !important;
@@ -15707,6 +15634,35 @@ path[fill="rgb(255,216,54)"] {
 }
 .info__35859 .icon__35859 {
     color: var(--soft-bright-color) !important;
+}
+.lockIcon__0eeee path,
+.giftIcon_e9cb00 path {
+    fill: var(--hover-bright-color) !important;
+}
+.defaultIndicator__43963 {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    padding: 10px !important;
+}
+.paymentPane__01014 {
+    background-color: var(--hover-faded-color) !important;
+}
+.summaryInfo_e9cb00:hover {
+    background-color: var(--hover-color) !important;
+}
+.payment_e9cb00:hover,
+.payment_e9cb00[data-expanded="true"],
+.summaryInfo_e9cb00[data-expanded="true"] {
+    background-color: var(--hover-faint-color) !important;
+}
+.icon-only_a22cb0,
+.paymentHeader_e9cb00,
+.paymentInfo_e9cb00,
+.paymentText_e9cb00 {
+    color: var(--hover-bright-color) !important;
+}
+.paymentHeader_e9cb00 {
+    border-top: none !important;
 }
 
 /* Game Library (User Settings) (Deprecated) */
