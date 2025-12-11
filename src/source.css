@@ -17469,6 +17469,7 @@ a[href="https://support.discord.com"] {
 
 /* Settings (Links) */
 .vc-text-base a,
+.vc-settings-tab a,
 #vencordthemes-tab a {
     color: var(--soft-bright-color) !important;
     text-decoration: underline !important;
@@ -17507,6 +17508,13 @@ a[href="https://support.discord.com"] {
 /* Settings (Themes) */
 .vc-addon-card {
     color: var(--hover-bright-color) !important;
+}
+.vc-card-warning {
+    background: var(--hover-yellow-color) !important;
+    border: 1px solid var(--yellow-bright-color) !important;
+}
+.vc-card-warning .vc-text-base {
+    color: var(--yellow-bright-color) !important;
 }
 
 /* Experiments control text */
