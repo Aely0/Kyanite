@@ -72,6 +72,9 @@
 .winButtonsWithDivider_c38106:before {
     display: none !important;
 }
+.iconForeground_f1f2b1[d^="M5.1 1a2.1 2.1 0 0 1 1.8 3.14h14.05c.84"] {
+    display: none !important;
+}
 
 /* Title bar (Linux) */
 .platform-linux.visual-refresh .winButtonMinMax_c38106::before {
@@ -134,9 +137,6 @@
 }
 .platform-web.visual-refresh .toolbar__9293f {
     padding-right: 40px !important;
-}
-.iconForeground_f1f2b1[d^="M5.1 1a2.1 2.1 0 0 1 1.8 3.14h14.05c.84"] {
-    display: none !important;
 }
 
 /* Title bar (Windows) */
