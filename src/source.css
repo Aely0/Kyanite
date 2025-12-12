@@ -4519,6 +4519,9 @@ button[aria-label="Stop Watching"]
 .guildDropdown_f37cb1 .headerChildren_f37cb1 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.guildDropdown_f37cb1:hover {
+    background-color: var(--hover-faint-color) !important;
+}
 .inviteButton_f37cb1 > svg path {
     fill: var(--hover-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
