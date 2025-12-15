@@ -1931,6 +1931,24 @@ path {
     border: none !important;
 }
 
+/* Game Servers */
+.container__70617 {
+    background-color: transparent !important;
+}
+.card__611f6 {
+    background-color: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+.statusIndicator__9ca53.offline__9ca53 {
+    background-color: var(--hover-dark-color) !important;
+}
+.statusIndicator__9ca53.online__9ca53 {
+    background-color: var(--soft-bright-color) !important;
+}
+.serverIpContainer__9ca53 > a {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Server Shop */
 .container_adb50a {
     background: var(--hover-faded-color) !important;
