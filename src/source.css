@@ -13230,7 +13230,7 @@ div[class*="flex-"][class*="title-"],
     font-weight: 600 !important;
 }
 .header__94b08 {
-    border-bottom: 1px solid var(--hover-color) !important;
+    border-bottom: none !important;
 }
 
 /* Shop tab */
