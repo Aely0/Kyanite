@@ -13298,7 +13298,7 @@ div[class*="flex-"][class*="title-"],
 .messageRequestItem_abb9ad:hover {
     background: var(--hover-color) !important;
 }
-.selected_f391e3 {
+.selected_dcc822 {
     background-color: var(--hover-color) !important;
 }
 .actionButton-3GQIiT {
@@ -13309,11 +13309,25 @@ div[class*="flex-"][class*="title-"],
     color: var(--soft-bright-color) !important;
     transition: color 400ms ease-out !important;
 }
-.sectionTitle_dcc822.text__13cf1 {
+.sectionTitle_dcc822 {
     color: var(--hover-bright-color) !important;
 }
-.visual-refresh .container_f391e3 {
+.hamBanner__6a41e {
+    background-color: transparent !important;
+}
+.hamBanner__6a41e .text-sm\/normal_cf4812 {
+    font-weight: 500 !important;
+}
+.visual-refresh .container_dcc822 {
     border-top: none !important;
+}
+.emptyStateContainer__65428 .text__33d12 {
+    color: var(--hover-bright-color) !important;
+}
+.emptyStateContainer__65428 .image__33d12 {
+    background: var(--soft-bright-color) !important;
+    mask: url("https://discord.com/assets/4e11cf8e80a816c6.svg") !important;
+    mask-mode: luminance !important;
 }
 
 /* Quick switcher notification */
