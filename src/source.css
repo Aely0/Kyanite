@@ -1931,6 +1931,48 @@ path {
     border: none !important;
 }
 
+/* Server Shop */
+.container_adb50a {
+    background: var(--hover-faded-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.infoContainer_adb50a .text-sm\/normal_cf4812 {
+    font-weight: 500 !important;
+}
+.tab_d804ff {
+    background-color: var(--hover-faint-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.tab_d804ff .text-sm\/semibold_cf4812,
+.tab_d804ff .text-xs\/normal_cf4812,
+.infoContainer__6b8b8 .text-sm\/normal_cf4812,
+.tierPeriod_ea81a9 {
+    color: var(--hover-bright-color) !important;
+}
+.tab_d804ff.selected_d804ff .text-sm\/semibold_cf4812,
+.tab_d804ff.selected_d804ff .text-xs\/normal_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+.tab_d804ff.selected_d804ff {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    border: none !important;
+    box-shadow: 0 0 4px 0 var(--hover-color) !important;
+}
+.iconContainer_d804ff {
+    background-color: transparent !important;
+}
+.tabContainer__49668 {
+    border-top: none !important;
+}
+.icon__0e5a2 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.benefitsSection__3efc4:not(:last-child) {
+    border-bottom: none !important;
+}
+
 /* Forum channels / Post channels */
 .container_f369db {
     background-color: transparent !important;
