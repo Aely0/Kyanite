@@ -13330,6 +13330,26 @@ div[class*="flex-"][class*="title-"],
     display: none !important;
 }
 
+/* Gift chat notification */
+.giftCodeContainer_b7e1cb .tile__72090 {
+    background-color: var(--hover-faded-color) !important;
+}
+.description__72090,
+.tagline__72090 {
+    color: var(--hover-bright-color) !important;
+}
+.invalidPoop__857bf {
+    background-color: var(--hover-faint-color) !important;
+}
+.invalidPoop__857bf {
+    background: var(--hover-bright-color) !important;
+    mask: url("https://discord.com/assets/e4a502bfc6589d65.svg") !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 80% !important;
+    mask-position: center !important;
+    mask-mode: luminance !important;
+}
+
 /* Gif loading icon */
 .imageLoadingOverlay_af017a {
     background-color: var(--hover-color) !important;
