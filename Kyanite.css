@@ -33,22 +33,22 @@ body::after,
 /* Some elements are hidden by default, uncomment the ones below to unhide them */
 
 /* Message hover toolbar (tag:hidden) */
-.message__5126c.selected__5126c .buttons__5126c,
-.mouse-mode .message__5126c:hover .buttons__5126c {
+._5126c0cd07f243a0-message._5126c0cd07f243a0-selected ._5126c0cd07f243a0-buttons,
+.mouse-mode ._5126c0cd07f243a0-message:hover ._5126c0cd07f243a0-buttons {
     display: initial !important;
 }
 
 /* Nitro / Shop tab (tag:hidden) */
 /*
-.channel__972a0 [href="/store"],
-.channel__972a0 [href="/shop"] {
+._972a0d22c8afa7f0-channel [href="/store"],
+._972a0d22c8afa7f0-channel [href="/shop"] {
     display: initial !important;
 }
 */
 
 /* Message bar gift button (tag:hidden) */
 /*
-.button__74017.button__24af7:has(
+._740174f3d6a2c8fe-button._24af7f4d0326ba4f-button:has(
         div > div > svg > g > g > g > g > path[d^=" M-7,10 C-8.104999542236328"]
     ) {
     display: initial !important;
@@ -67,7 +67,7 @@ a[href="https://support.discord.com"] {
 .app-launcher-entrypoint {
     display: initial !important;
 }
-.jumpToPresentBar__0f481 {
+._0f481cbbd7530492-jumpToPresentBar {
     right: calc(
         16px + var(--custom-channel-textarea-text-area-height) +
             var(--custom-channel-textarea-app-launcher-button-gap)
@@ -77,7 +77,7 @@ a[href="https://support.discord.com"] {
 
 /* Apps and Commands button (images) (tag:hidden) */
 /*
-.hoverButton__06ab4:has(div > svg > g > g > g > g > path[d^=" M-6.55499982"]) {
+._06ab41fd2ef7af3f-hoverButton:has(div > svg > g > g > g > g > path[d^=" M-6.55499982"]) {
     display: initial !important;
 }
 */
