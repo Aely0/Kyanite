@@ -9930,13 +9930,17 @@ img._0ab2c03be0b88164-sidebarHeader {
 .mention:hover {
     text-decoration: none !important;
 }
-.f61d60ed65f9a128-wrapper {
+.f61d60ed65f9a128-wrapper:not([style]) {
     padding: none !important;
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.f61d60ed65f9a128-wrapper:hover {
-    background-color: var(--hover-dark-color) !important;
+.f61d60ed65f9a128-wrapper:not([style]):hover {
+    background-color: color-mix(
+        in srgb,
+        var(--hover-dark-color) 60%,
+        transparent
+    ) !important;
 }
 
 /* Tags */
