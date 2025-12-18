@@ -291,6 +291,7 @@ path {
 .visual-refresh.theme-dark,
 .visual-refresh .theme-dark {
     --app-border-frame: transparent !important;
+    --app-frame-border: transparent !important;
     --border-muted: transparent !important;
     --border-subtle: transparent !important;
     --border-faint: transparent !important;
