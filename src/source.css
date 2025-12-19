@@ -1916,6 +1916,53 @@ path {
 .visual-refresh .bfe55a0aaaf62375-root {
     background: transparent !important;
 }
+._07f9193042954787-voiceUser,
+._44b0c28be7879b7b-avatarStack {
+    --yellow-360: var(--hover-yellow-bright-color) !important;
+    --status-speaking: var(--soft-bright-color) !important;
+    --background-base-lower: transparent !important;
+}
+._07f9193042954787-voiceUser:has(
+    ._55bab3f0b2555838-userAvatar[style*="speaking"]
+) {
+    background: linear-gradient(
+        to right,
+        color-mix(in srgb, var(--hover-bright-color) 20%, transparent) 10%,
+        transparent 60%
+    ) !important;
+    border-radius: 25px !important;
+}
+._1bad5bf832d69c38-row ._1bad5bf832d69c38-userIconContainer {
+    color: var(--hover-bright-color) !important;
+}
+.c69b6db0641110f6-voiceChannelHighlightBorder,
+.c69b6db0641110f6-voiceChannelHighlightGlow {
+    background-color: var(--hover-bright-color) !important;
+}
+.f2170ce498f1df46-icon {
+    color: var(--hover-bright-color) !important;
+}
+.f2170ce498f1df46-clickable:hover
+    .f2170ce498f1df46-icon.f2170ce498f1df46-userIcon,
+.f2170ce498f1df46-clickable:hover .f2170ce498f1df46-label {
+    color: var(--soft-bright-color) !important;
+}
+._1bad5bf832d69c38-row._1bad5bf832d69c38-clickable:hover {
+    background-color: var(--hover-color) !important;
+}
+._1bad5bf832d69c38-row._1bad5bf832d69c38-clickable:hover
+    ._1bad5bf832d69c38-name {
+    color: var(--soft-bright-color) !important;
+}
+._1bad5bf832d69c38-icon > path,
+._67dba15a1ae9a3e9-inviteSectionToggleIcon > path {
+    fill: var(--hover-bright-color) !important;
+}
+._1bad5bf832d69c38-row._1bad5bf832d69c38-clickable:hover
+    ._1bad5bf832d69c38-icon
+    > path {
+    fill: var(--soft-bright-color) !important;
+}
 
 /* Private calls */
 .f1ceaca61b18918e-colorable .f1ceaca61b18918e-white {
