@@ -1917,7 +1917,8 @@ path {
     background: transparent !important;
 }
 ._07f9193042954787-voiceUser,
-._44b0c28be7879b7b-avatarStack {
+._44b0c28be7879b7b-avatarStack,
+.f910d08f42c82225-callAvatarMaskContainer {
     --yellow-360: var(--hover-yellow-bright-color) !important;
     --status-speaking: var(--soft-bright-color) !important;
     --background-base-lower: transparent !important;
