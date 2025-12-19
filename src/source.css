@@ -10170,12 +10170,15 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Code blocks */
+._752971923a1e6683-codeContainer {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
 ._4d95d73152192cf9-codeView,
 ._752971923a1e6683-markup code,
 ._752971923a1e6683-markup pre {
     font-family: "Consolas", "Source Code Pro", "gg mono" !important;
     font-size: 11px !important;
-    background: rgba(0, 0, 0, 0.2) !important;
+    background: transparent !important;
     border-color: var(--hover-color) !important;
 }
 ._752971923a1e6683-markup code.inline {
