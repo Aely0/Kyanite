@@ -8128,7 +8128,7 @@ content,
     border-color: var(--hover-bright-color) !important;
 }
 
-/* Slash commands */
+/* Applicatio commands */
 ._13533e3c5791980f-autocomplete {
     background-color: var(--dark-bg) !important;
 }
@@ -8202,6 +8202,12 @@ content,
 }
 .b1e4f3fb96801b99-builtInSeparator {
     border-bottom: none !important;
+}
+._920abe02ba8772be-description,
+._920abe02ba8772be-source,
+._13533e3c5791980f-autocompleteRowContentSecondary,
+._1464f16f3e3c14a9-applicationCommand::after {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Slash commands - Dropdown menu */
