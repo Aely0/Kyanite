@@ -6862,7 +6862,8 @@ img._0ab2c03be0b88164-sidebarHeader {
 .c9d15c8a962de3c8-hasMultipleActivities .c9d15c8a962de3c8-icon path {
     fill: var(--soft-bright-color) !important;
 }
-.sub_0a06ed6ea040aa1b-text .c9d15c8a962de3c8-activityCounter {
+.sub_0a06ed6ea040aa1b-text .c9d15c8a962de3c8-activityCounter,
+.c9d15c8a962de3c8-textWithIconContainer {
     color: var(--hover-bright-color) !important;
 }
 
