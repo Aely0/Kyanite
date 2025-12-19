@@ -372,6 +372,7 @@ path {
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen,
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrandInverted,
 .a22cb0c66246f5d3-overlay-primary,
+.a22cb0c66246f5d3-overlay-secondary,
 .a22cb0c66246f5d3-active,
 .a22cb0c66246f5d3-primary,
 .a22cb0c66246f5d3-secondary {
@@ -388,6 +389,7 @@ path {
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorGreen:hover,
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrandInverted:hover,
 .a22cb0c66246f5d3-overlay-primary:hover,
+.a22cb0c66246f5d3-overlay-secondary:hover,
 .a22cb0c66246f5d3-active:hover,
 .a22cb0c66246f5d3-primary:hover,
 .a22cb0c66246f5d3-secondary:hover {
@@ -8047,6 +8049,169 @@ content,
     background: var(--soft-bright-color) !important;
     mask: url("https://discord.com/assets/4e11cf8e80a816c6.svg") !important;
     mask-mode: luminance !important;
+}
+
+/* Quests */
+.cec93441fbd47328-container {
+    background-color: var(--hover-faded-color) !important;
+    box-shadow: none !important;
+}
+.b5b7aaa6ce54422c-midnightThemeGradient {
+    background: linear-gradient(
+        to bottom,
+        transparent 0,
+        var(--dark-bg) 80%
+    ) !important;
+}
+.b5b7aaa6ce54422c-promotedByRow
+    .cf48127484dbde85-text-sm\/medium[style="color: var(--text-muted);"] {
+    color: var(--hover-bright-color) !important;
+}
+.b5b7aaa6ce54422c-promotedByRow .cf48127484dbde85-text-sm\/medium {
+    color: var(--soft-bright-color) !important;
+}
+._9047f97c69c86d14-popout,
+.e0f8aee83741c888-container {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+._956c67492d3b967a-textOverflowBlur {
+    background: linear-gradient(
+        transparent 50%,
+        var(--dark-bg) 100%
+    ) !important;
+}
+._146e2f3dfd5ca841-progressBar
+    ._146e2f3dfd5ca841-progress[stroke^="var(--green"] {
+    stroke: var(--hover-bright-color) !important;
+}
+.e0f8aee83741c888-instructionsLink {
+    color: var(--soft-bright-color) !important;
+}
+._4577670752bdbe9c-modalBgV2 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+._4577670752bdbe9c-modalContent {
+    background-color: transparent !important;
+}
+._4577670752bdbe9c-videoFooterContGradient {
+    background: linear-gradient(
+        180deg,
+        transparent,
+        var(--dark-bg) 60%
+    ) !important;
+}
+._5a6abdc52a572b78-progress[style="background-color: var(--interactive-background-active);"] {
+    background-color: var(--hover-color) !important;
+}
+.b256a219e865d41d-progressGlow {
+    box-shadow: 0 0 27.8px 2px var(--hover-bright-color) !important;
+}
+.b256a219e865d41d-seekableBar,
+.b256a219e865d41d-buffer {
+    background-color: var(--hover-bright-color) !important;
+}
+._4577670752bdbe9c-videoControlsBtnContDisabled
+    ._4577670752bdbe9c-controlsBarItem
+    > path {
+    fill: var(--hover-dark-color) !important;
+}
+._4577670752bdbe9c-controlsBarItem._4577670752bdbe9c-videoControlsBtn > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+._4577670752bdbe9c-controlsBarItem._4577670752bdbe9c-videoControlsBtn:hover
+    > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+._4577670752bdbe9c-controlsBarItem > path[fill="var(--white)"] {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+._4577670752bdbe9c-controlsBarItem:hover > path[fill="var(--white)"] {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+._4577670752bdbe9c-durationTimeDisplay,
+._4577670752bdbe9c-durationTimeSeparator {
+    font-weight: 600 !important;
+}
+._956c67492d3b967a-rewardDescriptionContainer
+    ._146e2f3dfd5ca841-inner[style^="box-shadow"],
+._4264a6cbfca931e2-progressCont ._146e2f3dfd5ca841-inner[style^="box-shadow"] {
+    box-shadow: 0 0 20px 0px var(--hover-bright-color) !important;
+}
+._4577670752bdbe9c-adDetailsTextPrimary > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+._4577670752bdbe9c-contentHeaderGameInfoHoverable:hover {
+    background-color: var(--hover-faded-color) !important;
+}
+.e0f8aee83741c888-closeButton {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.e0f8aee83741c888-closeButton:hover {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
+}
+.e0f8aee83741c888-closeButton svg > fill,
+._4577670752bdbe9c-closeModalBtnWrapper .a22cb0c66246f5d3-icon > path {
+    fill: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.e0f8aee83741c888-closeButton:hover svg > fill,
+._4577670752bdbe9c-closeModalBtnWrapper:hover .a22cb0c66246f5d3-icon > path {
+    fill: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
+}
+._960ef1e55e284ad3-platformSelectorPrimaryLabel > svg > path,
+.a16aea1526925c2c-option
+    ._960ef1e55e284ad3-platformSelectorPrimaryLabel
+    > svg
+    > path {
+    fill: var(--hover-bright-color) !important;
+}
+.a16aea1526925c2c-option:hover
+    ._960ef1e55e284ad3-platformSelectorPrimaryLabel
+    > svg
+    > path {
+    fill: var(--soft-bright-color) !important;
+}
+.e0f8aee83741c888-gameGrid > svg > rect[fill="var(--background-surface-high)"] {
+    fill: var(--hover-faded-color) !important;
+}
+.e0f8aee83741c888-gameGrid:hover
+    .e0f8aee83741c888-gameClickable:hover
+    .e0f8aee83741c888-coverArtContainer {
+    box-shadow: 0 0 25px 0 var(--hover-color) !important;
+}
+.e0f8aee83741c888-gameGrid:hover
+    .e0f8aee83741c888-gameClickable:hover
+    .e0f8aee83741c888-coverArtContainer:after {
+    box-shadow: inset 0 0 67px 0 var(--hover-color) !important;
+}
+.b9d8f02245978e5c-rewardPill {
+    background-color: var(--hover-faded-color) !important;
+    border-radius: 8px !important;
+}
+._49fc18ba07c5025f-closeWithCircleBackground {
+    background-color: var(--dark-bg) !important;
+    border-radius: 8px !important;
 }
 
 /* Gift chat notification */
