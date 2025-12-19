@@ -7980,7 +7980,7 @@ content,
     background-color: var(--hover-faint-color) !important;
 }
 
-/* Add friend tab */
+/* Add friend */
 ._72ba79a5dfa2ce86-addFriendInputWrapper {
     background-color: transparent !important;
     border: 2px solid var(--hover-dark-color) !important;
@@ -8002,14 +8002,144 @@ content,
     border-bottom: none !important;
 }
 
-/* Shop tab */
-._6db1d32c47b6ad72-shop {
+/* Shop */
+._6db1d32c47b6ad72-shop,
+._084152b107f71237-shopScroll,
+._1feb0fca744244ab-page,
+._1feb0fca744244ab-shopScroll,
+._1187745e085c713e-filterBar {
     background-color: transparent !important;
 }
 ._084152b107f71237-shop {
     background: transparent !important;
 }
 ._8067953d83f4b8a8-discordLogo path {
+    fill: var(--hover-bright-color) !important;
+}
+._8067953d83f4b8a8-shopHomeLink > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+._354ecbbf936fa060-tab:hover {
+    border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+._354ecbbf936fa060-tab._354ecbbf936fa060-selected {
+    border-bottom: 2px solid var(--soft-bright-color) !important;
+}
+._8067953d83f4b8a8-wishlistButton {
+    background-color: var(--hover-faded-color) !important;
+}
+._8067953d83f4b8a8-wishlistButton:hover {
+    background-color: var(--hover-color) !important;
+}
+._8067953d83f4b8a8-wishlistButton > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+._8067953d83f4b8a8-wishlistButton:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.fcbddd55b8b335a1-productCardContainer,
+.e4f643832afbf3d3-productSkeletonText,
+._084152b107f71237-featuredBlockSkeleton,
+._084152b107f71237-featuredBlockSkeletonLogo {
+    background: var(--hover-faded-color) !important;
+}
+.fcbddd55b8b335a1-footerGradient {
+    background: transparent !important;
+}
+.fcbddd55b8b335a1-productCardContainer .cf48127484dbde85-text-md\/bold {
+    color: var(--hover-bright-color) !important;
+}
+._8a8e724a8351ad6f-discount {
+    color: var(--soft-bright-color) !important;
+}
+._979b184ce6e2670e-wishlistButton {
+    background: var(--dark-bg) !important;
+}
+._979b184ce6e2670e-wishlistButton > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+._979b184ce6e2670e-wishlistButton:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.c50f6267327b9a8c-pdpControls .a22cb0c66246f5d3-overlay-secondary {
+    background-color: var(--dark-bg) !important;
+}
+._2c39748d06d0dd35-productVariant {
+    box-shadow: 0 0 0 2px var(--dark-bg) !important;
+}
+._2c39748d06d0dd35-expanded
+    ._2c39748d06d0dd35-productVariant._2c39748d06d0dd35-selected,
+._2c39748d06d0dd35-expanded ._2c39748d06d0dd35-productVariant:focus-within,
+._2c39748d06d0dd35-expanded ._2c39748d06d0dd35-productVariant:hover,
+._2c39748d06d0dd35-collapsed
+    ._2c39748d06d0dd35-productVariant._2c39748d06d0dd35-selected,
+._2c39748d06d0dd35-collapsed ._2c39748d06d0dd35-productVariant:focus-within,
+._2c39748d06d0dd35-collapsed ._2c39748d06d0dd35-productVariant:hover {
+    box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
+}
+._1187745e085c713e-theme > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+._1187745e085c713e-themeToggled > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+._1187745e085c713e-themeToggled {
+    background-color: var(--hover-color) !important;
+}
+._1187745e085c713e-themeToggled .cf48127484dbde85-text-md\/medium {
+    color: var(--soft-bright-color) !important;
+}
+.c50f6267327b9a8c-collectibleInfoContainer {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+._12f1740fc5a8cc39-container {
+    background-color: var(--hover-color) !important;
+    padding: 4px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+}
+._05bc92f793c56aae-priceLine span {
+    color: var(--hover-bright-color) !important;
+}
+.c50f6267327b9a8c-nameplateRightPanePreviewContainer {
+    background-color: var(--dark-bg) !important;
+}
+.c50f6267327b9a8c-chatPreview._730694f5672c9601-cardPrimary._730694f5672c9601-card {
+    bottom: 0px !important;
+    margin: 20px 0px 0px 0px !important;
+    background-color: var(--dark-bg) !important;
+}
+.c50f6267327b9a8c-mockInput {
+    background: var(--hover-color) !important;
+}
+.c50f6267327b9a8c-mockInputButton > path {
+    fill: var(--hover-bright-color) !important;
+}
+.e5f3a99c23b47bde-premiumBrandRefreshBackground {
+    background-color: var(--dark-bg) !important;
+}
+.fda3e4c2d6b02208-table {
+    background-color: var(--hover-color) !important;
+}
+._257663d4c4e80a6b-invoiceRegularText {
+    color: var(--hover-bright-color) !important;
+}
+._553e7c10c6e72bf2-formTitle {
+    margin-top: 10px !important;
+}
+._553e7c10c6e72bf2-finePrint {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+    margin-bottom: 16px !important;
+}
+._9a648e2aa7aa390d-lockIcon {
+    color: var(--hover-bright-color) !important;
+}
+.f284f6a8b2cefcf8-nitroIcon > path {
     fill: var(--hover-bright-color) !important;
 }
 
