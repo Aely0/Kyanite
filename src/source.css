@@ -700,6 +700,16 @@ path {
     border-top-color: var(--hover-color) !important;
 }
 
+/* Tooltip Green */
+.c36707910f687430-tooltipGreen {
+    background-color: var(--green-dark-color) !important;
+    color: var(--green-bright-color) !important;
+    --tooltip-pointer-bg: var(--green-dark-color) !important;
+}
+.c36707910f687430-tooltipGreen .c36707910f687430-tooltipPointer {
+    border-top-color: var(--green-dark-color) !important;
+}
+
 /* Member roles */
 ._48c1c0768f2a2421-overflowRolesPopoutHeaderIcon > path {
     fill: var(--hover-bright-color) !important;
