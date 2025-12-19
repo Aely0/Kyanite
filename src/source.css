@@ -8812,14 +8812,14 @@ content,
         transparent
     ) !important;
 }
-._2debea61131de3de-clickable .text-xxs\/normal_cf4812 {
+._2debea61131de3de-clickable .cf48127484dbde85-text-xxs\/normal {
     font-size: 12px !important;
     font-weight: 500 !important;
 }
 ._409aa1aeee28d5f7-navScroller > div > ._2debea61131de3de-clickable {
     padding-bottom: 10px !important;
 }
-._2debea61131de3de-compactInfo .text-xxs\/normal_cf4812::after,
+._2debea61131de3de-compactInfo .cf48127484dbde85-text-xxs\/normal::after,
 ._7aac80f6cab00c3b-bullet {
     color: var(--hover-bright-color) !important;
 }
