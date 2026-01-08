@@ -3788,6 +3788,12 @@ path {
     background-color: var(--hover-color) !important;
 }
 
+/* Sticker info */
+.abd7a8a2de1017e2-stickerName,
+.abd7a8a2de1017e2-stickerIcon {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Everyone & Token warning popout */
 .d2eed6166a4ad770-contentWarningPopout {
     background-color: var(--dark-bg) !important;
