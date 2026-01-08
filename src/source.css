@@ -4048,7 +4048,7 @@ path {
 ._55c999adcf6db265-queryText strong {
     color: var(--soft-bright-color) !important;
 }
-.a9e7064fdee8e9b0-noResults {
+.a98f3b020416ad54-noResults {
     color: var(--hover-bright-color) !important;
 }
 
@@ -7579,68 +7579,66 @@ content,
 }
 
 /* Search bar */
-.visual-refresh ._974928fe84ca9647-searchBar {
+.visual-refresh .c322aadb96ff59c9-searchBar {
     border: 1px solid transparent !important;
 }
-._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
-.f1c5c9823fbd3ef8-container {
+.b6544fb09f373e60-container {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
     box-shadow: var(--hover-color) !important;
 }
-._1bb324526a52affb-itemContainer:active,
-._1bb324526a52affb-itemContainer:hover,
-._1bb324526a52affb-itemContainer[aria-selected="true"] {
+._8de16516b8d9f538-itemContainer:active,
+._8de16516b8d9f538-itemContainer:hover,
+._8de16516b8d9f538-itemContainer[aria-selected="true"] {
     background-color: var(--hover-color) !important;
 }
-._1bb324526a52affb-itemIcon {
+._8de16516b8d9f538-itemIcon {
     color: var(--hover-bright-color) !important;
 }
-._1bb324526a52affb-itemContainer:active ._1bb324526a52affb-itemIcon,
-._1bb324526a52affb-itemContainer:hover ._1bb324526a52affb-itemIcon,
-._1bb324526a52affb-itemContainer[aria-selected="true"]
-    ._1bb324526a52affb-itemIcon {
+._8de16516b8d9f538-itemContainer:active ._8de16516b8d9f538-itemIcon,
+._8de16516b8d9f538-itemContainer:hover ._8de16516b8d9f538-itemIcon,
+._8de16516b8d9f538-itemContainer[aria-selected="true"]
+    ._8de16516b8d9f538-itemIcon {
     color: var(--soft-bright-color) !important;
 }
-._1bb324526a52affb-filterSublabelTextContainer
+._8de16516b8d9f538-filterSublabelTextContainer
     .cf48127484dbde85-text-sm\/medium {
     color: var(--soft-bright-color) !important;
 }
-._1bb324526a52affb-clearSearchHistoryIcon {
+._8de16516b8d9f538-clearSearchHistoryIcon {
     color: var(--hover-red-bright-color) !important;
 }
-._1bb324526a52affb-clearSearchHistory:hover
-    ._1bb324526a52affb-clearSearchHistoryIcon {
+._8de16516b8d9f538-clearSearchHistory:hover
+    ._8de16516b8d9f538-clearSearchHistoryIcon {
     color: var(--red-bright-color) !important;
 }
-._1bb324526a52affb-answerPill,
-._1bb324526a52affb-filterPill {
+._8de16516b8d9f538-answerPill,
+._8de16516b8d9f538-filterPill {
     background-color: var(--hover-color) !important;
 }
-._974928fe84ca9647-search
-    .DraftEditor-root
-    .public-DraftEditorPlaceholder-root {
+.c322aadb96ff59c9-search .DraftEditor-root .public-DraftEditorPlaceholder-root {
     color: var(--hover-bright-color) !important;
     opacity: 0.8 !important;
 }
-._974928fe84ca9647-search {
+.c322aadb96ff59c9-search {
     border: 1px solid transparent !important;
     border-radius: 8px !important;
 }
-._974928fe84ca9647-search._974928fe84ca9647-focused {
+.c322aadb96ff59c9-search.c322aadb96ff59c9-focused {
     border: 1px solid var(--hover-bright-color) !important;
 }
-.a9e7064fdee8e9b0-searchResultsWrap {
+.a98f3b020416ad54-searchResultsWrap {
     background-color: var(--dark-bg) !important;
 }
 .theme-dark ._55c999adcf6db265-focused {
     background-color: transparent !important;
 }
-._02a39cb2980ceaaf-searchResult:before,
-._02a39cb2980ceaaf-searchResult:after {
+._80bf8435713f6adb-searchResult:before,
+._80bf8435713f6adb-searchResult:after {
     background: none !important;
 }
 .e6b7699ce8339e1c-searchBar .searchBarComponent_e6b769 {
@@ -7669,11 +7667,11 @@ content,
 ._55c999adcf6db265-container ._2b2f1bb918566c48-elevationBorderHigh {
     visibility: hidden !important;
 }
-._02a39cb2980ceaaf-searchResult,
+._80bf8435713f6adb-searchResult,
 .f3b986a284a18c78-searchHeader {
     background-color: var(--hover-color) !important;
 }
-._02a39cb2980ceaaf-button {
+._80bf8435713f6adb-button {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
     border: 1px solid var(--hover-color) !important;
@@ -7681,14 +7679,14 @@ content,
     height: 20px !important;
     line-height: 10px !important;
 }
-._02a39cb2980ceaaf-button:active,
-._02a39cb2980ceaaf-button:hover {
+._80bf8435713f6adb-button:active,
+._80bf8435713f6adb-button:hover {
     border-color: var(--hover-bright-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.c68065c20f8328a7-channelNameText,
-.c68065c20f8328a7-channelNameIcon,
-.c68065c20f8328a7-parentChannelNameIcon {
+.a7e67f4ddd7c6bb2-channelNameText,
+.a7e67f4ddd7c6bb2-channelNameIcon,
+.a7e67f4ddd7c6bb2-parentChannelNameIcon {
     color: var(--hover-bright-color) !important;
 }
 .c1521037ef09de7e-pageButton.c1521037ef09de7e-activeButton,
@@ -7702,13 +7700,13 @@ content,
 ._56fec8e8b8048fe0-option[aria-selected="true"] {
     box-shadow: none !important;
 }
-.a9e7064fdee8e9b0-searchResultsWrap {
+.a98f3b020416ad54-searchResultsWrap {
     -webkit-border-start: none !important;
     border-inline-start: none !important;
 }
 
 /* "Were these search results helpful?" */
-.a9e7064fdee8e9b0-searchResultsWrap ._3379fb83a901b3f2-container {
+.a98f3b020416ad54-searchResultsWrap ._3379fb83a901b3f2-container {
     display: none !important;
 }
 
@@ -7769,10 +7767,10 @@ content,
 ._9bb02e82f9a1c59d-container > svg path {
     fill: var(--hover-bright-color) !important;
 }
-._95e0a5926ce413d6-trashIcon {
+.e4772e0881c0c30f-trashIcon {
     color: var(--hover-red-bright-color) !important;
 }
-._95e0a5926ce413d6-trashIcon:hover {
+.e4772e0881c0c30f-trashIcon:hover {
     color: var(--red-bright-color) !important;
 }
 ._5fa2fb5c4d963128-placeholder {
