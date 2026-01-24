@@ -9918,7 +9918,7 @@ img:not(.emote):not(.emoji)::after {
     font-weight: 600 !important;
 }
 .base__5cd44 {
-    animation: _5cd4440e78ca4a65-fadeIn 0s ease-out 0ms forwards !important;
+    animation: fadeIn__5cd44 0s ease-out 0ms forwards !important;
 }
 
 /* Server boost tab */
