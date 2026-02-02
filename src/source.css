@@ -874,6 +874,17 @@ path {
     background-color: var(--hover-faint-color) !important;
 }
 
+/* Video embed */
+.wrapper__926d7 {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    backdrop-filter: brightness(60%) !important;
+}
+.wrapper__926d7 a:link,
+.wrapper__926d7 a:visited {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Voice message */
 .container_a8e786 {
     background-color: var(--hover-color) !important;
