@@ -837,10 +837,7 @@ path {
 .iconWrapper__6eb54 {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
-    opacity: 0.6;
-}
-.iconWrapper__6eb54:hover {
-    opacity: 1 !important;
+    backdrop-filter: brightness(60%) !important;
 }
 .videoControls_cf09d8 {
     background-color: color-mix(
@@ -849,11 +846,15 @@ path {
         black
     ) !important;
 }
-.videoControls_cf09d8 .controlIcon_f1ceac {
-    opacity: 0.6 !important;
+.videoControls_cf09d8 .controlIcon_cf09d8 > path,
+.videoControls_cf09d8 .controlIcon_f1ceac > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
-.videoControls_cf09d8 .controlIcon_f1ceac:hover {
-    opacity: 1 !important;
+.videoControls_cf09d8 .controlIcon_cf09d8:hover > path,
+.videoControls_cf09d8 .controlIcon_f1ceac:hover > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
 .playPausePop_cf09d8 {
     background-color: color-mix(
