@@ -5972,6 +5972,17 @@ img.sidebarHeader__0ab2c {
     margin-bottom: 0px !important;
 }
 
+/* History buttons */
+.backForwardButtons__63abb .button__63abb {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.backForwardButtons__63abb .button__63abb:not(.disabled__63abb):hover {
+    background-color: transparent !important;
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+
 /* Home button */
 .childWrapperNoHoverBg__6e9f8 {
     background-color: transparent !important;
