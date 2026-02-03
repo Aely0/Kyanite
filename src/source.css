@@ -9978,113 +9978,33 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--soft-bright-color) !important;
 }
 
-/* Setting radio options */
-.radioBar__88a69 {
-    color: var(--hover-bright-color) !important;
+/* Radio */
+.outerRadioBase__64e61 {
+    fill: var(--hover-hover-color) !important;
+    stroke: var(--hover-bright-color) !important;
+    stroke-width: 4 !important;
 }
-.item__88a69 {
-    background-color: rgba(0, 0, 0, 0.2) !important;
-}
-.item__88a69:hover {
-    background-color: var(--hover-color) !important;
-}
-.item__88a69[aria-checked="true"] {
-    color: var(--soft-bright-color) !important;
-}
-.item__88a69.itemFilled__88a69,
-.item__88a69.itemFilled__88a69:hover {
-    background-color: transparent !important;
-}
-
-.item__88a69.itemFilled__88a69[aria-checked="true"]
-    .radioBar__88a69[style="padding: 10px;"],
-.item__88a69.itemFilled__88a69 .radioBar__88a69[style="padding: 10px;"]:hover {
-    color: var(--soft-bright-color) !important;
-}
-.item__88a69.itemFilled__88a69
-    .radioBar__88a69[style="padding: 10px;"]:hover
-    .refreshIconStroke__88a69 {
+.radioGroupOption__64e61[data-selected] .outerRadioBase__64e61,
+.standaloneRadioIndicator__64e61[data-selected="true"] .outerRadioBase__64e61 {
+    fill: var(--soft-hover-color) !important;
     stroke: var(--soft-bright-color) !important;
 }
-.radioBar__88a69,
-.radioBar__88a69 .refreshIconStroke__88a69 {
-    border-left: none !important;
-    transition: all 200ms ease-out !important;
+.radioGroupOption__64e61[data-selected] .innerDotRadio__64e61,
+.standaloneRadioIndicator__64e61[data-selected="true"] .innerDotRadio__64e61 {
+    fill: var(--soft-bright-color) !important;
 }
-
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] {
-    color: var(--hover-green-bright-color) !important;
+.outerRadioFill__64e61 {
+    fill: none !important;
 }
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:has(
-        .radioIndicatorChecked__88a69
-    ),
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover {
-    color: var(--green-bright-color) !important;
+.animateIn__64e61 .innerDotRadio__64e61 {
+    fill: var(--soft-bright-color) !important;
 }
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .refreshIconStroke__88a69 {
-    stroke: var(--hover-green-bright-color) !important;
+.animateOut__64e61 .innerDotRadio__64e61 {
+    fill: var(--hover-bright-color) !important;
 }
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .radioIndicatorChecked__88a69
-    .refreshIconStroke__88a69,
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]:hover
-    .refreshIconStroke__88a69 {
-    stroke: var(--green-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"]
-    .refreshIcon__88a69 {
-    fill: var(--green-bright-color) !important;
-}
-
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] {
-    color: var(--hover-yellow-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:has(
-        .radioIndicatorChecked__88a69
-    ),
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover {
-    color: var(--yellow-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .refreshIconStroke__88a69 {
-    stroke: var(--hover-yellow-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .radioIndicatorChecked__88a69
-    .refreshIconStroke__88a69,
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]:hover
-    .refreshIconStroke__88a69 {
-    stroke: var(--yellow-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"]
-    .refreshIcon__88a69 {
-    fill: var(--yellow-bright-color) !important;
-}
-
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-    color: var(--hover-red-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:has(
-        .radioIndicatorChecked__88a69
-    ),
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover {
-    color: var(--red-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .refreshIconStroke__88a69 {
-    stroke: var(--hover-red-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .radioIndicatorChecked__88a69
-    .refreshIconStroke__88a69,
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]:hover
-    .refreshIconStroke__88a69 {
-    stroke: var(--red-bright-color) !important;
-}
-.radioBar__88a69[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"]
-    .refreshIcon__88a69 {
-    fill: var(--red-bright-color) !important;
+.radioGroupOption__64e61[data-selected] .stack_dbd263 .defaultColor__4bd52,
+.radioGroupOption__64e61[data-selected] .stack_dbd263 > div {
+    color: var(--soft-bright-color) !important;
 }
 
 /* Checkbox */
