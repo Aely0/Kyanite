@@ -7501,10 +7501,10 @@ content,
 }
 
 /* Search bar (filter) */
-.chevronIcon__5fa2f > svg path {
+.chevronIcon__0edde > svg path {
     fill: var(--hover-bright-color) !important;
 }
-.selectDropdown__5fa2f {
+.selectDropdown__0edde {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
     box-shadow: none !important;
@@ -7560,18 +7560,18 @@ content,
 .trashIcon_e4772e:hover {
     color: var(--red-bright-color) !important;
 }
-.placeholder__5fa2f {
+.placeholder__0edde {
     color: var(--hover-bright-color) !important;
     opacity: 0.6 !important;
 }
-.clearButton__5fa2f {
+.clearButton__0edde {
     color: color-mix(
         in srgb,
         var(--soft-bright-color) 40%,
         transparent
     ) !important;
 }
-.clearButton__5fa2f:hover {
+.clearButton__0edde:hover {
     color: color-mix(
         in srgb,
         var(--soft-bright-color) 60%,
