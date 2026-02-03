@@ -2397,6 +2397,9 @@ path {
 .button_f563df:hover {
     background-color: var(--hover-dark-color) !important;
 }
+.item_c1e9c4:hover {
+    background-color: transparent !important;
+}
 .colorDefault_c1e9c4.focused_c1e9c4 {
     background-color: var(--hover-color) !important;
 }
