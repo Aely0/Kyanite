@@ -10088,23 +10088,45 @@ img:not(.emote):not(.emoji)::after {
 }
 
 /* Checkbox */
-.checkbox__09aca {
-    border: 2px solid var(--hover-bright-color) !important;
-}
-.checkbox__09aca.checked__09aca {
+.checkboxIndicator__714a9 {
     background-color: transparent !important;
+    border: 2px solid;
+    border-color: var(--hover-bright-color) !important;
 }
-.checkbox__09aca.checked__09aca > svg > path {
-    fill: var(--hover-bright-color) !important;
-}
-.colorDanger_c1e9c4 .checkbox__09aca {
-    border: 2px solid var(--hover-red-bright-color) !important;
-}
-.colorDanger_c1e9c4 .checkbox__09aca.checked__09aca {
+.checkboxOption__714a9[data-selected] .checkboxIndicator__714a9 {
     background-color: transparent !important;
+    border-color: var(--hover-bright-color) !important;
 }
-.colorDanger_c1e9c4 .checkbox__09aca.checked__09aca > svg > path {
-    fill: var(--hover-red-bright-color) !important;
+.checkboxOption__714a9[data-selected] .checkStroke__714a9,
+.checkboxOption__714a9[data-selected] .checkmark__714a9 {
+    color: var(--hover-bright-color) !important;
+}
+.colorDanger_c1e9c4 .checkboxIndicator__714a9 {
+    background-color: transparent !important;
+    border: 2px solid;
+    border-color: var(--hover-red-bright-color) !important;
+}
+.colorDanger_c1e9c4
+    .checkboxOption__714a9[data-selected]
+    .checkboxIndicator__714a9 {
+    background-color: transparent !important;
+    border-color: var(--hover-red-bright-color) !important;
+}
+.colorDanger_c1e9c4 .checkboxOption__714a9[data-selected] .checkStroke__714a9,
+.colorDanger_c1e9c4 .checkboxOption__714a9[data-selected] .checkmark__714a9 {
+    color: var(--hover-red-bright-color) !important;
+}
+.animateIn__714a9 .checkStroke__714a9,
+.animateOut__714a9 .checkStroke__714a9,
+.animateIn__714a9 .checkmark__714a9,
+.animateOut__714a9 .checkmark__714a9 {
+    color: var(--hover-bright-color) !important;
+}
+.colorDanger_c1e9c4 .animateIn__714a9 .checkStroke__714a9,
+.colorDanger_c1e9c4 .animateOut__714a9 .checkStroke__714a9,
+.colorDanger_c1e9c4 .animateIn__714a9 .checkmark__714a9,
+.colorDanger_c1e9c4 .animateOut__714a9 .checkmark__714a9 {
+    color: var(--hover-red-bright-color) !important;
 }
 
 /* Checkbox (other) */
