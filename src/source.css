@@ -711,18 +711,6 @@ path {
     background: var(--hover-color) !important;
 }
 
-/* User popout - Roles */
-.role_dfa8b6,
-.button_b46968 {
-    border: 2px solid var(--hover-color) !important;
-    background: var(--hover-color) !important;
-    color: var(--hover-bright-color) !important;
-}
-.roleName__48c1c,
-.buttonInner_fb7f94:hover {
-    color: var(--soft-bright-color) !important;
-}
-
 /* Links */
 .anchor_edefb8,
 .fileNameLink__0ccae,
@@ -7201,6 +7189,49 @@ content,
 }
 .clickable_b66158:hover {
     text-decoration-color: var(--hover-bright-color) !important;
+}
+
+/* Profile popout (Roles) */
+.role_af3987 {
+    border: none !important;
+    border-radius: 6px !important;
+    background: var(--hover-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.removeButton_af3987 > svg > path {
+    fill: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.removeButton_af3987:hover > svg > path {
+    fill: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.addButton_af3987 > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.addButton_af3987:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.addButton_af3987.showLabel_af3987 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
+.addButton_af3987:hover.showLabel_af3987 {
+    color: var(--soft-bright-color) !important;
+}
+.container__50e22 {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
 }
 
 /* Profile popout (Board) */
