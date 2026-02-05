@@ -3301,7 +3301,7 @@ path {
 /* File upload (Source Files) */
 .textContainer__4d95d,
 .footer__4d95d {
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
     border: none !important;
 }
 .toggleExpandSection__4d95d:hover,
@@ -3320,12 +3320,28 @@ path {
 .languageSelector__4d95d {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.languageSelector__4d95d .listBoxItemLabel__2e223 {
+    color: var(--hover-bright-color) !important;
 }
 .modalTextContainer__4d95d {
     margin-right: -8px !important;
 }
 .theme-dark .modalTextContainer__4d95d .hljs {
     color: color-mix(in srgb, var(--hover-bright-color) 80%, white) !important;
+}
+.languageIcon__4d95d > path,
+.openFullPreviewSection__4d95d > svg > path,
+.overflowIcon__4d95d > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.languageIcon__4d95d:hover > path,
+.openFullPreviewSection__4d95d:hover > svg > path,
+.overflowIcon__4d95d:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
 }
 
 /* File download/delete buttons */
