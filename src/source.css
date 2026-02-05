@@ -9387,10 +9387,10 @@ content,
 }
 .noItemsIcon__70151,
 .noItemsIcon_e335a7 {
-    background: var(--hover-dark-color) !important;
+    background: transparent !important;
 }
 .gameIcon_b52e4f {
-    color: var(--soft-bright-color) !important;
+    color: var(--hover-bright-color) !important;
 }
 .hr__70151 {
     display: none !important;
