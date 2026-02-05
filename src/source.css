@@ -8851,11 +8851,7 @@ content,
     color: var(--soft-bright-color) !important;
 }
 .sectionLabel__409aa .label__409aa[style="color: var(--text-muted);"] {
-    color: color-mix(
-        in srgb,
-        var(--soft-bright-color) 50%,
-        transparent
-    ) !important;
+    color: var(--hover-bright-color) !important;
 }
 .clickable__2debe .text-xxs\/normal_cf4812 {
     font-size: 12px !important;
@@ -8863,6 +8859,20 @@ content,
 }
 .navScroller__409aa > div > .clickable__2debe {
     padding-bottom: 10px !important;
+}
+.track_e4d939 {
+    background: var(--hover-color) !important;
+    width: 3px !important;
+    border-radius: 50px !important;
+}
+.subnav_e4d939 .item_e4d939 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
+.subnav_e4d939 .item_e4d939.active_e4d939,
+.subnav_e4d939 .item_e4d939:focus-visible,
+.subnav_e4d939 .item_e4d939:hover {
+    color: var(--soft-bright-color) !important;
 }
 .compactInfo__2debe .text-xxs\/normal_cf4812::after,
 .bullet__7aac8 {
