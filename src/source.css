@@ -7050,6 +7050,10 @@ content,
 :where(.overlay_c0bea0) {
     background: var(--hover-faint-color) !important;
 }
+.displayCountText_c2a763 {
+    background: var(--hover-color) !important;
+    backdrop-filter: brightness(1%) !important;
+}
 .addStatusIconColor_ab8609 {
     fill: var(--hover-bright-color) !important;
 }
