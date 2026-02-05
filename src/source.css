@@ -4016,10 +4016,16 @@ path {
 }
 
 /* Invite link */
-.guildIconExpired_d5f3cd {
-    background-color: var(--hover-faint-color) !important;
+.guildIconExpired_d5f3cd.guildIcon_d5f3cd {
+    background: var(--soft-bright-color) !important;
+    mask: url("https://discord.com/assets/e4a502bfc6589d65.svg") !important;
+    mask-mode: luminance !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 100% !important;
+    mask-position: center !important;
 }
-.guildInviteContainer__083ae {
+.guildInviteContainer__083ae,
+.wrapper_d5f3cd {
     background: var(--hover-faded-color) !important;
     border: none !important;
 }
