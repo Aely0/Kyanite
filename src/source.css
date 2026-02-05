@@ -349,6 +349,7 @@ path {
 }
 
 /* Generic buttons */
+.join_f1ceac.colorBrand__201d5,
 .lookFilled__201d5.colorBrand__201d5,
 .lookFilled__201d5.colorPrimary__201d5,
 .lookFilled__201d5.colorTransparent__201d5,
@@ -366,6 +367,7 @@ path {
 .lookLink__201d5 .contents__201d5 {
     color: var(--soft-bright-color) !important;
 }
+.join_f1ceac.colorBrand__201d5:hover,
 .lookFilled__201d5.colorBrand__201d5:hover,
 .lookFilled__201d5.colorPrimary__201d5:hover,
 .lookFilled__201d5.colorTransparent__201d5:hover,
@@ -380,6 +382,7 @@ path {
     color: var(--soft-bright-color) !important;
     transition: all 200ms ease !important;
 }
+.disconnect_f1ceac.colorBrand__201d5,
 .lookOutlined__201d5.colorRed__201d5,
 .lookFilled__201d5.colorRed__201d5,
 .critical-primary_a22cb0,
@@ -393,6 +396,7 @@ path {
     border: none !important;
     transition: all 200ms ease !important;
 }
+.disconnect_f1ceac.colorBrand__201d5:hover,
 .lookOutlined__201d5.colorRed__201d5:hover,
 .lookFilled__201d5.colorRed__201d5:hover,
 .critical-primary_a22cb0:hover,
