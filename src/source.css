@@ -1742,9 +1742,11 @@ path {
 }
 
 /* Server boost true and false colored */
-.booleanValueIcon__686cf.booleanValueTrue__686cf,
 .booleanValueIcon__686cf {
-    color: var(--soft-bright-color) !important;
+    color: var(--hover-color) !important;
+}
+.booleanValueIcon__686cf.booleanValueTrue__686cf {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Server boost cards */
@@ -9364,6 +9366,9 @@ content,
 :where(.visual-refresh) .planSelectorWrapper__945b8 .input__0ed4f:hover,
 :where(.visual-refresh) .planSelectorWrapper__945b8 .input__0ed4f[readonly] {
     border: none !important;
+}
+.tableCell__686cf > .text-md\/bold_cf4812 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Subscriptions (User Settings) */
