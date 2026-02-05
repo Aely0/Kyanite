@@ -8781,9 +8781,16 @@ content,
     border: 1px solid var(--hover-color) !important;
 }
 
-/* Activity Feed tab */
+/* Activity Feed */
 .emptyText__7e549 {
     color: var(--hover-bright-color) !important;
+}
+.refresh-active-now .header__00943 {
+    background-color: transparent !important;
+}
+.refresh-active-now .itemCard__7e549 {
+    background-color: var(--hover-faded-color) !important;
+    box-shadow: none !important;
 }
 
 /* Voice channel activity popup */
