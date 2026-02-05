@@ -3261,14 +3261,18 @@ path {
 .filename__0ccae,
 .size__0ccae {
     color: var(--soft-bright-color) !important;
+    font-weight: 500 !important;
 }
-.progress__0ccae {
-    background-color: var(--hover-dark-color) !important;
+.file__0ccae .icon__0ccae {
+    display: none !important;
 }
-.progressBar__5a6ab {
+.progress__45530 {
+    background-color: var(--hover-color) !important;
+}
+.progressBar__45530 {
     background: linear-gradient(
         to right,
-        var(--hover-dark-color),
+        var(--hover-color),
         var(--soft-bright-color)
     ) !important;
 }
