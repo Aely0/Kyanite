@@ -10079,6 +10079,22 @@ img:not(.emote):not(.emoji)::after {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Dropdown */
+.navigatorIcon__15430,
+.triggerButton__64c86,
+.baseControlItem_dbfbe0:hover.clickable_dbfbe0 {
+    background-color: var(--hover-faint-color) !important;
+}
+.baseControlItemTrailingElements_dbfbe0 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.triggerButton__64c86 > .icon__64c86 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.selectedIcon__2e223 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+
 /* Notice */
 .notice__6e2b9 {
     border-radius: 0px !important;
