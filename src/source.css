@@ -8803,6 +8803,9 @@ content,
     background-color: var(--hover-faded-color) !important;
     box-shadow: none !important;
 }
+.noBackground_bf1984 .inset_bf1984 {
+    background-color: transparent !important;
+}
 
 /* Voice channel activity popup */
 .detailsAndAvatarsContainer__16b66 .colorHeaderSecondary__16b66 {
