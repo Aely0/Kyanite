@@ -8189,6 +8189,14 @@ content,
     background-color: var(--dark-bg) !important;
     border-radius: 8px !important;
 }
+.pill_b5b7aa {
+    background-color: var(--dark-bg) !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+.page__5e434 .wrapper__42d45 {
+    display: none !important;
+}
 
 /* Gift chat notification */
 .giftCodeContainer_b7e1cb .tile__72090 {
