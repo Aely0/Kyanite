@@ -4303,6 +4303,12 @@ path {
     background-color: var(--hover-color) !important;
     box-shadow: none !important;
 }
+.movedTable_fa2640 {
+    background-color: var(--hover-faint-color) !important;
+}
+.movedTable_fa2640 svg {
+    display: none !important;
+}
 .memberRowContainer__71c22 td:after {
     background: transparent !important;
 }
@@ -4347,6 +4353,12 @@ path {
 .inviteContainer__23437 {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
+}
+.role__48c1c[style^="border-color: rgba(196, 201, 206, 0.6)"] {
+    background: var(--hover-color) !important;
+}
+.linkIcon__352b7 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Roles (Server Settings) */
