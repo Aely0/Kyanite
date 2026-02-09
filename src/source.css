@@ -4454,7 +4454,7 @@ path {
     border-right: 1px solid transparent !important;
 }
 .tabBar__81b3e {
-    border-bottom: 2px solid var(--hover-color) !important;
+    border-bottom: 2px transparent !important;
 }
 .memberDetails__9a73f .userTag_e3077c {
     color: var(--main-color) !important;
@@ -4483,6 +4483,22 @@ path {
 .viewAsRolesWarning_e131a9 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+}
+.infobox__63c3c {
+    background-color: var(--hover-faint-color) !important;
+    border: 1px solid var(--hover-bright-color) !important;
+}
+.expandButton__63c3c > path,
+.header__63c3c > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.content__63c3c {
+    color: var(--hover-bright-color) !important;
+}
+.container__09ccc {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
 }
 
 /* Invites (Server Settings)*/
