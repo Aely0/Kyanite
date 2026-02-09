@@ -4501,7 +4501,7 @@ path {
     box-shadow: none !important;
 }
 
-/* Invites (Server Settings)*/
+/* Invites (Server Settings) */
 .linkIcon_a4b5f8 {
     color: var(--hover-bright-color) !important;
 }
@@ -4510,6 +4510,31 @@ path {
 }
 .inviteSettingsInviteRow__1de14 {
     box-shadow: none !important;
+}
+.content_d125d2 .image__33d12 {
+    background: var(--hover-bright-color) !important;
+    mask: url("https://discord.com/assets/cbb4a0ecd21297ba.svg") !important;
+    mask-mode: luminance !important;
+}
+.content_d125d2 .text__33d12 {
+    color: var(--hover-bright-color) !important;
+}
+.content_d125d2 .card_b846e5 {
+    background-color: transparent !important;
+}
+.revokeInvite__1de14 {
+    color: color-mix(
+        in srgb,
+        var(--hover-red-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.revokeInvite__1de14:hover {
+    color: color-mix(
+        in srgb,
+        var(--hover-red-bright-color) 60%,
+        transparent
+    ) !important;
 }
 
 /* Integrations (Server Settings) */
