@@ -1828,7 +1828,7 @@ path {
     color: var(--hover-bright-color) !important;
 }
 
-/* Server settings profile tab */
+/* Server Profile (Server Settings) */
 .itemSelected_ec9088 {
     border: 1px solid var(--hover-bright-color) !important;
 }
@@ -1842,14 +1842,14 @@ path {
     fill: var(--hover-bright-color) !important;
 }
 
-/* Server settings tag tab */
+/* Server Tag (Server Settings) */
 .enableSwitchContainer_a84c50,
 .tagInputWrapper_a84c50,
 .pickerItem_a84c50 {
     background-color: var(--hover-color) !important;
 }
 .container_b08af5 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faded-color) !important;
 }
 .pickerItem_a84c50:hover:not(.pickerItemSelected_a84c50) {
     border-color: var(--hover-dark-color) !important;
@@ -1860,6 +1860,19 @@ path {
 .tagInputWrapper_a84c50:focus-within,
 .pickerItemSelected_a84c50 {
     border-color: var(--hover-bright-color) !important;
+}
+.lockedPreviewContainer__5b8f4:after {
+    background: linear-gradient(
+        to bottom,
+        transparent 10%,
+        var(--dark-bg) 90%
+    ) !important;
+}
+.showAllBadgesOverlay__5b8f4 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.pickerItem_a84c50 > svg > path[fill="var(--interactive-icon-default)"] {
+    fill: var(--soft-bright-color) !important;
 }
 
 /* Private channels */
@@ -9818,17 +9831,6 @@ content,
 /* Activity Privacy (User Settings) */
 .stack_dbd263 > div {
     color: var(--hover-bright-color) !important;
-}
-.warning__35859 .text__35859 {
-    color: var(--yellow-bright-color) !important;
-}
-.warning__35859 {
-    background: var(--hover-yellow-color) !important;
-    border: 1px solid var(--yellow-bright-color) !important;
-    color: var(--yellow-bright-color) !important;
-}
-.warning__35859 .icon__35859 {
-    color: var(--yellow-bright-color) !important;
 }
 .headerContainer__7db08 {
     background-color: transparent !important;
