@@ -4181,17 +4181,14 @@ path {
 
 /* Stickers (Server Settings) */
 .upsellContainer__17daa {
-    background: var(--hover-color) !important;
+    background: var(--hover-faint-color) !important;
 }
-.tierIconLocked_a36dee {
-    color: var(--hover-dark-color) !important;
-}
-.tierHeaderLocked_a36dee,
-.tierHeaderUnlocked_a36dee {
+.tierInProgress_c44edb {
     background-color: var(--hover-color) !important;
 }
 .placeholderCard_d87d30 {
-    border: 2px dashed var(--hover-dark-color) !important;
+    background-color: var(--hover-faint-color) !important;
+    border: 2px dashed var(--hover-color) !important;
 }
 .subscriberCount_a36dee {
     color: var(--hover-bright-color) !important;
@@ -4211,6 +4208,38 @@ path {
 }
 .action__83b1d:hover {
     color: var(--hover-bright-color) !important;
+}
+.tierAccomplished_c44edb,
+.tierCurrent_c44edb,
+.tierFirst_c44edb {
+    background: var(--hover-bright-color) !important;
+}
+.background_c44edb {
+    color: var(--hover-color) !important;
+}
+.foreground_c44edb {
+    color: var(--hover-bright-color) !important;
+}
+.currentTierIcon_c44edb {
+    display: none !important;
+}
+.tierHeaderUnlocked_a36dee,
+.tierHeaderLocked_a36dee,
+.tierBody_a36dee {
+    background-color: transparent !important;
+}
+.tier_a36dee {
+    background-color: var(--hover-faded-color) !important;
+}
+.placeholderImg_d87d30 {
+    display: none !important;
+}
+.tierLock_a36dee,
+.tierIconLocked_a36dee {
+    color: var(--hover-bright-color) !important;
+}
+.emptyTierWrapper_d87d30 > img {
+    display: none !important;
 }
 
 /* Soundboard (Server Settings) */
@@ -5075,92 +5104,6 @@ h2.title_b6c092 strong {
 }
 .pointer_b00844 {
     border-top: 5px solid var(--main-color);
-}
-
-/* Server boost status */
-.theme-dark .tierHeaderLocked_a36dee,
-.tierHeaderContent_a36dee,
-.theme-dark .tierBody_a36dee {
-    background-color: var(--hover-color) !important;
-}
-.theme-dark .carouselLeftGradientEdge-3P4spl,
-.theme-dark .carouselRightGradientEdge-2Z3H8D {
-    background: transparent !important;
-}
-.tierLock_a36dee {
-    color: var(--hover-bright-color) !important;
-}
-.theme-dark .background_c44edb {
-    color: var(--hover-color) !important;
-}
-.theme-dark .tierInProgress_c44edb {
-    background-color: var(--hover-dark-color) !important;
-}
-.theme-dark .tierHeaderUnlockedBackground-MW5XJU,
-.theme-dark .tierHeaderUnlocked-3QAU1o,
-.theme-dark .tierUnlocked_a36dee {
-    background: -webkit-gradient(
-            linear,
-            left top,
-            right top,
-            from(var(--hover-dark-color)),
-            to(var(--hover-color))
-        )
-        no-repeat;
-    background: linear-gradient(
-            90deg,
-            var(--hover-dark-color),
-            var(--hover-color)
-        )
-        no-repeat;
-}
-.tierTitle_a36dee,
-.perkText_a36dee {
-    color: var(--hover-bright-color) !important;
-}
-.theme-dark .tierHeaderUnlocked-1n-OTI,
-.theme-dark .tierHeaderUnlocked-2RhWqn {
-    color: var(--soft-bright-color) !important;
-}
-.tierBody_a36dee {
-    color: var(--soft-bright-color) !important;
-}
-.serverBoostTabItem_cbe0b4[aria-selected="true"] .icon_cbe0b4 {
-    fill: var(--soft-bright-color) !important;
-}
-.serverBoostTabItem_cbe0b4.selected_aa8da2 .tabBarItemContainer_c7e907 {
-    color: var(--soft-bright-color) !important;
-}
-.serverBoostTabItem_cbe0b4[aria-selected="true"] .icon_cbe0b4 path {
-    fill: var(--soft-bright-color) !important;
-}
-.tierUnlocked_a36dee {
-    color: var(--soft-bright-color) !important;
-}
-.divider_a5b35c {
-    background: transparent !important;
-}
-.channelNotice__4c43d {
-    box-shadow: none !important;
-}
-
-/* Server boost progress bar */
-.progressContainer__0d0f9 {
-    background-color: var(--hover-faint-color) !important;
-}
-.progress__0d0f9 {
-    background: linear-gradient(
-        270deg,
-        var(--hover-dark-color),
-        var(--dark-bg)
-    ) !important;
-    box-shadow: inset 0 0 4.6px 0 var(--hover-dark-color) !important;
-}
-.container__0d0f9 .text__0d0f9 > path {
-    fill: var(--hover-bright-color) !important;
-}
-.boostCountText__0d0f9 {
-    transition: opacity 200ms ease-in-out !important;
 }
 
 /* Channel permissions */
