@@ -408,6 +408,25 @@ path {
     display: none !important;
 }
 
+/* Generic info boxes */
+.info_e3f97f {
+    background-color: var(--dark-bg) !important;
+    border: 1px solid var(--hover-bright-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.info_e3f97f .icon_e3f97f {
+    color: var(--hover-bright-color) !important;
+}
+.warning__35859 {
+    background: var(--hover-yellow-color) !important;
+    border: 1px solid var(--yellow-bright-color) !important;
+    color: var(--yellow-bright-color) !important;
+}
+.warning__35859 .text__35859,
+.warning__35859 .icon__35859 {
+    color: var(--yellow-bright-color) !important;
+}
+
 /* Focused menu item highlight */
 .colorDefault_c1e9c4.focused_c1e9c4 {
     color: var(--soft-bright-color) !important;
@@ -1711,9 +1730,6 @@ path {
 .root_e3f97f.formItem_bfbb55.info_e3f97f {
     background-color: var(--hover-faded-color) !important;
     border-color: var(--hover-dark-color) !important;
-}
-.icon_e3f97f path {
-    fill: var(--soft-bright-color) !important;
 }
 
 /* Kayboard shortcut in clips */
