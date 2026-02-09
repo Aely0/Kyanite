@@ -4289,6 +4289,14 @@ path {
     background-color: transparent !important;
     box-shadow: none !important;
 }
+#soundboard-tab .image__33d12 {
+    background: var(--hover-bright-color) !important;
+    mask: url("https://discord.com/assets/4a1048df8a7e1175.svg") !important;
+    mask-mode: luminance !important;
+}
+#soundboard-tab .text__33d12 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Members (Server Settings) */
 .mainTableContainer__09a38 {
