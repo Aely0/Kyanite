@@ -1875,6 +1875,14 @@ path {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Boost Perks (Server Settings) */
+.guildFeatureAvailabilityIndicator_a10064 {
+    background-color: var(--hover-color) !important;
+}
+.imageUploaderIcon_e4d0bf {
+    box-shadow: none !important;
+}
+
 /* Private channels */
 .privateChannels_e6b769 {
     background-color: transparent !important;
