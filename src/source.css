@@ -4119,6 +4119,12 @@ path {
 }
 
 /* Emoji (Server Settings) */
+.tableHeader_e7d73e {
+    background-color: transparent !important;
+}
+.uploader_e7d73e {
+    box-shadow: none !important;
+}
 .button__201d5.lookLink__201d5:hover .contents__201d5 {
     background-image: linear-gradient(
         0deg,
@@ -4136,7 +4142,40 @@ path {
     -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
     box-shadow: 0 1px 0 0 var(--hover-color) !important;
 }
+.emojiRow_e7d73e .emojiAliasInputContainer_e7d73e:after,
+.emojiRow_e7d73e .emojiAliasInputContainer_e7d73e:before,
+.input__4f074 {
+    color: var(--hover-bright-color) !important;
+}
 .emojiUploadUploadRequirementsList_e7d73e li::marker {
+    color: var(--hover-bright-color) !important;
+}
+.outer__4f074:hover .input__4f074 {
+    background-color: var(--hover-color) !important;
+}
+.input__4f074:focus,
+.outer__4f074:hover .input__4f074:focus {
+    background-color: var(--hover-faint-color);
+    color: var(--soft-bright-color) !important;
+}
+.checkerboard__4d307:after {
+    background:
+        linear-gradient(180deg, var(--hover-faint-color), transparent 80px),
+        linear-gradient(0deg, var(--hover-faint-color), transparent 88px) !important;
+}
+.overlay_ab2592 {
+    border: 2px solid var(--hover-bright-color) !important;
+}
+.animatedInfoContainer_ab2592,
+.toolbar_ab2592,
+.aside__4d307 {
+    background-color: var(--dark-bg) !important;
+}
+.previews__4d307 li {
+    background-color: var(--hover-faint-color) !important;
+}
+.previews__4d307 .reactions__4d307 {
+    background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
 
