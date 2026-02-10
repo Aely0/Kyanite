@@ -527,6 +527,10 @@ path {
 .reactors_b7f4b4 {
     border-radius: 0px !important;
 }
+.username_b7f4b4 {
+    color: var(--hover-bright-color) !important;
+    font-weight: 500 !important;
+}
 
 /* Message hover toolbar */
 .wrapper_f7ecac {
@@ -9027,7 +9031,7 @@ content,
     color: var(--soft-bright-color) !important;
 }
 .separator_aa8da2 {
-    background-color: var(--hover-color) !important;
+    visibility: hidden !important;
 }
 .link__7df54 .foreground__7df54 {
     fill: var(--soft-bright-color) !important;
