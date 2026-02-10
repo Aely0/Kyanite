@@ -5119,11 +5119,14 @@ h2.title_b6c092 strong {
 .guildDetails__7dd5e,
 .featureCard__7dd5e,
 .featureIcon__7dd5e {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .featuredText__7dd5e,
 .infoIcon__7dd5e {
     color: var(--soft-bright-color) !important;
+}
+.separator__7dd5e {
+    visibility: hidden !important;
 }
 
 /* Server Template (Server Settings) */
