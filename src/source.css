@@ -4944,29 +4944,20 @@ h2.title_b6c092 strong {
 .onboardingStepContainer__28e57,
 .iconContainer__28e57,
 .pillItem__9e06a:hover {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
-.checkboxCircle_d9161f {
-    background-color: var(--main-color) !important;
+.checkboxCircle_d9161f,
+.checkCircleCompleted_c66e86 {
+    display: none !important;
 }
-.checkboxCircle_d9161f path {
-    fill: var(--soft-bright-color) !important;
+.checkmark_d9161f {
+    color: var(--hover-bright-color) !important;
 }
 .channelIcon_c66e86,
 .channelIcon_d9161f,
-.checkmark_d9161f,
 .anchorUnderlineOnHover_edefb8 [style="color: var(--text-link);"],
 .button__4a4f2[style="color: rgb(255, 255, 255);"] {
     color: var(--soft-bright-color) !important;
-}
-.checkCircleCompleted_c66e86 {
-    color: var(--hover-color) !important;
-}
-.checkCircleCompleted_c66e86 circle {
-    fill: var(--soft-bright-color) !important;
-}
-.checkCircleCompleted_c66e86 g path {
-    fill: var(--main-color) !important;
 }
 .checkbox_d9161f {
     border-color: var(--hover-bright-color) !important;
@@ -5062,6 +5053,12 @@ h2.title_b6c092 strong {
 }
 .perkDescription_c609c8 {
     color: var(--hover-bright-color) !important;
+}
+.testimonial__3e7e2 .text-sm\/bold_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.avatar__44b0c:before {
+    background-color: var(--hover-faint-color) !important;
 }
 
 /* Server Insights (Server Settings) */
