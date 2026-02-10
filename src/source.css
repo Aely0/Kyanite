@@ -4594,7 +4594,7 @@ path {
 .actionButton_eaaeee > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.slateTextArea_ec4baf span[data-slate-string] {
+.draggableInputContainer_f7c056 .slateTextArea_ec4baf span[data-slate-string] {
     color: var(--hover-bright-color) !important;
 }
 .previewButton__50a36 {
