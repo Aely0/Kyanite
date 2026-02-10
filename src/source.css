@@ -419,13 +419,16 @@ path {
 .info__35859 .iconDiv__35859 .icon__35859 {
     color: var(--hover-bright-color) !important;
 }
-.warning__35859 {
+.warning__35859,
+.notice__74a6a {
     background: var(--hover-yellow-color) !important;
     border: 1px solid var(--yellow-bright-color) !important;
     color: var(--yellow-bright-color) !important;
 }
 .warning__35859 .text__35859,
-.warning__35859 .icon__35859 {
+.warning__35859 .icon__35859,
+.notice__74a6a .noticeIcon__74a6a,
+.notice__74a6a .text-md\/normal_cf4812 {
     color: var(--yellow-bright-color) !important;
 }
 
@@ -5073,8 +5076,13 @@ h2.title_b6c092 strong {
 /* Welcome Screen (Server Settings) */
 .optionContainer__949ab,
 .previewContainer__74a6a,
-.welcomeChannel__74a6a {
-    background-color: var(--hover-color) !important;
+.welcomeChannel__74a6a,
+.enableContainer__5ea8c {
+    background-color: var(--hover-faint-color) !important;
+}
+.editCircle__5ea8c {
+    background-color: var(--hover-faint-color) !important;
+    color: var(--hover-bright-color) !important;
 }
 .header__949ab {
     color: var(--hover-bright-color) !important;
@@ -5097,17 +5105,14 @@ h2.title_b6c092 strong {
     color: var(--red-bright-color) !important;
 }
 .channelIcon__74a6a {
-    background-color: var(--hover-dark-color) !important;
-    color: var(--soft-bright-color) !important;
+    background-color: transparent !important;
+    color: var(--hover-bright-color) !important;
 }
 .welcomeTitle__74a6a strong {
     color: var(--soft-bright-color) !important;
 }
-.enableContainer__5ea8c {
-    background-color: var(--hover-color) !important;
-}
 .channelTitleIcon__74a6a {
-    color: var(--soft-bright-color) !important;
+    color: var(--hover-bright-color) !important;
 }
 
 /* Enable Community (Server Settings) */
