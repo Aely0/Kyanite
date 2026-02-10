@@ -4870,6 +4870,14 @@ h2.title_b6c092 strong {
 .bannedUser__4b8d8 .username__4b8d8 {
     color: var(--soft-bright-color) !important;
 }
+#bans-tab .image__33d12 {
+    background: var(--hover-bright-color) !important;
+    mask: url("https://discord.com/assets/626d8d0fc1024e29.svg") !important;
+    mask-mode: luminance !important;
+}
+#bans-tab .text__33d12 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Community Overview (Server Settings) */
 .lookOutlined__201d5.colorPrimary__201d5 {
