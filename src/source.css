@@ -4537,6 +4537,75 @@ path {
     ) !important;
 }
 
+/* Access (Server Settings) */
+.joinOptions__959cb,
+.joinOptionContent__959cb.active__959cb,
+.joinOptionContent__959cb:hover,
+.backgroundContainer_eaaeee,
+.actionButton_eaaeee,
+.rules__92677 {
+    background-color: var(--hover-faint-color) !important;
+}
+.joinOptionTab__959cb.themed_aa8da2 {
+    background-color: transparent !important;
+}
+.joinOptionContent__959cb .text-md\/semibold_cf4812,
+.joinOptionContent__959cb .text-xs\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.joinOptionContent__959cb > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.joinOptionContent__959cb.active__959cb .text-md\/semibold_cf4812,
+.joinOptionContent__959cb.active__959cb .text-xs\/medium_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+.joinOptionContent__959cb.active__959cb > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.draggableInputContainer_f7c056 .themedBackground__74017 {
+    background-color: var(--hover-faint-color) !important;
+    border: none !important;
+}
+.dragIcon_f7c056 > path,
+.dragIcon_eaaeee > path,
+.typeTag_eaaeee > svg > path,
+.typeTag_eaaeee > svg > rect,
+.actionButton_eaaeee > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.slateTextArea_ec4baf span[data-slate-string] {
+    color: var(--hover-bright-color) !important;
+}
+.previewButton__50a36 {
+    color: var(--soft-bright-color) !important;
+}
+.previewButton__50a36 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.pill_f7c056,
+.pill__33d66 {
+    background-color: var(--hover-faint-color) !important;
+}
+.pill_f7c056 .text-sm\/medium_cf4812,
+.pill__33d66 .text-sm\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.previewWrapper__864b0 .gradient__864b0 {
+    background: linear-gradient(
+        180deg,
+        var(--dark-bg) 0,
+        transparent 70%
+    ) !important;
+}
+.header__99871 {
+    background-color: transparent !important;
+}
+.container__99871 {
+    background-color: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
+
 /* Integrations (Server Settings) */
 .iconWrapper__4a3a5 {
     background-color: var(--hover-color) !important;
