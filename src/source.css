@@ -5128,21 +5128,21 @@ h2.title_b6c092 strong {
 
 /* Server Template (Server Settings) */
 .descriptionBox__981f7 {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .descriptionSection__981f7 .descriptionRow__981f7 {
     color: var(--hover-bright-color) !important;
 }
-.descriptionIcon__981f7 > g > path {
+.descriptionIcon__981f7 > path[fill="var(--green-360)"] {
     fill: var(--green-dark-color) !important;
 }
-.descriptionIcon__981f7 circle[r="8"] {
+.descriptionIcon__981f7:has(path[fill="var(--green-360)"]) > circle {
     fill: var(--green-bright-color) !important;
 }
-.descriptionIcon__981f7 > path {
+.descriptionIcon__981f7 > path[fill="var(--red-400)"] {
     fill: var(--red-dark-color) !important;
 }
-.descriptionIcon__981f7 circle[r="5"] {
+.descriptionIcon__981f7:has(path[fill="var(--red-400)"]) > circle {
     fill: var(--red-bright-color) !important;
 }
 
