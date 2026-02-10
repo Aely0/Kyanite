@@ -4647,6 +4647,55 @@ path {
 .item_f5fff4.deny_f5fff4.selected_f5fff4 > svg > path {
     fill: var(--red-bright-color) !important;
 }
+.stack_dbd263 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.imageUploaderIcon_e4d0bf {
+    background: var(--soft-bright-color) !important;
+    mask: url("https://discord.com/assets/6ca913b246a05ffc.svg") !important;
+    mask-mode: luminance !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 100% !important;
+    mask-position: center !important;
+}
+.listBox__2e223:not(:focus-within)
+    .listBoxItem__2e223[data-focus-visible="true"],
+.keyboard-mode .listBoxItem__2e223:focus {
+    background-color: var(--hover-color) !important;
+    outline: none !important;
+}
+.cardHeader_b44011,
+.item_b28dff:hover {
+    background-color: var(--hover-faint-color) !important;
+    border-radius: 8px !important;
+}
+.shield_e98186 > path,
+.channelIcon_e98186 > path,
+.icon_b28dff > path {
+    fill: var(--hover-bright-color) !important;
+}
+.cardHeader_b44011.inModal_b44011 {
+    padding: 8px !important;
+}
+.section__7fc1d .list__83c7c {
+    background-color: var(--hover-faint-color) !important;
+    border-radius: 8px !important;
+    padding: 8px !important;
+}
+.rolePills__83361 .actionButton__48c1c {
+    background-color: var(--hover-faint-color) !important;
+}
+.overflowRolesPopout__48c1c {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+    border-radius: 8px !important;
+}
+.overflowRolesPopoutArrow__48c1c {
+    display: none !important;
+}
+.iconWrapper__4a3a5[style="background-color: var(--youtube);"] {
+    display: none !important;
+}
 
 /* App Directory (Server Settings) */
 .selected_aa8da2.themed_aa8da2,
