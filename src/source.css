@@ -1897,6 +1897,16 @@ path {
 .row__1bad5.clickable__1bad5:hover .icon__1bad5 > path {
     fill: var(--soft-bright-color) !important;
 }
+.singleUserRoot__4ad81 {
+    background: linear-gradient(
+        0deg,
+        transparent,
+        var(--hover-faded-color)
+    ) !important;
+}
+.pulseGradient__11664 {
+    visibility: hidden !important;
+}
 
 /* Private calls */
 .colorable_f1ceac .white_f1ceac {
@@ -1969,7 +1979,8 @@ path {
     box-shadow: none !important;
 }
 .participantsButton__211d1 {
-    background-color: var(--hover-faded-color) !important;
+    background-color: var(--dark-bg) !important;
+    box-shadow: none !important;
     border-radius: 8px !important;
 }
 .participantsButton__211d1 .iconContainer__211d1 svg {
@@ -2269,7 +2280,7 @@ path {
 }
 .experimentOverlayTitle__2f4f7,
 .overlayButton__2f4f7 {
-    background: var(--hover-color) !important;
+    background: transparent !important;
     color: var(--soft-bright-color) !important;
 }
 :where(.visual-refresh) .button__201d5 {
