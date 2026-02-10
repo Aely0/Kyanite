@@ -5062,11 +5062,9 @@ h2.title_b6c092 strong {
 }
 
 /* Server Insights (Server Settings) */
-.developerPortalCtaWrapper__540ed {
-    background-color: var(--hover-color) !important;
-}
+.developerPortalCtaWrapper__540ed,
 .analyticsCard__0dfec {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .infoIcon__0dfec {
     color: var(--soft-bright-color) !important;
