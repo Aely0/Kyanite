@@ -4826,8 +4826,8 @@ h2.title_b6c092 strong {
 /* Audit Log (Server Settings) */
 .auditLog__43dab {
     color: var(--hover-bright-color) !important;
-    background-color: var(--hover-color) !important;
-    border-color: var(--hover-color) !important;
+    background-color: var(--hover-faint-color) !important;
+    border-color: none !important;
 }
 .headerClickable__43dab,
 .headerDefault__43dab,
@@ -4836,11 +4836,11 @@ h2.title_b6c092 strong {
     color: var(--hover-bright-color) !important;
 }
 .headerExpanded__43dab {
-    background-color: var(--hover-color) !important;
+    background-color: transparent !important;
     color: var(--hover-bright-color) !important;
 }
 .auditLog__43dab .divider__43dab {
-    background-color: var(--hover-dark-color) !important;
+    background-color: transparent !important;
 }
 .userHook__43dab,
 .auditLog__43dab strong {
