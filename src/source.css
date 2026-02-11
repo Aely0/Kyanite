@@ -9241,9 +9241,7 @@ content,
     padding-bottom: 10px !important;
 }
 .track_e4d939 {
-    background: var(--hover-color) !important;
-    width: 3px !important;
-    border-radius: 50px !important;
+    background: var(--hover-faint-color) !important;
 }
 .subnav_e4d939 .item_e4d939 {
     color: var(--hover-bright-color) !important;
