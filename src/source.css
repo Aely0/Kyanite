@@ -8175,10 +8175,10 @@ content,
 .wishlistButton__80679:hover {
     background-color: var(--hover-color) !important;
 }
-.wishlistButton__80679 > svg > path {
+.wishlistButton__80679 svg path {
     fill: var(--hover-bright-color) !important;
 }
-.wishlistButton__80679:hover > svg > path {
+.wishlistButton__80679:hover svg path {
     fill: var(--soft-bright-color) !important;
 }
 .productCardContainer_fcbddd,
@@ -8190,20 +8190,17 @@ content,
 .footerGradient_fcbddd {
     background: transparent !important;
 }
-.productCardContainer_fcbddd .text-md\/bold_cf4812 {
-    color: var(--hover-bright-color) !important;
-}
 .discount__8a8e7 {
     color: var(--soft-bright-color) !important;
 }
 .wishlistButton__979b1 {
     background: var(--dark-bg) !important;
 }
-.wishlistButton__979b1 > svg > path {
+.wishlistButton__979b1 svg path {
     fill: var(--hover-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.wishlistButton__979b1:hover > svg > path {
+.wishlistButton__979b1:hover svg path {
     fill: var(--soft-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
@@ -8283,6 +8280,13 @@ content,
 }
 .nitroIcon_f284f6 > path {
     fill: var(--hover-bright-color) !important;
+}
+.discountPill__8a8e7 {
+    background: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.container__8a8e7 {
+    color: var(--hover-bright-color) !important;
 }
 
 /* Message requests */
