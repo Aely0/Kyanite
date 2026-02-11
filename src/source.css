@@ -4034,6 +4034,14 @@ path {
 .activityCount_fa285e .text-sm\/normal_cf4812 {
     font-weight: 500 !important;
 }
+.resolvingBackground_d5f3cd {
+    background-image: linear-gradient(
+        to right,
+        var(--hover-color),
+        var(--hover-faint-color),
+        var(--hover-color)
+    ) !important;
+}
 
 /* Build overrides */
 .wrapper__124c8 {
