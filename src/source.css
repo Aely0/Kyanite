@@ -8365,8 +8365,14 @@ content,
         var(--dark-bg) 100%
     ) !important;
 }
-.progressBar__146e2 .progress__146e2[stroke^="var(--green"] {
+.progressBar__146e2 .progress__146e2[stroke^="var(--background"] {
+    stroke: var(--hover-color) !important;
+}
+.progressBar__146e2 .progress__146e2[stroke^="rgba(98"] {
     stroke: var(--hover-bright-color) !important;
+}
+.confetti__956c6 > svg path {
+    fill: var(--hover-color) !important;
 }
 .instructionsLink_e0f8ae {
     color: var(--soft-bright-color) !important;
