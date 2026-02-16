@@ -1873,9 +1873,15 @@ path {
 .row__1bad5 .userIconContainer__1bad5 {
     color: var(--hover-bright-color) !important;
 }
-.voiceChannelHighlightBorder_c69b6d,
-.voiceChannelHighlightGlow_c69b6d {
+.voiceChannelHighlightBorder_c69b6d {
     background-color: var(--hover-bright-color) !important;
+}
+.voiceChannelHighlightGlow_c69b6d {
+    background: radial-gradient(
+        ellipse 40px 50% at left center,
+        var(--hover-faded-color) 0,
+        transparent 100%
+    ) !important;
 }
 .icon_f2170c {
     color: var(--hover-bright-color) !important;
