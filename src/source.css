@@ -2540,56 +2540,46 @@ path {
 .container_e131a9 .button__67645:hover path {
     fill: var(--soft-bright-color) !important;
 }
-.micButtonParent__37e49.popoutOpen__37e49 .buttonChevron__37e49,
-.micButtonParent__37e49.popoutOpen__37e49 .micButtonWithMenu__37e49,
-.micButtonParent__37e49:not(.hasColorGlow__37e49):hover .buttonChevron__37e49,
-.micButtonParent__37e49:not(.hasColorGlow__37e49):hover
-    .micButtonWithMenu__37e49 {
+.audioButtonWithMenu__5e764,
+.buttonChevron__5e764 {
     background-color: transparent !important;
 }
-.micButtonParent__37e49 .button__67645[aria-checked="true"] .lottieIcon__5eb9b {
+.audioButtonWithMenu__5e764
+    .lottieIcon__5eb9b[style^="--__lottieIconColor: var(--icon-voice-muted)"] {
     --__lottieIconColor: var(--hover-yellow-bright-color) !important;
 }
-.micButtonParent__37e49
-    .button__67645[aria-checked="true"]:hover
-    .lottieIcon__5eb9b {
+.audioButtonWithMenu__5e764:hover
+    .lottieIcon__5eb9b[style^="--__lottieIconColor: var(--icon-voice-muted)"] {
     --__lottieIconColor: var(--yellow-bright-color) !important;
 }
-.micButtonParent__37e49:has([aria-checked="true"]) .button__67645 path {
+.audioButtonWithMenu__5e764
+    .iconForeground__37e49
+    > path[fill="var(--icon-voice-muted)"] {
+    fill: var(--hover-red-bright-color) !important;
+}
+.audioButtonWithMenu__5e764:hover
+    .iconForeground__37e49
+    > path[fill="var(--icon-voice-muted)"] {
+    fill: var(--red-bright-color) !important;
+}
+.buttonChevron__5e764 path[fill="var(--icon-voice-muted)"] {
     fill: var(--hover-yellow-bright-color) !important;
 }
-.micButtonParent__37e49:has([aria-checked="true"]) .button__67645:hover path,
-.micButtonParent__37e49:has([aria-checked="true"]) .popoutOpen__37e49 path {
+.buttonChevron__5e764:hover path[fill="var(--icon-voice-muted)"] {
     fill: var(--yellow-bright-color) !important;
 }
-.micButtonParent__37e49:has([aria-checked="true"])
-    .button__67645.redGlow__67645 {
-    background-color: color-mix(
-        in srgb,
-        var(--hover-yellow-color) 60%,
-        black
-    ) !important;
-}
-.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
-    .button__67645.redGlow__67645 {
-    background-color: color-mix(
-        in srgb,
-        var(--hover-red-color) 60%,
-        black
-    ) !important;
-}
-.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
-    .button__67645
+.audioButtonParent__5e764.hasColorGlow__5e764:has(svg.iconForeground__37e49)
+    .buttonChevron__5e764
     path {
     fill: var(--hover-red-bright-color) !important;
 }
-.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
-    .button__67645:hover
-    path,
-.micButtonParent__37e49:has(svg > path[d^="M21.76.83a5.02"])
-    .popoutOpen__37e49
+.audioButtonParent__5e764.hasColorGlow__5e764:has(svg.iconForeground__37e49)
+    .buttonChevron__5e764:hover
     path {
     fill: var(--red-bright-color) !important;
+}
+.notches__06283.black__06283 {
+    color: transparent !important;
 }
 .icon_c9d15c path {
     fill: var(--hover-bright-color) !important;
