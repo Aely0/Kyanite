@@ -8336,7 +8336,10 @@ content,
     background-color: var(--hover-faded-color) !important;
     box-shadow: none !important;
 }
-.midnightThemeGradient_b5b7aa {
+.headerBar__1a9ce .children__9293f > svg {
+    color: var(--hover-bright-color) !important;
+}
+.overlay_b5b7aa {
     background: linear-gradient(
         to bottom,
         transparent 0,
@@ -8491,7 +8494,8 @@ content,
     border-radius: 8px !important;
     box-shadow: none !important;
 }
-.page__5e434 .wrapper__5d00f {
+.page__5e434 .wrapper__5d00f,
+.orbsContainer__955a3 {
     display: none !important;
 }
 
