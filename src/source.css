@@ -9761,6 +9761,17 @@ content,
 .sectionDescription_e335a7 {
     color: var(--hover-bright-color) !important;
 }
+.fractionalPremiumAccountCredit__94f72,
+.premiumSubscriptionAccountCredit__94f72 {
+    background-color: var(--hover-faint-color) !important;
+}
+.fractionalTimeRemainingRow__94f72 {
+    background-color: transparent !important;
+}
+.fractionalTimeRemainingPill__94f72 {
+    background-color: var(--hover-color) !important;
+    background-image: none !important;
+}
 .noItemsCard__70151.card-16VQ8C,
 .noItemsCard_e335a7.card-16VQ8C {
     background-color: var(--hover-color) !important;
