@@ -9608,17 +9608,17 @@ content,
 }
 
 /* Devices (User Settings) */
-.sessionIcon__803f2 {
+.sessionIcon_c8ddd4 {
     background: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.session__803f2 {
+.session_c8ddd4 {
     border-bottom: none !important;
 }
-.sessionMoreButton__803f2 {
+.sessionMoreButton_c8ddd4 {
     color: var(--hover-bright-color) !important;
 }
-.sessionMoreButton__803f2:hover {
+.sessionMoreButton_c8ddd4:hover {
     color: var(--soft-bright-color) !important;
 }
 
