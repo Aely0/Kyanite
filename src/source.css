@@ -1726,11 +1726,11 @@ path {
 }
 
 /* Arrow and underline link in Authorised apps */
-.externalLinkIcon__50a54 path {
+.externalLinkIcon__24605 path {
     fill: var(--soft-bright-color) !important;
 }
-.tos__50a54:hover,
-.privacy__50a54:hover {
+.tos__24605:hover,
+.privacy__24605:hover {
     color: var(--soft-bright-color) !important;
     text-decoration-color: var(--soft-bright-color) !important;
 }
@@ -9564,41 +9564,41 @@ content,
 /* Authorized apps (User Settings) */
 .formNotice_f43ba5.card__73069,
 .cardPrimary__73069.card__73069,
-.authedAppV2__50a54 {
+.authedAppV2__24605 {
     background-color: transparent !important;
     border: none !important;
 }
-.headerV2__50a54,
-.appDetailsContainer__50a54 {
+.headerV2__24605,
+.appDetailsContainer__24605 {
     background-color: var(--hover-faded-color) !important;
 }
-.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+.appDetailsContainer__24605 .appDetailsSection__24605 {
     background-color: transparent !important;
     border-bottom: none !important;
 }
-.appDetailsSectionHeader__50a54 > svg > path {
+.appDetailsSectionHeader__24605 > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.permissionsDescription__50a54 {
+.permissionsDescription__24605 {
     color: var(--hover-bright-color) !important;
 }
-.actionMenuButton_d84e0f {
+.actionMenuButton__12cd0 {
     background-color: var(--hover-faint-color) !important;
     transition: background-color 100ms ease-in-out !important;
 }
-.actionMenuButton_d84e0f:hover {
+.actionMenuButton__12cd0:hover {
     background-color: var(--hover-faded-color) !important;
     transition: background-color 100ms ease-in-out !important;
 }
-.actionMenuButton_d84e0f > svg > path {
+.actionMenuButton__12cd0 > svg > path {
     fill: var(--hover-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.actionMenuButton_d84e0f:hover > svg > path {
+.actionMenuButton__12cd0:hover > svg > path {
     fill: var(--soft-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.divider__50a54 {
+.divider__24605 {
     visibility: hidden !important;
 }
 
