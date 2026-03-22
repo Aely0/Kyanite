@@ -9623,39 +9623,39 @@ content,
 }
 
 /* Connections (User Settings) */
-.accountButtonInner_c7f964,
-.connection_c7f964 {
+.accountButtonInner__4109d,
+.connection__4109d {
     background-color: var(--hover-faint-color) !important;
     border-color: transparent !important;
 }
-.accountButtonInner_c7f964 {
+.accountButtonInner__4109d {
     color: var(--soft-bright-color) !important;
 }
 .accountBtnInner__750de {
     background-color: var(--hover-faint-color) !important;
 }
-.connectionHeader_c7f964 {
+.connectionHeader__4109d {
     background-color: transparent !important;
 }
-.metadataContainer_c7f964 {
+.metadataContainer__4109d {
     background-color: var(--hover-faint-color) !important;
 }
-.connectionHeader_c7f964 .connectionAccountValue-3gVX0m {
+.connectionHeader__4109d .connectionAccountValue-3gVX0m {
     color: var(--soft-bright-color) !important;
 }
-.connectionDelete_c7f964 > svg > path {
+.connectionDelete__4109d > svg > path {
     fill: var(--hover-dark-color) !important;
 }
-.connectionDelete_c7f964:hover > svg > path {
+.connectionDelete__4109d:hover > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.connectionAccountValue_c7f964 {
+.connectionAccountValue__4109d {
     color: var(--soft-bright-color) !important;
 }
-.integration_c7f964 {
+.integration__4109d {
     background-color: transparent !important;
 }
-.integrationWrapper_c7f964 {
+.integrationWrapper__4109d {
     background: var(--hover-faint-color) !important;
 }
 
@@ -10459,10 +10459,9 @@ img:not(.emote):not(.emoji)::after {
 .baseControlItem_dbfbe0:hover.clickable_dbfbe0 {
     background-color: var(--hover-faint-color) !important;
 }
-.baseControlItemTrailingElements_dbfbe0 > svg > path {
-    fill: var(--hover-bright-color) !important;
-}
-.triggerButton__64c86 > .icon__64c86 > path {
+.baseControlItemTrailingElements_dbfbe0 > svg > path,
+.triggerButton__64c86 > .icon__64c86 > path,
+.navigatorTrailing__15430 > svg > path {
     fill: var(--hover-bright-color) !important;
 }
 .selectedIcon__2e223 > svg > path {
