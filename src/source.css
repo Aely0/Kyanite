@@ -8112,6 +8112,14 @@ content,
     color: var(--soft-bright-color) !important;
 }
 
+/* Keyboard mode */
+.keyboard-mode .colorDefault_c1e9c4.focused_c1e9c4 {
+    outline: 2px solid var(--soft-bright-color) !important;
+}
+.keyboard-mode .button_f563df.focused_f563df {
+    box-shadow: 0 0 0 2px var(--soft-bright-color) !important;
+}
+
 /* Keyboard shortcuts */
 .theme-dark .keyboardShortcutsModal_f061f6 {
     background-color: var(--dark-bg) !important;
