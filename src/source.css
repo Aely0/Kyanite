@@ -9797,6 +9797,11 @@ content,
 .emptyStateSubtext_d4883c {
     color: var(--hover-bright-color) !important;
 }
+.emptyStateImage_d4883c {
+    background: var(--soft-bright-color) !important;
+    mask: url(https://discord.com/assets/b584f76d3ff86700.svg) !important;
+    mask-mode: luminance !important;
+}
 
 /* Billing (User Settings) */
 .flexChild__7c0ba .subText__0eeee {
