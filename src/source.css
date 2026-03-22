@@ -9663,6 +9663,9 @@ content,
 .selectedBackground_e681d1 {
     background-color: var(--hover-dark-color) !important;
 }
+.giftCard_a45ed3 {
+    background: var(--hover-faint-color) !important;
+}
 .premiumLabel_e681d1.selected_e681d1 {
     color: var(--soft-bright-color) !important;
 }
