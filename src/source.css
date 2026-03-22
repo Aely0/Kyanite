@@ -9276,27 +9276,27 @@ content,
 }
 
 /* My Account (User Settings) */
-.accountProfileCard__1fed1 {
+.accountProfileCard_a27e58 {
     background-color: var(--hover-faint-color) !important;
 }
-.background__1fed1 {
+.background_a27e58 {
     background-color: transparent !important;
 }
-.fieldList__1fed1 {
+.fieldList_a27e58 {
     background-color: transparent !important;
 }
-.avatar__1fed1 {
+.avatar_a27e58 {
     background-color: transparent !important;
 }
-.userTag__1fed1.nameTag__05e81 .username__05e81,
-.userTag__1fed1 {
+.userTag_a27e58.nameTag__05e81 .username__05e81,
+.userTag_a27e58 {
     color: var(--soft-bright-color) !important;
 }
-.userTag__1fed1.nameTag__05e81 .discriminator__1fed1,
-.overflowMenuIcon__1fed1 {
+.userTag_a27e58.nameTag__05e81 .discriminator_a27e58,
+.overflowMenuIcon_a27e58 {
     color: var(--hover-bright-color) !important;
 }
-.badgeList__1fed1 {
+.badgeList_a27e58 {
     background-color: transparent !important;
 }
 .tabBar_f8303a {
