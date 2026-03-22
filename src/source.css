@@ -1485,6 +1485,18 @@ path {
 .tagsDivider_d9be46 {
     background-color: var(--hover-color) !important;
 }
+.tagPill__9a337 {
+    box-shadow: none !important;
+}
+.mediaIcon__9a337,
+.moreImagesPill__9a337 {
+    background-color: var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.moreImagesPillIcon__9a337,
+.moreImagesPillText__9a337 {
+    color: var(--soft-bright-color) !important;
+}
 .channelTextAreaInner_d9be46 {
     padding: 10px !important;
 }
