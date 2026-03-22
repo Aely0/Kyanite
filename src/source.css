@@ -9942,6 +9942,9 @@ content,
 .paletteIcon__8fea4 > path {
     fill: var(--soft-bright-color) !important;
 }
+.appIconSelection__8a3d7 {
+    box-shadow: none !important;
+}
 
 /* Accessibility (User Settings) */
 .previewMessage__5d148 {
