@@ -9980,6 +9980,13 @@ content,
 .progress__06283 {
     background-color: var(--hover-faded-color) !important;
 }
+.newTextBadge__53965 {
+    border: 3px solid var(--dark-bg) !important;
+}
+.playIcon__53965 {
+    background-color: var(--dark-bg) !important;
+    color: var(--soft-bright-color) !important;
+}
 
 /* Soundboard (+ choose a sound) */
 .categoryList_a1e0e0 {
