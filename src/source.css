@@ -2491,11 +2491,11 @@ path {
 }
 
 /* General status panel (Custom Nameplate) */
-.panels__5e434 .fitInAccount__4bbc6 .img__4bbc6 {
+.panels__5e434 .fitInAccount_df39b2 .img_df39b2 {
     visibility: hidden !important;
 }
 .panels__5e434
-    .container__4bbc6.fitInAccount__4bbc6[style^="background: linear-gradient"] {
+    .container_df39b2.fitInAccount_df39b2[style^="background: linear-gradient"] {
     background: transparent !important;
 }
 .panels__5e434 .container__37e49 {
