@@ -4008,13 +4008,13 @@ path {
 }
 
 /* Invite link */
-.guildIconExpired_d5f3cd.guildIcon_d5f3cd {
-    background: var(--soft-bright-color) !important;
-    mask: url("https://discord.com/assets/e4a502bfc6589d65.svg") !important;
-    mask-mode: luminance !important;
-    mask-repeat: no-repeat !important;
-    mask-size: 100% !important;
-    mask-position: center !important;
+.guildIconExpired_d5f3cd {
+    background-color: var(--hover-red-color) !important;
+    border: 2px solid var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+}
+.inviteDestinationExpired_d5f3cd {
+    color: var(--red-bright-color) !important;
 }
 .guildInviteContainer__083ae,
 .wrapper_d5f3cd {
