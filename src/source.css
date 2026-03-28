@@ -415,6 +415,9 @@ path {
     border: 1px solid var(--hover-bright-color) !important;
     color: var(--hover-bright-color) !important;
 }
+.info__35859.hidden__35859 {
+    display: none !important;
+}
 .info_e3f97f .icon_e3f97f,
 .info__35859 .iconDiv__35859 .icon__35859 {
     color: var(--hover-bright-color) !important;
@@ -10255,15 +10258,19 @@ content,
     background-color: transparent !important;
     box-shadow: none !important;
 }
-.content__487be ul li:before {
+.container__1689b ul li:before {
     background-color: var(--hover-bright-color) !important;
     opacity: 0.8 !important;
 }
-.content__487be strong {
+.container__1689b .title__1689b,
+.container__1689b strong {
     color: var(--soft-bright-color) !important;
 }
-.content__487be ul li,
-.content__487be p {
+.container__1689b .title__1689b::after {
+    background-color: var(--soft-bright-color) !important;
+}
+.container__1689b ul li,
+.container__1689b p {
     color: var(--hover-bright-color) !important;
 }
 
