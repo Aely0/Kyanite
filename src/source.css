@@ -1021,6 +1021,7 @@ path {
 .stageListenerPill_b1f768 {
     background-color: transparent !important;
     border: 2px solid var(--soft-bright-color) !important;
+    color: var(--soft-bright-color) !important;
 }
 .stageListenerCount_b1f768 {
     color: var(--soft-bright-color) !important;
