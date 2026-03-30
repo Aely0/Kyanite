@@ -9730,11 +9730,12 @@ content,
 }
 
 /* Server Boost (User Settings) */
-.cardWrapper_aae012 {
+.cardWrapper_aae012,
+.guildContainer__299c6 {
     background-color: transparent !important;
 }
-.separator__5dba5 {
-    border-right: 1px solid transparent !important;
+.separator__299c6 {
+    visibility: hidden !important;
 }
 .columnHeading__686cf,
 .tableCell__686cf {
@@ -9748,6 +9749,12 @@ content,
 }
 .listItem__5b98e {
     border-bottom: 1px solid transparent !important;
+}
+.card__4d7bb {
+    background-color: var(--dark-bg) !important;
+}
+.wrapper__5b98e.faq__5d9e5 {
+    background-color: var(--hover-faint-color) !important;
 }
 .questionWrapper__5b98e,
 .questionWrapper__5b98e:active,
