@@ -3,15 +3,15 @@
 
 /* Adjustable main color palette and background options */
 :root {
-    /* Kyanite accents */
-    --main-color: rgba(22, 91, 123, 1) !important;
-    --dark-bg: rgba(7, 22, 37, 0.95) !important;
-    --soft-bright-color: rgb(133, 206, 255) !important;
-    --hover-color: rgba(22, 91, 123, 0.3) !important;
-    --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
-    --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
-    --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-    --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+    /* Lavender accents */
+    --main-color: rgb(85, 89, 143) !important;
+    --dark-bg: rgba(23, 21, 38, 0.95) !important;
+    --soft-bright-color: rgba(180, 190, 254, 1) !important;
+    --hover-color: rgba(134, 145, 216, 0.15) !important;
+    --hover-faded-color: rgba(180, 190, 254, 0.1) !important;
+    --hover-faint-color: rgba(180, 190, 254, 0.05) !important;
+    --hover-dark-color: rgba(106, 112, 149, 0.6) !important;
+    --hover-bright-color: rgba(157, 165, 219, 0.8) !important;
 
     /* Background options */
     --background-blur: 0px !important;
@@ -28,7 +28,7 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-    background-image: url("https://aely0.github.io/Kyanite/backgrounds/kyanite.png") !important;
+    background-image: url("https://aely0.github.io/Kyanite/backgrounds/lavender.png") !important;
 }
 
 /* Some elements are hidden by default, uncomment the ones below to unhide them */

@@ -15,10 +15,11 @@
 
     /* Background options */
     --background-blur: 0px !important;
-    --background-brightness: 100% !important;
+    --background-brightness: 60% !important;
 }
 
 /* Main background */
+body,
 body::after,
 .callout-backdrop,
 .user-popout::before,
@@ -27,7 +28,7 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-    background-image: url("https://aely0.github.io/Kyanite/src/resources/magenta.jpg") !important;
+    background-image: url("https://aely0.github.io/Kyanite/backgrounds/magenta.png") !important;
 }
 
 /* Some elements are hidden by default, uncomment the ones below to unhide them */
