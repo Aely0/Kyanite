@@ -1,9 +1,10 @@
 # Dark Mode Themes
 
-Meant to be used with [leovoel's BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord).
+Meant to be used with [Vencord](https://github.com/Vendicated/Vencord)
 
-- [Download Kyanite (2026.01.24)](https://github.com/Aely0/Kyanite/releases/download/2026.01.24/Kyanite.css)
-- [Download Magenta (2026.01.24)](https://github.com/Aely0/Kyanite/releases/download/2026.01.24/Magenta.css)
+- [Download Kyanite (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Kyanite.css)
+- [Download Lavender (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Lavender.css)
+- [Download Magenta (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Magenta.css)
 
 ### Important Sidenote
 Some elements, mostly ones related to ads, upselling, Nitro pushing, shop, gifting,
@@ -12,6 +13,8 @@ in this theme. This can be undone by uncommenting designated code comments in gi
 theme files. It is also where you can add you own custom CSS rules and overrides.
 
 ## Kyanite
-![Kyanite](https://github.com/Aely0/Kyanite/blob/main/screenshots/kyanite.png)
+![Kyanite](https://aely0.github.io/Kyanite/screenshots/kyanite.png)
+## Lavender
+![Lavender](https://aely0.github.io/Kyanite/screenshots/lavender.png)
 ## Magenta
-![Magenta](https://github.com/Aely0/Kyanite/blob/main/screenshots/magenta.png)
+![Magenta](https://aely0.github.io/Kyanite/screenshots/magenta.png)
