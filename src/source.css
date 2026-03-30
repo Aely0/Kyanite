@@ -3408,6 +3408,10 @@ path {
 .emojiPickerListWrapper_c0e32c {
     border-top: none !important;
 }
+.emojiPickerHasTabWrapper_c0e32c .emojiPicker_c0e32c {
+    border-end-end-radius: 8px !important;
+    border-end-start-radius: 8px !important;
+}
 .visual-refresh .unicodeShortcut_b9ee0c,
 .visual-refresh .standardStickerShortcut__3ad28 {
     border-top: none !important;
