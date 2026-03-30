@@ -9056,13 +9056,19 @@ content,
 .row__89036:hover {
     background-color: var(--hover-faded-color) !important;
 }
-.footer__7f9c0 {
+.footer__272c7 {
     border-top: none !important;
 }
-.footerButton__7f9c0 .text-sm\/normal_cf4812 {
+.footerButton__272c7 {
+    background: transparent !important;
+}
+.footerButton__272c7:hover:after {
+    background-color: transparent !important;
+}
+.footerButton__272c7 .text-sm\/normal_cf4812 {
     color: var(--hover-bright-color) !important;
 }
-.footerButton__7f9c0:hover .text-sm\/normal_cf4812 {
+.footerButton__272c7:hover .text-sm\/normal_cf4812 {
     color: var(--soft-bright-color) !important;
 }
 
