@@ -10,14 +10,24 @@
     /* --hover-bright-color: rgba(16, 165, 235, 0.8) !important; */
 
     /* Magenta accents */
-    --main-color: rgb(115, 22, 123) !important;
-    --dark-bg: rgba(37, 7, 37, 0.95) !important;
-    --soft-bright-color: rgba(255, 133, 255, 1) !important;
-    --hover-color: rgba(123, 22, 123, 0.3) !important;
-    --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
-    --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
-    --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
-    --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
+    /* --main-color: rgb(115, 22, 123) !important; */
+    /* --dark-bg: rgba(37, 7, 37, 0.95) !important; */
+    /* --soft-bright-color: rgba(255, 133, 255, 1) !important; */
+    /* --hover-color: rgba(123, 22, 123, 0.3) !important; */
+    /* --hover-faded-color: rgba(123, 22, 123, 0.2) !important; */
+    /* --hover-faint-color: rgba(123, 22, 123, 0.1) !important; */
+    /* --hover-dark-color: rgba(123, 22, 123, 0.8) !important; */
+    /* --hover-bright-color: rgba(253, 97, 227, 0.8) !important; */
+
+    /* Lavender accents */
+    --main-color: rgb(85, 89, 143) !important;
+    --dark-bg: rgba(23, 21, 38, 0.95) !important;
+    --soft-bright-color: rgba(180, 190, 254, 1) !important;
+    --hover-color: rgba(134, 145, 216, 0.15) !important;
+    --hover-faded-color: rgba(180, 190, 254, 0.1) !important;
+    --hover-faint-color: rgba(180, 190, 254, 0.05) !important;
+    --hover-dark-color: rgba(106, 112, 149, 0.6) !important;
+    --hover-bright-color: rgba(157, 165, 219, 0.8) !important;
 
     /* State colors */
     --green-bright-color: rgb(143, 255, 133) !important;
@@ -160,8 +170,9 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
-    /* background-image: url("https://aely0.github.io/Kyanite/src/resources/kyanite.jpg") !important; */
-    background-image: url("https://aely0.github.io/Kyanite/src/resources/magenta.jpg") !important;
+    /* background-image: url("https://aely0.github.io/Kyanite/backgrounds/kyanite.png") !important; */
+    /* background-image: url("https://aely0.github.io/Kyanite/backgrounds/magenta.png") !important; */
+    background-image: url("https://aely0.github.io/Kyanite/backgrounds/lavender.png") !important;
 }
 #app-mount,
 .app__160d8,
