@@ -9542,21 +9542,21 @@ content,
 }
 
 /* Content & Social (User Settings) */
-.card__5cea9 {
-    background-color: var(--hover-color) !important;
+.card__416c7 {
+    background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
-.header__5cea9 {
+.header__416c7 {
     background-color: transparent !important;
 }
-.row__5cea9 {
+.row__416c7 {
     border-bottom: none !important;
 }
-.iconContainer__5cea9,
-.loadMoreButton__5cea9 {
-    background-color: var(--hover-color) !important;
+.iconContainer__416c7,
+.loadMoreButton__416c7 {
+    background-color: var(--hover-faded-color) !important;
 }
-.iconContainer__5cea9 > svg > path {
+.iconContainer__416c7 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
 .emptyContainer_de8069 {
