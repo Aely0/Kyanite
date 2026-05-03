@@ -8369,6 +8369,16 @@ content,
 }
 
 /* Quests */
+.page__1add6,
+.header__1add6 {
+    background-color: transparent !important;
+}
+.card__1add6 {
+    background-color: var(--hover-faded-color) !important;
+}
+.title__1add6 {
+    color: var(--hover-bright-color) !important;
+}
 .container_cec934 {
     background-color: var(--hover-faded-color) !important;
     box-shadow: none !important;
