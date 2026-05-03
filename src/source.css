@@ -7620,6 +7620,21 @@ content,
     transition: color 100ms ease-in-out !important;
 }
 
+/* Profile popout (placeholder) */
+.profilePopout__1add6 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: none !important;
+}
+.profileAvatar__1add6,
+.profileBanner__1add6,
+.bar__1add6,
+.circle__1add6 {
+    background-color: var(--hover-faint-color) !important;
+}
+.profileAvatar__1add6 {
+    border: 6px solid var(--dark-bg) !important;
+}
+
 /* Embeds */
 .visual-refresh .embedFull__623de {
     border-top: none !important;
