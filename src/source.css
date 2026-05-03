@@ -9468,7 +9468,7 @@ content,
     opacity: 0.8 !important;
 }
 
-/* Profiles (User Settings) */
+/* Account (User Settings) */
 .premiumBackground__65c15,
 .tryItOutSection__9d295 {
     background: transparent !important;
@@ -9589,6 +9589,9 @@ content,
 }
 .tab_f8303a.vertical_f8303a.selected_f8303a {
     border-left: 2px solid var(--soft-bright-color) !important;
+}
+.emptyContainer__5348b {
+    background-color: transparent !important;
 }
 
 /* Data & Privacy (User Settings) */
