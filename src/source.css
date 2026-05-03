@@ -10055,6 +10055,9 @@ content,
 .appIconSelection__8a3d7 {
     box-shadow: none !important;
 }
+.description__5a838 a {
+    color: var(--soft-bright-color) !important;
+}
 
 /* Accessibility (User Settings) */
 .previewMessage__5d148 {
