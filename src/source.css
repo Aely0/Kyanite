@@ -9843,6 +9843,28 @@ content,
 .tableCell__686cf > .text-md\/bold_cf4812 {
     color: var(--hover-bright-color) !important;
 }
+.card_b8773c,
+.card_a079c2 {
+    background: var(--hover-faint-color) !important;
+}
+.icon_a079c2 {
+    color: var(--hover-bright-color) !important;
+}
+.nitroWheelIcon__5eeae > path,
+.icon_a079c2 > path,
+.questionIcon_cd8235 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.checkIcon__0a9d0 {
+    color: var(--hover-bright-color) !important;
+}
+.xIcon__0a9d0 {
+    color: var(--hover-dark-color) !important;
+}
+.listItem_cd8235 {
+    background: var(--hover-faint-color) !important;
+    box-shadow: none !important;
+}
 
 /* Subscriptions (User Settings) */
 .accountCreditDescription__70151,
