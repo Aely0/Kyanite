@@ -10242,7 +10242,7 @@ content,
 }
 
 /* Language & Time (User Settings) */
-.localizedName_e42467 {
+.localizedName_ff1d6c {
     color: var(--hover-bright-color) !important;
 }
 
@@ -10258,6 +10258,9 @@ content,
 }
 .iconContainer__0ecc4 > foreignObject {
     background: var(--hover-faint-color) !important;
+}
+.sortDropdown__7db08 svg path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Registered Games (User Settings) */
