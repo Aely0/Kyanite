@@ -9882,9 +9882,9 @@ content,
     background-color: var(--hover-color) !important;
     background-image: none !important;
 }
-.noItemsCard__70151.card-16VQ8C,
-.noItemsCard_e335a7.card-16VQ8C {
-    background-color: var(--hover-color) !important;
+.noItemsCard_e335a7,
+.noItemsCard__70151 {
+    background-color: var(--hover-faint-color) !important;
 }
 .cardText__70151,
 .cardText_e335a7 {
