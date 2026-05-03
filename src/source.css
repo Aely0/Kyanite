@@ -10065,6 +10065,9 @@ content,
 }
 
 /* Voice & Video (User Settings) */
+.sliderBar_d293c5 {
+    background-color: var(--hover-dark-color) !important;
+}
 .option_e03935 {
     background-color: var(--hover-color) !important;
 }
