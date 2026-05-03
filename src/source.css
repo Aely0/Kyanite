@@ -10060,11 +10060,14 @@ content,
 }
 
 /* Accessibility (User Settings) */
-.previewMessage__5d148 {
+.preview__0e467 {
     background-color: transparent !important;
 }
 .checkboxWrapper__09aca .text-md\/normal_cf4812 {
     color: var(--hover-bright-color) !important;
+}
+.decorationWrapper__6131a.sticky__6131a:before {
+    background: var(--dark-bg) !important;
 }
 
 /* Voice & Video (User Settings) */
