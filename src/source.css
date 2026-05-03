@@ -9735,6 +9735,11 @@ content,
     background: var(--hover-faint-color) !important;
 }
 
+/* Notifications */
+.icon_cf9ac1[style="background-color: var(--background-mod-muted);"] {
+    background-color: var(--hover-faint-color) !important;
+}
+
 /* Discord Nitro (User Settings) */
 .selectedBackground_e681d1 {
     background-color: var(--hover-dark-color) !important;
