@@ -8222,7 +8222,8 @@ content,
 .tab__354ec:hover {
     border-bottom: 2px solid var(--hover-bright-color) !important;
 }
-.tab__354ec.selected__354ec {
+.tab__354ec.selected_aa8da2 {
+    background-color: transparent !important;
     border-bottom: 2px solid var(--soft-bright-color) !important;
 }
 .wishlistButton__80679 {
@@ -8343,6 +8344,12 @@ content,
 }
 .container__8a8e7 {
     color: var(--hover-bright-color) !important;
+}
+.paymentSourceItem__48a20 {
+    background-color: var(--hover-faint-color) !important;
+}
+.icon_da8ac7 {
+    background: var(--hover-faint-color) !important;
 }
 
 /* Message requests */
