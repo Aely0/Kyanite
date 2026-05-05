@@ -9383,7 +9383,7 @@ content,
 .badgeList_a27e58 {
     background-color: transparent !important;
 }
-.tabBar_f8303a {
+.tabBar_eeedb9 {
     border-bottom: none !important;
 }
 .positive__35859 {
@@ -9598,8 +9598,8 @@ content,
 .emptyContainer_de8069 {
     background-color: transparent !important;
 }
-.tab_f8303a.vertical_f8303a.selected_f8303a {
-    border-left: 2px solid var(--soft-bright-color) !important;
+.tab_eeedb9.vertical_eeedb9.selected_eeedb9 {
+    border-left: 2px solid var(--hover-bright-color) !important;
 }
 .emptyContainer__5348b {
     background-color: transparent !important;
