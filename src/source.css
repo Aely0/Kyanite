@@ -506,12 +506,12 @@ path {
 .defaultColor__4bd52.reactionTooltipText_b49891 {
     color: var(--soft-bright-color) !important;
 }
-.reactionEmojiDetailsClickable_d5cd2d {
+.reactionEmojiDetailsClickable__5a408 {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-faded-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
-.reactionEmojiDetailsClickable_d5cd2d:hover {
+.reactionEmojiDetailsClickable__5a408:hover {
     background-color: var(--hover-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
@@ -3675,6 +3675,9 @@ path {
 .guildSection_d5cd2d {
     background-color: transparent !important;
 }
+.emojiSection_d5cd2d .overflow_b0dfc2 {
+    color: var(--soft-bright-color) !important;
+}
 .popoutContainer__0f481 {
     background-color: var(--hover-color) !important;
     border: 1px solid var(--hover-color) !important;
@@ -3682,15 +3685,15 @@ path {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.showMoreEmojis_d5cd2d,
-.emojiSection_d5cd2d .overflow_b0dfc2 {
+.showMoreEmojis__5a408,
+.emojiSection__5a408 .overflow_b0dfc2 {
     color: var(--soft-bright-color) !important;
 }
-.dotSeparator_d5cd2d {
+.dotSeparator__5a408 {
     background-color: var(--hover-bright-color) !important;
 }
-.joinGuildLink_d5cd2d,
-.joinGuildLink_d5cd2d .text-xs\/normal_cf4812 {
+.joinGuildLink__5a408,
+.joinGuildLink__5a408 .text-xs\/normal_cf4812 {
     color: var(--soft-bright-color) !important;
 }
 .popoutLoadingForeground__0f481 {
