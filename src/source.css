@@ -9222,7 +9222,7 @@ content,
 .link__7df54:hover .foreground__7df54 {
     opacity: 1 !important;
 }
-.info__973df .line__973df {
+.info__081d7 .line__081d7 {
     color: var(--hover-bright-color) !important;
 }
 .divider__1de9c {
@@ -9318,21 +9318,6 @@ content,
 .sectionLabel__409aa .label__409aa[style="color: var(--text-muted);"] {
     color: var(--hover-bright-color) !important;
 }
-.clickable__973df .text-xxs\/normal_cf4812,
-#openasar-ver {
-    font-size: 12px !important;
-    font-weight: 500 !important;
-}
-.navScroller__409aa > div {
-    margin-top: -10px !important;
-}
-.navScroller__409aa > div > .clickable__973df,
-.compactInfo__973df:has(#openasar-ver) {
-    padding-bottom: 10px !important;
-}
-.track_e4d939 {
-    background: var(--hover-faint-color) !important;
-}
 .subnav_e4d939 .item_e4d939 {
     color: var(--hover-bright-color) !important;
     font-weight: 500 !important;
@@ -9342,7 +9327,24 @@ content,
 .subnav_e4d939 .item_e4d939:hover {
     color: var(--soft-bright-color) !important;
 }
-.compactInfo__973df .text-xxs\/normal_cf4812::after,
+.track_e4d939 {
+    background: var(--hover-faint-color) !important;
+}
+
+/* Settings (build info) */
+.clickable__081d7 .text-xxs\/normal_cf4812,
+#openasar-ver {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.navScroller__409aa > div {
+    margin-top: -10px !important;
+}
+.navScroller__409aa > div > .clickable__081d7,
+.compactInfo__081d7:has(#openasar-ver) {
+    padding-bottom: 10px !important;
+}
+.compactInfo__081d7 .text-xxs\/normal_cf4812::after,
 .bullet__7aac8 {
     color: var(--hover-bright-color) !important;
 }
