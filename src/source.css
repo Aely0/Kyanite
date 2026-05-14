@@ -3774,7 +3774,7 @@ path {
 }
 
 /* Update icon */
-.updateIconForeground__49676 {
+.clickable__81391 > svg > path[fill="var(--green-360)"] {
     fill: var(--soft-bright-color) !important;
 }
 
