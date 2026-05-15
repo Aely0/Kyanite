@@ -8571,6 +8571,24 @@ content,
 .orbsContainer__955a3 {
     display: none !important;
 }
+.color-mix_a22cb0 {
+    background-color: transparent !important;
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 40%,
+        transparent
+    ) !important;
+}
+.color-mix_a22cb0:hover {
+    color: color-mix(
+        in srgb,
+        var(--soft-bright-color) 60%,
+        transparent
+    ) !important;
+}
+.color-mix_a22cb0:hover:before {
+    background-color: transparent !important;
+}
 
 /* Gift chat notification */
 .giftCodeContainer_b7e1cb .tile__72090 {
