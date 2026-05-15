@@ -3328,13 +3328,13 @@ path {
 .theme-dark .modalTextContainer__4d95d .hljs {
     color: color-mix(in srgb, var(--hover-bright-color) 80%, white) !important;
 }
-.languageIcon__4d95d > path,
+.languageIcon__4d95d > svg > path,
 .openFullPreviewSection__4d95d > svg > path,
 .overflowIcon__4d95d > svg > path {
     fill: var(--hover-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.languageIcon__4d95d:hover > path,
+.languageIcon__4d95d:hover > svg > path,
 .openFullPreviewSection__4d95d:hover > svg > path,
 .overflowIcon__4d95d:hover > svg > path {
     fill: var(--soft-bright-color) !important;
