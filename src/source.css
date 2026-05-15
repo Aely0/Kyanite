@@ -3263,10 +3263,10 @@ path {
 .file__0ccae .icon__0ccae {
     display: none !important;
 }
-.progress__45530 {
+.progressContainer__0ccae .track__55b14 {
     background-color: var(--hover-color) !important;
 }
-.progressBar__45530 {
+.progressContainer__0ccae .track__55b14 .fill__55b14 {
     background: linear-gradient(
         to right,
         var(--hover-color),
