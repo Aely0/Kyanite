@@ -8373,10 +8373,10 @@ content,
 .messageRequestItem_abb9ad:hover {
     background: var(--hover-color) !important;
 }
-.selected_dcc822 {
+.selected_f391e3 {
     background-color: var(--hover-color) !important;
 }
-.sectionTitle_dcc822 {
+.sectionTitle_f391e3 {
     color: var(--hover-bright-color) !important;
 }
 .hamBanner__6a41e {
@@ -8392,6 +8392,9 @@ content,
     background: var(--soft-bright-color) !important;
     mask: url("https://discord.com/assets/4e11cf8e80a816c6.svg") !important;
     mask-mode: luminance !important;
+}
+.chat_a44415::before {
+    visibility: hidden !important;
 }
 
 /* Quests */
