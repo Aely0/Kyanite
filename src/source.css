@@ -680,7 +680,8 @@ path {
     box-shadow: none !important;
     border: 1px solid var(--hover-color) !important;
 }
-.activityIcon_b1f768 {
+.activityIcon_b1f768,
+.guildTooltipWrapper_b1f768 {
     color: var(--soft-bright-color) !important;
 }
 .listItemTooltipContent__91816,
