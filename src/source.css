@@ -1048,7 +1048,7 @@ path {
 }
 .audienceContainerCollapsed__55bab {
     background-color: var(--dark-bg) !important;
-    border: solid 4px var(--hover-dark-color) !important;
+    border: solid 4px var(--main-color) !important;
 }
 .audienceIcon__55bab {
     color: var(--hover-bright-color) !important;
