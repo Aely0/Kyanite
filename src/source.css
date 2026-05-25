@@ -253,7 +253,7 @@ body::after,
 [style^="color: var(--interactive-active);"] {
     color: var(--soft-bright-color) !important;
 }
-.userTag__63ed3,
+.userTag__26b1f,
 [style^="color: var(--text-default);"],
 [style^="color: var(--text-normal);"],
 [style^="color: var(--text-primary);"],
@@ -5885,10 +5885,10 @@ img.sidebarHeader__0ab2c {
 .tagText__10651 {
     color: var(--soft-bright-color) !important;
 }
-.guildTagContainer__63ed3 {
+.guildTagContainer__26b1f {
     border: 1px solid transparent !important;
 }
-.guildTagContainer__63ed3:hover {
+.guildTagContainer__26b1f:hover {
     background-color: transparent !important;
 }
 
@@ -7502,7 +7502,7 @@ content,
 .clickableImage__39ec2:after {
     background-color: var(--soft-bright-color) !important;
 }
-.userTagDiscriminator__63ed3 {
+.userTagDiscriminator__26b1f {
     color: var(--hover-bright-color) !important;
 }
 .rowIcon__95bea {
@@ -7512,10 +7512,10 @@ content,
 :where(.outer_c0bea0).user-profile-popout {
     box-shadow: none !important;
 }
-.nicknameIcons__63ed3 .button__0f074 {
+.nicknameIcons__26b1f .button__0f074 {
     color: var(--hover-bright-color) !important;
 }
-.nicknameIcons__63ed3 .button__0f074:hover {
+.nicknameIcons__26b1f .button__0f074:hover {
     color: var(--soft-bright-color) !important;
 }
 .headerText__39ec2 > svg > path {
