@@ -10112,7 +10112,7 @@ content,
 .option_e03935 {
     background-color: var(--hover-color) !important;
 }
-.cameraWrapper__11e1f {
+.cameraWrapper__92346 {
     background-color: var(--hover-faint-color) !important;
     border: none !important;
 }
@@ -10140,6 +10140,12 @@ content,
 .playIcon__53965 {
     background-color: var(--dark-bg) !important;
     color: var(--soft-bright-color) !important;
+}
+.sliderBar__0fc79 {
+    background-color: var(--hover-color) !important;
+}
+.sliderBar__0fc79.speaking__0fc79 {
+    background-color: var(--hover-green-dark-color) !important;
 }
 
 /* Soundboard (+ choose a sound) */
