@@ -10305,17 +10305,17 @@ content,
 }
 
 /* Registered Games (User Settings) */
-.activeGame__497cd.notDetected__497cd,
-.game__497cd {
+.activeGame_b53c4e.notDetected_b53c4e,
+.game_b53c4e {
     background-color: var(--hover-faint-color) !important;
 }
-.notDetected__497cd .gameName__497cd,
-.notDetected__497cd .lastPlayed__497cd,
-.nowPlayingAdd__497cd.marginReset_fd297e.marginTop8_fd297e.marginBottom20_fd297e
+.notDetected_b53c4e .gameName_b53c4e,
+.notDetected_b53c4e .lastPlayed_b53c4e,
+.nowPlayingAdd_b53c4e.marginReset_fd297e.marginTop8_fd297e.marginBottom20_fd297e
     > span {
     color: var(--hover-bright-color) !important;
 }
-.addGamePopout__497cd {
+.addGamePopout_b53c4e {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
 }
@@ -10323,61 +10323,61 @@ content,
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.nowPlayingAdd__497cd,
-.gameName__497cd,
-.nowPlayingAdd__497cd .lastPlayed__497cd {
+.nowPlayingAdd_b53c4e,
+.gameName_b53c4e,
+.nowPlayingAdd_b53c4e .lastPlayed_b53c4e {
     color: var(--soft-bright-color) !important;
 }
-.nowPlayingAdd__497cd .gameNameInput__497cd:focus,
-.nowPlayingAdd__497cd .gameNameInput__497cd:hover,
-.gameNameInput__497cd:focus,
-.theme-dark .gameNameInput__497cd:hover {
+.nowPlayingAdd_b53c4e .gameNameInput_b53c4e:focus,
+.nowPlayingAdd_b53c4e .gameNameInput_b53c4e:hover,
+.gameNameInput_b53c4e:focus,
+.theme-dark .gameNameInput_b53c4e:hover {
     border-color: var(--hover-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
 .overlayToggleIconOff-ps4gGp > g > rect {
     fill: var(--hover-red-bright-color) !important;
 }
-.lastPlayed__497cd {
+.lastPlayed_b53c4e {
     color: var(--hover-bright-color) !important;
 }
-.theme-dark .game__497cd {
+.theme-dark .game_b53c4e {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.game__497cd.card_b846e5 {
+.game_b53c4e.card_b846e5 {
     background-color: transparent !important;
 }
-.gameVerifiedIcon__497cd .flowerStar__3e3b0 {
+.gameVerifiedIcon_b53c4e .flowerStar__3e3b0 {
     display: none !important;
 }
 .redesignIconChildContainer__3e3b0 > svg {
     width: 24px !important;
     height: 24px !important;
 }
-.gameVerifiedIcon__497cd {
+.gameVerifiedIcon_b53c4e {
     margin-left: 4px !important;
 }
-.game__497cd .toggleIconOn__497cd:has(path[d^="M3 1a1"]) path {
+.game_b53c4e .toggleIconOn_b53c4e:has(path[d^="M3 1a1"]) path {
     fill: var(--red-dark-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.game__497cd .toggleIconOn__497cd:has(path[d^="M3 1a1"]):hover path {
+.game_b53c4e .toggleIconOn_b53c4e:has(path[d^="M3 1a1"]):hover path {
     fill: var(--red-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.game__497cd .toggleIconOn__497cd:has(path[d^="M15.56 11.77c"]) path {
+.game_b53c4e .toggleIconOn_b53c4e:has(path[d^="M15.56 11.77c"]) path {
     fill: var(--hover-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.game__497cd .toggleIconOn__497cd:has(path[d^="M15.56 11.77c"]):hover path {
+.game_b53c4e .toggleIconOn_b53c4e:has(path[d^="M15.56 11.77c"]):hover path {
     fill: var(--soft-bright-color) !important;
     transition: fill 100ms ease-in-out !important;
 }
-.button_e18686.removeGame__497cd {
+.button_e18686.removeGame_b53c4e {
     color: var(--hover-red-dark-color) !important;
 }
-.button_e18686.removeGame__497cd:hover {
+.button_e18686.removeGame_b53c4e:hover {
     color: var(--hover-red-bright-color) !important;
 }
 
