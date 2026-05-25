@@ -9602,24 +9602,24 @@ content,
 }
 
 /* Content & Social (User Settings) */
-.card__416c7 {
+.card_a72ffc {
     background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
-.header__416c7 {
+.header_a72ffc {
     background-color: transparent !important;
 }
-.row__416c7 {
+.row_a72ffc {
     border-bottom: none !important;
 }
-.iconContainer__416c7,
-.loadMoreButton__416c7 {
+.iconContainer_a72ffc,
+.loadMoreButton_a72ffc {
     background-color: var(--hover-faded-color) !important;
 }
-.iconContainer__416c7 > svg > path {
+.iconContainer_a72ffc > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.emptyContainer_de8069 {
+.emptyContainer__88a04 {
     background-color: transparent !important;
 }
 .tab_eeedb9.vertical_eeedb9.selected_eeedb9 {
