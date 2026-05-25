@@ -9938,11 +9938,11 @@ content,
 }
 
 /* Gift inventory (User Settings) */
-.emptyStateHeader__70dc3,
-.emptyStateSubtext__70dc3 {
+.emptyStateHeader_f5f9ed,
+.emptyStateSubtext_f5f9ed {
     color: var(--hover-bright-color) !important;
 }
-.emptyStateImage__70dc3 {
+.emptyStateImage_f5f9ed {
     background: var(--soft-bright-color) !important;
     mask: url(https://discord.com/assets/b584f76d3ff86700.svg) !important;
     mask-mode: luminance !important;
