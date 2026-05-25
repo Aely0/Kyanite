@@ -10243,10 +10243,10 @@ content,
 }
 
 /* Keybinds (User Settings) */
-.warning__57111 .text-sm\/medium_cf4812 {
+.warning_f82450 .text-sm\/medium_cf4812 {
     color: var(--yellow-bright-color) !important;
 }
-.warning__57111 > svg > path {
+.warning_f82450 > svg > path {
     fill: var(--yellow-bright-color) !important;
 }
 .recorderLayout__2636e .keybindInput__2636e::placeholder {
@@ -10255,10 +10255,10 @@ content,
 .recorderLayout__2636e {
     border-radius: 8px !important;
 }
-.removeKeybind__57111 .icon_a22cb0 > path {
+.removeKeybind_f82450 .icon_a22cb0 > path {
     fill: var(--hover-red-dark-color) !important;
 }
-.removeKeybind__57111 .icon_a22cb0:hover > path {
+.removeKeybind_f82450 .icon_a22cb0:hover > path {
     fill: var(--hover-red-bright-color) !important;
 }
 .key__61c93 {
@@ -10277,7 +10277,7 @@ content,
     border: none !important;
     background-color: var(--hover-faint-color) !important;
 }
-.defaultKeybindGroup__57111 {
+.defaultKeybindGroup_f82450 {
     background-color: var(--hover-faint-color) !important;
     border: none !important;
 }
