@@ -8786,6 +8786,7 @@ content,
     background: var(--hover-bright-color) !important;
     opacity: 0.25 !important;
 }
+.clickable__13533[role="option"] > .base__13533:hover,
 .clickable__13533[aria-disabled="false"] > .base__13533:hover,
 .clickable__13533[aria-selected="true"] > .base__13533 {
     background-color: var(--hover-color) !important;
