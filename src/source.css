@@ -5871,6 +5871,12 @@ img.sidebarHeader__0ab2c {
     fill: var(--soft-bright-color) !important;
 }
 
+/* Live tag */
+.live_a7acae {
+    background-color: var(--hover-dark-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+
 /* Server tag */
 .chipletContainerInner__10651 {
     background: var(--hover-dark-color) !important;
