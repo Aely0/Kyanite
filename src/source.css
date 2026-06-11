@@ -6130,6 +6130,9 @@ img.sidebarHeader__0ab2c {
 .item_c1e9c4.focused_c1e9c4 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.gameIconLoading_b52e4f {
+    background-color: var(--hover-faded-color) !important;
+}
 
 /* Element focus */
 .focus-rings-ring {
