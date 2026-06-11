@@ -9055,8 +9055,8 @@ content,
     opacity: 0.4 !important;
 }
 .interactiveSelected__972a0,
-.interactive_bf202d:focus-within,
-.interactive_bf202d:hover {
+.interactive_f88cfd:focus-within,
+.interactive_f88cfd:hover {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
@@ -9141,10 +9141,10 @@ content,
 }
 
 /* DM blocked user */
-.muted_bf202d .favoriteIcon__972a0 {
+.muted_f88cfd .favoriteIcon__972a0 {
     color: var(--hover-bright-color) !important;
 }
-.muted_bf202d.selected_bf202d .favoriteIcon__972a0 {
+.muted_f88cfd.selected_f88cfd .favoriteIcon__972a0 {
     color: var(--soft-bright-color) !important;
 }
 
