@@ -3213,11 +3213,6 @@ path {
     color: var(--soft-bright-color) !important;
 }
 
-/* NEW badge */
-.textBadge__2b1f5 {
-    padding: 1px 6px !important;
-}
-
 /* Instant invite menu */
 .lookOutlined__201d5.colorGreen__201d5 {
     color: var(--hover-bright-color) !important;
@@ -5862,19 +5857,15 @@ img.sidebarHeader__0ab2c {
 }
 
 /* Tags */
+.textBadge__463b7,
+.live_a7acae,
 .botTagRegular__82f07,
 .botTag__5d473 {
-    background-color: var(--hover-dark-color) !important;
+    background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
 .botTagRegular__82f07 svg path {
     fill: var(--soft-bright-color) !important;
-}
-
-/* Live tag */
-.live_a7acae {
-    background-color: var(--hover-dark-color) !important;
-    color: var(--soft-bright-color) !important;
 }
 
 /* Server tag */
