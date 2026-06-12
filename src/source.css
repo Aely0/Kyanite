@@ -2028,7 +2028,7 @@ path {
 .volumeButton__2d263 .controlIcon_f1ceac:hover path {
     fill: var(--soft-bright-color) !important;
 }
-.liveQualityIndicator__30845.baseShapeRoundLeft__2b1f5,
+.liveQualityIndicator__30845.baseShapeRoundLeft__463b7,
 .live_a7acae.liveShapeRoundRight_a7acae {
     background-color: transparent !important;
 }
@@ -2200,7 +2200,7 @@ path {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.liveQualityIndicator-8fb_DX.textBadge_f05120.base__2b1f5.baseShapeRoundLeft__2b1f5 {
+.liveQualityIndicator-8fb_DX.textBadge_f05120.base__463b7.baseShapeRoundLeft__463b7 {
     background-color: var(--hover-dark-color) !important;
 }
 .selectedIcon__2f4f7 > path {
@@ -2749,7 +2749,7 @@ path {
 }
 
 /* Number badge */
-.numberBadge__2b1f5.base__2b1f5.baseShapeRound__2b1f5 {
+.numberBadge__463b7.base__463b7.baseShapeRound__463b7 {
     background-color: var(--dark-bg) !important;
     color: var(--soft-bright-color) !important;
     height: 18px !important;
@@ -2759,7 +2759,7 @@ path {
 }
 
 /* Server list voice icon */
-.base__2b1f5 {
+.base__463b7 {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
@@ -3813,7 +3813,7 @@ path {
     border-radius: 8px !important;
 }
 .friendRequestsButton__523aa
-    .numberBadge__2b1f5.base__2b1f5.baseShapeRound__2b1f5 {
+    .numberBadge__463b7.base__463b7.baseShapeRound__463b7 {
     background-color: transparent !important;
 }
 .inboxIcon_ab6641 {
