@@ -7512,10 +7512,10 @@ content,
 :where(.outer_c0bea0).user-profile-popout {
     box-shadow: none !important;
 }
-.nicknameIcons__26b1f .button__0f074 {
+.displayNameTrailing__26b1f .button__0f074 {
     color: var(--hover-bright-color) !important;
 }
-.nicknameIcons__26b1f .button__0f074:hover {
+.displayNameTrailing__26b1f .button__0f074:hover {
     color: var(--soft-bright-color) !important;
 }
 .headerText__39ec2 > svg > path {
