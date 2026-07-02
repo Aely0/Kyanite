@@ -8443,7 +8443,7 @@ content,
 .progressBar__146e2 .progress__146e2[stroke^="var(--background"] {
     stroke: var(--hover-color) !important;
 }
-.progressBar__146e2 .progress__146e2[stroke^="rgba(98"] {
+.progressBar__146e2 .progress__146e2[stroke^="var(--status"] {
     stroke: var(--hover-bright-color) !important;
 }
 .confetti__956c6 > svg path {
