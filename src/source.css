@@ -9115,8 +9115,14 @@ content,
 }
 
 /* DM profile panel */
+.aside_f58343 {
+    background: transparent !important;
+}
 .user-profile-sidebar:not(.custom-user-profile-theme) {
     background-color: transparent !important;
+}
+:where(.outer_c0bea0).user-profile-sidebar.user-profile-sidebar-redesign {
+    box-shadow: none !important;
 }
 .divider__1de9c {
     background-color: transparent !important;
