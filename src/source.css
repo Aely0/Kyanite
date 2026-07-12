@@ -9565,6 +9565,17 @@ content,
     border: 1px solid var(--soft-bright-color) !important;
 }
 
+/* Profile Effect (User Settings > Edit Profiles) */
+.effectGridItem_f9347f {
+    background-color: var(--hover-faint-color) !important;
+}
+.selected_f9347f {
+    box-shadow: 0 0 0 2px var(--soft-bright-color) !important;
+}
+.effectGridItem_f9347f > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+
 /* Account (User Settings) */
 .premiumBackground__65c15,
 .tryItOutSection__9d295 {
