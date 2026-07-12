@@ -3823,7 +3823,7 @@ path {
 .header_ab6641.header_e8b59c {
     background-color: transparent !important;
 }
-.container_fc561d.recentMentionsPopout__95796 {
+.container__9497c.recentMentionsPopout__95796 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
 }
@@ -3847,8 +3847,13 @@ path {
 .unread__6fddf {
     background-color: var(--soft-bright-color) !important;
 }
+.container__9497c .channel__427f0 {
+    padding-top: 4px !important;
+}
 .channelHeader__35a7e {
     background-color: var(--dark-bg) !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
 }
 .messageContainer__95796 {
     background-color: transparent !important;
@@ -3881,11 +3886,14 @@ path {
 .divider__1ccd1 .content__908e2 {
     background: transparent !important;
 }
-.container_fc561d {
+.container__9497c {
     box-shadow: none !important;
 }
 .friendRequestsButton__523aa {
     border: none !important;
+}
+.collapseButton__35a7e > svg > path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Search popout menu */
