@@ -4894,6 +4894,9 @@ h2.title_b6c092 strong {
 .check__5dac8 > path {
     fill: var(--hover-bright-color) !important;
 }
+.groupContainer__6f5a6 {
+    background-color: var(--hover-faint-color) !important;
+}
 
 /* Audit Log (Server Settings) */
 .auditLog__43dab {
