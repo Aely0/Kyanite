@@ -419,7 +419,8 @@ path {
 
 /* Generic info boxes */
 .info_e3f97f,
-.info__35859 {
+.info__35859,
+.perServerNotice_b08638 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-bright-color) !important;
     color: var(--hover-bright-color) !important;
@@ -428,7 +429,8 @@ path {
     display: none !important;
 }
 .info_e3f97f .icon_e3f97f,
-.info__35859 .iconDiv__35859 .icon__35859 {
+.info__35859 .iconDiv__35859 .icon__35859,
+.perServerNoticeDismissButton_b08638 {
     color: var(--hover-bright-color) !important;
 }
 .warning__35859,
@@ -7630,6 +7632,77 @@ content,
 .copyButton__252af:hover {
     color: var(--soft-bright-color) !important;
     transition: color 100ms ease-in-out !important;
+}
+
+/* Profile popout (self) */
+.panel_b08638 {
+    background: var(--dark-bg) !important;
+}
+.selectButton_cfc01a:hover {
+    background-color: var(--hover-faded-color) !important;
+}
+.selectButtonChevron_cfc01a > path,
+.groupLabelIcon_b08638 > path,
+.overlayIcon__4e9aa > path {
+    fill: var(--hover-bright-color) !important;
+}
+.guildOptionLeading_cfc01a > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.guildOptionText_cfc01a {
+    color: var(--hover-bright-color) !important;
+}
+.collapseButton_b08638 > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 50ms ease-in !important;
+}
+.collapseButton_b08638:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 50ms ease-in !important;
+}
+.placeholderUsername__62b8c {
+    background-color: var(--hover-faded-color) !important;
+}
+.tileButton__4e9aa {
+    background-color: var(--hover-faded-color) !important;
+}
+.swatchInner_f11c9b {
+    border: 2px solid var(--hover-bright-color) !important;
+}
+.leadingText__0f084[style="color: var(--input-placeholder-text-default);"] {
+    color: var(--hover-bright-color) !important;
+}
+.suggestedColor__459fb {
+    border: none !important;
+}
+.selectButton_ac381c.isPlaceholder_ac381c {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+}
+.selectButton_ac381c.isPlaceholder_ac381c .selectButtonContent_ac381c {
+    color: var(--hover-bright-color) !important;
+}
+.selectButtonChevron_ac381c > path {
+    fill: var(--hover-bright-color) !important;
+}
+.noTagOptionLabel_ac381c,
+.container_a4ac84 .text-md\/normal_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.addConnectionButton__9bfb9 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
+.addConnectionButton__9bfb9 .text-xs\/medium_cf4812 {
+    color: var(--hover-bright-color) !important;
+}
+.addConnectionButton__9bfb9:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+.addConnectionButton__9bfb9:hover .text-xs\/medium_cf4812 {
+    color: var(--soft-bright-color) !important;
+}
+.recommendationsContainerEmptyWishlist__4fbcc {
+    display: none !important;
 }
 
 /* Profile popout (placeholder) */
