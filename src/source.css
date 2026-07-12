@@ -4726,6 +4726,12 @@ path {
     background-color: var(--hover-color) !important;
     outline: none !important;
 }
+.cardPrimary_b5dd01 {
+    --__card-background-color: var(--hover-faint-color) !important;
+}
+.card_dc2e44 {
+    background-color: var(--hover-faint-color) !important;
+}
 .cardHeader_b44011,
 .item_b28dff:hover {
     background-color: var(--hover-faint-color) !important;
@@ -4755,8 +4761,14 @@ path {
 .overflowRolesPopoutArrow__48c1c {
     display: none !important;
 }
-.iconWrapper__4a3a5[style="background-color: var(--youtube);"] {
+.iconWrapper__4a3a5[style="background-color: var(--platform-youtube);"] {
     display: none !important;
+}
+.guildSource_ebafdd {
+    color: var(--hover-bright-color) !important;
+}
+.sourceName_ebafdd {
+    color: var(--soft-bright-color) !important;
 }
 
 /* App Directory (Server Settings) */
