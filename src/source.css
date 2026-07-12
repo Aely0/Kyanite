@@ -4899,6 +4899,14 @@ h2.title_b6c092 strong {
 }
 
 /* Audit Log (Server Settings) */
+.content__5906b .image__33d12 {
+    background: var(--hover-bright-color) !important;
+    mask: url("https://discord.com/assets/0b332e9c4f0b8b49.svg") !important;
+    mask-mode: luminance !important;
+}
+.content__5906b .text__33d12 {
+    color: var(--hover-bright-color) !important;
+}
 .auditLog__43dab {
     color: var(--hover-bright-color) !important;
     background-color: var(--hover-faint-color) !important;
@@ -5885,7 +5893,8 @@ img.sidebarHeader__0ab2c {
 .textBadge__463b7,
 .live_a7acae,
 .botTagRegular__82f07,
-.botTag__5d473 {
+.botTag__5d473,
+.badge_c2b88c {
     background-color: var(--main-color) !important;
     color: var(--soft-bright-color) !important;
 }
