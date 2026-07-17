@@ -3897,6 +3897,15 @@ path {
 .collapseButton__35a7e > svg > path {
     fill: var(--hover-bright-color) !important;
 }
+.channelHeader__996b5 {
+    background-color: transparent !important;
+}
+.box_a86e6c {
+    background: transparent !important;
+}
+.box_a86e6c svg path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Search popout menu */
 .option__16eb0:after {
