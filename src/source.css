@@ -677,7 +677,7 @@ path {
 }
 
 /* Tooltip */
-.tooltip__4e35b {
+.tooltip_fa450d {
     background-color: var(--dark-bg) !important;
     box-shadow: none !important;
     border: 1px solid var(--hover-color) !important;
@@ -703,7 +703,7 @@ path {
 :where(.visual-refresh) .tooltipPointer_c36707.tooltipPointerBg_c36707:after {
     display: none !important;
 }
-.caret__5bc6a {
+.caret__0b5f9 {
     display: none !important;
 }
 
@@ -3791,7 +3791,7 @@ path {
 .badge__81391 {
     background-color: var(--soft-bright-color) !important;
 }
-.tooltipContent__4e35b .defaultColor__4bd52 {
+.tooltipContent_fa450d .defaultColor__4bd52 {
     color: var(--soft-bright-color) !important;
 }
 
