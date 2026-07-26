@@ -3799,35 +3799,36 @@ path {
 .theme-dark .footer__432f4 {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.icon_d404a3 {
+.icon__319e1 {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
-.stars_d404a3 > path {
+.stars__319e1 > path {
     fill: var(--hover-bright-color) !important;
 }
-.protip_d404a3 {
+.protip__319e1 {
     color: var(--soft-bright-color) !important;
 }
-.friendRequestsButton__523aa {
+.friendRequestsButton_c7a32c {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
     border-radius: 8px !important;
 }
-.friendRequestsButton__523aa
+.friendRequestsButton_c7a32c
     .numberBadge__463b7.base__463b7.baseShapeRound__463b7 {
     background-color: transparent !important;
 }
-.inboxIcon_ab6641 {
+.inboxIcon__06f80 {
     color: var(--soft-bright-color) !important;
 }
 .container__0f711,
-.header_ab6641.header__432f4 {
+.header__06f80.header__432f4 {
     background-color: transparent !important;
 }
-.container__9497c.recentMentionsPopout__95796 {
+.container__8cb2e {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
 }
 .messagesPopoutWrap__432f4 {
     background-color: var(--dark-bg) !important;
@@ -3849,7 +3850,7 @@ path {
 .unread__6fddf {
     background-color: var(--soft-bright-color) !important;
 }
-.container__9497c .channel__427f0 {
+.container__8cb2e .channel__427f0 {
     padding-top: 4px !important;
 }
 .channelHeader__35a7e {
@@ -3876,7 +3877,7 @@ path {
 .messagesPopoutWrap__432f4 {
     box-shadow: none !important;
 }
-.iconBadge_ab6641[style="background-color: var(--status-danger);"] {
+.iconBadge__06f80[style="background-color: var(--status-danger);"] {
     background-color: var(--soft-bright-color) !important;
 }
 .upsellContainer__4a7f0 {
@@ -3888,10 +3889,7 @@ path {
 .divider__1ccd1 .content__908e2 {
     background: transparent !important;
 }
-.container__9497c {
-    box-shadow: none !important;
-}
-.friendRequestsButton__523aa {
+.friendRequestsButton_c7a32c {
     border: none !important;
 }
 .collapseButton__35a7e > svg > path {
@@ -7863,8 +7861,8 @@ content,
 }
 .theme-dark .messagesPopoutWrap__432f4 .messagesPopout__432f4 .message-group,
 .theme-dark .messagesPopoutWrap__432f4 .header__432f4,
-.header_ab6641,
-.header_ab6641 .tab_ab6641 {
+.header__06f80,
+.header__06f80 .tab__06f80 {
     border-color: transparent !important;
     background-color: var(--dark-bg) !important;
 }
