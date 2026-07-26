@@ -8369,7 +8369,7 @@ content,
     color: var(--soft-bright-color) !important;
 }
 .wishlistButton__979b1 {
-    background: var(--dark-bg) !important;
+    background: var(--hover-faded-color) !important;
 }
 .wishlistButton__979b1 svg path {
     fill: var(--hover-bright-color) !important;
@@ -8468,6 +8468,10 @@ content,
 }
 .icon_da8ac7 {
     background: var(--hover-faint-color) !important;
+}
+.leftRail__863fd,
+.nameplateRightPanePreviewContainer__4e635 {
+    background-color: var(--dark-bg) !important;
 }
 
 /* Message requests */
