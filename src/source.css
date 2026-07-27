@@ -8691,8 +8691,12 @@ content,
 }
 .page__5e434 .shelf__6e2ec,
 .page__5e434 .wrapper__0829a,
-.orbsContainer__955a3 {
+.orbsContainer__955a3,
+.heroWrapper__955a3 {
     display: none !important;
+}
+.container__955a3 .container__343c1 {
+    margin-top: 0px !important;
 }
 .color-mix_a22cb0 {
     background-color: transparent !important;
