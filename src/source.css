@@ -7910,6 +7910,9 @@ content,
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
+.searchBar_c322aa .editor__25bec [data-slate-placeholder] {
+    color: var(--hover-bright-color) !important;
+}
 .container__16eb0 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
