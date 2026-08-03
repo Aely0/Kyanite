@@ -7679,7 +7679,7 @@ content,
     background-color: var(--hover-faded-color) !important;
 }
 .selectButtonChevron_cfc01a > path,
-.groupLabelIcon_b08638 > path,
+.labelIcon__96e81 > path,
 .overlayIcon__4e9aa > path {
     fill: var(--hover-bright-color) !important;
 }
@@ -7689,11 +7689,11 @@ content,
 .guildOptionText_cfc01a {
     color: var(--hover-bright-color) !important;
 }
-.collapseButton_b08638 > svg > path {
+.collapseButton__2447f > svg > path {
     fill: var(--hover-bright-color) !important;
     transition: fill 50ms ease-in !important;
 }
-.collapseButton_b08638:hover > svg > path {
+.collapseButton__2447f:hover > svg > path {
     fill: var(--soft-bright-color) !important;
     transition: fill 50ms ease-in !important;
 }
