@@ -528,8 +528,8 @@ path {
     opacity: 0 !important;
     transition: all ease-in-out 200ms !important;
 }
-.messageListItem__5126c:hover .reactionBtn__23977.forceShow__23977,
-.messageListItem__5126c:hover .reactionBtn__23977.bookmarkBtn__23977 {
+.reactions__23977:hover .reactionBtn__23977.forceShow__23977,
+.reactions__23977:hover .reactionBtn__23977.bookmarkBtn__23977 {
     opacity: 1 !important;
 }
 
