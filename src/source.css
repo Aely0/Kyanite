@@ -8326,6 +8326,18 @@ content,
 .header__94b08 {
     border-bottom: none !important;
 }
+.container_a14595 {
+    background-color: var(--hover-faint-color) !important;
+}
+.icon_a14595 {
+    background-color: var(--hover-faded-color) !important;
+}
+.icon_a14595 svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.arrow_a14595 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Shop */
 .shop__6db1d,
