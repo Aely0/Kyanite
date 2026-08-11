@@ -326,7 +326,7 @@ path {
 .input__0ed4f {
     color: var(--soft-bright-color) !important;
 }
-.input__0f084::placeholder,
+.input__75098::placeholder,
 .input__0ed4f::placeholder {
     color: var(--hover-bright-color) !important;
 }
@@ -346,14 +346,14 @@ path {
     --custom-input-hover-border-color: transparent !important;
     --custom-input-focus-border-color: transparent !important;
 }
-.icon__0f084 path {
+.icon__75098 path {
     fill: var(--hover-bright-color) !important;
 }
-.clearButton__0f084 {
+.clearButton__75098 {
     color: var(--soft-bright-color) !important;
     opacity: 0.8 !important;
 }
-.clearButton__0f084:hover {
+.clearButton__75098:hover {
     opacity: 1 !important;
 }
 
@@ -7706,7 +7706,7 @@ content,
 .swatchInner_f11c9b {
     border: 2px solid var(--hover-bright-color) !important;
 }
-.leadingText__0f084[style="color: var(--input-placeholder-text-default);"] {
+.leadingText__75098[style="color: var(--input-placeholder-text-default);"] {
     color: var(--hover-bright-color) !important;
 }
 .suggestedColor__459fb {
@@ -9138,7 +9138,7 @@ content,
 .peopleListItem_cc6179 .activity__19b6d strong {
     color: var(--soft-bright-color) !important;
 }
-.addFriendInputWrapper__72ba7 .inputDefault__0f084.input__0ed4f {
+.addFriendInputWrapper__72ba7 .inputDefault__75098.input__0ed4f {
     background-color: transparent !important;
 }
 .blockedIgnoredSettingsNotice__6811a {
