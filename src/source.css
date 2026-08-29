@@ -765,7 +765,7 @@ path {
 }
 
 /* Links */
-.anchor_edefb8,
+.anchor__14d82,
 .fileNameLink__0ccae,
 .markup__75297 a,
 .topic__6ec1a a,
@@ -804,7 +804,7 @@ path {
 .text_a2f514 .title_a2f514,
 .text_a2f514 .body_a2f514,
 .problemsText_a2f514,
-.anchor_edefb8.links_a2f514,
+.anchor__14d82.links_a2f514,
 .icon_a2f514 {
     color: var(--yellow-bright-color) !important;
 }
@@ -3288,7 +3288,7 @@ path {
     box-shadow: none !important;
     background-color: var(--hover-faint-color) !important;
 }
-.anchor_edefb8.fileNameLink__0ccae {
+.anchor__14d82.fileNameLink__0ccae {
     color: var(--soft-bright-color);
 }
 .visual-refresh .channelAttachmentArea_b77158 {
@@ -5054,7 +5054,7 @@ h2.title_b6c092 strong {
 }
 .channelIcon_c66e86,
 .channelIcon_d9161f,
-.anchorUnderlineOnHover_edefb8 [style="color: var(--text-link);"],
+.anchorUnderlineOnHover__14d82 [style="color: var(--text-link);"],
 .button__4a4f2[style="color: rgb(255, 255, 255);"] {
     color: var(--soft-bright-color) !important;
 }
