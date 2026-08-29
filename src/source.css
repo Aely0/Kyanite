@@ -3298,6 +3298,9 @@ path {
 .visual-refresh .wrapper_f7ecac {
     box-shadow: none !important;
 }
+.textArea_fcde1f::placeholder {
+    color: var(--hover-bright-color) !important;
+}
 
 /* File upload (Source Files) */
 .textContainer__4d95d,
