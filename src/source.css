@@ -7694,7 +7694,7 @@ content,
 .guildOptionLeading_cfc01a > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.guildOptionText_cfc01a {
+.label__96e81 {
     color: var(--hover-bright-color) !important;
 }
 .collapseButton__2447f > svg > path {
@@ -7720,11 +7720,11 @@ content,
 .suggestedColor__459fb {
     border: none !important;
 }
-.selectButton_ac381c.isPlaceholder_ac381c {
+.selectButtonPill_ac381c.isPlaceholder_ac381c {
     background-color: var(--hover-faded-color) !important;
     border: none !important;
 }
-.selectButton_ac381c.isPlaceholder_ac381c .selectButtonContent_ac381c {
+.selectButtonPill_ac381c.isPlaceholder_ac381c .selectButtonContent_ac381c {
     color: var(--hover-bright-color) !important;
 }
 .selectButtonChevron_ac381c > path {
