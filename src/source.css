@@ -787,6 +787,11 @@ path {
     color: var(--soft-bright-color) !important;
 }
 
+/* Interactive text */
+.text__6aa84[style="color: var(--interactive-text-default);"] {
+    color: var(--hover-bright-color) !important;
+}
+
 /* Loading animations */
 .wanderingCubes__46696 .item__46696 {
     background-color: var(--soft-bright-color) !important;
