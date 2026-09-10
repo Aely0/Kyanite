@@ -8126,6 +8126,9 @@ content,
         transparent
     ) !important;
 }
+.channelNameIcon__971b5 {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Search bar (date picker) */
 .calendarPicker_d27f17 .react-datepicker {
