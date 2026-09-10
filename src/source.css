@@ -6789,8 +6789,6 @@ img.sidebarHeader__0ab2c {
 .iconWrapper__9293f:has(.svg__2338f) .iconBadge__9293f {
     background-color: var(--soft-bright-color) !important;
     border: 2px solid var(--dark-bg) !important;
-    bottom: 4px !important;
-    right: 4px !important;
 }
 .iconWrapper__9293f:has(.svg__2338f path[d^="M19.38 11.38a3"])
     .iconBadge__9293f {
