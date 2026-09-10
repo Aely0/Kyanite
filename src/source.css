@@ -3867,11 +3867,7 @@ path {
 .container__8cb2e .channel__427f0 {
     padding-top: 4px !important;
 }
-.channelHeader__35a7e {
-    background-color: var(--dark-bg) !important;
-    padding: 8px !important;
-    border-radius: 8px !important;
-}
+.channelHeader__5d903,
 .messageContainer__95796 {
     background-color: transparent !important;
 }
@@ -3906,16 +3902,16 @@ path {
 .friendRequestsButton_c7a32c {
     border: none !important;
 }
-.collapseButton__35a7e > svg > path {
+.collapseButton__5d903 > svg > path {
     fill: var(--hover-bright-color) !important;
 }
 .channelHeader__996b5 {
     background-color: transparent !important;
 }
-.box_a86e6c {
-    background: transparent !important;
+.box__376cb {
+    background: var(--hover-faint-color) !important;
 }
-.box_a86e6c svg path {
+.box__376cb svg path {
     fill: var(--hover-bright-color) !important;
 }
 
