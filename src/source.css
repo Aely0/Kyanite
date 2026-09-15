@@ -4217,10 +4217,6 @@ path {
 .emojiRow_e7d73e.card_b846e5 {
     background: transparent !important;
 }
-.emojiRow_e7d73e {
-    -webkit-box-shadow: 0 1px 0 0 var(--hover-color) !important;
-    box-shadow: 0 1px 0 0 var(--hover-color) !important;
-}
 .emojiRow_e7d73e .emojiAliasInputContainer_e7d73e:after,
 .emojiRow_e7d73e .emojiAliasInputContainer_e7d73e:before,
 .input__4f074 {
@@ -4255,6 +4251,31 @@ path {
 }
 .previews__4d307 .reactions__4d307 {
     background-color: var(--hover-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+.container__62663.hasError__62663,
+.container__62663:has(.field__62663:focus),
+.container__62663:not([data-disabled="true"], [data-read-only="true"]):hover {
+    background-color: var(--hover-faint-color) !important;
+    outline: none !important;
+}
+.container__62663.hasError__62663:not(
+        [data-disabled="true"],
+        [data-read-only="true"]
+    ):hover,
+.container__62663:has(.field__62663:focus) {
+    background-color: var(--hover-faded-color) !important;
+    outline: none !important;
+}
+.container__62663.hasError__62663:not(
+        [data-disabled="true"],
+        [data-read-only="true"]
+    ):hover
+    .input__62663,
+.container__62663:has(.field__62663:focus) .input__62663 {
+    color: var(--soft-bright-color) !important;
+}
+.container__62663 .input__62663 {
     color: var(--hover-bright-color) !important;
 }
 
