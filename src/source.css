@@ -9380,6 +9380,10 @@ content,
 }
 
 /* Settings */
+.modalContentInner_e44912,
+.sidebar__409aa {
+    background-color: transparent !important;
+}
 .h5_b717a1,
 .defaultMarginlabel_b717a1,
 .legend_b717a1,
