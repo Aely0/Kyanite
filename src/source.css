@@ -1780,11 +1780,6 @@ path {
     border-color: var(--hover-dark-color) !important;
 }
 
-/* Kayboard shortcut in clips */
-.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignStretch_abf706.noWrap_abf706.recorderLayout__2636e.layout_f89b2c {
-    background-color: var(--hover-faded-color) !important;
-}
-
 /* Perk color in Nitro */
 .perkCard_b62c4e,
 .innerWrapper__70f7f {
@@ -10484,6 +10479,12 @@ content,
 }
 .warning_f82450 > svg > path {
     fill: var(--yellow-bright-color) !important;
+}
+.container_f89b2c {
+    background-color: transparent !important;
+}
+.recorderContainer__2636e .layout_f89b2c {
+    background-color: var(--hover-color) !important;
 }
 .recorderLayout__2636e .keybindInput__2636e::placeholder {
     color: var(--hover-bright-color) !important;
