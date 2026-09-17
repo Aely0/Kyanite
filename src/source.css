@@ -11563,10 +11563,10 @@ div[style$="z-index: 2;"] > div {
 .containerDefault_c69b6d .ccAoOa_hiddenChannel .name__2ea32 {
     opacity: 0.4 !important;
 }
-.ccAoOa_hiddenChannel > div > div > svg > path[d^="M16"][d$="0Z"],
-.ccAoOa_hiddenChannel > div > div > svg > path[d^="M18"][d$="2Z"],
-.ccAoOa_hiddenChannel > div > div > svg > path[d^="M6"][d$="14Z"],
-.ccAoOa_headerBar > svg > path[d^="M16"][d$="0Z"],
-.ccAoOa_headerBar > svg > path[d^="M18"][d$="2Z"] {
+.ccAoOa_hiddenChannel .icon__2ea32 > path[d^="M16"][d$="0Z"],
+.ccAoOa_hiddenChannel .icon__2ea32 > path[d^="M18"][d$="2Z"],
+.ccAoOa_hiddenChannel .icon__2ea32 > path[d^="M6"][d$="14Z"],
+.ccAoOa_headerBar .icon__2ea32 > path[d^="M16"][d$="0Z"],
+.ccAoOa_headerBar .icon__2ea32 > path[d^="M18"][d$="2Z"] {
     fill: var(--hover-bright-color) !important;
 }
