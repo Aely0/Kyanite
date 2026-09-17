@@ -1,7 +1,5 @@
 # Dark Mode Themes
 
-Meant to be used with [Vencord](https://github.com/Vendicated/Vencord)
-
 - [Download Kyanite (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Kyanite.css)
 - [Download Lavender (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Lavender.css)
 - [Download Magenta (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Magenta.css)

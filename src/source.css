@@ -11426,3 +11426,147 @@ a[href="https://support.discord.com"] {
 .vc-vmsg-preview-indicator {
     background: var(--hover-faint-color) !important;
 }
+
+/* Shelter */
+
+/* Client Mods */
+._h_p82fk_1,
+._text_11i0e_1,
+._note_a9gzg_1 {
+    color: var(--hover-bright-color) !important;
+}
+._linkbutton_1tucx_1,
+._irow_a9gzg_1 > label {
+    color: var(--soft-bright-color) !important;
+}
+
+._modal_8lcgp_1 {
+    background: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+    color: var(--hover-bright-color) !important;
+    border-radius: 12px !important;
+    border: none !important;
+}
+._foot_8lcgp_1 {
+    background-color: transparent !important;
+}
+
+._tbox_7c7xx_1,
+._tarea_7c7xx_1 {
+    border: 2px solid transparent !important;
+    background-color: var(--hover-faint-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+._tbox_7c7xx_1:focus,
+._tarea_7c7xx_1:focus {
+    outline: 2px solid var(--hover-color) !important;
+    background-color: var(--hover-faded-color) !important;
+}
+._tbox_7c7xx_1::placeholder,
+._tarea_7c7xx_1::placeholder {
+    color: color-mix(
+        in srgb,
+        var(--hover-bright-color) 60%,
+        transparent
+    ) !important;
+}
+._tarea_7c7xx_1 {
+    scrollbar-color: var(--hover-dark-color) transparent !important;
+}
+
+div[style$="z-index: 2;"] > div {
+    background-color: var(--dark-bg) !important;
+    border: none !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+
+._button_1tucx_1._filled_1tucx_1 {
+    background-color: var(--hover-faded-color) !important;
+    border: none !important;
+    color: var(--hover-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+._button_1tucx_1._filled_1tucx_1:hover {
+    background-color: var(--hover-color) !important;
+    color: var(--soft-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+._button_1tucx_1._filled_1tucx_1[style*="critical"] {
+    background: color-mix(
+        in srgb,
+        var(--hover-red-color) 60%,
+        transparent
+    ) !important;
+    color: var(--hover-red-bright-color) !important;
+    border: none !important;
+    transition: all 200ms ease-in-out !important;
+}
+._button_1tucx_1._filled_1tucx_1[style*="critical"]:hover {
+    background: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+    transition: all 200ms ease-in-out !important;
+}
+
+._switch_a9gzg_1 {
+    background: var(--hover-faded-color) !important;
+    border-color: transparent !important;
+    height: 24px !important;
+    width: 48px !important;
+}
+._switch_a9gzg_1[style$="default);"] {
+    background: var(--hover-color) !important;
+}
+._slider_a9gzg_1 > rect {
+    fill: transparent !important;
+}
+._slider_a9gzg_1 > svg > path {
+    fill: var(--soft-bright-color) !important;
+}
+._slider_a9gzg_1 {
+    height: 20px !important;
+    width: 40px !important;
+    margin: 1px 0px 0px 3px !important;
+}
+
+/* Settings */
+._container_2i5x2_1 {
+    background-color: var(--hover-faint-color) !important;
+}
+._icon_2i5x2_1 {
+    background-color: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
+}
+._caret_2i5x2_1 {
+    color: var(--hover-bright-color) !important;
+}
+._plugin_1r8yx_1 {
+    background: var(--hover-faint-color) !important;
+}
+._btn_1r8yx_1,
+._infoSection_1r8yx_1,
+._infoSection_1r8yx_1 > strong,
+._author_1r8yx_1,
+._desc_1r8yx_1 {
+    color: var(--hover-bright-color) !important;
+}
+._tooltip_i0mza_1 {
+    background: var(--dark-bg) !important;
+    box-shadow: none !important;
+    color: var(--soft-bright-color) !important;
+}
+._pointer_i0mza_1 {
+    visibility: hidden !important;
+}
+
+/* Hidden Channels */
+.containerDefault_c69b6d .ccAoOa_hiddenChannel .icon__2ea32,
+.containerDefault_c69b6d .ccAoOa_hiddenChannel .name__2ea32 {
+    opacity: 0.4 !important;
+}
+.ccAoOa_hiddenChannel > div > div > svg > path[d^="M16"][d$="0Z"],
+.ccAoOa_hiddenChannel > div > div > svg > path[d^="M18"][d$="2Z"],
+.ccAoOa_hiddenChannel > div > div > svg > path[d^="M6"][d$="14Z"],
+.ccAoOa_headerBar > svg > path[d^="M16"][d$="0Z"],
+.ccAoOa_headerBar > svg > path[d^="M18"][d$="2Z"] {
+    fill: var(--hover-bright-color) !important;
+}
