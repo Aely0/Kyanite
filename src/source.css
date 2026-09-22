@@ -10237,31 +10237,6 @@ content,
 }
 
 /* Appearance (User Settings) */
-.markValue_a562c8 {
-    color: var(--hover-bright-color) !important;
-}
-.mark_a562c8.defaultValue_a562c8.markAbove_a562c8 .markValue_a562c8 {
-    color: var(--soft-bright-color) !important;
-}
-.mark_a562c8.defaultValue_a562c8.markAbove_a562c8 .markDash_a562c8 {
-    background: var(--soft-bright-color) !important;
-}
-.bar_a562c8,
-.markDash_a562c8 {
-    background: var(--hover-dark-color) !important;
-}
-.bar_a562c8 .barFill_a562c8 {
-    background: var(--hover-bright-color) !important;
-}
-.mark_a562c8.markAbove_a562c8 {
-    color: var(--soft-bright-color) !important;
-}
-.grabber_a562c8 {
-    background-color: var(--soft-bright-color) !important;
-    border: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-}
 .defaultThemeSelection__36dee {
     box-shadow: none !important;
 }
@@ -10326,6 +10301,30 @@ content,
 }
 
 /* Accessibility (User Settings) */
+.mini__4c059 .bar__4c059,
+.slider__4c059 .bar__4c059 {
+    background-color: var(--hover-color) !important;
+}
+.mini__4c059 .barFill__4c059,
+.slider__4c059 .barFill__4c059 {
+    background-color: var(--hover-bright-color) !important;
+    border: none !important;
+}
+.mini__4c059 .grabber__4c059,
+.slider__4c059 .grabber__4c059 {
+    background-color: var(--soft-bright-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.markDash__4c059 {
+    background-color: var(--hover-color) !important;
+}
+.markAbove__4c059 .markValue__4c059 {
+    color: var(--hover-bright-color) !important;
+}
+.defaultValue__4c059.markAbove__4c059 .markValue__4c059 {
+    color: var(--soft-bright-color) !important;
+}
 .preview__6b741 {
     background-color: transparent !important;
 }
@@ -10334,6 +10333,12 @@ content,
 }
 .decorationWrapper__6131a.sticky__6131a:before {
     background: var(--dark-bg) !important;
+}
+.panel__6131a .radioIndicator__64e61 {
+    padding-left: 1px;
+}
+.thumb_a28278 > svg {
+    display: none !important;
 }
 
 /* Voice & Video (User Settings) */
