@@ -8138,6 +8138,9 @@ content,
 }
 .tag_cfee8f {
     background-color: var(--hover-faded-color) !important;
+    color: var(--hover-bright-color) !important;
+    border-radius: 8px !important;
+    border: none !important;
 }
 .tag_cfee8f svg path {
     fill: var(--hover-bright-color) !important;
@@ -8148,6 +8151,9 @@ content,
 }
 .tag_cfee8f [slot="remove"][data-hovered] svg path {
     fill: var(--soft-bright-color) !important;
+}
+.iconAccessory__56a50 {
+    color: var(--hover-bright-color) !important;
 }
 .container__9bb02 > svg path {
     fill: var(--hover-bright-color) !important;
