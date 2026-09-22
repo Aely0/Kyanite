@@ -4363,6 +4363,12 @@ path {
 .handleIcon__7dce2 {
     color: var(--soft-bright-color) !important;
 }
+.emoji__93d4a {
+    color: var(--hover-bright-color) !important;
+}
+.fileUpload__8b203 > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
 .playhead__7dce2:before {
     background-color: var(--soft-bright-color) !important;
 }
