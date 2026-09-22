@@ -4495,9 +4495,13 @@ path {
     color: var(--soft-bright-color) !important;
 }
 .header_c6bf1b {
-    background-color: transparent !important;
-    backdrop-filter: blur(10px) !important;
+    background-color: var(--dark-bg) !important;
     border-radius: 4px !important;
+    padding: 8px 8px 16px 8px !important;
+    margin-top: 52px !important;
+}
+.stickyHeaderElevated_c6bf1b {
+    box-shadow: none !important;
 }
 .warning_e3f97f .text-sm\/normal_cf4812,
 .warningContainer_d80a13 .text-sm\/normal_cf4812 {
