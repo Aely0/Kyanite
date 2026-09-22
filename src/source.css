@@ -7705,6 +7705,32 @@ content,
 .guildOptionLeading_cfc01a > svg > path {
     fill: var(--soft-bright-color) !important;
 }
+.guildOptionText_cfc01a {
+    color: var(--hover-bright-color) !important;
+}
+.listBoxItem__2e223[data-marquee-active="true"] .guildOptionText_cfc01a {
+    color: var(--soft-bright-color) !important;
+}
+.container__62663 .input__62663::placeholder {
+    color: var(--hover-bright-color) !important;
+}
+.editable__9c314:hover,
+.keyboard-mode .editable__9c314:has(:focus) {
+    background-color: var(--hover-faint-color) !important;
+    border-color: transparent !important;
+}
+.inputWrapper_f08f8d:not([data-disabled="true"]):not(:focus-within):hover {
+    background-color: var(--hover-faint-color) !important;
+    border-color: transparent !important;
+}
+.inputWrapper_f08f8d:not([data-disabled="true"]):focus-within {
+    background-color: var(--hover-faded-color) !important;
+    border-color: transparent !important;
+    outline: none !important;
+}
+.profile__9c3be .inputWrapper_f08f8d span {
+    color: var(--hover-bright-color) !important;
+}
 .label__96e81 {
     color: var(--hover-bright-color) !important;
 }
