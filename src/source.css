@@ -8404,10 +8404,21 @@ content,
 .shopHomeLink__80679 > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.tab__354ec:hover {
+.navigationMenuItem__96f2d,
+.navigationMenuText__96f2d {
+    color: var(--hover-bright-color) !important;
+}
+.navigationMenuItem__96f2d.selected__96f2d,
+.navigationMenuText__96f2d.selected__96f2d {
+    color: var(--soft-bright-color) !important;
+}
+.navigationMenuButton__96f2d:hover {
     border-bottom: 2px solid var(--hover-bright-color) !important;
 }
-.tab__354ec.selected_aa8da2 {
+.navigationMenuButton__96f2d:hover {
+    border-bottom: 2px solid var(--hover-bright-color) !important;
+}
+.navigationMenuButton__96f2d.selected__96f2d {
     background-color: transparent !important;
     border-bottom: 2px solid var(--soft-bright-color) !important;
 }
