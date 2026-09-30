@@ -4252,29 +4252,29 @@ path {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
 }
-.container__62663.hasError__62663,
-.container__62663:has(.field__62663:focus),
-.container__62663:not([data-disabled="true"], [data-read-only="true"]):hover {
+.container__983bc.hasError__983bc,
+.container__983bc:has(.field__983bc:focus),
+.container__983bc:not([data-disabled="true"], [data-read-only="true"]):hover {
     background-color: var(--hover-faint-color) !important;
     outline: none !important;
 }
-.container__62663.hasError__62663:not(
+.container__983bc.hasError__983bc:not(
         [data-disabled="true"],
         [data-read-only="true"]
     ):hover,
-.container__62663:has(.field__62663:focus) {
+.container__983bc:has(.field__983bc:focus) {
     background-color: var(--hover-faded-color) !important;
     outline: none !important;
 }
-.container__62663.hasError__62663:not(
+.container__983bc.hasError__983bc:not(
         [data-disabled="true"],
         [data-read-only="true"]
     ):hover
-    .input__62663,
-.container__62663:has(.field__62663:focus) .input__62663 {
+    .input__983bc,
+.container__983bc:has(.field__983bc:focus) .input__983bc {
     color: var(--soft-bright-color) !important;
 }
-.container__62663 .input__62663 {
+.container__983bc .input__983bc {
     color: var(--hover-bright-color) !important;
 }
 
@@ -7724,7 +7724,7 @@ content,
 .listBoxItem__2e223[data-marquee-active="true"] .guildOptionText_cfc01a {
     color: var(--soft-bright-color) !important;
 }
-.container__62663 .input__62663::placeholder {
+.container__983bc .input__983bc::placeholder {
     color: var(--hover-bright-color) !important;
 }
 .editable__9c314:hover,
