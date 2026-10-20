@@ -7660,6 +7660,39 @@ content,
     text-decoration-color: var(--hover-bright-color) !important;
 }
 
+/* Profile popout (Badges) */
+.root__49fc1 {
+    --modal-background: var(--dark-bg) !important;
+}
+.managed__8061a:before {
+    background: transparent !important;
+}
+.directoryPanel__6db38,
+.detailPanel__6f97a {
+    background: transparent !important;
+}
+.badgeSlot__6db38 {
+    background: var(--hover-faint-color) !important;
+    transition: background 100ms ease-in-out !important;
+}
+.badgeSlot__6db38:hover {
+    background: var(--hover-faded-color) !important;
+    transition: background 100ms ease-in-out !important;
+}
+.badgeSlotSelected__6db38 {
+    border: 2px solid var(--hover-bright-color) !important;
+}
+.descriptionCard__6f97a {
+    background: var(--hover-faint-color) !important;
+}
+.tierTimelineLockIcon__64bbc > path {
+    fill: var(--hover-bright-color) !important;
+}
+.nextLevelContent__8f056 {
+    --progressbar-track-background: var(--hover-color) !important;
+    --custom-progressbar-indicator-color: var(--hover-bright-color) !important;
+}
+
 /* Profile popout (Roles) */
 .role_af3987 {
     border: none !important;
