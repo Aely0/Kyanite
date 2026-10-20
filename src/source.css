@@ -6430,6 +6430,53 @@ img.sidebarHeader__0ab2c {
     transition: all 400ms ease-in-out !important;
 }
 
+/* Favourites section */
+.favoritesIcon_f37cb1 > path {
+    fill: var(--soft-bright-color) !important;
+}
+.addActionButton_f37cb1:hover {
+    background-color: var(--hover-faint-color) !important;
+}
+.addActionButton_f37cb1 > svg > path {
+    fill: var(--hover-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+.addActionButton_f37cb1:hover > svg > path {
+    fill: var(--soft-bright-color) !important;
+    transition: fill 100ms ease-in-out !important;
+}
+#favorites-header-popout .separator_c1e9c4,
+#favorite-guild-header-add-context .separator_c1e9c4,
+#favorite-server-context .separator_c1e9c4 {
+    border-bottom: none !important;
+}
+[data-list-item-id="guildsnav___favorites"] .childWrapper__6e9f8::before {
+    background-color: var(--hover-bright-color) !important;
+    width: 36px !important;
+    height: 36px !important;
+    position: absolute !important;
+    content: "" !important;
+    mask: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjMyIgogICBoZWlnaHQ9IjMyIgogICBmaWxsPSIjMDAwMDAwIgogICB2aWV3Qm94PSIwIDAgMjU2IDI1NiIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnMSIKICAgc29kaXBvZGk6ZG9jbmFtZT0ibGlzdC1zdGFyLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS40LjQgKGRjYWYzZTdkOWUsIDIwMjYtMDUtMDUpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMxIiAvPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3MSIKICAgICBwYWdlY29sb3I9IiM1MDUwNTAiCiAgICAgYm9yZGVyY29sb3I9IiNlZWVlZWUiCiAgICAgYm9yZGVyb3BhY2l0eT0iMSIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iMCIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMCIKICAgICBpbmtzY2FwZTpwYWdlY2hlY2tlcmJvYXJkPSIwIgogICAgIGlua3NjYXBlOmRlc2tjb2xvcj0iIzUwNTA1MCIKICAgICBpbmtzY2FwZTp6b29tPSI4Ljk3MTQxNzMiCiAgICAgaW5rc2NhcGU6Y3g9Ii00LjQwMjg3MTgiCiAgICAgaW5rc2NhcGU6Y3k9IjYuNDY0OTc2MyIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iMTAyMCIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iMCIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzEiIC8+CiAgPHBhdGgKICAgICBkPSJtIDMyLDY0IGMgMCwtNC40MTgyNzggMy41ODE3MjIsLTggOCwtOCBoIDE3NiBjIDQuNDE4MjgsMCA4LDMuNTgxNzIyIDgsOCAwLDQuNDE4Mjc4IC0zLjU4MTcyLDggLTgsOCBIIDQwIGMgLTQuNDE4Mjc4LDAgLTgsLTMuNTgxNzIyIC04LC04IHogbSA4LDcyIGggNTYgYyA0LjQxODI4LDAgOCwtMy41ODE3MiA4LC04IDAsLTQuNDE4MjggLTMuNTgxNzIsLTggLTgsLTggSCA0MCBjIC00LjQxODI4MSwwIC03Ljk5OTk5NywzLjU4MTcyIC03Ljk5OTk5Nyw4IDAsNC40MTgyOCAzLjU4MTcxNiw4IDcuOTk5OTk3LDggeiBtIDcyLDQ4IEggNDAgYyAtNC40MTgyODEsMCAtNy45OTk5OTcsMy41ODE3MiAtNy45OTk5OTcsOCAwLDQuNDE4MjggMy41ODE3MTYsOCA3Ljk5OTk5Nyw4IGggNzIgYyA0LjQxODI4LDAgOCwtMy41ODE3MiA4LC04IDAsLTQuNDE4MjggLTMuNTgxNzIsLTggLTgsLTggeiBtIDEyNS4wOSwtNDAuMjIgLTIyLjUyLDE4LjU5IDYuODYsMjcuNzEgYyAxLjY5MTQ3LDYuODcyMjMgLTUuNzE3NTYsMTIuMzk0NTMgLTExLjgyLDguODEgTCAxODQsMTgzLjgyIDE1OC4zOSwxOTguODkgYyAtNi4xMDI0NCwzLjU4NDUzIC0xMy41MTE0NywtMS45Mzc3NyAtMTEuODIsLTguODEgbCA2Ljg1LC0yNy43MSAtMjIuNTEsLTE4LjU5IGMgLTUuNTM5MDIsLTQuNTgxMTIgLTIuNjk1NzgsLTEzLjU3NTE4IDQuNDcsLTE0LjE0IGwgMjkuODQsLTIuMzEgMTEuNDMsLTI2LjUgYyAyLjc3NDEsLTYuNDU1MDQyIDExLjkyNTksLTYuNDU1MDQyIDE0LjcsMCBsIDExLjQzLDI2LjUgMjkuODQsMi4zMSBjIDcuMTY1NzgsMC41NjQ4MiAxMC4wMDkwMiw5LjU1ODg4IDQuNDcsMTQuMTQgeiIKICAgICBpZD0icGF0aDEiCiAgICAgc29kaXBvZGk6bm9kZXR5cGVzPSJzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3NjY2NjY2NjY2NjY2NjY2NjIiAvPgo8L3N2Zz4K") !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 100% !important;
+    transition: background-color 200ms ease-out !important;
+}
+.selected__6e9f8[data-list-item-id="guildsnav___favorites"]
+    .childWrapper__6e9f8::before {
+    transition: background-color 200ms ease-out !important;
+    background-color: var(--soft-bright-color) !important;
+}
+.favoriteIcon_c9fddf {
+    visibility: hidden !important;
+}
+.toast__5ab60 .wrapper__518a0 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+.toast__5ab60 .wrapper__518a0 .icon__518a0 > path {
+    fill: var(--hover-bright-color) !important;
+}
+
 /* Server list (Linux/Web) */
 /* .platform-linux.visual-refresh .guilds__5e434, */
 .platform-web.visual-refresh .guilds__5e434 {
