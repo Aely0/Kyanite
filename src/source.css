@@ -7749,6 +7749,17 @@ content,
     color: var(--soft-bright-color) !important;
     transition: color 100ms ease-in-out !important;
 }
+.orbWalletContainer__81c60 {
+    background: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+.orbChallengeItemHovered__84ece {
+    background-color: var(--hover-color) !important;
+}
+.orbChallengeItem__84ece svg > path,
+.orbWalletLifetimeRedeemed__81c60 svg > path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Profile popout (Self) */
 .panel_b08638 {
