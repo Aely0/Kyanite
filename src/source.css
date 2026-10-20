@@ -10621,8 +10621,7 @@ content,
 }
 
 /* Registered Games (User Settings) */
-.activeGame_b53c4e.notDetected_b53c4e,
-.game_b53c4e {
+.activeGame_b53c4e.notDetected_b53c4e {
     background-color: var(--hover-faint-color) !important;
 }
 .notDetected_b53c4e .gameName_b53c4e,
@@ -10631,7 +10630,13 @@ content,
     > span {
     color: var(--hover-bright-color) !important;
 }
-.addGamePopout_b53c4e {
+.nowPlayingAdd__1f52c > span {
+    color: var(--hover-bright-color) !important;
+}
+.nowPlayingAdd__1f52c > .textButton__7a01b > .text__7a01b {
+    color: var(--soft-bright-color) !important;
+}
+.addGamePopout__254c2 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
 }
