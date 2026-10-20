@@ -7901,6 +7901,43 @@ content,
     border: 1px solid var(--hover-color) !important;
     box-shadow: none !important;
 }
+.popout_f18413 {
+    background: var(--dark-bg) !important;
+    box-shadow: none !important;
+}
+.badgeTile_f18413 {
+    background: var(--hover-faint-color) !important;
+}
+.overflowButton_f18413 {
+    background: var(--dark-bg) !important;
+    border: 1px solid var(--hover-color) !important;
+    box-shadow: none !important;
+}
+.overflowButton_f18413 svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.hiddenIndicator_f18413 {
+    color: var(--hover-bright-color) !important;
+}
+.nitroIcon_f18413 > path {
+    fill: var(--hover-bright-color) !important;
+}
+.content__2dc08 {
+    background-color: var(--dark-bg) !important;
+    box-shadow: var(--hover-color-inset-shadow) !important;
+}
+.content__2dc08 .noticeText__2dc08 {
+    color: var(--hover-bright-color) !important;
+}
+.editButtonAppended__8061a {
+    margin-right: -6px !important;
+}
+.editIcon__8061a > path {
+    fill: var(--soft-bright-color) !important;
+}
+.emptyState__8061a > svg > path {
+    fill: var(--hover-bright-color) !important;
+}
 
 /* Profile popout (placeholder) */
 .profilePopout__1add6 {
