@@ -10236,6 +10236,22 @@ content,
     mask: url(https://discord.com/assets/b584f76d3ff86700.svg) !important;
     mask-mode: luminance !important;
 }
+.contentSection__9a1ef,
+.footerSection__9a1ef,
+.badgeItemActive__9a1ef {
+    background-color: var(--hover-faint-color) !important;
+}
+.divider__9a1ef {
+    visibility: hidden !important;
+}
+.progressContainer__0fd7d {
+    background: var(--hover-faint-color) !important;
+}
+.progressContainer__0fd7d.blue__0fd7d {
+    --custom-gradient-start: var(--hover-dark-color) !important;
+    --custom-gradient-end: var(--soft-bright-color) !important;
+    --custom-gradient-glow: var(--soft-bright-color) !important;
+}
 
 /* Billing (User Settings) */
 .flexChild__7c0ba .subText__0eeee {
