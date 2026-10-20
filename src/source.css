@@ -3913,6 +3913,12 @@ path {
 .box__376cb svg path {
     fill: var(--hover-bright-color) !important;
 }
+.richTooltipContent__9038b .assetContainer__9038b svg path {
+    fill: var(--hover-bright-color) !important;
+}
+.container__8cb2e .status__5d903 {
+    background-color: transparent !important;
+}
 
 /* Search popout menu */
 .option__16eb0:after {
