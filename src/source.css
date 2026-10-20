@@ -6422,10 +6422,11 @@ img.sidebarHeader__0ab2c {
 }
 .childWrapperNoHoverBg__6e9f8 svg path[d^="M19.73"] {
     fill: var(--hover-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
 }
 .selected__6e9f8 .childWrapperNoHoverBg__6e9f8 svg path[d^="M19.73"] {
-    transition: fill 200ms ease-out !important;
     fill: var(--soft-bright-color) !important;
+    transition: fill 200ms ease-in-out !important;
 }
 .childWrapperNoHoverBg__6e9f8 > img {
     border-radius: 25px !important;
