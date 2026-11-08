@@ -10525,28 +10525,28 @@ content,
 }
 
 /* Accessibility (User Settings) */
-.mini_p3RiOL .bar_p3RiOL,
-.slider_p3RiOL .bar_p3RiOL {
+.mini_OnqacX .bar_OnqacX,
+.slider_OnqacX .bar_OnqacX {
     background-color: var(--hover-color) !important;
 }
-.mini_p3RiOL .barFill_p3RiOL,
-.slider_p3RiOL .barFill_p3RiOL {
+.mini_OnqacX .barFill_OnqacX,
+.slider_OnqacX .barFill_OnqacX {
     background-color: var(--hover-bright-color) !important;
     border: none !important;
 }
-.mini_p3RiOL .grabber_p3RiOL,
-.slider_p3RiOL .grabber_p3RiOL {
+.mini_OnqacX .grabber_OnqacX,
+.slider_OnqacX .grabber_OnqacX {
     background-color: var(--soft-bright-color) !important;
     border: none !important;
     box-shadow: none !important;
 }
-.markDash_p3RiOL {
+.markDash_OnqacX {
     background-color: var(--hover-color) !important;
 }
-.markAbove_p3RiOL .markValue_p3RiOL {
+.markAbove_OnqacX .markValue_OnqacX {
     color: var(--hover-bright-color) !important;
 }
-.defaultValue_p3RiOL.markAbove_p3RiOL .markValue_p3RiOL {
+.defaultValue_OnqacX.markAbove_OnqacX .markValue_OnqacX {
     color: var(--soft-bright-color) !important;
 }
 .preview_TpS9Es {
@@ -10555,7 +10555,7 @@ content,
 .checkboxWrapper__09aca .text-md\/normal_cf4812 {
     color: var(--hover-bright-color) !important;
 }
-.decorationWrapper_nNq2Vb.sticky__6131a:before {
+.decorationWrapper_nNq2Vb.sticky_nNq2Vb:before {
     background: var(--dark-bg) !important;
 }
 .panel_nNq2Vb .radioIndicator_oJuRbG {
