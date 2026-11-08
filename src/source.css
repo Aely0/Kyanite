@@ -3353,16 +3353,16 @@ path {
 }
 
 /* File download/delete buttons */
-.hoverButtonGroup__06ab4 {
+.hoverButtonGroup_n2rO26 {
     background-color: var(--hover-color) !important;
     backdrop-filter: brightness(40%) !important;
     border: none !important;
 }
-.hoverButton__06ab4 {
+.hoverButton_n2rO26 {
     color: var(--hover-bright-color) !important;
     transition: ease-out 150ms !important;
 }
-.hoverButton__06ab4:hover {
+.hoverButton_n2rO26:hover {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
@@ -3373,10 +3373,10 @@ path {
     color: var(--red-bright-color) !important;
     background-color: var(--hover-red-color) !important;
 }
-.hoverButtonGroup__06ab4.nonMediaMosaicItem__06ab4 {
+.hoverButtonGroup_n2rO26.nonMediaMosaicItem_n2rO26 {
     outline: none !important;
 }
-.nonMediaMosaicItem__06ab4 {
+.nonMediaMosaicItem_n2rO26 {
     outline: none !important;
 }
 
@@ -6887,7 +6887,7 @@ img.sidebarHeader_4T6RB7 {
     border: 1px solid var(--hover-color) !important;
 }
 .toolbar_hPmUPu:before {
-    border-top-color: var(--dark-bg) !important;
+    display: none !important;
 }
 .button_hPmUPu:hover {
     background-color: var(--hover-color) !important;
@@ -11480,7 +11480,7 @@ a[href="https://support.discord.com"] {
 }
 
 /* Apps and Commands button (images) (tag:hidden) */
-.hoverButton__06ab4:has(div > svg > g > g > g > g > path[d^=" M-6.55499982"]) {
+.hoverButton_n2rO26:has(div > svg > g > g > g > g > path[d^=" M-6.55499982"]) {
     display: none !important;
 }
 
