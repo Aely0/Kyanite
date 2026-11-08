@@ -328,7 +328,7 @@ path {
 .input_b-mzk1 {
     color: var(--soft-bright-color) !important;
 }
-.input__75098::placeholder,
+.input_0PLWhS::placeholder,
 .input_b-mzk1::placeholder {
     color: var(--hover-bright-color) !important;
 }
@@ -348,14 +348,14 @@ path {
     --custom-input-hover-border-color: transparent !important;
     --custom-input-focus-border-color: transparent !important;
 }
-.icon__75098 path {
+.icon_0PLWhS path {
     fill: var(--hover-bright-color) !important;
 }
-.clearButton__75098 {
+.clearButton_0PLWhS {
     color: var(--soft-bright-color) !important;
     opacity: 0.8 !important;
 }
-.clearButton__75098:hover {
+.clearButton_0PLWhS:hover {
     opacity: 1 !important;
 }
 
@@ -713,7 +713,7 @@ path {
 :where(.visual-refresh) .tooltipPointer_3_v8qp.tooltipPointerBg_3_v8qp:after {
     display: none !important;
 }
-.caret__0b5f9 {
+.caret_q722L8 {
     display: none !important;
 }
 
@@ -7872,7 +7872,7 @@ content,
 .swatchInner_Z2TFt5 {
     border: 2px solid var(--hover-bright-color) !important;
 }
-.leadingText__75098[style="color: var(--input-placeholder-text-default);"] {
+.leadingText_0PLWhS[style="color: var(--input-placeholder-text-default);"] {
     color: var(--hover-bright-color) !important;
 }
 .suggestedColor_BorJ2C {
@@ -9378,7 +9378,7 @@ content,
 .peopleListItem_y75PxA .activity__19b6d strong {
     color: var(--soft-bright-color) !important;
 }
-.addFriendInputWrapper_jF-DiS .inputDefault__75098.input_b-mzk1 {
+.addFriendInputWrapper_jF-DiS .inputDefault_0PLWhS.input_b-mzk1 {
     background-color: transparent !important;
 }
 .blockedIgnoredSettingsNotice_YgJORb {
