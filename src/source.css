@@ -456,48 +456,48 @@ path {
 }
 
 /* Reactions */
-.reaction__23977,
+.reaction_MmKct8,
 .reaction_f8896c {
     background-color: var(--hover-color) !important;
 }
-.reaction__23977.reactionMe__23977,
+.reaction_MmKct8.reactionMe_MmKct8,
 .reaction_f8896c.reactionMe_f8896c {
     background-color: var(--hover-dark-color) !important;
 }
-.reaction__23977:hover
-    .reactionCount__23977
+.reaction_MmKct8:hover
+    .reactionCount_MmKct8
     .reaction_f8896c:hover
     .reactionCount_f8896c,
-.reaction__23977.reactionMe__23977 .reactionCount__23977,
+.reaction_MmKct8.reactionMe_MmKct8 .reactionCount_MmKct8,
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
     color: var(--hover-bright-color) !important;
 }
-.reactionBtn__23977,
-.reactionBtn__23977 {
+.reactionBtn_MmKct8,
+.reactionBtn_MmKct8 {
     padding-left: 5px !important;
     color: var(--hover-bright-color) !important;
 }
-.reactionBtn__23977:hover .icon__23977,
-.reactionBtn__23977:hover .icon_f8896c,
-.reactionBtn__23977.active__23977 .icon__23977,
-.reactionBtn__23977:active .icon__23977,
-.reactionBtn__23977.active_f8896c .icon_f8896c {
+.reactionBtn_MmKct8:hover .icon_MmKct8,
+.reactionBtn_MmKct8:hover .icon_f8896c,
+.reactionBtn_MmKct8.active_MmKct8 .icon_MmKct8,
+.reactionBtn_MmKct8:active .icon_MmKct8,
+.reactionBtn_MmKct8.active_f8896c .icon_f8896c {
     transition: color 200ms ease-in-out !important;
     color: var(--soft-bright-color) !important;
 }
-.reaction__23977:hover,
+.reaction_MmKct8:hover,
 .reaction_f8896c:hover {
     border-color: var(--hover-color) !important;
 }
-.reaction__23977.reactionMe__23977,
+.reaction_MmKct8.reactionMe_MmKct8,
 .reaction_f8896c.reactionMe_f8896c {
     border-color: var(--hover-color) !important;
 }
-.reactionCount__23977,
+.reactionCount_MmKct8,
 .reactionCount_f8896c {
     color: var(--hover-bright-color) !important;
 }
-.reaction__23977.reactionMe__23977 .reactionCount__23977,
+.reaction_MmKct8.reactionMe_MmKct8 .reactionCount_MmKct8,
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
     color: var(--soft-bright-color) !important;
 }
@@ -521,19 +521,19 @@ path {
     background-color: var(--hover-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
-.reactionBtn__23977.forceShow__23977 {
+.reactionBtn_MmKct8.forceShow_MmKct8 {
     margin-left: 0.25rem !important;
 }
-.reactionBtn__23977.forceShow__23977,
-.reactionBtn__23977.bookmarkBtn__23977 {
+.reactionBtn_MmKct8.forceShow_MmKct8,
+.reactionBtn_MmKct8.bookmarkBtn_MmKct8 {
     margin-right: 0px !important;
     background-color: transparent !important;
     border-color: transparent !important;
     opacity: 0 !important;
     transition: all ease-in-out 200ms !important;
 }
-.reactions__23977:hover .reactionBtn__23977.forceShow__23977,
-.reactions__23977:hover .reactionBtn__23977.bookmarkBtn__23977 {
+.reactions_MmKct8:hover .reactionBtn_MmKct8.forceShow_MmKct8,
+.reactions_MmKct8:hover .reactionBtn_MmKct8.bookmarkBtn_MmKct8 {
     opacity: 1 !important;
 }
 
