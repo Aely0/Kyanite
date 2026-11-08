@@ -421,36 +421,43 @@ path {
 
 /* Generic info boxes */
 .info_0v8Ae1,
-.info__35859,
 .info_aea291,
 .perServerNotice_b08638 {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-bright-color) !important;
     color: var(--hover-bright-color) !important;
 }
-.info__35859.hidden__35859 {
+.info_0v8Ae1.hidden_0v8Ae1 {
     display: none !important;
 }
 .info_0v8Ae1 .icon_0v8Ae1,
 .info_aea291 .icon_aea291,
-.info__35859 .iconDiv__35859 .icon__35859,
+.info_0v8Ae1 .iconDiv_0v8Ae1 .icon_0v8Ae1,
 .perServerNoticeDismissButton_b08638 {
     color: var(--hover-bright-color) !important;
 }
-.warning__35859,
+.warning_0v8Ae1,
 .notice_jgizwB {
     background: var(--hover-yellow-color) !important;
     border: 1px solid var(--yellow-bright-color) !important;
     color: var(--yellow-bright-color) !important;
 }
-.warning__35859 .text__35859,
-.warning__35859 .icon__35859,
+.warning_0v8Ae1 .text_0v8Ae1,
+.warning_0v8Ae1 .icon_0v8Ae1,
+.warning_0v8Ae1 [style="color: var(--text-strong);"],
 .notice_jgizwB .noticeIcon_jgizwB,
-.notice_jgizwB .text-md\/normal_cf4812 {
+.notice_jgizwB .text-md\/normal_RAOoio {
     color: var(--yellow-bright-color) !important;
+}
+div {
+    --text-feedback-info: var(--hover-bright-color) !important;
+    --text-feedback-warning: var(--yellow-bright-color) !important;
+    --text-feedback-critical: var(--red-bright-color) !important;
 }
 path {
     --icon-feedback-info: var(--hover-bright-color) !important;
+    --icon-feedback-warning: var(--yellow-bright-color) !important;
+    --icon-feedback-critical: var(--red-bright-color) !important;
 }
 
 /* Focused menu item highlight */
