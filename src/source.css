@@ -7039,6 +7039,14 @@ img.sidebarHeader_4T6RB7 {
 }
 
 /* Server / Message context menu */
+.button_Qi4I4L {
+    background-color: var(--hover-faint-color) !important;
+    transition: background-color 100ms ease-in-out !important;
+}
+.button_Qi4I4L:hover {
+    background-color: var(--hover-color) !important;
+    transition: background-color 100ms ease-in-out !important;
+}
 .label_M3qk4j {
     color: var(--hover-bright-color) !important;
 }
