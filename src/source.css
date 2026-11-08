@@ -635,22 +635,22 @@ path {
 }
 
 /* System message */
-.isSystemMessage_2i8Bfm .content__235ca {
+.isSystemMessage_2i8Bfm .content_bLMKT5 {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
     padding: 4px 8px !important;
     border-radius: 5px !important;
 }
-.isSystemMessage_2i8Bfm .content__235ca .timestampInline_2i8Bfm {
+.isSystemMessage_2i8Bfm .content_bLMKT5 .timestampInline_2i8Bfm {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
 }
 
-.isSystemMessage_2i8Bfm .content__235ca a {
+.isSystemMessage_2i8Bfm .content_bLMKT5 a {
     font-weight: 600 !important;
 }
-.isSystemMessage_2i8Bfm .iconContainer__235ca,
+.isSystemMessage_2i8Bfm .iconContainer_bLMKT5,
 .hasThread_2i8Bfm.isSystemMessage_2i8Bfm:after {
     display: none !important;
 }
@@ -8109,7 +8109,7 @@ content,
     color: var(--hover-bright-color) !important;
 }
 .titleContainer_6bgemo svg path,
-.iconContainer__235ca svg path {
+.iconContainer_bLMKT5 svg path {
     fill: var(--soft-bright-color) !important;
 }
 .buttonContainer_6bgemo {
