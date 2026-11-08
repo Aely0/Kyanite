@@ -10750,6 +10750,9 @@ content,
     background-color: var(--hover-faint-color) !important;
     border: none !important;
 }
+.listBoxItemContent_b5PEJH {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Language & Time (User Settings) */
 .localizedName_ykCVnh {
