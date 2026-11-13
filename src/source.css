@@ -1386,10 +1386,10 @@ path {
 .sortDropdownTextHighContrastForcedColor_BkGrJJ {
     color: var(--soft-bright-color) !important;
 }
-.mainCard_BkGrJJ .text_b88801 {
+.mainCard_BkGrJJ .text_U9Tvvz {
     color: var(--hover-bright-color) !important;
 }
-.mainCard_BkGrJJ .text_b88801 strong {
+.mainCard_BkGrJJ .text_U9Tvvz strong {
     color: var(--soft-bright-color) !important;
 }
 .box_ee23ac {
@@ -6383,14 +6383,14 @@ img.sidebarHeader_4T6RB7 {
 }
 
 /* Typing notification */
-.typing_b88801 {
+.typing_U9Tvvz {
     background: transparent !important;
 }
-.typing_b88801 .dots_b88801,
-.typing_b88801 .text_b88801 {
+.typing_U9Tvvz .dots_U9Tvvz,
+.typing_U9Tvvz .text_U9Tvvz {
     color: var(--hover-bright-color) !important;
 }
-.typing_b88801 .text_b88801 strong {
+.typing_U9Tvvz .text_U9Tvvz strong {
     color: var(--soft-bright-color) !important;
 }
 .typing .text {
@@ -7005,11 +7005,11 @@ img.sidebarHeader_4T6RB7 {
 .attachWrapper_7TM4SO {
     padding: 6px 10px !important;
 }
-.inTextChannel_b88801.base_b88801 {
+.inTextChannel_U9Tvvz.base_U9Tvvz {
     bottom: 0px !important;
     top: unset !important;
 }
-.inTextChannel_b88801 .text_b88801 {
+.inTextChannel_U9Tvvz .text_U9Tvvz {
     margin-left: 20px !important;
 }
 .scrollerSpacer_8AE1Qq {
