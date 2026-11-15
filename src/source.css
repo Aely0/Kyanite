@@ -994,21 +994,21 @@ path {
 .defaultColor_MMUIw6 {
     color: var(--hover-bright-color) !important;
 }
-.visual-refresh .wrapper__260e1 {
+.visual-refresh .wrapper_QQRrAh {
     border: none !important;
 }
 
 /* Voice channel limits */
-.wrapper__260e1 {
+.wrapper_QQRrAh {
     color: var(--soft-bright-color) !important;
 }
-.users__260e1 {
+.users_QQRrAh {
     background-color: var(--hover-dark-color) !important;
 }
-.total__260e1 {
+.total_QQRrAh {
     background-color: var(--hover-color) !important;
 }
-.total__260e1:after {
+.total_QQRrAh:after {
     border-right-color: rgba(0, 0, 0, 0.55) !important;
 }
 
