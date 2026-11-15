@@ -11274,82 +11274,82 @@ img:not(.emote):not(.emoji)::after {
 .theme-dark .hljs-quote {
     color: #6c7f86 !important;
 }
-.hljs[class~="c"],
-.hljs[class~="cpp"],
-.hljs[class~="cs"],
-.hljs[class~="java"],
-.hljs[class~="sql"],
-.hljs[class~="ruby"],
-.hljs[class~="coffee"],
-.hljs[class~="xl"],
-.hljs[class~="py"],
-.hljs[class~="python"],
-.hljs[class~="html"],
-.hljs[class~="md"],
-.hljs[class~="markdown"],
-.hljs[class~="bash"],
-.hljs[class~="js"],
-.hljs[class~="javascript"],
-.hljs[class~="css"],
-.hljs[class~="vb"],
-.hljs[class~="visualbasic"],
-.hljs[class~="lua"],
-.hljs[class~="php"],
-.hljs[class~="swift"],
-.hljs[class~="makefile"],
-.hljs[class~="go"],
-.hljs[class~="ini"],
-.hljs[class~="rs"],
-.hljs[class~="rust"],
-.hljs[class~="prolog"],
-.hljs[class~="ts"],
-.hljs[class~="typescript"],
-.hljs[class~="http"],
-.hljs[class~="json"],
-.hljs[class~="xml"],
-.hljs[class~="less"],
-.hljs[class~="toml"],
-.hljs[class~="elixir"] {
+.hljs[class~="language-c"],
+.hljs[class~="language-cpp"],
+.hljs[class~="language-cs"],
+.hljs[class~="language-java"],
+.hljs[class~="language-sql"],
+.hljs[class~="language-ruby"],
+.hljs[class~="language-coffee"],
+.hljs[class~="language-xl"],
+.hljs[class~="language-py"],
+.hljs[class~="language-python"],
+.hljs[class~="language-html"],
+.hljs[class~="language-md"],
+.hljs[class~="language-markdown"],
+.hljs[class~="language-bash"],
+.hljs[class~="language-js"],
+.hljs[class~="language-javascript"],
+.hljs[class~="language-css"],
+.hljs[class~="language-vb"],
+.hljs[class~="language-visualbasic"],
+.hljs[class~="language-lua"],
+.hljs[class~="language-php"],
+.hljs[class~="language-swift"],
+.hljs[class~="language-makefile"],
+.hljs[class~="language-go"],
+.hljs[class~="language-ini"],
+.hljs[class~="language-rs"],
+.hljs[class~="language-rust"],
+.hljs[class~="language-prolog"],
+.hljs[class~="language-ts"],
+.hljs[class~="language-typescript"],
+.hljs[class~="language-http"],
+.hljs[class~="language-json"],
+.hljs[class~="language-xml"],
+.hljs[class~="language-less"],
+.hljs[class~="language-toml"],
+.hljs[class~="language-elixir"] {
     padding: 6px 5px 2px 5px !important;
 }
-.hljs[class~="c"]::before,
-.hljs[class~="cpp"]::before,
-.hljs[class~="cs"]::before,
-.hljs[class~="java"]::before,
-.hljs[class~="sql"]::before,
-.hljs[class~="ruby"]::before,
-.hljs[class~="coffee"]::before,
-.hljs[class~="xl"]::before,
-.hljs[class~="py"]::before,
-.hljs[class~="python"]::before,
-.hljs[class~="html"]::before,
-.hljs[class~="md"]::before,
-.hljs[class~="markdown"]::before,
-.hljs[class~="bash"]::before,
-.hljs[class~="js"]::before,
-.hljs[class~="javascript"]::before,
-.hljs[class~="css"]::before,
-.hljs[class~="vb"]::before,
-.hljs[class~="visualbasic"]::before,
-.hljs[class~="lua"]::before,
-.hljs[class~="php"]::before,
-.hljs[class~="swift"]::before,
-.hljs[class~="makefile"]::before,
-.hljs[class~="go"]::before,
-.hljs[class~="ini"]::before,
-.hljs[class~="rs"]::before,
-.hljs[class~="rust"]::before,
-.hljs[class~="prolog"]::before,
-.hljs[class~="ts"]::before,
-.hljs[class~="typescript"]::before,
-.hljs[class~="http"]::before,
-.hljs[class~="json"]::before,
-.hljs[class~="xml"]::before,
-.hljs[class~="less"]::before,
-.hljs[class~="toml"]::before,
-.hljs[class~="ex"]::before,
-.hljs[class~="exs"]::before,
-.hljs[class~="elixir"]::before {
+.hljs[class~="language-c"]::before,
+.hljs[class~="language-cpp"]::before,
+.hljs[class~="language-cs"]::before,
+.hljs[class~="language-java"]::before,
+.hljs[class~="language-sql"]::before,
+.hljs[class~="language-ruby"]::before,
+.hljs[class~="language-coffee"]::before,
+.hljs[class~="language-xl"]::before,
+.hljs[class~="language-py"]::before,
+.hljs[class~="language-python"]::before,
+.hljs[class~="language-html"]::before,
+.hljs[class~="language-md"]::before,
+.hljs[class~="language-markdown"]::before,
+.hljs[class~="language-bash"]::before,
+.hljs[class~="language-js"]::before,
+.hljs[class~="language-javascript"]::before,
+.hljs[class~="language-css"]::before,
+.hljs[class~="language-vb"]::before,
+.hljs[class~="language-visualbasic"]::before,
+.hljs[class~="language-lua"]::before,
+.hljs[class~="language-php"]::before,
+.hljs[class~="language-swift"]::before,
+.hljs[class~="language-makefile"]::before,
+.hljs[class~="language-go"]::before,
+.hljs[class~="language-ini"]::before,
+.hljs[class~="language-rs"]::before,
+.hljs[class~="language-rust"]::before,
+.hljs[class~="language-prolog"]::before,
+.hljs[class~="language-ts"]::before,
+.hljs[class~="language-typescript"]::before,
+.hljs[class~="language-http"]::before,
+.hljs[class~="language-json"]::before,
+.hljs[class~="language-xml"]::before,
+.hljs[class~="language-less"]::before,
+.hljs[class~="language-toml"]::before,
+.hljs[class~="language-ex"]::before,
+.hljs[class~="language-exs"]::before,
+.hljs[class~="language-elixir"]::before {
     width: auto !important;
     height: 15px !important;
     position: relative !important;
@@ -11364,131 +11364,131 @@ img:not(.emote):not(.emoji)::after {
     border-bottom: 0px !important;
     line-height: 15px !important;
 }
-.hljs[class~="c"]::before {
+.hljs[class~="language-c"]::before {
     content: " C" !important;
     background: rgba(85, 85, 85, 0.5) !important;
 }
-.hljs[class~="cpp"]::before {
+.hljs[class~="language-cpp"]::before {
     content: " C++" !important;
     background: rgba(243, 75, 125, 0.3) !important;
 }
-.hljs[class~="cs"]::before {
+.hljs[class~="language-cs"]::before {
     content: " C#" !important;
     background: rgba(0, 140, 21, 0.3) !important;
 }
-.hljs[class~="js"]::before,
-.hljs[class~="javascript"]::before {
+.hljs[class~="language-js"]::before,
+.hljs[class~="language-javascript"]::before {
     content: " Javascript" !important;
     background: rgba(22, 94, 171, 0.3) !important;
 }
-.hljs[class~="css"]::before {
+.hljs[class~="language-css"]::before {
     content: " Cascading Style Sheet" !important;
     background: rgba(171, 111, 22, 0.3) !important;
 }
-.hljs[class~="bash"]::before {
+.hljs[class~="language-bash"]::before {
     content: " Bash" !important;
     background: rgba(171, 22, 99, 0.3) !important;
 }
-.hljs[class~="markdown"]::before,
-.hljs[class~="md"]::before {
+.hljs[class~="language-markdown"]::before,
+.hljs[class~="language-md"]::before {
     content: " Markdown" !important;
     background: rgba(171, 46, 22, 0.3) !important;
 }
-.hljs[class~="html"]::before {
+.hljs[class~="language-html"]::before {
     content: " HTML" !important;
     background: rgba(22, 171, 111, 0.3) !important;
 }
-.hljs[class~="xl"]::before {
+.hljs[class~="language-xl"]::before {
     content: " eXtensible Language" !important;
     background: rgba(72, 114, 168, 0.3) !important;
 }
-.hljs[class~="coffee"]::before {
+.hljs[class~="language-coffee"]::before {
     content: " Coffee (Javascript)" !important;
     background: rgba(58, 27, 27, 0.3) !important;
 }
-.hljs[class~="ruby"]::before {
+.hljs[class~="language-ruby"]::before {
     content: " Ruby" !important;
     background: rgba(231, 62, 62, 0.3) !important;
 }
-.hljs[class~="sql"]::before {
+.hljs[class~="language-sql"]::before {
     content: " SQL" !important;
     background: rgba(68, 116, 202, 0.3) !important;
 }
-.hljs[class~="java"]::before {
+.hljs[class~="language-java"]::before {
     content: " Java" !important;
     background: rgba(235, 45, 47, 0.3) !important;
 }
-.hljs[class~="py"]::before,
-.hljs[class~="python"]::before {
+.hljs[class~="language-py"]::before,
+.hljs[class~="language-python"]::before {
     content: " Python" !important;
     background: rgba(22, 34, 171, 0.3) !important;
 }
-.hljs[class~="vb"]::before,
-.hljs[class~="visualbasic"]::before {
+.hljs[class~="language-vb"]::before,
+.hljs[class~="language-visualbasic"]::before {
     content: " Visual Basic" !important;
     background: rgba(131, 151, 0, 0.3) !important;
 }
-.hljs[class~="lua"]::before {
+.hljs[class~="language-lua"]::before {
     content: " Lua" !important;
     background: rgba(46, 204, 113, 0.3) !important;
 }
-.hljs[class~="php"]::before {
+.hljs[class~="language-php"]::before {
     content: " Php" !important;
     background: rgba(110, 129, 182, 0.3) !important;
 }
-.hljs[class~="swift"]::before {
+.hljs[class~="language-swift"]::before {
     content: " Swift" !important;
     background: rgba(253, 120, 55, 0.3) !important;
 }
-.hljs[class~="makefile"]::before {
+.hljs[class~="language-makefile"]::before {
     content: " Makefile" !important;
     background: rgba(138, 43, 15, 0.3) !important;
 }
-.hljs[class~="go"]::before {
+.hljs[class~="language-go"]::before {
     content: " Go" !important;
     background: rgba(117, 206, 222, 0.3) !important;
 }
-.hljs[class~="ini"]::before {
+.hljs[class~="language-ini"]::before {
     content: " ini" !important;
     background: rgba(90, 117, 192, 0.3) !important;
 }
-.hljs[class~="rs"]::before,
-.hljs[class~="rust"]::before {
+.hljs[class~="language-rs"]::before,
+.hljs[class~="language-rust"]::before {
     content: " Rust" !important;
     background: rgba(176, 41, 9, 0.3) !important;
 }
-.hljs[class~="prolog"]::before {
+.hljs[class~="language-prolog"]::before {
     content: " Prolog" !important;
     background: rgba(239, 77, 37, 0.3) !important;
 }
-.hljs[class~="ts"]::before,
-.hljs[class~="typescript"]::before {
+.hljs[class~="language-ts"]::before,
+.hljs[class~="language-typescript"]::before {
     content: " TypeScript" !important;
     background: rgba(3, 50, 76, 0.3) !important;
 }
-.hljs[class~="http"]::before {
+.hljs[class~="language-http"]::before {
     content: " HTTP" !important;
     background: rgba(97, 143, 16, 0.3) !important;
 }
-.hljs[class~="json"]::before {
+.hljs[class~="language-json"]::before {
     content: " Json" !important;
     background: rgba(16, 143, 102, 0.3) !important;
 }
-.hljs[class~="xml"]::before {
+.hljs[class~="language-xml"]::before {
     content: " XML" !important;
     background: rgba(132, 68, 175, 0.3) !important;
 }
-.hljs[class~="less"]::before {
+.hljs[class~="language-less"]::before {
     content: " Less" !important;
     background: rgba(29, 54, 93, 0.3) !important;
 }
-.hljs[class~="toml"]::before {
+.hljs[class~="language-toml"]::before {
     content: " Toml" !important;
     background: rgba(63, 129, 193, 0.3) !important;
 }
-.hljs[class~="ex"]::before,
-.hljs[class~="exs"]::before,
-.hljs[class~="elixir"]::before {
+.hljs[class~="language-ex"]::before,
+.hljs[class~="language-exs"]::before,
+.hljs[class~="language-elixir"]::before {
     content: " Elixir" !important;
     background: rgba(65, 24, 101, 0.6) !important;
 }
