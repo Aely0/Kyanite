@@ -1675,7 +1675,7 @@ path {
 .iconLive_Wx6SnQ,
 .channelInfoContainer_da5e8d,
 .channelLocationLink_da5e8d,
-.channelIcon_d5f3cd {
+.channelIcon_jsxF_b {
     color: var(--soft-bright-color) !important;
 }
 .liveIndicator_hVh8FI {
@@ -4066,41 +4066,41 @@ path {
 }
 
 /* Invite link */
-.guildIconExpired_d5f3cd {
+.guildIconExpired_jsxF_b {
     background-color: var(--hover-red-color) !important;
     border: 2px solid var(--hover-red-color) !important;
     color: var(--red-bright-color) !important;
 }
-.inviteDestinationExpired_d5f3cd {
+.inviteDestinationExpired_jsxF_b {
     color: var(--red-bright-color) !important;
 }
-.guildInviteContainer__083ae,
-.wrapper_d5f3cd {
+.guildInviteContainer_fknPy8,
+.wrapper_jsxF_b {
     background: var(--hover-faded-color) !important;
     border: none !important;
 }
-.footerContent__083ae {
+.footerContent_fknPy8 {
     background: transparent !important;
 }
-.statusCounts_d5f3cd .count_d5f3cd {
+.statusCounts_jsxF_b .count_jsxF_b {
     color: var(--hover-bright-color) !important;
 }
-.statusOnline_d5f3cd.status_d5f3cd {
+.statusOnline_jsxF_b.status_jsxF_b {
     background-color: var(--soft-bright-color) !important;
 }
-.statusOffline_d5f3cd.status_d5f3cd {
+.statusOffline_jsxF_b.status_jsxF_b {
     background-color: var(--main-color) !important;
 }
-.activityCount_fa285e .pillIconOnline_rN1Ls3 {
+.memberCount_E7xgJz .dotOnline_E7xgJz {
     background-color: var(--soft-bright-color) !important;
 }
-.activityCount_fa285e .pillIconTotal_rN1Ls3 {
+.memberCount_E7xgJz .dot_E7xgJz {
     background-color: var(--hover-dark-color) !important;
 }
-.activityCount_fa285e .text-sm\/normal_RAOoio {
+.memberCount_E7xgJz .text-sm\/normal_RAOoio {
     font-weight: 500 !important;
 }
-.resolvingBackground_d5f3cd {
+.resolvingBackground_jsxF_b {
     background-image: linear-gradient(
         to right,
         var(--hover-color),
