@@ -1,8 +1,8 @@
 # Dark Mode Themes
 
-- [Download Kyanite (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Kyanite.css)
-- [Download Lavender (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Lavender.css)
-- [Download Magenta (2026.03.30)](https://github.com/Aely0/Kyanite/releases/download/2026.03.30/Magenta.css)
+- [Download Kyanite (2026.11.15)](https://github.com/Aely0/Kyanite/releases/download/2026.11.15/Kyanite.css)
+- [Download Lavender (2026.11.15)](https://github.com/Aely0/Kyanite/releases/download/2026.11.15/Lavender.css)
+- [Download Magenta (2026.11.15)](https://github.com/Aely0/Kyanite/releases/download/2026.11.15/Magenta.css)
 
 ### Important Sidenote
 Some elements, mostly ones related to ads, upselling, Nitro pushing, shop, gifting,
