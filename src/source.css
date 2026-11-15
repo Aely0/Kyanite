@@ -1905,7 +1905,7 @@ path {
 }
 .voiceUser_YUoOxm,
 .avatarStack_XpIUHy,
-.callAvatarMaskContainer_f910d0 {
+.callAvatarMaskContainer_NdapwK {
     --yellow-360: var(--hover-yellow-bright-color) !important;
     --status-speaking: var(--soft-bright-color) !important;
     --background-base-lower: transparent !important;
@@ -1985,11 +1985,11 @@ path {
     color: var(--hover-bright-color) !important;
     font-weight: 600 !important;
 }
-.wrapper_f910d0.ringingIncoming_f910d0:after,
-.wrapper_f910d0.ringingOutgoing_f910d0:after {
+.wrapper_NdapwK.ringingIncoming_NdapwK:after,
+.wrapper_NdapwK.ringingOutgoing_NdapwK:after {
     border: 3px solid var(--soft-bright-color) !important;
 }
-.callAvatarMask_f910d0 .status_f910d0 {
+.callAvatarMask_NdapwK .status_NdapwK {
     background-color: var(--hover-red-dark-color) !important;
     color: var(--red-bright-color) !important;
 }
@@ -2007,17 +2007,21 @@ path {
 .quickSelectPopoutOption_ebaca5.selected {
     background-color: var(--hover-color) !important;
 }
-.callAvatarMaskContainer_f910d0 .status_f910d0 {
+.callAvatarMaskContainer_NdapwK .status_NdapwK {
     background-color: transparent !important;
-}
-.callAvatarMaskContainer_f910d0 .status_f910d0 path {
-    fill: var(--red-bright-color) !important;
 }
 .disconnect_K9Xq13 .controlIcon_K9Xq13 > path {
     fill: var(--hover-red-bright-color) !important;
 }
-.statusContainer_f910d0 {
+.statusContainer_NdapwK {
     background-color: var(--hover-red-dark-color) !important;
+}
+.statusContainer_NdapwK > svg > path {
+    fill: var(--red-bright-color) !important;
+}
+.border_7NOr2f {
+    --status-speaking: var(--soft-bright-color) !important;
+    --background-base-lower: var(--hover-color) !important;
 }
 
 /* Screen sharing / Video calls */
