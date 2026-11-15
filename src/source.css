@@ -10624,9 +10624,6 @@ content,
 }
 
 /* Voice & Video (User Settings) */
-.sliderBar_d293c5 {
-    background-color: var(--hover-dark-color) !important;
-}
 .option_Ykwe0q {
     background-color: var(--hover-color) !important;
 }
@@ -10664,6 +10661,21 @@ content,
 }
 .sliderBar_d-Ihb0.speaking_d-Ihb0 {
     background-color: var(--hover-green-dark-color) !important;
+}
+.bar_p3RiOL {
+    background: var(--hover-color) !important;
+}
+.barFill_p3RiOL {
+    background: transparent !important;
+    border: none !important;
+}
+.inputSensitivityBarFill_d-Ihb0 {
+    background: var(--soft-bright-color) !important;
+}
+.slider_p3RiOL .grabber_p3RiOL {
+    background-color: var(--soft-bright-color) !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Soundboard (+ choose a sound) */
