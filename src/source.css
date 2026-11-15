@@ -8560,6 +8560,16 @@ content,
 .addFriendHint_jF-DiS {
     color: var(--hover-dark-color) !important;
 }
+.friendNoteTextArea_jF-DiS {
+    color: var(--hover-bright-color) !important;
+}
+.friendNoteTextArea_jF-DiS::placeholder {
+    color: color-mix(
+        in srgb,
+        var(--hover-bright-color) 60%,
+        transparent
+    ) !important;
+}
 .header__94b08 {
     border-bottom: none !important;
 }
