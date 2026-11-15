@@ -192,7 +192,7 @@ body::after,
 .panels_pog62O,
 .scroller_Bce46W,
 .privateChannels_u88IQl,
-.channelChatWrapper_cb9592,
+.channelChatWrapper_hbKzX7,
 .container_zrUwGA,
 .container__7d20c,
 .nowPlayingColumn_zrUwGA,
@@ -234,8 +234,8 @@ body::after,
 .button_ZTKX02:hover,
 .friendSelected_45OTue,
 .button_Y-8oZW.enabled_Y-8oZW:hover,
-.listDefault__07f91 .clickable__07f91.selected__07f91 .content__07f91,
-.listDefault__07f91 .clickable__07f91:hover .content__07f91,
+.listDefault_YUoOxm .clickable_YUoOxm.selected_YUoOxm .content_YUoOxm,
+.listDefault_YUoOxm .clickable_YUoOxm:hover .content_YUoOxm,
 .option__16eb0:hover,
 .option__16eb0[aria-selected="true"] {
     background: var(--hover-color) !important;
@@ -1875,7 +1875,7 @@ path {
 }
 
 /* Voice channel calls */
-.callContainer_cb9592 {
+.callContainer_hbKzX7 {
     background: transparent !important;
 }
 .container__5aa3a .joinButton__5aa3a.grow_9OQtot {
@@ -1892,25 +1892,25 @@ path {
 .iconDisabled_ybUK7Z {
     opacity: 1 !important;
 }
-.visual-refresh .callContainer_cb9592 {
+.visual-refresh .callContainer_hbKzX7 {
     border-left: none !important;
 }
-.visual-refresh .callContainer_cb9592 {
+.visual-refresh .callContainer_hbKzX7 {
     border-top: none !important;
     border-right: none !important;
 }
-.visual-refresh .wrapper_cb9592,
-.visual-refresh .root_bfe55a {
+.visual-refresh .wrapper_hbKzX7,
+.visual-refresh .root_rTsZa_ {
     background: transparent !important;
 }
-.voiceUser__07f91,
+.voiceUser_YUoOxm,
 .avatarStack_XpIUHy,
 .callAvatarMaskContainer_f910d0 {
     --yellow-360: var(--hover-yellow-bright-color) !important;
     --status-speaking: var(--soft-bright-color) !important;
     --background-base-lower: transparent !important;
 }
-.voiceUser__07f91:has(.userAvatar__55bab[style*="speaking"]) {
+.voiceUser_YUoOxm:has(.userAvatar__55bab[style*="speaking"]) {
     background: linear-gradient(
         to right,
         color-mix(in srgb, var(--hover-bright-color) 20%, transparent) 10%,
@@ -1918,7 +1918,7 @@ path {
     ) !important;
     border-radius: 25px !important;
 }
-.row__1bad5 .userIconContainer__1bad5 {
+.row_d8EjQE .userIconContainer_d8EjQE {
     color: var(--hover-bright-color) !important;
 }
 .voiceChannelHighlightBorder_Wx6SnQ {
@@ -1931,24 +1931,24 @@ path {
         transparent 100%
     ) !important;
 }
-.icon_f2170c {
+.icon_MRjIbW {
     color: var(--hover-bright-color) !important;
 }
-.clickable_f2170c:hover .icon_f2170c.userIcon_f2170c,
-.clickable_f2170c:hover .label_f2170c {
+.clickable_MRjIbW:hover .icon_MRjIbW.userIcon_MRjIbW,
+.clickable_MRjIbW:hover .label_MRjIbW {
     color: var(--soft-bright-color) !important;
 }
-.row__1bad5.clickable__1bad5:hover {
+.row_d8EjQE.clickable_d8EjQE:hover {
     background-color: var(--hover-color) !important;
 }
-.row__1bad5.clickable__1bad5:hover .name__1bad5 {
+.row_d8EjQE.clickable_d8EjQE:hover .name_d8EjQE {
     color: var(--soft-bright-color) !important;
 }
-.icon__1bad5 > path,
+.icon_d8EjQE > path,
 .inviteSectionToggleIcon_COIWNl > path {
     fill: var(--hover-bright-color) !important;
 }
-.row__1bad5.clickable__1bad5:hover .icon__1bad5 > path {
+.row_d8EjQE.clickable_d8EjQE:hover .icon_d8EjQE > path {
     fill: var(--soft-bright-color) !important;
 }
 .singleUserRoot__4ad81 {
@@ -1958,7 +1958,7 @@ path {
         var(--hover-faded-color)
     ) !important;
 }
-.pulseGradient__11664 {
+.pulseGradient_BUFBam {
     visibility: hidden !important;
 }
 
@@ -2021,6 +2021,9 @@ path {
 }
 
 /* Screen sharing / Video calls */
+.gradientContainer_rTsZa_ {
+    background-image: none !important;
+}
 .sourceThumbnail_a2de16 {
     background-color: var(--hover-color) !important;
 }
@@ -2061,11 +2064,11 @@ path {
 .badgeUpgrade_H2sld1 {
     color: var(--soft-bright-color) !important;
 }
-.edgeControls_bfe55a .controlIcon_K9Xq13,
+.edgeControls_rTsZa_ .controlIcon_K9Xq13,
 .toolbar_ybUK7Z .controlIcon_K9Xq13 {
     color: var(--hover-bright-color) !important;
 }
-.edgeControls_bfe55a .controlIcon_K9Xq13:hover,
+.edgeControls_rTsZa_ .controlIcon_K9Xq13:hover,
 .toolbar_ybUK7Z .controlIcon_K9Xq13:hover {
     color: var(--soft-bright-color) !important;
 }
@@ -2212,7 +2215,7 @@ path {
 .scroller_Xa_Vtp {
     background-color: var(--dark-bg) !important;
 }
-.streamPreview__2f4f7 {
+.streamPreview_7NOr2f {
     background: var(--hover-color) !important;
 }
 .viewersIcon_Xa_Vtp path {
@@ -2225,13 +2228,13 @@ path {
 .liveQualityIndicator-8fb_DX.textBadge_f05120.base_lMvXrQ.baseShapeRoundLeft_lMvXrQ {
     background-color: var(--hover-dark-color) !important;
 }
-.selectedIcon__2f4f7 > path {
+.selectedIcon_7NOr2f > path {
     fill: var(--soft-bright-color) !important;
 }
 .description_3rN_rc {
     color: var(--hover-bright-color) !important;
 }
-.tile__90dc5 {
+.tile_7NOr2f {
     background-color: transparent !important;
 }
 .qualityIndicatorFullQuality__30845 {
@@ -2240,12 +2243,12 @@ path {
 .participantName_ScIiLS {
     color: var(--soft-bright-color) !important;
 }
-.overlayTitle__2f4f7,
-.status__2f4f7 {
+.overlayTitle_7NOr2f,
+.status_7NOr2f {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-color) !important;
 }
-.status__2f4f7 path[fill="var(--white)"] {
+.status_7NOr2f path[fill="var(--white)"] {
     fill: var(--soft-bright-color) !important;
 }
 .ratingBody_bNwrTb {
@@ -2260,12 +2263,16 @@ path {
 .dropDown_CYfsXH:hover {
     color: var(--soft-bright-color) !important;
 }
-.border__2f4f7.voiceChannelEffect__2f4f7 {
+.border_7NOr2f.voiceChannelEffect_7NOr2f {
     box-shadow:
         inset 0 0 0 2px var(--hover-bright-color),
         inset 0 0 0 3px var(--hover-color) !important;
 }
-.border__2f4f7.speaking__2f4f7 {
+.border_7NOr2f {
+    --status-speaking: var(--soft-bright-color) !important;
+    --background-base-lower: var(--hover-color) !important;
+}
+.border_7NOr2f.speaking_7NOr2f {
     box-shadow:
         inset 0 0 0 2px var(--soft-bright-color),
         inset 0 0 0 3px var(--hover-color) !important;
@@ -2319,7 +2326,7 @@ path {
 .enhancedBanner__39bd2 {
     background: var(--hover-color) !important;
 }
-.videoWrapper__2f4f7 {
+.videoWrapper_7NOr2f {
     background-color: var(--hover-color) !important;
 }
 .premiumStreamIcon__30845 {
@@ -2332,8 +2339,11 @@ path {
 .gradientBackground__41626 {
     display: none !important;
 }
-.experimentOverlayTitle__2f4f7,
-.overlayButton__2f4f7 {
+.experimentOverlayTitle_7NOr2f {
+    background: var(--hover-faded-color) !important;
+    color: var(--soft-bright-color) !important;
+}
+.overlayButton_7NOr2f {
     background: transparent !important;
     color: var(--soft-bright-color) !important;
 }
@@ -6167,29 +6177,29 @@ img.sidebarHeader_4T6RB7 {
 }
 
 /* Voice channel user status */
-.voiceUser__07f91 .usernameFont__07f91.username__07f91 {
+.voiceUser_YUoOxm .usernameFont_YUoOxm.username_YUoOxm {
     color: var(--soft-bright-color) !important;
 }
 .spine_reDhww {
     color: var(--hover-bright-color) !important;
 }
-.content__07f91 .userAvatar__55bab {
+.content_YUoOxm .userAvatar__55bab {
     margin-left: -3px !important;
 }
-.iconSpacing__07f91 .icon__07f91 {
+.iconSpacing_YUoOxm .icon_YUoOxm {
     color: var(--soft-bright-color) !important;
 }
-.iconSpacing__07f91 .icon__07f91 > path {
+.iconSpacing_YUoOxm .icon_YUoOxm > path {
     fill: var(--soft-bright-color) !important;
 }
-.icon__07f91:has([d^="m2.7 22.7 20-2"]) > path,
-.icon__07f91:has([d^="M22.7 2.7a1 1 0"]) > path {
+.icon_YUoOxm:has([d^="m2.7 22.7 20-2"]) > path,
+.icon_YUoOxm:has([d^="M22.7 2.7a1 1 0"]) > path {
     fill: var(--hover-yellow-dark-color) !important;
 }
-.icon__07f91:has([d^="M21.76.83a5"]) > path {
+.icon_YUoOxm:has([d^="M21.76.83a5"]) > path {
     fill: var(--hover-red-bright-color) !important;
 }
-.overlap__07f91 .avatar__07f91 {
+.overlap_YUoOxm .avatar_YUoOxm {
     border: 4px solid var(--main-color) !important;
 }
 .moreContainer__55bab {
@@ -6211,14 +6221,14 @@ img.sidebarHeader_4T6RB7 {
 .voiceChannelsIcon_t1P8Sn > path {
     fill: var(--soft-bright-color) !important;
 }
-.listDefault__07f91 .clickable__07f91:active .content__07f91 {
+.listDefault_YUoOxm .clickable_YUoOxm:active .content_YUoOxm {
     background: var(--hover-color) !important;
 }
 .containerUserOver_Wx6SnQ:after {
     background-color: var(--hover-faded-color) !important;
     border: 2px solid var(--hover-bright-color) !important;
 }
-.icon__07f91 > path {
+.icon_YUoOxm > path {
     fill: var(--hover-bright-color) !important;
 }
 .item_M3qk4j > svg > path {
