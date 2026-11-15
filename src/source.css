@@ -1860,7 +1860,7 @@ path {
 .separator__KoJTP {
     box-shadow: none !important;
 }
-.title__33d12 {
+.title_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 
@@ -3170,7 +3170,7 @@ path {
 .utilButtonWrapper_b5b7aa:hover .utilButtonIcon_b5b7aa {
     color: var(--soft-bright-color) !important;
 }
-.contentSection_b6bcee .text__33d12 {
+.contentSection_b6bcee .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 .tab__80679.selected__80679,
@@ -4410,12 +4410,12 @@ path {
     background-color: transparent !important;
     box-shadow: none !important;
 }
-#soundboard-tab .image__33d12 {
+#soundboard-tab .image_PDJTSB {
     background: var(--hover-bright-color) !important;
     mask: url("https://discord.com/assets/4a1048df8a7e1175.svg") !important;
     mask-mode: luminance !important;
 }
-#soundboard-tab .text__33d12 {
+#soundboard-tab .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 
@@ -4636,12 +4636,12 @@ path {
 .inviteSettingsInviteRow_k0kUi1 {
     box-shadow: none !important;
 }
-.content_tqapBM .image__33d12 {
+.content_tqapBM .image_PDJTSB {
     background: var(--hover-bright-color) !important;
     mask: url("https://discord.com/assets/cbb4a0ecd21297ba.svg") !important;
     mask-mode: luminance !important;
 }
-.content_tqapBM .text__33d12 {
+.content_tqapBM .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 .content_tqapBM .card_b846e5 {
@@ -4962,12 +4962,12 @@ h2.title_1hp6hz strong {
 }
 
 /* Audit Log (Server Settings) */
-.content_ohxi6x .image__33d12 {
+.content_ohxi6x .image_PDJTSB {
     background: var(--hover-bright-color) !important;
     mask: url("https://discord.com/assets/0b332e9c4f0b8b49.svg") !important;
     mask-mode: luminance !important;
 }
-.content_ohxi6x .text__33d12 {
+.content_ohxi6x .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 .auditLog_LajYMK {
@@ -5016,12 +5016,12 @@ h2.title_1hp6hz strong {
 .bannedUser_zS9TPG .username_zS9TPG {
     color: var(--soft-bright-color) !important;
 }
-#bans-tab .image__33d12 {
+#bans-tab .image_PDJTSB {
     background: var(--hover-bright-color) !important;
     mask: url("https://discord.com/assets/626d8d0fc1024e29.svg") !important;
     mask-mode: luminance !important;
 }
-#bans-tab .text__33d12 {
+#bans-tab .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 
@@ -8768,10 +8768,10 @@ content,
 .messageRequestItem_rRxPBT:hover {
     background: var(--hover-color) !important;
 }
-.selected_nMe-a6 {
+.selected_JCy8Yl {
     background-color: var(--hover-color) !important;
 }
-.sectionTitle_nMe-a6 {
+.sectionTitle_JCy8Yl {
     color: var(--hover-bright-color) !important;
 }
 .hamBanner_aVwxbe {
@@ -8780,16 +8780,28 @@ content,
 .hamBanner_aVwxbe .text-sm\/normal_RAOoio {
     font-weight: 500 !important;
 }
-.emptyStateContainer__65428 .text__33d12 {
+.emptyStateContainer_0O5PEW .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
-.emptyStateContainer__65428 .image__33d12 {
+.emptyStateContainer_0O5PEW .image_PDJTSB {
     background: var(--soft-bright-color) !important;
     mask: url("https://discord.com/assets/4e11cf8e80a816c6.svg") !important;
     mask-mode: luminance !important;
 }
 .chat_a44415::before {
     visibility: hidden !important;
+}
+.container_FrbQJp {
+    background: transparent !important;
+}
+.chatTarget_FrbQJp {
+    background-color: color-mix(in srgb, var(--dark-bg) 60%, black) !important;
+}
+.floating_FrbQJp {
+    border-inline-end: none !important;
+    border-inline-start: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
 }
 
 /* Quests */
@@ -9426,7 +9438,7 @@ content,
 :where(.visual-refresh) .dot_ybUK7Z {
     color: var(--hover-bright-color) !important;
 }
-.friendsEmpty_Bb-Yop .text__33d12 {
+.friendsEmpty_Bb-Yop .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
 .full-motion.visual-refresh .peopleListItem_y75PxA {
