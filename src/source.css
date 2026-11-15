@@ -2833,6 +2833,11 @@ path {
     fill: var(--hover-bright-color) !important;
 }
 
+/* Server list unread DMs */
+#guild-list-unread-dms {
+    gap: 16px !important;
+}
+
 /* Server banner */
 .animatedContainer_XH4OpX {
     background-color: transparent !important;
