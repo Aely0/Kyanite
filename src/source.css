@@ -9128,17 +9128,19 @@ content,
 }
 
 /* Sticker DM greeting */
-.compactButton__7ff28 .colorStandard-21JIj7.size16-rrJ6ag.text__7ff28 {
+.compactButton_sFyjfh .colorStandard-21JIj7.size16-rrJ6ag.text_sFyjfh {
     color: var(--soft-bright-color) !important;
 }
-.compactButton__7ff28,
-.compactButtonDisabled__7ff28 {
+.compactButton_sFyjfh,
+.compactButtonDisabled_sFyjfh {
     background-color: transparent !important;
     border: 1px solid var(--hover-dark-color) !important;
-    border-radius: 4px !important;
+    border-radius: 8px !important;
+    transition: border-color 200ms ease-in-out !important;
 }
-.compactButton__7ff28:hover {
+.compactButton_sFyjfh:hover {
     border-color: var(--hover-bright-color) !important;
+    transition: border-color 200ms ease-in-out !important;
 }
 
 /* Applicatio commands */
