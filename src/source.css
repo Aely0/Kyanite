@@ -10523,6 +10523,27 @@ content,
 }
 
 /* Billing (User Settings) */
+.container_Gl6U0S path[d^="M23 12a11"] {
+    fill: var(--hover-bright-color) !important;
+}
+.headerBody_81IzEA {
+    color: var(--hover-bright-color) !important;
+}
+.paymentSourceRow_d3LvfJ path[fill="#5865F2"] {
+    fill: var(--hover-color) !important;
+}
+.paymentSourceRow_d3LvfJ path[fill="#EFEFF1"] {
+    fill: var(--soft-bright-color) !important;
+}
+.paymentSourceRow_d3LvfJ mask[id="a"] path {
+    fill: transparent !important;
+}
+.date_dlyOyM,
+.paymentRowHeaderDescription_VuWkDZ,
+.amount_dlyOyM,
+.description_dlyOyM {
+    color: var(--hover-bright-color) !important;
+}
 .flexChild_hkRWAH .subText_d3LvfJ {
     color: var(--hover-bright-color) !important;
     opacity: 0.6 !important;
@@ -10542,7 +10563,8 @@ content,
     color: var(--soft-bright-color) !important;
 }
 .lockIcon_d3LvfJ path,
-.giftIcon_dlyOyM path {
+.giftIcon_dlyOyM path,
+.expand_dlyOyM path {
     fill: var(--hover-bright-color) !important;
 }
 .defaultIndicator_OrFQq1 {
@@ -10551,7 +10573,7 @@ content,
     padding: 10px !important;
 }
 .paymentPane_VuWkDZ {
-    background-color: var(--hover-faded-color) !important;
+    background-color: var(--hover-faint-color) !important;
 }
 .summaryInfo_dlyOyM:hover {
     background-color: var(--hover-color) !important;
