@@ -10053,8 +10053,13 @@ content,
 .nameplatePreviewPlaceholder__39749 {
     background: var(--hover-faint-color) !important;
 }
-.icon_cf9ac1[style="background-color: var(--background-mod-subtle);"] {
-    background-color: var(--hover-faint-color) !important;
+.icon_W6yko_ {
+    --background-mod-subtle: var(--hover-faint-color) !important;
+    --background-mod-muted: var(--hover-faint-color) !important;
+    --background-feedback-mod-positive: var(--hover-faint-color) !important;
+}
+.icon_W6yko_ > svg > path {
+    fill: var(--hover-bright-color) !important;
 }
 .premiumBackground_qIotUB,
 .tryItOutSection_DabBgV {
