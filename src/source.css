@@ -10760,6 +10760,9 @@ content,
     border: none !important;
     box-shadow: none !important;
 }
+.title_wRbpaT {
+    color: var(--hover-bright-color) !important;
+}
 
 /* Soundboard (+ choose a sound) */
 .categoryList_X9_kMu {
