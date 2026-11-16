@@ -2506,7 +2506,7 @@ path {
     background-color: var(--hover-faded-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.dragHandleButton__62dd3 > svg > path {
+.dragHandleButton_FNEkcu > svg > path {
     fill: var(--soft-bright-color) !important;
 }
 .addWidgetButton__97442 {
@@ -7786,14 +7786,14 @@ content,
 }
 
 /* Profile popout (Board) */
-.container__62dd3 {
+.container_FNEkcu {
     background: var(--hover-faint-color) !important;
     border: none !important;
 }
-.menuButton_cf2d33 {
+.menuButton_ltNcM4 {
     color: var(--hover-bright-color) !important;
 }
-.menuButton_cf2d33:hover {
+.menuButton_ltNcM4:hover {
     color: var(--soft-bright-color) !important;
 }
 .coverContainer_R0hw0B {
