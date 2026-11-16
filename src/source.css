@@ -9071,12 +9071,12 @@ content,
 }
 
 /* Gif tag */
-.gifTag_f60819 {
+.gifTag_czU0Jw {
     background-image: none !important;
     width: auto !important;
     margin-top: 7px !important;
 }
-.gifTag_f60819::after {
+.gifTag_czU0Jw::after {
     content: "GIF" !important;
     font-weight: 600 !important;
     color: var(--soft-bright-color) !important;
