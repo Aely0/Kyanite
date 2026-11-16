@@ -1610,7 +1610,7 @@ path {
 
 /* Server Events */
 .iconBadge_rwEpIL,
-.progressBar__5537c {
+.progressBar_HVkOMa {
     background-color: var(--hover-dark-color) !important;
 }
 .icon_JG2DGL,
@@ -1620,7 +1620,8 @@ path {
 .channelIcon_6_68tM,
 .icon_JG2DGL path[d^="M18"],
 .icon_6_68tM,
-.listRow_aUV4Th {
+.listRow_aUV4Th,
+.radioItemIcon_oJuRbG {
     color: var(--hover-bright-color) !important;
 }
 .icon_JG2DGL:hover path[d^="M18"] {
@@ -1631,7 +1632,7 @@ path {
 .listRow_aUV4Th.selected_aUV4Th {
     background-color: var(--hover-color);
 }
-.selectedProgressBar__5537c {
+.selectedProgressBar_HVkOMa {
     background-color: var(--soft-bright-color) !important;
 }
 .header_JG2DGL {
@@ -1651,12 +1652,12 @@ path {
 .container__4efb4 {
     border-bottom: none !important;
 }
-.rsvpCount_b5010b {
+.rsvpCount_dUw4ZS {
     background-color: var(--hover-color) !important;
 }
-.rsvpIcon_b5010b,
+.rsvpIcon_dUw4ZS,
 .descriptionText__535f5.markup_ku1OHH,
-.descriptionText__535f5.description_b5010b.markup_ku1OHH.truncate__535f5 {
+.descriptionText__535f5.description_dUw4ZS.markup_ku1OHH.truncate__535f5 {
     color: var(--hover-bright-color) !important;
 }
 .closeIcon_hVh8FI {
@@ -1703,7 +1704,7 @@ path {
 .imageUploaderIcon_zIVMHF > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.newBadgeText__29021 {
+.newBadgeText_2SWORW {
     color: var(--soft-bright-color) !important;
 }
 .top_6zZYhF .themed_6zZYhF.item_6zZYhF:hover {
@@ -1715,7 +1716,7 @@ path {
     border-bottom-color: var(--soft-bright-color) !important;
     background-color: transparent !important;
 }
-.eventStatusContainer__29021 path {
+.eventStatusContainer_2SWORW path {
     fill: var(--soft-bright-color) !important;
 }
 .calendarContainer__9bb02 {
@@ -1741,6 +1742,19 @@ path {
 }
 .textArea__5a092::placeholder {
     color: var(--hover-bright-color) !important;
+}
+.item_ydey4M {
+    color: var(--hover-bright-color) !important;
+}
+.item_ydey4M:hover,
+.item_ydey4M[data-selected="true"] {
+    color: var(--soft-bright-color) !important;
+}
+.item_ydey4M[data-selected="true"] .indicator_ydey4M {
+    background-color: var(--soft-bright-color) !important;
+}
+path {
+    --interactive-icon-default: var(--hover-bright-color) !important;
 }
 
 /* System message */
