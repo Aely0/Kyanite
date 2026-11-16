@@ -610,25 +610,25 @@ path {
     background: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.quote__122e4 {
+.quote_4dy_KE {
     background-color: var(--hover-dark-color) !important;
 }
-.headerText__122e4 {
+.headerText_4dy_KE {
     color: var(--hover-bright-color) !important;
 }
-.headerIcon__122e4 path {
+.headerIcon_4dy_KE path {
     fill: var(--hover-bright-color) !important;
 }
-.footerContainer__122e4 {
+.footerContainer_4dy_KE {
     color: var(--hover-bright-color) !important;
 }
-.footerContainer__122e4 svg path {
+.footerContainer_4dy_KE svg path {
     fill: var(--hover-bright-color) !important;
 }
-.footerContainer__122e4:hover {
+.footerContainer_4dy_KE:hover {
     background-color: var(--hover-color) !important;
 }
-.footerContainer__122e4:hover .footerText__122e4 {
+.footerContainer_4dy_KE:hover .footerText_4dy_KE {
     color: var(--soft-bright-color) !important;
 }
 .attachmentRow_N34jMW svg path {
