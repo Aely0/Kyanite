@@ -10332,7 +10332,7 @@ content,
     background-color: var(--hover-faint-color) !important;
 }
 
-/* Discord Nitro (User Settings) */
+/* Nitro (User Settings) */
 .selectedBackground_e681d1 {
     background-color: var(--hover-dark-color) !important;
 }
@@ -10345,13 +10345,13 @@ content,
 .premiumLabel_e681d1.selected_e681d1 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.rowBottomBorder_e4ef5c {
+.rowBottomBorder_02LA0a {
     border-bottom: 1px solid transparent !important;
 }
-.closeIcon_e4ef5c {
+.closeIcon_02LA0a {
     color: var(--hover-dark-color) !important;
 }
-.checkmarkIcon_e4ef5c {
+.checkmarkIcon_02LA0a {
     color: var(--soft-bright-color) !important;
 }
 .innerWrapperBase__70f7f {
