@@ -10922,8 +10922,8 @@ content,
     padding: 20px 20px 10px 20px !important;
     border-radius: 0px 0px 8px 8px !important;
 }
-.iconContainer__0ecc4 > foreignObject {
-    background: var(--hover-faint-color) !important;
+.iconContainer_khn-sz > foreignObject {
+    background: transparent !important;
 }
 .sortDropdown_Q7s_Rv svg path {
     fill: var(--hover-bright-color) !important;
