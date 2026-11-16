@@ -10435,16 +10435,17 @@ content,
 .tableCell__686cf > .text-md\/bold_RAOoio {
     color: var(--hover-bright-color) !important;
 }
-.card_b8773c,
+.card_dgf5AJ,
 .card__4b63d {
     background: var(--hover-faint-color) !important;
+    box-shadow: none !important;
 }
 .icon__4b63d {
     color: var(--hover-bright-color) !important;
 }
 .nitroWheelIcon_tWF9s9 > path,
 .icon__4b63d > path,
-.questionIcon_a04c02 > path {
+.questionIcon_eICevE > path {
     fill: var(--hover-bright-color) !important;
 }
 .checkIcon_twYJsJ {
@@ -10453,7 +10454,7 @@ content,
 .xIcon_twYJsJ {
     color: var(--hover-dark-color) !important;
 }
-.listItem_a04c02 {
+.listItem_eICevE {
     background: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
