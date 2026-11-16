@@ -752,10 +752,10 @@ path {
 }
 
 /* Member roles */
-.overflowRolesPopoutHeaderIcon__48c1c > path {
+.overflowRolesPopoutHeaderIcon_nie4FD > path {
     fill: var(--hover-bright-color) !important;
 }
-.overflowRolesPopoutHeaderText__48c1c {
+.overflowRolesPopoutHeaderText_nie4FD {
     color: var(--hover-bright-color) !important;
 }
 
@@ -4439,8 +4439,9 @@ path {
 }
 
 /* Members (Server Settings) */
-.mainTableContainer_mg3aTC {
-    background-color: var(--hover-color) !important;
+.mainTableContainer_mg3aTC,
+.mainTableContainer_-blG2T {
+    background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
 .movedTable_mg3aTC {
@@ -4494,7 +4495,7 @@ path {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.role__48c1c[style^="border-color: rgba(196, 201, 206, 0.6)"] {
+.role_nie4FD[style^="border-color: rgba(196, 201, 206, 0.6)"] {
     background: var(--hover-color) !important;
 }
 .linkIcon__352b7 {
@@ -4832,15 +4833,15 @@ path {
     border-radius: 8px !important;
     padding: 8px !important;
 }
-.rolePills_uhMkuK .actionButton__48c1c {
+.rolePills_uhMkuK .actionButton_nie4FD {
     background-color: var(--hover-faint-color) !important;
 }
-.overflowRolesPopout__48c1c {
+.overflowRolesPopout_nie4FD {
     background-color: var(--dark-bg) !important;
     box-shadow: var(--hover-color-inset-shadow) !important;
     border-radius: 8px !important;
 }
-.overflowRolesPopoutArrow__48c1c {
+.overflowRolesPopoutArrow_nie4FD {
     display: none !important;
 }
 .iconWrapper__wphjE[style="background-color: var(--platform-youtube);"] {
@@ -7407,11 +7408,11 @@ img.sidebarHeader_4T6RB7 {
 }
 
 /* Profile popout */
-.theme-dark .actionButton__48c1c {
+.theme-dark .actionButton_nie4FD {
     border-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.theme-dark .actionButton__48c1c:hover {
+.theme-dark .actionButton_nie4FD:hover {
     border-color: var(--hover-dark-color) !important;
 }
 .streamPreview__6da2d {
