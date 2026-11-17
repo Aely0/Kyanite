@@ -5742,6 +5742,11 @@ img.sidebarHeader_4T6RB7 {
     display: none !important;
 }
 
+/* Channel integrations */
+.channelName_PzTZKu {
+    color: var(--soft-bright-color) !important;
+}
+
 /* Circular close button */
 .closeButton_e76OBR {
     border-color: transparent !important;
