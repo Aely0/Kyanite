@@ -1025,17 +1025,22 @@ path {
 .scroller_TDs_DU,
 .callContainer_DwQMm_,
 .container_DwQMm_,
-.participants__9c309,
+.participants_BzZ9Uo,
 .rowContainer__1e702,
 .container_s7QiTL {
     background-color: transparent !important;
 }
 .background__506d9,
-.buttonContainer__664ff,
-.icon_4cz-WN {
+.buttonContainer__664ff {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
+.icon_4cz-WN {
+    background-color: var(--dark-bg) !important;
+    color: var(--soft-bright-color) !important;
+    border: none !important;
+}
+
 .iconLive_qSt1_x {
     color: var(--soft-bright-color) !important;
 }
@@ -1056,7 +1061,7 @@ path {
     color: var(--hover-bright-color) !important;
 }
 .icon__B7Y3X {
-    background-color: var(--main-color) !important;
+    background-color: var(--hover-color) !important;
 }
 .icon__B7Y3X > svg > path {
     fill: var(--soft-bright-color) !important;
@@ -1105,6 +1110,10 @@ path {
 .raisedHandIcon_0zxwb-:hover > svg path {
     fill: var(--soft-bright-color) !important;
 }
+.raisedHandCount_0zxwb- {
+    background: var(--dark-bg) !important;
+    color: var(--soft-bright-color) !important;
+}
 .downIcon_o6X9mC,
 .micIcon_o6X9mC {
     color: var(--hover-bright-color) !important;
@@ -1130,8 +1139,12 @@ path {
 .container_a244c3 > svg > path {
     fill: var(--soft-bright-color) !important;
 }
-.auto_c8b5c7::-webkit-scrollbar {
+.auto_Wo6Fk5::-webkit-scrollbar {
     width: 12px !important;
+}
+.auto_Wo6Fk5::-webkit-scrollbar-thumb,
+.auto_Wo6Fk5::-webkit-scrollbar-track {
+    border: none !important;
 }
 .toast_d3c698 {
     background-color: transparent !important;
