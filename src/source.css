@@ -4189,14 +4189,21 @@ path {
 .itemSelected_EAKysR {
     border: 1px solid var(--hover-bright-color) !important;
 }
-.container_cd2100 {
-    border: 1px solid transparent !important;
+.container_Xweo-z {
+    background: var(--hover-faint-color) !important;
+}
+.avatarWrapper_Xweo-z {
+    background: transparent !important;
 }
 .gameImageBackground_8F_15a {
     background-color: var(--hover-color) !important;
 }
 .gameUnknownImage_8F_15a > svg > path {
     fill: var(--hover-bright-color) !important;
+}
+.guildIconImage_sX5_6T.acronym_sX5_6T {
+    background-color: var(--dark-bg) !important;
+    color: var(--hover-bright-color) !important;
 }
 
 /* Server Tag (Server Settings) */
