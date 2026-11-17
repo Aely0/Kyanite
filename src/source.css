@@ -5592,7 +5592,7 @@ h2.title_1hp6hz strong {
 }
 
 /* Server join menu */
-.container_eb2cd2 {
+.container_cidbEB {
     border: 1px solid var(--hover-color) !important;
     background-color: var(--hover-color) !important;
 }
@@ -6763,18 +6763,18 @@ img.sidebarHeader_4T6RB7 {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.container_eb2cd2:has(.icon_eb2cd2) {
+.container_cidbEB:has(.icon_cidbEB) {
     border: none !important;
 }
-.icon_eb2cd2 {
+.icon_cidbEB {
     margin-left: auto !important;
     margin-right: 16px !important;
 }
-.text_eb2cd2 {
+.text_cidbEB {
     margin-left: 0px !important;
     margin-right: auto !important;
 }
-.arrow_eb2cd2 {
+.arrow_cidbEB {
     display: none !important;
 }
 
