@@ -5659,6 +5659,24 @@ h2.title_1hp6hz strong {
     border-top: 5px solid var(--main-color);
 }
 
+/* Channel overview */
+.staticToolbar_hPmUPu {
+    background-color: transparent !important;
+}
+.topicContainer_ETPWMZ {
+    background-color: transparent !important;
+}
+.topicContainer_ETPWMZ .slateTextArea_q99V_- {
+    color: var(--soft-bright-color) !important;
+    --textbox-markdown-syntax: var(--soft-bright-color) !important;
+}
+.topicContainer_ETPWMZ .scrollableContainer_2x8-Qn {
+    background-color: var(--hover-faint-color) !important;
+}
+.fieldset_UGw2wN img {
+    display: none !important;
+}
+
 /* Channel permissions */
 .scroller_EDKX0U {
     background-color: transparent !important;
