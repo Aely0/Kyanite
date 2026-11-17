@@ -9807,11 +9807,23 @@ content,
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
 }
-.item_xyJHva[data-list-item-id="settings-sidebar___logout_sidebar_item"] {
+.destructive_xyJHva {
     color: var(--hover-red-bright-color) !important;
 }
-.item_xyJHva[data-list-item-id="settings-sidebar___logout_sidebar_item"]:hover {
+.destructive_xyJHva:hover {
     background-color: var(--hover-red-color) !important;
+    color: var(--red-bright-color) !important;
+}
+.destructive_xyJHva .icon_xyJHva > path {
+    fill: var(--hover-red-bright-color) !important;
+}
+.destructive_xyJHva .body-md\/medium_RAOoio {
+    color: var(--hover-red-bright-color) !important;
+}
+.destructive_xyJHva:hover .icon_xyJHva > path {
+    fill: var(--red-bright-color) !important;
+}
+.destructive_xyJHva:hover .body-md\/medium_RAOoio {
     color: var(--red-bright-color) !important;
 }
 .editProfilesRow__99464 .lineClamp1_MMUIw6.text-sm\/normal_RAOoio {
