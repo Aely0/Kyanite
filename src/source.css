@@ -10157,6 +10157,17 @@ content,
 .upsellTextContainer_FXDvop .text-sm\/normal_RAOoio {
     color: var(--soft-bright-color) !important;
 }
+.breadcrumbContent_56C_TT {
+    --interactive-text-default: var(--hover-bright-color) !important;
+}
+.sessionLogoutButton_BLNESR {
+    color: var(--hover-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
+.sessionLogoutButton_BLNESR:hover {
+    color: var(--soft-bright-color) !important;
+    transition: color 100ms ease-in-out !important;
+}
 
 /* Data & Privacy (User Settings) */
 .avatarBackground_r9JhIo {
