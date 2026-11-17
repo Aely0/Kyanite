@@ -9318,15 +9318,15 @@ content,
     transition: border-color 200ms ease-in-out !important;
 }
 
-/* Applicatio commands */
+/* Application commands */
 .autocomplete_CAMiwx {
     background-color: var(--dark-bg) !important;
 }
-.selected__1a58a,
-.selected__1a58a:hover {
+.selected_5kcSyE,
+.selected_5kcSyE:hover {
     background-color: var(--hover-dark-color) !important;
 }
-.icon__1a58a > path {
+.icon_5kcSyE > path {
     color: var(--soft-bright-color) !important;
 }
 .headerIcon_kSdzCr + .headerLabel_kSdzCr {
@@ -9339,20 +9339,27 @@ content,
 .tooltipPointer_c530da {
     border-top: 5px solid var(--dark-bg) !important;
 }
-.icon__1a58a {
+.icon_5kcSyE {
     color: var(--soft-bright-color) !important;
 }
 .optionals_o7iJXS {
     border-left: 1px solid var(--hover-color) !important;
 }
 .commandName_T14dfz,
-.name__84522,
+.name_AqTeBa,
 .optionPillKey_T14dfz,
 .optionPillValue_T14dfz {
     color: var(--soft-bright-color) !important;
 }
-.description__84522 {
+.description_AqTeBa {
     color: var(--hover-bright-color) !important;
+}
+.closeIcon_Jldl6o {
+    color: var(--soft-bright-color) !important;
+    opacity: 0.6 !important;
+}
+.closeIcon_Jldl6o:hover {
+    opacity: 0.8 !important;
 }
 .optionPill_T14dfz,
 .optionPillKey_T14dfz {
@@ -9387,7 +9394,7 @@ content,
 .selectable_4cZzdX:hover {
     background-color: transparent !important;
 }
-.selectable__1a58a:hover {
+.selectable_5kcSyE:hover {
     background-color: var(--hover-color) !important;
 }
 .builtInSeparator_mTknAg {
@@ -9399,8 +9406,6 @@ content,
 .applicationCommand_T14dfz::after {
     color: var(--hover-bright-color) !important;
 }
-
-/* Slash commands - Dropdown menu */
 .tag__28e94 {
     background-color: var(--hover-color) !important;
     color: var(--soft-bright-color) !important;
