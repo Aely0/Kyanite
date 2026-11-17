@@ -2314,7 +2314,7 @@ path {
 .tile_a2de16:hover .sourceThumbnail_a2de16 {
     box-shadow: inset 0 0 0 2px var(--soft-bright-color) !important;
 }
-.card_b846e5 {
+.card_5Yn7E3 {
     background-color: var(--hover-color) !important;
     color: var(--hover-bright-color) !important;
     border: none !important;
@@ -4273,7 +4273,7 @@ path {
         transparent 0
     ) !important;
 }
-.emojiRow_XTvD56.card_b846e5 {
+.emojiRow_XTvD56.card_5Yn7E3 {
     background: transparent !important;
 }
 .emojiRow_XTvD56 .emojiAliasInputContainer_XTvD56:after,
@@ -4689,7 +4689,7 @@ path {
 .content_tqapBM .text_PDJTSB {
     color: var(--hover-bright-color) !important;
 }
-.content_tqapBM .card_b846e5 {
+.content_tqapBM .card_5Yn7E3 {
     background-color: transparent !important;
 }
 .revokeInvite_k0kUi1 {
@@ -4719,15 +4719,15 @@ path {
 .joinOptionTab_i0EgQh.themed_6zZYhF {
     background-color: transparent !important;
 }
-.joinOptionContent_i0EgQh .text-md\/semibold_RAOoio,
-.joinOptionContent_i0EgQh .text-xs\/medium_RAOoio {
+.joinOptionContent_i0EgQh .body-md\/semibold_RAOoio,
+.joinOptionContent_i0EgQh .body-xs\/medium_RAOoio {
     color: var(--hover-bright-color) !important;
 }
 .joinOptionContent_i0EgQh > svg > path {
     fill: var(--hover-bright-color) !important;
 }
-.joinOptionContent_i0EgQh.active_i0EgQh .text-md\/semibold_RAOoio,
-.joinOptionContent_i0EgQh.active_i0EgQh .text-xs\/medium_RAOoio {
+.joinOptionContent_i0EgQh.active_i0EgQh .body-md\/semibold_RAOoio,
+.joinOptionContent_i0EgQh.active_i0EgQh .body-xs\/medium_RAOoio {
     color: var(--soft-bright-color) !important;
 }
 .joinOptionContent_i0EgQh.active_i0EgQh > svg > path {
@@ -4757,8 +4757,8 @@ path {
 .pill_66YLV6 {
     background-color: var(--hover-faint-color) !important;
 }
-.pill_Goax4j .text-sm\/medium_RAOoio,
-.pill_66YLV6 .text-sm\/medium_RAOoio {
+.pill_Goax4j .body-sm\/medium_RAOoio,
+.pill_66YLV6 .body-sm\/medium_RAOoio {
     color: var(--hover-bright-color) !important;
 }
 .previewWrapper_md_YFn .gradient_md_YFn {
@@ -10928,7 +10928,7 @@ content,
 .input__BLAbN {
     color: var(--soft-bright-color) !important;
 }
-.card_b846e5:before {
+.card_5Yn7E3:before {
     border: none !important;
     background-color: var(--hover-faint-color) !important;
 }
@@ -11008,7 +11008,7 @@ content,
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.game_kQPUsd.card_b846e5 {
+.game_kQPUsd.card_5Yn7E3 {
     background-color: transparent !important;
 }
 .gameVerifiedIcon_kQPUsd .flowerStar_d3vyhc {
