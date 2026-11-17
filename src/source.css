@@ -421,7 +421,7 @@ path {
 
 /* Generic info boxes */
 .info_0v8Ae1,
-.info_aea291,
+.info_vb4RFD,
 .perServerNotice_cuaHiV {
     background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-bright-color) !important;
@@ -431,7 +431,7 @@ path {
     display: none !important;
 }
 .info_0v8Ae1 .icon_0v8Ae1,
-.info_aea291 .icon_aea291,
+.info_vb4RFD .icon_vb4RFD,
 .info_0v8Ae1 .iconDiv_0v8Ae1 .icon_0v8Ae1,
 .perServerNoticeDismissButton_cuaHiV {
     color: var(--hover-bright-color) !important;
