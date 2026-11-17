@@ -1779,11 +1779,6 @@ path {
     background-color: var(--hover-color) !important;
 }
 
-/* Middle cards in family centre */
-.container_lb1Q8G.container_lb1Q8G.container_lb1Q8G {
-    background-color: var(--hover-color) !important;
-}
-
 /* Favourite gifs empty search*/
 .emptyHintCard_H8nOze {
     background-color: var(--hover-faint-color) !important;
@@ -10193,14 +10188,13 @@ content,
     border-bottom: 1px solid transparent !important;
 }
 .container_IQWzzZ,
-.container_1qoVzk,
-.container__5b321 {
+.container__5b321,
+.box_qCRz2b,
+.group_qUlUyR {
     background-color: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
-.row_qUlUyR,
 .circle_lb1Q8G,
-.iconContainer_qUlUyR,
 .box_L5c99o,
 .stepNumber_L5c99o {
     background-color: var(--hover-faint-color) !important;
