@@ -4185,6 +4185,15 @@ path {
     color: var(--soft-bright-color) !important;
 }
 
+/* Server Settings */
+.item_6zZYhF {
+    transition: none !important;
+}
+.linkIcon_90L87x,
+.linkIcon__aJirP {
+    color: var(--hover-bright-color) !important;
+}
+
 /* Server Profile (Server Settings) */
 .itemSelected_EAKysR {
     border: 1px solid var(--hover-bright-color) !important;
