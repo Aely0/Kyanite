@@ -5681,6 +5681,9 @@ h2.title_1hp6hz strong {
 .scroller_EDKX0U {
     background-color: transparent !important;
 }
+.card_Q6iJsn {
+    background: var(--hover-faint-color) !important;
+}
 .theme-dark .group_8GP31u {
     border-color: var(--hover-color) !important;
 }
