@@ -6577,10 +6577,16 @@ img.sidebarHeader_4T6RB7 {
     color: var(--hover-bright-color) !important;
 }
 
-/* Channel description box */
+/* Channel description */
 .theme-dark .container_ybUK7Z,
 .theme-dark .children_ybUK7Z:after {
     background: transparent !important;
+}
+.topic_pVbL3l {
+    color: var(--hover-bright-color) !important;
+}
+.headerSubtitleIcon_dvN-MP > path {
+    fill: var(--hover-bright-color) !important;
 }
 
 /* Channel list bottom bar */
