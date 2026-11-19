@@ -7620,6 +7620,7 @@ content,
 }
 .timestamp_ku1OHH {
     background-color: var(--hover-color) !important;
+    color: var(--hover-bright-color) !important;
 }
 .connectedAccountContainer_XvCt_s {
     background-color: var(--hover-color) !important;
@@ -8215,7 +8216,8 @@ content,
 .grid_XyW1ZT {
     padding: 0px 10px 8px 10px !important;
 }
-.embedFull_XyW1ZT {
+.embedFull_XyW1ZT,
+.container_rc97-L {
     background: rgba(0, 0, 0, 0.2) !important;
     border-left-width: 3px !important;
     border-radius: 3px !important;
