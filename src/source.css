@@ -1368,7 +1368,8 @@ path {
 }
 
 /* Forum channels / Post channels */
-.container_BkGrJJ {
+.container_BkGrJJ,
+.container_R5EalT {
     background-color: transparent !important;
 }
 .mainCard_BkGrJJ {
@@ -1575,7 +1576,7 @@ path {
     background-color: var(--hover-color) !important;
     border: 3px solid var(--hover-color) !important;
 }
-.dots__5ad89.themed__5ad89 {
+.dots_C1dbpS.themed_C1dbpS {
     color: var(--soft-bright-color) !important;
 }
 .contentPreview_x1LvFB {
