@@ -5528,9 +5528,24 @@ h2.title_1hp6hz strong {
 .sidebarContainer_rhYbEd {
     background-color: transparent !important;
 }
-.containerCompact_tPWp69 {
+.containerCompact_tPWp69,
+.container_7bz1_m,
+.boostButton_29CVSE {
     background: var(--hover-faint-color) !important;
     box-shadow: none !important;
+}
+.headerContainer_7bz1_m {
+    --guild-boosting-pink-refresh: var(--soft-bright-color) !important;
+    --text-muted: var(--hover-bright-color) !important;
+}
+.boostButtonIcon_29CVSE {
+    --guild-boosting-pink-refresh: var(--hover-bright-color) !important;
+}
+.button_uTnppa {
+    color: var(--hover-bright-color) !important;
+}
+.buttonShine_yZrVKb {
+    color: var(--hover-color) !important;
 }
 .sidebarContainer_rhYbEd {
     border-inline-start: none !important;
@@ -5584,9 +5599,6 @@ h2.title_1hp6hz strong {
 }
 .timestamp_mdTZdG {
     color: var(--hover-bright-color) !important;
-}
-.name_Wo4EpK {
-    color: var(--soft-bright-color) !important;
 }
 .systemMessageContainer_mdTZdG > svg > path {
     fill: var(--hover-bright-color) !important;
