@@ -9061,8 +9061,11 @@ content,
 .container_IXEn3U {
     color: var(--hover-bright-color) !important;
 }
-.paymentSourceItem__48a20 {
+.paymentSourceItem_xlBxOV {
     background-color: var(--hover-faint-color) !important;
+}
+.paymentSourceItem_xlBxOV svg path {
+    fill: var(--hover-bright-color) !important;
 }
 .icon_LDGylj {
     background: var(--hover-faint-color) !important;
