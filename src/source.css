@@ -9089,9 +9089,11 @@ content,
 .messageRequestItem_rRxPBT:hover {
     background: var(--hover-color) !important;
 }
+.selected_nMe-a6,
 .selected_JCy8Yl {
     background-color: var(--hover-color) !important;
 }
+.sectionTitle_nMe-a6,
 .sectionTitle_JCy8Yl {
     color: var(--hover-bright-color) !important;
 }
