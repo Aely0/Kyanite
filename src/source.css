@@ -522,12 +522,12 @@ path {
 .defaultColor_MMUIw6.reactionTooltipText_5l5ajC {
     color: var(--soft-bright-color) !important;
 }
-.reactionEmojiDetailsClickable__5a408 {
+.reactionEmojiDetailsClickable_OU33XG {
     color: var(--soft-bright-color) !important;
     background-color: var(--hover-faded-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
-.reactionEmojiDetailsClickable__5a408:hover {
+.reactionEmojiDetailsClickable_OU33XG:hover {
     background-color: var(--hover-color) !important;
     transition: background-color 200ms ease-in-out !important;
 }
@@ -3887,26 +3887,28 @@ path {
     color: var(--soft-bright-color) !important;
 }
 .popoutContainer_j9Vvzj {
-    background-color: var(--hover-color) !important;
+    background-color: var(--dark-bg) !important;
     border: 1px solid var(--hover-color) !important;
-    backdrop-filter: brightness(10%) !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-.showMoreEmojis__5a408,
-.emojiSection__5a408 .overflow__WDjet {
+.showMoreEmojis_OU33XG,
+.emojiSection_OU33XG .overflow__WDjet {
     color: var(--soft-bright-color) !important;
 }
-.dotSeparator__5a408 {
+.dotSeparator_OU33XG {
     background-color: var(--hover-bright-color) !important;
 }
-.joinGuildLink__5a408,
-.joinGuildLink__5a408 .body-xs\/normal_RAOoio {
+.joinGuildLink_OU33XG,
+.joinGuildLink_OU33XG .body-xs\/normal_RAOoio {
     color: var(--soft-bright-color) !important;
 }
 .popoutLoadingForeground_j9Vvzj {
     background-image: none !important;
     background-color: var(--hover-color) !important;
+}
+.emojiDetailsLoader_OU33XG {
+    display: none !important;
 }
 
 /* Sticker info */
