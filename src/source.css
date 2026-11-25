@@ -2690,17 +2690,17 @@ path {
 }
 
 /* Whishlist panel */
-.moreOverlay__6d190,
-.card__39b32,
-.card__6d190 {
+.moreOverlay_D1PiH5,
+.card_K8U7Ed,
+.card_D1PiH5 {
     background: var(--hover-faint-color) !important;
     box-shadow: none !important;
 }
-.card__39b32:hover,
-.card__6d190:hover {
+.card_K8U7Ed:hover,
+.card_D1PiH5:hover {
     background: var(--hover-faded-color) !important;
 }
-.moreOverlay__6d190 .body-xs\/medium_RAOoio {
+.moreOverlay_D1PiH5 .body-xs\/medium_RAOoio {
     color: var(--soft-bright-color) !important;
 }
 
