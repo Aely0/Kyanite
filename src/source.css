@@ -4336,7 +4336,7 @@ path {
 }
 
 /* Server talk permission countdown */
-.countdown__44df5 {
+.countdown_ST_Y69 {
     color: var(--hover-bright-color) !important;
 }
 
@@ -7423,8 +7423,8 @@ img.sidebarHeader_4T6RB7 {
 }
 
 /* Announcement message bar */
-.wrapper__44df5 {
-    background-color: var(--hover-color) !important;
+.wrapper_ST_Y69 {
+    background-color: var(--dark-bg) !important;
 }
 
 /* Blocked messages */
