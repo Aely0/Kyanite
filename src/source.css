@@ -11152,6 +11152,9 @@ content,
 .header_6EKaag {
     box-shadow: none !important;
 }
+.sectionContainer_-SUGNi {
+    background-color: var(--dark-bg) !important;
+}
 .sectionHeader_-SUGNi .sectionTitle_-SUGNi,
 .headerIcon_-SUGNi {
     color: var(--hover-bright-color) !important;
