@@ -6573,6 +6573,13 @@ img.sidebarHeader_4T6RB7 {
 .visual-refresh .subtitleContainer_z_gUBg {
     border-left: none !important;
 }
+.flash_EajVQV[data-flash="true"] {
+    background-color: var(--hover-faint-color) !important;
+}
+.flashOverlay_EajVQV {
+    background-color: var(--hover-faint-color) !important;
+    border-inline-start: 2px solid var(--hover-bright-color) !important;
+}
 
 /* Message list side bars */
 .barButtonMain_j9Vvzj.barButtonBase_j9Vvzj,
